@@ -244,7 +244,10 @@ characters={
 			idea_token = AST_norman_makin
 			ledger = navy
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			
 			traits = {
@@ -266,7 +269,10 @@ characters={
 			idea_token = AST_james_fairbairn
 			ledger = air
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			
 			traits = {
@@ -288,7 +294,10 @@ characters={
 			slot = army_chief
 			idea_token = AST_john_lavarack
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				army_chief_defensive_2
@@ -311,7 +320,10 @@ characters={
 			slot = army_chief
 			idea_token = AST_sydney_rowell
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				army_chief_organizational_2
@@ -334,7 +346,10 @@ characters={
 			slot = army_chief
 			idea_token = AST_vernon_sturdee
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				army_chief_offensive_1
@@ -360,7 +375,10 @@ characters={
 			slot = navy_chief
 			idea_token = AST_ragnar_colvin
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				navy_chief_reform_2
@@ -383,7 +401,10 @@ characters={
 			slot = navy_chief
 			idea_token = AST_jack_crace
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				navy_chief_decisive_battle_2
@@ -409,7 +430,10 @@ characters={
 			slot = air_chief
 			idea_token = AST_richard_williams
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				air_chief_safety_3
@@ -432,7 +456,10 @@ characters={
 			slot = air_chief
 			idea_token = AST_charles_burnett
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				air_chief_reform_2
@@ -459,7 +486,10 @@ characters={
 			idea_token = AST_arthur_allen
 			ledger = army
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				army_infantry_3
@@ -483,7 +513,10 @@ characters={
 			idea_token = AST_clive_caldwell
 			ledger = air
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				air_air_superiority_3
@@ -508,7 +541,10 @@ characters={
 			idea_token = AST_john_collins
 			ledger = navy
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				navy_capital_ship_2
@@ -532,7 +568,10 @@ characters={
 			idea_token = AST_edmund_herring
 			ledger = army
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				army_artillery_2
@@ -556,8 +595,11 @@ characters={
 			idea_token = AST_arthur_drakeford
 			ledger = air
 			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
+							OR = {
+					tag = HRH
+					tag = AST
+				}
+				#has_dlc = "Together for Victory"
 			}
 			traits = {
 				air_air_combat_training_2
@@ -578,8 +620,11 @@ characters={
 			idea_token = AST_cederic_hicks
 			ledger = army
 			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
+							OR = {
+					tag = HRH
+					tag = AST
+				}
+				#has_dlc = "Together for Victory"
 			}
 			cost = 150.000
 			available = {
@@ -609,7 +654,10 @@ characters={
 			slot = political_advisor
 			idea_token = AST_alexander_hore_ruthven
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				quartermaster_general 
@@ -628,7 +676,10 @@ characters={
 			slot = political_advisor
 			idea_token = AST_robert_g_menzies
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			traits = {
 				backroom_backstabber 
@@ -647,8 +698,11 @@ characters={
 			slot = political_advisor
 			idea_token = AST_ben_chifley
 			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
+							OR = {
+					tag = HRH
+					tag = AST
+				}
+				#has_dlc = "Together for Victory"
 			}
 			cost = 100.000
 			traits = {
@@ -671,7 +725,10 @@ characters={
 			slot = political_advisor
 			idea_token = AST_herbert_v_evatt
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			cost = 100.000
 			traits = {
@@ -680,7 +737,7 @@ characters={
 			available = {
 				if = {
 					limit = {
-						has_dlc = "Together for Victory"
+						#has_dlc = "Together for Victory"
 					}
 					#has_completed_focus = AST_support_the_policy_of_appeasement 
 				}
@@ -699,8 +756,11 @@ characters={
 			slot = political_advisor
 			idea_token = AST_jack_beasley
 			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
+							OR = {
+					tag = HRH
+					tag = AST
+				}
+				#has_dlc = "Together for Victory"
 			}
 			traits = {
 				war_industrialist 
@@ -719,8 +779,11 @@ characters={
 			slot = political_advisor
 			idea_token = AST_frank_forde
 			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
+							OR = {
+					tag = HRH
+					tag = AST
+				}
+				#has_dlc = "Together for Victory"
 			}
 			traits = {
 				compassionate_gentleman 
@@ -739,18 +802,21 @@ characters={
 			slot = political_advisor
 			idea_token = AST_generic_fascist_demagogue
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			available = {
 				if = {
 					limit = {
-						has_dlc = "Together for Victory"
+						#has_dlc = "Together for Victory"
 					}
 					#has_completed_focus = AST_support_the_centre_party 
 				}
 				if = {
 					limit = {
-						has_dlc = "Man the Guns"
+						#has_dlc = "Man the Guns"
 					}
 					NOT = {
 						#has_autonomy_state = autonomy_supervised_state
@@ -782,18 +848,21 @@ characters={
 			slot = political_advisor
 			idea_token = AST_lance_sharkey
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			available = {
 				if = {
 					limit = {
-						has_dlc = "Together for Victory"
+						#has_dlc = "Together for Victory"
 					}
 					#has_completed_focus = AST_empower_the_workers 
 				}
 				if = {
 					limit = {
-						has_dlc = "Man the Guns"
+						#has_dlc = "Man the Guns"
 					}
 					NOT = {
 						#has_autonomy_state = autonomy_supervised_state
@@ -825,12 +894,15 @@ characters={
 			slot = political_advisor
 			idea_token = AST_arthur_calwell
 			allowed = {
-				original_tag = AST
+							OR = {
+					tag = HRH
+					tag = AST
+				}
 			}
 			available = {
 				if = {
 					limit = {
-						has_dlc = "Together for Victory"
+						#has_dlc = "Together for Victory"
 					}
 					or = {
 						#has_completed_focus = AST_protect_the_homeland 
@@ -839,7 +911,7 @@ characters={
 				}
 				if = {
 					limit = {
-						has_dlc = "Man the Guns"
+						#has_dlc = "Man the Guns"
 					}
 					NOT = {
 						#has_autonomy_state = autonomy_supervised_state

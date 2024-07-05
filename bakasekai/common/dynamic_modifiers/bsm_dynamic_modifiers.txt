@@ -8,6 +8,6 @@ civ_research_buff = {
 }
 
 mercenary_cost_daily = {
-	enable = { always = no }
+	enable = { always = yes }
 	daily_COUNTRY_e_c_gain = mercenary_cost
 }

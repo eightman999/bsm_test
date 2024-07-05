@@ -1,0 +1,16 @@
+ideas ={
+	country = {
+		HRH_women_soldiers = {
+			picture = "GFX_idea_HRH_women_soldiers"
+			allowed = {
+				original_tag = HRH
+				always = no
+			}
+			modifier = {
+				manpower_factor = 0.1
+				war_support_factor = 0.1
+				political_power_gain = -0.1
+			}
+		}
+	}
+}
