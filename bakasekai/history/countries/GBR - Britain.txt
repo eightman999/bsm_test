@@ -195,10 +195,10 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
-	set_autonomy = {
-		target = HRH
-		autonomy_state = autonomy_dominion
-	}
+	# set_autonomy = {
+	# 	target = HRH
+	# 	autonomy_state = autonomy_dominion
+	# }
 	set_autonomy = {
 		target = JEY
 		autonomy_state = autonomy_dominion
@@ -218,7 +218,7 @@ if = {
 		puppet = MDV
 		puppet = ZAF
 		puppet = LON
-		puppet = HRH
+		# puppet = HRH
 		puppet = JEY
 		puppet = GGY
 		puppet = GIB
@@ -246,7 +246,7 @@ add_to_faction = ZAF
 add_to_faction = IND
 add_to_faction = ERO
 add_to_faction = LON
-add_to_faction = HRH
+# add_to_faction = HRH
 add_to_faction = JEY
 add_to_faction = GGY
 add_to_faction = GIB

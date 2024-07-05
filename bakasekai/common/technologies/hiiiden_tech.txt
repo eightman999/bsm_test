@@ -17,7 +17,31 @@ technologies = {
 			sand
 		}
 	}
+
+	HRH_TECH_1 = {
+		allow = {
+			always = no
+		}
+		research_cost = 1
+		start_year = 1936
+		enable_equipments = {
+			infantry_equipment_early_0
+		}
+	}
 	
+	HRH_TECH_2 = {
+		allow = {
+			always = no
+		}
+		research_cost = 1
+		start_year = 1936
+		enable_subunits = {
+			militia
+			irregular_infantry
+		}
+	}
+	
+
 	army_of_Gods = {
 		
 		allow = {

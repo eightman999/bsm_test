@@ -199,6 +199,10 @@ spriteTypes = {
 		textureFile = "gfx/companies/JPN/okamoto.png"
 	}
 	spriteType = {
+		name = "GFX_idea_HRH_women_soldiers"
+		textureFile = "gfx/interface/ideas/hrh/HWS.png"
+	}
+	spriteType = {
 		name = "GFX_idea_eidan"
 		textureFile = "gfx/companies/JPN/eidan.png"
 	}

@@ -1654,9 +1654,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
+		# path = {
 			
-		}
+		# }
 
 		research_cost = 2
 		start_year = 1936
@@ -2394,4 +2394,15 @@ technologies = {
 		}
 	}
 	
+}
+
+HRH_TECH_1 = {
+	allow = {
+		always = no
+	}
+	research_cost = 1
+	start_year = 1936
+	enable_equipments = {
+		infantry_equipment_early_0
+	}
 }
