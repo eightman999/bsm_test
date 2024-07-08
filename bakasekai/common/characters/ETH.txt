@@ -2150,7 +2150,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_ETH_generic_male_1"
-				small = "GFX_idea_ETH_generic_male_1"
+				# small = "GFX_idea_ETH_generic_male_1"
 			}
 		}
 		corps_commander = {
@@ -2171,7 +2171,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_ETH_generic_female_1"
-				small = "GFX_idea_ETH_generic_female_1"
+				# small = "GFX_idea_ETH_generic_female_1"
 			}
 		}
 		gender = female
@@ -2193,7 +2193,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_ETH_generic_male_3"
-				small = "GFX_idea_ETH_generic_male_3"
+				# small = "GFX_idea_ETH_generic_male_3"
 			}
 		}
 		corps_commander = {
@@ -2214,7 +2214,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_ETH_generic_female_2"
-				small = "GFX_idea_ETH_generic_female_2"
+				# small = "GFX_idea_ETH_generic_female_2"
 			}
 		}
 		gender = female
@@ -2236,7 +2236,7 @@ characters = {
 		portraits = {
 			army = {
 				large = "GFX_portrait_ETH_generic_male_1"
-				small = "GFX_idea_ETH_generic_male_1"
+				# small = "GFX_idea_ETH_generic_male_1"
 			}
 		}
 		corps_commander = {
@@ -2257,7 +2257,7 @@ characters = {
 		portraits = {
 			army = {
 				large = GFX_portrait_ETH_generic_female_3
-				small = "GFX_idea_ETH_generic_female_3"
+				# small = "GFX_idea_ETH_generic_female_3"
 			}
 		}
 		gender = female
