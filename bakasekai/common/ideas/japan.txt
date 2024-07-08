@@ -1,13 +1,54 @@
 ideas = {
 	country = {
+		JAP_showa_statism = {
+
+			name = JAP_showa_statism
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = JAP_hirohito
+
+			modifier = {
+			consumer_goods_factor = 0.01
+			political_power_factor = 0.05
+			stability_factor = 0.50
+			fascism_ideology_drift = 0.05
+			fascism_ideology_acceptance = 85
+			}
+		}
+
+		JAP_showa_trust = {
+
+			name = JAP_showa_trust
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+
+			picture = JAP_hirohito
+
+			modifier = {
+			consumer_goods_factor = -0.01
+			political_power_factor = 0.1
+			stability_factor = 0.50
+			democratic_ideology_drift = 0.05
+			democratic_ideology_acceptance = 85
+			}
+		}
+
 		state_shintoism = {
 			allowed = {
 				always = no
-			}
-			allowed_civil_war = {
-				NOT = {
-					has_government = democratic_ideology
-				}
 			}
 			removal_cost = -1
 			modifier = {
@@ -19,11 +60,6 @@ ideas = {
 		student_mobilization_idea = {
 			allowed = {
 				always = no
-			}
-			allowed_civil_war = {
-				NOT = {
-					has_government = democratic_ideology
-				}
 			}
 			removal_cost = -1
 			picture = generic_infantry_bonus

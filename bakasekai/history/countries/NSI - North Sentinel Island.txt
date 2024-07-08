@@ -39,7 +39,9 @@ if = {
 		target = GMI
 		autonomy_state = autonomy_psonal_union
 	}
-
+add_ideas = {
+	anemism
+}
 
 recruit_character = NSI_Zokutyo
 set_politics = {

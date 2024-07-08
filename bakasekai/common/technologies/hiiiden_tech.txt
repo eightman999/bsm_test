@@ -41,7 +41,16 @@ technologies = {
 		}
 	}
 	
-
+	HRH_TECH_3 = {
+		enable_tactic = tactic_anti_guerrilla_tactics
+		enable_tactic =tactic_masterful_anti_guerrilla_tactics
+		enable_tactic =tactic_mobile_defence_tactics
+		enable_tactic =tactic_masterful_mobile_defence_tactics
+		enable_tactic =tactic_manoeuvre_withdrawal_tactics
+		enable_tactic =tactic_masterful_manoeuvre_withdrawal_tactics
+		enable_tactic =tactic_manoeuvre_shift_tactics
+		enable_tactic =tactic_encounter_battle_tactics
+	}
 	army_of_Gods = {
 		
 		allow = {

@@ -7633,7 +7633,7 @@
 # 				original_tag = SAM
 # 				original_tag = SOL
 # 				original_tag = FIJ
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 		}
 # 		available = {
@@ -7660,7 +7660,7 @@
 # 				original_tag = SAM
 # 				original_tag = SOL
 # 				original_tag = FIJ
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 			NOT = {
 # 				has_global_flag = form_polynesia_flag
@@ -7768,7 +7768,7 @@
 # 	NZL_demand_islands = {
 # 		icon = generic_form_nation
 # 		allowed = {
-# 			original_tag = NZL
+# 			original_tag = ERO
 # 		}
 # 		available = {
 # 			OR = {
@@ -7794,7 +7794,7 @@
 # 							original_tag = SAM
 # 							original_tag = SOL
 # 							original_tag = FIJ
-# 							original_tag = NZL
+# 							original_tag = ERO
 # 						}
 # 					}
 # 					OR = {
@@ -7830,7 +7830,7 @@
 # 			}
 # 		}
 # 		visible = {
-# 			original_tag = NZL
+# 			original_tag = ERO
 # 			NOT = {
 # 				has_global_flag = form_polynesia_flag
 # 			}
@@ -7853,7 +7853,7 @@
 # 							original_tag = SAM
 # 							original_tag = SOL
 # 							original_tag = FIJ
-# 							original_tag = NZL
+# 							original_tag = ERO
 # 						}
 # 					}
 # 					OR = {
@@ -7904,7 +7904,7 @@
 # 							original_tag = SAM
 # 							original_tag = SOL
 # 							original_tag = FIJ
-# 							original_tag = NZL
+# 							original_tag = ERO
 # 						}
 # 					}
 # 					OR = {
@@ -17982,7 +17982,7 @@
 # # 		icon = generic_form_nation
 # # 		allowed = {
 # # 			OR = {
-# # 				original_tag = INS
+# # 				original_tag = IDN
 # # 				original_tag = MAL
 # # 			}
 # # 			has_dlc = "Waking the Tiger"
@@ -18011,7 +18011,7 @@
 # # 		}
 # # 		visible = {
 # # 			OR = {
-# # 				original_tag = INS
+# # 				original_tag = IDN
 # # 				original_tag = MAL
 # # 			}
 # # 			NOT = {
@@ -18410,7 +18410,7 @@
 # # 		icon = generic_form_nation
 # # 		allowed = {
 # # 			OR = {
-# # 				original_tag = MOR
+# # 				original_tag = MAR
 # # 				original_tag = ALG
 # # 				original_tag = TUN
 # # 				original_tag = WES
@@ -18433,7 +18433,7 @@
 # # 		}
 # # 		visible = {
 # # 			OR = {
-# # 				original_tag = MOR
+# # 				original_tag = MAR
 # # 				original_tag = ALG
 # # 				original_tag = TUN
 # # 				original_tag = WES
@@ -19141,7 +19141,7 @@
 # # 				original_tag = SAM
 # # 				original_tag = SOL
 # # 				original_tag = FIJ
-# # 				original_tag = NZL
+# # 				original_tag = ERO
 # # 			}
 # # 		}
 # # 		available = {
@@ -19168,7 +19168,7 @@
 # # 				original_tag = SAM
 # # 				original_tag = SOL
 # # 				original_tag = FIJ
-# # 				original_tag = NZL
+# # 				original_tag = ERO
 # # 			}
 # # 			NOT = {
 # # 				has_global_flag = form_polynesia_flag
@@ -19276,7 +19276,7 @@
 # # 	NZL_demand_islands = {
 # # 		icon = generic_form_nation
 # # 		allowed = {
-# # 			original_tag = NZL
+# # 			original_tag = ERO
 # # 		}
 # # 		available = {
 # # 			OR = {
@@ -19302,7 +19302,7 @@
 # # 							original_tag = SAM
 # # 							original_tag = SOL
 # # 							original_tag = FIJ
-# # 							original_tag = NZL
+# # 							original_tag = ERO
 # # 						}
 # # 					}
 # # 					OR = {
@@ -19338,7 +19338,7 @@
 # # 			}
 # # 		}
 # # 		visible = {
-# # 			original_tag = NZL
+# # 			original_tag = ERO
 # # 			NOT = {
 # # 				has_global_flag = form_polynesia_flag
 # # 			}
@@ -19361,7 +19361,7 @@
 # # 							original_tag = SAM
 # # 							original_tag = SOL
 # # 							original_tag = FIJ
-# # 							original_tag = NZL
+# # 							original_tag = ERO
 # # 						}
 # # 					}
 # # 					OR = {
@@ -19412,7 +19412,7 @@
 # # 							original_tag = SAM
 # # 							original_tag = SOL
 # # 							original_tag = FIJ
-# # 							original_tag = NZL
+# # 							original_tag = ERO
 # # 						}
 # # 					}
 # # 					OR = {

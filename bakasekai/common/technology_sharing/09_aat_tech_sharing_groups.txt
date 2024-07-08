@@ -21,7 +21,7 @@ technology_sharing_group = {
 
 	available = {
 		has_government = communism_ideology	
-		NOT = { has_war_with = ICE }
+		NOT = { has_war_with = ISL }
 	}
 }
 
@@ -35,7 +35,7 @@ technology_sharing_group = {
 
 	available = {
 		has_government = fascism_ideology	
-		NOT = { has_war_with = ICE }
+		NOT = { has_war_with = ISL }
 	}
 }
 
@@ -53,7 +53,7 @@ technology_sharing_group = {
 			original_tag = NOR
 			original_tag = FIN
 			original_tag = DEN
-			original_tag = ICE
+			original_tag = ISL
 		}
 
 		OR = {

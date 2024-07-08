@@ -947,7 +947,7 @@ ideas = {
 						OR = {
 							tag = AUS
 							tag = ZAF
-							tag = NZL
+							tag = ERO
 							tag = CAN
 						}
 						has_dlc = "Together for Victory"
@@ -1030,7 +1030,7 @@ ideas = {
 						OR = {
 							tag = AUS
 							tag = CAN
-							tag = NZL
+							tag = ERO
 							tag = IND
 						}
 						has_dlc = "Together for Victory"

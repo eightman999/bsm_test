@@ -751,18 +751,21 @@ JAP_ai_behavior = {
 		desc = "RULE_OPTION_DEFAULT_AI_DESC"
 	}
 	option = {
-		required_dlc = "Waking the Tiger"
 		name = COMMUNIST
 		text = "RULE_OPTION_COMMUNIST"
 		desc = "RULE_OPTION_COMMUNIST_JAP_AI_DESC"
 	}
 	option = {
-		name = neutrality_ideology
+		name = NEUTRALITY
 		text = "RULE_OPTION_NEUTRALITY"
 		desc = "RULE_OPTION_NEUTRALITY_JAP_AI_DESC"
 	}
 	option = {
-		required_dlc = "Waking the Tiger"
+		name = NAVAL_RULE
+		text = "RULE_OPTION_NAVAL_RULE"
+		desc = "RULE_NAVAL_RULE_JAP_AI_DESC"
+	}
+	option = {
 		name = DEMOCRATIC
 		text = "RULE_OPTION_DEMOCRATIC"
 		desc = "RULE_DEMOCRATIC_JAP_AI_DESC"

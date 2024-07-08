@@ -27,7 +27,7 @@ generic_tank_organization = {
 		}
 		NOT = {
 			AND = {
-				OR = { tag = AST tag = ZAF tag = NZL tag = CAN }
+				OR = { tag = AST tag = ZAF tag = ERO tag = CAN }
 				has_dlc = "Together for Victory"
 			}
 		}
@@ -2100,7 +2100,7 @@ generic_escort_ship_organization = {
 		}
 		NOT = {
 			AND = {
-				OR = { tag = AST tag = NZL tag = RAJ }
+				OR = { tag = AST tag = ERO tag = RAJ }
 				has_dlc = "Together for Victory"
 			}
 		}
@@ -7332,7 +7332,7 @@ generic_motorized_mechanized_organization = {
 		}
 		NOT = {
 			AND = {
-				tag = NZL
+				tag = ERO
 				has_dlc = "Together for Victory"
 			}
 		}

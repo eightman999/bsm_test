@@ -3615,7 +3615,7 @@
 # 			}
 # 		}
 # 		bypass = {
-# 			INS = {
+# 			IDN = {
 # 				OR = {
 # 					NOT = {
 # 						is_puppet_of = HOL
@@ -3668,7 +3668,7 @@
 # 			if = {
 # 				limit = {
 # 					has_completed_focus = AST_protect_the_dutch_colonies
-# 					INS = {
+# 					IDN = {
 # 						is_puppet_of = AUS
 # 					}
 # 				}
@@ -3934,8 +3934,8 @@
 # 			factor = 1
 # 		}
 # 		available = {
-# 			country_exists = INS
-# 			INS = {
+# 			country_exists = IDN
+# 			IDN = {
 # 				is_subject = yes
 # 			}
 # 			ROOT = {
@@ -3961,14 +3961,14 @@
 # 		available_if_capitulated = no
 # 		completion_reward = {
 # 			#Boosts fascism_ideology in Indonesia
-# 			INS = {
+# 			IDN = {
 # 				add_timed_idea = {
 # 					days = 730
 # 					idea = AST_indonesian_nationalists
 # 				}
 # 			}
 # 			hidden_effect = {
-# 				INS = {
+# 				IDN = {
 # 					country_event = {
 # 						id = tfv_australia.95
 # 					}
@@ -3995,8 +3995,8 @@
 # 			factor = 1
 # 		}
 # 		available = {
-# 			country_exists = INS
-# 			INS = {
+# 			country_exists = IDN
+# 			IDN = {
 # 				is_subject = yes
 # 			}
 # 			OR = {
@@ -4020,7 +4020,7 @@
 # 				}
 # 			}
 # 			fascism_ideology > 0.3
-# 			INS = {
+# 			IDN = {
 # 				fascism_ideology > 0.3
 # 			}
 # 			NOT = {
@@ -4035,11 +4035,11 @@
 # 		completion_reward = {
 # 			if = {
 # 				limit = {
-# 					INS = {
+# 					IDN = {
 # 						has_civil_war = no
 # 					}
 # 				}
-# 				INS = {
+# 				IDN = {
 # 					country_event = {
 # 						id = tfv_australia.96
 # 					}
@@ -4071,7 +4071,7 @@
 # 				has_war_together_with = GBR
 # 			}
 # 			NOT = {
-# 				is_in_faction_with = NZL
+# 				is_in_faction_with = ERO
 # 			}
 # 			NOT = {
 # 				has_country_flag = britain_enforced_our_loyalty
@@ -4101,7 +4101,7 @@
 # 					autonomy_state = autonomy_free
 # 				}
 # 			}
-# 			NZL = {
+# 			ERO = {
 # 				country_event = {
 # 					id = tfv_australia.20
 # 				}
@@ -4827,7 +4827,7 @@
 # 		ai_will_do = {
 # 			factor = 1
 # 			modifier = {
-# 				NZL = {
+# 				ERO = {
 # 					has_government = democratic_ideology
 # 				}
 # 				factor = 10
@@ -4844,7 +4844,7 @@
 # 		continue_if_invalid = no
 # 		available_if_capitulated = no
 # 		completion_reward = {
-# 			NZL = {
+# 			ERO = {
 # 				country_event = {
 # 					id = tfv_australia.60
 # 				}

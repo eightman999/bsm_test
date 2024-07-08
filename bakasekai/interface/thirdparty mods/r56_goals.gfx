@@ -3577,7 +3577,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ger/r56_goal_GER_antibolshevikbloc.dds"
 	}
 
-###------> GRE <><> <><> <><> <><> <><>
+###------> GRC <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_GRE_coa_air_force"
 		texturefile = "gfx/interface/goals/gre/r56_goal_GRE_coa_air_force.dds"
@@ -4873,7 +4873,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/nic/r56_goal_nic_immigration.dds"
 	}
 
-###------> ICE <><> <><> <><> <><> <><>
+###------> ISL <><> <><> <><> <><> <><>
 	#####--Icelandic focuses/goals--#####
 	SpriteType = {
 		name = "GFX_goal_ICE_air_patrol"
@@ -4993,7 +4993,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/focusview/filter/autonomy_icon.dds"
 	}
 
-###------> NZL <><> <><> <><> <><> <><>
+###------> ERO <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_NZL_coa_air_force"
 		texturefile = "gfx/interface/goals/nzl/r56_goal_NZL_coa_air_force.dds"

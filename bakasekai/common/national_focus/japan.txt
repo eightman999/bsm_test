@@ -1429,7 +1429,7 @@ focus_tree = {
 					type = bunker
 					level = 3
 					instant_build = yes
-					provinces = {
+					province = {
 						all_provinces = yes
 					}
 				}

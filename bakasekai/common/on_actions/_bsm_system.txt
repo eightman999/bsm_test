@@ -4,6 +4,52 @@ on_actions = {
 			RED = {
 				bsm_first_g = yes
 			}
+			JPN = {
+				if = {
+					limit = {
+						has_dlc = "Waking the Tiger"
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = JAP_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = JAP_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						40 = {
+							JPN = { set_country_flag = JAP_AI_RANDOM_FASCIST }
+							set_add_fascist_game_weight_large = yes
+						}
+						30 = {
+						
+							JPN = { set_country_flag = JAP_AI_RANDOM_NEUTRALITY }
+							set_add_unaligned_game_weight_large = yes
+						}
+						10 = {
+						
+							JPN = { set_country_flag = JAP_AI_RANDOM_DEMOCRATIC }
+							set_add_democratic_game_weight_large = yes
+						}
+						10 = {
+						
+							JPN = { set_country_flag = JAP_AI_RANDOM_COMMUNIST }
+							set_add_communist_weight_small = yes
+						}
+						10 = {
+						
+							JPN = { set_country_flag = JAP_AI_RANDOM_NAVAL }
+							set_add_democratic_game_weight_large = yes
+						}
+					}
+				}
+			}
 			every_country = {
 				limit = {
 					has_government = communism_ideology
@@ -57,6 +103,248 @@ on_actions = {
 			}
 			JPN ={
 				set_country_flag = SHINTO_CONTRY
+			}
+			every_country = {
+				if = {
+					limit = {
+						OR = {
+							tag = MEX
+							tag = GUA
+							tag = ELS
+							tag = NIC
+							tag = HON
+							tag = COS
+							tag = PAN
+							tag = COL
+							tag = VEN
+							tag = ECU
+							tag = PRU
+							tag = BOL
+							tag = PAR
+							tag = CHL
+							tag = ARG
+							tag = URG
+							tag = PML
+							tag = BRA
+							tag = CUB
+							tag = HAI
+							tag = DOM
+							tag = POR
+							tag = ESP
+							tag = CEU
+							tag = FRA
+							tag = ITA
+							tag = BEL
+							tag = IRE
+							tag = AUS
+							tag = OZY
+							tag = MYS
+							tag = HUN
+							tag = CZE
+							tag = SLO
+							tag = POL
+							tag = LIT
+							tag = PHI
+							tag = BAY
+							tag = DEU
+							tag = CRO
+							tag = SLV
+							tag = DAH
+							tag = CMR
+							tag = GAB
+							tag = COG
+							tag = RWA
+							tag = BRD
+							tag = RCG
+							tag = ANG
+							tag = MZB
+						}
+					}
+					set_country_flag = catholicism_CONTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = GRC
+							tag = GOC
+							tag = BUL
+							tag = ROM
+							tag = MYS
+							tag = CYP
+							tag = UKR
+							tag = BLR
+							tag = SOV
+							tag = SER
+							tag = MNT
+							tag = ETH
+							tag = LEB
+						}
+					}
+					set_country_flag = orthodoxy_COUNTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = DEU
+							tag = HOL
+							tag = BLX
+							tag = LUX
+							tag = DEN
+							tag = SWE
+							tag = NOR
+							tag = FIN
+							tag = LAT
+							tag = EST
+							tag = GBR
+							tag = LON
+							tag = GGY
+							tag = HRH
+							tag = JEY
+							tag = GIB
+							tag = SCO
+							tag = WLS
+							tag = CAN
+							tag = USA
+							tag = ISL
+							tag = SAF
+							tag = NMB
+							tag = BOT
+							tag = ZIM
+							tag = ZAM
+							tag = MLW
+							tag = UGA
+							tag = NGA
+							tag = KEN
+							tag = GHA
+							tag = LIB
+							tag = CAR
+							tag = AST
+							tag = ERO
+						}
+					}
+					set_country_flag = protestantism_CONTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = ISR
+						}
+					}
+					set_country_flag = judaism_COUNTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = TUR
+							tag = SYR
+							tag = KUR
+							tag = LEB
+							tag = PAL
+							tag = JOR
+							tag = KUW
+							tag = SAU
+							tag = QAT
+							tag = UAE
+							tag = OMA
+							tag = YEM
+							tag = EGY
+							tag = LBA
+							tag = TUN
+							tag = ALG
+							tag = MAR
+							tag = MRT
+							tag = SEN
+							tag = MLI
+							tag = GAM
+							tag = GNA
+							tag = SIE
+							tag = IVO
+							tag = VOL
+							tag = NGR
+							tag = CHA
+							tag = SUD
+							tag = ERI
+							tag = DJI
+							tag = SOM
+							tag = MAD
+							tag = AFG
+							tag = PAK
+							tag = BAN
+							tag = SIK
+							tag = MAL
+							tag = IDN
+							tag = MAL
+							tag = ALB
+						}
+					}
+					set_country_flag = sunni_CONTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = IRQ
+							tag = PER
+							tag = KUR
+						}
+					}
+					set_country_flag = shia_CONTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = RAJ
+						}
+					}
+					set_country_flag = hinduism_CONTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = MON
+							tag = TAN
+							tag = XSM
+							tag = TIB
+							tag = BRM
+							tag = SIA
+							tag = LAO
+							tag = KHM
+							tag = VNM
+							tag = SRL
+							tag = KOR
+							tag = JPN
+							tag = CHI
+						}
+					}
+					set_country_flag = buddhism_CONTRY
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = CHI
+							tag = CHN
+							tag = ENG
+							tag = GER
+							tag = JAP
+							# tag = MME
+							tag = PRC
+							tag = MAN
+							tag = MEN
+							tag = SHX
+							tag = GXC
+							tag = YUN
+						}
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = JPN
+							tag = MAN
+							tag = MME
+						}
+					}
+				}
+
 			}
 		}
 	}
@@ -125,4 +413,62 @@ on_actions = {
 			}
 		}
 	}
+
+	on_nuke_drop = {#核が落ちたときの挙動
+		effect = {
+			log = "[GetDate]: on_nuke_drop"
+			FROM = {
+				set_variable = { killed_by_nuke_dropped = FROM.state_population_k }
+				if = {
+					limit = {
+						OR = {
+							has_state_category = wasteland #荒地
+							has_state_category = pastoral #牧畜地域
+							has_state_category = rural #牧歌的地域
+							has_state_category = town #開発済みの牧歌的地域
+							has_state_category = large_town #低密度の都市化地域
+						}
+					}
+					multiply_variable = { killed_by_nuke_dropped = -10 }#死者数:1%
+				}
+				else_if = {
+					limit = {
+						OR = {
+							has_state_category = metropolis #大都市化した地域
+							has_state_category = megalopolis #巨大都市化した地域
+							has_state_category = large_city #高密度に都市化した地域
+							has_state_category = city # 都市化した地域
+						}
+					}
+					multiply_variable = { killed_by_nuke_dropped = -30 }#死者数:3%
+				}
+				else_if = {
+					limit = {
+						OR = {
+							has_state_category = enclave #飛び地
+							has_state_category = small_island #小島
+							has_state_category = tiny_island #極小島						
+						}
+					}
+					multiply_variable = { killed_by_nuke_dropped = -50 }#死者数:5% 
+				}
+				add_manpower = killed_by_nuke_dropped
+				clear_variable = killed_by_nuke_dropped
+				add_dynamic_modifier = {
+					modifier = bsm_dropped_nuke_modifier
+					scope = FROM
+					days = 90
+				}
+			}
+			if = {#聖地の場合
+				limit = {
+					OR = {
+						FROM = { state = 922 }
+					}
+				}
+				news_event = nukes_drop.1
+			}
+		}
+	}
+
 }

@@ -59,7 +59,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = direct_your_democracy
+			ideology = our_own_gov
 			expire = "1981.1.1.1"
 		}
 	}
@@ -147,7 +147,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = direct_your_democracy
+			ideology = our_own_gov
 			expire = "1981.1.1.1"
 		}
 	}
@@ -235,7 +235,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = direct_your_democracy
+			ideology = our_own_gov
 			expire = "1981.1.1.1"
 		}
 	}
@@ -323,7 +323,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = direct_your_democracy
+			ideology = our_own_gov
 			expire = "1981.1.1.1"
 		}
 	}
@@ -411,7 +411,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = direct_your_democracy
+			ideology = our_own_gov
 			expire = "1981.1.1.1"
 		}
 	}
@@ -499,7 +499,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = direct_your_democracy
+			ideology = our_own_gov
 			expire = "1981.1.1.1"
 		}
 	}

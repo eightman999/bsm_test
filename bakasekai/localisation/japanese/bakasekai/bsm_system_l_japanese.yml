@@ -24,7 +24,6 @@ weekly_COUNTRY_CULTURAL_DEGREE:9 "週ごとの文明化率上昇"
 normal_country:0 "通常国家"
 
 civ_research_buff_t:0 "文明化率からの補正"
-civ_research_buff:0 "$civ_research_buff_t$"
 
 mercenary_cost_daily:0 "傭兵の維持コスト"
 mercenary_cost:0 "$mercenary_cost_t$"

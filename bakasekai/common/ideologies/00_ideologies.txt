@@ -341,7 +341,7 @@ ideologies = {
 	}
 	direct_democracy = {
 		types = {
-			direct_your_democracy = {
+			our_own_gov = {
 			}
 		}
 		dynamic_faction_names = {

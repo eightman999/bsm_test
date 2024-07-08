@@ -3,7 +3,7 @@
 NZL_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -22,7 +22,7 @@ NZL_DD_HISTORICAL = {
 NZL_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -41,7 +41,7 @@ NZL_CL_HISTORICAL = {
 NZL_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -59,7 +59,7 @@ NZL_CA_HISTORICAL = {
 NZL_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -77,7 +77,7 @@ NZL_BB_HISTORICAL = {
 NZL_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -95,7 +95,7 @@ NZL_BC_HISTORICAL = {
 NZL_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -114,7 +114,7 @@ NZL_CV_HISTORICAL = {
 NZL_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -133,7 +133,7 @@ NZL_SS_HISTORICAL = {
 NZL_PROVINCES = {
 	name = NAME_THEME_PROVINCES
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 
@@ -147,7 +147,7 @@ NZL_PROVINCES = {
 NZL_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 
@@ -161,7 +161,7 @@ NZL_CITIES = {
 NZL_TRIBES = {
 	name = NAME_THEME_TRIBES
 
-	for_countries = { NZL }
+	for_countries = { ERO }
 
 	type = ship
 

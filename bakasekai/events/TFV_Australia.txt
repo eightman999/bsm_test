@@ -99,7 +99,7 @@
 		
 # 		effect_tooltip = {
 # 			AUS = {
-# 				puppet = INS
+# 				puppet = IDN
 # 			}
 # 		}
 		
@@ -138,7 +138,7 @@
 # 	option = {
 # 		name = tfv_australia.11.a
 		
-# 		puppet = INS
+# 		puppet = IDN
 		
 # 		news_event = { id = news.240 hours = 6 }
 # 	}
@@ -181,7 +181,7 @@
 # 							surrender_progress > 0.3
 # 						}
 # 					}
-# 					NZL = { is_in_faction = no }
+# 					ERO = { is_in_faction = no }
 # 					has_government = fascism_ideology
 # 				}
 # 			}
@@ -220,7 +220,7 @@
 # 			AUS = {
 # 				create_wargoal = {
 # 					type = annex_everything
-# 					target = NZL
+# 					target = ERO
 # 				}
 # 			}
 # 		}
@@ -244,7 +244,7 @@
 # 	option = {
 # 		name = tfv_australia.21.a
 		
-# 		annex_country = { target = NZL }
+# 		annex_country = { target = ERO }
 
 # 		news_event = {
 # 			id = news.254 hours = 2
@@ -265,7 +265,7 @@
 		
 # 		create_wargoal = {
 # 			type = annex_everything
-# 			target = NZL
+# 			target = ERO
 # 		}
 # 	}
 # }
@@ -284,10 +284,10 @@
 # 		create_faction = "south_west_pacific_initiative"
 # 		if = {
 # 			limit = {
-# 				country_exists = INS
-# 				not = { has_war_with = INS }
+# 				country_exists = IDN
+# 				not = { has_war_with = IDN }
 # 			}
-# 			add_to_faction = INS
+# 			add_to_faction = IDN
 # 		}
 		
 # 		news_event = { id = news.244 hours = 6 }
@@ -318,7 +318,7 @@
 # 					limit = {
 # 						has_country_flag = INS_is_a_puppet
 # 					}
-# 					add_to_faction = INS
+# 					add_to_faction = IDN
 # 				}
 # 			}
 # 		}
@@ -360,7 +360,7 @@
 # 			limit = {
 # 				has_country_flag = INS_is_a_puppet
 # 			}
-# 			add_to_faction = INS
+# 			add_to_faction = IDN
 # 		}
 		
 # 		news_event = { id = news.245 hours = 6 }
@@ -382,7 +382,7 @@
 # 		}
 		
 # 		create_faction = "south_west_pacific_initiative"
-# 		add_to_faction = INS
+# 		add_to_faction = IDN
 		
 # 		news_event = { id = news.244 hours = 6 }
 # 	}
@@ -392,7 +392,7 @@
 # 	}
 # }
 
-# #AST_support_indonesian_uprising - End the civil war in INS and puppet fascist side if they won
+# #AST_support_indonesian_uprising - End the civil war in IDN and puppet fascist side if they won
 # country_event = {
 # 	id = tfv_australia.41
 # 	title = tfv_australia.41.t
@@ -405,12 +405,12 @@
 # 		name = tfv_australia.41.a
 # 		random_country = {
 # 			limit = {
-# 				original_tag = INS
+# 				original_tag = IDN
 # 				has_government = fascism_ideology
 # 			}
 # 			white_peace = HOL
 # 		}
-# 		puppet = INS
+# 		puppet = IDN
 # 	}
 # }
 
@@ -511,7 +511,7 @@
 # 		}
 # 		effect_tooltip = {
 # 			AUS = {
-# 				puppet = NZL
+# 				puppet = ERO
 # 			}
 # 		}
 # 		hidden_effect = {
@@ -549,7 +549,7 @@
 	
 # 	option = {
 # 		name = tfv_australia.61.a
-# 		puppet = NZL
+# 		puppet = ERO
 		
 # 		news_event = { id = news.241 }
 # 	}
@@ -567,7 +567,7 @@
 # 		name = tfv_australia.62.a
 # 		create_wargoal = {
 # 			type = puppet_wargoal_focus
-# 			target = NZL
+# 			target = ERO
 # 		}
 # 	}
 # }

@@ -11,3 +11,12 @@ mercenary_cost_daily = {
 	enable = { always = yes }
 	daily_COUNTRY_e_c_gain = mercenary_cost
 }
+
+bsm_dropped_nuke_modifier = {#核の落ちた町
+	# icon = GFX_nuke_dropped
+	enable = { always = yes }
+	local_resources = -0.75
+	local_supplies = -0.75
+	army_speed_factor_for_controller = -0.75
+	local_factories = -0.75
+}
