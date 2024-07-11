@@ -11,7 +11,6 @@ focus_tree = {
 			tag = JPN
 		}
 	}
-
 	#産業大躍進政策
 	focus = {
 		id = JPN_chanyedayuejinzhengce
@@ -520,13 +519,13 @@ focus_tree = {
 					type = bunker
 					level = 3
 					instant_build = yes
-					province =14472
+					province = 14472
 				}
 				add_building_construction = {
 					type = bunker
 					level = 3
 					instant_build = yes
-					province =14473
+					province = 14473
 				}
 			}
 			1001 = {
@@ -751,7 +750,6 @@ focus_tree = {
 			# focus = JPN_wajie
 		}
 		completion_reward = {
-
 		}
 	}
 	#神聖教育
@@ -1326,46 +1324,44 @@ focus_tree = {
 			focus = JPN_hetongyanxi
 		}
 		completion_reward = {
-
 			random_owned_state = {
-					limit = {
-						is_coastal = yes
-					}
-					set_building_level = {
-						type = naval_base
-						level = 3
-						instant_build = yes
-						# province = {
-						# 	level = 0
-						# }
-					}
+				limit = {
+					is_coastal = yes
 				}
-				random_owned_state = {
-					limit = {
-						is_coastal = yes
-					}
-					set_building_level = {
-						type = naval_base
-						level = 3
-						instant_build = yes
-						# province = {
-						# 	level = 0
-						# }
-					}
+				set_building_level = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					# province = {
+					# 	level = 0
+					# }
 				}
-				random_owned_state = {
-					limit = {
-						is_coastal = yes
-					}
-					set_building_level = {
-						type = naval_base
-						level = 3
-						instant_build = yes
-						# province = {
-						# 	level = 0
-						# }
-					}
-				
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				set_building_level = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					# province = {
+					# 	level = 0
+					# }
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				set_building_level = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					# province = {
+					# 	level = 0
+					# }
+				}
 			}
 		}
 	}

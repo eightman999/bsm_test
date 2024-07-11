@@ -420,13 +420,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_cosmetic_tag = PRC_proclaimed
-			hidden_effect = {
-				news_event = {
-					id = wtt_news.37
-					days = 3
-					random_days = 3
-				}
-			}
+			# hidden_effect = {
+			# 	news_event = {
+			# 		id = wtt_news.37
+			# 		days = 3
+			# 		random_days = 3
+			# 	}
+			# }
 		}
 	}
 	focus = {
@@ -461,7 +461,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = PRC_deng_xiaoping_political_advisor
+			# show_ideas_tooltip = PRC_deng_xiaoping_political_advisor
 			if = {
 				limit = {
 					has_idea = PRC_the_long_march_1
@@ -912,7 +912,7 @@ focus_tree = {
 						tag = ROOT
 					}
 				}
-				country_event = wtt_prc.10
+				# country_event = wtt_prc.10
 			}
 		}
 	}
@@ -940,7 +940,7 @@ focus_tree = {
 				MME = {
 					OR = {
 						is_subject_of = JPN
-						has_cosmetic_tag = MAN_kwantung_army
+						# has_cosmetic_tag = MAN_kwantung_army
 					}
 				}
 				AND = {
@@ -1062,10 +1062,10 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		completion_reward = {
-			unlock_decision_tooltip = {
-				decision = PRC_provoke_japan
-				show_effect_tooltip = yes
-			}
+			# unlock_decision_tooltip = {
+			# 	decision = PRC_provoke_japan
+			# 	show_effect_tooltip = yes
+			# }
 		}
 	}
 	focus = {
@@ -1167,7 +1167,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			unlock_decision_tooltip = PRC_launch_100_regiments_campaign
+			# unlock_decision_tooltip = PRC_launch_100_regiments_campaign
 		}
 	}
 	focus = {
@@ -1270,7 +1270,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = PRC_kang_sheng_political_advisor
+			# show_ideas_tooltip = PRC_kang_sheng_political_advisor
 		}
 	}
 	focus = {

@@ -163,7 +163,7 @@ focus_tree = {
 						level = 5
 					}
 					add_ideas = war_economy
-					load_oob="BTY_civilwar"
+					load_oob = "BTY_civilwar"
 				}
 				BTW = {
 					set_country_flag = "NAISEN_JYUNBI"
@@ -222,18 +222,17 @@ focus_tree = {
 						type = industrial_complex
 						level = 5
 					}
-					load_oob="BTW_civilwar"
+					load_oob = "BTW_civilwar"
 				}
 				BTP = {
 					set_country_flag = "NAISEN_JYUNBI"
 					ROOT = {
-						if = {	
+						if = {
 							limit = {
-							tag = BTP
+								tag = BTP
 							}
 							add_manpower = 200000
 						}
-
 					}
 					add_state_core = 11
 					add_state_core = 12
@@ -305,7 +304,7 @@ focus_tree = {
 						type = industrial_complex
 						level = 5
 					}
-					load_oob="BTP_civilwar"
+					load_oob = "BTP_civilwar"
 				}
 				BTG = {
 					set_country_flag = "NAISEN_JYUNBI"
@@ -379,7 +378,7 @@ focus_tree = {
 						type = industrial_complex
 						level = 5
 					}
-					load_oob="BTG_civilwar"
+					load_oob = "BTG_civilwar"
 					add_ideas = war_economy
 				}
 				BTL = {
@@ -393,7 +392,7 @@ focus_tree = {
 						days = 3
 					}
 					add_ideas = war_economy
-					load_oob="BTL_civilwar"
+					load_oob = "BTL_civilwar"
 				}
 				BTW = {
 					add_ideas = battle3_kodoku
@@ -486,7 +485,7 @@ focus_tree = {
 				}
 			}
 			ROOT = {
-				if ={
+				if = {
 					limit = {
 						is_ai = no
 					}
@@ -494,7 +493,6 @@ focus_tree = {
 						id = baka_super.1
 					}
 				}
-
 			}
 		}
 	}
@@ -1619,7 +1617,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -2191,9 +2188,7 @@ focus_tree = {
 		y = 13
 		bypass = {
 			GRC = {
-			
-					is_puppet = yes
-				
+				is_puppet = yes
 			}
 		}
 		completion_reward = {
@@ -2219,9 +2214,7 @@ focus_tree = {
 		y = 13
 		bypass = {
 			TUR = {
-		
-					is_puppet = yes
-				
+				is_puppet = yes
 			}
 		}
 		completion_reward = {
@@ -2247,8 +2240,7 @@ focus_tree = {
 		y = 13
 		bypass = {
 			MYS = {
-					is_puppet = yes
-				
+				is_puppet = yes
 			}
 		}
 		completion_reward = {

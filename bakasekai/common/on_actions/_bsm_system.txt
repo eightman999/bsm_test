@@ -24,27 +24,33 @@ on_actions = {
 					}
 					random_list = {
 						40 = {
-							JPN = { set_country_flag = JAP_AI_RANDOM_FASCIST }
+							JPN = {
+								set_country_flag = JAP_AI_RANDOM_FASCIST
+							}
 							set_add_fascist_game_weight_large = yes
 						}
 						30 = {
-						
-							JPN = { set_country_flag = JAP_AI_RANDOM_NEUTRALITY }
+							JPN = {
+								set_country_flag = JAP_AI_RANDOM_NEUTRALITY
+							}
 							set_add_unaligned_game_weight_large = yes
 						}
 						10 = {
-						
-							JPN = { set_country_flag = JAP_AI_RANDOM_DEMOCRATIC }
+							JPN = {
+								set_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+							}
 							set_add_democratic_game_weight_large = yes
 						}
 						10 = {
-						
-							JPN = { set_country_flag = JAP_AI_RANDOM_COMMUNIST }
+							JPN = {
+								set_country_flag = JAP_AI_RANDOM_COMMUNIST
+							}
 							set_add_communist_weight_small = yes
 						}
 						10 = {
-						
-							JPN = { set_country_flag = JAP_AI_RANDOM_NAVAL }
+							JPN = {
+								set_country_flag = JAP_AI_RANDOM_NAVAL
+							}
 							set_add_democratic_game_weight_large = yes
 						}
 					}
@@ -62,11 +68,11 @@ on_actions = {
 				log = "BSM GDP is [?ROOT.BSMS_GDP]"
 				BSM_set_mine = yes
 				BSM_MINE_EXPORT = yes
-				clamp_variable ={
+				clamp_variable = {
 					var = COUNTRY_e_c
 					min = -10000
 				}
-				clamp_variable ={
+				clamp_variable = {
 					var = COUNTRY_e_c
 					max = 10000
 				}
@@ -101,7 +107,7 @@ on_actions = {
 			NPL = {
 				add_ideas = ice_elemental
 			}
-			JPN ={
+			JPN = {
 				set_country_flag = SHINTO_CONTRY
 			}
 			every_country = {
@@ -344,7 +350,6 @@ on_actions = {
 						}
 					}
 				}
-
 			}
 		}
 	}
@@ -364,7 +369,9 @@ on_actions = {
 					set_temp_variable = {
 						gdp_pp = BSMS_GDP_y
 					}
-					divide_variable = {gdp_pp = 110}
+					divide_variable = {
+						gdp_pp = 110
+					}
 					add_political_power = gdp_pp
 					add_to_variable = {
 						COUNTRY_e_c = gdp_pp
@@ -387,70 +394,102 @@ on_actions = {
 	on_daily = {
 		effect = {
 			every_country = {
-				set_temp_variable = { temp = modifier@COUNTRY_P_O_gain_factor }
-				divide_variable = { temp = 100 }		
-				set_temp_variable = { temp_1 = modifier@daily_COUNTRY_P_O_gain }
-				multiply_variable = { temp = temp_1}
-				add_to_variable = { COUNTRY_P_O = temp }
-		
-				set_temp_variable = { temp = modifier@COUNTRY_e_c_gain_factor }
-				divide_variable = { temp = 100 }		
-				set_temp_variable = { temp_1 = modifier@daily_COUNTRY_e_c_gain }
-				multiply_variable = { temp = temp_1}
-				add_to_variable = { COUNTRY_e_c = temp }
-				
-
+				set_temp_variable = {
+					temp = modifier@COUNTRY_P_O_gain_factor
+				}
+				divide_variable = {
+					temp = 100
+				}
+				set_temp_variable = {
+					temp_1 = modifier@daily_COUNTRY_P_O_gain
+				}
+				multiply_variable = {
+					temp = temp_1
+				}
+				add_to_variable = {
+					COUNTRY_P_O = temp
+				}
+				set_temp_variable = {
+					temp = modifier@COUNTRY_e_c_gain_factor
+				}
+				divide_variable = {
+					temp = 100
+				}
+				set_temp_variable = {
+					temp_1 = modifier@daily_COUNTRY_e_c_gain
+				}
+				multiply_variable = {
+					temp = temp_1
+				}
+				add_to_variable = {
+					COUNTRY_e_c = temp
+				}
 			}
 		}
 	}
 	on_weekly = {
 		effect = {
 			every_country = {
-				add_to_variable = { COUNTRY_CULTURAL_DEGREE = modifier@weekly_COUNTRY_CULTURAL_DEGREE }
-				add_to_variable = { COUNTRY_P_O = COUNTRY_CULTURAL_DEGREE }
+				add_to_variable = {
+					COUNTRY_CULTURAL_DEGREE = modifier@weekly_COUNTRY_CULTURAL_DEGREE
+				}
+				add_to_variable = {
+					COUNTRY_P_O = COUNTRY_CULTURAL_DEGREE
+				}
 				BSM_weekly_mine = yes
 				BSM_MINE_EXPORT = yes
 			}
 		}
 	}
-
-	on_nuke_drop = {#核が落ちたときの挙動
+	on_nuke_drop = {
+		#核が落ちたときの挙動
 		effect = {
 			log = "[GetDate]: on_nuke_drop"
 			FROM = {
-				set_variable = { killed_by_nuke_dropped = FROM.state_population_k }
+				set_variable = {
+					killed_by_nuke_dropped = FROM.state_population_k
+				}
 				if = {
 					limit = {
 						OR = {
-							has_state_category = wasteland #荒地
-							has_state_category = pastoral #牧畜地域
-							has_state_category = rural #牧歌的地域
-							has_state_category = town #開発済みの牧歌的地域
-							has_state_category = large_town #低密度の都市化地域
+							has_state_category = wasteland							#荒地
+							has_state_category = pastoral							#牧畜地域
+							has_state_category = rural							#牧歌的地域
+							has_state_category = town							#開発済みの牧歌的地域
+							has_state_category = large_town							#低密度の都市化地域
 						}
 					}
-					multiply_variable = { killed_by_nuke_dropped = -10 }#死者数:1%
+					multiply_variable = {
+						killed_by_nuke_dropped = -10
+					}
+					#死者数:1%
 				}
 				else_if = {
 					limit = {
 						OR = {
-							has_state_category = metropolis #大都市化した地域
-							has_state_category = megalopolis #巨大都市化した地域
-							has_state_category = large_city #高密度に都市化した地域
-							has_state_category = city # 都市化した地域
+							has_state_category = metropolis							#大都市化した地域
+							has_state_category = megalopolis							#巨大都市化した地域
+							has_state_category = large_city							#高密度に都市化した地域
+							has_state_category = city							# 都市化した地域
 						}
 					}
-					multiply_variable = { killed_by_nuke_dropped = -30 }#死者数:3%
+					multiply_variable = {
+						killed_by_nuke_dropped = -30
+					}
+					#死者数:3%
 				}
 				else_if = {
 					limit = {
 						OR = {
-							has_state_category = enclave #飛び地
-							has_state_category = small_island #小島
-							has_state_category = tiny_island #極小島						
+							has_state_category = enclave							#飛び地
+							has_state_category = small_island							#小島
+							has_state_category = tiny_island							#極小島						
 						}
 					}
-					multiply_variable = { killed_by_nuke_dropped = -50 }#死者数:5% 
+					multiply_variable = {
+						killed_by_nuke_dropped = -50
+					}
+					#死者数:5% 
 				}
 				add_manpower = killed_by_nuke_dropped
 				clear_variable = killed_by_nuke_dropped
@@ -460,15 +499,17 @@ on_actions = {
 					days = 90
 				}
 			}
-			if = {#聖地の場合
+			if = {
+				#聖地の場合
 				limit = {
 					OR = {
-						FROM = { state = 922 }
+						FROM = {
+							state = 922
+						}
 					}
 				}
 				news_event = nukes_drop.1
 			}
 		}
 	}
-
 }

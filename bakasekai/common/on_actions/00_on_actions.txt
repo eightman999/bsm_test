@@ -1,25 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			JPN = {
-				play_song = "music_GGKSMKK"
-			}
-			every_country = {
-				# ROOT = {
-					# set_country_flag = you_are_harvester
-					# set_country_flag = HS_START
-					# set_country_flag = HS_dev
-					# HS_START_HARVEST = yes
-					# HS_START_STATE = yes
-					# HS_Yield_calculation_MAIN = yes
-					# HS_Fishing_calculation = yes
-					# HS_Impact_list = yes
-					# country_event = {
-					# 	id = bsm_HS.0
-					# 	days = 1
-					# }
-				# }
-			}
 			every_country = {
 				limit = {
 					OR = {
@@ -33,104 +14,117 @@ on_actions = {
 						original_tag = NPL
 						original_tag = NSI
 					}
-                }
+				}
 				add_ideas = mystery_country
 			}
 			every_country = {
 				limit = {
 					NOT = {
 						# OR = {
-							original_tag = MYS
-							original_tag = MON
-							original_tag = NMX
-							original_tag = AUS
-							original_tag = HRH
-							original_tag = VAT
-							original_tag = SPL
-							original_tag = NPL
-							original_tag = NSI
+						original_tag = MYS
+						original_tag = MON
+						original_tag = NMX
+						original_tag = AUS
+						original_tag = HRH
+						original_tag = VAT
+						original_tag = SPL
+						original_tag = NPL
+						original_tag = NSI
 						# }
 					}
 				}
 				add_ideas = normal_country
 			}
-
 			every_country = {
-                limit = {
-                    is_neighbor_of = MYS
-                }
+				limit = {
+					is_neighbor_of = MYS
+				}
 				random_list = {
 					75 = {
-						country_event = { days = 10 id = MYS.1}
+						country_event = {
+							days = 10
+							id = MYS.1
+						}
 					}
 					25 = {
-						country_event = { days = 10 id = MYS.2}
+						country_event = {
+							days = 10
+							id = MYS.2
+						}
 					}
 				}
-            }
+			}
 			every_country = {
 				limit = {
-                    NOT = {
+					NOT = {
 						original_tag = MYS
 					}
-                }
+				}
 				set_variable = {
-					var	= COUNTRY_resource_minor_artifacts
+					var = COUNTRY_resource_minor_artifacts
 					value = 0
 				}
-				set_variable = { COUNTRY_CULTURAL_DEGREE = modifier@base_COUNTRY_CULTURAL_DEGREE }
-				set_variable = { var = COUNTRY_P_O value = 10 }
+				set_variable = {
+					COUNTRY_CULTURAL_DEGREE = modifier@base_COUNTRY_CULTURAL_DEGREE
+				}
+				set_variable = {
+					var = COUNTRY_P_O
+					value = 10
+				}
 			}
 			every_country = {
 				limit = {
-
 					original_tag = MYS
-					
-                }
-				set_variable = { COUNTRY_CULTURAL_DEGREE = modifier@base_COUNTRY_CULTURAL_DEGREE }
-				set_variable = { var = COUNTRY_P_O value = 100 }
+				}
+				set_variable = {
+					COUNTRY_CULTURAL_DEGREE = modifier@base_COUNTRY_CULTURAL_DEGREE
+				}
+				set_variable = {
+					var = COUNTRY_P_O
+					value = 100
+				}
 			}
 			every_country = {
-                limit = {
-                    is_ai = no
-                }
-                country_event = start.0
-				clamp_variable ={
+				limit = {
+					is_ai = no
+				}
+				country_event = start.0
+				clamp_variable = {
 					var = COUNTRY_CULTURAL_DEGREE
 					min = -1
 				}
-				clamp_variable ={
+				clamp_variable = {
 					var = COUNTRY_CULTURAL_DEGREE
 					max = 1
 				}
-				clamp_variable ={
+				clamp_variable = {
 					var = COUNTRY_P_O
 					min = -10000
 				}
-				clamp_variable ={
+				clamp_variable = {
 					var = COUNTRY_P_O
 					max = 10000
 				}
-
-				# add_dynamic_modifier = { modifier = civ_research_buff }
-				
-            }
+				add_dynamic_modifier = {
+					modifier = civ_research_buff
+				}
+			}
 			every_country = {
 				limit = {
 					original_tag = MYS
 					original_tag = MON
-                }
+				}
 				set_variable = {
-					var	= COUNTRY_resource_minor_artifacts
+					var = COUNTRY_resource_minor_artifacts
 					value = 10
 				}
 				every_owned_state = {
-					set_variable = { 
-						var = State_pop_Tulpa_k 
+					set_variable = {
+						var = State_pop_Tulpa_k
 						value = state_population_k
 					}
-					set_variable = { 
-						var = State_pop_Tulpa_k 
+					set_variable = {
+						var = State_pop_Tulpa_k
 						value = state_population_k
 					}
 				}
@@ -138,13 +132,13 @@ on_actions = {
 			every_country = {
 				limit = {
 					original_tag = AUS
-                }
+				}
 				set_variable = {
-					var	= COUNTRY_resource_minor_artifacts
+					var = COUNTRY_resource_minor_artifacts
 					value = 4
 				}
 				every_owned_state = {
-					set_variable = { 
+					set_variable = {
 						var = State_pop_emu_k
 						value = state_population_k
 					}
@@ -153,13 +147,13 @@ on_actions = {
 			every_country = {
 				limit = {
 					original_tag = NMX
-                }
+				}
 				set_variable = {
-					var	= COUNTRY_resource_minor_artifacts
+					var = COUNTRY_resource_minor_artifacts
 					value = 1
 				}
 				every_owned_state = {
-					set_variable = { 
+					set_variable = {
 						var = State_pop_cat_k
 						value = state_population_k
 					}
@@ -172,13 +166,13 @@ on_actions = {
 						original_tag = MYS
 						original_tag = NMX
 					}
-                }
+				}
 				set_variable = {
-					var	= COUNTRY_resource_minor_artifacts
+					var = COUNTRY_resource_minor_artifacts
 					value = 0
 				}
 				every_owned_state = {
-					set_variable = { 
+					set_variable = {
 						var = State_pop_human_k
 						value = state_population_k
 					}
@@ -262,7 +256,9 @@ on_actions = {
 							}
 						}
 					}
-					WES = { set_country_flag = WES_AI_RANDOM_EMPIRE }
+					WES = {
+						set_country_flag = WES_AI_RANDOM_EMPIRE
+					}
 				}
 			}
 			BKK = {

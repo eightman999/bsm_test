@@ -1,5 +1,4 @@
 spriteTypes = {
-
 	spriteType = {
 		name = "GFX_98_BG"
 		textureFile = "gfx/interface/GUI/98/base.png"
@@ -28,5 +27,4 @@ spriteTypes = {
 		name = "GFX_98_slider_bg"
 		textureFile = "gfx/interface/GUI/98/bar_bg.png"
 	}
-	
 }

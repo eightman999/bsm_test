@@ -6,17 +6,12 @@ focus_tree = {
 	}
 	country = {
 		factor = 0
-		if = {
-			limit = {
-				SPL = {
-					has_country_flag = OS_musume
-				}
-			}
 			modifier = {
 				add = 10
 				tag = SPL
+				has_country_flag = OS_musume
 			}
-		}
+		
 	}
 	#情報網の構築
 	focus = {
@@ -135,8 +130,8 @@ focus_tree = {
 				add_ideas = jyunno
 			}
 			add_political_power = 150
-			country_event = {
-			}
+			# country_event = {
+			# }
 		}
 	}
 	#我らの神
@@ -201,13 +196,13 @@ focus_tree = {
 			}
 		}
 		complete_tooltip = {
-			set_country_leader_ideology = intellectualism
+			set_country_leader_ideology = knowledge_enlightenment
 			SPL_THEMAN = {
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
 						expire = "1950.1.1"
-						ideology = knowledge_intensiveism
+						ideology = knowledge_enlightenment
 						traits = {
 						}
 					}

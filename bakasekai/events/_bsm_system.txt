@@ -14,7 +14,7 @@ news_event = {
 	option = {
 		name = nukes_drop.1.a
 		trigger = {
-			has_idea = RomanCatholicism
+			has_idea = catholicism
 		}
 		add_stability = -0.3
 		hidden_effect = {
@@ -32,7 +32,7 @@ news_event = {
 		name = nukes_drop.1.b
 		trigger = {
 			NOT = {
-				has_idea = RomanCatholicism
+				has_idea = catholicism
 			}
 		}
 
@@ -44,7 +44,7 @@ country_event = {
 	title = nukes_drop.2.t
 	desc = nukes_drop.2.desc
 	picture = GFX_report_event_nuke
-	fire_only_once = no
+	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = nukes_drop.2.a
@@ -83,7 +83,7 @@ country_event = {
 	title = nukes_drop.3.t
 	desc = nukes_drop.3.desc
 	picture = GFX_report_event_nuke
-	fire_only_once = no
+	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = nukes_drop.3.a

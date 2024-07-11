@@ -25,11 +25,11 @@ governments_in_exile = {
 			}
 		}
 		complete_effect = {
-			# FROM = {
-			# 	country_event = {
-			# 		id = mtg_exile_government.2
-			# 	}
-			# }
+			FROM = {
+				country_event = {
+					id = mtg_exile_government.2
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1

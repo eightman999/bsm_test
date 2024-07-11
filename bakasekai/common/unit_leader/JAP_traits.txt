@@ -1,14 +1,12 @@
 leader_traits = {
-
-	
-##################################
-# Common Traits
-##################################
-	JAP_samurai_lineage = { 
+	##################################
+	# Common Traits
+	##################################
+	JAP_samurai_lineage = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
-			always = no # not gainable
+			always = no			# not gainable
 		}
 		allowed = {
 			FROM = {
@@ -16,9 +14,7 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -26,11 +22,11 @@ leader_traits = {
 			factor = 0
 		}
 	}
-	JAP_democratic_loyalist = { 
+	JAP_democratic_loyalist = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
-			always = no # not gainable
+			always = no			# not gainable
 		}
 		allowed = {
 			FROM = {
@@ -38,9 +34,7 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -48,12 +42,11 @@ leader_traits = {
 			factor = 0
 		}
 	}
-
-	JAP_communist_sympathizer = { 
+	JAP_communist_sympathizer = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
-			always = no # not gainable
+			always = no			# not gainable
 		}
 		allowed = {
 			FROM = {
@@ -61,9 +54,7 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -76,15 +67,12 @@ leader_traits = {
 ##################################
 # Field Marshal traits.
 ##################################
-	
 ##################################
 # Corps Commander traits.
 ##################################
-	
 ##################################
 # Corps Commander assignabme traits.
 ##################################
-
 ##################################
 # Naval traits.
 ##################################

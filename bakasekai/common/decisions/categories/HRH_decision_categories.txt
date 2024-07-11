@@ -12,6 +12,7 @@ HRH_government_rebuilding = {
 		}
 	}
 }
+
 HRH_recapture_states = {
 	allowed = {
 		original_tag = HRH

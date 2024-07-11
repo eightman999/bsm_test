@@ -13,6 +13,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 create_country_leader = {
 	name = "Nikolay Aleksandrovich Skvortsov"
 	desc = ""
@@ -20,7 +21,6 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
-		
 	}
 }
 
@@ -31,7 +31,6 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
-		
 	}
 }
 

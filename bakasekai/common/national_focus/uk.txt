@@ -2803,12 +2803,12 @@ focus_tree = {
 			}
 			add_political_power = 80
 			custom_effect_tooltip = ENG_concessions_to_the_trade_unions_tt_2
-			hidden_effect = {
-				news_event = {
-					id = mtg_news.14
-					days = 1
-				}
-			}
+			# hidden_effect = {
+			# 	news_event = {
+			# 		id = mtg_news.14
+			# 		days = 1
+			# 	}
+			# }
 		}
 	}
 	focus = {
@@ -2849,12 +2849,12 @@ focus_tree = {
 						modifier = ENG_guiding_the_colonies
 					}
 					add_ideas = ENG_guided_by_britain_1
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.17
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.17
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			ZAF = {
@@ -2868,12 +2868,12 @@ focus_tree = {
 						modifier = ENG_guiding_the_colonies
 					}
 					add_ideas = ENG_guided_by_britain_1
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.17
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.17
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			AUS = {
@@ -2887,12 +2887,12 @@ focus_tree = {
 						modifier = ENG_guiding_the_colonies
 					}
 					add_ideas = ENG_guided_by_britain_1
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.17
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.17
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			ERO = {
@@ -2906,12 +2906,12 @@ focus_tree = {
 						modifier = ENG_guiding_the_colonies
 					}
 					add_ideas = ENG_guided_by_britain_1
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.17
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.17
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			MAL = {
@@ -2925,12 +2925,12 @@ focus_tree = {
 						modifier = ENG_guiding_the_colonies
 					}
 					add_ideas = ENG_guided_by_britain_2
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.17
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.17
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 		}
@@ -3002,12 +3002,12 @@ focus_tree = {
 						remove_idea = ENG_guided_by_britain_1
 						add_idea = ENG_guided_by_britain_2
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.18
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.18
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			ZAF = {
@@ -3020,12 +3020,12 @@ focus_tree = {
 						remove_idea = ENG_guided_by_britain_1
 						add_idea = ENG_guided_by_britain_2
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.18
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.18
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			AUS = {
@@ -3038,12 +3038,12 @@ focus_tree = {
 						remove_idea = ENG_guided_by_britain_1
 						add_idea = ENG_guided_by_britain_2
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.18
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.18
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			ERO = {
@@ -3056,12 +3056,12 @@ focus_tree = {
 						remove_idea = ENG_guided_by_britain_1
 						add_idea = ENG_guided_by_britain_2
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.18
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.18
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 		}
@@ -3124,12 +3124,12 @@ focus_tree = {
 						modifier = ENG_guiding_the_colonies
 					}
 					add_ideas = ENG_guided_by_britain_raj_1
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.19
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.19
+					# 		hours = 6
+					# 	}
+					# }
 					random_owned_controlled_state = {
 						limit = {
 							free_building_slots = {
@@ -3280,12 +3280,12 @@ focus_tree = {
 							}
 						}
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.20
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.20
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 		}
@@ -3330,12 +3330,12 @@ focus_tree = {
 					remove_idea = ENG_guided_by_britain_RAJ_1
 					add_idea = ENG_guided_by_britain_RAJ_2
 				}
-				hidden_effect = {
-					country_event = {
-						id = mtg_britain.21
-						hours = 6
-					}
-				}
+				# hidden_effect = {
+				# 	country_event = {
+				# 		id = mtg_britain.21
+				# 		hours = 6
+				# 	}
+				# }
 			}
 			if = {
 				limit = {
@@ -3346,12 +3346,12 @@ focus_tree = {
 						remove_idea = ENG_guided_by_britain_RAJ_1
 						add_idea = ENG_guided_by_britain_RAJ_2
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.21
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.21
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			if = {
@@ -3363,12 +3363,12 @@ focus_tree = {
 						remove_idea = ENG_guided_by_britain_RAJ_1
 						add_idea = ENG_guided_by_britain_RAJ_2
 					}
-					hidden_effect = {
-						country_event = {
-							id = mtg_britain.21
-							hours = 6
-						}
-					}
+					# hidden_effect = {
+					# 	country_event = {
+					# 		id = mtg_britain.21
+					# 		hours = 6
+					# 	}
+					# }
 				}
 			}
 			if = {
@@ -5629,12 +5629,12 @@ focus_tree = {
 			}
 			clr_country_flag = ENG_switched_to_communism_civil_war_flag
 			custom_effect_tooltip = ENG_concessions_to_the_trade_unions_tt_2
-			hidden_effect = {
-				news_event = {
-					id = mtg_news.15
-					days = 1
-				}
-			}
+			# hidden_effect = {
+			# 	news_event = {
+			# 		id = mtg_news.15
+			# 		days = 1
+			# 	}
+			# }
 		}
 	}
 	### END OF DECOLONIZATION ###
@@ -7705,17 +7705,17 @@ focus_tree = {
 						}
 					}
 				}
-				country_event = {
-					id = mtg_britain.82
-					hours = 6
-				}
+				# country_event = {
+				# 	id = mtg_britain.82
+				# 	hours = 6
+				# }
 			}
-			hidden_effect = {
-				news_event = {
-					id = mtg_news.13
-					days = 1
-				}
-			}
+			# hidden_effect = {
+			# 	news_event = {
+			# 		id = mtg_news.13
+			# 		days = 1
+			# 	}
+			# }
 			custom_effect_tooltip = ENG_imperial_conference_tt
 			custom_effect_tooltip = ENG_indian_autonomy_tt
 		}
@@ -8242,10 +8242,10 @@ focus_tree = {
 					}
 				}
 				set_cosmetic_tag = ENG_imperial_federation_unified
-				news_event = {
-					id = mtg_news.8
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.8
+				# 	days = 1
+				# }
 			}
 			if = {
 				limit = {
@@ -8254,10 +8254,10 @@ focus_tree = {
 					}
 				}
 				set_cosmetic_tag = ENG_imperial_federation_india_unified
-				news_event = {
-					id = mtg_news.9
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.9
+				# 	days = 1
+				# }
 			}
 			CAN = {
 				every_unit_leader = {
@@ -8287,7 +8287,7 @@ focus_tree = {
 				limit = {
 					ZAF = {
 						# has_completed_focus = SAF_police_windhoek
-						has_stability >0.5
+						has_stability > 0.5
 					}
 				}
 				every_state = {
@@ -8630,9 +8630,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = -0.1
-			country_event = {
-				id = mtg_britain.22
-			}
+			# country_event = {
+			# 	id = mtg_britain.22
+			# }
 		}
 	}
 	focus = {
@@ -8671,10 +8671,10 @@ focus_tree = {
 			}
 			add_ideas = ENG_no_further_appeasement_idea
 			hidden_effect = {
-				news_event = {
-					id = mtg_news.16
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.16
+				# 	days = 1
+				# }
 			}
 		}
 	}
@@ -8982,10 +8982,10 @@ focus_tree = {
 			unlock_decision_category_tooltip = ENG_enforce_the_naval_treaties
 			custom_effect_tooltip = ENG_enforce_the_naval_treaties_tt
 			hidden_effect = {
-				news_event = {
-					id = mtg_news.17
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.17
+				# 	days = 1
+				# }
 			}
 		}
 	}
@@ -9114,10 +9114,10 @@ focus_tree = {
 				}
 			}
 			hidden_effect = {
-				news_event = {
-					id = mtg_news.18
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.18
+				# 	days = 1
+				# }
 			}
 		}
 	}
@@ -10300,10 +10300,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			DEU = {
-				country_event = {
-					id = mtg_britain.23
-					hours = 6
-				}
+				# country_event = {
+				# 	id = mtg_britain.23
+				# 	hours = 6
+				# }
 			}
 		}
 	}
@@ -10476,10 +10476,10 @@ focus_tree = {
 			add_political_power = 200
 			custom_effect_tooltip = ENG_organize_the_blackshirts_tt
 			hidden_effect = {
-				news_event = {
-					id = mtg_news.23
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.23
+				# 	days = 1
+				# }
 				add_ai_strategy = {
 					type = alliance
 					id = GRC
@@ -10703,10 +10703,10 @@ focus_tree = {
 				}
 			}
 			ITA = {
-				country_event = {
-					id = mtg_britain.36
-					hours = 6
-				}
+				# country_event = {
+				# 	id = mtg_britain.36
+				# 	hours = 6
+				# }
 			}
 		}
 	}
@@ -10768,10 +10768,10 @@ focus_tree = {
 						original_tag = ESP
 						has_government = fascism_ideology
 					}
-					country_event = {
-						id = mtg_britain.40
-						hours = 6
-					}
+					# country_event = {
+					# 	id = mtg_britain.40
+					# 	hours = 6
+					# }
 				}
 			}
 			if = {
@@ -10781,10 +10781,10 @@ focus_tree = {
 					}
 				}
 				ESP = {
-					country_event = {
-						id = mtg_britain.40
-						hours = 6
-					}
+					# country_event = {
+					# 	id = mtg_britain.40
+					# 	hours = 6
+					# }
 				}
 			}
 		}
@@ -12175,10 +12175,10 @@ focus_tree = {
 			dismantle_faction = yes
 			create_faction = ENG_british_communist_alternative
 			hidden_effect = {
-				news_event = {
-					id = mtg_news.36
-					days = 1
-				}
+				# news_event = {
+				# 	id = mtg_news.36
+				# 	days = 1
+				# }
 			}
 			if = {
 				limit = {
