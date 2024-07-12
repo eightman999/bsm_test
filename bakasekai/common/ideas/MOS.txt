@@ -62,7 +62,7 @@ ideas = {
 		}
 	}
 	Extra = {
-		designer = yes
+		# designer = yes
 		South_Manchuria_Railway = {
 			name = South_Manchuria_Railway
 			picture = South_Manchuria_Railway
