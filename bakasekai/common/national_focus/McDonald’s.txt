@@ -607,7 +607,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_cola_capitalism
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_spa_the_spanish_miracle
 		relative_position_id = MAC_coca_cola
 		x = 0
 		y = 1
@@ -909,7 +909,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_pre_emptive_uprising #先制蜂起
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_ETH_freedom_at_gunpoint
 		relative_position_id = MAC_start_cola_war
 		x = 0
 		y = 6
@@ -1209,7 +1209,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_loans_from_banks #銀行からの融資
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_generic_self_management
 		relative_position_id = MAC_start_cola_war
 		x = -1
 		y = 2
@@ -1275,7 +1275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAC_state_of_US_congress #連邦政府議会演説
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_chi_mission_to_the_us
 		relative_position_id = MAC_start_cola_war
 		x = -1
 		y = 4
