@@ -629,7 +629,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_promote_lobbying #ロビー活動の促進
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		relative_position_id = MAC_coca_cola
 		x = 0
 		y = 2
@@ -672,7 +672,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MAC_mass_propaganda_campaign #大規模宣伝戦
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_goal_generic_radar
 		relative_position_id = MAC_coca_cola
 		x = 0
 		y = 4
@@ -718,7 +718,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_coca_cola_win #コカ・コーラの勝利
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_generic_railroad
 		relative_position_id = MAC_start_cola_war
 		x = -7
 		y = 2
@@ -752,7 +752,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_coca_cola_wi
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_mex_privatisation
 		relative_position_id = MAC_coca_cola_win
 		x = 0
 		y = 1
@@ -775,7 +775,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_coca_cola_w
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_ETH_re-convene_the_parliament
 		relative_position_id = MAC_coca_cola_win
 		x = 0
 		y = 2
@@ -798,7 +798,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_coca_cola_
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_generic_american_investments
 		relative_position_id = MAC_coca_cola_win
 		x = 0
 		y = 3
@@ -821,7 +821,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_coca_cola__
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_generic_improve_the_administration
 		relative_position_id = MAC_coca_cola_win
 		x = 0
 		y = 4
@@ -875,7 +875,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_organise_militias
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_generic_limited_social_mobilization
 		relative_position_id = MAC_start_cola_war
 		x = 0
 		y = 5
@@ -974,7 +974,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_pepsi_propaganda #ペプシ・プロパガンダ
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_goal_generic_propaganda
 		relative_position_id = MAC_pepsi_cola
 		x = 0
 		y = 1
@@ -1004,7 +1004,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_alliance_with_Soviets #ソビエトとの共闘
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		relative_position_id = MAC_pepsi_cola
 		x = 0
 		y = 2
@@ -1034,7 +1034,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_pepsi_march #ペプシの行進
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_generic_full_employment
 		relative_position_id = MAC_pepsi_cola
 		x = 0
 		y = 3
@@ -1064,7 +1064,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_VS_Leonard #レナードとの戦い
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_SOV_women_in_aviation
 		relative_position_id = MAC_pepsi_cola
 		x = 0
 		y = 4
@@ -1117,7 +1117,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_get_Harrier #ハリアーを入手
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_SMB_purchase_aircraft
 		relative_position_id = MAC_pepsi_win
 		x = 0
 		y = 1
@@ -1140,7 +1140,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_pepsi_navy #ペプシ海軍
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
 		relative_position_id = MAC_pepsi_win
 		x = 0
 		y = 2
@@ -1238,7 +1238,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_plant_expansion #工場の拡充
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_focus_NORDIC_com_capstone_civilian
 		relative_position_id = MAC_start_cola_war
 		x = -1
 		y = 3
