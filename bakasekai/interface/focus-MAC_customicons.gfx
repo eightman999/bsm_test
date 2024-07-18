@@ -45,6 +45,16 @@ spriteTypes = {	##Icon For:
 	}
 
 	SpriteType = { 
+		name = "GFX_MAC_with_bking"
+		texturefile = "gfx/interface/goals/GFX_MAC_with_bking.png"
+	}
+
+	SpriteType = { 
+		name = "GFX_MAC_against_bking"
+		texturefile = "gfx/interface/goals/GFX_MAC_against_bking.png"
+	}
+
+	SpriteType = { 
 		name = "GFX_MAC_pepsi_side"
 		texturefile = "gfx/interface/goals/GFX_MAC_pepsi_side.png"
 	}

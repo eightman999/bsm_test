@@ -1163,7 +1163,7 @@ focus_tree = {
 
 	focus = {
 		id = MAC_pepsiman_division #ペプシマン師団
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_SOV_war_measures_in_the_east_ccp_2d_sov_compatibility
 		relative_position_id = MAC_pepsi_win
 		x = 0
 		y = 3
@@ -1408,8 +1408,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MAC_against_king
-		icon = GFX_focus_generic_the_giant_wakes
+		id = MAC_against_bking
+		icon = GFX_MAC_against_bking
 		relative_position_id = MAC_start_cola_war
 		x = -1
 		y = 8		
@@ -1418,7 +1418,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = {
-			focus = MAC_with_king
+			focus = MAC_with_bking
 		}
 		available = {
 			AND = {
@@ -1440,8 +1440,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MAC_with_king
-		icon = GFX_focus_generic_the_giant_wakes
+		id = MAC_with_bking
+		icon = GFX_MAC_with_bking
 		relative_position_id = MAC_start_cola_war
 		x = 1
 		y = 8		
@@ -1450,7 +1450,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = {
-			focus = MAC_against_king
+			focus = MAC_against_bking
 		}
 		available = {
 			AND = {
