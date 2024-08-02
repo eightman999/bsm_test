@@ -42,7 +42,7 @@
 - Todd Howard : Korean Portrait Pack (https://steamcommunity.com/sharedfiles/filedetails/?id=2025730575)
 - 武士道 :Hagakure - The East Asia Expansion (https://steamcommunity.com/sharedfiles/filedetails/?id=2834647264)
 - MouToN :Community Portrait Pack (https://steamcommunity.com/sharedfiles/filedetails/?id=2715284475&tscn=1719757290)
-- ミディアムレア：アマテラス大神 (https://seiga.nicovideo.jp/seiga/im7777671)
+- 鴉天狗A https://x.com/KarasutenguA：アマテラス大神 (https://seiga.nicovideo.jp/seiga/im7777671)
 - dairi＆はるか：東方立ち絵  (https://www.pixiv.net/users/4920496)
 - ふたば☆ちゃんねる/としあき/Meのお部屋管理人 (https://web.archive.org/web/20151203234058/http://www21.atpages.jp/nisehokanko/windows-me-tan/index.htm)
 
