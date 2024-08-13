@@ -40,10 +40,27 @@ VAT_divine_punishment = {
             }
             random_owned_state = {
 				VAT = {
-				launch_nuke = {
-    				state = PREV
-					use_nuke = no
-				}}
+					launch_nuke = {
+    					state = PREV
+						use_nuke = no
+					}
+				}
+            }
+			random_owned_state = {
+				VAT = {
+					launch_nuke = {
+    					state = PREV
+						use_nuke = no
+					}
+				}
+            }
+			random_owned_state = {
+				VAT = {
+					launch_nuke = {
+    					state = PREV
+						use_nuke = no
+					}
+				}
             }
         }
     }
