@@ -2,7 +2,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "global_alerticon_window"
-		position = { x=150 y=0 }
+		position = { x=0 y=0 }
 		size = { width=43 height=38 }
 		moveable = no
 		Orientation = UPPER_LEFT
@@ -39,12 +39,12 @@ guiTypes = {
 
 	positionType = {
 		name = "alerticon_startposition"
-		position = { x = 662 y = 38 }
+		position = { x = 822 y = 38 }
 	}
 
 	positionType = {
 		name = "alerticon_startposition_extended"
-		position = { x = 718 y = 38 }
+		position = { x = 918 y = 38 }
 	}
 	
 	positionType = {
@@ -55,7 +55,7 @@ guiTypes = {
 	# This one is used to figure out when we nead to break and start adding icons on the next row (only x is used)
 	positionType = {
 		name = "alerticon_endposition"
-		position = { x = 315 y = 0 } 
+		position = { x = 465 y = 0 } 
 	}
 	
 	containerWindowType = {

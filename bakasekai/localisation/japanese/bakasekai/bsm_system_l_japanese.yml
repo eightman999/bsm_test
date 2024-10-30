@@ -5,7 +5,8 @@ popular_opinion_desc:0 "国民が、§Hバカであればあるほど§!多く�
 
 COUNTRY_CD:0 "[?ROOT.COUNTRY_CULTURAL_DEGREE|0%]"
 CULTURAL_DEGREES_title:0 "文明化率"
-CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?COUNTRY_CULTURAL_DEGREE|0%]\n政治力獲得補正:[?COUNTRY_CULTURAL_DEGREE|0%]\n安定度補正:[?COUNTRY_CULTURAL_DEGREE|0%]"
+CULTURAL_DEGREES_desc_test_2:0 "[CULTURAL_DEGREES_desc_test]"
+CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?COUNTRY_CULTURAL_DEGREE|0%]\n政治力獲得補正:[?COUNTRY_CULTURAL_DEGREE|0%]\n安定度補正:[?COUNTRY_CULTURAL_DEGREE|0%]（[?global.year]）"
 COUNTRY_CD:0 "[?ROOT.COUNTRY_CULTURAL_DEGREE|0%]"
 
 Energie_currencies_title:0 "通貨"
