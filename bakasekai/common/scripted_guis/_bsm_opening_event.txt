@@ -1,0 +1,13 @@
+scripted_gui = {
+	bsm_OE_GUI = {
+		window_name = "bsm_OE_GUI"
+		context_type = player_context
+		visible = { has_country_flag = bsm_OE_GUI }
+		effects = {
+			OE_close_button_click = {
+				clr_country_flag = bsm_OE_GUI
+			}
+		}
+	}
+
+}

@@ -9,10 +9,7 @@ guiTypes = {
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
 			background = {
-				position = {
-					x = 2
-					y = 1
-				}
+				position = { x = 2 y = 1 }
 				name = "po_bg"
 				quadTextureSprite ="GFX_bg_mini_tooltip"
 				pdx_tooltip = "popular_opinion_title"
@@ -119,6 +116,21 @@ guiTypes = {
 				pdx_tooltip_delayed = "Energie_currencies_desc"
 			}
 		}
+		containerWindowType = {
+			name = "bsm_OE_GUI_open"
+			position = { x= -400 y = 4}
+			size = { width=40 height=40 }
+			Orientation = UPPER_RIGHT
+			buttonType = {#opening event
+				name = "bsm_OE_GUI_open_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_bsm_icon"
+				Orientation = "UPPER_right"
+				clicksound = click_close
+				oversound = ui_menu_over
+				scale = 1
+			}
+		}
 		# buttonType = {
 		# 	name = "country_info_button"
 		# 	position = { x = 613 y = 44 }
@@ -128,5 +140,6 @@ guiTypes = {
 		# 	clicksound = click_close
 		# 	oversound = ui_menu_over
 		# }
+
 	}
 }

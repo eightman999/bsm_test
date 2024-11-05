@@ -1,2 +1,7 @@
 ﻿l_japanese:
 OE_title:0 "バカ世界地図mod"
+
+OE_forward:0 "進む"
+OE_back:0 "戻る"
+OE_address_title:0 "http://twitter.com/bakano/kangaeta/world_map/neko.jp"
+OE_main_text:0 "バカ世界地図へようこそ"

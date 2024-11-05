@@ -1,1 +1,18 @@
-scripted_gui = { bsm_topbar = { window_name = "bsm_topbar" context_type = player_context } }
+scripted_gui = {
+	bsm_topbar = {
+		window_name = "bsm_topbar"
+		context_type = player_context
+		effects = {
+			bsm_OE_GUI_open_button_click = {
+				if = {
+					limit = { has_country_flag = bsm_OE_GUI }
+					clr_country_flag = bsm_OE_GUI
+				}
+				else = {
+					set_country_flag = bsm_OE_GUI
+				}
+			}
+		}
+	}
+
+}
