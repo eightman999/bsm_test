@@ -131,14 +131,6 @@ spriteTypes = {
 		textureFile = "gfx/parties/JPN/JPN_Kyosan.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_shinto"
-		textureFile = "gfx/religion/shinto.png"
-	}
-	spriteType = {
-		name = "GFX_idea_buddhism"
-		textureFile = "gfx/religion/Bukkyo.png"
-	}
-	spriteType = {
 		name = "GFX_idea_ShiiteIslam"
 		textureFile = "gfx/religion/ShiiteIslam.png"
 	}
@@ -214,4 +206,70 @@ spriteTypes = {
 		name = "GFX_idea_JPN_Taikankyohou"
 		textureFile = "gfx/parties/JPN/kyo.png"
 	}
+
+	SpriteType = {
+		name = "GFX_idea_atheism"
+		texturefile = "gfx/interface/ideas/idea_atheism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_secularism"
+		texturefile = "gfx/interface/ideas/idea_secularism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_anemism"
+		texturefile = "gfx/interface/ideas/idea_anemism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_catholicism"
+		texturefile = "gfx/interface/ideas/idea_catholicism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_orthodoxy"
+		texturefile = "gfx/interface/ideas/idea_orthodoxy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_protestantism"
+		texturefile = "gfx/interface/ideas/idea_protestantism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_judaism"
+		texturefile = "gfx/interface/ideas/idea_judaism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_sunni"
+		texturefile = "gfx/interface/ideas/idea_sunni.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_shia"
+		texturefile = "gfx/interface/ideas/idea_shia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_hinduism"
+		texturefile = "gfx/interface/ideas/idea_hinduism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_buddhism"
+		texturefile = "gfx/interface/ideas/idea_buddhism.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_chinese_rels"
+		texturefile = "gfx/interface/ideas/idea_chinese_rels.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_shinto"
+		texturefile = "gfx/interface/ideas/idea_shinto.dds"
+	}
+
 }

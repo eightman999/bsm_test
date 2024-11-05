@@ -4001,7 +4001,7 @@ news_event = {
 			2 = { is_controlled_by = USA }
 			2 = { is_controlled_by = AUS }
 			2 = { is_controlled_by = CAN }
-			2 = { is_controlled_by = NZL }
+			2 = { is_controlled_by = ERO }
 			2 = { is_controlled_by = ZAF }
 		}
 		OR = {
@@ -4027,7 +4027,7 @@ news_event = {
 				TAG = USA
 				TAG = AUS
 				TAG = CAN
-				TAG = NZL
+				TAG = ERO
 				TAG = ZAF
 				TAG = ITA
 				TAG = DEU
@@ -4042,7 +4042,7 @@ news_event = {
 				TAG = USA
 				TAG = AUS
 				TAG = CAN
-				TAG = NZL
+				TAG = ERO
 				TAG = ZAF
 			}
 		}
@@ -4130,7 +4130,7 @@ news_event = {
 				TAG = AUS
 				TAG = FRA
 				TAG = CAN
-				TAG = NZL
+				TAG = ERO
 				TAG = ZAF
 				TAG = DEU
 			}
@@ -4145,7 +4145,7 @@ news_event = {
 				TAG = AUS
 				TAG = FRA
 				TAG = CAN
-				TAG = NZL
+				TAG = ERO
 				TAG = ZAF
 			}
 		}
@@ -4214,7 +4214,7 @@ news_event = {
 			219 = { is_controlled_by = USA }
 			219 = { is_controlled_by = AUS }
 			219 = { is_controlled_by = CAN }
-			219 = { is_controlled_by = NZL }
+			219 = { is_controlled_by = ERO }
 			219 = { is_controlled_by = ZAF }
 			219 = { is_controlled_by = FRA }
 		}
@@ -4238,7 +4238,7 @@ news_event = {
 				TAG = USA
 				TAG = AUS
 				TAG = CAN
-				TAG = NZL
+				TAG = ERO
 				TAG = ZAF
 				TAG = SOV
 			}
@@ -4252,7 +4252,7 @@ news_event = {
 				TAG = USA
 				TAG = AUS
 				TAG = CAN
-				TAG = NZL
+				TAG = ERO
 				TAG = ZAF
 			}
 		}
@@ -9825,14 +9825,14 @@ news_event = {
 		name = news.241.a
 		trigger = {
 			NOT = {
-				TAG = NZL
+				TAG = ERO
 				TAG = AUS
 			}
 		}
 	}
 	option = {
 		name = news.241.b
-		trigger = { TAG = NZL }
+		trigger = { TAG = ERO }
 	}
 	option = {
 		name = news.241.c
@@ -10593,7 +10593,7 @@ news_event = {
 	}
 
 }
-#NZL finishes Bob Semple tank
+#ERO finishes Bob Semple tank
 news_event = {
 	id = news.270
 	title = news.270.t
@@ -10605,7 +10605,7 @@ news_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		NZL = { 
+		ERO = { 
 			OR = {
 				has_tech = basic_light_tank 
 				has_tech = basic_light_tank_chassis
@@ -10616,21 +10616,21 @@ news_event = {
 	option = {
 		name = news.270.a
 		trigger = {
-			TAG = NZL
+			TAG = ERO
 		}
 	}
 	option = {
 		name = news.270.b
 		trigger = { 
 			NOT = {
-				TAG = NZL	
+				TAG = ERO	
 			}
 		}
 	}
 
 }
 
-#NZL finishes Big Bob tank
+#ERO finishes Big Bob tank
 news_event = {
 	id = news.271
 	title = news.271.t
@@ -10642,20 +10642,20 @@ news_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	NZL = { has_tech = super_heavy_tank }
+	ERO = { has_tech = super_heavy_tank }
 	}
 	
 	option = {
 		name = news.271.a
 		trigger = {
-			TAG = NZL
+			TAG = ERO
 		}
 	}
 	option = {
 		name = news.271.b
 		trigger = { 
 			NOT = {
-				TAG = NZL	
+				TAG = ERO	
 			}
 		}
 	}

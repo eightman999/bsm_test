@@ -345,13 +345,13 @@
 # 		completion_reward = {
 # 			if = {
 # 				limit = {
-# 					INS = {
+# 					IDN = {
 # 						exists = yes
 # 						is_subject = yes
 # 					}
 # 				}
 # 				create_wargoal = {
-# 					target = INS
+# 					target = IDN
 # 					type = puppet_wargoal_focus
 # 					expire = 0
 # 				}
@@ -3868,7 +3868,7 @@
 
 # 		available = {
 # 			country_exists = AUS
-# 			country_exists = NZL
+# 			country_exists = ERO
 # 		}
 		
 # 		bypass = {
@@ -3881,7 +3881,7 @@
 # 					}
 					
 # 				}
-# 				NZL = {
+# 				ERO = {
 # 					OR = {
 # 						exists = no
 # 						is_subject_of = ROOT 
@@ -3896,18 +3896,18 @@
 # 		continue_if_invalid = no
 # 		available_if_capitulated = no
 		
-# 		## AUS is Subject, NZL is not ## 	
+# 		## AUS is Subject, ERO is not ## 	
 # 		completion_reward = {
 # 			if = {
 # 				limit = {
 # 					AUS = {
 # 						is_subject = yes
 # 						OVERLORD = {
-# 							not = { tag = NZL }
+# 							not = { tag = ERO }
 # 							not = { tag = ROOT }
 # 						}
 # 					}
-# 					NZL = {
+# 					ERO = {
 # 						is_subject = no
 # 					}
 # 				}
@@ -3920,20 +3920,20 @@
 # 				}
 # 				if = {
 # 					limit = {
-# 						NZL = { NOT = { has_war_with = ROOT}}
+# 						ERO = { NOT = { has_war_with = ROOT}}
 # 					}
-# 					NZL = { country_event = mtg_usa_pacific_pacification.1 }
+# 					ERO = { country_event = mtg_usa_pacific_pacification.1 }
 # 				}
 				
 				
 # 			}
-# 			## NZL is subject, AUS is not ##
+# 			## ERO is subject, AUS is not ##
 # 			else_if = {
 # 				limit = {
 # 					AUS = {
 # 						is_subject = no
 # 					}
-# 					NZL = {
+# 					ERO = {
 # 						is_subject = yes
 # 						OVERLORD = {
 # 							not = { tag = AUS }
@@ -3944,9 +3944,9 @@
 # 				##Checking if any of the coutries involved are at war with USA before triggering the event for them. 
 # 				if = {
 # 					limit = {
-# 						NZL = { OVERLORD = { NOT = {has_war_with = ROOT }}}
+# 						ERO = { OVERLORD = { NOT = {has_war_with = ROOT }}}
 # 					}
-# 					NZL = { OVERLORD = { country_event = mtg_usa_pacific_pacification.1 } }
+# 					ERO = { OVERLORD = { country_event = mtg_usa_pacific_pacification.1 } }
 # 				}
 # 				if = {
 # 					limit = {
@@ -3955,7 +3955,7 @@
 # 					AUS = { country_event = mtg_usa_pacific_pacification.1 }
 # 				}
 # 			}
-# 			## NZL and AUS are subjects ## 
+# 			## ERO and AUS are subjects ## 
 # 			else_if = {
 # 				limit = {
 # 					AUS = {
@@ -3964,7 +3964,7 @@
 # 							not = { tag = ROOT }
 # 						}
 # 					}
-# 					NZL = {
+# 					ERO = {
 # 						is_subject = yes
 # 						OVERLORD = {
 # 							not = { tag = ROOT }
@@ -3979,21 +3979,21 @@
 # 				}
 # 				if = {
 # 					limit = {
-# 						AUS = { OVERLORD = { NZL = { OVERLORD = { not = { tag = PREV.PREV } } } } } #NZL and AUS both subjects but of different people
+# 						AUS = { OVERLORD = { ERO = { OVERLORD = { not = { tag = PREV.PREV } } } } } #ERO and AUS both subjects but of different people
 # 					}
 # 					if = {
 # 						limit = { 
-# 							NZL = { OVERLORD = { NOT = { has_war_with = ROOT }}}
+# 							ERO = { OVERLORD = { NOT = { has_war_with = ROOT }}}
 # 						}
-# 						NZL = { OVERLORD = { country_event = mtg_usa_pacific_pacification.1 } }
+# 						ERO = { OVERLORD = { country_event = mtg_usa_pacific_pacification.1 } }
 # 					}
 					
 # 				}
 # 			}
-# 			## NZL and AUS are independent. 
+# 			## ERO and AUS are independent. 
 # 			else = {
 # 				AUS = { country_event = mtg_usa_pacific_pacification.1 }
-# 				NZL = { country_event = mtg_usa_pacific_pacification.1 }
+# 				ERO = { country_event = mtg_usa_pacific_pacification.1 }
 # 			}	
 # 		}
 # 	}
@@ -4022,7 +4022,7 @@
 # 					exists = no
 # 				}
 # 			}
-# 			INS = {
+# 			IDN = {
 # 				OR = {
 # 					has_war_with = ROOT
 # 					is_subject_of = ROOT
@@ -4073,12 +4073,12 @@
 # 			}
 # 			if = {
 # 				limit = {
-# 					INS = { is_subject = yes }
+# 					IDN = { is_subject = yes }
 # 				}
-# 				INS = { OVERLORD = { country_event = mtg_usa_secure_asia.4 } }
+# 				IDN = { OVERLORD = { country_event = mtg_usa_secure_asia.4 } }
 # 			}
 # 			else = {
-# 				INS = { country_event = mtg_usa_secure_asia.1 }
+# 				IDN = { country_event = mtg_usa_secure_asia.1 }
 # 			}
 # 			if = {
 # 				limit = {
@@ -4097,13 +4097,13 @@
 # 			else = {
 # 				if = {
 # 					limit = {
-# 						country_exists = VIN
-# 						VIN = {
+# 						country_exists = VNM
+# 						VNM = {
 # 							is_subject = no
 # 							not = { has_war_with = ROOT }
 # 						}
 # 					}
-# 					VIN = {
+# 					VNM = {
 # 						country_event = mtg_usa_secure_asia.1
 # 					}
 # 				}
@@ -4121,13 +4121,13 @@
 # 				}
 # 				if = {
 # 					limit = {
-# 						country_exists = CAM
-# 						CAM = {
+# 						country_exists = KHM
+# 						KHM = {
 # 							is_subject = no
 # 							not = { has_war_with = ROOT }
 # 						}
 # 					}
-# 					CAM = {
+# 					KHM = {
 # 						country_event = mtg_usa_secure_asia.1
 # 					}
 # 				}

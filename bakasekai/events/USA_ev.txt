@@ -98,7 +98,7 @@ country_event = {
 	option = {
 		name = USAB.2.a
 		set_rule = {
-			can_join_opposite_faction = yes
+			can_join_opposite_factions = yes
 		}
 		ai_chance = {
 			factor = 2
@@ -139,7 +139,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		set_rule = {
-			can_join_opposite_faction = yes
+			can_join_opposite_factions = yes
 		}
 		name = USAB.3.a
 		ai_chance = {

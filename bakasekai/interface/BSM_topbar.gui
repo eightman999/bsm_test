@@ -52,18 +52,18 @@ guiTypes = {
 					y = 1
 				}
 				name = "cd_bg"
-				quadTextureSprite ="GFX_bg_mini_tooltip"
-				pdx_tooltip = "CULTURAL_DEGREES_title"
-				pdx_tooltip_delayed = "CULTURAL_DEGREES_desc"
+				# quadTextureSprite ="GFX_bg_mini_tooltip"
+				# pdx_tooltip = "CULTURAL_DEGREES_title"
+				# pdx_tooltip_delayed = "CULTURAL_DEGREES_desc_test_2"
 			}
 			iconType = {
 				name ="cd"
 				spriteType = "GFX_resource_influence"
 				position = { x= 4 y = 2 }
 				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-				pdx_tooltip = "CULTURAL_DEGREES_title"
-				pdx_tooltip_delayed = "CULTURAL_DEGREES_desc"
+				# alwaystransparent = yes
+				# pdx_tooltip = "CULTURAL_DEGREES_title"
+				# pdx_tooltip_delayed = "CULTURAL_DEGREES_desc_test_2"
 
 			}
 			instantTextBoxType = {
@@ -75,9 +75,9 @@ guiTypes = {
 				maxWidth = 50
 				maxHeight = 24
 				fixedsize = yes
-				alwaystransparent = yes
-								pdx_tooltip = "CULTURAL_DEGREES_title"
-				pdx_tooltip_delayed = "CULTURAL_DEGREES_desc"
+				# alwaystransparent = yes
+				pdx_tooltip = "CULTURAL_DEGREES_desc_test_2"
+				# pdx_tooltip_delayed = "CULTURAL_DEGREES_desc_test_2"
 			}
 		}
 		containerWindowType = {

@@ -287,7 +287,7 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				original_TAG = NZL
+				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
 
@@ -304,7 +304,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
-				original_TAG = NZL
+				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
 
@@ -326,7 +326,7 @@ ideas = {
 			picture = generic_industrial_concern_2
 
 			allowed = {
-				original_TAG = NZL
+				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
 
@@ -353,7 +353,7 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_1
 
 			allowed = {
-				original_TAG = NZL
+				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
 
@@ -374,7 +374,7 @@ ideas = {
 	tank_manufacturer = {
 		NZL_nz_railways = {
 			allowed = {
-				original_TAG = NZL
+				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
 
@@ -395,7 +395,7 @@ ideas = {
 			picture = generic_tank_manufacturer_2
 
 			allowed = {
-				original_TAG = NZL
+				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
 

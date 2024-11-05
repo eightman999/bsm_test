@@ -12,7 +12,6 @@ ideas = {
 				naval_retreat_speed = 0.05
 				naval_retreat_chance = 0.05
 			}
-		
 		}
 	}
 	tank_manufacturer = {
@@ -63,6 +62,7 @@ ideas = {
 		}
 	}
 	Extra = {
+		# designer = yes
 		South_Manchuria_Railway = {
 			name = South_Manchuria_Railway
 			picture = South_Manchuria_Railway

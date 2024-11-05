@@ -3050,7 +3050,7 @@
 # 		text = lar_news.291.new_zealand_desc
 # 		trigger = {
 # 			FROM = {
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 		}
 # 	}
@@ -3059,7 +3059,7 @@
 # 		trigger = {
 # 			FROM = {
 # 				NOT = {
-# 					original_tag = NZL
+# 					original_tag = ERO
 # 				}
 # 			}
 # 		}

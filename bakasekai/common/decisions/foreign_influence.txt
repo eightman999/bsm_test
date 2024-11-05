@@ -83,7 +83,7 @@
 # 							tag = ZAF
 # 							tag = IND
 # 							tag = AUS
-# 							tag = NZL
+# 							tag = ERO
 # 						}
 # 						has_government = communism_ideology
 # 					}
@@ -148,7 +148,7 @@
 # 							tag = ZAF
 # 							tag = IND
 # 							tag = AUS
-# 							tag = NZL
+# 							tag = ERO
 # 						}
 # 						has_government = fascism_ideology
 # 					}
@@ -320,7 +320,7 @@
 # 							tag = ZAF
 # 							tag = IND
 # 							tag = AUS
-# 							tag = NZL
+# 							tag = ERO
 # 						}
 # 					}
 # 				}
@@ -390,7 +390,7 @@
 # 							tag = ZAF
 # 							tag = IND
 # 							tag = AUS
-# 							tag = NZL
+# 							tag = ERO
 # 						}
 # 					}
 # 				}

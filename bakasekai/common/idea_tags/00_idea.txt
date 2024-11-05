@@ -197,6 +197,9 @@ idea_categories = {
 		cost = 120
 		removal_cost = 30
 	}
+	anomalies = {
+		ledger = civilian
+	}
 }
 
 
@@ -215,6 +218,6 @@ slot_ledgers = {
 	ideology_party = invalid # must be overridden
 	religion_party = invalid # must be overridden
 	civilian_party = invalid # must be overridden
-
+	anomalies = invalid
 	mobilization_laws = civilian
 }

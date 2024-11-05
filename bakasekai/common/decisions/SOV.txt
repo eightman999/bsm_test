@@ -95,7 +95,7 @@
 # 				limit = {
 # 					is_on_continent = australia
 # 				}
-# 				NZL = {
+# 				ERO = {
 # 					transfer_state = PREV
 # 				}
 # 			}

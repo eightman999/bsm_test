@@ -378,7 +378,7 @@
 # 	}
 # }
 
-# # HOL caves to the Germans
+# # BLX caves to the Germans
 # news_event = {
 # 	id = mtg_news.10
 # 	title = mtg_news.10.t
@@ -400,12 +400,12 @@
 # 		trigger = {
 # 			original_tag = DEU
 # 		}
-# 		add_political_power = HOL.gateway_to_europe_influence_pp_total
+# 		add_political_power = BLX.gateway_to_europe_influence_pp_total
 # 	}
 # 	option = {
 # 		name = mtg_news.10.c
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 # 	option = {
@@ -413,12 +413,12 @@
 # 		trigger = { 
 # 			NOT = { original_tag = GBR }
 # 			NOT = { original_tag = DEU }
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL caves to the British
+# # BLX caves to the British
 # news_event = {
 # 	id = mtg_news.11
 # 	title = mtg_news.11.t
@@ -434,7 +434,7 @@
 # 		trigger = {
 # 			original_tag = GBR
 # 		}
-# 		add_political_power = HOL.gateway_to_europe_influence_pp_total
+# 		add_political_power = BLX.gateway_to_europe_influence_pp_total
 # 	}
 # 	option = {
 # 		name = mtg_news.11.a
@@ -445,7 +445,7 @@
 # 	option = {
 # 		name = mtg_news.10.c
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 # 	option = {
@@ -453,12 +453,12 @@
 # 		trigger = { 
 # 			NOT = { original_tag = GBR }
 # 			NOT = { original_tag = DEU }
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL maintains trade neutrality_ideology
+# # BLX maintains trade neutrality_ideology
 # news_event = {
 # 	id = mtg_news.12
 # 	title = mtg_news.12.t
@@ -484,7 +484,7 @@
 # 	option = {
 # 		name = mtg_news.12.c
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 # 	option = {
@@ -492,7 +492,7 @@
 # 		trigger = { 
 # 			NOT = { original_tag = GBR }
 # 			NOT = { original_tag = DEU }
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
@@ -523,7 +523,7 @@
 # 				original_tag = ZAF
 # 				original_tag = IND
 # 				original_tag = AUS
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 		}
 # 	}
@@ -539,7 +539,7 @@
 # 						original_tag = ZAF
 # 						original_tag = IND
 # 						original_tag = AUS
-# 						original_tag = NZL
+# 						original_tag = ERO
 # 					}
 # 				}
 # 			}
@@ -1060,7 +1060,7 @@
 # 				tag = CAN
 # 				tag = ZAF
 # 				tag = AUS
-# 				tag = NZL
+# 				tag = ERO
 # 			}
 # 			NOT = { original_tag = FROM }
 # 		}
@@ -1075,7 +1075,7 @@
 # 					original_tag = CAN
 # 					original_tag = ZAF
 # 					original_tag = AUS
-# 					original_tag = NZL
+# 					original_tag = ERO
 # 				}
 # 			}
 # 		}
@@ -1114,7 +1114,7 @@
 # 				tag = CAN
 # 				tag = ZAF
 # 				tag = AUS
-# 				tag = NZL
+# 				tag = ERO
 # 			}
 # 			has_civil_war = yes
 # 			NOT = { original_tag = FROM }
@@ -1131,7 +1131,7 @@
 # 						original_tag = CAN
 # 						original_tag = ZAF
 # 						original_tag = AUS
-# 						original_tag = NZL
+# 						original_tag = ERO
 # 					}
 # 					has_civil_war = yes
 # 				}
@@ -1258,7 +1258,7 @@
 # 				original_tag = ZAF
 # 				original_tag = IND
 # 				original_tag = AUS
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 			is_subject_of = GBR
 # 		}
@@ -1275,7 +1275,7 @@
 # 						original_tag = ZAF
 # 						original_tag = IND
 # 						original_tag = AUS
-# 						original_tag = NZL
+# 						original_tag = ERO
 # 					}
 # 					is_subject_of = GBR
 # 				}
@@ -1317,7 +1317,7 @@
 # 				original_tag = ZAF
 # 				original_tag = IND
 # 				original_tag = AUS
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 			is_subject_of = GBR
 # 			NOT = { original_tag = FROM }
@@ -1335,7 +1335,7 @@
 # 						original_tag = ZAF
 # 						original_tag = IND
 # 						original_tag = AUS
-# 						original_tag = NZL
+# 						original_tag = ERO
 # 					}
 # 					is_subject_of = GBR
 # 				}
@@ -1377,7 +1377,7 @@
 # 				original_tag = ZAF
 # 				original_tag = IND
 # 				original_tag = AUS
-# 				original_tag = NZL
+# 				original_tag = ERO
 # 			}
 # 			is_subject_of = GBR
 # 			NOT = { original_tag = FROM }
@@ -1395,7 +1395,7 @@
 # 						original_tag = ZAF
 # 						original_tag = IND
 # 						original_tag = AUS
-# 						original_tag = NZL
+# 						original_tag = ERO
 # 					}
 # 					is_subject_of = GBR
 # 				}
@@ -1718,7 +1718,7 @@
 # 							owns_state = 310
 # 							has_full_control_of_state = 310
 # 						}
-# 						GDL = {
+# 						AMA = {
 # 							is_subject_of = PREV
 # 						}
 # 						SYR = {
@@ -1730,16 +1730,16 @@
 # 						LAO = {
 # 							is_subject_of = PREV
 # 						}
-# 						CAM = {
+# 						KHM = {
 # 							is_subject_of = PREV
 # 						}
-# 						VIN = {
+# 						VNM = {
 # 							is_subject_of = PREV
 # 						}
 # 						MAD = {
 # 							is_subject_of = PREV
 # 						}
-# 						MOR = {
+# 						MAR = {
 # 							is_subject_of = PREV
 # 						}
 # 						ALG = {
@@ -1923,7 +1923,7 @@
 # 					}
 # 				}
 # 				AND = {
-# 					original_tag = HOL
+# 					original_tag = BLX
 # 					OR = {
 # 						AND = {
 # 							owns_state = 695
@@ -1939,7 +1939,7 @@
 # 						SUR = {
 # 							is_subject_of = PREV
 # 						}
-# 						INS = {
+# 						IDN = {
 # 							is_subject_of = PREV
 # 						}
 # 					}
@@ -2120,7 +2120,7 @@
 # 								owns_state = 310
 # 								has_full_control_of_state = 310
 # 							}
-# 							GDL = {
+# 							AMA = {
 # 								is_subject_of = PREV
 # 							}
 # 							SYR = {
@@ -2132,16 +2132,16 @@
 # 							LAO = {
 # 								is_subject_of = PREV
 # 							}
-# 							CAM = {
+# 							KHM = {
 # 								is_subject_of = PREV
 # 							}
-# 							VIN = {
+# 							VNM = {
 # 								is_subject_of = PREV
 # 							}
 # 							MAD = {
 # 								is_subject_of = PREV
 # 							}
-# 							MOR = {
+# 							MAR = {
 # 								is_subject_of = PREV
 # 							}
 # 							ALG = {
@@ -2325,7 +2325,7 @@
 # 						}
 # 					}
 # 					AND = {
-# 						original_tag = HOL
+# 						original_tag = BLX
 # 						OR = {
 # 							AND = {
 # 								owns_state = 695
@@ -2341,7 +2341,7 @@
 # 							SUR = {
 # 								is_subject_of = PREV
 # 							}
-# 							INS = {
+# 							IDN = {
 # 								is_subject_of = PREV
 # 							}
 # 						}
@@ -2667,7 +2667,7 @@
 # 	}
 # }
 
-# # HOL Continue the War in Batavia
+# # BLX Continue the War in Batavia
 # news_event = {
 # 	id = mtg_news.46
 # 	title = mtg_news.46.t
@@ -2681,19 +2681,19 @@
 # 	option = {
 # 		name = mtg_news.46.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
 # 	option = {
 # 		name = mtg_news.46.b
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL Continue the Zuiderzee Works
+# # BLX Continue the Zuiderzee Works
 # news_event = {
 # 	id = mtg_news.47
 # 	title = mtg_news.47.t
@@ -2707,19 +2707,19 @@
 # 	option = {
 # 		name = mtg_news.47.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
 # 	option = {
 # 		name = mtg_news.47.b
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL Placate the Japanese - granted all of NEI
+# # BLX Placate the Japanese - granted all of NEI
 # news_event = {
 # 	id = mtg_news.48
 # 	title = mtg_news.48.t
@@ -2733,7 +2733,7 @@
 # 	option = {
 # 		name = mtg_news.48.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
@@ -2747,13 +2747,13 @@
 # 	option = {
 # 		name = mtg_news.48.c
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 			NOT = { original_tag = JPN }
 # 		}
 # 	}
 # }
 
-# # HOL Placate the Japanese - granted NEI resources only
+# # BLX Placate the Japanese - granted NEI resources only
 # news_event = {
 # 	id = mtg_news.49
 # 	title = mtg_news.49.t
@@ -2767,7 +2767,7 @@
 # 	option = {
 # 		name = mtg_news.49.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
@@ -2781,13 +2781,13 @@
 # 	option = {
 # 		name = mtg_news.49.c
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 			NOT = { original_tag = JPN }
 # 		}
 # 	}
 # }
 
-# # HOL Decolonization
+# # BLX Decolonization
 # news_event = {
 # 	id = mtg_news.50
 # 	title = mtg_news.50.t
@@ -2801,19 +2801,19 @@
 # 	option = {
 # 		name = mtg_news.50.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
 # 	option = {
 # 		name = mtg_news.50.b
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL Dutch create new buffer state
+# # BLX Dutch create new buffer state
 # news_event = {
 # 	id = mtg_news.51
 # 	title = mtg_news.51.t
@@ -2827,19 +2827,19 @@
 # 	option = {
 # 		name = mtg_news.51.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
 # 	option = {
 # 		name = mtg_news.51.b
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL Americans protect West Indies
+# # BLX Americans protect West Indies
 # news_event = {
 # 	id = mtg_news.52
 # 	title = mtg_news.52.t
@@ -2853,7 +2853,7 @@
 # 	option = {
 # 		name = mtg_news.52.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
@@ -2867,13 +2867,13 @@
 # 	option = {
 # 		name = mtg_news.52.c
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 			NOT = { original_tag = USA }
 # 		}
 # 	}
 # }
 
-# # HOL Benelux
+# # BLX Benelux
 # news_event = {
 # 	id = mtg_news.53
 # 	title = mtg_news.53.t
@@ -2887,19 +2887,19 @@
 # 	option = {
 # 		name = mtg_news.53.a
 # 		trigger = {
-# 			is_in_faction_with = HOL
+# 			is_in_faction_with = BLX
 # 		}
 # 	}
 
 # 	option = {
 # 		name = mtg_news.53.b
 # 		trigger = {
-# 			NOT = { is_in_faction_with = HOL }
+# 			NOT = { is_in_faction_with = BLX }
 # 		}
 # 	}
 # }
 
-# # HOL EU
+# # BLX EU
 # news_event = {
 # 	id = mtg_news.54
 # 	title = mtg_news.54.t
@@ -2913,14 +2913,14 @@
 # 	option = {
 # 		name = mtg_news.54.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
 # 	option = {
 # 		name = mtg_news.54.b
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 		}
 # 	}
 # }
@@ -3047,7 +3047,7 @@
 # 	}
 # }
 
-# # HOL kaiser taking charge of liberated territory in Germany
+# # BLX kaiser taking charge of liberated territory in Germany
 # news_event = {
 # 	id = mtg_news.58
 # 	title = mtg_netherlands.73.t
@@ -3061,7 +3061,7 @@
 # 	option = {
 # 		name = mtg_news.58.a
 # 		trigger = {
-# 			original_tag = HOL
+# 			original_tag = BLX
 # 		}
 # 	}
 
@@ -3098,7 +3098,7 @@
 # 	option = {
 # 		name = mtg_news.58.d
 # 		trigger = {
-# 			NOT = { original_tag = HOL }
+# 			NOT = { original_tag = BLX }
 # 			NOT = { original_tag = DEU }
 # 			NOT = { original_tag = GBR }
 # 			NOT = { original_tag = USA }
@@ -3174,7 +3174,7 @@
 # 	picture = GFX_news_event_generic_naval_treaty
 	
 # 	major = yes
-	
+# 	fire_only_once = yes
 # 	trigger = {
 # 		not = { has_global_flag = MTG_second_london_conference }
 # 		has_global_flag = {	flag = MTG_naval_treaty_signatories	value > 1 }	#can never be 1
@@ -3262,13 +3262,13 @@
 # 	option = {
 # 		name = mtg_news.64.a
 # 		trigger = {
-# 			tag = HOL
+# 			tag = BLX
 # 		}
 # 	}
 # 	option = {
 # 		name = mtg_news.64.b
 # 		trigger = {
-# 			NOT = { tag = HOL }
+# 			NOT = { tag = BLX }
 # 		}
 # 	}
 # }

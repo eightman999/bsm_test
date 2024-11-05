@@ -28,7 +28,7 @@
 # 				}
 # 			}
 # 			FROM = {
-# 				puppet = INS
+# 				puppet = IDN
 # 			}
 # 		}
 # 		if = {
@@ -131,7 +131,7 @@
 # 						tag = HOL
 # 					}
 # 				}
-# 				puppet = INS
+# 				puppet = IDN
 # 			}
 # 			if = {
 # 				limit = {

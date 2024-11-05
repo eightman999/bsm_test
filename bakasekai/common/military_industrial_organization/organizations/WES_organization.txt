@@ -884,7 +884,7 @@ WES_SAND_artillery_organization = {
 		equipment_bonus = {
 			build_cost_ic = -0.1
 			reliability = -0.1
-			defence = 0.1
+			max_organisation = 0.1
 		}
 	}
 
@@ -1222,7 +1222,7 @@ WES_SAND_infantry_equipment_organization = {
 			soft_attack = 0.1
 			reliability = -0.2
 			build_cost_ic = -0.25
-			defence = 0.2
+			max_strength = 0.2
 		}
 	}
 
@@ -1530,7 +1530,7 @@ WES_SAND_motorized_mechanized_organization = {
 		equipment_bonus = {
 			reliability = -0.15
 			build_cost_ic = -0.2
-			defence = 0.1
+			mines_planting = 0.1
 		}
 	}
 
@@ -1585,7 +1585,7 @@ WES_SAND_motorized_mechanized_organization = {
 		
 		equipment_bonus = {
 			breakthrough = 0.05
-			defence = 0.05
+			default_morale = 0.05
 		}
 	}
 
@@ -1750,7 +1750,7 @@ WES_SAND_motorized_mechanized_organization = {
 
 		equipment_bonus = {
 			armor_value = 0.1
-			defence = 0.05
+			max_strength = 0.05
 		}
 	}
 

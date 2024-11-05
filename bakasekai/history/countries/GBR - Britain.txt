@@ -240,7 +240,7 @@ add_to_faction = GBR
 add_to_faction = CAN
 add_to_faction = GMI
 add_to_faction = MDV
-add_to_faction = NZL
+add_to_faction = ERO
 add_to_faction = ZAF
 
 add_to_faction = IND

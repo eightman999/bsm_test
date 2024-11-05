@@ -2210,7 +2210,7 @@ shared_focus = {
 			IND = { country_event = { id = generic.5 } }
 		}
 		else = {
-			IND = { country_event = wtt_china_shared.1 }
+			# IND = { country_event = wtt_china_shared.1 }
 		}
 	}
 }

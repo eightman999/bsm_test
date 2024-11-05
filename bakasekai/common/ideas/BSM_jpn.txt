@@ -469,6 +469,7 @@ ideas = {
 		}
 	}
 	Extra = {
+		# designer = yes
 		NHK_com = {
 			picture = GFX_idea_NHK_com
 			name = NHK_com

@@ -2,11 +2,59 @@ ideas = {
 	religion_party = {
 		law = yes
 		use_list_view = yes
-		no_religions = {
+		atheism = {
+			picture = atheism
+			available = {
+				NOT = {
+					has_country_leader_ideology = liberalism
+					has_country_leader_ideology = socialism
+				}
+			}
+			visible = {
+				NOT = {
+					has_country_leader_ideology = liberalism
+					has_country_leader_ideology = socialism
+				}
+			}
+			cost = 100
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				consumer_goods_factor = -0.07
+				stability_factor = -0.2
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+			cancel_if_invalid = yes
+		}
+		anemism = {
+			picture = anemism
+			allowed = {
+				OR = {
+					has_country_flag = anemism_CONTRY
+					has_idea = mystery_country
+				}
+			}
+			visible = {
+				OR = {
+					has_country_flag = anemism_CONTRY
+					has_idea = mystery_country
+				}
+			}
+			cost = 50
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+			}
+			cancel_if_invalid = yes
+		}
+		secularism = {
 			cancel_if_invalid = no
 			modifier = {
 				mythologicalism_drift = -0.2
-				political_power_cost=-5
+				stability_factor = 0.015
+				political_power_cost = -5
 			}
 		}
 		shinto = {
@@ -14,33 +62,44 @@ ideas = {
 			allowed = {
 				has_country_flag = SHINTO_CONTRY
 			}
+			visible = {
+				has_country_flag = SHINTO_CONTRY
+			}
 			modifier = {
 				mythologicalism_drift = 0.001
 				surrender_limit = 0.15
-				war_support_factor = 0.20
-				stability_factor=0.20
-				political_power_cost=5
+				war_support_factor = 0.1
+				stability_factor = 0.1
+				army_morale_factor = 0.1
 			}
 		}
 		buddhism = {
 			cancel_if_invalid = no
 			allowed = {
 				#allways = no
-				has_country_flag = BUDDHISM_CONTRY
+				has_country_flag = buddhism_CONTRY
+			}
+			visible = {
+				has_country_flag = buddhism_CONTRY
 			}
 			modifier = {
 				mythologicalism_drift = 0.05
 				surrender_limit = 0.15
 				war_support_factor = 0.1
-				stability_factor=0.05
-				political_power_factor =0.1
+				stability_factor = 0.05
+				political_power_factor = 0.1
+				defence = 0.05
 			}
 		}
-		ShiiteIslam = {
+		shia = {
+			picture = shia
 			cancel_if_invalid = no
 			allowed = {
 				#allways = no
-				has_country_flag = ShiiteIslam_CONTRY
+				has_country_flag = shia_CONTRY
+			}
+			visible = {
+				has_country_flag = shia_CONTRY
 			}
 			modifier = {
 				research_speed_factor = 0.05
@@ -49,9 +108,12 @@ ideas = {
 				war_support_factor = 0.25
 			}
 		}
-		Stoicism ={ 
+		Stoicism = {
 			allowed = {
 				#allways = no
+				has_country_flag = Stoicism_CONTRY
+			}
+			visible = {
 				has_country_flag = Stoicism_CONTRY
 			}
 			cancel_if_invalid = no
@@ -59,42 +121,144 @@ ideas = {
 				research_speed_factor = 0.25
 				surrender_limit = 0.05
 				war_support_factor = -0.15
-				political_power_factor =-0.3
+				political_power_factor = -0.3
 			}
 		}
-		#RomanCatholicism = {
-		#	cancel_if_invalid = no
-		#		modifier = {
-		#			mythologicalism_drift = 0.30
-		#	}
-		#	}
-		Evangelicism ={
+		catholicism = {
 			cancel_if_invalid = no
 			allowed = {
 				#allways = no
-				has_country_flag = Evangelicism_CONTRY
+				has_country_flag = catholicism_CONTRY
+			}
+			visible = {
+				has_country_flag = catholicism_CONTRY
 			}
 			modifier = {
-				mythologicalism_drift = 0.30
+				mythologicalism_drift = 0.01
+				research_speed_factor = 0.05
+				surrender_limit = 0.05
+				consumer_goods_factor = -0.02
+				war_support_factor = -0.05
+				political_power_factor = 0.1
+			}
+		}
+		protestantism = {
+			cancel_if_invalid = no
+			allowed = {
+				#allways = no
+				has_country_flag = protestantism_CONTRY
+			}
+			visible = {
+				has_country_flag = protestantism_CONTRY
+			}
+			modifier = {
+				mythologicalism_drift = 0.005
 				research_speed_factor = -0.25
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+				war_support_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+		orthodoxy = {
+			cancel_if_invalid = no
+			allowed = {
+				#allways = no
+				has_country_flag = orthodoxy_CONTRY
+			}
+			visible = {
+				has_country_flag = orthodoxy_CONTRY
+			}
+			modifier = {
+				mythologicalism_drift = 0.3
+				research_speed_factor = 0.01
 				surrender_limit = 0.35
-				war_support_factor = 0.25
-				political_power_factor =0.05
+				political_power_gain = -0.1
+				stability_factor = -0.08
+				consumer_goods_factor = -0.05
+			}
+		}
+		judaism = {
+			picture = judaism
+			allowed = {
+				has_country_flag = judaism_COUNTRY
+			}
+			visible = {
+				has_country_flag = judaism_COUNTRY
+			}
+			cost = 50
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.01
+				war_support_factor = -0.05
+			}
+			cancel_if_invalid = yes
+		}
+		sunni = {
+			picture = sunni
+			allowed = {
+				has_country_flag = sunni_CONTRY
+			}
+			visible = {
+				has_country_flag = sunni_CONTRY
+			}
+			cost = 50
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.25
+				offence = 0.05
+				surrender_limit = 0.15
+			}
+		}
+		hinduism = {
+			cancel_if_invalid = no
+			allowed = {
+				has_country_flag = hinduism_CONTRY
+			}
+			visible = {
+				has_country_flag = hinduism_CONTRY
+			}
+			modifier = {
+				stability_factor = 0.1
+				research_speed_factor = 0.01
+				war_support_factor = 0.01
+				political_power_factor = -0.05
 			}
 		}
 		communism_religion = {
 			cancel_if_invalid = no
 			allowed = {
 				#allways = no
-				communism_ideology > 0.5
+				# communism_ideology > 0.5
+				has_government = communism_ideology
+			}
+			visible = {
+				# communism_ideology > 0.5
 				has_government = communism_ideology
 			}
 			modifier = {
-				communism_ideology_drift = 0.30
+				communism_ideology_drift = 0.3
 				war_support_factor = 0.05
-				political_power_factor =0.1
+				political_power_factor = 0.1
+			}
+		}
+		chinese_rels = {
+			cost = 50
+			removal_cost = -1
+			allowed = {
+				#allways = no
+				has_country_flag = chinese_CONTRY
+			}
+			visible = {
+				has_country_flag = chinese_CONTRY
+			}
+			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = 0.05
 			}
 		}
 	}
-
 }

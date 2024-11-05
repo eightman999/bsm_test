@@ -208,7 +208,7 @@ check_has_focus_tree_to_switch_to_democratic = {
 		tag = AST
 	}
 	NOT = {
-		tag = NZL
+		tag = ERO
 	}
 	NOT = {
 		tag = RAJ

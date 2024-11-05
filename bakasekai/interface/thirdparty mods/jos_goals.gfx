@@ -1,56 +1,44 @@
 spriteTypes = {
-
 	SpriteType = {
 		name = "GFX_goal_FRA_vichy"
 		texturefile = "gfx/interface/goals/FRA_vichy.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_KOR_uprising"
 		texturefile = "gfx/interface/goals/goal_KOR_uprising.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_KOR_jail_reactionaries"
 		texturefile = "gfx/interface/goals/goal_KOR_jail_reactionaries.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_JOS_caesar"
 		texturefile = "gfx/interface/goals/JOS_caesar.dds"
 	}
-
-
 	SpriteType = {
 		name = "GFX_JOS_cinci"
 		texturefile = "gfx/interface/goals/JOS_cinci.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_KOR_monarchy"
 		texturefile = "gfx/interface/goals/goal_KOR_monarchy.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_Korean_Miracle"
 		texturefile = "gfx/interface/goals/goal_Korean_Miracle.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_KOR_korean_army"
 		texturefile = "gfx/interface/goals/goal_KOR_korean_army.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_KOR_korean_navy"
 		texturefile = "gfx/interface/goals/goal_KOR_korean_navy.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_Korea_flag"
 		texturefile = "gfx/interface/goals/goal_Korea_flag.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_goal_korean_independence"
 		texturefile = "gfx/interface/goals/goal_korean_independence.dds"
@@ -611,7 +599,7 @@ spriteTypes = {
 		name = "GFX_CHI_Lovely_Speech"
 		texturefile = "gfx/interface/goals/CHI_Lovely_Speech.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_CHI_National_Bonds"
 		texturefile = "gfx/interface/goals/CHI_National_Bonds.dds"
 	}
@@ -895,68 +883,53 @@ spriteTypes = {
 		name = "GFX_jungle_training"
 		texturefile = "gfx/interface/goals/jungle_training.tga"
 	}
-
-
-###added new manchu shit <--- this is the new file to unite all previous GFX from here onwards - Easy for shinemaker###
-
-SpriteType = {
-	name = "GFX_goal_MAN_loyalhirohito"
-	texturefile = "gfx/interface/goals/man/chire_goal_MAN_loyalhirohito.dds"
-}
-
-SpriteType = {
-	name = "GFX_goal_MAN_kwantung_coup"
-	texturefile = "gfx/interface/goals/man/chire_goal_MAN_kwantung_coup.dds"
-}
-
-SpriteType = {
-	name = "GFX_goal_MAN_promote_concordia"
-	texturefile = "gfx/interface/goals/man/chire_goal_MAN_promote_concordia.dds"
-}
-
+	###added new manchu shit <--- this is the new file to unite all previous GFX from here onwards - Easy for shinemaker###
+	SpriteType = {
+		name = "GFX_goal_MAN_loyalhirohito"
+		texturefile = "gfx/interface/goals/man/chire_goal_MAN_loyalhirohito.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAN_kwantung_coup"
+		texturefile = "gfx/interface/goals/man/chire_goal_MAN_kwantung_coup.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAN_promote_concordia"
+		texturefile = "gfx/interface/goals/man/chire_goal_MAN_promote_concordia.dds"
+	}
 	spriteType = {
 		name = "GFX_goal_MAN_princess"
 		texturefile = "gfx/interface/goals/man/aol_goal_MAN_princess.dds"
-		}
-
-		spriteType = {
-			name = "GFX_goal_MAN_proud"
-			texturefile = "gfx/interface/goals/man/aol_goal_MAN_proud.dds"
-			}
-
-		spriteType = {
-		  name = "GFX_goal_MAN_opiumyes"
-			texturefile = "gfx/interface/goals/MAN/chire_goal_MAN_opiumyes.dds"
-				}
-
-		spriteType = {
-		 	 name = "GFX_goal_GXC_civred"
-			 texturefile = "gfx/interface/goals/generic/goal_generic_construct_civ_factory.dds"
-			  }
-
-				spriteType = {
-				  name = "GFX_goal_MAN_generic_coal_mining"
-					texturefile = "gfx/interface/goals/MAN/chire_goal_MAN_generic_coal_mining.dds"
-						}
-
-				spriteType = {
-				  name = "GFX_goal_MAN_crime_of_thought"
-					texturefile = "gfx/interface/goals/MAN/goal_MAN_crime_of_thought.dds"
-						}
-
-						spriteType = {
-							name = "GFX_goal_MAN_dowa"
-							texturefile = "gfx/interface/goals/MAN/goal_MAN_dowa.dds"
-								}
-
-								spriteType = {
-									name = "GFX_goal_MAN_generic_manchuflag"
-									texturefile = "gfx/interface/goals/MAN/goal_MAN_generic_manchukuo_flag.dds"
-										}
-
-										spriteType = {
-											name = "GFX_goal_MAN_equality_pass"
-											texturefile = "gfx/interface/goals/MAN/goal_MAN_pass_equality_law.dds"
-												}
-
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_proud"
+		texturefile = "gfx/interface/goals/man/aol_goal_MAN_proud.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_opiumyes"
+		texturefile = "gfx/interface/goals/MAN/chire_goal_MAN_opiumyes.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_GXC_civred"
+		texturefile = "gfx/interface/goals/generic/goal_generic_construct_civ_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_generic_coal_mining"
+		texturefile = "gfx/interface/goals/MAN/chire_goal_MAN_generic_coal_mining.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_crime_of_thought"
+		texturefile = "gfx/interface/goals/MAN/goal_MAN_crime_of_thought.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_dowa"
+		texturefile = "gfx/interface/goals/MAN/goal_MAN_dowa.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_generic_manchuflag"
+		texturefile = "gfx/interface/goals/MAN/goal_MAN_generic_manchukuo_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_MAN_equality_pass"
+		texturefile = "gfx/interface/goals/MAN/goal_MAN_pass_equality_law.dds"
+	}
 }

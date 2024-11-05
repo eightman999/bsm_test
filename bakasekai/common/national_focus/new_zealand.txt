@@ -6,13 +6,13 @@
 		
 # 		modifier = {
 # 			add = 10
-# 			tag = NZL
+# 			tag = ERO
 # 			has_dlc = "Together for Victory"
 # 		}
 
 # 		#modifier = {
 # 		#	add = 10
-# 		#	original_tag = NZL
+# 		#	original_tag = ERO
 # 		#	has_dlc = "Together for Victory"
 # 		#}
 # 	}
@@ -93,12 +93,12 @@
 # 			    transfer_ship = {
 # 			        prefer_name = "HMS Achilles"
 # 			        type = light_cruiser
-# 			        target = NZL
+# 			        target = ERO
 # 			    }
 # 			    transfer_ship = {
 # 			        prefer_name = "HMS Leander"
 # 			        type = light_cruiser
-# 			        target = NZL
+# 			        target = ERO
 # 			    }
 # 			}
 # 		}
@@ -2076,7 +2076,7 @@
 # 				prioritize = { 284 723 }
 # 				create_unit = {
 # 					division = " name = \"Maori Volunteers\" division_template = \"Maori Volunteers\" start_experience_factor = 0.0"
-# 					owner = NZL
+# 					owner = ERO
 # 				}
 # 			}
 # 		}
@@ -2122,7 +2122,7 @@
 # 			}
 # 			add_political_power = 100
 # 			add_opinion_modifier = { target = GBR modifier = NZL_strengthen_ties } 
-# 			GBR = { add_opinion_modifier = { target = NZL modifier = NZL_strengthen_ties } }
+# 			GBR = { add_opinion_modifier = { target = ERO modifier = NZL_strengthen_ties } }
 # 		}
 # 	}
 
@@ -2341,7 +2341,7 @@
 # 			add_political_power = 100
 # 			OVERLORD = {
 # 				set_autonomy = {
-# 					target = NZL
+# 					target = ERO
 # 					autonomy_state = autonomy_free
 # 				}
 # 			}

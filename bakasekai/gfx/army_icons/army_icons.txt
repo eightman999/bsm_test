@@ -635,7 +635,7 @@
 		available = 
 		{
 			has_dlc = "Battle for the Bosporus"
-			tag = GRE
+			tag = GRC
 		}
 	}
 	icon = {
@@ -644,7 +644,7 @@
 		available = 
 		{
 			has_dlc = "Battle for the Bosporus"
-			tag = GRE
+			tag = GRC
 		}
 	}
 	icon = {
@@ -653,7 +653,7 @@
 		available = 
 		{
 			has_dlc = "Battle for the Bosporus"
-			tag = GRE
+			tag = GRC
 		}
 	}
 	icon = {
