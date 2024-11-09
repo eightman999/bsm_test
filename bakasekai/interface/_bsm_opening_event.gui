@@ -1,5 +1,5 @@
 guiTypes = {
-	containerWindowType = {
+	containerWindowType = {#本体
 		name = "bsm_OE_GUI"
 		size = { width = 722 height = 481 }
 		Orientation = center
@@ -61,70 +61,123 @@ guiTypes = {
 				maxHeight = 13
 				fixedsize = yes
 			}
-
-
 			instantTextBoxType = {
 				name = "OE_address_title"
 				position = { x = 123 y = 41 }
 				text = "OE_address_title"
 				font = "Main_14_black"
-				maxWidth = 500
+				maxWidth = 530
 				maxHeight = 14
 				fixedsize = yes
 				borderSize = {x = 0 y = 0 }
+			}
+			#ページ切り替え	# 118
+
+			buttonType = {
+				name = "OE_page_1"
+				quadTextureSprite = "GFX_98_btn_115x38"
+				position = { x = 120 y = 2 }
+				buttonFont = "cg_16b"
+				text = "OE_page_1"
+				clicksound = ui_menu_over
+			}
+
+			buttonType = {
+				name = "OE_page_2"
+				quadTextureSprite = "GFX_98_btn_115x38"
+				position = { x = 238 y = 2 }
+				buttonFont = "cg_16b"
+				text = "OE_page_2"
+				clicksound = ui_menu_over
+			}
+			buttonType = {
+				name = "OE_page_3"
+				quadTextureSprite = "GFX_98_btn_115x38"
+				position = { x = 356 y = 2 }
+				buttonFont = "cg_16b"
+				text = "OE_page_3"
+				clicksound = ui_menu_over
+			}
+			buttonType = {
+				name = "OE_page_4"
+				quadTextureSprite = "GFX_98_btn_115x38"
+				position = { x = 474 y = 2 }
+				buttonFont = "cg_16b"
+				text = "OE_page_4"
+				clicksound = ui_menu_over
+			}
+			buttonType = {
+				name = "OE_page_5"
+				quadTextureSprite = "GFX_98_btn_115x38"
+				position = { x = 592 y = 2 }
+				buttonFont = "cg_16b"
+				text = "OE_page_5"
+				clicksound = ui_menu_over
+			}
+
+			iconType = { #
+				name = "OE_header_section_1"
+				position = { x = 234 y = 2 }
+				spriteType = "GFX_bsm_btn_section"
+			}
+			iconType = { #
+				name = "OE_header_section_2"
+				position = { x = 352 y = 2 }
+				spriteType = "GFX_bsm_btn_section"
+			}
+			iconType = { #
+				name = "OE_header_section_3"
+				position = { x = 470 y = 2 }
+				spriteType = "GFX_bsm_btn_section"
+			}
+			iconType = { #
+				name = "OE_header_section_4"
+				position = { x = 588 y = 2 }
+				spriteType = "GFX_bsm_btn_section"
 			}
 		}
 		containerWindowType = {#main
 			name = "bsm_OE_GUI_main"
 			size = { width = 718 height = 358 }
-			position = { x = 2 y = 100 }
+			position = { x = 6 y = 104 }
 
 			# background = {
 			# 	name = "Background"
-			# 	spriteType ="GFX_tiled_decisions_bg_small"
+			# 	spriteType ="GFX_tiled_webpage_pattern"
 			# }
 
-			instantTextBoxType = {
-				name = "OE_main_text"
-				position = { x = 9 y = 10 }
-				text = "OE_main_text"
-				font = "Main_14_black"
-				maxWidth = 700
-				maxHeight = 13
-				fixedsize = yes
-				borderSize = {x = 0 y = 0 }
-			}
-			extendedScrollbarType = {
-				name = "oe_98_slider"
-				position = {x=695 y=5}
-				size = {width=15 height=330}
-				startValue = 0
-				background = {
-					name = "Background"    
-					quadTextureSprite = "GFX_98_slider_bg"
-				}
-				slider = {
-					name = "Slider"    
-					quadTextureSprite = "GFX_scroll_drager"
-					position = { x = -2 y = -2 }
-				}
-				track = {
-					name = "Track"
-					quadTextureSprite = "GFX_scroll_track"
-					position = { x = 3 y = 0 }
-					alwaystransparent = yes
-				}
-				decreaseButton = {
-					name = "Decrease"
-					quadTextureSprite = "GFX_scroll_up"
-					position = { x = 2 y = 3 }
-				}
-				increaseButton = {
-					name = "Increase"
-					quadTextureSprite = "GFX_scroll_down"
-					position = { x=-17 y = -19}    
-				}
-			}
+
+			# extendedScrollbarType = {
+			# 	name = "oe_98_slider"
+			# 	position = {x=695 y=5}
+			# 	size = {width=15 height=330}
+			# 	startValue = 0
+			# 	background = {
+			# 		name = "Background"    
+			# 		quadTextureSprite = "GFX_98_slider_bg"
+			# 	}
+			# 	slider = {
+			# 		name = "Slider"    
+			# 		quadTextureSprite = "GFX_scroll_drager"
+			# 		position = { x = -2 y = -2 }
+			# 	}
+			# 	track = {
+			# 		name = "Track"
+			# 		quadTextureSprite = "GFX_scroll_track"
+			# 		position = { x = 3 y = 0 }
+			# 		alwaystransparent = yes
+			# 	}
+			# 	decreaseButton = {
+			# 		name = "Decrease"
+			# 		quadTextureSprite = "GFX_scroll_up"
+			# 		position = { x = 2 y = 3 }
+			# 	}
+			# 	increaseButton = {
+			# 		name = "Increase"
+			# 		quadTextureSprite = "GFX_scroll_down"
+			# 		position = { x=-17 y = -19}    
+			# 	}
+			# }
 	
 	
 		}
@@ -134,5 +187,257 @@ guiTypes = {
 			position = { x = 685 y = 8 }
 		}
 	}
+	containerWindowType = {#1ページ目
+		name = "OE_page_1"
+		size = { width = 715 height = 352 }
+		clipping = yes
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_empty"
+		}
+		verticalScrollbar = "win95_right_vertical_slider"
+		margin = {top=0 left=0 bottom=0 right= 0}
+		containerWindowType = {#本体
+			name = "OE_page_text"
+			size = { width = 708 height = 170%% }
 
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_webpage_pattern"
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_1_welcome"
+				position = { x = 4 y = 20 }
+				text = "OE_main_page_1_welcome"
+				font = "main_30"
+				maxWidth = 700
+				maxHeight = 13
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+			iconType = { #
+				name = "OE_mod_icon"
+				position = { x = 230 y = 70 }
+				spriteType = "GFX_bsm_mod_icon_large"
+				scale = 0.6
+			}
+			
+			instantTextBoxType = {
+				name = "OE_main_page_1_title"
+				position = { x = 9 y = 215 }
+				text = "OE_main_page_1_title"
+				font = "Main_14_black"
+				maxWidth = 700
+				maxHeight = 13
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_1_last_update"
+				position = { x = 9 y = 245 }
+				text = "OE_main_page_1_last_update"
+				font = "vanilla_hoi_24header"
+				maxWidth = 700
+				maxHeight = 13
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+
+			instantTextBoxType = {
+				name = "OE_main_page_1_update_log"
+				position = { x = 9 y = 280 }
+				text = "OE_main_page_1_update_log"
+				font = "cg_16b"
+				maxWidth = 700
+				maxHeight = 700
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+		}
+
+		# buttonType = {
+		# 	name = "OE_close_button"
+		# 	quadTextureSprite = "GFX_98_close"
+		# 	position = { x = 685 y = 8 }
+		# }
+	}
+	containerWindowType = {#2ページ目
+		name = "OE_page_2"
+		size = { width = 715 height = 352 }
+		clipping = yes
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_empty"
+		}
+		verticalScrollbar = "win95_right_vertical_slider"
+		margin = {top=0 left=0 bottom=0 right= 0}
+		containerWindowType = {#本体
+			name = "OE_page_text"
+			size = { width = 708 height = 200%% }
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_webpage_pattern"
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_2_title"
+				position = { x = 4 y = 20 }
+				text = "OE_main_page_2_title"
+				font = "cg_16b"
+				maxWidth = 700
+				maxHeight = 700
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+		}
+	}
+	containerWindowType = {#3ページ目
+		name = "OE_page_3"
+		size = { width = 715 height = 352 }
+		clipping = yes
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_empty"
+		}
+		verticalScrollbar = "win95_right_vertical_slider"
+		margin = {top=0 left=0 bottom=0 right= 0}
+		containerWindowType = {#本体
+			name = "OE_page_text"
+			size = { width = 708 height = 200%% }
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_webpage_pattern"
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_3_title"
+				position = { x = 4 y = 20 }
+				text = "OE_main_page_3_title"
+				font = "hoi_30header"
+				maxWidth = 700
+				maxHeight = 13
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+		}
+	}
+	containerWindowType = {#4ページ目
+		name = "OE_page_4"
+		size = { width = 715 height = 352 }
+		clipping = yes
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_empty"
+		}
+		verticalScrollbar = "win95_right_vertical_slider"
+		margin = {top=0 left=0 bottom=0 right= 0}
+		containerWindowType = {#本体
+			name = "OE_page_text"
+			size = { width = 708 height = 200%% }
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_webpage_pattern"
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_4_title"
+				position = { x = 4 y = 20 }
+				text = "OE_main_page_4_title"
+				font = "hoi_30header"
+				maxWidth = 700
+				maxHeight = 13
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+		}
+	}
+	containerWindowType = {#5ページ目
+		name = "OE_page_5"
+		size = { width = 715 height = 352 }
+		clipping = yes
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_empty"
+		}
+		verticalScrollbar = "win95_right_vertical_slider"
+		margin = {top=0 left=0 bottom=0 right= 0}
+		containerWindowType = {#本体
+			name = "OE_page_text"
+			size = { width = 708 height = 700%% }
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_webpage_pattern"
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_5_title"
+				position = { x = 4 y = 20 }
+				text = "OE_main_page_5_title"
+				font = "cg_16b"
+				maxWidth = 700
+				maxHeight = 13
+				fixedsize = yes
+				format = center
+				borderSize = {x = 0 y = 0 }
+			}
+			instantTextBoxType = {
+				name = "OE_main_page_5_text"
+				position = { x = 4 y = 50 }
+				text = "OE_main_page_5_text"
+				font = "cg_16b"
+				maxWidth = 700
+				maxHeight = 6000
+				fixedsize = yes
+				format = left
+				borderSize = {x = 0 y = 0 }
+			}
+		}
+	}
+
+	extendedScrollbarType = { #scrollbar
+		name = "win95_right_vertical_slider"
+		position = { x = -5 y = 0 }
+ 		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_98_slider_bg"
+		}
+		
+		slider = {
+			name = "Slider"	
+			quadTextureSprite = "GFX_98_slider"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_tiled_empty"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_98_up"
+			position = { x = 1 y = 0 }
+		}
+		
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_98_pulldown"
+			position = { x=-18 y = -13}	
+		}
+	}
 }
