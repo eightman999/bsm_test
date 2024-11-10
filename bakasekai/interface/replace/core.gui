@@ -12,24 +12,24 @@ guiTypes = {
 		{
 			name ="console_list"
 			background = "GFX_console_win_bg"
-			position = { x=0 y=10}
+			position = { x=0 y=25}
 			orientation = "UPPER_LEFT"
 			priority = 100
-			size = { x=468 y=322 }
+			size = { x=450 y=312 }
 			borderSize = { x=0 y=0 }
 			offset = { x=0 y=70 }
-			scrollbartype = "standardlistbox_slider"
+			scrollbartype = "win95_standardlistbox_slider"
 			alwaystransparent = yes
 		}
 		
 		# Text edit box
 		editBoxType = {
-			position = { x = 0 y = 380  }
+			position = { x = 10 y = 380  }
 			name = "console_edit"
 			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 			font = "Arial12"
 			borderSize = { x=4 y=4 }	
-			size = { x=500 y=40 }
+			size = { x=477 y=40 }
 			text = " "
 			orientation = "UPPER_LEFT"
 			instantTextBoxType = no
@@ -67,7 +67,7 @@ guiTypes = {
 		borderSize = {x = 1 y = 1}
 		font = "Main_14_eu"
 		text = "menutextbox1"
-		maxWidth = 300
+		maxWidth = 280
 		maxHeight = 22
 	}
 
@@ -207,6 +207,52 @@ guiTypes = {
 			position = { x=0 y =120}	
 		}
 	}
+
+	scrollbarType = {
+		name = "win95_standardlistbox_slider"	
+		slider = "listboxSliderButton"
+		track= "listboxTrackButton"
+		leftbutton = "downButton"
+		rightbutton = "upButton"
+		size = {x =12 y =12 }
+		position = {x= -6 y =-6}
+		priority = 100			
+		borderSize = {x = 12 y = 12}	
+		maxValue =1
+		minValue =0
+		stepSize = 0.01
+		scroll_speed = 40
+		startValue = 0
+		horizontal = 0
+
+
+		guiButtonType = {
+			name = "listboxSliderButton"	
+			quadTextureSprite = "GFX_98_slider"
+			position = { x=-12 y =0}
+		}
+
+		guiButtonType = {
+			name = "listboxTrackButton"
+			quadTextureSprite = "GFX_tiled_empty"
+			position = { x=12 y =12}		
+
+		}	
+
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "upButton"
+			quadTextureSprite = "GFX_98_up"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "downButton"
+			quadTextureSprite = "GFX_98_pulldown"
+			position = { x=0 y =120}	
+		}
+}
 
 	### Extended Scrollbar Types ###
 
