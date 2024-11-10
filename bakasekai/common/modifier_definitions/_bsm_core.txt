@@ -22,12 +22,6 @@ National_Unity_Power_gain_factor = {
 	precision = 2
 }
 
-daily_Unified_Currency_gain = {
-	color_type = good
-	value_type = number
-	precision = 0
-}
-
 Unified_Currency_gain_factor = {
 	color_type = good
 	value_type = percentage

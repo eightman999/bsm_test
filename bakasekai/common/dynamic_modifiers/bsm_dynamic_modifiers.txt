@@ -6,10 +6,10 @@ civ_research_buff = {
 	stability_factor = Cultural_Degree
 }
 
-mercenary_cost_daily = {
-	enable = { always = yes }
-	daily_Unified_Currency_gain = mercenary_cost
-}
+# mercenary_cost_daily = {
+# 	enable = { always = yes }
+# 	daily_Unified_Currency_gain = mercenary_cost
+# }
 
 bsm_dropped_nuke_modifier = {#核の落ちた町
 	# icon = GFX_nuke_dropped

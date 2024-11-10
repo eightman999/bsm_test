@@ -238,6 +238,9 @@ on_actions = {
 				}
 				
 			}
+			#### 通貨 #### 
+			ucs_first_setting = yes
+
 			#### 国家統合力 #### 
 
 				#仮削除
@@ -246,16 +249,6 @@ on_actions = {
 
 				#仮削除
 
-			#### 通貨 #### 
-
-				#仮削除
-			# every_country = {
-			# 	clamp_variable = {
-			# 		var = Unified_Currency
-			# 		max = 10000
-			# 		min = -10000
-			# 	}
-			# }
 
 			#### 鉱山 #### 
 
@@ -299,8 +292,7 @@ on_actions = {
 	}
 	on_monthly = {
 		effect = {
-			ROOT = {
-				if = {#12月
+			if = {#12月
 					limit = { check_variable = { global.month = 12 } }
 					set_variable = { global.month = 1 } #1月にリセット
 				}
@@ -308,7 +300,7 @@ on_actions = {
 					add_to_variable = { global.month = 1 } 
 				}
 			}
-
+			ucs_on_monthly = yes #通貨 月毎処理
 		}
 	}
 	on_daily = {

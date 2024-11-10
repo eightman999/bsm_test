@@ -165,6 +165,15 @@ debug_decisions = {
 			}
 		}
 	}
+	debug_ucs_on_monthly = {
+		icon = generic_independence
+		fire_only_once = no
+		remove_effect = {
+			ucs_on_monthly = yes
+
+		}
+	}
+	
 	# debug_hs_set = {
 	# 	icon = generic_independence
 	# 	fire_only_once = no
