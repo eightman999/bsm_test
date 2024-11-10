@@ -1,0 +1,20 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			any_country = {
+				limit = {
+					random_state = {
+						limit = {
+							is_coastal = yes
+						}
+						controller = PREV
+					}
+				}
+			}
+			country_event = {
+				id = ghost_fleet.1
+				days = 180
+			}
+		}
+	}
+}
