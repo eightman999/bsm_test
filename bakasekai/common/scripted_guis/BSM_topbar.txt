@@ -5,11 +5,11 @@ scripted_gui = {
 		effects = {
 			bsm_OE_GUI_open_button_click = {
 				if = {
-					limit = { has_country_flag = bsm_OE_GUI }
-					clr_country_flag = bsm_OE_GUI
+					limit = { has_variable = OE_page }
+					clear_variable = OE_page
 				}
 				else = {
-					set_country_flag = bsm_OE_GUI
+					set_variable = { OE_page = 1 }
 				}
 			}
 		}

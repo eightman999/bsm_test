@@ -1,26 +1,26 @@
 ﻿l_japanese:
-COUNTRY_PO:0 "[?ROOT.COUNTRY_P_O|0]"
+COUNTRY_PO:0 "[?ROOT.National_Unity_Power|0]"
 popular_opinion_title:0 "国家統合力"
 popular_opinion_desc:0 "国民が、§Hバカであればあるほど§!多く獲得できる。また、§H宗教§!や§H国民精神§!によっても獲得できる。\n特定の§H国家方針§!で追加の統合力を獲得し、§H政治顧問§!で獲得量を増加させることもできる。\n\n国家統合力は伝統の取得やアノマリーの研究に使用される。"
 
-COUNTRY_CD:0 "[?ROOT.COUNTRY_CULTURAL_DEGREE|0%]"
+COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 CULTURAL_DEGREES_title:0 "文明化率"
 CULTURAL_DEGREES_desc_test_2:0 "[CULTURAL_DEGREES_desc_test]"
-CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?COUNTRY_CULTURAL_DEGREE|0%]\n政治力獲得補正:[?COUNTRY_CULTURAL_DEGREE|0%]\n安定度補正:[?COUNTRY_CULTURAL_DEGREE|0%]（[?global.year]）"
-COUNTRY_CD:0 "[?ROOT.COUNTRY_CULTURAL_DEGREE|0%]"
+CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?Cultural_Degree|0%]\n政治力獲得補正:[?Cultural_Degree|0%]\n安定度補正:[?Cultural_Degree|0%]（[?global.year]）"
+COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 
 Energie_currencies_title:0 "通貨"
-Energie_currencies_desc:0 "我が国の通貨保有量である。\n日ごとの通貨:[?modifier@daily_COUNTRY_e_c_gain|0]\n通貨獲得補正:[?modifier@COUNTRY_e_c_gain_factor|0]"
-COUNTRY_e_c:0 "[?ROOT.COUNTRY_e_c|0]"
+Energie_currencies_desc:0 "我が国の通貨保有量である。\n日ごとの通貨:[?modifier@daily_Unified_Currency_gain|0]\n通貨獲得補正:[?modifier@Unified_Currency_gain_factor|0]"
+Unified_Currency:0 "[?ROOT.Unified_Currency|0]"
 
-daily_COUNTRY_P_O_gain:0 "日ごとの国家統合力"
-COUNTRY_P_O_gain_factor:0 "国家統合力獲得補正"
+daily_National_Unity_Power_gain:0 "日ごとの国家統合力"
+National_Unity_Power_gain_factor:0 "国家統合力獲得補正"
 
-daily_COUNTRY_e_c_gain:0 "日ごとの通貨"
-COUNTRY_e_c_gain_factor:0 "通貨獲得補正"
+daily_Unified_Currency_gain:0 "日ごとの通貨"
+Unified_Currency_gain_factor:0 "通貨獲得補正"
 
-base_COUNTRY_CULTURAL_DEGREE:0 "文明化率のベース"
-weekly_COUNTRY_CULTURAL_DEGREE:9 "週ごとの文明化率上昇"
+base_Cultural_Degree:0 "文明化率のベース"
+weekly_Cultural_Degree:9 "週ごとの文明化率上昇"
 
 normal_country:0 "通常国家"
 
@@ -50,12 +50,11 @@ MS_max_tt:0 "傭兵の最大数を下回っている"
 	mercenary_system_koyou_m:0 "傭兵連隊の雇用"
 
 
-debug_eco_set:0 "経済設定のデバッグ"
 bsm_ecpp:0 "国庫から政治力を得る"
-ec_to_pp:0 "政治力に変換"
-ec_to_pp_desc:0 "国庫から§H政治力§!を得る。"
-pp_to_ec:0 "通貨に変換"
-pp_to_ec_desc:0 "§H政治力§!を国庫に変換する。"
+# ec_to_pp:0 "政治力に変換"
+# ec_to_pp_desc:0 "国庫から§H政治力§!を得る。"
+# pp_to_ec:0 "通貨に変換"
+# pp_to_ec_desc:0 "§H政治力§!を国庫に変換する。"
 
 
 
@@ -80,10 +79,6 @@ MD_gain:0 "£resource_energy_icon [?ROOT.MD_gain|0]"
 bsm_mine_dev:0 "鉱山の開発"
 dev_mine_gold:0 "[FROM.GetName]の金鉱山開発 I"
 dev_mine_Jewel:0 "[FROM.GetName]の宝石鉱山開発 I"
-dev_mine_gold_2:0 "[FROM.GetName]の金鉱山開発 II"
-dev_mine_Jewel_2:0 "[FROM.GetName]の宝石鉱山開発 II"
-dev_mine_gold_3:0 "[FROM.GetName]の金鉱山開発 III"
-dev_mine_Jewel_3:0 "[FROM.GetName]の宝石鉱山開発 III"
 dev_mine_gold_desc:0 "金鉱山の規模を拡大する。"
 dev_mine_Jewel_desc:0 "宝石鉱山の規模を拡大する。"
 

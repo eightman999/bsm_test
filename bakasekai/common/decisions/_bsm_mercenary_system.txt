@@ -6,7 +6,7 @@ mercenary_system_koyou = {
 			AND = {
 				custom_trigger_tooltip ={
 					check_variable = {
-						COUNTRY_e_c  > 29
+						Unified_Currency > 29
 					}
 					tooltip =  need_50_energy
 				}
@@ -26,7 +26,7 @@ mercenary_system_koyou = {
 		}
 		complete_effect = {
 			subtract_from_variable = {
-				COUNTRY_e_c = 30
+				Unified_Currency = 30
 			}
 			add_to_variable = {
 				MS_sum_num = 2
@@ -56,7 +56,7 @@ mercenary_system_koyou = {
 			AND = {
 				custom_trigger_tooltip ={
 					check_variable = {
-						COUNTRY_e_c  > 49
+						Unified_Currency  > 49
 					}
 					tooltip =  need_50_energy
 				}
@@ -75,7 +75,7 @@ mercenary_system_koyou = {
 		}
 		complete_effect = {
 			subtract_from_variable = {
-				COUNTRY_e_c = 50
+				Unified_Currency = 50
 			}
 			add_to_variable = {
 				MS_sum_num = 4

@@ -4,17 +4,8 @@ ideas = {
 		use_list_view = yes
 		atheism = {
 			picture = atheism
-			available = {
-				NOT = {
-					has_country_leader_ideology = liberalism
-					has_country_leader_ideology = socialism
-				}
-			}
 			visible = {
-				NOT = {
-					has_country_leader_ideology = liberalism
-					has_country_leader_ideology = socialism
-				}
+				has_country_flag = atheism_CONTRY
 			}
 			cost = 100
 			removal_cost = -1
@@ -30,12 +21,6 @@ ideas = {
 		}
 		anemism = {
 			picture = anemism
-			allowed = {
-				OR = {
-					has_country_flag = anemism_CONTRY
-					has_idea = mystery_country
-				}
-			}
 			visible = {
 				OR = {
 					has_country_flag = anemism_CONTRY
@@ -59,9 +44,6 @@ ideas = {
 		}
 		shinto = {
 			cancel_if_invalid = no
-			allowed = {
-				has_country_flag = SHINTO_CONTRY
-			}
 			visible = {
 				has_country_flag = SHINTO_CONTRY
 			}
@@ -75,10 +57,7 @@ ideas = {
 		}
 		buddhism = {
 			cancel_if_invalid = no
-			allowed = {
-				#allways = no
-				has_country_flag = buddhism_CONTRY
-			}
+
 			visible = {
 				has_country_flag = buddhism_CONTRY
 			}
@@ -94,10 +73,7 @@ ideas = {
 		shia = {
 			picture = shia
 			cancel_if_invalid = no
-			allowed = {
-				#allways = no
-				has_country_flag = shia_CONTRY
-			}
+
 			visible = {
 				has_country_flag = shia_CONTRY
 			}
@@ -109,10 +85,7 @@ ideas = {
 			}
 		}
 		Stoicism = {
-			allowed = {
-				#allways = no
-				has_country_flag = Stoicism_CONTRY
-			}
+
 			visible = {
 				has_country_flag = Stoicism_CONTRY
 			}
@@ -126,10 +99,7 @@ ideas = {
 		}
 		catholicism = {
 			cancel_if_invalid = no
-			allowed = {
-				#allways = no
-				has_country_flag = catholicism_CONTRY
-			}
+
 			visible = {
 				has_country_flag = catholicism_CONTRY
 			}
@@ -144,10 +114,7 @@ ideas = {
 		}
 		protestantism = {
 			cancel_if_invalid = no
-			allowed = {
-				#allways = no
-				has_country_flag = protestantism_CONTRY
-			}
+
 			visible = {
 				has_country_flag = protestantism_CONTRY
 			}
@@ -163,10 +130,7 @@ ideas = {
 		}
 		orthodoxy = {
 			cancel_if_invalid = no
-			allowed = {
-				#allways = no
-				has_country_flag = orthodoxy_CONTRY
-			}
+
 			visible = {
 				has_country_flag = orthodoxy_CONTRY
 			}
@@ -181,9 +145,7 @@ ideas = {
 		}
 		judaism = {
 			picture = judaism
-			allowed = {
-				has_country_flag = judaism_COUNTRY
-			}
+
 			visible = {
 				has_country_flag = judaism_COUNTRY
 			}
@@ -199,9 +161,7 @@ ideas = {
 		}
 		sunni = {
 			picture = sunni
-			allowed = {
-				has_country_flag = sunni_CONTRY
-			}
+
 			visible = {
 				has_country_flag = sunni_CONTRY
 			}
@@ -215,9 +175,7 @@ ideas = {
 		}
 		hinduism = {
 			cancel_if_invalid = no
-			allowed = {
-				has_country_flag = hinduism_CONTRY
-			}
+
 			visible = {
 				has_country_flag = hinduism_CONTRY
 			}
@@ -230,11 +188,7 @@ ideas = {
 		}
 		communism_religion = {
 			cancel_if_invalid = no
-			allowed = {
-				#allways = no
-				# communism_ideology > 0.5
-				has_government = communism_ideology
-			}
+
 			visible = {
 				# communism_ideology > 0.5
 				has_government = communism_ideology
@@ -248,10 +202,7 @@ ideas = {
 		chinese_rels = {
 			cost = 50
 			removal_cost = -1
-			allowed = {
-				#allways = no
-				has_country_flag = chinese_CONTRY
-			}
+
 			visible = {
 				has_country_flag = chinese_CONTRY
 			}

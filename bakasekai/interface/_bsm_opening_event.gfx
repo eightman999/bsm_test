@@ -32,10 +32,13 @@ spriteTypes = {
 		textureFile = "gfx/interface/GUI/98/up.png"
 	}
 	spriteType = {
+		name = "GFX_98_down"
+		textureFile = "gfx/interface/GUI/98/down.png"
+	}
+	spriteType = {
 		name = "GFX_98_pulldown"
 		textureFile = "gfx/interface/GUI/98/pulldown.png"
 	}
-
 	spriteType = {
 		name = "GFX_98_btn_115x38"
 		textureFile = "gfx/interface/GUI/98/bsm_btn_115x38.png"

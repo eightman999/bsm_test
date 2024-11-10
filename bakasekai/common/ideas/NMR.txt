@@ -11,7 +11,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.05
-				base_COUNTRY_CULTURAL_DEGREE = 0.05
+				base_Cultural_Degree = 0.05
 			}
 		}
 		po3 = {
@@ -25,7 +25,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.05
-				base_COUNTRY_CULTURAL_DEGREE = 0.05
+				base_Cultural_Degree = 0.05
 			}
 		}
 	}

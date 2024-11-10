@@ -1,34 +1,34 @@
-weekly_COUNTRY_CULTURAL_DEGREE = {
+weekly_Cultural_Degree = {
 	color_type = good
 	value_type = percentage
 	precision = 2
 }
 
-base_COUNTRY_CULTURAL_DEGREE = {
+base_Cultural_Degree = {
 	color_type = good
 	value_type = percentage
 	precision = 0
 }
 
-daily_COUNTRY_P_O_gain = {
+daily_National_Unity_Power_gain = {
 	color_type = good
 	value_type = number
 	precision = 0
 }
 
-COUNTRY_P_O_gain_factor = {
+National_Unity_Power_gain_factor = {
 	color_type = good
 	value_type = percentage
 	precision = 2
 }
 
-daily_COUNTRY_e_c_gain = {
+daily_Unified_Currency_gain = {
 	color_type = good
 	value_type = number
 	precision = 0
 }
 
-COUNTRY_e_c_gain_factor = {
+Unified_Currency_gain_factor = {
 	color_type = good
 	value_type = percentage
 	precision = 2
