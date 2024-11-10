@@ -15,7 +15,7 @@ guiTypes = {
 			position = { x=0 y=25}
 			orientation = "UPPER_LEFT"
 			priority = 100
-			size = { x=450 y=312 }
+			size = { x=488 y=312 }
 			borderSize = { x=0 y=0 }
 			offset = { x=0 y=70 }
 			scrollbartype = "win95_standardlistbox_slider"

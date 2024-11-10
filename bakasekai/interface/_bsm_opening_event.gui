@@ -270,7 +270,7 @@ guiTypes = {
 				name = "OE_main_page_1_title"
 				position = { x = 9 y = 215 }
 				text = "OE_main_page_1_title"
-				font = "Main_14_black"
+				font = "bsm_30_black"
 				maxWidth = 700
 				maxHeight = 13
 				fixedsize = yes
@@ -282,7 +282,7 @@ guiTypes = {
 				position = { x = 9 y = 245 }
 				text = "OE_main_page_1_last_update"
 				font = "vanilla_hoi_24header"
-				maxWidth = 700
+				maxWidth = 670
 				maxHeight = 13
 				fixedsize = yes
 				format = center
@@ -293,8 +293,8 @@ guiTypes = {
 				name = "OE_main_page_1_update_log"
 				position = { x = 9 y = 280 }
 				text = "OE_main_page_1_update_log"
-				font = "cg_16b"
-				maxWidth = 700
+				font = "bsm_16_black"
+				maxWidth = 675
 				maxHeight = 700
 				fixedsize = yes
 				format = center
@@ -332,7 +332,7 @@ guiTypes = {
 				name = "OE_main_page_2_title"
 				position = { x = 4 y = 20 }
 				text = "OE_main_page_2_title"
-				font = "cg_16b"
+				font = "bsm_16_black"
 				maxWidth = 700
 				maxHeight = 700
 				fixedsize = yes
@@ -365,7 +365,7 @@ guiTypes = {
 				name = "OE_main_page_3_title"
 				position = { x = 4 y = 20 }
 				text = "OE_main_page_3_title"
-				font = "hoi_30header"
+				font = "bsm_30_black"
 				maxWidth = 700
 				maxHeight = 13
 				fixedsize = yes
@@ -398,7 +398,7 @@ guiTypes = {
 				name = "OE_main_page_4_title"
 				position = { x = 4 y = 20 }
 				text = "OE_main_page_4_title"
-				font = "hoi_30header"
+				font = "bsm_30_black"
 				maxWidth = 700
 				maxHeight = 13
 				fixedsize = yes
@@ -431,7 +431,7 @@ guiTypes = {
 				name = "OE_main_page_5_title"
 				position = { x = 4 y = 20 }
 				text = "OE_main_page_5_title"
-				font = "cg_16b"
+				font = "bsm_30_black"
 				maxWidth = 700
 				maxHeight = 13
 				fixedsize = yes
@@ -440,9 +440,9 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "OE_main_page_5_text"
-				position = { x = 4 y = 50 }
+				position = { x = 4 y = 60 }
 				text = "OE_main_page_5_text"
-				font = "cg_16b"
+				font = "bsm_16_black"
 				maxWidth = 700
 				maxHeight = 6000
 				fixedsize = yes

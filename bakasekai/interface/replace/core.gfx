@@ -2278,7 +2278,9 @@ bitmapfonts = {
 		name = "cg_16b"		####### GENERAL TOOLTIP FONT ########
 		#		path = "gfx/fonts/cg_16b"
 		fontfiles = {
-			"gfx/fonts/cg_16b"
+			# "gfx/fonts/cg_16b"
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
 		}
 		color = 0xffffffff
 	}
@@ -2288,7 +2290,7 @@ bitmapfonts = {
 			"gfx/fonts/jis30"
 			"gfx/fonts/jis30_2"
 		}
-		color = 0xff000000
+		color = 0xffffffff
 		textcolors = {
 			G = {
 				24
@@ -2324,7 +2326,7 @@ bitmapfonts = {
 			"gfx/fonts/jis16_b"
 			"gfx/fonts/jis16_b_2"
 		}
-		color = 0xff000000
+		color = 0xffffffff
 		textcolors = {
 			G = {
 				24
