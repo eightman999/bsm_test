@@ -41,9 +41,9 @@ bitmapfonts = {
 		name = "loadscreen_tips"
 #		path = "gfx/fonts/hoi_24header"
 		fontfiles = { 
-			"gfx/fonts/20"
-			"gfx/fonts/20_1"
-			"gfx/fonts/20_2"
+			"gfx/fonts/hoi_24header"
+			"gfx/fonts/hoi_24header_2"
+			"gfx/fonts/hoi_24header_3"
 		}		
 		cursor_offset = { 0 4 }
 		color = 0xffffffff
@@ -56,26 +56,6 @@ bitmapfonts = {
 			H = { 238 201 35 }
 			T = { 255 255 255 }
 		}
-	}
-	
-	bitmapfont_override = {
-		name = "loadscreen_tip"
-		fontfiles = { 
-			"gfx/fonts/20"
-			"gfx/fonts/20_1"
-			"gfx/fonts/20_2"
-		}
-		languages = { "l_russian" "l_polish" } 
-	}
-
-	bitmapfont_override = {
-		name = "loadscreen_tip"
-		fontfiles = {
-			"gfx/fonts/20"
-			"gfx/fonts/20_1"
-			"gfx/fonts/20_2"
-		}
-		languages = { "l_japanese" }
 	}
 	
 }
