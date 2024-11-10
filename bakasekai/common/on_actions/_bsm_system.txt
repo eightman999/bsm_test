@@ -239,8 +239,9 @@ on_actions = {
 				
 			}
 			#### 通貨 #### 
-			ucs_first_setting = yes
-
+			every_country = { #
+				ucs_first_setting = yes
+			}
 			#### 国家統合力 #### 
 
 				#仮削除
@@ -300,7 +301,9 @@ on_actions = {
 					add_to_variable = { global.month = 1 } 
 				}
 			}
-			ucs_on_monthly = yes #通貨 月毎処理
+			every_country = {
+				ucs_on_monthly = yes #通貨 月毎処理
+			}
 		}
 	}
 	on_daily = {
