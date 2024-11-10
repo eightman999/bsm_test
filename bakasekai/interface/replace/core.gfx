@@ -1,12 +1,12 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_default"
-		texturefile = "gfx/interface/thisisdog.png"
+		texturefile = "gfx/interface/thisisdog.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_default_fallback_texture"
-		texturefile = "gfx/interface/thisisdog.png"
+		texturefile = "gfx/interface/thisisdog.dds"
 	}
 	spriteType = {
 		name = "GFX_pdx_logo_credits"
@@ -19,11 +19,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_console_win_bg"
-		texturefile = "gfx/interface/console_win_bg.dds"
+		texturefile = "gfx/interface/console_win_bg.png"
 	}
 	spriteType = {
 		name = "GFX_dog"
-		texturefile = "gfx/interface/thisisdog.png"
+		texturefile = "gfx/interface/thisisdog.dds"
 	}
 	spriteType = {
 		name = "GFX_in_game_menu_dark_overlay"
@@ -2278,8 +2278,7 @@ bitmapfonts = {
 		name = "cg_16b"		####### GENERAL TOOLTIP FONT ########
 		#		path = "gfx/fonts/cg_16b"
 		fontfiles = {
-			"gfx/fonts/jis16"
-			"gfx/fonts/jis16_2"
+			"gfx/fonts/cg_16b"
 		}
 		color = 0xffffffff
 	}
