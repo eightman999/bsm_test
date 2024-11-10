@@ -6,34 +6,36 @@ guiTypes = {
 		size = { x=473 y=400 }
 		moveable = 0
 		orientation="UPPER_LEFT"
-		
+
 		# Console list of entries
 		listBoxType = 
 		{
 			name ="console_list"
 			background = "GFX_console_win_bg"
-			position = { x=0 y=25}
+			position = { x=0 y=45}
 			orientation = "UPPER_LEFT"
 			priority = 100
-			size = { x=488 y=312 }
+			size = { x=476 y=318 }
 			borderSize = { x=0 y=0 }
-			offset = { x=0 y=70 }
+			offset = { x=0 y=82 }
 			scrollbartype = "win95_standardlistbox_slider"
 			alwaystransparent = yes
 		}
 		
 		# Text edit box
 		editBoxType = {
-			position = { x = 10 y = 380  }
+			position = { x = 10 y = 425  }
 			name = "console_edit"
-			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			# textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			textureFile = "gfx\\interface\\GUI\\98\\bsm_small_tiles_dialog.png"
+
 			font = "Arial12"
 			borderSize = { x=4 y=4 }	
-			size = { x=477 y=40 }
+			size = { x=465 y=24 }
 			text = " "
 			orientation = "UPPER_LEFT"
 			instantTextBoxType = no
-			cursor = { x = 0 y = 8 }
+			cursor = { x = 0 y = 1 }
 		}
 
 	}

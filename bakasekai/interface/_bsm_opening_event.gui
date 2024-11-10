@@ -39,30 +39,13 @@ guiTypes = {
 				position = { x = 16 y = 3 }
 				# Orientation = UPPER_RIGHT
 			}
-			# instantTextBoxType = {
-			# 	name = "OE_back"
-			# 	position = { x = 15 y = 165 }
-			# 	text = "OE_back"
-			# 	font = "cg_16b"
-			# 	maxWidth = 50
-			# 	maxHeight = 13
-			# 	fixedsize = yes
-			# }
 			###進む
 			buttonType = {
 				name = "OE_forward_button"
 				quadTextureSprite = "GFX_98_forward"
 				position = { x = 60 y = 3 }
 			}
-			# instantTextBoxType = {
-			# 	name = "OE_forward"
-			# 	position = { x = 55 y = 165 }
-			# 	text = "OE_forward"
-			# 	font = "cg_16b"
-			# 	maxWidth = 50
-			# 	maxHeight = 13
-			# 	fixedsize = yes
-			# }
+
 			instantTextBoxType = {
 				name = "OE_address_title"
 				position = { x = 123 y = 41 }
@@ -72,7 +55,9 @@ guiTypes = {
 				maxHeight = 14
 				fixedsize = yes
 				borderSize = {x = 0 y = 0 }
+				
 			}
+
 			buttonType = {
 				name = "OE_address_expand_button"
 				quadTextureSprite = "GFX_98_down"
@@ -85,7 +70,7 @@ guiTypes = {
 				name = "OE_page_1"
 				quadTextureSprite = "GFX_98_btn_115x38"
 				position = { x = 120 y = 2 }
-				buttonFont = "cg_16b"
+				buttonFont = "bsm_16"
 				text = "OE_page_1"
 				clicksound = click_battleplan
 			}
@@ -94,7 +79,7 @@ guiTypes = {
 				name = "OE_page_2"
 				quadTextureSprite = "GFX_98_btn_115x38"
 				position = { x = 238 y = 2 }
-				buttonFont = "cg_16b"
+				buttonFont = "bsm_16"
 				text = "OE_page_2"
 				clicksound = click_battleplan
 			}
@@ -102,7 +87,7 @@ guiTypes = {
 				name = "OE_page_3"
 				quadTextureSprite = "GFX_98_btn_115x38"
 				position = { x = 356 y = 2 }
-				buttonFont = "cg_16b"
+				buttonFont = "bsm_16"
 				text = "OE_page_3"
 				clicksound = click_battleplan
 			}
@@ -110,7 +95,7 @@ guiTypes = {
 				name = "OE_page_4"
 				quadTextureSprite = "GFX_98_btn_115x38"
 				position = { x = 474 y = 2 }
-				buttonFont = "cg_16b"
+				buttonFont = "bsm_16"
 				text = "OE_page_4"
 				clicksound = click_battleplan
 			}
@@ -118,7 +103,7 @@ guiTypes = {
 				name = "OE_page_5"
 				quadTextureSprite = "GFX_98_btn_115x38"
 				position = { x = 592 y = 2 }
-				buttonFont = "cg_16b"
+				buttonFont = "bsm_16"
 				text = "OE_page_5"
 				clicksound = click_battleplan
 			}
@@ -154,38 +139,6 @@ guiTypes = {
 			# 	spriteType ="GFX_tiled_webpage_pattern"
 			# }
 
-
-			# extendedScrollbarType = {
-			# 	name = "oe_98_slider"
-			# 	position = {x=695 y=5}
-			# 	size = {width=15 height=330}
-			# 	startValue = 0
-			# 	background = {
-			# 		name = "Background"    
-			# 		quadTextureSprite = "GFX_98_slider_bg"
-			# 	}
-			# 	slider = {
-			# 		name = "Slider"    
-			# 		quadTextureSprite = "GFX_scroll_drager"
-			# 		position = { x = -2 y = -2 }
-			# 	}
-			# 	track = {
-			# 		name = "Track"
-			# 		quadTextureSprite = "GFX_scroll_track"
-			# 		position = { x = 3 y = 0 }
-			# 		alwaystransparent = yes
-			# 	}
-			# 	decreaseButton = {
-			# 		name = "Decrease"
-			# 		quadTextureSprite = "GFX_scroll_up"
-			# 		position = { x = 2 y = 3 }
-			# 	}
-			# 	increaseButton = {
-			# 		name = "Increase"
-			# 		quadTextureSprite = "GFX_scroll_down"
-			# 		position = { x=-17 y = -19}    
-			# 	}
-			# }
 	
 	
 		}
@@ -223,6 +176,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_98_close"
 			position = { x = 685 y = 8 }
 			clicksound = click_battleplan
+			shortcut = "ESCAPE"
 		}
 	}
 	containerWindowType = {#1ページ目
@@ -242,7 +196,7 @@ guiTypes = {
 		margin = {top=0 left=0 bottom=0 right= 0}
 		containerWindowType = {#本体
 			name = "OE_page_text"
-			size = { width = 708 height = 170%% }
+			size = { width = 708 height = 100%% }
 
 			background = {
 				name = "Background"
@@ -261,7 +215,7 @@ guiTypes = {
 			}
 			iconType = { #
 				name = "OE_mod_icon"
-				position = { x = 230 y = 70 }
+				position = { x = 230 y = 60 }
 				spriteType = "GFX_bsm_mod_icon_large"
 				scale = 0.6
 			}
