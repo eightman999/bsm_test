@@ -9,7 +9,7 @@ CULTURAL_DEGREES_desc_test_2:0 "[CULTURAL_DEGREES_desc_test]"
 CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?Cultural_Degree|0%]\n政治力獲得補正:[?Cultural_Degree|0%]\n安定度補正:[?Cultural_Degree|0%]（[?global.year]）"
 COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 
-Unified_Currency	_title:0 "我が政府が様々な用途に使用することができる通貨の保有量。\n先月の獲得量[?ROOT.Unified_Currency_Last_Month_gain|0]\n通貨獲得補正:[?modifier@Unified_Currency_gain_factor|0]"
+Unified_Currency_title:0 "我が政府が様々な用途に使用することができる通貨の保有量。\n先月の獲得量[?ROOT.Unified_Currency_Last_Month_gain|0]\n通貨獲得補正:[?modifier@Unified_Currency_gain_factor|0]"
 Unified_Currency:0 "[?ROOT.Unified_Currency|0]K"
 Unified_Currency_desc:0 "通貨は、国民の生産および消費活動や貿易を通じて獲得できる。\nまた探検隊の派遣や未知の解明をはじめとした政府の様々な用途に使用することができる。§H政府与党§や§H政治顧問§、§H宗教§などによっても獲得量は変動する"
 

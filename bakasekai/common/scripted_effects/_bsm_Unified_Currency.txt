@@ -52,6 +52,7 @@ ucs_add_Unified_Currency_month = {
 		add_to_temp_variable = { temp_factor = modifier@Unified_Currency_gain_factor }
 		multiply_temp_variable = { temp_add_amount = temp_factor } #[ SUM{ 人口(m) * {(インフラレベル * 1.25)+(飛行場レベル * 1.1)} } * 民需出力 * ( 安定度+文明 ) * 月毎の通過増加量補正 ] -(徴兵*ステート数)
 		set_temp_variable = { temp_last_month = temp_add_amount } #先月の獲得量の登録
+		subtract_from_temp_variable = { temp_add_amount = Unified_Currency_additional_gain }
 		multiply_temp_variable = { temp_add_amount = multiply_value } #月数の倍率
 		add_to_variable = { Unified_Currency = temp_add_amount } #追加
 		clamp_variable = { var = Unified_Currency max = 100000 min = -100000 }
