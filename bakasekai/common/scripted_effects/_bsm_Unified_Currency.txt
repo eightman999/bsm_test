@@ -9,6 +9,7 @@ ucs_first_setting = {
 	if = {
 		limit = { NOT = { has_country_flag = stop_Unified_Currency_gain } }
 		set_variable = { Unified_Currency = 0 } #リセット
+		set_variable = { Unified_Currency_Last_Month_gain = 0 } #リセット
 		set_temp_variable = { multiply_value = 12 } #初期値は12か月分
 		ucs_add_Unified_Currency = yes
 	}
@@ -49,9 +50,11 @@ ucs_add_Unified_Currency = {
 		set_temp_variable = { temp_factor = 1 }
 		add_to_temp_variable = { temp_factor = modifier@Unified_Currency_gain_factor }
 		multiply_temp_variable = { temp_add_amount = temp_factor } #[ SUM{ 人口(m) * {(インフラレベル * 1.25)+(飛行場レベル * 1.1)} } * 民需出力 * ( 安定度+文明 ) * 月毎の通過増加量補正 ] -(徴兵*ステート数)
+		add_to_variable = { Unified_Currency_Last_Month_gain = temp_add_amount } #追加
 		multiply_temp_variable = { temp_add_amount = multiply_value } #月数の倍率
 		add_to_variable = { Unified_Currency = temp_add_amount } #追加
-		clamp_variable = { var = Unified_Currency max = 10000 min = -10000 }
+		clamp_variable = { var = Unified_Currency max = 100000 min = -100000 }
+
 		log = "[?THIS.GetName]:通貨追加([?multiply_value|0]ヶ月分):[?temp_add_amount]"
 	}
 	else = { log = "wow... No temp variable !!" }

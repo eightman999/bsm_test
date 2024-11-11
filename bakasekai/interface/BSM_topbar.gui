@@ -89,8 +89,8 @@ guiTypes = {
 				}
 				name = "cd_bg"
 				quadTextureSprite ="GFX_bg_mini_tooltip"
-				pdx_tooltip = "Energie_currencies_title"
-				pdx_tooltip_delayed = "Energie_currencies_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
 			iconType = {
 				name ="ec"
@@ -98,8 +98,8 @@ guiTypes = {
 				position = { x= -2 y = -4 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-				pdx_tooltip = "Energie_currencies_title"
-				pdx_tooltip_delayed = "Energie_currencies_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 				scale = 0.8
 			}
 			instantTextBoxType = {
@@ -112,8 +112,8 @@ guiTypes = {
 				maxHeight = 24
 				fixedsize = yes
 				alwaystransparent = yes
-				pdx_tooltip = "Energie_currencies_title"
-				pdx_tooltip_delayed = "Energie_currencies_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
 		}
 		containerWindowType = {
