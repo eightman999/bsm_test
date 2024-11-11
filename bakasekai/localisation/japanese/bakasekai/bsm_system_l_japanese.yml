@@ -19,6 +19,10 @@ National_Unity_Power_gain_factor:0 "国家統合力獲得補正"
 daily_Unified_Currency_gain:0 "日ごとの通貨"
 Unified_Currency_gain_factor:0 "通貨獲得補正"
 
+tt_ucs_add_Unified_Currency_month:0 "[?multiply_value|1+]ヶ月分に相当する§H通貨§!を追加する"
+tt_ucs_add_Unified_Currency:0 "§H通貨§!を[?add_value|0+]追加する"
+
+
 base_Cultural_Degree:0 "文明化率のベース"
 weekly_Cultural_Degree:9 "週ごとの文明化率上昇"
 
