@@ -116,3 +116,16 @@ MAC_congress = {
 
 	priority = 85
 }
+
+MAC_cola_war_oppose_move = {
+	icon = mac_congress
+	allowed = {
+		original_tag = MAC
+		has_country_flag = MAC_start_cola_war
+	}
+	visible = {
+		has_country_flag = MAC_start_cola_war
+	}
+
+	priority = 80
+}

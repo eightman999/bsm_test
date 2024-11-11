@@ -1912,7 +1912,7 @@ MAC_congress = {
 	}
 }
 
-MAC_oppose_move = {
+MAC_cola_war_oppose_move = {
 	MAC_NF_cola_capitalism = {
 		icon = ger_mefo_bills
 		available = {
