@@ -8,15 +8,11 @@ country_event = {
 	fire_only_once = no
 
 	major = no
-	is_triggered_only = no
+	is_triggered_only = yes
 
 	trigger = {
 		tag = MAC
 		MAC = { has_idea = Dieting_1 }
-	}
-
-	mean_time_to_happen = {
-		days = 30
 	}
 
 	option = {
@@ -68,15 +64,11 @@ country_event = {
 	fire_only_once = no
 
 	major = no
-	is_triggered_only = no
+	is_triggered_only = yes
 
 	trigger = {
 		tag = MAC
 		MAC = { has_idea = Dieting_2 }
-	}
-
-	mean_time_to_happen = {
-		days = 60
 	}
 
 	option = {
@@ -126,15 +118,11 @@ country_event = {
 	fire_only_once = no
 
 	major = no
-	is_triggered_only = no
+	is_triggered_only = yes
 
 	trigger = {
 		tag = MAC
 		MAC = { has_idea = Dieting_3 }
-	}
-
-	mean_time_to_happen = {
-		days = 180
 	}
 
 	option = {
@@ -184,15 +172,11 @@ country_event = {
 	fire_only_once = no
 
 	major = no
-	is_triggered_only = no
+	is_triggered_only = yes
 
 	trigger = {
 		tag = MAC
 		MAC = { has_idea = Dieting_1_2}
-	}
-
-	mean_time_to_happen = {
-		days = 30
 	}
 
 	option = {
@@ -212,15 +196,11 @@ country_event = {
 	fire_only_once = no
 
 	major = no
-	is_triggered_only = no
+	is_triggered_only = yes
 
 	trigger = {
 		tag = MAC
 		MAC = { has_idea = Dieting_2_2 }
-	}
-
-	mean_time_to_happen = {
-		days = 60
 	}
 
 	option = {

@@ -35,8 +35,14 @@ Dieting_decision = {
 			custom_effect_tooltip = MAC_Dieting_1_tt
 			hidden_effect = {
 				random_list = {
-					20 = { add_timed_idea = { idea = Dieting_1  days = 30 } }
-					80 = { add_timed_idea = { idea = Dieting_1_2  days = 30 } }
+					20 = { 
+						add_timed_idea = { idea = Dieting_1  days = 30 } 
+						country_event = { id = MCD.1 days = 28}
+					}
+					80 = {
+						add_timed_idea = { idea = Dieting_1_2  days = 30 } 
+						country_event = { id = MCD.4 days = 28}
+					}
 				}
 			}
 		}
@@ -79,8 +85,14 @@ Dieting_decision = {
 			custom_effect_tooltip = MAC_Dieting_2_tt
             hidden_effect = {
 				random_list = {
-					40 = { add_timed_idea = { idea = Dieting_2  days = 60 } }
-					60 = { add_timed_idea = { idea = Dieting_2_2  days = 60 } }
+					40 = { 
+						add_timed_idea = { idea = Dieting_2  days = 60 } 
+						country_event = { id = MCD.2 days = 58}
+					}
+					60 = { 
+						add_timed_idea = { idea = Dieting_2_2  days = 60 } 
+						country_event = { id = MCD.5 days = 58}
+					}
 				}
 			}
 
@@ -125,6 +137,7 @@ Dieting_decision = {
 			custom_effect_tooltip = MAC_Dieting_3_tt
             hidden_effect = {
 				add_timed_idea = { idea = Dieting_3  days = 180 }
+				country_event = { id = MCD.3 days = 178}
 			}
 		}
 		ai_will_do = {
