@@ -8,6 +8,15 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = Unified_Currency_title_txt
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = Unified_Currency_desc_title
+	}
+}
+defined_text = {
 	name = OE_page_url
 	text = {
 		trigger = { check_variable = { OE_page = 1 } }
