@@ -3460,7 +3460,7 @@ OMA = {
 	}
 	callsigns = { }
 }
-PER = {
+PRU = {
 	male = {
 		names = {
 			Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Afshin Ahmad Ali Amir Ammar

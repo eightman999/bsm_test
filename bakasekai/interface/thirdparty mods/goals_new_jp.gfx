@@ -2538,10 +2538,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KOB_strike_while_theyre_weak.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_focus_generic_strike_kansai"
-		texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"
-	}
+	# SpriteType = {
+	# 	name = "GFX_focus_generic_strike_kansai"
+	# 	texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"
+	# }
 
 	SpriteType = {
 		name = "GFX_focus_generic_strike_joseon"
@@ -3189,20 +3189,20 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_CHU_Declare_Imperial_Shogunate_Junta.dds"
 	}
 
-	SpriteType = {
-	name = "GFX_focus_generic_strike_kansai"
-	texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"
-	}
+	# SpriteType = {
+	# name = "GFX_focus_generic_strike_kansai"
+	# texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"
+	# }
 
-	SpriteType = {
-	name = "GFX_focus_generic_strike_kyushu"
-	texturefile = "gfx/interface/goals/focus_generic_strike_kyushu.dds"
-	}
+	# SpriteType = {
+	# name = "GFX_focus_generic_strike_kyushu"
+	# texturefile = "gfx/interface/goals/focus_generic_strike_kyushu.dds"
+	# }
 
-	SpriteType = {
-	name = "GFX_focus_generic_strike_shikoku"
-	texturefile = "gfx/interface/goals/focus_generic_strike_shikoku.dds"
-	}
+	# SpriteType = {
+	# name = "GFX_focus_generic_strike_shikoku"
+	# texturefile = "gfx/interface/goals/focus_generic_strike_shikoku.dds"
+	# }
 
 	SpriteType = {
 	name = "GFX_focus_CHU_annex_SHO"
@@ -3211,10 +3211,10 @@ spriteTypes = {
 
 	#### Generic continuous goal icons
 
-	SpriteType = {
-	name = "GFX_focus_EZO_League_Of_Nations"
-	texturefile = "gfx/interface/goals/focus_EZO_League_Of_Nations.dds"
-	}
+	# SpriteType = {
+	# name = "GFX_focus_EZO_League_Of_Nations"
+	# texturefile = "gfx/interface/goals/focus_EZO_League_Of_Nations.dds"
+	# }
 
 	SpriteType = {
 	name = "GFX_focus_EZO_akai_rising"
@@ -3729,10 +3729,10 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_HIR_strike_jeju.dds"
 	}
 
-	SpriteType = {
-	name = "GFX_decision_hirado_border_problem"
-	texturefile = "gfx/interface/decisions/decision_hirado_border_problem.dds"
-	}
+	# SpriteType = {
+	# name = "GFX_decision_hirado_border_problem"
+	# texturefile = "gfx/interface/decisions/decision_hirado_border_problem.dds"
+	# }
 
 	SpriteType = {
 	name = "GFX_focus_HIR_Deal_for_islands"
