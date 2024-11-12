@@ -4443,7 +4443,7 @@ BAN = {
 }
 
 #Maldives
-MLD = {
+MDV = {
 	male = {
 		names = { 
 			Abbas Abdulla Ahmed Azneem Bodufenvalhuge Fathulla Hassan Husain Hussain Ibrahim Ilyas Imad Ismail Koimala Maumoon Mohamed Mohammed Moosa Muhammad Naushad Qasim Qazi Reeko Saikuraa Saleem Sultan Ustaz Visam

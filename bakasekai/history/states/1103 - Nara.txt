@@ -1,27 +1,21 @@
 state = {
-	id = 950
-	name = "STATE_950"
+	id = 1103
+	name = "STATE_1103"
 	manpower = 2354000
 	state_category = metropolis
 	history = {
 		add_core_of = JPN
 		owner = JPN
 		victory_points = {
-			14669
-			20
+			14661
+			10
 		}
 		buildings = {
-			1067 = {
-				naval_base = 8
-			}
+			infrastructure = 3
 		}
-		set_state_flag = Gold_Rush
 	}
 	provinces = {
-		14669
-		11960
-		14668
-		1067
-		14831
+		14661
+		15025
 	}
 }

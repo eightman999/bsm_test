@@ -45,7 +45,7 @@ ideas = {
 		shinto = {
 			cancel_if_invalid = no
 			visible = {
-				has_country_flag = SHINTO_CONTRY
+				has_country_flag = Support_For_Shinto
 			}
 			modifier = {
 				mythologicalism_drift = 0.001
@@ -59,7 +59,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			visible = {
-				has_country_flag = buddhism_CONTRY
+				has_country_flag = Support_For_Buddhism
 			}
 			modifier = {
 				mythologicalism_drift = 0.05
@@ -75,7 +75,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			visible = {
-				has_country_flag = shia_CONTRY
+				has_country_flag = Support_For_Shia
 			}
 			modifier = {
 				research_speed_factor = 0.05
@@ -101,7 +101,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			visible = {
-				has_country_flag = catholicism_CONTRY
+				has_country_flag = Support_For_Catholicism
 			}
 			modifier = {
 				mythologicalism_drift = 0.01
@@ -116,7 +116,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			visible = {
-				has_country_flag = protestantism_CONTRY
+				has_country_flag = Support_For_Protestantism
 			}
 			modifier = {
 				mythologicalism_drift = 0.005
@@ -147,7 +147,7 @@ ideas = {
 			picture = judaism
 
 			visible = {
-				has_country_flag = judaism_COUNTRY
+				has_country_flag = Support_For_Judaism
 			}
 			cost = 50
 			removal_cost = -1
@@ -163,7 +163,7 @@ ideas = {
 			picture = sunni
 
 			visible = {
-				has_country_flag = sunni_CONTRY
+				has_country_flag = Support_For_Sunni
 			}
 			cost = 50
 			removal_cost = -1
@@ -177,7 +177,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			visible = {
-				has_country_flag = hinduism_CONTRY
+				has_country_flag = Support_For_Hinduism
 			}
 			modifier = {
 				stability_factor = 0.1

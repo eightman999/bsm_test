@@ -16,13 +16,13 @@ mercenary_system_koyou = {
 					}
 					tooltip =  MS_max_tt
 				}
-				NOT = { has_country_flag = MS_ALLOWED }
+				NOT = { has_country_flag = Mercenary_System_Allowed }
 
 			}
 
 		}
 		visible = {
-			has_country_flag = MS_ALLOWED
+			has_country_flag = Mercenary_System_Allowed
 		}
 		complete_effect = {
 			subtract_from_variable = {
@@ -66,12 +66,12 @@ mercenary_system_koyou = {
 					}
 					tooltip =  MS_max_tt
 				}
-				NOT = { has_country_flag = MS_ALLOWED }
+				NOT = { has_country_flag = Mercenary_System_Allowed }
 
 			}
 		}
 		visible = {
-			has_country_flag = MS_ALLOWED
+			has_country_flag = Mercenary_System_Allowed
 		}
 		complete_effect = {
 			subtract_from_variable = {
@@ -102,7 +102,7 @@ mercenary_system_koyou = {
 	}
 	mercenary_system_kaiko = {
 		visible = {
-			has_country_flag = MS_ALLOWED
+			has_country_flag = Mercenary_System_Allowed
 		}
 		available = {
 			check_variable = {

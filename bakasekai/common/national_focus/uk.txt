@@ -5095,13 +5095,13 @@ focus_tree = {
 				limit = {
 					has_full_control_of_state = 281
 				}
-				release = MLD
+				release = MDV
 				if = {
 					limit = {
 						has_dlc = "Together for Victory"
 					}
 					set_autonomy = {
-						target = MLD
+						target = MDV
 						autonomy_state = autonomy_dominion
 					}
 				}
@@ -5111,14 +5111,14 @@ focus_tree = {
 							has_dlc = "Together for Victory"
 						}
 					}
-					puppet = MLD
+					puppet = MDV
 				}
 				hidden_effect = {
 					every_other_country = {
 						limit = {
 							has_war_with = GBR
 						}
-						MLD = {
+						MDV = {
 							add_to_war = {
 								targeted_alliance = GBR
 								enemy = PREV

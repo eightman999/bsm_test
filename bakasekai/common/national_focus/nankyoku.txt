@@ -153,7 +153,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-				ideology = mythologicalism_drift
+				ideology = mythologicalism
 				popularity = 0.5
 			}
 		}

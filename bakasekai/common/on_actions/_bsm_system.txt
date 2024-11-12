@@ -2,19 +2,30 @@ on_actions = {
 	on_startup = {
 		effect = {
 			#### global変数の設定 ####
-			set_variable = { global.month = 1 } #月を示す変数
+			set_variable = {
+				global.month = 1
+			}			#月を示す変数
 			#### Opening Event ####
-			every_country = { #プレイヤー国家のみOEを開く
-				limit = { is_ai = no }
-				set_variable = { OE_page = 1 }
+			every_country = {
+				#プレイヤー国家のみOEを開く
+				limit = {
+					is_ai = no
+				}
+				set_variable = {
+					OE_page = 1
+				}
 			}
 			#### 宗教 #### 
 			every_country = {
-				if = { #共産主義
-					limit = { has_government = communism_ideology }
+				if = {
+					#共産主義
+					limit = {
+						has_government = communism_ideology
+					}
 					add_ideas = communism_religion
 				}
-				if = { #カトリック
+				if = {
+					#カトリック
 					limit = {
 						OR = {
 							tag = MEX
@@ -69,9 +80,10 @@ on_actions = {
 							tag = MZB
 						}
 					}
-					set_country_flag = catholicism_CONTRY
+					set_country_flag = Support_For_Catholicism
 				}
-				if = { #正教
+				if = {
+					#正教
 					limit = {
 						OR = {
 							tag = GRC
@@ -89,9 +101,10 @@ on_actions = {
 							tag = LEB
 						}
 					}
-					set_country_flag = orthodoxy_COUNTRY
+					set_country_flag = Support_For_Orthodoxy
 				}
-				if = { #プロテスタント
+				if = {
+					#プロテスタント
 					limit = {
 						OR = {
 							tag = DEU
@@ -131,17 +144,19 @@ on_actions = {
 							tag = ERO
 						}
 					}
-					set_country_flag = protestantism_CONTRY
+					set_country_flag = Support_For_Protestantism
 				}
-				if = { #ユダヤ教
+				if = {
+					#ユダヤ教
 					limit = {
 						OR = {
 							tag = ISR
 						}
 					}
-					set_country_flag = judaism_COUNTRY
+					set_country_flag = Support_For_Judaism
 				}
-				if = { #イスラム教スンニ派
+				if = {
+					#イスラム教スンニ派
 					limit = {
 						OR = {
 							tag = TUR
@@ -186,9 +201,10 @@ on_actions = {
 							tag = ALB
 						}
 					}
-					set_country_flag = sunni_CONTRY
+					set_country_flag = Support_For_Sunni
 				}
-				if = { #イスラム教シーア派
+				if = {
+					#イスラム教シーア派
 					limit = {
 						OR = {
 							tag = IRQ
@@ -196,17 +212,19 @@ on_actions = {
 							tag = KUR
 						}
 					}
-					set_country_flag = shia_CONTRY
+					set_country_flag = Support_For_Shia
 				}
-				if = { #ヒンデゥー教
+				if = {
+					#ヒンデゥー教
 					limit = {
 						OR = {
 							tag = RAJ
 						}
 					}
-					set_country_flag = hinduism_CONTRY
+					set_country_flag = Support_For_Hinduism
 				}
-				if = { #仏教
+				if = {
+					#仏教
 					limit = {
 						OR = {
 							tag = MON
@@ -224,9 +242,10 @@ on_actions = {
 							tag = CHI
 						}
 					}
-					set_country_flag = buddhism_CONTRY
+					set_country_flag = Support_For_Buddhism
 				}
-				if = { # 神道
+				if = {
+					# 神道
 					limit = {
 						OR = {
 							tag = JPN
@@ -234,49 +253,41 @@ on_actions = {
 							tag = MME
 						}
 					}
-					set_country_flag = SHINTO_CONTRY
+					set_country_flag = Support_For_Shinto
 				}
-				
 			}
 			#### 通貨 #### 
-			every_country = { #
+			every_country = {
 				ucs_first_setting = yes
 			}
 			#### 国家統合力 #### 
-
-				#仮削除
-
+			#仮削除
 			#### 文明化率 #### 
-
-				#仮削除
-
-
+			#仮削除
 			#### 鉱山 #### 
-
-				#仮削除
-
+			#仮削除
 			#### 傭兵 #### 
 			SWI = {
-				set_country_flag = MS_ALLOWED
+				set_country_flag = Mercenary_System_Allowed
 				set_variable = {
 					MS_max = 10
 				}
 			}
 			VAT = {
-				set_country_flag = MS_ALLOWED
+				set_country_flag = Mercenary_System_Allowed
 				set_variable = {
 					MS_max = 2
 				}
 			}
 			FRA = {
-				set_country_flag = MS_ALLOWED
+				set_country_flag = Mercenary_System_Allowed
 				set_variable = {
 					MS_max = 20
 				}
 			}
-
 			#### その他汎用システム #####
-			every_country = { #北国汎用アイデア
+			every_country = {
+				#北国汎用アイデア
 				limit = {
 					OR = {
 						tag = NOR
@@ -288,21 +299,26 @@ on_actions = {
 				add_ideas = ice_elemental
 			}
 			#### その他固有システム #####
-
 		}
 	}
 	on_monthly = {
 		effect = {
-			if = {#12月
-					limit = { check_variable = { global.month = 12 } }
-					set_variable = { global.month = 1 } #1月にリセット
+			if = {
+				#12月
+				limit = {
+					check_variable = {
+						global.month = 12
+					}
 				}
-				else = {#12月以外
-					add_to_variable = { global.month = 1 } 
-				}
+				set_variable = {
+					global.month = 0
+				}				#1月にリセット		
+			}
+			add_to_variable = {
+				global.month = 1
 			}
 			every_country = {
-				ucs_on_monthly = yes #通貨 月毎処理
+				ucs_on_monthly = yes				#通貨 月毎処理
 			}
 		}
 	}
@@ -315,9 +331,13 @@ on_actions = {
 		effect = {
 			every_country = {
 				#文明度の上昇
-				add_to_variable = { Cultural_Degree = modifier@weekly_Cultural_Degree } 
+				add_to_variable = {
+					Cultural_Degree = modifier@weekly_Cultural_Degree
+				}
 				#国家統合力に文明度を追加
-				add_to_variable = { National_Unity_Power = Cultural_Degree } 
+				add_to_variable = {
+					National_Unity_Power = Cultural_Degree
+				}
 			}
 		}
 	}
