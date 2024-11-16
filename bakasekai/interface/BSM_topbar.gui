@@ -9,10 +9,7 @@ guiTypes = {
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
 			background = {
-				position = {
-					x = 2
-					y = 1
-				}
+				position = { x = 2 y = 1 }
 				name = "po_bg"
 				quadTextureSprite ="GFX_bg_mini_tooltip"
 				pdx_tooltip = "popular_opinion_title"
@@ -92,8 +89,8 @@ guiTypes = {
 				}
 				name = "cd_bg"
 				quadTextureSprite ="GFX_bg_mini_tooltip"
-				pdx_tooltip = "Energie_currencies_title"
-				pdx_tooltip_delayed = "Energie_currencies_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
 			iconType = {
 				name ="ec"
@@ -101,22 +98,37 @@ guiTypes = {
 				position = { x= -2 y = -4 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-				pdx_tooltip = "Energie_currencies_title"
-				pdx_tooltip_delayed = "Energie_currencies_desc"
+				# pdx_tooltip = "Unified_Currency_title"
+				# pdx_tooltip_delayed = "Unified_Currency_desc"
 				scale = 0.8
 			}
 			instantTextBoxType = {
 				name ="COUNTRY_ec"
 				position = { x= 19 y = 5 }
 				font = "vanilla_hoi_18mbs"
-				text = COUNTRY_e_c
+				text = Unified_Currency
 				format = left
 				maxWidth = 50
 				maxHeight = 24
 				fixedsize = yes
 				alwaystransparent = yes
-				pdx_tooltip = "Energie_currencies_title"
-				pdx_tooltip_delayed = "Energie_currencies_desc"
+				# pdx_tooltip = "Unified_Currency_title"
+				# pdx_tooltip_delayed = "Unified_Currency_desc"
+			}
+		}
+		containerWindowType = {
+			name = "bsm_OE_GUI_open"
+			position = { x= -400 y = 4}
+			size = { width=40 height=40 }
+			Orientation = UPPER_RIGHT
+			buttonType = {#opening event
+				name = "bsm_OE_GUI_open_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_bsm_icon"
+				Orientation = "UPPER_right"
+				clicksound = click_close
+				oversound = ui_menu_over
+				scale = 1
 			}
 		}
 		# buttonType = {
@@ -128,5 +140,6 @@ guiTypes = {
 		# 	clicksound = click_close
 		# 	oversound = ui_menu_over
 		# }
+
 	}
 }

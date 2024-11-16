@@ -513,20 +513,20 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_CHU_Declare_Imperial_Shogunate_Junta.dds"			
 	}
 	
-	SpriteType = {
-	name = "GFX_focus_generic_strike_kansai" 
-	texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"			
-	}
+	# SpriteType = {
+	# name = "GFX_focus_generic_strike_kansai" 
+	# texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"			
+	# }
 	
-	SpriteType = {
-	name = "GFX_focus_generic_strike_kyushu" 
-	texturefile = "gfx/interface/goals/focus_generic_strike_kyushu.dds"			
-	}
+	# SpriteType = {
+	# name = "GFX_focus_generic_strike_kyushu" 
+	# texturefile = "gfx/interface/goals/focus_generic_strike_kyushu.dds"			
+	# }
 	
-	SpriteType = {
-	name = "GFX_focus_generic_strike_shikoku"
-	texturefile = "gfx/interface/goals/focus_generic_strike_shikoku.dds"			
-	}
+	# SpriteType = {
+	# name = "GFX_focus_generic_strike_shikoku"
+	# texturefile = "gfx/interface/goals/focus_generic_strike_shikoku.dds"			
+	# }
 	
 	SpriteType = {
 	name = "GFX_focus_CHU_annex_SHO" 

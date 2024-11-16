@@ -2527,10 +2527,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KOB_strike_while_theyre_weak.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_focus_generic_strike_kansai"
-		texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"
-	}
+	# SpriteType = {
+	# 	name = "GFX_focus_generic_strike_kansai"
+	# 	texturefile = "gfx/interface/goals/focus_generic_strike_kansai.dds"
+	# }
 
 	SpriteType = {
 		name = "GFX_focus_generic_strike_joseon"

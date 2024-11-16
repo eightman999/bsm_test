@@ -92,10 +92,10 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_HIR_strike_jeju.dds"			
 	}
 	
-	SpriteType = {
-	name = "GFX_decision_hirado_border_problem"
-	texturefile = "gfx/interface/decisions/decision_hirado_border_problem.dds"			
-	}
+	# SpriteType = {
+	# name = "GFX_decision_hirado_border_problem"
+	# texturefile = "gfx/interface/decisions/decision_hirado_border_problem.dds"			
+	# }
 	
 	SpriteType = {
 	name = "GFX_focus_HIR_Deal_for_islands" 

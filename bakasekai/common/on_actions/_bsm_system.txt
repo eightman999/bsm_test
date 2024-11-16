@@ -1,117 +1,31 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			RED = {
-				bsm_first_g = yes
-			}
-			JPN = {
-				if = {
-					limit = {
-						has_dlc = "Waking the Tiger"
-						OR = {
-							AND = {
-								is_historical_focus_on = no
-								has_game_rule = {
-									rule = JAP_ai_behavior
-									option = DEFAULT
-								}
-							}
-							has_game_rule = {
-								rule = JAP_ai_behavior
-								option = RANDOM
-							}
-						}
-					}
-					random_list = {
-						40 = {
-							JPN = {
-								set_country_flag = JAP_AI_RANDOM_FASCIST
-							}
-							set_add_fascist_game_weight_large = yes
-						}
-						30 = {
-							JPN = {
-								set_country_flag = JAP_AI_RANDOM_NEUTRALITY
-							}
-							set_add_unaligned_game_weight_large = yes
-						}
-						10 = {
-							JPN = {
-								set_country_flag = JAP_AI_RANDOM_DEMOCRATIC
-							}
-							set_add_democratic_game_weight_large = yes
-						}
-						10 = {
-							JPN = {
-								set_country_flag = JAP_AI_RANDOM_COMMUNIST
-							}
-							set_add_communist_weight_small = yes
-						}
-						10 = {
-							JPN = {
-								set_country_flag = JAP_AI_RANDOM_NAVAL
-							}
-							set_add_democratic_game_weight_large = yes
-						}
-					}
-				}
-			}
+			#### global変数の設定 ####
+			set_variable = {
+				global.month = 1
+			}			#月を示す変数
+			#### Opening Event ####
 			every_country = {
+				#プレイヤー国家のみOEを開く
 				limit = {
-					has_government = communism_ideology
+					is_ai = no
 				}
-				add_ideas = communism_religion
-			}
-			every_country = {
-				bsm_first = yes
-				BSMS_GDP_sum = yes
-				log = "BSM GDP is [?ROOT.BSMS_GDP]"
-				BSM_set_mine = yes
-				BSM_MINE_EXPORT = yes
-				clamp_variable = {
-					var = COUNTRY_e_c
-					min = -10000
-				}
-				clamp_variable = {
-					var = COUNTRY_e_c
-					max = 10000
-				}
-			}
-			SWI = {
-				set_country_flag = MS_ALLOWED
 				set_variable = {
-					MS_max = 10
+					OE_page = 1
 				}
 			}
-			VAT = {
-				set_country_flag = MS_ALLOWED
-				set_variable = {
-					MS_max = 2
-				}
-			}
-			FRA = {
-				set_country_flag = MS_ALLOWED
-				set_variable = {
-					MS_max = 20
-				}
-			}
-			NOR = {
-				add_ideas = ice_elemental
-			}
-			ISL = {
-				add_ideas = ice_elemental
-			}
-			POL = {
-				add_ideas = ice_elemental
-			}
-			NPL = {
-				add_ideas = ice_elemental
-			}
-			JPN = {
-				set_country_flag = SHINTO_CONTRY
-			}
+			#### 宗教 #### 
 			every_country = {
 				if = {
+					#共産主義
+					limit = {
+						has_government = communism_ideology
+					}
+					add_ideas = communism_religion
+				}
+				if = {
+					#カトリック
 					limit = {
 						OR = {
 							tag = MEX
@@ -166,9 +80,10 @@ on_actions = {
 							tag = MZB
 						}
 					}
-					set_country_flag = catholicism_CONTRY
+					set_country_flag = Support_For_Catholicism
 				}
 				if = {
+					#正教
 					limit = {
 						OR = {
 							tag = GRC
@@ -186,9 +101,10 @@ on_actions = {
 							tag = LEB
 						}
 					}
-					set_country_flag = orthodoxy_COUNTRY
+					set_country_flag = Support_For_Orthodoxy
 				}
 				if = {
+					#プロテスタント
 					limit = {
 						OR = {
 							tag = DEU
@@ -228,17 +144,19 @@ on_actions = {
 							tag = ERO
 						}
 					}
-					set_country_flag = protestantism_CONTRY
+					set_country_flag = Support_For_Protestantism
 				}
 				if = {
+					#ユダヤ教
 					limit = {
 						OR = {
 							tag = ISR
 						}
 					}
-					set_country_flag = judaism_COUNTRY
+					set_country_flag = Support_For_Judaism
 				}
 				if = {
+					#イスラム教スンニ派
 					limit = {
 						OR = {
 							tag = TUR
@@ -283,27 +201,30 @@ on_actions = {
 							tag = ALB
 						}
 					}
-					set_country_flag = sunni_CONTRY
+					set_country_flag = Support_For_Sunni
 				}
 				if = {
+					#イスラム教シーア派
 					limit = {
 						OR = {
 							tag = IRQ
-							tag = PER
+							tag = PRU
 							tag = KUR
 						}
 					}
-					set_country_flag = shia_CONTRY
+					set_country_flag = Support_For_Shia
 				}
 				if = {
+					#ヒンデゥー教
 					limit = {
 						OR = {
 							tag = RAJ
 						}
 					}
-					set_country_flag = hinduism_CONTRY
+					set_country_flag = Support_For_Hinduism
 				}
 				if = {
+					#仏教
 					limit = {
 						OR = {
 							tag = MON
@@ -321,27 +242,10 @@ on_actions = {
 							tag = CHI
 						}
 					}
-					set_country_flag = buddhism_CONTRY
+					set_country_flag = Support_For_Buddhism
 				}
 				if = {
-					limit = {
-						OR = {
-							tag = CHI
-							tag = CHN
-							tag = ENG
-							tag = DEU
-							tag = JAP
-							# tag = MME
-							tag = PRC
-							tag = MAN
-							tag = MEN
-							tag = SHX
-							tag = GXC
-							tag = YUN
-						}
-					}
-				}
-				if = {
+					# 神道
 					limit = {
 						OR = {
 							tag = JPN
@@ -349,95 +253,91 @@ on_actions = {
 							tag = MME
 						}
 					}
+					set_country_flag = Support_For_Shinto
 				}
 			}
+			#### 通貨 #### 
+			every_country = {
+				ucs_first_setting = yes
+			}
+			#### 国家統合力 #### 
+			#仮削除
+			#### 文明化率 #### 
+			#仮削除
+			#### 鉱山 #### 
+			#仮削除
+			#### 傭兵 #### 
+			SWI = {
+				set_country_flag = Mercenary_System_Allowed
+				set_variable = {
+					MS_max = 10
+				}
+			}
+			VAT = {
+				set_country_flag = Mercenary_System_Allowed
+				set_variable = {
+					MS_max = 2
+				}
+			}
+			FRA = {
+				set_country_flag = Mercenary_System_Allowed
+				set_variable = {
+					MS_max = 20
+				}
+			}
+			#### その他汎用システム #####
+			every_country = {
+				#北国汎用アイデア
+				limit = {
+					OR = {
+						tag = NOR
+						tag = ISL
+						tag = POL
+						tag = NPL
+					}
+				}
+				add_ideas = ice_elemental
+			}
+			#### その他固有システム #####
 		}
 	}
 	on_monthly = {
 		effect = {
-			ROOT = {
-				if = {
-					limit = {
-						check_variable = {
-							global.month = 12
-						}
-					}
-					set_variable = {
-						global.month = 1
-					}
-					log = "BSMS_GDP= [?BSMS_GDP_y]"
-					set_temp_variable = {
-						gdp_pp = BSMS_GDP_y
-					}
-					divide_variable = {
-						gdp_pp = 110
-					}
-					add_political_power = gdp_pp
-					add_to_variable = {
-						COUNTRY_e_c = gdp_pp
-					}
-					set_variable = {
-						BSMS_GDP_y = 0
+			if = {
+				#12月
+				limit = {
+					check_variable = {
+						global.month = 12
 					}
 				}
-				else = {
-					add_to_variable = {
-						global.month = 1
-					}
-				}
+				set_variable = {
+					global.month = 0
+				}				#1月にリセット		
+			}
+			add_to_variable = {
+				global.month = 1
 			}
 			every_country = {
-				BSMS_GDP_sum_m = yes
+				ucs_on_monthly = yes				#通貨 月毎処理
 			}
 		}
 	}
 	on_daily = {
 		effect = {
-			every_country = {
-				set_temp_variable = {
-					temp = modifier@COUNTRY_P_O_gain_factor
-				}
-				divide_variable = {
-					temp = 100
-				}
-				set_temp_variable = {
-					temp_1 = modifier@daily_COUNTRY_P_O_gain
-				}
-				multiply_variable = {
-					temp = temp_1
-				}
-				add_to_variable = {
-					COUNTRY_P_O = temp
-				}
-				set_temp_variable = {
-					temp = modifier@COUNTRY_e_c_gain_factor
-				}
-				divide_variable = {
-					temp = 100
-				}
-				set_temp_variable = {
-					temp_1 = modifier@daily_COUNTRY_e_c_gain
-				}
-				multiply_variable = {
-					temp = temp_1
-				}
-				add_to_variable = {
-					COUNTRY_e_c = temp
-				}
-			}
+			#仮削除
 		}
 	}
 	on_weekly = {
 		effect = {
 			every_country = {
+				#文明度の上昇
 				add_to_variable = {
-					COUNTRY_CULTURAL_DEGREE = modifier@weekly_COUNTRY_CULTURAL_DEGREE
+					Cultural_Degree = modifier@weekly_Cultural_Degree
 				}
+				#国家統合力に文明度を追加
 				add_to_variable = {
-					COUNTRY_P_O = COUNTRY_CULTURAL_DEGREE
+					National_Unity_Power = Cultural_Degree
 				}
-				BSM_weekly_mine = yes
-				BSM_MINE_EXPORT = yes
 			}
 		}
 	}

@@ -2278,9 +2278,118 @@ bitmapfonts = {
 		name = "cg_16b"		####### GENERAL TOOLTIP FONT ########
 		#		path = "gfx/fonts/cg_16b"
 		fontfiles = {
-			"gfx/fonts/cg_16b"
+			# "gfx/fonts/cg_16b"
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
 		}
 		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "bsm_30_black"
+		fontfiles = {
+			"gfx/fonts/jis30"
+			"gfx/fonts/jis30_2"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
+	}
+
+	bitmapfont = {
+		name = "bsm_16_black"
+		fontfiles = {
+			"gfx/fonts/jis16_b"
+			"gfx/fonts/jis16_b_2"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
+	}
+
+	bitmapfont = {
+		name = "bsm_16"
+		fontfiles = {
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
 	}
 	# bitmapfont_override = {
 	# 	name = "cg_16b"

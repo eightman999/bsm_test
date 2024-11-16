@@ -612,11 +612,11 @@ leader_traits = {
 	AFG_mohammed_zahir_shah_of_afghanistan = {
 		random = no
 		opinion_gain_monthly_same_ideology_factor = 0.1
-		ai_strategy = { # Sought to increase cooperation in the Middle East
-			type = befriend
-			id = "PER"			
-			value = 25
-		}
+		# ai_strategy = { # Sought to increase cooperation in the Middle East
+		# 	type = befriend
+		# 	id = "PRU"			
+		# 	value = 25
+		# }
 		ai_strategy = {
 			type = befriend
 			id = "IRQ"			
@@ -2299,7 +2299,7 @@ leader_traits = {
 		}
 		ai_strategy = {
 			type = befriend      
-			id = "PER"
+			id = "PRU"
 			value = 25
 		}
 		ai_strategy = { # We're related
@@ -2957,7 +2957,7 @@ leader_traits = {
 		}
 	}
 
-###------> PER <><> <><> <><> <><> <><>
+###------> PRU <><> <><> <><> <><> <><>
 	PER_shah_of_iran_trait = {
 		random = no
 
@@ -4071,7 +4071,7 @@ leader_traits = {
 		surrender_limit = 0.1
 		ai_strategy = { # Theocracies and Shah's don't get along very well
 			type = antagonize
-			id = "PER"			
+			id = "PRU"			
 			value = 25
 		}
 		ai_strategy = { # We're chill, I guess

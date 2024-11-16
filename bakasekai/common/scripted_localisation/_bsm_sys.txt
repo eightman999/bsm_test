@@ -7,3 +7,35 @@ defined_text = {
 		localization_key = CULTURAL_DEGREES_desc
 	}
 }
+defined_text = {
+	name = Unified_Currency_title_txt
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = Unified_Currency_desc_title
+	}
+}
+defined_text = {
+	name = OE_page_url
+	text = {
+		trigger = { check_variable = { OE_page = 1 } }
+		localization_key = OE_address_page_1_title
+	}
+	text = {
+		trigger = { check_variable = { OE_page = 2 } }
+		localization_key = OE_address_page_2_title
+	}
+	text = {
+		trigger = { check_variable = { OE_page = 3 } }
+		localization_key = OE_address_page_3_title
+	}
+	text = {
+		trigger = { check_variable = { OE_page = 4 } }
+		localization_key = OE_address_page_4_title
+	}
+	text = {
+		trigger = { check_variable = { OE_page = 5 } }
+		localization_key = OE_address_page_5_title
+	}
+}

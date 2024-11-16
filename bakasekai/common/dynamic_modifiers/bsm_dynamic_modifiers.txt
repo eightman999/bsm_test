@@ -1,15 +1,15 @@
 civ_research_buff = {
 	# icon =GFX_modifiers_generic_military_plans
 	enable = { always = yes }
-	research_speed_factor = COUNTRY_CULTURAL_DEGREE
-	political_power_factor = COUNTRY_CULTURAL_DEGREE
-	stability_factor = COUNTRY_CULTURAL_DEGREE
+	research_speed_factor = Cultural_Degree
+	political_power_factor = Cultural_Degree
+	stability_factor = Cultural_Degree
 }
 
-mercenary_cost_daily = {
-	enable = { always = yes }
-	daily_COUNTRY_e_c_gain = mercenary_cost
-}
+# mercenary_cost_daily = {
+# 	enable = { always = yes }
+# 	daily_Unified_Currency_gain = mercenary_cost
+# }
 
 bsm_dropped_nuke_modifier = {#核の落ちた町
 	# icon = GFX_nuke_dropped
