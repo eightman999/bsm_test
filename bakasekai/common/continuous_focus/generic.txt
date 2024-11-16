@@ -37,8 +37,8 @@ continuous_focus_palette = {
 			base = 10
 			modifier = {
 				factor = 10
-				has_completed_focus = DEN_escalate_the_sabotages
-				has_completed_focus = DEN_expand_the_resistance
+				# has_completed_focus = DEN_escalate_the_sabotages
+				# has_completed_focus = DEN_expand_the_resistance
 			}
 			modifier = {
 				factor = 10
@@ -49,7 +49,7 @@ continuous_focus_palette = {
 			}
 			modifier = {
 				factor = 0	
-				has_completed_focus = DEN_declare_independence
+				# has_completed_focus = DEN_declare_independence
 				power_balance_value = {
 					id = DEN_occupation_balance
 					value > 0.9
@@ -83,7 +83,7 @@ continuous_focus_palette = {
 				has_dlc = "By Blood Alone" 
 				original_tag = ETH 
 			}
-			has_completed_focus = ETH_anti-italian_propaganda
+			# has_completed_focus = ETH_anti-italian_propaganda
 			OR = {
 				is_government_in_exile = yes 
 				has_country_leader_with_trait = imperator_absentis
@@ -125,7 +125,7 @@ continuous_focus_palette = {
 				has_dlc = "By Blood Alone" 
 				original_tag = ETH 
 			}
-			has_completed_focus = ETH_the_patriots
+			# has_completed_focus = ETH_the_patriots
 			OR = {
 				is_government_in_exile = yes 
 				has_country_leader_with_trait = imperator_absentis
@@ -169,7 +169,7 @@ continuous_focus_palette = {
 		}
 
 		enable = {
-			has_completed_focus = SWI_armed_neutrality
+			# has_completed_focus = SWI_armed_neutrality
 		}
 
 		modifier = {

@@ -18,7 +18,7 @@ leader_traits = {
 
 	
 
-	#for democratic for communist leaders in a united front
+	#for democratic_ideology for communist leaders in a united front
 	united_front_leader = {
 		sprite = 13
 		random = no
@@ -3272,7 +3272,7 @@ leader_traits = {
 	
 	falangist_demagogue = {
 		random = no
-		# Boosts fascism
+		# Boosts fascism_ideology
 		sprite = 13
 		fascism_ideology_drift = 0.1
 	}

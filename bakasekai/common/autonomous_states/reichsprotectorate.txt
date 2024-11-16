@@ -45,7 +45,7 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Death or Dishonor"
-		OVERLORD = { has_government = fascism }
+		OVERLORD = { has_government = fascism_ideology }
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JPN } }

@@ -46,8 +46,8 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Death or Dishonor"
-		OVERLORD = { has_government = fascism }
-		ROOT = { has_government = fascism }
+		OVERLORD = { has_government = fascism_ideology }
+		ROOT = { has_government = fascism_ideology }
 		if = {
 			limit = { has_dlc = "Waking the Tiger" }
 			NOT = { OVERLORD = { original_tag = JPN } }
@@ -63,7 +63,7 @@ autonomy_state = {
 				has_dlc = "Gotterdammerung"			
 			}
 			NOT = {
-				has_completed_focus = CONGO_overseas_department_of_belgium
+				# has_completed_focus = CONGO_overseas_department_of_belgium
 			}
 		}
 	}

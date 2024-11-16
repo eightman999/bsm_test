@@ -47,7 +47,7 @@ autonomy_state = {
 			original_tag = ITA
 			original_tag = AUS
 			original_tag = BEL
-			original_tag = GRE
+			original_tag = GRC
 			original_tag = DEN
 			original_tag = IRE
 			original_tag = POR
@@ -75,20 +75,20 @@ autonomy_state = {
 			OR = { #in the eventuality that we can cram AUS in here
 				AND = {
 					original_tag = BEL
-					OR = {
-						has_completed_focus = BEL_european_community 
-						has_completed_focus = BEL_the_council_of_europe
-					}
+					# OR = {
+					# 	has_completed_focus = BEL_european_community 
+					# 	has_completed_focus = BEL_the_council_of_europe
+					# }
 				}
 				AND = {
 					original_tag = AUS
-					has_completed_focus = AUS_via_danube_to_europe
+					# has_completed_focus = AUS_via_danube_to_europe
 				}
 
-				AND = {
-					original_tag = HOL
-					has_completed_focus = HOL_foundations_for_a_european_union
-				}
+				# AND = {
+				# 	original_tag = HOL
+				# 	has_completed_focus = HOL_foundations_for_a_european_union
+				# }
 				
 			}
 		}

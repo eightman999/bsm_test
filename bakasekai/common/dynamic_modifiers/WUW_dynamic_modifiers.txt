@@ -134,9 +134,9 @@ eben_emael_raided_limited_success_modifier = {
 AUS_austrofascism = {
 	enable = { always = yes }
 	icon = GFX_idea_AUS_austrofascissm
-	neutrality_drift = AUS_austrofascism_neutrality_drift
-	fascism_drift = AUS_austrofascism_fascism_drift
-	fascism_acceptance = AUS_austrofascism_fascism_acceptance
+	neutrality_ideology_drift = AUS_austrofascism_neutrality_drift
+	fascism_ideology_drift = AUS_austrofascism_fascism_drift
+	fascism_ideology_acceptance = AUS_austrofascism_fascism_acceptance
 	stability_factor = AUS_austrofascism_stability_factor
 	drift_defence_factor = AUS_austrofascism_drift_defence_factor
 	political_power_factor = AUS_austrofascism_political_power_factor
@@ -156,8 +156,8 @@ AUS_austrofascism = {
 	remove_trigger = {
 		NOT = {
 			OR = {
-				has_government = neutrality
-				has_government = fascism
+				has_government = neutrality_ideology
+				has_government = fascism_ideology
 			}
 		}
 	}
@@ -166,7 +166,7 @@ AUS_austrofascism = {
 AUS_habsburg_monarchy_restored = {
 	enable = { always = yes }
 	icon = GFX_idea_AUS_habsburg_monarchy_restored
-	neutrality_drift = AUS_habsburg_monarchy_restored_neutrality_drift
+	neutrality_ideology_drift = AUS_habsburg_monarchy_restored_neutrality_drift
 	drift_defence_factor = AUS_habsburg_monarchy_restored_drift_defence_factor
 	party_popularity_stability_factor = AUS_habsburg_monarchy_restored_party_popularity_stability_factor
 	consumer_goods_factor = AUS_habsburg_monarchy_restored_consumer_goods_factor
@@ -178,7 +178,7 @@ AUS_habsburg_monarchy_restored = {
 	war_support_factor = AUS_habsburg_monarchy_restored_war_support_factor
 	remove_trigger = {
 		NOT = {
-			has_government = neutrality
+			has_government = neutrality_ideology
 		}
 	}
 }
@@ -186,7 +186,7 @@ AUS_habsburg_monarchy_restored = {
 AUS_austrian_monarchy_restored = {
 	enable = { always = yes }
 	icon = GFX_idea_AUS_habsburg_monarchy_restored
-	neutrality_drift = AUS_habsburg_monarchy_restored_neutrality_drift
+	neutrality_ideology_drift = AUS_habsburg_monarchy_restored_neutrality_drift
 	drift_defence_factor = AUS_habsburg_monarchy_restored_drift_defence_factor
 	party_popularity_stability_factor = AUS_habsburg_monarchy_restored_party_popularity_stability_factor
 	consumer_goods_factor = AUS_habsburg_monarchy_restored_consumer_goods_factor
@@ -198,7 +198,7 @@ AUS_austrian_monarchy_restored = {
 	war_support_factor = AUS_habsburg_monarchy_restored_war_support_factor
 	remove_trigger = {
 		NOT = {
-			has_government = neutrality
+			has_government = neutrality_ideology
 		}
 	}
 }
@@ -207,7 +207,7 @@ AUS_farr = {
 	enable = { always = yes }
 	icon = GFX_idea_AUS_farr
 	stability_factor = AUS_farr_stability_factor
-	democratic_drift = AUS_farr_democratic_drift
+	democratic_ideology_drift = AUS_farr_democratic_drift
 	political_advisor_cost_factor = AUS_farr_political_advisor_cost_factor
 	political_power_factor = AUS_farr_political_power_factor
 	economy_cost_factor = AUS_farr_economy_cost_factor
@@ -239,8 +239,8 @@ AUS_aggression = {
 AUS_austromarxism = {
 	enable = { always = yes}
 	icon = GFX_idea_AUS_austromarxism
-	communism_drift = AUS_austromarxism_communism_support
-	democratic_drift = AUS_austromarxism_democratic_support
+	communism_ideology_drift = AUS_austromarxism_communism_support
+	democratic_ideology_drift = AUS_austromarxism_democratic_support
 	industrial_capacity_factory = AUS_austromarxism_industrial_capacity_factory
 	theorist_cost_factor = AUS_austromarxism_theorist_cost_factor
 	high_command_cost_factor = AUS_austromarxism_high_command_cost_factor
@@ -257,9 +257,9 @@ AUS_austromarxism = {
 	max_planning_factor = AUS_austromarxism_max_planning_factor
 	remove_trigger = {
 		AND = {
-			has_completed_focus = AUS_revolution
+			# has_completed_focus = AUS_revolution
 			NOT = {
-				has_government = communism
+				has_government = communism_ideology
 			}
 		}
 	}
@@ -268,8 +268,8 @@ AUS_austromarxism = {
 AUS_austrostalinism = {
 	enable = { always = yes}
 	icon = GFX_idea_AUS_austromarxism
-	communism_drift = AUS_austromarxism_communism_support
-	democratic_drift = AUS_austromarxism_democratic_support
+	communism_ideology_drift = AUS_austromarxism_communism_support
+	democratic_ideology_drift = AUS_austromarxism_democratic_support
 	industrial_capacity_factory = AUS_austromarxism_industrial_capacity_factory
 	theorist_cost_factor = AUS_austromarxism_theorist_cost_factor
 	high_command_cost_factor = AUS_austromarxism_high_command_cost_factor
@@ -286,9 +286,9 @@ AUS_austrostalinism = {
 	max_planning_factor = AUS_austromarxism_max_planning_factor
 	remove_trigger = {
 		AND = {
-			has_completed_focus = AUS_revolution
+			# has_completed_focus = AUS_revolution
 			NOT = {
-				has_government = communism
+				has_government = communism_ideology
 			}
 		}
 	}
@@ -297,8 +297,8 @@ AUS_austrostalinism = {
 AUS_austrotrotskyism = {
 	enable = { always = yes}
 	icon = GFX_idea_AUS_austromarxism
-	communism_drift = AUS_austromarxism_communism_support
-	democratic_drift = AUS_austromarxism_democratic_support
+	communism_ideology_drift = AUS_austromarxism_communism_support
+	democratic_ideology_drift = AUS_austromarxism_democratic_support
 	industrial_capacity_factory = AUS_austromarxism_industrial_capacity_factory
 	theorist_cost_factor = AUS_austromarxism_theorist_cost_factor
 	high_command_cost_factor = AUS_austromarxism_high_command_cost_factor
@@ -315,9 +315,9 @@ AUS_austrotrotskyism = {
 	max_planning_factor = AUS_austromarxism_max_planning_factor
 	remove_trigger = {
 		AND = {
-			has_completed_focus = AUS_revolution
+			# has_completed_focus = AUS_revolution
 			NOT = {
-				has_government = communism
+				has_government = communism_ideology
 			}
 		}
 	}
@@ -833,7 +833,7 @@ GER_communist_intel_modifier = {
 	icon = GFX_idea_generic_spy_intel
 
 	drift_defence_factor = GER_communist_intel_drift_defence_factor
-	communism_drift = GER_communist_intel_communism_drift
+	communism_ideology_drift = GER_communist_intel_communism_drift
 	subversive_activites_upkeep = GER_communist_intel_subversive_activities_upkeep
 	intel_network_gain_factor = GER_communist_intel_intel_network_gain
 }
@@ -844,12 +844,12 @@ GER_stasi_modifier = {
 
 	remove_trigger = {
 		NOT = { 
-			has_government = communism
+			has_government = communism_ideology
 		}
 	}
 
 	drift_defence_factor = GER_communist_intel_drift_defence_factor
-	communism_drift = GER_communist_intel_communism_drift
+	communism_ideology_drift = GER_communist_intel_communism_drift
 	operative_slot = GER_communist_intel_operative_slot
 	stability_factor = GER_communist_intel_stability_factor 
 	operation_cost = GER_communist_intel_operation_cost
@@ -865,7 +865,7 @@ GER_politburo_modifier = {
 
 	remove_trigger = {
 		NOT = { 
-			has_government = communism
+			has_government = communism_ideology
 		}
 	}
 
@@ -875,7 +875,7 @@ GER_politburo_modifier = {
 	weekly_manpower = GER_politburo_weekly_manpower
 	stability_factor = GER_politburo_stability_factor
 	conscription = GER_politburo_conscription
-	democratic_drift = GER_politburo_democratic_drift
+	democratic_ideology_drift = GER_politburo_democratic_drift
 	political_power_factor = GER_politburo_political_power_factor
 	resistance_growth = GER_politburo_resistance_growth
 	compliance_growth = GER_politburo_compliance_growth
@@ -931,7 +931,7 @@ GER_the_inner_circle_dm = {
 	icon = GFX_idea_generic_fascism_drift_2
 	enable = { always = yes }
 	remove_trigger = {
-		NOT = { has_government = fascism }
+		NOT = { has_government = fascism_ideology }
 	}
 
 	custom_modifier_tooltip = GER_the_inner_circle_dm_tt
@@ -1150,7 +1150,7 @@ GER_proletariat_uprising_modifier = {
 	remove_trigger = {
 		OR = {
 			DEU = {
-				has_government = communism
+				has_government = communism_ideology
 			}
 			ROOT = { 
 				NOT = {
@@ -1332,7 +1332,7 @@ enable = { always = yes }
 	political_power_gain = BEL_corruption_political_power_gain
 	stability_factor = BEL_corruption_stability_factor
 	production_speed_buildings_factor = BEL_corruption_production_speed_buildings_factor
-	fascism_drift = BEL_corruption_fascism_drift
+	fascism_ideology_drift = BEL_corruption_fascism_drift
 }
 
 #Economic Downturn
@@ -1412,7 +1412,7 @@ BEL_socialism_on_the_rise_dynamic_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_trotskyite_plot_purged
 
-	communism_drift = BEL_socialism_on_the_rise_communnism_drift
+	communism_ideology_drift = BEL_socialism_on_the_rise_communnism_drift
 	party_popularity_stability_factor = BEL_socialism_on_the_rise_party_popularity_stability_factor
 	political_power_factor = BEL_socialism_on_the_rise_political_power_factor
 	stability_factor = BEL_socialism_on_the_rise_stability_factor
@@ -1547,7 +1547,7 @@ COG_belgian_congo_colonial_dynamic_modifier = {
 	political_power_factor = BEL.COG_belgian_congo_colonial_dynamic_modifier_political_power_factor
 	war_support_factor = BEL.COG_belgian_congo_colonial_dynamic_modifier_war_support_factor
 	production_speed_buildings_factor = BEL.COG_belgian_congo_colonial_dynamic_modifier_production_speed_buildings_factor
-	democratic_drift = BEL.COG_belgian_congo_colonial_dynamic_modifier_democratic_drift
+	democratic_ideology_drift = BEL.COG_belgian_congo_colonial_dynamic_modifier_democratic_drift
 	autonomy_gain_global_factor = BEL.COG_belgian_congo_colonial_dynamic_modifier_autonomy_gain_global_factor
 	research_speed_factor = BEL.COG_belgian_congo_colonial_dynamic_modifier_research_speed_factor
 	consumer_goods_factor = BEL.COG_belgian_congo_colonial_dynamic_modifier_consumer_goods_factor
@@ -1588,10 +1588,10 @@ COG_rwandan_separatism_modifier = {
 	remove_trigger = {
 		OR = {
 			ROOT = { is_owned_and_controlled_by = RWA } # ROOT refers to the state on which the modifier is added
-			COG = {
-				has_completed_focus = COG_the_pro_german_mwami_focus
-				has_completed_focus = COG_the_umwami_of_rwanda_focus
-			}
+			# COG = {
+			# 	has_completed_focus = COG_the_pro_german_mwami_focus
+			# 	has_completed_focus = COG_the_umwami_of_rwanda_focus
+			# }
 		}
 		
 	}
@@ -1610,9 +1610,9 @@ COG_burundian_separatism_modifier = {
 	remove_trigger = {
 		OR = {
 			ROOT = { is_owned_and_controlled_by = BRD } # ROOT refers to the state on which the modifier is added
-			COG = {
-				has_completed_focus = COG_the_mwami_of_burundi_focus
-			}
+			# COG = {
+			# 	has_completed_focus = COG_the_mwami_of_burundi_focus
+			# }
 		}
 	}
 

@@ -48,7 +48,7 @@ autonomy_state = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 		OVERLORD = { 
-			has_government = communism
+			has_government = communism_ideology
 			original_tag = DEU
 			has_completed_focus = GER_establish_volkskommissariats
 		}

@@ -5942,7 +5942,7 @@ spriteTypes = {
 		name = "GFX_goal_TUR_clodius_deal"
 		texturefile = "gfx/interface/goals/tur/r56_goal_TUR_clodius_deal.dds"
 	}
-	###------> YUG <><> <><> <><> <><> <><>
+	###------> MYS <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_focus_YUG_slovenia_for_support"
 		texturefile = "gfx/interface/goals/yug/r56_goal_YUG_slovenia_for_support.dds"

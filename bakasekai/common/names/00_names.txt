@@ -1945,7 +1945,7 @@ ROM = {
 	callsigns = { }
 }
 
-YUG = {
+MYS = {
 	male = {
 		names = {  
 			Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
@@ -1995,7 +1995,7 @@ SER = {
 	callsigns = { }
 }
 
-GRE = {
+GRC = {
 	male = {
 		names = { 
 			Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos

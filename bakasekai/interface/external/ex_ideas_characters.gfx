@@ -517,7 +517,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_BUL_vladimir_zaimov.dds"
 	}
 
-	### GRE
+	### GRC
 
 	spriteType = {
 		name = "GFX_idea_GRE_alexandros_papagos_advisor"

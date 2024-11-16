@@ -47,7 +47,7 @@ autonomy_state = {
 		OR = {
 			original_tag = ALB
 			original_tag = CZE
-			original_tag = YUG
+			original_tag = MYS
 			original_tag = ROM
 			original_tag = POL
 			original_tag = SLO
@@ -66,15 +66,15 @@ autonomy_state = {
 			OR = {
 				AND = {
 					original_tag = AUS
-					OR = {
-						has_completed_focus = AUS_demand_hungarian_submission
-						has_completed_focus = AUS_bring_hungary_back_into_the_fold
-					}
+					# OR = {
+					# 	has_completed_focus = AUS_demand_hungarian_submission
+					# 	has_completed_focus = AUS_bring_hungary_back_into_the_fold
+					# }
 					
 				}
 				AND = {
 					original_tag = HUN
-					has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen
+					# has_completed_focus = wuw_HUN_the_lands_of_the_crown_of_saint_stephen
 				}
 				
 			}
