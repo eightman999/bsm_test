@@ -20,7 +20,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_akihito"
-		texturefile = "gfx/interface/ideas/JAP/idea_JAP_akihito.dds"
+		texturefile = "gfx/interface/ideas/JPN/idea_JAP_akihito.dds"
 	}
 
 	spriteType = {
@@ -35,7 +35,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_tojo_hideki"
-		texturefile = "gfx/interface/ideas/JAP/idea_JAP_tojo_hideki.dds"
+		texturefile = "gfx/interface/ideas/JPN/idea_JAP_tojo_hideki.dds"
 	}
 
 	spriteType = {
@@ -198,7 +198,7 @@ spriteTypes = {
 	}
 
 
-	### GER
+	### DEU
 
 	spriteType = {
 		name = "GFX_idea_ger_bulwark_against_bolshevism"
@@ -3877,7 +3877,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_mex_banco_de_mexico.dds"
 	}
 
-	### ENG
+	### GBR
 
 	spriteType = {
 		name = "GFX_idea_eng_special_air_service"
@@ -4177,7 +4177,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_fra_georges_bonnet.dds"
 	}
 
-	# SPR LAR
+	# ESP LAR
 
 	spriteType = {
 		name = "GFX_idea_SPR_collectivized_society"

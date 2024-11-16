@@ -7203,7 +7203,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-	### JAP
+	### JPN
 	
 	SpriteType = {
 		name = "GFX_focus_jap_strike_south_shine"
@@ -7816,7 +7816,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-	### ENG
+	### GBR
 	
 	SpriteType = {
 		name = "GFX_focus_eng_special_air_service_shine"

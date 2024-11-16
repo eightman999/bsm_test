@@ -643,7 +643,7 @@ characters = {
 				modifier = {
 					factor = 3
 					not = {
-						JAP = {
+						JPN = {
 							has_war_with = USA
 						}
 					}
@@ -2427,7 +2427,7 @@ characters = {
 				factor = 1
 				modifier = {
 					factor = 4
-					JAP = {
+					JPN = {
 						has_offensive_war = yes
 					}
 				}

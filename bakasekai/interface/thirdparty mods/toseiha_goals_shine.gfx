@@ -680,10 +680,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_Tojo_Admin_Gui_Tojo_shine"
-		texturefile = "/gfx/leaders/JAP/Portrait_Japan_Hideki_Tojo.dds"
+		texturefile = "/gfx/leaders/JPN/Portrait_Japan_Hideki_Tojo.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "/gfx/leaders/JAP/Portrait_Japan_Hideki_Tojo.dds"
+			animationmaskfile = "/gfx/leaders/JPN/Portrait_Japan_Hideki_Tojo.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -696,7 +696,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "/gfx/leaders/JAP/Portrait_Japan_Hideki_Tojo.dds"
+			animationmaskfile = "/gfx/leaders/JPN/Portrait_Japan_Hideki_Tojo.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -712,10 +712,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_Tojo_Admin_Gui_Council_shine"
-		texturefile = "/gfx/leaders/JAP/Portrait_KAN_Council.dds"
+		texturefile = "/gfx/leaders/JPN/Portrait_KAN_Council.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "/gfx/leaders/JAP/Portrait_KAN_Council.dds"
+			animationmaskfile = "/gfx/leaders/JPN/Portrait_KAN_Council.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -728,7 +728,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "/gfx/leaders/JAP/Portrait_KAN_Council.dds"
+			animationmaskfile = "/gfx/leaders/JPN/Portrait_KAN_Council.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -744,10 +744,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_Tojo_Admin_Gui_Conference_shine"
-		texturefile = "/gfx/leaders/JAP/Portrait_JAP_Imperial_Conference.dds"
+		texturefile = "/gfx/leaders/JPN/Portrait_JAP_Imperial_Conference.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "/gfx/leaders/JAP/Portrait_JAP_Imperial_Conference.dds"
+			animationmaskfile = "/gfx/leaders/JPN/Portrait_JAP_Imperial_Conference.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -760,7 +760,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "/gfx/leaders/JAP/Portrait_JAP_Imperial_Conference.dds"
+			animationmaskfile = "/gfx/leaders/JPN/Portrait_JAP_Imperial_Conference.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

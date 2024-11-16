@@ -181,13 +181,13 @@ leader_traits = {
 
 		ai_strategy = {
 			type = alliance   
-			id = "JAP"      
+			id = "JPN"      
 			value = -200
 		}
 
 		ai_strategy = {
 			type = befriend       
-			id = "JAP"       
+			id = "JPN"       
 			value = -200
 		}
 
@@ -1968,7 +1968,7 @@ leader_traits = {
 
 		ai_strategy = {
 			type = alliance
-			id = "JAP"
+			id = "JPN"
 			value = -250
 		}
 
@@ -4169,7 +4169,7 @@ leader_traits = {
 		army_core_defence_factor = 0.15
 	}
 
-###------> SPR <><> <><> <><> <><> <><>
+###------> ESP <><> <><> <><> <><> <><>
 	caudillo_trait= {
 		random = no
 		sprite = 13
@@ -4243,7 +4243,7 @@ leader_traits = {
 		improve_relations_maintain_cost_factor = 1
 		ai_strategy = {
 			type = befriend
-			id = "JAP"
+			id = "JPN"
 			value = 100
 		}		
 	}

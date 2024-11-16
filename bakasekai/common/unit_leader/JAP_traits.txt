@@ -30,7 +30,7 @@ leader_traits = {
 		}
 		allowed = {
 			FROM = {
-				tag = JAP
+				tag = JPN
 			}
 		}
 		modifier = {

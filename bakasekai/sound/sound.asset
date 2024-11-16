@@ -943,6 +943,22 @@ sound =
 	file = "animations/nuke_01.wav"
 	always_load = no
 }
+
+sound = {
+    name = "nuke_big_explosion_and_fire"
+    file = "animations/nuke_big_explosion_and_fire.wav"
+}
+sound = {
+    name = "nuke_big_light_flash"
+    file = "animations/nuke_big_light_flash.wav"
+}
+
+#################GENERIC EXPLOSION#######################################
+sound = {
+    name = "explosion_big_01"
+    file = "audiofiles/explosion_big_01.wav"
+}
+
 #######################################################
 sound =
 {
@@ -1064,6 +1080,44 @@ sound =
 	file = "animations/ship_miss_small_effect_05.wav"
 	volume = 0.6
 }
+####################Large Boats#############################
+sound = {
+    name = "large_boat_engine_loop_01"
+    file = "animations/large_boat_engine_loop_01.wav"
+}
+sound = {
+    name = "large_boat_engine_loop_02"
+    file = "animations/large_boat_engine_loop_02.wav"
+}
+sound = {
+    name = "large_boat_engine_loop_03"
+    file = "animations/large_boat_engine_loop_03.wav"
+}
+sound = {
+    name = "large_boat_engine_loop_04"
+    file = "animations/large_boat_engine_loop_04.wav"
+}
+sound = {
+    name = "large_boat_engine_loop_05"
+    file = "animations/large_boat_engine_loop_05.wav"
+}
+sound = {
+    name = "large_boat_water_splash_loop_01"
+    file = "animations/large_boat_water_splash_loop_01.wav"
+}
+sound = {
+    name = "large_boat_water_splash_loop_02"
+    file = "animations/large_boat_water_splash_loop_02.wav"
+}
+sound = {
+    name = "large_boat_water_splash_loop_03"
+    file = "animations/large_boat_water_splash_loop_03.wav"
+}
+sound = {
+    name = "large_boat_water_splash_loop_04"
+    file = "animations/large_boat_water_splash_loop_04.wav"
+}
+
 ####################SUPER BATTLESHIP#############################
 sound =
 {
@@ -1318,6 +1372,22 @@ sound =
 	file = "animations/ship_idle_transport_01.wav"
 	always_load = no
 }
+sound = {
+    name = "super_heavy_gun_01"
+    file = "animations/super_heavy_gun_01.wav"
+}
+sound = {
+    name = "super_heavy_gun_02"
+    file = "animations/super_heavy_gun_02.wav"
+}
+sound = {
+    name = "super_heavy_gun_03"
+    file = "animations/super_heavy_gun_03.wav"
+}
+sound = {
+    name = "super_heavy_gun_04"
+    file = "animations/super_heavy_gun_04.wav"
+}
 sound =
 {
 	name = "ship_idle_transport_route_01"
@@ -1513,6 +1583,144 @@ sound =
 	name = "ITA_light_armour_fire_03"
 	file = "animations/ita_light_armor_mg_attack_03.wav"
 }
+
+####################### FLAMETHROWER TANK ######################
+sound = {
+    name = "flamethrower_start_01"
+    file = "animations/flamethrower_start_01.wav"
+}
+sound = {
+    name = "flamethrower_start_02"
+    file = "animations/flamethrower_start_02.wav"
+}
+sound = {
+    name = "flamethrower_start_03"
+    file = "animations/flamethrower_start_03.wav"
+}
+sound = {
+    name = "flamethrower_start_04"
+    file = "animations/flamethrower_start_04.wav"
+}
+sound = {
+    name = "flamethrower_start_05"
+    file = "animations/flamethrower_start_05.wav"
+}
+sound = {
+    name = "flamethrower_start_06"
+    file = "animations/flamethrower_start_06.wav"
+}
+sound = {
+    name = "flamethrower_end_01"
+    file = "animations/flamethrower_end_01.wav"
+}
+sound = {
+    name = "flamethrower_end_02"
+    file = "animations/flamethrower_end_02.wav"
+}
+sound = {
+    name = "flamethrower_end_03"
+    file = "animations/flamethrower_end_03.wav"
+}
+sound = {
+    name = "flamethrower_end_04"
+    file = "animations/flamethrower_end_04.wav"
+}
+sound = {
+    name = "flamethrower_end_05"
+    file = "animations/flamethrower_end_05.wav"
+}
+sound = {
+    name = "flamethrower_end_06"
+    file = "animations/flamethrower_end_06.wav"
+}
+sound = {
+    name = "flamethrower_main_01"
+    file = "animations/flamethrower_main_01.wav"
+}
+
+####################### LAND CRUISER ######################
+
+sound = {
+    name = "land_cruiser_idle_engine_loop_01"
+    file = "animations/land_cruiser_idle_engine_loop_01.wav"
+}
+sound = {
+    name = "land_cruiser_idle_engine_loop_02"
+    file = "animations/land_cruiser_idle_engine_loop_02.wav"
+}
+sound = {
+    name = "land_cruiser_idle_engine_loop_03"
+    file = "animations/land_cruiser_idle_engine_loop_03.wav"
+}
+sound = {
+    name = "land_cruiser_idle_engine_loop_04"
+    file = "animations/land_cruiser_idle_engine_loop_04.wav"
+}
+sound = {
+    name = "land_cruiser_idle_engine_loop_05"
+    file = "animations/land_cruiser_idle_engine_loop_05.wav"
+}
+sound = {
+    name = "land_cruiser_idle_engine_loop_06"
+    file = "animations/land_cruiser_idle_engine_loop_06.wav"
+}
+sound = {
+    name = "land_cruiser_moving_engine_loop_01"
+    file = "animations/land_cruiser_moving_engine_loop_01.wav"
+}
+sound = {
+    name = "land_cruiser_moving_engine_loop_02"
+    file = "animations/land_cruiser_moving_engine_loop_02.wav"
+}
+sound = {
+    name = "land_cruiser_moving_engine_loop_03"
+    file = "animations/land_cruiser_moving_engine_loop_03.wav"
+}
+sound = {
+    name = "land_cruiser_moving_engine_loop_04"
+    file = "animations/land_cruiser_moving_engine_loop_04.wav"
+}
+sound = {
+    name = "land_cruiser_moving_treads_loop_01"
+    file = "animations/land_cruiser_moving_treads_loop_01.wav"
+}
+sound = {
+    name = "land_cruiser_moving_treads_loop_02"
+    file = "animations/land_cruiser_moving_treads_loop_02.wav"
+}
+sound = {
+    name = "land_cruiser_moving_treads_loop_03"
+    file = "animations/land_cruiser_moving_treads_loop_03.wav"
+}
+sound = {
+    name = "land_cruiser_moving_treads_loop_04"
+    file = "animations/land_cruiser_moving_treads_loop_04.wav"
+}
+sound = {
+    name = "land_cruiser_moving_treads_loop_05"
+    file = "animations/land_cruiser_moving_treads_loop_05.wav"
+}
+sound = {
+    name = "land_cruiser_moving_treads_loop_06"
+    file = "animations/land_cruiser_moving_treads_loop_06.wav"
+}
+sound = {
+    name = "land_cruiser_canon_firing_01"
+    file = "animations/land_cruiser_canon_firing_01.wav"
+}
+sound = {
+    name = "land_cruiser_canon_firing_02"
+    file = "animations/land_cruiser_canon_firing_02.wav"
+}
+sound = {
+    name = "land_cruiser_canon_firing_03"
+    file = "animations/land_cruiser_canon_firing_03.wav"
+}
+sound = {
+    name = "land_cruiser_canon_firing_04"
+    file = "animations/land_cruiser_canon_firing_04.wav"
+}
+
 ####################### ANIMATION INFANTRY ######################
 sound =
 {
@@ -1767,6 +1975,36 @@ sound =
 	file = "animations/mechanized_units_mg_fire_05.wav"
 }
 
+####################Helicopter##########################
+sound = {
+    name = "helicopter_start_01"
+    file = "animations/helicopter_start_01.wav"
+}
+sound = {
+    name = "helicopter_loop_01"
+    file = "animations/helicopter_loop_01.wav"
+}
+sound = {
+    name = "helicopter_loop_02"
+    file = "animations/helicopter_loop_02.wav"
+}
+sound = {
+    name = "helicopter_loop_03"
+    file = "animations/helicopter_loop_03.wav"
+}
+sound = {
+    name = "helicopter_loop_04"
+    file = "animations/helicopter_loop_04.wav"
+}
+sound = {
+    name = "helicopter_loop_05"
+    file = "animations/helicopter_loop_05.wav"
+}
+sound = {
+    name = "helicopter_loop_06"
+    file = "animations/helicopter_loop_06.wav"
+}
+
 ####################ANIMATION AIRPLANES##########################
 sound =
 {
@@ -1983,6 +2221,79 @@ sound =
 	file = "animations/ger_jet_fire_03.wav"
 	always_load = no
 }
+
+sound = {
+    name = "supersonic_jet_fly_01"
+    file = "animations/supersonic_jet_fly_01.wav"
+}
+sound = {
+    name = "supersonic_jet_fly_02"
+    file = "animations/supersonic_jet_fly_02.wav"
+}
+sound = {
+    name = "supersonic_jet_fly_03"
+    file = "animations/supersonic_jet_fly_03.wav"
+}
+sound = {
+    name = "supersonic_jet_fly_04"
+    file = "animations/supersonic_jet_fly_04.wav"
+}
+sound = {
+    name = "sonic_boom_flyby_01"
+    file = "animations/sonic_boom_flyby_01.wav"
+}
+sound = {
+    name = "sonic_boom_flyby_02"
+    file = "animations/sonic_boom_flyby_02.wav"
+}
+sound = {
+    name = "sonic_boom_flyby_03"
+    file = "animations/sonic_boom_flyby_03.wav"
+}
+sound = {
+    name = "sonic_boom_initial_01"
+    file = "animations/sonic_boom_initial_01.wav"
+}
+sound = {
+    name = "sonic_boom_initial_02"
+    file = "animations/sonic_boom_initial_02.wav"
+}
+sound = {
+    name = "sonic_boom_initial_03"
+    file = "animations/sonic_boom_initial_03.wav"
+}
+
+
+########################### Missiles ######################################
+sound = {
+    name = "missile_fire_01"
+    file = "animations/missile_fire_01.wav"
+}
+sound = {
+    name = "missile_fire_02"
+    file = "animations/missile_fire_02.wav"
+}
+sound = {
+    name = "missile_fire_03"
+    file = "animations/missile_fire_03.wav"
+}
+sound = {
+    name = "missile_fire_04"
+    file = "animations/missile_fire_04.wav"
+}
+sound = {
+    name = "missile_whoosh_01"
+    file = "animations/missile_whoosh_01.wav"
+}
+sound = {
+    name = "missile_whoosh_02"
+    file = "animations/missile_whoosh_02.wav"
+}
+sound = {
+    name = "missile_whoosh_03"
+    file = "animations/missile_whoosh_03.wav"
+}
+
 #################################################################
 sound =
 {
@@ -2427,7 +2738,7 @@ sound =
 ###############################################################
 ############### LA RESISTANCE VEHICLES ########################
 ###############################################################
-### ENG ###
+### GBR ###
 sound =
 {
 	name = "ENG_car_01_Moving"
@@ -2502,7 +2813,7 @@ sound =
 	file = "animations/Generic_car_03_idle.wav"
 	volume = 0.5
 }
-### GER ###
+### DEU ###
 sound =
 {
 	name = "GER_car_01_Moving"
@@ -2552,7 +2863,7 @@ sound =
 	file = "animations/ITA_car_03_idle.wav"
 	volume = 0.5
 }
-### JAP ###
+### JPN ###
 sound =
 {
 	name = "JAP_car_01_Moving"
@@ -2627,7 +2938,7 @@ sound =
 	file = "animations/USA_car_03_idle.wav"
 	volume = 0.5
 }
-### SPR ###
+### ESP ###
 sound =
 {
 	name = "SPR_light_tank_Moving"
@@ -2752,6 +3063,23 @@ sound =
 	file = "animations/GEN_railway_gun_04.wav"
 }
 
+sound = {
+    name = "super_railway_gun_01"
+    file = "animations/super_railway_gun_01.wav"
+}
+sound = {
+    name = "super_railway_gun_02"
+    file = "animations/super_railway_gun_02.wav"
+}
+sound = {
+    name = "super_railway_gun_03"
+    file = "animations/super_railway_gun_03.wav"
+}
+sound = {
+    name = "super_railway_gun_04"
+    file = "animations/super_railway_gun_04.wav"
+}
+
 sound =
 {
 	name = "GEN_train_equipment_1_01"
@@ -2827,7 +3155,21 @@ sound =
 	name = "GEN_train_equipment_3_05"
 	file = "animations/GEN_train_equipment_3_05.wav"
 }
-
+sound =
+{
+	name = "GER_train_equipment_3-001"
+	file = "nsb_wavs/GER_train_equipment_3-001.wav"
+}
+sound =
+{
+	name = "GER_train_equipment_3-002"
+	file = "nsb_wavs/GER_train_equipment_3-002.wav"
+}
+sound =
+{
+	name = "GER_train_equipment_3-003"
+	file = "nsb_wavs/GER_train_equipment_3-003.wav"
+}
 #### HORNS ####
 sound =
 {
@@ -3870,4 +4212,27 @@ sound =
 {
 	name = "ui_insufficient_delivery_04"
 	file = "menu/ui_insufficient_delivery_04.wav"
+}
+
+
+##################### LANDMARKS #####################
+sound = 
+{
+	name = "building_landmark_big_ben_destroyed_01"
+	file = "animations/building_landmark_big_ben_destroyed_01.wav"
+}
+sound = 
+{
+	name = "building_landmark_big_ben_destroyed_02"
+	file = "animations/building_landmark_big_ben_destroyed_02.wav"
+}
+sound = 
+{
+	name = "building_landmark_big_ben_destroyed_03"
+	file = "animations/building_landmark_big_ben_destroyed_03.wav"
+}
+sound = 
+{
+	name = "building_landmark_big_ben_destroyed_04"
+	file = "animations/building_landmark_big_ben_destroyed_04.wav"
 }

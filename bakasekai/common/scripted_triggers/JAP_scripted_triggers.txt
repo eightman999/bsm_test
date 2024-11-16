@@ -1,7 +1,7 @@
 #	Example:
 # 
 #	example_trigger = {
-#		tag = GER
+#		tag = DEU
 #		is_ai = no
 #	}
 #
@@ -12,7 +12,7 @@
 #		exampel_trigger = yes
 #	}
 # 
-#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE DEU TAG
 
 JAP_has_idea_JAP_intervene_in_china = {
 	if = {

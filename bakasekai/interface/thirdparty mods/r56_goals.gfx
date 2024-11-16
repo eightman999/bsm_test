@@ -2866,7 +2866,7 @@ spriteTypes = {
 		name = "GFX_goal_EGY_arab_league"
 		texturefile = "gfx/interface/goals/egy/goal_EGY_arab_league.dds"
 	}
-	###------> ENG <><> <><> <><> <><> <><>
+	###------> GBR <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_ENG_coa_air_force"
 		texturefile = "gfx/interface/goals/eng/r56_goal_ENG_coa_air_force.dds"
@@ -3304,7 +3304,7 @@ spriteTypes = {
 		name = "GFX_goal_recycling"
 		texturefile = "gfx/interface/goals/fra/r56_goal_FRA_VIC_goal_recycling.dds"
 	}
-	###------> GER <><> <><> <><> <><> <><>
+	###------> DEU <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_ger_Organisation_Todt"
 		texturefile = "gfx/interface/goals/ger/r56_goal_ger_Organisation_Todt.dds"
@@ -4182,9 +4182,9 @@ spriteTypes = {
 		name = "GFX_goal_ITA_mare_nostrum"
 		texturefile = "gfx/interface/goals/ita/r56_goal_ITA_mare_nostrum.dds"
 	}
-	###------> JAP <><> <><> <><> <><> <><>
+	###------> JPN <><> <><> <><> <><> <><>
 	SpriteType = {
-		#JAP
+		#JPN
 		name = "GFX_goal_samurai"
 		texturefile = "gfx/interface/goals/jap/r56_goal_JAP_samurai.dds"
 	}
@@ -4221,12 +4221,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/jap/r56_goal_JAP_strenghten_the_civilian_government.dds"
 	}
 	SpriteType = {
-		#JAP
+		#JPN
 		name = "GFX_goal_samurai_purge"
 		texturefile = "gfx/interface/goals/jap/r56_goal_JAP_samurai_purge.dds"
 	}
 	SpriteType = {
-		#JAP
+		#JPN
 		name = "GFX_goal_JAP_co_prosperity_sphere"
 		texturefile = "gfx/interface/goals/jap/r56_goal_JAP_co_prosperity_sphere.dds"
 	}
@@ -6377,7 +6377,7 @@ spriteTypes = {
 		name = "GFX_goal_RAJ_operation_polo"
 		texturefile = "gfx/interface/goals/raj/r56_goal_RAJ_operation_polo.dds"
 	}
-	# SPR
+	# ESP
 	SpriteType = {
 		name = "GFX_goal_SPR_establish_traditional_cortes"
 		texturefile = "gfx/interface/goals/spr/r56_goal_SPR_establish_traditional_cortes.dds"

@@ -852,7 +852,7 @@ equipments = {
 		manpower = 2200
 	}
 	
-	###### SPECIAL JAP TECH FROM FOCUS ######	
+	###### SPECIAL JPN TECH FROM FOCUS ######	
 
 	torpedo_cruiser = {
 		abbreviation = "hbh"
