@@ -19,3 +19,8 @@ bsm_dropped_nuke_modifier = {#核の落ちた町
 	army_speed_factor_for_controller = -0.75
 	local_factories = -0.75
 }
+
+bsm_uc_factor = {
+	enable = { always = yes }
+	Unified_Currency_gain_factor = combined_uc_factor
+}

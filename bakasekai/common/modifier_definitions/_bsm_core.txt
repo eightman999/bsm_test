@@ -27,3 +27,15 @@ Unified_Currency_gain_factor = {
 	value_type = percentage
 	precision = 2
 }
+
+Unified_Currency_war_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+}
+
+Unified_Currency_religion_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+}
