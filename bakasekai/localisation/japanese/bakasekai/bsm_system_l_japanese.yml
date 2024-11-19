@@ -6,23 +6,31 @@ popular_opinion_desc:0 "国民が、§Hバカであればあるほど§!多く�
 COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 CULTURAL_DEGREES_title:0 "文明化率"
 CULTURAL_DEGREES_desc_test_2:0 "[CULTURAL_DEGREES_desc_test]"
-CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?Cultural_Degree|0%]\n政治力獲得補正:[?Cultural_Degree|0%]\n安定度補正:[?Cultural_Degree|0%]（[?global.year]）"
+CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?Cultural_Degree|0%]\n政治力獲得補正:[?Cultural_Degree|0%]\n安定度補正:[?Cultural_Degree|0%]"
 COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
+
+
+#####通貨#####
 Unified_Currency_title:0 "[Unified_Currency_title_txt]"
-
 Unified_Currency:0 "[?ROOT.Unified_Currency|0]"
-Unified_Currency_desc:0 "通貨は、国民の生産および消費活動や貿易を通じて獲得できる。\nまた探検隊の派遣や未知の解明をはじめとした政府の様々な用途に使用することができる。§H政府与党§!や§H政治顧問§!、§H宗教§!などによっても獲得量は変動する"
-Unified_Currency_desc_title:0 "我が政府が様々な用途に使用することができる通貨の保有量。\n------------------------------------\n通貨獲得補正: [?modifier@Unified_Currency_gain_factor|0%]\n------------------------------------\n先月の獲得量: [?ROOT.Unified_Currency_Last_Month_gain|0]"
-
+Unified_Currency_desc:0 "通貨は、国民の生産および消費活動や貿易を通じて獲得できる。\nまた探検隊の派遣や未知の解明をはじめとした政府の様々な用途に使用することができる。§H政府与党§!や§H政治顧問§!、§H宗教§!などによっても獲得量は変動する。"
+Unified_Currency_desc_title:0 "我が政府が様々な用途に使用することができる通貨の保有量。\n------------------------------------\n通貨獲得補正: [?modifier@Unified_Currency_gain_factor|0%][Unified_Currency_desc_war_effort][Unified_Currency_desc_religion]\n------------------------------------\n[?ROOT.combined_uc_factor|0%]\n------------------------------------\n先月の獲得量: [?ROOT.Unified_Currency_Last_Month_gain|0]"
+Unified_Currency_desc_war_effort_default:0 ""
+Unified_Currency_desc_war_effort_war:0 "\n戦時: [?modifier@Unified_Currency_war_factor|0%]"
+Unified_Currency_desc_religion_communism:0 "\n共産主義: [?modifier@Unified_Currency_gain_factor|0%]"
 daily_National_Unity_Power_gain:0 "日ごとの国家統合力"
 National_Unity_Power_gain_factor:0 "国家統合力獲得補正"
 
+
 daily_Unified_Currency_gain:0 "日ごとの通貨"
 Unified_Currency_gain_factor:0 "通貨獲得補正"
-
+Unified_Currency_war_factor:0 "戦時通貨獲得補正"
+Unified_Currency_religion_factor:0 "宗教通貨獲得補正"
 tt_ucs_add_Unified_Currency_month:0 "[?multiply_value|1+]ヶ月分に相当する§H通貨§!を追加する\n------------------------------------\n通貨獲得補正:[?modifier@Unified_Currency_gain_factor|0%]\n------------------------------------\n先月の獲得量[?Unified_Currency_Last_Month_gain|0]"
 tt_ucs_add_Unified_Currency:0 "§H通貨§!を[?add_value|0+]追加する"
 
+
+##########文明化率############
 
 base_Cultural_Degree:0 "文明化率のベース"
 weekly_Cultural_Degree:9 "週ごとの文明化率上昇"

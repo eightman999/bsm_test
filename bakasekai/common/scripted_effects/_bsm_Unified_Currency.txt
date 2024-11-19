@@ -80,3 +80,30 @@ ucs_on_monthly = {
 		set_variable = { Unified_Currency_Last_Month_gain = temp_last_month } #先月の獲得量の登録
 	}
 }
+#stateを失陥したときの影響
+ucs_on_dairy_effects = {
+	if = {
+		limit = { has_country_flag = should_check_unified_currency }
+		set_temp_variable = { uc_dairy_effect = 0 }
+		add_to_temp_variable = { uc_dairy_effect = modifier@Unified_Currency_dairy_effect }#補正
+		add_to_temp_variable = { uc_dairy_effect = stability } #安定度
+		add_to_temp_variable = { uc_dairy_effect = Cultural_Degree } #文明度
+		add_to_temp_variable = { uc_dairy_effect = war_support } #戦争支持
+		multiply_temp_variable = { uc_dairy_effect = 0.01 } #補正
+		multiply_temp_variable = { uc_dairy_effect = Unified_Currency } #補正
+		subtract_value = { Unified_Currency = uc_dairy_effect } #減少
+		set_variable = { uc_land_loss_effect = uc_dairy_effect } #ログ用
+		log = "[?THIS.GetName]失陥による通貨減少:[?uc_land_loss_effect]"
+		#( 0+0.2+0.6 +0.1 + 0.4 )  * 0.01 = 0.013
+		#0.13 * 6420 = 83.346
+		#6420 - 83.346 = 6336.654
+		#まぁどうにか払えるでしょ
+	}
+
+}
+
+combined_unified_currency = {
+	set_variable = { combined_uc_factor = 0 }
+	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_war_factor }
+	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_religion_factor }
+}
