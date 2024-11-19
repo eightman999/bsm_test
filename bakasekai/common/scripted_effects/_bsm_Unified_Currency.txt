@@ -91,7 +91,7 @@ ucs_on_dairy_effects = {
 		add_to_temp_variable = { uc_dairy_effect = war_support } #戦争支持
 		multiply_temp_variable = { uc_dairy_effect = 0.01 } #補正
 		multiply_temp_variable = { uc_dairy_effect = Unified_Currency } #補正
-		subtract_value = { Unified_Currency = uc_dairy_effect } #減少
+		subtract_from_variable = { Unified_Currency = uc_dairy_effect } #減少
 		set_variable = { uc_land_loss_effect = uc_dairy_effect } #ログ用
 		log = "[?THIS.GetName]失陥による通貨減少:[?uc_land_loss_effect]"
 		#( 0+0.2+0.6 +0.1 + 0.4 )  * 0.01 = 0.013

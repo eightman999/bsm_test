@@ -2128,7 +2128,7 @@ leader_traits = {
 		sprite = 13
 
 		neutrality_ideology_drift = 0.12
-		stability_ideology_factor = 0.1
+		stability_factor = 0.1
 		war_support_ideology_factor = 0.1
 
 	}
@@ -4332,7 +4332,7 @@ leader_traits = {
 
 	SWE_exiled_revolutionaries = {
 		sprite = 3
-		command_cap = @tier2
+		#command_cap = @tier2
 		army_attack_factor = 0.16
 		stability_factor = -0.08
 		army_org_factor = -0.06
@@ -7186,7 +7186,7 @@ leader_traits = {
 		research_speed_factor = 0.05
 		stability_factor = 0.05
 		production_speed_buildings_factor = 0.05
-		democratic_acceptance = 30
+		democratic_ideology_acceptance = 30
 	}
 	#Hess
 	amateur_aviator_hess = {
@@ -7205,7 +7205,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		
-		democratic_acceptance = 30
+		democratic_ideology_acceptance = 30
 		political_power_factor = 0.05
 		war_support_factor = 0.05
 		compliance_gain = -0.15
@@ -7218,7 +7218,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		
-		democratic_acceptance = 50
+		democratic_ideology_acceptance = 50
 		political_power_factor = 0.08
 		war_support_factor = 0.05
 		compliance_gain = -0.1
@@ -8094,7 +8094,7 @@ leader_traits = {
 	}
 
 	telephone_company = {
-		random= No
+		random= no
 		land_reinforce_rate = 0.02
 		coordination_bonus = 0.04
 		ai_will_do = {
@@ -8445,7 +8445,7 @@ leader_traits = {
 		
 		experience_gain_army = @chief_experience_gain_low
 		
-		command_cap = @tier1
+		#command_cap = @tier1
 		
 		max_dig_in_factor = 0.1
 		dig_in_speed_factor = 0.25
@@ -8511,7 +8511,7 @@ leader_traits = {
 
 		#experience_gain_army = @experience_gain_low
 
-		command_cap = @tier1
+		#command_cap = @tier1
 
 		ai_will_do = {
 			factor = 2

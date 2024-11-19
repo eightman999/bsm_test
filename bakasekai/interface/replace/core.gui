@@ -227,6 +227,11 @@ guiTypes = {
 		startValue = 0
 		horizontal = 0
 
+			guiButtonType = {
+				name = "listboxSliderButton"
+				quadTextureSprite = "GFX_project_history_scroll_drager"
+				position = { x=-12 y =0}
+			}
 
 		guiButtonType = {
 			name = "listboxSliderButton"	

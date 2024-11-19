@@ -78,7 +78,7 @@ token = { # Dynamic token for the reward (i.e. identifier for the reward)
 		
 		# Optional
 		# Set an allowed trigger for the reward - Defaults to true
-		allowed = { original_tag = DEU }
+		allowed = { original_tag = GER }
 		
 		# Repeatable - at least 1 mandatory
 		option = {
