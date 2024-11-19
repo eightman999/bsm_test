@@ -3281,7 +3281,7 @@ leader_traits = {
                         # AND = {
                         #     has_completed_focus = BUL_plot_against_boris
                         #     NOT = { has_completed_focus = BUL_the_return_of_ferdinand_i }
-                        }
+                        # }
                     }
                 }
             }

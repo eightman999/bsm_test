@@ -98,7 +98,7 @@ guiTypes = {
 				position = { x= -2 y = -4 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-				pdx_tooltip = "Unified_Currency_title"
+				# pdx_tooltip = "Unified_Currency_title"
 				# pdx_tooltip_delayed = "Unified_Currency_desc"
 				scale = 0.8
 			}
