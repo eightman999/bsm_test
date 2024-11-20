@@ -44,6 +44,10 @@ CHN = {	#中華
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 245 12 55 }
 }
+CH1 = {	#中華
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 245 12 55 }
+}
 CKK = {	#チュクチ
 	color = rgb { 111 95 120 }
 	color_ui = rgb { 111 95 120 }

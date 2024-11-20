@@ -312,6 +312,7 @@ DEU = {
 
 }
 ENG = {
+    
     male = {
         names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
     }
@@ -322,6 +323,35 @@ ENG = {
     callsigns = { }
 }
 
+TWN = {
+	male = {
+		names = {
+			"Nangklao" "Mongkut" "Rama" "Chulalongkorn" "Chao" "Vajiravudh" "Prajadhipok" "Naritsaranuwatiwong" "Phya" "Plaek"
+            Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  
+		}
+	}
+	female = {
+		names = { "Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol" 
+        Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+	}
+	surnames = {
+		"Suriyawongse" "Saovabha" "Chichalerm" "Nitithada" "Phonphayuhasena"
+        Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu 
+	}
+	callsigns = { }
+}
+
+
+SCC = {
+    male = {
+        names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+    }
+    female = {
+        names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+    }
+    surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+    callsigns = { }
+}
 
 GIB = {
     male = {
@@ -506,6 +536,191 @@ GIB = {
     }
 
 }
+
+DRS = {
+    male = {
+        names = {
+            Albert Alexander Alfred Archibald Arthur Benjamin Bernard Bradley Charles Colbert
+            Colin Cyril Dara David Donald Douglas Edmund Edward Fairfax Francis Geoffrey
+            George Graham Henrey Herbert Horatio Hubert Hugh Ian Jack Jake James Jeremy John
+            Leopold Lester Martin Max Nigel Oswald Percy Peter Reginald Richard Robert
+            Russell Stanley Stephen Thomas Wallace William Winston Zachary
+        }
+    }
+    female = {
+        names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+    }
+    surnames = {
+        Allenby Battemberg Beatty Beresford Black Brown Buller Butler Campbell Cardigan
+        Churchill Cochrane Cockburn Collin Darling Dundas Faithfull Fisher French
+        Golightly Gough Grant Grenfell Haig Hamilton Hardinge Havelock Hope Irons
+        Jellicoe Kitchener Leiper Lyons Madden Milne Montgomery Moresby Mundy Murphy
+        Napier Nicholson Nicholson Plummer Ragland Roberts Roberts Seaton Seymour Shapley
+        Smith Spring Steele Stewart Sutherland Thesiger Tyron Tyrwhitt Wilde Williams
+        Windsor Wolseley Wood Wright
+    }
+    callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+
+    prefix = o_operation
+
+    operation = {
+        225 = {
+            o_acrobat
+            o_agreement
+            o_daffodil
+            o_snowdrop
+            o_battleaxe
+            o_brevity
+            o_compass
+            o_crusader
+            o_guillotine
+            o_lightfoot
+            o_supercharge
+            o_pugilist
+            o_vulcan
+        }
+        128 = {
+            o_acrobat
+            o_agreement
+            o_daffodil
+            o_snowdrop
+            o_battleaxe
+            o_brevity
+            o_compass
+            o_crusader
+            o_guillotine
+            o_lightfoot
+            o_supercharge
+            o_pugilist
+            o_vulcan
+        }
+        126 = {
+            o_torch
+            o_acrobat
+            o_agreement
+            o_daffodil
+            o_snowdrop
+            o_battleaxe
+            o_brevity
+            o_compass
+            o_crusader
+            o_guillotine
+            o_lightfoot
+            o_supercharge
+            o_pugilist
+            o_vulcan
+        }
+        182 = {
+            o_torch
+        }
+        202 = {
+            o_abstention
+        }
+        208 = {
+            o_jubilee
+            o_bluecoat
+            o_Astonia
+            o_charnwood
+            o_epsom
+            o_goodwood
+            o_greenline
+            o_pomegranate
+            o_totalize
+            o_overlord
+        }
+        19 = {
+            o_jubilee
+            o_bluecoat
+            o_Astonia
+            o_charnwood
+            o_epsom
+            o_goodwood
+            o_greenline
+            o_pomegranate
+            o_totalize
+            o_overlord
+        }
+        7 = {
+            o_plunder
+            o_varsity
+        }
+        28 = {
+            o_accolade
+            o_exporter
+            o_mandibles
+            o_manna
+        }
+        69 = {
+            o_accolade
+            o_exporter
+            o_mandibles
+            o_manna
+        }
+        23 = {
+            o_baytown
+            o_slapstick
+            o_chesterfield
+            o_diadem
+            o_encore
+            o_husky
+            o_shingle
+            o_olive
+        }
+        189 = {
+            o_anakim
+            o_capital
+            o_dracula
+            o_longcloth
+            o_talon
+            o_thursday
+        }
+        142 = {
+            o_krohcol
+            o_matador
+        }
+        116 = {
+            o_countenance
+        }
+        188 = {
+            o_zipper
+            o_broadsword
+        }
+        161 = {
+            o_fork
+        }
+        11 = {
+            o_primrose
+            o_r4
+        }
+        191 = {
+            o_primrose
+            o_r4
+        }
+        5 = {
+            o_infatuate
+            o_comet
+            o_market_garden
+        }
+        0 = {
+            o_constellation
+            o_clipper
+            o_aintree
+            o_fusilade
+        }
+    }
+
+    first = {
+        o_umbral o_shadow o_sunlight o_starry o_mountain o_crescent o_active o_joint o_allied o_unified o_resolute o_courageous o_dark o_bright o_defiant o_poised o_proud o_spotless
+        o_iron o_steel o_bronze o_alpha o_beta o_gamma o_reckless o_stalwart o_red o_green o_orange o_blue o_ochre o_grey o_purple o_restless
+    }
+
+    second = {
+        o_storm o_fox o_shield o_scimitar o_sword o_spirit o_wolf o_panther o_slingshot o_wind o_garden o_thunder o_rain o_hail o_pegasus o_star o_apron o_dome o_homecoming o_laser
+        o_phalanx o_resolve o_heart o_support o_heat o_moon o_oak o_ash o_fire o_force o_hill o_river o_eagle o_raptor o_hawk o_lion o_tiger
+    }
+
+}
+
 
 
 GBR = {
@@ -1997,6 +2212,879 @@ USA = {
     }
 }
 
+HLW = {
+    male = {
+        names = {
+            Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+            Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+            Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+            Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+            Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+            Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+            Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+            Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+        }
+    }
+    female = {
+        names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+    }
+    surnames = {
+        Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+        Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+        Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+        Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+        Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+        Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+        Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+        Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+        Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+        Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+        Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+        Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+        Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+        Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+        Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+        Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+        Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+        Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+        Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+        Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+        Williams Wilson Wise Wofford Wright Young Zoidberg
+    }
+    callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+    prefix = o_operation
+    first = {
+        o_shadow o_mountain o_active o_joint o_allied o_unified o_resolute o_dark o_bright o_stalwart o_red o_green o_blue
+        o_bold o_defiant o_striking
+    }
+
+    second = {
+        o_storm o_fox o_shield o_sword o_wolf o_panther o_wind o_thunder o_rain o_pegasus o_star
+        o_phalanx o_resolve o_fire o_force o_eagle o_raptor o_hawk o_lion o_tiger
+        o_cobra
+    }
+    operation = {
+        160 = {
+            o_musketeer
+        }
+        83 = {
+            o_cartwheel
+            o_chronicle
+            o_postern
+            o_blissful
+            o_dexterity
+            o_cleanslate
+            o_cyclone
+            o_oboe
+            o_watchtower
+        }
+        97 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        94 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        84 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        76 = {
+            o_iceberg
+            o_causway
+        }
+        154 = {
+            o_downfall
+            o_olympic
+            o_coronet
+            o_majestic
+        }
+        33 = {
+            o_cottage
+            o_sandcrab
+        }
+        23 = {
+            o_avalanche
+            o_giant
+            o_buffalo
+            o_husky
+            o_shingle
+        }
+        20 = {
+            o_anvil
+            o_dragoon
+        }
+        208 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        19 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        182 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+        126 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+    }
+}
+
+LVE = {
+    male = {
+        names = {
+            Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+            Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+            Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+            Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+            Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+            Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+            Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+            Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+        }
+    }
+    female = {
+        names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+    }
+    surnames = {
+        Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+        Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+        Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+        Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+        Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+        Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+        Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+        Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+        Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+        Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+        Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+        Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+        Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+        Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+        Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+        Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+        Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+        Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+        Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+        Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+        Williams Wilson Wise Wofford Wright Young Zoidberg
+    }
+    callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+    prefix = o_operation
+    first = {
+        o_shadow o_mountain o_active o_joint o_allied o_unified o_resolute o_dark o_bright o_stalwart o_red o_green o_blue
+        o_bold o_defiant o_striking
+    }
+
+    second = {
+        o_storm o_fox o_shield o_sword o_wolf o_panther o_wind o_thunder o_rain o_pegasus o_star
+        o_phalanx o_resolve o_fire o_force o_eagle o_raptor o_hawk o_lion o_tiger
+        o_cobra
+    }
+    operation = {
+        160 = {
+            o_musketeer
+        }
+        83 = {
+            o_cartwheel
+            o_chronicle
+            o_postern
+            o_blissful
+            o_dexterity
+            o_cleanslate
+            o_cyclone
+            o_oboe
+            o_watchtower
+        }
+        97 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        94 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        84 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        76 = {
+            o_iceberg
+            o_causway
+        }
+        154 = {
+            o_downfall
+            o_olympic
+            o_coronet
+            o_majestic
+        }
+        33 = {
+            o_cottage
+            o_sandcrab
+        }
+        23 = {
+            o_avalanche
+            o_giant
+            o_buffalo
+            o_husky
+            o_shingle
+        }
+        20 = {
+            o_anvil
+            o_dragoon
+        }
+        208 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        19 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        182 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+        126 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+    }
+}
+
+NEV = {
+    male = {
+        names = {
+            Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+            Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+            Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+            Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+            Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+            Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+            Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+            Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+        }
+    }
+    female = {
+        names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+    }
+    surnames = {
+        Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+        Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+        Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+        Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+        Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+        Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+        Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+        Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+        Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+        Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+        Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+        Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+        Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+        Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+        Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+        Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+        Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+        Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+        Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+        Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+        Williams Wilson Wise Wofford Wright Young Zoidberg
+    }
+    callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+    prefix = o_operation
+    first = {
+        o_shadow o_mountain o_active o_joint o_allied o_unified o_resolute o_dark o_bright o_stalwart o_red o_green o_blue
+        o_bold o_defiant o_striking
+    }
+
+    second = {
+        o_storm o_fox o_shield o_sword o_wolf o_panther o_wind o_thunder o_rain o_pegasus o_star
+        o_phalanx o_resolve o_fire o_force o_eagle o_raptor o_hawk o_lion o_tiger
+        o_cobra
+    }
+    operation = {
+        160 = {
+            o_musketeer
+        }
+        83 = {
+            o_cartwheel
+            o_chronicle
+            o_postern
+            o_blissful
+            o_dexterity
+            o_cleanslate
+            o_cyclone
+            o_oboe
+            o_watchtower
+        }
+        97 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        94 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        84 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        76 = {
+            o_iceberg
+            o_causway
+        }
+        154 = {
+            o_downfall
+            o_olympic
+            o_coronet
+            o_majestic
+        }
+        33 = {
+            o_cottage
+            o_sandcrab
+        }
+        23 = {
+            o_avalanche
+            o_giant
+            o_buffalo
+            o_husky
+            o_shingle
+        }
+        20 = {
+            o_anvil
+            o_dragoon
+        }
+        208 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        19 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        182 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+        126 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+    }
+}
+
+DIS = {
+    male = {
+        names = {
+            Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+            Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+            Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+            Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+            Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+            Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+            Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+            Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+        }
+    }
+    female = {
+        names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+    }
+    surnames = {
+        Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+        Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+        Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+        Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+        Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+        Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+        Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+        Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+        Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+        Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+        Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+        Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+        Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+        Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+        Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+        Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+        Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+        Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+        Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+        Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+        Williams Wilson Wise Wofford Wright Young Zoidberg
+    }
+    callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+    prefix = o_operation
+    first = {
+        o_shadow o_mountain o_active o_joint o_allied o_unified o_resolute o_dark o_bright o_stalwart o_red o_green o_blue
+        o_bold o_defiant o_striking
+    }
+
+    second = {
+        o_storm o_fox o_shield o_sword o_wolf o_panther o_wind o_thunder o_rain o_pegasus o_star
+        o_phalanx o_resolve o_fire o_force o_eagle o_raptor o_hawk o_lion o_tiger
+        o_cobra
+    }
+    operation = {
+        160 = {
+            o_musketeer
+        }
+        83 = {
+            o_cartwheel
+            o_chronicle
+            o_postern
+            o_blissful
+            o_dexterity
+            o_cleanslate
+            o_cyclone
+            o_oboe
+            o_watchtower
+        }
+        97 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        94 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        84 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        76 = {
+            o_iceberg
+            o_causway
+        }
+        154 = {
+            o_downfall
+            o_olympic
+            o_coronet
+            o_majestic
+        }
+        33 = {
+            o_cottage
+            o_sandcrab
+        }
+        23 = {
+            o_avalanche
+            o_giant
+            o_buffalo
+            o_husky
+            o_shingle
+        }
+        20 = {
+            o_anvil
+            o_dragoon
+        }
+        208 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        19 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        182 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+        126 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+    }
+}
+
+CLF = {
+    male = {
+        names = {
+            Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+            Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+            Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+            Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+            Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+            Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+            Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+            Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+        }
+    }
+    female = {
+        names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+    }
+    surnames = {
+        Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+        Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+        Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+        Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+        Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+        Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+        Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+        Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+        Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+        Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+        Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+        Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+        Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+        Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+        Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+        Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+        Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+        Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+        Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+        Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+        Williams Wilson Wise Wofford Wright Young Zoidberg
+    }
+    callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+    prefix = o_operation
+    first = {
+        o_shadow o_mountain o_active o_joint o_allied o_unified o_resolute o_dark o_bright o_stalwart o_red o_green o_blue
+        o_bold o_defiant o_striking
+    }
+
+    second = {
+        o_storm o_fox o_shield o_sword o_wolf o_panther o_wind o_thunder o_rain o_pegasus o_star
+        o_phalanx o_resolve o_fire o_force o_eagle o_raptor o_hawk o_lion o_tiger
+        o_cobra
+    }
+    operation = {
+        160 = {
+            o_musketeer
+        }
+        83 = {
+            o_cartwheel
+            o_chronicle
+            o_postern
+            o_blissful
+            o_dexterity
+            o_cleanslate
+            o_cyclone
+            o_oboe
+            o_watchtower
+        }
+        97 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        94 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        84 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        76 = {
+            o_iceberg
+            o_causway
+        }
+        154 = {
+            o_downfall
+            o_olympic
+            o_coronet
+            o_majestic
+        }
+        33 = {
+            o_cottage
+            o_sandcrab
+        }
+        23 = {
+            o_avalanche
+            o_giant
+            o_buffalo
+            o_husky
+            o_shingle
+        }
+        20 = {
+            o_anvil
+            o_dragoon
+        }
+        208 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        19 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        182 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+        126 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+    }
+}
+
+
+NYY = {
+    male = {
+        names = {
+            Abner Adam Albert Alexander Alfred Allison Ambrose Amos Augustus Benjamin Braxton
+            Cadmus Carnot Charles Chester Christopher Cyrus Daniel Donald Edmund Edward
+            Elkanah Eugene Evander Ezra Felix Francis Frank George Gideon Hamilton Henry
+            Hinchie Hiram Horace Howard Isaac James Jeffrey Jerome Jesse John Jonas Jonathan
+            Joseph Joshua Jubal Kirby Lafayette Lawrence Lemual Leonida Leslie Lewis Louis
+            Lucas Luke Malvin Mark Matthew Michael Nathan Nathaniel Norton Oscar Patrick
+            Peter Pierre Rand Randolph Raphael Richard Robert Russell Samuel Simon Sterling
+            Steven Stonewall Thomas Ulysses Wade Walter Wilburn William Wilton Zach
+        }
+    }
+    female = {
+        names = { Mary Jane Kate Eleanor Charlotte Lisa Isabel Jay Carol Nancy Margaret }
+    }
+    surnames = {
+        Abbott Abercrombie Allen Ames Anderson Andrews Appleton Archer Armistead
+        Armstrong Arthur Asboth Atkins Babcock Baker Banks Barkhauer Barksdale Barnard
+        Barnes Barnum Barry Barstow Bartlett Bates Baxter Beatty Beauregard Bee Belknap Bender
+        Benning Benton Blair Blunt Bowie Bradley Bragg Breckenridge Brown Buckner Buell
+        Buford Burnside Butler Caldwell Campbell Carr Chamberlain Chapman Cheatham
+        Chipman Clayton Cleburne Clemens Coburn Connor Conrad Cook Cooper Crittenden
+        Custer Davies Davis Dotson Doubleday Early Ector Ewell Ewing Farnsworth Floyd
+        Ford Forrest Forsyth Foster Franklin French Fry Gano Garnett Gibbs Gilbert Gordon
+        Granbury Grant Green Gregg Griffin Halleck Hamlin Hampton Hancock Hardee Hardeman
+        Harrison Hatch Hayes Hays Heintzelman Heth Hill Hindman Holmgren Hood Hooker
+        Houston Howard Hunter Imboden Iverson Jackson Jenkins Johnson Johnston Jones
+        Kemper Kershaw Keyes Kimball King Lane Law Lee Longstreet Loring Lyon Mabry
+        Magruder Mahone Maxey McArthur McClellan McCook McCulloch McDowell McLaws Meade
+        Mitchell Moore Morgan Mosby Nelson Paine Pemberton Pender Pettigrew Phelps
+        Pickett Pillow Polk Pope Porter Posey Potter Powell Price Randal Reynolds Rhodes
+        Rice Robertson Robinson Rodes Rosencrans Ross Rosser Saloman Scales Schenck
+        Schofield Scott Scurry Sedgwick Semmes Seward Sheridan Sherman Sibley Sickles
+        Smith Sprague Steele Stevens Stevenson Stone Stuart Sullivan Taylor Terrell
+        Travis Trimble Tyler "Van Dorn"  Wade Wadsworth Walker Wallace Ward Warner
+        Washington Waterhouse Waul Wells Wharton Wheeler Whitfield Wigfall Wilcox
+        Williams Wilson Wise Wofford Wright Young Zoidberg
+    }
+    callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog" }
+    prefix = o_operation
+    first = {
+        o_shadow o_mountain o_active o_joint o_allied o_unified o_resolute o_dark o_bright o_stalwart o_red o_green o_blue
+        o_bold o_defiant o_striking
+    }
+
+    second = {
+        o_storm o_fox o_shield o_sword o_wolf o_panther o_wind o_thunder o_rain o_pegasus o_star
+        o_phalanx o_resolve o_fire o_force o_eagle o_raptor o_hawk o_lion o_tiger
+        o_cobra
+    }
+    operation = {
+        160 = {
+            o_musketeer
+        }
+        83 = {
+            o_cartwheel
+            o_chronicle
+            o_postern
+            o_blissful
+            o_dexterity
+            o_cleanslate
+            o_cyclone
+            o_oboe
+            o_watchtower
+        }
+        97 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        94 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        84 = {
+            o_detachment
+            o_flintlock
+            o_catchpole
+            o_forager
+            o_galvanic
+            o_iceberg
+            o_stalemate
+        }
+        76 = {
+            o_iceberg
+            o_causway
+        }
+        154 = {
+            o_downfall
+            o_olympic
+            o_coronet
+            o_majestic
+        }
+        33 = {
+            o_cottage
+            o_sandcrab
+        }
+        23 = {
+            o_avalanche
+            o_giant
+            o_buffalo
+            o_husky
+            o_shingle
+        }
+        20 = {
+            o_anvil
+            o_dragoon
+        }
+        208 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        19 = {
+            o_overlord
+            o_cobra
+            o_roundup
+            o_sledgehammer
+        }
+        182 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+        126 = {
+            o_torch
+            o_blackstone
+            o_brushwood
+            o_goalpost
+        }
+    }
+}
+
+
+
 USB = {
     male = {
         names = {
@@ -2277,17 +3365,17 @@ NOR = {
     male = {
         names = { Adolph Jens Sverre Odd Johan Frederik Lorentz Ole Hans
         Harald Haakon Olaf Paul Petter Carl Christian Kaare Jacob Søren Wilhelm Tryggve Daniel
+        }
     }
-}
 
-female = {
-    names = { Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda }
-}
+    female = {
+        names = { Trine Kajsa Helga Paula Olivia Nela Monika Torhild Trude Ingeborg Gerda }
+    }
 
-surnames = { Munthe Sejersted Ræder Dahl Nordhaug Hamre Fleischer Eriksen Berg Hauge
-Prytz Lund Nørregaard Vilberg Hauge Sunde Petersen Brandt Lie Wergeland Frisvold
-Teige Carenwall Falck
-}
+    surnames = { Munthe Sejersted Ræder Dahl Nordhaug Hamre Fleischer Eriksen Berg Hauge
+    Prytz Lund Nørregaard Vilberg Hauge Sunde Petersen Brandt Lie Wergeland Frisvold
+    Teige Carenwall Falck
+    }
 }
 
 
@@ -2306,6 +3394,40 @@ FIN = {
 }
 }
 
+NKA = {
+    male = {
+        names = {
+            Lauri Pekka Mauno Jussi Alpo Petri Kari Juha Risto Viljo Paavo Eino Arvo Ville Mikko Petteri Aleksi Allu Ahti Ahto Erikki Eero Jani Jarno Johannes Kauko Kalevi Ilkka Eljas Erkki Auno Ilmo Kaarle
+        }
+    }
+
+    female = {
+        names = { Anna Helvi Hilda Nea Mirjam Kirsi Raili Elina Kaja Ilona Ingrid }
+    }
+
+    surnames = { Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
+}
+}
+
+
+GRL = {
+    male = {
+        names = { Aage Adam Alber Anders Asmund Axel Carl Christian Edvard Edvin
+        Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jakob
+        Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto
+        Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm  }
+    }
+    female = {
+        names = { Karen Alma Elsa Else Monica Grete Gerda Helga Jytte Kaja Asta Astrid Signe }
+    }
+    surnames = {
+        Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso  Eberlin Falsen
+        Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Hansen Have
+        Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg
+        Stemman Suenson Thygeson Trampe Urne  Wadenstierna Wedel-Heinen Zytphen-Adeler
+    }
+    callsigns = { }
+}
 
 DEN = {
     male = {
@@ -3313,6 +4435,51 @@ UDM = {
 ###############################################################
 # Western Europe
 ###############################################################
+BLX = {
+    male = {
+        names = {
+            Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant
+            Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges
+            Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis
+            Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier
+            Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner
+            Albert Alexandre Alexis Alphonse André Antoine Auguste Barthélémy Baudouin Blaise Camille Clément Charles Constant
+            Damien David Désiré Didier Edmond Édouard Emmanuel Émile Etienne Eugène Félix Fernand Feullien Florent François Frédéric Georges
+            Gérard Gilles Guillaume Gustave Henri Hercule Hubert Ignace Isidore Jacques Jean Jean-Baptiste Jean-François Jean-Louis
+            Jean-Jacques Joseph Jules Lambert Laurent Léon Léonard Léopold Louis Lucien Mathieu Maxime Maximilien Nicolas Olivier
+            Pascal Patrice Paul Philippe Philippe-Joseph Pierre Pierre-Guillaume Sébastien Sylvain Théophile Victor Vincent Werner
+            Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+        }
+    }
+    female = {
+        names = { Marie Marie Anne Géraldine Louise Marie-Claude Helene Karine Rachel Paule Claude Melanie Merel Marleen Johanna Ingrid Irene Ilse Hilda Helga Beatrix Antje Anneke Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus  }
+    }
+    surnames = {
+        Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Hollander" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Voorst tot Voorst" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+        Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet
+        Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort"
+        "de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+        "de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin"
+        "de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps"
+        "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix
+        "Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+        Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand
+        Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb
+        Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude
+        Allard Barbanson Barthélémy Baugniet Beaucarne Berger Berthels Beyts Biver Blargnies Brialmont Bredart Cauvin Collet
+        Cols Claus Clerix Coquilhat d'Arenberg d'Huart d'Omalius d'Oreye d'Oultremont David Davignon "de Baillet" "de Beaufort"
+        "de Behr" "de Bocarmé" "de Bousies" "de Brouckère" "de Broqueville" "de Burlet" "de Celles" "de Chasteler" "de Coppin de Falaen"
+        "de Croÿ" "de Decker" "de Dixmude" "de Gerlache" "de Grez" "de Hemptinne" "de Labbeville" "de Lannoy" "de Ligne" "de Leuze" "de Melin"
+        "de Mérode" "de Pelichy" "de Quarre" "de Riquet" "de Robaulx" "de Rouille" "de Sauvage" "de Sécus" "de Selys Longchamps"
+        "de Stassart" "de Stockem" "de Theux de Meylandt" "de Trazegnies" "de Trooz" "de Viron" "de Waha" Defacqz Deguise Delacroix
+        "Desmanet de Biesme" Destriveaux Dethier Devaux Deville Dewandre Dhanis Dreze "du Bois" "du Bus" "du Pont" "du Val de Beaulieu" Dumont
+        Fallon Fendius Figeys Fleury-Dubay Fleussu Forgeur Frison Fuchs Gendebien Goffint Henry "Huysman d'Annecroix" Jacques Joos Jottrand
+        Lahure Lardinois "le Cocq" "le Hon" Lebeau Leclercq Lefebvre Leman Malou Marcq Marlet Masbourg Nagelmackers Nalinne Nothomb
+        Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude
+    }
+}
+
+
 LUX = {
     male = {
         names = {
@@ -3402,6 +4569,22 @@ CZE = {
 }
 
 
+OGY = {
+    male = {
+        names = {  Ezekiel Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
+        Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl  }
+    }
+    female = {
+        names = { Sandra Maria Anna Anne Hannah Hildegard Sarah }
+    }
+    surnames = { Lugmair Neudinger Muller Schmidt Schneider Fischer Meyer Weber Schulz Wagner Hartmann Rall Barkhorn
+    Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm
+    Beisswenger Duttmann Wilbs Berglen Behrmann
+}
+callsigns = { }
+}
+
+
 AUS = {
     male = {
         names = {  Ezekiel Maximilian Felix Erich Gerhard Gunther Otto Walter Wilhelm Heinz Hermann Heinrich
@@ -3415,6 +4598,34 @@ AUS = {
     Beisswenger Duttmann Wilbs Berglen Behrmann
 }
 callsigns = { }
+}
+
+PRT = {
+    male = {
+        names = {
+            Abel Adriano Afonso Alberto Alexandre Alfredo Álvaro André António Aquilino
+            Artur Augusto Bartolomeu Bernardo Bruno Caetano Cândido Carlos Christovão Cláudio
+            Damião Daniel David Dinis Diogo Duarte Ernesto Estêvão Eugénio Fernando
+            Filipe Francisco Gastão Hermenegildo Ignácio JErónimo João Joaquim Jorge
+            José Júlio Leopoldo Luís Manuel Mário Miguel Nicolau Nuno Orlando
+            Óscar Pascoal Paulo Pedro Rafael Raul Roberto Rodrigo Rui Santiago
+            Sebastião Teodoro Teófilo Tiago Tomé Urbano Vasco Vicente Vitorino Vitório
+
+        }
+    }
+    female = {
+        names = { Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança }
+    }
+    surnames = {
+        Amaral Barreto Bleck Braga Cabral Capelo Carmona Coelho Correia Coutinho
+        "da Costa" "da Cunha" "da Silva" "de Albuquerque" "de Almeida" "de Arriaga" "de Bragança" "de Bragança-Coburgo" "de Carvalho"
+        "de Castro" "de Gusmão" "de Lacerda" "de Mesquita" "de Moura" "de Noronha" "de Oliveira" "de Paiva" "de Sousa" "de Vasconcelos"
+        Dias "dos Reis" "dos Santos" Fernandes Ferreira Figueira "Freire de Andrade" Gago Gil Gomes
+        Herculano Ivens Keil Lopes Machado Magalhães Mendes Moniz Mouzinho Nogueira
+        Nunes Ortigão Pereira Pinheiro Pinto Pires Pomar Pulido Queiroz Quintanilha
+        Ribeiro Rodrigues Salazar Sampaio Sérgio Silveira Tavares Teixeira Vidigal Vieira
+    }
+    callsigns = { }
 }
 
 POR = {
@@ -4744,6 +5955,69 @@ PNG = {
     callsigns = { }
 }
 
+FRP = {
+    
+    male = {
+        names = {
+            Abba Adrian Benkato Boaz Bob Brad David Dika Francis Frans Freddy George John Makali Marcus Matthew Michael Paias Patrick Paulias Peter Rabbie Ryan Stanley Ted Will
+        }
+    }
+    female = {
+        names = {
+            Amy Dame Erika Heather Lara Nitya Raema
+        }
+    }
+    surnames = {
+        Aizue Bai Bina Cooper Dekker Egerton Gene Genia Giddings Heynatz Hicks Kaisiepo Kidu Kompaon Lam Laws Maheswari Matane McDonald Mead Mondo Namaliu Numberi Ottio "O'Neill" Pini Pruaitch Rumbewas Sheppard Solossa Somare
+        Toua Watson Wingti
+    }
+    callsigns = { }
+}
+
+NSI = {
+    male = {
+        names = {
+            Aba Adrin Beato Boz Bo Bra Dd Dia Fani Fran Fedy Gege On Maal Maus Mathw Mihel Paas Patk Pulias Pet Rbie Ryn Stnley Teisd Wisdlal
+        }
+    }
+    female = {
+        names = {
+            Lisd Duns Fras Hins Rila Nitae Sasa
+        }
+    }
+    surnames = {
+        Aba Adrin Beato Boz Bo Bra Dd Dia Fani Fran Fedy Gege On Maal Maus Mathw Mihel Paas Patk Pulias Pet Rbie Ryn Stnley Teisd Wisdlal Lisd Duns Fras Hins Rila Nitae Sasa Ojayit Ojo Osh Priyantha Rajin Rangana Richik Ruvindu Ruwan Sachithra Sanjeeva Sanura Sauri Seekkuge Shardul Shiwin Supur Supurush Suranga Sushim Svaksh
+        Tharindu Thisara Thusitha Tillakaratne Ujjayan Upul Vaaj Vikhed Vimukhti Vipashyan Viraji Vishad Widura
+    }
+    callsigns = { }
+}
+
+SJK = {
+    male = {
+        names = {
+            Ahlad Aish Aishik Akhed Amith Amul Aneech Arag Arjan Arosha Aruddh Asela Asisri Asith Avan Avilop Awadh Bis Bisala Chak Chaminda Chandika Chathura Dahuk Dammika Davith Dewil Dilen Dimbh Dimuth Dishan Dith Divyae Dorak
+            Dushmantha Elaay Esh Evayavan Ishan Isht Jayalath Jyani Khadyot Kharat Khasfatik Khyapan Khyat Kosala Kshiti Kulinak Kusal Lasith Lav Maahin Malinga Manovir Marvan Meedhvas Midhush Mukhari Muttiah Nandana Niluka
+            Nishantha Nishkrodh Niyan Nuwan Odav Odma Ojasvin Ojasya Ojayit Ojo Osh Priyantha Rajin Rangana Richik Ruvindu Ruwan Sachithra Sanjeeva Sanura Sauri Seekkuge Shardul Shiwin Supur Supurush Suranga Sushim Svaksh
+            Tharindu Thisara Thusitha Tillakaratne Ujjayan Upul Vaaj Vikhed Vimukhti Vipashyan Viraji Vishad Widura
+        }
+    }
+    female = {
+        names = {
+            Aahlada Adasi Ahani Ahinsra Ahlada Aila Akopini Akroori Akruddha Arna Arosha Atteesha Awadha Bisa Bisala Bodhani Bodhila Chakasti Chakori Chandrika Damaruki Dikkaria Dilshani Dodahi Dombuli Dora Edha Eha Ema Ena
+            Eshani Faleesha Fena Fulli Gairi Ghora Homini Ishini Ishta Jami Japa Jayani Khyatini Kshipra Kshiti Kulika Kulini Maduwanthi Maheshani Maheshi Mahie Mahika Malinthi Mehana Methuli Mriduna Mridva Mukhari Mura Nandana
+            Nilakshi Niluka Nilukshi Nimani Oha Ojasini Ojmana Ojoda Okaja Omakshi Omesha Oni Osha Oshthi Pinya Rami Richeyu Riddhida Rumeshika Sachithra Sana Sauriki Sharduli Shesha Sriyani Sunara Susanthika Thiduki Thilin
+            Thusitha Uri Urvasha Vajada Valgas Vihangi Vipashyana Viraji Visha Vishoki Warsha Widura
+        }
+    }
+    surnames = {
+        Abayakoon Abeynaike Appuhamy Balasuriya Bandara Bandaranaike Buddhika Chandrasiri Cooray Dahanayake Dassanayake "De Abrew" "De Alwis" Devapriya Dinuk Dissanayake Ekanayake Fernando Fonseca Gamage Gemunu Gunaratne
+        Gunasekera Gunawardena Hathurusingha Hemantha Herath Jagath Jayakody Jayaratne Jayasinghe Jayatilleka Jayatissa Jayawickrama Jayewardene Karunaratne Madugalle Mendis Nandasiri Niroshan Pathirana Peiris Perea Prasanna
+        Premaratne Priyantha Rajapaksa Rajasekara Ramanayake Ranaweera Ratnayake Samarasekera Samarasinghe Senanayake Senasinghe Seneviratne Shantha Silva Sirisena Subasinghe Udawatte Vimukthi Warakagoda Weeraratne Weerasekara
+        Weerawansa Wickremasinghe Wijeratne Wijesuriya Wijewardene Wikramanayake
+    }
+    callsigns = { }
+}
+
 SRL = {
     male = {
         names = {
@@ -4814,6 +6088,21 @@ Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Robe
 callsigns = { }
 }
 
+IND = {
+    male = {
+        names = {
+            Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
+        }
+    }
+    female = {
+        names = { Indira Aditi Amita Anasuya Kavita Puja Rani Rashmi Sania Dusha Neha Neetu Deepti Deepa Bipasha Preeti Padmavati Uma Vibha }
+    }
+    surnames = {
+        Neru Gandhi Modi Singh Suhag Rawat Hira Saha Sharma Nimbhorkar Talwar Thoge Hooda Bakshi Negi Hariz Chand Soni Verma Reddy Gupta Cheema Prasad Bharali Shivane Unni Sarin Patyal Chakravarty Bali Datta Naravane Chavan Chandra Bandyopadhyay Krishna Pannu Ambre Ahir Varadarajan Wangchuk Yadav
+    }
+    callsigns = { }
+}
+
 RAJ = {
     male = {
         names = {
@@ -4825,6 +6114,21 @@ RAJ = {
     }
     surnames = {
         Neru Gandhi Modi Singh Suhag Rawat Hira Saha Sharma Nimbhorkar Talwar Thoge Hooda Bakshi Negi Hariz Chand Soni Verma Reddy Gupta Cheema Prasad Bharali Shivane Unni Sarin Patyal Chakravarty Bali Datta Naravane Chavan Chandra Bandyopadhyay Krishna Pannu Ambre Ahir Varadarajan Wangchuk Yadav
+    }
+    callsigns = { }
+}
+
+NTS = {
+    male = {
+        names = {
+            Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat
+        }
+    }
+    female = {
+        names = { "Chand Kaur" "Ratan Kaur" "Kanwal Kaur" "Datar Kaur" "Nand Kaur" Mahtab Sunayna }
+    }
+    surnames = {
+        Khan Ali Malik Nabiullah Sadiq Shafi Pirbhai Ahmed Baig Johar
     }
     callsigns = { }
 }
@@ -4859,21 +6163,21 @@ PHI = {
     callsigns = { }
 }
 
-# SIA = {
-# 	male = {
-# 		names = {
-# 			"Nangklao" "Mongkut" "Rama" "Chulalongkorn" "Chao" "Vajiravudh" "Prajadhipok" "Naritsaranuwatiwong" "Phya" "Plaek"
-# 		}
-# 	}
-# 	female = {
-# 		names = { "Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol" }
-# 	}
-# 	surnames = {
-# 		"Suriyawongse" "Saovabha" "Chichalerm" "Nitithada" "Phonphayuhasena"
+BKK = {
+	male = {
+		names = {
+			"Nangklao" "Mongkut" "Rama" "Chulalongkorn" "Chao" "Vajiravudh" "Prajadhipok" "Naritsaranuwatiwong" "Phya" "Plaek"
+		}
+	}
+	female = {
+		names = { "Amporn" "Chanarong" "Sri Suriyothai" "Panjapapee" "Komol" }
+	}
+	surnames = {
+		"Suriyawongse" "Saovabha" "Chichalerm" "Nitithada" "Phonphayuhasena"
 
-# 	}
-# 	callsigns = { }
-# }
+	}
+	callsigns = { }
+}
 
 KHM = {
     male = {
@@ -4917,6 +6221,29 @@ LAO = {
     surnames = {
         Inthavong Chanthavong Yang Lee Thammavong Xiong Vang Noy Manivong Phanthavong Lao Kham Keo Nguyen Phommachanh Lor Sayavong Vongphachanh Xayavong Phommavong Chanthalangsy
     }
+    callsigns = { }
+}
+
+CTO = {
+    male = {
+        names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+    }
+    female = {
+        names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+    }
+    surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+    callsigns = { }
+}
+
+
+CCS = {
+    male = {
+        names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+    }
+    female = {
+        names = { Li Bao Mulan Lanfen Mingzhu Qingling Mei Yingtai Feng "Zhi Ruo" Fei "Ru Shi" Yuying Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen Xiaoying Xiaoyuan Xiaoji Xiaolou }
+    }
+    surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
     callsigns = { }
 }
 
@@ -6202,7 +7529,7 @@ KHA = {
         callsigns = { }
     }
 
-    TOG = {
+    CH1 = {
         male = {
             names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
         }
@@ -6213,24 +7540,24 @@ KHA = {
         callsigns = { }
     }
     #Togo
-    # TOG = {
-    # 	male = {
-    # 		names = {
-    # 			Bachirou Claude Daré Edem Emmanuel Faure Félix Gilchrist Gnassingbé Jan Joseph Kodjo Kossi Kouami Kwesi Lankantien Moustapha Nicolas Paul Peniel Pyabelo Razak Roland Sami Sénah Sénouvo Serge Sylvanus Tavio
-    # 			"Tété-Michel"
-    # 		}
-    # 	}
-    # 	female = {
-    # 		names = {
-    # 			Adzo "Anne-Laure" Bamab Bella
-    # 		}
-    # 	}
-    # 	surnames = {
-    # 		Adebayor Aguessy "Ahoomey-Zunu" Ahyi Akakpo Amedokpo Amorin Awumey Bellow Boukari Couchoro Denanyoh Efoui Eyadéma Folly Gnassingbé Grunitzky Kodjo Kouly Kpomassie Kpossi Kpotsra Lamboni Mango Mlapa Napo Nibombé Olympio
-    # 		Salifou Salou Sekpona Tchak Tossou Zinsou
-    # 	}
-    # 	callsigns = { }
-    # }
+    TOG = {
+    	male = {
+    		names = {
+    			Bachirou Claude Daré Edem Emmanuel Faure Félix Gilchrist Gnassingbé Jan Joseph Kodjo Kossi Kouami Kwesi Lankantien Moustapha Nicolas Paul Peniel Pyabelo Razak Roland Sami Sénah Sénouvo Serge Sylvanus Tavio
+    			"Tété-Michel"
+    		}
+    	}
+    	female = {
+    		names = {
+    			Adzo "Anne-Laure" Bamab Bella
+    		}
+    	}
+    	surnames = {
+    		Adebayor Aguessy "Ahoomey-Zunu" Ahyi Akakpo Amedokpo Amorin Awumey Bellow Boukari Couchoro Denanyoh Efoui Eyadéma Folly Gnassingbé Grunitzky Kodjo Kouly Kpomassie Kpossi Kpotsra Lamboni Mango Mlapa Napo Nibombé Olympio
+    		Salifou Salou Sekpona Tchak Tossou Zinsou
+    	}
+    	callsigns = { }
+    }
 
     #Ghana
     GAH = {
