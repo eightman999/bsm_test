@@ -50,7 +50,7 @@ guiTypes = {
 		
 		# Console entry
 		instantTextBoxType={
-			position = { x=10 y=70 }
+			position = { x=10 y=75 }
 			name = "console_text"
 			#textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
 			font = "Arial12"

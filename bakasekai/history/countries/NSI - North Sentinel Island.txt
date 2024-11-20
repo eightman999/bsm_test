@@ -40,7 +40,7 @@ if = {
 		autonomy_state = autonomy_psonal_union
 	}
 add_ideas = {
-	anemism
+	animism
 }
 
 recruit_character = NSI_Zokutyo

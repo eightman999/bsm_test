@@ -218,8 +218,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_idea_anemism"
-		texturefile = "gfx/interface/ideas/idea_anemism.dds"
+		name = "GFX_idea_animism"
+		texturefile = "gfx/interface/ideas/idea_animism.dds"
 	}
 
 	SpriteType = {

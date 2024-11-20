@@ -1283,18 +1283,18 @@ technologies = {
 					EXTRA_PROJECT = sp_land_super_heavy_howitzer
 				}
 			}
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_rockets_flying_bomb	
-			}
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_rockets_ballistic_missile	
-			}
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_rocket_interceptor	
-			}						
+			# custom_effect_tooltip = {
+			# 	localization_key = SP_UNLOCK_PROJECT
+			# 	PROJECT = sp_rockets_flying_bomb	
+			# }
+			# custom_effect_tooltip = {
+			# 	localization_key = SP_UNLOCK_PROJECT
+			# 	PROJECT = sp_rockets_ballistic_missile	
+			# }
+			# custom_effect_tooltip = {
+			# 	localization_key = SP_UNLOCK_PROJECT
+			# 	PROJECT = sp_rocket_interceptor	
+			# }						
 		}
 	
 		ai_will_do = {

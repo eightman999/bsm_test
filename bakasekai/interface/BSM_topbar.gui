@@ -89,8 +89,8 @@ guiTypes = {
 				}
 				name = "cd_bg"
 				# quadTextureSprite ="GFX_bg_mini_tooltip"
-				# pdx_tooltip = "Unified_Currency_title"
-				# pdx_tooltip_delayed = "Unified_Currency_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
 			iconType = {
 				name ="ec"
@@ -112,7 +112,7 @@ guiTypes = {
 				maxHeight = 24
 				fixedsize = yes
 				alwaystransparent = yes
-				pdx_tooltip = "Unified_Currency_title"
+				# pdx_tooltip = "Unified_Currency_title"
 				# pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
 		}
