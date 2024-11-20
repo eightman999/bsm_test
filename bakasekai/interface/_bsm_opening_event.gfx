@@ -25,6 +25,69 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_98_slider_bg"
+		textureFile = ""
+	}
+	spriteType = {
+		name = "GFX_98_up"
+		textureFile = "gfx/interface/GUI/98/up.png"
+	}
+	spriteType = {
+		name = "GFX_98_down"
+		textureFile = "gfx/interface/GUI/98/down.png"
+	}
+	spriteType = {
+		name = "GFX_98_pulldown"
+		textureFile = "gfx/interface/GUI/98/pulldown.png"
+	}
+	spriteType = {
+		name = "GFX_98_btn_115x38"
+		textureFile = "gfx/interface/GUI/98/bsm_btn_115x38.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_bsm_OE_GUI_bg"
+		texturefile = "gfx/interface/GUI/98/bsm_OE_GUI_bg.png"
+	}
+	spriteType = {
+		name = "GFX_bsm_mod_icon_large"
+		texturefile = "gfx/interface/GUI/98/mod_icon_large.png"
+	}
+	spriteType = {
+		name = "GFX_bsm_btn_section"
+		texturefile = "gfx/interface/GUI/98/bsm_btn_section.png"
+	}
+	corneredTileSpriteType = {#背景
+		name = "GFX_tiled_webpage_pattern"
+		size= { x=50 y=50 }
+		textureFile = "gfx/interface/tiles/tiled_webpage_pattern.png"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {#背景
+		name = "GFX_tiled_empty"
+		size= { x=50 y=50 }
+		textureFile = "gfx/interface/tiles/tiled_empty.png"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {#背景
+		name = "GFX_tiled_black"
+		size= { x=26 y=26 }
+		textureFile = "gfx/interface/GUI/98/bsm_small_tiles_dialog.png"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_98_slider_bg"
+		size= { x=15 y=230 }
 		textureFile = "gfx/interface/GUI/98/bar_bg.png"
+		borderSize = { x=0 y=52 }
+		tilingCenter = yes
 	}
 }
+
+
+

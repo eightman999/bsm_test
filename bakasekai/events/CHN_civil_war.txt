@@ -133,7 +133,7 @@ country_event = {
 			RAJ = {
 				every_controlled_state = {
 					add_core_of = ENG
-					add_core_of = TOG
+					add_core_of = CH1
 					add_core_of = SMA
 				}
 			}
@@ -157,7 +157,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = TOG
+					target = CH1
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -165,7 +165,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 			}
-			TOG = {
+			CH1 = {
 				set_state_controller = 619
 				set_state_owner = 619
 				declare_war_on = {
@@ -222,7 +222,7 @@ country_event = {
 			RAJ = {
 				every_controlled_state = {
 					add_core_of = ENG
-					add_core_of = TOG
+					add_core_of = CH1
 					add_core_of = SMA
 				}
 			}
@@ -234,7 +234,7 @@ country_event = {
 				set_state_controller = 619
 				set_state_owner = 619
 			}
-			TOG = {
+			CH1 = {
 				set_state_controller = 287
 				set_state_owner = 287
 			}
@@ -347,7 +347,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = TOG
+					target = CH1
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -421,7 +421,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = TOG
+					target = CH1
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -504,7 +504,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = TOG
+					target = CH1
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -675,7 +675,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = TOG
+					target = CH1
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -774,7 +774,7 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = TOG
+					target = CH1
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {

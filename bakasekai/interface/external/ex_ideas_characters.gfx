@@ -517,7 +517,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_BUL_vladimir_zaimov.dds"
 	}
 
-	### GRE
+	### GRC
 
 	spriteType = {
 		name = "GFX_idea_GRE_alexandros_papagos_advisor"
@@ -1207,7 +1207,7 @@ spriteTypes = {
 			texturefile = "gfx/interface/ideas/idea_SOV_vsevolod_ivanovich.dds"
 		}
 
-		### ENG
+		### GBR
 
 	spriteType = {
 		name = "GFX_idea_ENG_elizabeth_ii"
@@ -1224,7 +1224,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_ENG_william_birdwood.dds"
 	}
 
-	### GER
+	### DEU
 
 	spriteType = {
 		name = "GFX_idea_GER_wilhelm_ii"

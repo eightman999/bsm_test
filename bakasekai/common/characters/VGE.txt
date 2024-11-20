@@ -13,6 +13,7 @@ characters = {
 	}
 	VGE_aleksander_heck = {
 		name = "Alexander Heckman" 
+		
 		portraits = {
 			civilian = {
 				large = GFX_portrait_Alexander_Heckman

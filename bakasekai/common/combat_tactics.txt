@@ -725,7 +725,7 @@ tactic_banzai_charge = {
 	#Special Japan attacker tactic
 	is_attacker = yes
 	trigger = {
-		tag = JAP
+		tag = JPN
 		is_attacker = yes
 		phase = no
 	}

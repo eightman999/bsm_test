@@ -161,13 +161,13 @@ leader_traits = {
 		war_support_factor = 0.15
 		army_org_Factor = 0.05
 		targeted_modifier = {
-			tag = GER
+			tag = DEU
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
 		ai_strategy = {
 			type = antagonize
-			id = "GER"			
+			id = "DEU"			
 			value = 200
 		}
 		
@@ -180,13 +180,13 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.1
 		targeted_modifier = {
-			tag = GER
+			tag = DEU
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
 		ai_strategy = {
 			type = antagonize
-			id = "GER"			
+			id = "DEU"			
 			value = 200
 		}
 		
@@ -448,7 +448,7 @@ leader_traits = {
 		random = no
 		ai_strategy = {
 			type = befriend
-			id = "GER"			
+			id = "DEU"			
 			value = 50
 		}
 		

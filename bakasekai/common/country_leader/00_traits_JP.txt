@@ -241,7 +241,7 @@ leader_traits = {
 			stability_factor = 0.05
 			industrial_capacity_factory = 0.05
 			targeted_modifier = {
-				tag = JAP
+				tag = JPN
 				attack_bonus_against = 0.05
 				defense_bonus_against = 0.05
 			}
@@ -709,7 +709,7 @@ leader_traits = {
 			}
 			modifier = {
 				add = 8
-				has_government = fascism
+				has_government = fascism_ideology
 				num_occupied_states > 10
 			}
 		}

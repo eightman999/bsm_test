@@ -23,6 +23,7 @@ state={
 			5210 1
 		}
 		add_core_of = WES
+		add_core_of = KEN
 	}
 
 	provinces={

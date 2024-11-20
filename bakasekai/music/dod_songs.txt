@@ -24,7 +24,7 @@ music = {
 				original_tag = HUN
 				original_tag = ROM
 				original_tag = CZE				
-				original_tag = YUG				
+				original_tag = MYS				
 			}
 		}
 	}
@@ -56,7 +56,7 @@ music = {
 				original_tag = HUN
 				original_tag = ROM
 				original_tag = CZE				
-				original_tag = YUG				
+				original_tag = MYS				
 			}
 		}
 	}
@@ -85,7 +85,7 @@ music = {
 				original_tag = HUN
 				original_tag = ROM
 				original_tag = CZE				
-				original_tag = YUG				
+				original_tag = MYS				
 			}
 		}
 	}

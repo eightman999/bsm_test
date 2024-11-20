@@ -212,7 +212,7 @@ characters={
 			available = {
 				if = {
 					limit = { has_DLC = "No Step Back" }
-					has_completed_focus = BALTIC_restore_workers_republic
+					# has_completed_focus = BALTIC_restore_workers_republic
 				}
 			}
 			traits = {
@@ -797,7 +797,7 @@ characters={
 				has_DLC = "No Step Back"
 			}
 			available = {
-				has_completed_focus = BALTIC_revolutionary_cabinet 
+				# has_completed_focus = BALTIC_revolutionary_cabinet 
 			}
 			traits = {
 				revolutionary_poet 
@@ -821,7 +821,7 @@ characters={
 				has_dlc = "No Step Back"
 			}
 			available = {
-				has_completed_focus = BALTIC_revolutionary_cabinet 
+				# has_completed_focus = BALTIC_revolutionary_cabinet 
 			}
 			traits = {
 				socialist_justice 
@@ -844,7 +844,7 @@ characters={
 				has_dlc = "No Step Back"
 			}
 			available = {
-				has_completed_focus = BALTIC_revolutionary_cabinet 
+				# has_completed_focus = BALTIC_revolutionary_cabinet 
 			}
 			traits = {
 				marxist_fundamentalist 
@@ -867,7 +867,7 @@ characters={
 				has_dlc = "No Step Back"
 			}
 			available = {
-				has_completed_focus = BALTIC_revolutionary_cabinet 
+				# has_completed_focus = BALTIC_revolutionary_cabinet 
 			}
 			traits = {
 				patriotic_socialist 

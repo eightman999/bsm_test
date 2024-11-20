@@ -1,4 +1,4 @@
-capital = 112
+capital = 321
 oob = "Default_oob"
 set_cosmetic_tag = PRT_republic
 set_research_slots = 3

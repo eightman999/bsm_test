@@ -31,7 +31,7 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-GER_Inf_01 = 
+DEU_Inf_01 = 
 {
 	name = "Infantry Divisions"
 
@@ -42,7 +42,7 @@ GER_Inf_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { GER_Gar_01 }
+	#link_numbering_with = { DEU_Gar_01 }
 
 	fallback_name = "%d. Infanterie-Division"
 
@@ -374,7 +374,7 @@ GER_Inf_01 =
 	}
 }
 
-GER_ALTINF_01 = 
+DEU_ALTINF_01 = 
 {
 	name = "Late/Alternate Infantry Divisions"
 
@@ -386,7 +386,7 @@ GER_ALTINF_01 =
 
 	fallback_name = "%d. Volksgrenadier-Division"
 
-	link_numbering_with = { GER_Inf_01 }
+	link_numbering_with = { DEU_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -459,7 +459,7 @@ GER_ALTINF_01 =
 }
 
 
-GER_LTINF_01 = 
+DEU_LTINF_01 = 
 {
 	name = "Light Infantry Divisions"
 
@@ -471,7 +471,7 @@ GER_LTINF_01 =
 
 	fallback_name = "%d. Jäger-Division"
 
-	link_numbering_with = { GER_Inf_01 }
+	link_numbering_with = { DEU_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -494,7 +494,7 @@ GER_LTINF_01 =
 	}
 }
 
-GER_MOT_01 = 
+DEU_MOT_01 = 
 {
 	name = "Motorized Divisions"
 
@@ -505,14 +505,14 @@ GER_MOT_01 =
 			has_government = neutrality_ideology 
 			has_government = democratic_ideology 
 		}
-		#has_completed_focus = GER_oppose_hitler
+		#has_completed_focus = DEU_oppose_hitler
 	}
 
 	division_types = { "motorized"  }
 
 	fallback_name = "%d. Infanterie-Division (mot)"
 
-	link_numbering_with = { GER_Inf_01 }
+	link_numbering_with = { DEU_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -540,7 +540,7 @@ GER_MOT_01 =
 }
 
 #Nazi Motorized
-GER_MOT_02 = 
+DEU_MOT_02 = 
 {
 	name = "Motorized Divisions"
 
@@ -552,7 +552,7 @@ GER_MOT_02 =
 
 	fallback_name = "%d. Infanterie-Division (mot)"
 
-	link_numbering_with = { GER_Inf_01 }
+	link_numbering_with = { DEU_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -580,7 +580,7 @@ GER_MOT_02 =
 	}
 }
 
-GER_MEC_01 = 
+DEU_MEC_01 = 
 {
 	name = "Panzergrenadier Divisions"
 
@@ -592,7 +592,7 @@ GER_MEC_01 =
 
 	fallback_name = "%d. Panzergrenadier-Division"
 
-	link_numbering_with = { GER_Inf_01 }
+	link_numbering_with = { DEU_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -619,7 +619,7 @@ GER_MEC_01 =
 	}
 }
 
-GER_Mnt_01 = 
+DEU_Mnt_01 = 
 {
 	name = "Mountain Divisions"
 
@@ -651,7 +651,7 @@ GER_Mnt_01 =
 	}
 }
 
-GER_MAR_01 = 
+DEU_MAR_01 = 
 {
 	name = "Marine Divisions"
 
@@ -677,7 +677,7 @@ GER_MAR_01 =
 	}
 }
 
-GER_PAR_01 = 
+DEU_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
@@ -711,7 +711,7 @@ GER_PAR_01 =
 	}
 }
 
-GER_GAR_01 = 
+DEU_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
@@ -723,7 +723,7 @@ GER_GAR_01 =
 
 	fallback_name = "%d. Sicherungs-Division"
 
-	link_numbering_with = { GER_Inf_01 }
+	link_numbering_with = { DEU_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -824,7 +824,7 @@ GER_GAR_01 =
 
 
 
-GER_Arm_01 = 
+DEU_Arm_01 = 
 {
 	name = "Panzer Divisions"
 
@@ -888,7 +888,7 @@ GER_Arm_01 =
 	}
 }
 
-GER_LTARM_01 = 
+DEU_LTARM_01 = 
 {
 	name = "Light Divisions"
 
@@ -900,7 +900,7 @@ GER_LTARM_01 =
 
 	fallback_name = "%d. leichte-Division"
 	
-	link_numbering_with = { GER_Arm_01 }
+	link_numbering_with = { DEU_Arm_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -916,7 +916,7 @@ GER_LTARM_01 =
 	}
 }
 
-GER_Cav_01 = 
+DEU_Cav_01 = 
 {
 	name = "Cavalry Divisions"
 
@@ -942,7 +942,7 @@ GER_Cav_01 =
 	
 }
 
-GER_SS_01 = 
+DEU_SS_01 = 
 {
 	name = "SS Divisions"
 
@@ -998,7 +998,7 @@ GER_SS_01 =
 	}
 }
 
-GER_MONINF_01 = 
+DEU_MONINF_01 = 
 {
 	name = "Monarchist Infantry Divisions"
 
@@ -1009,7 +1009,7 @@ GER_MONINF_01 =
 			has_government = neutrality_ideology 
 			has_government = democratic_ideology 
 		}
-		#has_completed_focus = GER_oppose_hitler
+		#has_completed_focus = DEU_oppose_hitler
 	}
 
 	division_types = { "infantry" "mechanized" "mountaineers" "paratrooper" "marine" }
@@ -1235,7 +1235,7 @@ GER_MONINF_01 =
 	}
 }
 
-GER_MONMOB_01 = 
+DEU_MONMOB_01 = 
 {
 	name = "Monarchist Mobile Divisions"
 
@@ -1246,7 +1246,7 @@ GER_MONMOB_01 =
 			has_government = neutrality_ideology 
 			has_government = democratic_ideology 
 		}
-		#has_completed_focus = GER_oppose_hitler
+		#has_completed_focus = DEU_oppose_hitler
 	}
 
 	division_types = {  "cavalry" "light_armor" "medium_armor" "heavy_armor" "modern_armor"  }
