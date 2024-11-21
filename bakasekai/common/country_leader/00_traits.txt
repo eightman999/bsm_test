@@ -5841,7 +5841,7 @@ leader_traits = {
         random = no
         # Boosts Unaligned
         sprite = 13
-        neutrality_ideology_drift = 0.1
+        constitutional_monarchy_drift = 0.1
 
         ai_will_do = {
             factor = 1

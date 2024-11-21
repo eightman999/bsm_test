@@ -22,7 +22,7 @@ defined_text = {
 		trigger = {
 			has_idea = war_effort_2
 		}
-		localization_key = Unified_Currency_desc_war_effort_war
+		localization_key = Unified_Currency_desc_war_effort_war_2
 	}
 	text = {
 		trigger = {
