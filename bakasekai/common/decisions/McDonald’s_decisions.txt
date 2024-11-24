@@ -1958,7 +1958,7 @@ MAC_cola_war_oppose_move = {
 		}
 		timeout_effect = {
 			activate_decision = MAC_NF_
-
+			add_ideas = MAC_pepsi_propaganda_idea
 		}
 		days_mission_timeout = 70
 		is_good = no
