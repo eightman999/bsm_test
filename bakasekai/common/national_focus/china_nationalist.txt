@@ -449,7 +449,6 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
 		completion_reward = {
 			every_country = {
 				limit = {

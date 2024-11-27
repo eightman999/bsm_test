@@ -36,7 +36,6 @@ should_have_korean_medals_trigger = {
 	original_tag = KOR
 }
 
-
 should_have_any_unique_medals_trigger = {
 	OR = {
 		should_have_german_medals_trigger = yes

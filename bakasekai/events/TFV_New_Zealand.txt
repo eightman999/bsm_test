@@ -26,7 +26,6 @@
 # 		ERO = { country_event = { id = tfv_new_zealand.2 hours = 6 } }
 # 	}
 
-
 # 	option = { #SOV refuses
 # 		name = tfv_new_zealand.1.b
 # 		ai_chance = {
@@ -93,7 +92,6 @@
 # 		}
 # 		ERO = { country_event = { id = tfv_new_zealand.5 hours = 6 } }
 # 	}
-
 
 # 	option = { #JPN refuses
 # 		name = tfv_new_zealand.4.b

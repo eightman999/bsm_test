@@ -52,7 +52,6 @@ equipments = {
 		priority = 30			
 	}
 
-
 	motorbike_equipment = {
 		year = 1938
 

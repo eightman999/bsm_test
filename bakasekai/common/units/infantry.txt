@@ -719,7 +719,6 @@ sub_units = {
 		supply_consumption = 0.01
 	}
 
-
 	sand = {
 		sprite = sand
 		map_icon_category = infantry

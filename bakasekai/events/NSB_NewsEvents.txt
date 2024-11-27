@@ -409,7 +409,6 @@
 # 	}
 # }
 
-
 # # Soviet Civil War
 # news_event = {
 # 	id = nsb_news.9
@@ -1089,7 +1088,6 @@
 # 	}
 # }
 
-
 # # Transcaucasian Federation
 # news_event = {
 # 	id = nsb_news.302
@@ -1115,7 +1113,6 @@
 # 	}
 # }
 
-
 # # Siberian Republic
 # news_event = {
 # 	id = nsb_news.303
@@ -1140,7 +1137,6 @@
 # 		}
 # 	}
 # }
-
 
 # # Idel-Ural Republic
 # news_event = {

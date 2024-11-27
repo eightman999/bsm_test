@@ -10,7 +10,6 @@
 
 # #################################################################
 
-
 # 	mine_sabotage_raid = {
 # 		days_to_prepare = 90
 
@@ -147,7 +146,6 @@
 # 					start_weight = -0.25
 # 				}
 
-
 # 				anti_air = {
 # 					reference = 5
 # 					weight = -0.2
@@ -276,7 +274,6 @@
 # 						org_damage = 10
 # 						str_damage = 0
 # 					}
-
 
 # 					# Unit Experience
 # 					raid_add_unit_experience = 0.35
@@ -549,7 +546,6 @@
 # 						org_damage = 40
 # 						str_damage = 10
 # 					}
-
 
 # 					# Unit Experience
 # 					raid_add_unit_experience = 0.35

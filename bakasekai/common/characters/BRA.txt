@@ -129,7 +129,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	BRA_newton_cavalcanti={
@@ -175,7 +174,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### ARMY CHIEFS ###
 
@@ -224,7 +222,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### NAVY CHIEFS ###
 
@@ -297,7 +294,6 @@ characters={
 		}		
 	}
 
-
 	### AIR CHIEFS ###
 
 	BRA_salgado_filho={
@@ -345,7 +341,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -444,7 +439,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### POLITICAL ADVISORS ###
 

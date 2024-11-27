@@ -307,9 +307,6 @@ ideas = {
 				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				naval_equipment = 0.15
 			}
@@ -329,9 +326,6 @@ ideas = {
 				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				industry = 0.15
 			}
@@ -356,9 +350,6 @@ ideas = {
 				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				motorized_equipment = 0.15
 			}
@@ -377,9 +368,6 @@ ideas = {
 				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				armor = 0.15
 			}
@@ -398,9 +386,6 @@ ideas = {
 				original_TAG = ERO
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				armor = 0.15
 			}

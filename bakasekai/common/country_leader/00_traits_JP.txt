@@ -256,7 +256,6 @@ leader_traits = {
 			army_defence_against_major_factor = 0.10
 		}
 
-
 		Mitsubishi_Zaibatsu = {
 			random = no
 			sprite = 13
@@ -337,7 +336,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
 
 	Sun_and_Steel = {
 		random = no
@@ -542,9 +540,6 @@ leader_traits = {
 		industrial_capacity_factory = 0.08
 	}
 
-
-
-
 	radical_pan_asianist = {
 		random = no
 		fascism_ideology_drift = 0.1
@@ -564,7 +559,6 @@ leader_traits = {
 		research_speed_factor = 0.1
 
 	}
-
 
 	modern_shogun = {
 		random = no
@@ -722,7 +716,6 @@ leader_traits = {
 		non_core_manpower = 0.02
 		weekly_manpower = 250
 
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -864,7 +857,6 @@ leader_traits = {
                 opinion_gain_monthly_factor = 0.1
                 political_power_factor = 0.08
 
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -919,9 +911,6 @@ leader_traits = {
 				build_cost_ic = -0.15 armor_value = 0.1 attack = 0.1
 			}
 		}
-
-
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -935,9 +924,6 @@ leader_traits = {
 				build_cost_ic = -0.05
 			}
 		}
-
-
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -983,12 +969,7 @@ leader_traits = {
 		}
 	}
 
-
-
-
-
 ###DEMO ADVISORS###
-
 
 	minister_for_agriculture = {
 	random = no

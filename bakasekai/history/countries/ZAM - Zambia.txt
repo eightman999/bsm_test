@@ -1,9 +1,7 @@
 ﻿capital = 771
 set_cosmetic_tag = ZAM_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 0
 recruit_character = ZAM_acas

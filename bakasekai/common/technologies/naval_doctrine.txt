@@ -900,7 +900,6 @@ technologies = {
 		#######
 		
 
-
 		xor = { fleet_in_being base_strike } 
 		
 		path = {

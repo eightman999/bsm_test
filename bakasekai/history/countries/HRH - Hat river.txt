@@ -1,7 +1,6 @@
 capital = 1097
 set_cosmetic_tag = HRH_principality_and_AST_commonwealth_GBRandIREbyENG
 
-
 recruit_character = HRH_Leonard_Casley
 recruit_character = AST_horace_robertson
 recruit_character = AST_john_northcott

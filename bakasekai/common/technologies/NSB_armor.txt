@@ -1,6 +1,5 @@
 technologies = {
 
-
     @1918 = 0
     @1934 = 2
     @1935 = 3
@@ -363,9 +362,6 @@ technologies = {
         }
         special_project_specialization = { specialization_land }
     }
-
-
-
     amphibious_tank_chassis = { #SchwimmPanzer II
 
         enable_equipments = {
@@ -430,7 +426,6 @@ technologies = {
     }
 
     amphibious_drive = { #SchwimmPanzer II
-
 
         enable_equipment_modules = {
             amphibious_drive
@@ -657,7 +652,6 @@ technologies = {
         }
         special_project_specialization = { specialization_land }
     }
-
 
     improved_medium_tank_chassis = { #Panzer IV
 
@@ -965,7 +959,6 @@ technologies = {
         special_project_specialization = { specialization_land }
     }
 
-
     basic_heavy_tank_chassis = { #Grosstraktor
 
         enable_equipments = {
@@ -1134,7 +1127,6 @@ technologies = {
         }
         special_project_specialization = { specialization_land }
     }
-
 
     advanced_heavy_tank_chassis = { #King Tiger
 
@@ -1524,7 +1516,6 @@ technologies = {
 
     engine_tech_1 = {
 
-
         path = {
             leads_to_tech = engine_tech_2
             research_cost_coeff = 1
@@ -1579,7 +1570,6 @@ technologies = {
     }
 
     engine_tech_2 = {
-
 
         path = {
             leads_to_tech = engine_tech_3
@@ -1637,7 +1627,6 @@ technologies = {
     }
 
     engine_tech_3 = {
-
 
         path = {
             leads_to_tech = engine_tech_4
@@ -1763,12 +1752,10 @@ technologies = {
         research_cost = 1
         start_year = 1936
 
-
         categories = {
             armor
         }
     }
-
 
     ########################
     ### SPECIAL PROJECTS ###

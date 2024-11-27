@@ -16,7 +16,6 @@ technologies = {
 	@logistic_x = 11 #it is actually Y :D
 	@signal_x = 14 #it is actually Y :D
 
-
 	tech_support = {
 
 		enable_equipments = {
@@ -1270,7 +1269,6 @@ technologies = {
 		}
 	}
 
-
 	SWI_saint_bernard_tech = { #Saint Bernard tech
 		allow = { always = no } #Only obtained through Focus
 		field_hospital = {
@@ -1499,7 +1497,6 @@ technologies = {
 		}
 	}
 
-
 	tech_signal_company = {
 
 		enable_subunits = {
@@ -1664,7 +1661,6 @@ technologies = {
 				add = yes
 			}
 		}
-
 
 		research_cost = 2.0
 		start_year = 1945
@@ -1891,7 +1887,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	### SPECIAL PROJECTS ###
 

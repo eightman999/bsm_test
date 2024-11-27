@@ -40,7 +40,6 @@ HRH_women_soldiers_desc:0 "ハットリバーは女性兵士を採用し、戦�
 HRH_TECH_1:0 "19世紀型歩兵装備"
 infantry_equipment_early_0:0 "19世紀型歩兵装備"
 
-
 ###########
 HRH_government_rebuilt:0 "組織された政府"
 HRH_ratana_alliance:0 "牧歌同盟"
@@ -48,7 +47,6 @@ HRH_ratana_alliance_desc:0 "牧歌同盟は、この大陸の政府の結束を�
 ###########
 HRH_recapture_neighborhood:0 "沿岸奪還作戦"
 HRH_recapture_neighborhood_desc:0 "クソ鳥どもを追い払うための第一弾である沿岸奪還作戦を開始する。\n成功の可能性は高いが、失敗すればクソ鳥どもによる反撃を受けるかもしれない。"
-
 
 ###########
 HRH.1.t:0 "ハットリバーが中西部海岸域を開放!"

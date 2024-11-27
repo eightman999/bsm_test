@@ -95,9 +95,7 @@ USAB_civil = {
         }
 }
 
-
 USA_touitu = {
-
 
         USAB_civil_3 = {
                 visible = {
@@ -252,11 +250,5 @@ USA_touitu = {
                         remove_ideas=kokudo_touitu
                 }
                         
-
-
-
         }
 }
-
-
-

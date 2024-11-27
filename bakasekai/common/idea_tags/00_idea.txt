@@ -4,7 +4,6 @@ idea_categories = {
 	# multiple ledgers can be defined, in that case will show on all
 	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
 
-
 	hidden_ideas = {
 		hidden = yes
 
@@ -201,7 +200,6 @@ idea_categories = {
 		ledger = civilian
 	}
 }
-
 
 slot_ledgers = {
 	army_chief = army

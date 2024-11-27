@@ -61,9 +61,8 @@ set_variable = {
 	value = 360
 }
 
+land_tech_level_1 = yes
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	early_fighter = 1

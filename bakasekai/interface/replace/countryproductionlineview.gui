@@ -2,9 +2,6 @@
 @prod_sub_pos_x = 379
 @prod_add_pos_x = 453
 @prod_nof_pos_x = 403
-
-
-
 guiTypes = {
 
 	containerWindowType = {
@@ -42,7 +39,6 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 		}
-
 
 		containerWindowType = {
 			name = "military_tab"
@@ -2328,7 +2324,6 @@ guiTypes = {
 		size = { width = 35 height = 27 }
 		clipping = no
 
-
 		iconType = {
 			name = "resource_icon"
 			position = { x=0 y=0 }
@@ -2359,7 +2354,6 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300
 		size = { width=375 height=70%% }
-
 
 		background = {
 			name = "Background"
@@ -2455,7 +2449,6 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 	}
-
 
 	containerWindowType = {
 		name = "naval_name_list_entry"
@@ -2651,7 +2644,6 @@ guiTypes = {
 			format = centre
 			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"
 		}
-
 
 		iconType = {
 			name ="equipment_icon"
@@ -2868,7 +2860,6 @@ guiTypes = {
 		}
 	}
 
-
 	containerWindowType = {
 		name = "production_naval_line_entry_collapsed"
 		position = { x=0 y=0 }
@@ -2981,7 +2972,6 @@ guiTypes = {
 			format = centre
 			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"
 		}
-
 
 		iconType = {
 			name ="equipment_icon"
@@ -3801,7 +3791,6 @@ guiTypes = {
 		}
 	}
 
-
 	containerWindowType = {
 		name = "production_railway_gun_line_entry_collapsed"
 		position = { x=0 y=0 }
@@ -3887,7 +3876,6 @@ guiTypes = {
 			format = centre
 			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"
 		}
-
 
 		iconType = {
 			name ="equipment_icon"
@@ -4264,7 +4252,6 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_production_item"
 		}
-
 
 		iconType = {
 			name ="production_line_selected"

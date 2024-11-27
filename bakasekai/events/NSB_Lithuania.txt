@@ -223,7 +223,6 @@
 # 	}
 # }
 
-
 # # Soviets say yes
 # country_event = {
 # 	id = LIT_events.102
@@ -660,7 +659,6 @@
 # 		}
 # 	}
 # }
-
 
 # country_event = {
 # 	id = LIT_events.501

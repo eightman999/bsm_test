@@ -874,7 +874,6 @@ technologies = {
 		}
 	}
 
-
 	advanced_special_forces = {
 		xor={
 			improved_special_forces
@@ -943,7 +942,6 @@ technologies = {
 		}
 	}
 
-
 	extreme_environment_training = {
 
 		category_special_forces = {
@@ -978,7 +976,6 @@ technologies = {
 		}
 	}
 
-
 	survival_training = {
 
 		category_special_forces = {
@@ -1011,7 +1008,6 @@ technologies = {
 			factor = 0.7
 		}
 	}
-
 
 	elite_forces = {
 		category_special_forces = {
@@ -1048,7 +1044,6 @@ technologies = {
 		allow = {
 			always = no
 		}
-
 
 		#If you change these
 		#Change the custom tooltip too: RAJ_jungle_training_effect
@@ -1107,7 +1102,6 @@ technologies = {
 			always = no
 		}
 
-
 		#If you change these
 		#Change the custom tooltip too: HUN_light_infantry_divisions_doctrine_effect
 		infantry = {
@@ -1131,7 +1125,6 @@ technologies = {
 		allow = {
 			always = no
 		}
-
 
 		#If you change these
 		#Change the custom tooltip too: GRE_mountain_training_effect
@@ -1175,7 +1168,6 @@ technologies = {
 			always = no
 		}
 
-
 		#If you change these
 		#Change the custom tooltip too: AUS_osterreichische_gebirgsjager_tt
 		infantry = {
@@ -1193,7 +1185,6 @@ technologies = {
 		}
 
 	}
-
 
 	night_vision = {
 
@@ -2277,7 +2268,6 @@ technologies = {
 		}
 	}
 
-
 	######### FROM FINNISH FOCUS ##########
 	molotov_cocktails_tech = {
 		
@@ -2486,7 +2476,6 @@ technologies = {
 			}
 		}
 	}	
-
 
 	##### FROM BELGIAN FOCUS #####
 	BEL_chasseurs_ardennais = { #hidden tech to boost Mountaineers in Forests. Remember to update BEL_chasseurs_ardennais_tt if you change these numbers!

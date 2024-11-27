@@ -26,7 +26,6 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
-
 ###### COUNTRY MODIFIERS
 
 # TODO JA, note to self, ALWAYS update and add effects to all army, air and navy spirits so that you don't miss one!
@@ -622,7 +621,6 @@ CHL_deeper_mines_modifier = {
 	state_production_speed_buildings_factor = -0.1
 }
 
-
 BRA_new_capital_modifier = { #State Modifier
 	enable = { always = yes }
 	icon = GFX_decision_generic_electricity
@@ -675,7 +673,6 @@ JUNO_immigration_promoted = {
 	local_manpower = 0.4
 	state_production_speed_buildings_factor = 0.05
 }
-
 
 idea_PAR_river_navy = { #STATE MODIFIER
 	remove_trigger = { 

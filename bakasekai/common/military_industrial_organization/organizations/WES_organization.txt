@@ -7,9 +7,6 @@
    ##    ######### ##  #### ##  ##         ## 
    ##    ##     ## ##   ### ##   ##  ##    ## 
    ##    ##     ## ##    ## ##    ##  ######  
-
-
-
 # GENERIC TANK MANUFACTURER - Based on Daimler Benz
 WES_SAND_tank_organization = {
 	icon = GFX_idea_WES_Sands
@@ -275,9 +272,6 @@ WES_SAND_tank_organization = {
       ## ##     ##  ##  ##              ## 
 ##    ## ##     ##  ##  ##        ##    ## 
  ######  ##     ## #### ##         ######  
-
-
-
 # GENERIC TANK MANUFACTURERS
 
 #ESCORT FLEET MANUFACTURER - Based on Yarrow Shipbuilders (GBR)
@@ -501,9 +495,6 @@ WES_SAND_boat_organization = {
 	}
 }
 
-
-
-
 ########  ##          ###    ##    ## ########  ######  
 ##     ## ##         ## ##   ###   ## ##       ##    ## 
 ##     ## ##        ##   ##  ####  ## ##       ##       
@@ -511,9 +502,6 @@ WES_SAND_boat_organization = {
 ##        ##       ######### ##  #### ##             ## 
 ##        ##       ##     ## ##   ### ##       ##    ## 
 ##        ######## ##     ## ##    ## ########  ######  
-
-
-
 #GENERAL AIRCRAFT MANUFACTURER - Based on Focker (HOL)
 WES_SAND_general_aircraft_organization = {
 	icon = GFX_idea_WES_Sands
@@ -819,10 +807,6 @@ WES_SAND_general_aircraft_organization = {
 	}
 }
 
-
-
-
-
 ##     ##    ###    ######## ######## ########  #### ######## ##       
 ###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       
 #### ####  ##   ##     ##    ##       ##     ##  ##  ##       ##       
@@ -830,7 +814,6 @@ WES_SAND_general_aircraft_organization = {
 ##     ## #########    ##    ##       ##   ##    ##  ##       ##       
 ##     ## ##     ##    ##    ##       ##    ##   ##  ##       ##       
 ##     ## ##     ##    ##    ######## ##     ## #### ######## ######## 
-
 
 ###########################
 ######## Artillery ########
@@ -1357,7 +1340,6 @@ WES_SAND_infantry_equipment_organization = {
 		}
 	}
 
-
 	trait = {
 		token = WES_SAND_mio_trait_quality_materials
 		name = WES_SAND_mio_trait_quality_materials
@@ -1477,7 +1459,6 @@ WES_SAND_infantry_equipment_organization = {
 		}
 	}
 }
-
 
 ###########################
 ######## Motorized ########
@@ -1754,7 +1735,6 @@ WES_SAND_motorized_mechanized_organization = {
 		}
 	}
 
-
 	trait = {
 		token = WES_SAND_mio_trait_bulletproof_panels
 		name = WES_SAND_mio_trait_bulletproof_panels
@@ -1810,12 +1790,6 @@ WES_SAND_motorized_mechanized_organization = {
 	}
 }
 
-
-
-
-
-
-
 ##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##      ## ##      ##    ##    ##
 ##        ##  ##          ##       ##     ## ##          ##          ##     ##   ##     ##    ##
@@ -1824,9 +1798,7 @@ WES_SAND_motorized_mechanized_organization = {
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##    ##     ##    ##    ##    ##
 ######## ####  ######     ##        #######  ##           ######     ##    ##     ##    ##     ######
 
-
 ### EQUIPMENT STATS ###
-
 
 ###  ##  #  # # #  ## 
  #  #  # ## # # # #   
@@ -1850,9 +1822,6 @@ WES_SAND_motorized_mechanized_organization = {
 #build_cost_ic
 #entrenchment - only if you have DLC NSB  and module dozer_blade
 #fuel_capacity - only if you have DLC NSB  and module expanded_fuel_tank
-
-
-
  ## #  # ### ###   ## 
 #   #  #  #  #  # #   
  #  ####  #  ###   #  
@@ -1887,9 +1856,6 @@ WES_SAND_motorized_mechanized_organization = {
 #naval_torpedo_hit_chance_factor (requires modules)
 #naval_light_gun_hit_chance_factor (requires modules)
 #naval_heavy_gun_hit_chance_factor (requires modules)
-
-
-
 ###  #    ##  #  # ###  ## 
 #  # #   #  # ## # #   #   
 ###  #   #### # ## ##   #  
@@ -1918,9 +1884,6 @@ WES_SAND_motorized_mechanized_organization = {
 #mines_planting - if you have MtG and BBA
 #mines_sweeping - if you have MtG and BBA
 #night_penalty - only if you have BBA DLC (you need to have module because base value is 0 - radio navigatio
-
-
-
 #   #  ##  ### ### ###  ### ### #   
 ## ## #  #  #  #   #  #  #  #   #   
 # # # ####  #  ##  ###   #  ##  #   
@@ -1947,7 +1910,6 @@ WES_SAND_motorized_mechanized_organization = {
 ##############################
 #reliability
 #build_cost_ic
-
 
 #############################
 #### ARTILLERY EQUIPMENT ####
@@ -2005,7 +1967,6 @@ WES_SAND_motorized_mechanized_organization = {
 #air_attack
 #build_cost_ic
 
-
 ##############################
 #### MOTORIZED EQUIPMENT #####
 ##############################
@@ -2058,7 +2019,6 @@ WES_SAND_motorized_mechanized_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ################################
 #### ARMORED CAR EQUIPMENT #####
 ################################
@@ -2075,7 +2035,6 @@ WES_SAND_motorized_mechanized_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ##########################
 #### TRAIN EQUIPMENT #####
 ##########################
@@ -2090,7 +2049,6 @@ WES_SAND_motorized_mechanized_organization = {
 #maximum_speed
 #railway_gun_attack
 #build_cost_ic
-
 
 ### PRODUCTION MODIFIERS ###
 #production_cost_factor

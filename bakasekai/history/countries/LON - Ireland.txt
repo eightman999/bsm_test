@@ -1,8 +1,6 @@
 capital = 113
 oob = "Default_oob"
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 recruit_character = LON_GB
 set_convoys = 0

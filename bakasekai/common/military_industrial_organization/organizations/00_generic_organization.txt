@@ -7,9 +7,6 @@
    ##    ######### ##  #### ##  ##         ## 
    ##    ##     ## ##   ### ##   ##  ##    ## 
    ##    ##     ## ##    ## ##    ##  ######  
-
-
-
 # GENERIC TANK MANUFACTURER - Based on Daimler Benz
 generic_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
@@ -357,7 +354,6 @@ generic_infantry_tank_organization = {
 			armor_value = 0.05
 		}
 
-
 	}
 	trait = {
 		token = generic_mio_trait_heavy_tank_improvements
@@ -554,7 +550,6 @@ generic_infantry_tank_organization = {
 		}
 	}
 }
-
 
 # MOBILE TANK DESIGNER / FAST TANK DESIGNER - Based on Hotchkiss (FRA)
 generic_mobile_tank_organization = {
@@ -776,7 +771,6 @@ generic_mobile_tank_organization = {
 	}
 }
 
-
 # MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
 generic_medium_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_2
@@ -802,7 +796,6 @@ generic_medium_tank_organization = {
 		text = mio_header_engines
 		x = 8
 	}
-
 
 	initial_trait = {
 		name = generic_mio_initial_trait_medium_tank_designer
@@ -1013,7 +1006,6 @@ generic_medium_tank_organization = {
 	}
 }
 
-
 # HEAVY TANK DESIGNER - Based on KV (SOV)
 generic_heavy_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
@@ -1039,7 +1031,6 @@ generic_heavy_tank_organization = {
 		text = mio_header_guns_and_turret
 		x = 8
 	}
-
 
 	initial_trait = {
 		name = generic_mio_initial_trait_heavy_tank_designer
@@ -1264,7 +1255,6 @@ generic_heavy_tank_organization = {
 	}
 }
 
-
 ### TANK REFURBISHMENT PLANT - Based on Mytishchi
 generic_tank_refurbishment_plant_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
@@ -1471,7 +1461,6 @@ generic_tank_refurbishment_plant_organization = {
 		}
 	}
 
-
 	trait = {
 		token = generic_mio_trait_24h_rotation_shifts
 		name = generic_mio_trait_24h_rotation_shifts
@@ -1542,9 +1531,6 @@ generic_tank_refurbishment_plant_organization = {
 	}
 }
 
-
-
-
  ######  ##     ## #### ########   ######  
 ##    ## ##     ##  ##  ##     ## ##    ## 
 ##       ##     ##  ##  ##     ## ##       
@@ -1552,9 +1538,6 @@ generic_tank_refurbishment_plant_organization = {
       ## ##     ##  ##  ##              ## 
 ##    ## ##     ##  ##  ##        ##    ## 
  ######  ##     ## #### ##         ######  
-
-
-
 # GENERIC TANK MANUFACTURERS
 
 #TASK FORCE MANUFACTURER - Based on Harland & Wolff (GBR)
@@ -1815,7 +1798,6 @@ generic_task_force_ship_organization = {
 		}
 	}
 }
-
 
 #BATTLE LINE SHIP MANUFACTURER - Based on Cammell Laird (GBR)
 generic_battle_line_ship_organization = {
@@ -2079,7 +2061,6 @@ generic_battle_line_ship_organization = {
 	}
 }
 
-
 #ESCORT FLEET MANUFACTURER - Based on Yarrow Shipbuilders (GBR)
 generic_escort_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
@@ -2342,7 +2323,6 @@ generic_escort_ship_organization = {
 		}
 	}
 }
-
 
 #RAIDING FLEET MANUFACTURER - Based on John Brown (GBR)
 generic_raider_ship_organization = {
@@ -2646,7 +2626,6 @@ generic_raider_ship_organization = {
 	}
 }
 
-
 #SUBMARINE MANUFACTURER - Based on Canteri Navali Tosi (ITA)
 generic_submarine_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
@@ -2833,7 +2812,6 @@ generic_submarine_organization = {
 
 		all_parents = { generic_mio_trait_long_range_raiding  }
 
-
 		equipment_bonus = {
 			surface_detection = 0.03
 		}
@@ -2865,13 +2843,11 @@ generic_submarine_organization = {
 
 		all_parents = { generic_mio_trait_advanced_periscope }
 
-
 		equipment_bonus = {
 			surface_detection = -0.03
 			sub_visibility = -0.05
 		}
 	}
-
 
 	trait = {
 		token = generic_mio_trait_crash_dive_flood_tanks
@@ -2898,7 +2874,6 @@ generic_submarine_organization = {
 		relative_position_id = generic_mio_trait_decalin_fueled_torpedo
 
 		all_parents = { generic_mio_trait_decalin_fueled_torpedo }
-
 
 		production_bonus = {
 			production_capacity_factor = 0.07
@@ -3280,9 +3255,6 @@ generic_black_sea_fleet_organization = {
 		}
 	}	
 }
-
-
-
 generic_refurbishment_repair_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
@@ -3308,7 +3280,6 @@ generic_refurbishment_repair_organization = {
 		text = mio_header_weapons
 		x = 8
 	}
-
 
 	initial_trait = {
 		name = generic_mio_refurbishment_repair_organization
@@ -3551,9 +3522,6 @@ generic_refurbishment_repair_organization = {
 	}
 }
 
-
-
-
 ########  ##          ###    ##    ## ########  ######  
 ##     ## ##         ## ##   ###   ## ##       ##    ## 
 ##     ## ##        ##   ##  ####  ## ##       ##       
@@ -3561,9 +3529,6 @@ generic_refurbishment_repair_organization = {
 ##        ##       ######### ##  #### ##             ## 
 ##        ##       ##     ## ##   ### ##       ##    ## 
 ##        ######## ##     ## ##    ## ########  ######  
-
-
-
 #GENERAL AIRCRAFT MANUFACTURER - Based on Focker (HOL)
 generic_general_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
@@ -3992,7 +3957,6 @@ generic_light_aircraft_organization = {
 		name = generic_mio_trait_maritime_duties
 		icon = GFX_generic_mio_trait_icon_torpedo_attack
 
-
 		position = { x=-1 y=1 }
 		relative_position_id = generic_mio_trait_liquid_cooled_engines
 
@@ -4218,7 +4182,6 @@ generic_light_aircraft_organization = {
 		}
 	}
 }
-
 
 #MEDIUM AIRCRAFT MANUFACTURER - Based on Dornier / Caproni / de Havilland
 generic_medium_aircraft_organization = {
@@ -4542,7 +4505,6 @@ generic_medium_aircraft_organization = {
 	}
 }
 
-
 #HEAVY AIRCRAFT MANUFACTURER - Based on John Brown (GBR)
 generic_heavy_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_2
@@ -4837,7 +4799,6 @@ generic_heavy_aircraft_organization = {
 	}
 }
 
-
 #CAS AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
 generic_cas_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
@@ -5093,7 +5054,6 @@ generic_cas_aircraft_organization = {
 		}
 	}
 }
-
 
 #NAVAL AIRCRAFT MANUFACTURER - Based on Junkers / Ilyushin
 generic_naval_aircraft_organization = {
@@ -5366,9 +5326,6 @@ generic_naval_aircraft_organization = {
 		}
 	}
 }
-
-
-
 #MULTI-ROLE AIRCRAFT MANUFACTURER - Based on Savoia Marchetti (ITA) & Republic
 generic_multi_role_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_3
@@ -5720,7 +5677,6 @@ generic_multi_role_aircraft_organization = {
 	}
 }
 
-
 #HIGH AGILITY FIGHTER AIRCRAFT MANUFACTURER - Based on Supermarine (GBR)
 generic_high_agility_fighter_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
@@ -5995,7 +5951,6 @@ generic_high_agility_fighter_aircraft_organization = {
 		}
 	}
 }
-
 
 #RANGE FOCUSED AIRCRAFT MANUFACTURER - Based on North American, Lockheed, Fiat Aviazione
 generic_range_focused_aircraft_organization = {
@@ -6315,10 +6270,6 @@ generic_range_focused_aircraft_organization = {
 	}
 }
 
-
-
-
-
 ##     ##    ###    ######## ######## ########  #### ######## ##       
 ###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       
 #### ####  ##   ##     ##    ##       ##     ##  ##  ##       ##       
@@ -6326,7 +6277,6 @@ generic_range_focused_aircraft_organization = {
 ##     ## #########    ##    ##       ##   ##    ##  ##       ##       
 ##     ## ##     ##    ##    ##       ##    ##   ##  ##       ##       
 ##     ## ##     ##    ##    ######## ##     ## #### ######## ######## 
-
 
 ###########################
 ######## Artillery ########
@@ -6922,7 +6872,6 @@ generic_infantry_equipment_organization = {
 		}
 	}
 
-
 	trait = {
 		token = generic_mio_trait_quality_materials
 		name = generic_mio_trait_quality_materials
@@ -7042,7 +6991,6 @@ generic_infantry_equipment_organization = {
 		}
 	}
 }
-
 
 ###################################
 ######## Support Equipment ########
@@ -7202,7 +7150,6 @@ generic_support_equipment_organization = {
 		}
 	}
 
-
 	trait = {
 		token = generic_mio_trait_private_tenders
 		name = generic_mio_trait_private_tenders
@@ -7291,7 +7238,6 @@ generic_support_equipment_organization = {
 		}
 	}
 
-
 	trait = {
 		token = generic_mio_trait_pontoons
 		name = generic_mio_trait_pontoons
@@ -7310,7 +7256,6 @@ generic_support_equipment_organization = {
 		}
 	}
 }
-
 
 ###########################
 ######## Motorized ########
@@ -7626,7 +7571,6 @@ generic_motorized_mechanized_organization = {
 		}
 	}
 
-
 	trait = {
 		token = generic_mio_trait_bulletproof_panels
 		name = generic_mio_trait_bulletproof_panels
@@ -7679,13 +7623,9 @@ generic_motorized_mechanized_organization = {
 		}
 	}
 }
-
-
-
 ######################
 #### Armored Car  ####
 ######################
-
 
 generic_armored_car_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_1
@@ -7734,7 +7674,6 @@ generic_armored_car_organization = {
 		name = generic_mio_trait_crew_ergonomics
 		icon = GFX_generic_mio_trait_icon_defense
 
-
 		equipment_bonus = {
 			maximum_speed = 0.02
 			defense = 0.02
@@ -7763,7 +7702,6 @@ generic_armored_car_organization = {
 		icon = GFX_generic_mio_trait_icon_breakthrough
 		any_parent = { generic_mio_trait_crew_ergonomics }
 
-
 		equipment_bonus = {
 			breakthrough = 0.05
 		}
@@ -7776,7 +7714,6 @@ generic_armored_car_organization = {
 		name = generic_mio_trait_standardized_components
 		icon = GFX_generic_mio_department_icon_armored_car_line_efficiency
 		all_parents = { generic_mio_trait_simplified_suspension generic_mio_trait_crew_ergonomics }
-
 
 		position = { x=2 y=1 }
 		relative_position_id = generic_mio_trait_simplified_suspension
@@ -7896,12 +7833,6 @@ generic_armored_car_organization = {
 	}
 }
 
-
-
-
-
-
-
 ##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##      ## ##      ##    ##    ##
 ##        ##  ##          ##       ##     ## ##          ##          ##     ##   ##     ##    ##
@@ -7910,9 +7841,7 @@ generic_armored_car_organization = {
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##    ##     ##    ##    ##    ##
 ######## ####  ######     ##        #######  ##           ######     ##    ##     ##    ##     ######
 
-
 ### EQUIPMENT STATS ###
-
 
 ###  ##  #  # # #  ## 
  #  #  # ## # # # #   
@@ -7936,9 +7865,6 @@ generic_armored_car_organization = {
 #build_cost_ic
 #entrenchment - only if you have DLC NSB  and module dozer_blade
 #fuel_capacity - only if you have DLC NSB  and module expanded_fuel_tank
-
-
-
  ## #  # ### ###   ## 
 #   #  #  #  #  # #   
  #  ####  #  ###   #  
@@ -7973,9 +7899,6 @@ generic_armored_car_organization = {
 #naval_torpedo_hit_chance_factor (requires modules)
 #naval_light_gun_hit_chance_factor (requires modules)
 #naval_heavy_gun_hit_chance_factor (requires modules)
-
-
-
 ###  #    ##  #  # ###  ## 
 #  # #   #  # ## # #   #   
 ###  #   #### # ## ##   #  
@@ -8004,9 +7927,6 @@ generic_armored_car_organization = {
 #mines_planting - if you have MtG and BBA
 #mines_sweeping - if you have MtG and BBA
 #night_penalty - only if you have BBA DLC (you need to have module because base value is 0 - radio navigatio
-
-
-
 #   #  ##  ### ### ###  ### ### #   
 ## ## #  #  #  #   #  #  #  #   #   
 # # # ####  #  ##  ###   #  ##  #   
@@ -8033,7 +7953,6 @@ generic_armored_car_organization = {
 ##############################
 #reliability
 #build_cost_ic
-
 
 #############################
 #### ARTILLERY EQUIPMENT ####
@@ -8091,7 +8010,6 @@ generic_armored_car_organization = {
 #air_attack
 #build_cost_ic
 
-
 ##############################
 #### MOTORIZED EQUIPMENT #####
 ##############################
@@ -8144,7 +8062,6 @@ generic_armored_car_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ################################
 #### ARMORED CAR EQUIPMENT #####
 ################################
@@ -8161,7 +8078,6 @@ generic_armored_car_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ##########################
 #### TRAIN EQUIPMENT #####
 ##########################
@@ -8176,7 +8092,6 @@ generic_armored_car_organization = {
 #maximum_speed
 #railway_gun_attack
 #build_cost_ic
-
 
 ### PRODUCTION MODIFIERS ###
 #production_cost_factor

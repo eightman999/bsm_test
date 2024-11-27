@@ -47,7 +47,6 @@ DOCTRINE_no_cavalry = {
 	}
 }
 
-
 ##### Mobile Warfare branch #####
 
 DOCTRINE_MW_mobile_warfare_ratios = {
@@ -127,7 +126,6 @@ DOCTRINE_MW_aifc_modern_blitzkrieg = {
 		value = 10  # base + 15 + 15 + 15 + 10 = 70 %
 	}
 }
-
 
 ##### Superior Firepower branch #####
 
@@ -217,7 +215,6 @@ DOCTRINE_SF_aifc_shock_and_awe = {
 		value = 15  # base + 5 + 20 + 15 = 55 %
 	}
 }
-
 
 ##### Grand Battleplan branch #####
 
@@ -317,7 +314,6 @@ DOCTRINE_GB_aifc_infiltration_in_depth = {
 	}
 }
 
-
 ##### Mass Assault branch #####
 
 DOCTRINE_MA_mass_assault_ratios = {
@@ -413,7 +409,6 @@ DOCTRINE_MA_aifc_human_infantry_offensive = {
 	}
 }
 
-
 ##############
 ### NAVAL ####
 ##############
@@ -422,7 +417,6 @@ DOCTRINE_MA_aifc_human_infantry_offensive = {
 #screen_ship
 #convoy
 #carrier
-
 
 #Fleet in being tree
 DOCTRINE_fleet_in_being_ratios = {
@@ -455,7 +449,6 @@ DOCTRINE_trade_interdiction_ratios = {
 		value = 200
 	}
 }
-
 
 #Base Strike tree
 DOCTRINE_base_strike_ratios = {

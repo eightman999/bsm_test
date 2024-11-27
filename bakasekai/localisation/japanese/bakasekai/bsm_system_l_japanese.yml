@@ -9,7 +9,6 @@ CULTURAL_DEGREES_desc_test_2:0 "[CULTURAL_DEGREES_desc_test]"
 CULTURAL_DEGREES_desc:0 "国民が、§Hバカであればあるほど§!低くなる。また、§H宗教§!や§H国民精神§!によっても変動する。§H政治顧問§!で調整することもできる。\n\n民度が低いと研究速度が低下するなどの悪い影響がある。\n\n現在の文明化率からの補正:\n研究速度:[?Cultural_Degree|0%]\n政治力獲得補正:[?Cultural_Degree|0%]\n安定度補正:[?Cultural_Degree|0%]"
 COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 
-
 #####通貨#####
 Unified_Currency_title:0 "[Unified_Currency_title_txt]"
 Unified_Currency:0 "[?ROOT.Unified_Currency|0]"
@@ -63,15 +62,11 @@ MS_max_tt:0 "傭兵の最大数を下回っている"
 	mercenary_system_koyou_s:0 "傭兵大隊の雇用"
 	mercenary_system_koyou_m:0 "傭兵連隊の雇用"
 
-
 bsm_ecpp:0 "国庫から政治力を得る"
 # ec_to_pp:0 "政治力に変換"
 # ec_to_pp_desc:0 "国庫から§H政治力§!を得る。"
 # pp_to_ec:0 "通貨に変換"
 # pp_to_ec_desc:0 "§H政治力§!を国庫に変換する。"
-
-
-
 #############MINE##################
 need_50_energy:0 "£resource_energy_icon §Y150§!"
 need_50_energy_blocked:0 "£resource_energy_icon §R50§!"

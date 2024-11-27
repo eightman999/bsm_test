@@ -846,7 +846,6 @@
 # 	}
 # }
 
-
 # #Soviet tells Warlord no support
 # country_event = {
 # 	id = wtt_warlord_vs_prc.3
@@ -1058,7 +1057,6 @@
 # 	}
 # }
 
-
 # #Soviet asks WTT_communist_china to become puppet
 # country_event = {
 # 	id = wtt_warlord_vs_prc.31
@@ -1106,7 +1104,6 @@
 # 		name = wtt_warlord_vs_prc.32.a
 # 	}
 # }
-
 
 # # Answer from WTT_communist_china wtt_warlord_vs_prc.31 - No
 # country_event = {

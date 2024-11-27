@@ -374,7 +374,6 @@ technologies = {
 			cat_mobile_warfare
 		}
 
-
 		
 		folder = {
 			name = land_doctrine_folder

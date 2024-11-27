@@ -748,7 +748,6 @@ equipments = {
 		max_strength = 175
 		
 
-
 		build_cost_ic = 2600
 		resources = {
 			#oil = 1
@@ -797,7 +796,6 @@ equipments = {
 		
 		max_strength = 200
 		
-
 
 		build_cost_ic = 3000
 		resources = {
@@ -848,7 +846,6 @@ equipments = {
 		
 		max_strength = 225
 		
-
 
 		build_cost_ic = 3400
 		resources = {

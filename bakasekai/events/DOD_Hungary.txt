@@ -747,7 +747,6 @@
 # 			}
 # 		}
 
-
 # 		#ROM block
 # 		if = {
 # 			limit = {
@@ -799,7 +798,6 @@
 # 		}
 		
 # 	}
-
 
 # 	option = { #refuse
 # 		name = DOD_hungary.30.b
@@ -872,7 +870,6 @@
 # 		add_popularity = { ideology = communism_ideology popularity = 0.1 }
 # 	}
 
-
 # 	option = { #approach France
 # 		name = DOD_hungary.32.b
 # 		ai_chance = {
@@ -938,7 +935,6 @@
 # 		}
 # 	}
 
-
 # 	option = { #deny
 # 		name = DOD_hungary.33.b
 # 		ai_chance = { 
@@ -973,7 +969,6 @@
 # 			clr_country_flag = HUN_rearmament_refused
 # 		}
 # 	}
-
 
 # 	option = { #stand ground
 # 		name = DOD_hungary.34.b
@@ -1237,7 +1232,6 @@
 # 		FROM = { country_event = { id = DOD_hungary.46 } }
 # 	}
 # }
-
 
 # #Intervention in Hungary - negative reply
 # country_event = {
@@ -2148,7 +2142,6 @@
 # 	picture = GFX_report_event_soldiers_marching
 	
 # 	is_triggered_only = yes
-
 
 # 	option = {# fold
 # 		name = DOD_hungary.62.a
@@ -6361,7 +6354,6 @@
 # 	}
 # }
 
-
 # #Fighter competition - Hungary is looking for a heavy fighter - BBA
 # country_event = {
 # 	id = DOD_hungary.1521
@@ -6988,7 +6980,6 @@
 		
 # 	}
 # }
-
 
 # #bomber competition - initial choice for Hungary
 # country_event = {

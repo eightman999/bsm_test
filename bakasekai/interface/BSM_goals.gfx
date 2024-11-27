@@ -1679,7 +1679,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_up_joan_of_arc.dds"
 	}
 
-
 	###ESP LAR
 
 	SpriteType = { 

@@ -22,7 +22,6 @@ music = {
 	volume = 0.63
 }
 
-
 music = {
 	name = "bigfleet"
 	file = "bigfleet.ogg"

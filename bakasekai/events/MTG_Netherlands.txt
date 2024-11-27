@@ -2748,7 +2748,6 @@
 # 	}
 # }
 
-
 # # Event spawning pro-Kaiser deserter unit
 # country_event = {
 # 	id = mtg_netherlands.70

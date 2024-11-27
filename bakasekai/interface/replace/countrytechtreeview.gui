@@ -242,7 +242,6 @@ guiTypes = {
 
 			}
 
-
 			gridboxtype = {
 				name = "support_weapons_tree"
 				position = { x = 140 y = 210 }
@@ -301,7 +300,6 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
 
 			gridboxtype = {
 				name = "tech_special_forces_tree"
@@ -675,7 +673,6 @@ guiTypes = {
 					}
 				}
 
-
 				containerWindowType = {
 					name = "armour_year_left"
 					position = { x=-100 y=140 }
@@ -762,7 +759,6 @@ guiTypes = {
 				}
 			}
 
-
 			containerWindowType = {
 				name = "armour_subtitles"
 				position = { x = 0 y = 172 }
@@ -821,7 +817,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
 
 			gridboxtype = {
 				name = "gwtank_tree"
@@ -966,7 +961,6 @@ guiTypes = {
 					}
 				}
 
-
 				containerWindowType = {
 					name = "armour_year_right"
 					position = { x=-100 y=50 }
@@ -1066,7 +1060,6 @@ guiTypes = {
 				}
 			}
 
-
 			containerWindowType = {
 				name = "nsb_armour_subtitles"
 				position = { x = 750 y = 40 }
@@ -1125,7 +1118,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
 
 			gridboxtype = {
 				name = "gwtank_chassis_tree"
@@ -1732,7 +1724,6 @@ guiTypes = {
 				format = "LEFT"
 			}
 
-
 			gridboxtype = {
 				name = "transport_tree"
 				position = { x = 150 y = 1180 }
@@ -1772,7 +1763,6 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
 
 			gridboxType = {
 				name = "heavy_battleship2_tree"
@@ -2459,7 +2449,6 @@ guiTypes = {
 				}
 			}
 
-
 			instantTextBoxType = {
 				name = "airtech_subtitle_fighter"
 				position = { x = 355 y = 110 }
@@ -2572,7 +2561,6 @@ guiTypes = {
 				pdx_tooltip = "scout_plane_equipment_1_desc"
 			}
 
-
 			#containerWindowType = { #MM: Old orange box for Modern Airframe that required Jet Engines
 			#	name = "tiled_research_bg"
 			#	position = { x=250 y=807 }
@@ -2633,7 +2621,6 @@ guiTypes = {
 				format = "UP"
 			}
 		}
-
 
 		containerWindowType = {
 			name = "bba_air_techs_folder"
@@ -2835,7 +2822,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
 
 			instantTextBoxType = {
 				name = "airtech_subtitle_airframe"
@@ -3216,9 +3202,6 @@ guiTypes = {
 			}
 
 			}
-
-
-
 				instantTextBoxType = {
 					name = "industry_subtitle"
 					position = { x = 610 y = 210 }
@@ -3710,7 +3693,6 @@ guiTypes = {
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 			}
-
 
 			gridboxtype = {
 				name = "experimental_rockets_tree"
@@ -4232,7 +4214,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -3 }
@@ -4263,7 +4244,6 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-
 
 		containerWindowType = {
 			name = "sub_technology_slot_0"
@@ -4941,7 +4921,6 @@ guiTypes = {
 			name = "special_project_specialization_list"
 		}
 
-
 		instantTextBoxType = {
 			name = "Name"
 			position = { x = 3 y = -1 }
@@ -5207,7 +5186,6 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-
 
 	containerWindowType = {
 		name = "techtree_naval_folder_item"
@@ -6315,7 +6293,6 @@ guiTypes = {
 			position = { x=7 y=5 }
 		}
 
-
 		iconType = {
 			name ="terrain_mod_attack_strip"
 			spriteType = "GFX_terrain_mod_attack_strip"
@@ -6377,7 +6354,6 @@ guiTypes = {
 		size = { width=201 height=30 }
 		clipping = no
 
-
 		instantTextboxType = {
 			name = "header"
 			position = { x = 130 y = 18 }
@@ -6388,7 +6364,6 @@ guiTypes = {
 			format = center
 		}
 	}
-
 
 	containerWindowType = {
 		name = "padding_window"

@@ -209,7 +209,6 @@ if = {
 	recruit_character = GRE_georgios_kosmidis
 }
 
-
 	set_autonomy = {
 		target = GOC
 		autonomous_state = autonomy_dominion

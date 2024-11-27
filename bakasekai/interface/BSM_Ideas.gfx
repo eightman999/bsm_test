@@ -36,7 +36,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/russia/sav.png"
 	}
 
-
 	spriteType = {
 		name = "GFX_idea_sudden_change_of_policy"
 		textureFile = "gfx/interface/ideas/japan/GFX_sudden_change_of_policy.dds"

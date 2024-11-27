@@ -1061,7 +1061,6 @@ ideas = {
 			
 			picture = generic_motorized_equipment_manufacturer_1
 
-
 			allowed = {
 				original_TAG = ROM
 			}
@@ -1078,7 +1077,6 @@ ideas = {
 			
 			picture = idea_ROM_cugir #used with permission from Turning Point mod
 
-
 			allowed = {
 				original_TAG = ROM
 			}
@@ -1094,7 +1092,6 @@ ideas = {
 		ROM_resita = {
 			
 			picture = generic_artillery_manufacturer_1
-
 
 			allowed = {
 				original_TAG = ROM

@@ -3460,7 +3460,6 @@
 # 	}
 # }
 
-
 # country_event = {
 # 	id = wtt_germany.1000
 # 	title = wtt_germany.1000.t

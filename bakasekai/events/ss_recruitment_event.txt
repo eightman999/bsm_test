@@ -3,9 +3,6 @@
 ###########################
 
 add_namespace = ss_recruitment_event
-
-
-
 #SS recruitment, denmark
 country_event = {
 	id = ss_recruitment_event.1

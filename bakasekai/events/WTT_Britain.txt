@@ -323,7 +323,6 @@ country_event = {
 	}
 }
 
-
 # Answer from PRT - no
 country_event = {
 	id = wtt_britain_lease_azores.3

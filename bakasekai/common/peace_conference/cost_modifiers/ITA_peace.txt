@@ -18,7 +18,6 @@ peace_action_modifiers = {
         cost_multiplier = 0.85 #15% cost reduction
     }
 
-
     italy_catholic_dominion = {
         category = events_or_focuses
         peace_action_type = { puppet }
@@ -33,7 +32,6 @@ peace_action_modifiers = {
         }
         cost_multiplier = 0.75 #25% cost reduction
     }
-
 
     italy_sol_dell_avvenire = {
         category = events_or_focuses

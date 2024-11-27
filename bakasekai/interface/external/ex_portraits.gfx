@@ -115,7 +115,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ITA/portrait_ITA_alcide_de_gasperi.dds"
 	}
 
-
 	# SWI
 	
 	spriteType = {
@@ -290,7 +289,6 @@ spriteTypes = {
 		name = "GFX_portrait_SWI_fritz_platten"
 		texturefile = "gfx/leaders/SWI/portrait_SWI_fritz_platten.dds"
 	}
-
 
 	# ETH
 	
@@ -1153,9 +1151,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/portrait_SOV_white_transitionary_council.dds"
 	}
 	
-
-
-
 	
 	#Other
 	SpriteType = {

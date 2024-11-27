@@ -509,7 +509,6 @@
 # 		target_non_existing = yes
 # 		target_array = occupied_countries
 
-
 # 		ai_will_do = {
 # 			base = 10
 # 			# priotize larger countries

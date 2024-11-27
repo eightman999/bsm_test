@@ -2,9 +2,7 @@
 oob = "Default_oob"
 set_cosmetic_tag = HON_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 recruit_character = HON_tiburcio_carías_andino
 recruit_character = HON_lorenzo_ferrera

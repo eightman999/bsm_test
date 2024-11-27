@@ -200,7 +200,6 @@ peace_ai_desires = {
         ai_desire = -85  # 85 percent lower desire
     }
 
-
     # Countries the ai should be more unlikely to puppet in a peace deal
     unlikely_countries = {
         peace_action_type = puppet
@@ -212,7 +211,6 @@ peace_ai_desires = {
         ai_desire = -50  # 50 percent lower desire (slightly more keen to puppet than to liberate)
     }
 
-
     # Breakaway countries in the Soviet Civil war don't want to liberate stuff
     breakaway_country = {
         peace_action_type = { liberate puppet force_government }
@@ -221,7 +219,6 @@ peace_ai_desires = {
         }
         ai_desire = -200  # just don't, please
     }
-
 
     # Force gov on communism_ideology preferably
     democracy_force_government_on_communism = {
@@ -234,7 +231,6 @@ peace_ai_desires = {
         ai_desire = 50
     }
 
-
     democracy_owner_does_not_have_core = {
         peace_action_type = { force_government puppet take_states }
         enable = {
@@ -243,7 +239,6 @@ peace_ai_desires = {
         }
         ai_desire = -50
     }
-
 
     other_owner_does_not_have_core = {
         peace_action_type = { force_government puppet take_states }
@@ -261,7 +256,6 @@ peace_ai_desires = {
         }
         ai_desire = -20
     }
-
 
     dont_grab_exclaves = {
         peace_action_type = take_states
@@ -283,7 +277,6 @@ peace_ai_desires = {
         ai_desire = -40
     }
 
-
     do_grab_stuff_near_us = {
         peace_action_type = take_states
         enable = {
@@ -304,7 +297,6 @@ peace_ai_desires = {
         ai_desire = 10
     }
 
-
     leave_force_gov_at_will_to_allies = { #It is a bit hacky, but we need a preference here or we end up worse than where we started
         peace_action_type = force_government
         enable = {
@@ -322,7 +314,6 @@ peace_ai_desires = {
         }
         ai_desire = -80
     }
-
 
     generic_occupies_state = {
         peace_action_type = { take_states puppet liberate force_government }
@@ -362,7 +353,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     dont_puppet_and_force_government = {
         peace_action_type = { puppet }
 
@@ -390,7 +380,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     dont_force_government_and_puppet = {
         peace_action_type = { force_government }
 
@@ -399,7 +388,6 @@ peace_ai_desires = {
         }
         ai_desire = -200
     }
-
 
     nonaligned_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
@@ -410,7 +398,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     communism_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
@@ -419,7 +406,6 @@ peace_ai_desires = {
         }
         ai_desire = -200
     }
-
 
     fascism_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
@@ -437,7 +423,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     dont_force_government_or_puppet_on_non_core = {
         peace_action_type = { puppet force_government }
         enable = {
@@ -448,7 +433,6 @@ peace_ai_desires = {
 
         ai_desire = -200
     }
-
 
     liberate_on_non_core = {
         peace_action_type = liberate
@@ -461,7 +445,6 @@ peace_ai_desires = {
 
         ai_desire = 20
     }
-
 
     try_and_take_neighbors_when_forcing_gov = { #Leaving here; this has unintended consequences, but we need it for SOV
         peace_action_type = { force_government puppet }
@@ -497,7 +480,6 @@ peace_ai_desires = {
         ai_desire = -50
     }
 
-
     liberate_if_already_exists = {
         peace_action_type = liberate
         enable = {
@@ -512,7 +494,6 @@ peace_ai_desires = {
 
         ai_desire = 100
     }
-
 
     minors_and_subjects_dont_liberate = {
         peace_action_type = { liberate take_states force_government puppet }
@@ -537,7 +518,6 @@ peace_ai_desires = {
         }
         ai_desire = -90
     }
-
 
     non_aligned_should_stick_to_claims = {
         peace_action_type = take_states
@@ -622,7 +602,6 @@ peace_ai_desires = {
         ai_desire = 20
     }
 
-
     dont_resurrect_hitler = {
         peace_action_type = liberate
         enable = {
@@ -633,7 +612,6 @@ peace_ai_desires = {
         }
         ai_desire = -100
     }
-
 
     dont_take_states_for_wrong_ideology_allies = {
         peace_action_type = take_states
@@ -649,7 +627,6 @@ peace_ai_desires = {
         }
         ai_desire = -20
     }
-
 
     fascism_take_states_germany_sov = {
         peace_action_type = take_states
@@ -667,7 +644,6 @@ peace_ai_desires = {
         ai_desire = 25
     }
 
-
     prefer_take_states_for_puppets_with_cores = {
         peace_action_type = take_states
         enable = {
@@ -682,7 +658,6 @@ peace_ai_desires = {
         ai_desire = 100
     }
 
-
     dont_force_government_for_puppets_with_cores = {
         peace_action_type = { force_government puppet }
         enable = {
@@ -695,7 +670,6 @@ peace_ai_desires = {
         }
         ai_desire = -100
     }
-
 
     # push countries to actually retake territory that has risen up against them
     retake_territory_from_independence_wars = {
@@ -711,7 +685,6 @@ peace_ai_desires = {
         }
         ai_desire = 75
     }
-
 
     dont_change_gov_after_independence_wars = {
         peace_action_type = { force_government liberate puppet }
@@ -964,7 +937,6 @@ peace_ai_desires = {
         }
         ai_desire = 30
     }
-
 
     continuous_puppet = {
         peace_action_type = { puppet }

@@ -1257,7 +1257,6 @@ country_event = {
 	}
 }
 
-
 ### Revolution
 # political.21 Fascist
 country_event = {

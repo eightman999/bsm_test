@@ -29,7 +29,6 @@
 # 		#	}
 # 		#}
 
-
 # 				modifier={
 # 		factor=5000
 # 		ROOT={OR={tag=MEX tag=DIS tag=CLF tag=LVE tag=TEX tag=NEV tag=NYY tag=HLW tag=MAC tag=BTW tag=BTP tag=BTY tag=BTL tag=BTG
@@ -55,9 +54,6 @@
 # 		#	is_puppet = yes
 # 		#}
 # 	}
-
-
-
 # 	liberate = {
 # 		factor = 1000 #200
 # 		modifier={
@@ -503,7 +499,6 @@
 # 				}
 # 			}
 # 		}
-
 
 # 		modifier = {
 # 			factor = 0		

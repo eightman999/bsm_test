@@ -1,9 +1,7 @@
 ﻿capital = 459
 # Starting tech
 set_cosmetic_tag = ALG_peoples_republic
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 recruit_character = ALG_ar
 recruit_character = ALG_acr

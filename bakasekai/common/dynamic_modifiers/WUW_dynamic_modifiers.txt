@@ -34,7 +34,6 @@ FRA_maginot_line_dynamic_modifier = { #State Modifer
     state_bunker_max_level_terrain_limit = 6
 }
 
-
 ############# RAIDS RELATED ##############
 #TODO_TA Remove or make proper modifier
 dam_blown_modifier = { #State Modifier
@@ -64,7 +63,6 @@ panama_canal_damaged_modifier = { #State Modifier
 	
 	custom_modifier_tooltip = kiel_canal_damaged_tt
 }
-
 
 refinery_damaged_modifier = {
 	enable = { always = yes }
@@ -428,9 +426,6 @@ AUS_austrian_communist_cells_active_modifier = { #state modifier
 	local_supplies = -0.05
 }
 
-
-
-
 ############ HUNGARY ###################
 
 HUN_academy_of_sciences = {
@@ -438,7 +433,6 @@ HUN_academy_of_sciences = {
 	icon = GFX_idea_jap_supremacy_of_technology
 	research_speed_factor = HUN_academy_of_sciences_research_speed_factor
 }
-
 
 ###################################################################################################
 ###################################################################################################
@@ -789,7 +783,6 @@ GER_wehrwirtschaft_modifier = { #Autarky NS
 	production_speed_synthetic_refinery_factor = GER_wehrwirtschaft_production_speed_synthetic_refinery_factor
 }
 
-
 GER_military_intelligence_service_modifier = { #Spy Stuff
 	enable = { always = yes }
 	icon = GFX_idea_generic_secret_police
@@ -905,9 +898,6 @@ GER_industrial_relocation_resources = {
 	country_resource_tungsten = GER_industrial_relocation_resources_country_resource_tungsten
 	country_resource_chromium = GER_industrial_relocation_resources_country_resource_chromium
 }
-
-
-
 #############################
 #### REICHSKOMMISSARIATS ####
 #############################
@@ -921,7 +911,6 @@ GER_alfred_rosenberg_modifier = { # Alfred Rosenberg NS
 	industrial_capacity_factory = GER_alfred_rosenberg_modifier_industrial_capacity_factory
 	subjects_autonomy_gain = GER_alfred_rosenberg_modifier_subjects_autonomy_gain
 }
-
 
 #############################
  ###### INNER CIRCLE ######
@@ -937,7 +926,6 @@ GER_the_inner_circle_dm = {
 	custom_modifier_tooltip = GER_the_inner_circle_dm_tt
 	#custom_modifier_tooltip = idea_desc|GER_todt_reich_engineer
 }
-
 
 ############################
 ##### STATE MODIFIERS ######
@@ -1175,7 +1163,6 @@ GER_state_supporting_resistance_modifier = {
 	resistance_target = 0.8
 	compliance_growth = -0.1
 }
-
 
 ###################################################################################################
 ###################################################################################################
@@ -1469,7 +1456,6 @@ BEL_flooded_tank_barriers_dynamic_modifier = {
 	army_core_defence_factor = 0.1
 
 }
-
 
 ##### COG ##########
 
@@ -1772,9 +1758,6 @@ GER_lokot_autonomy_modifier = {
 	local_supplies = 0.1
 
 }
-
-
-
 
 ##### Nuclear Fallout ####
 

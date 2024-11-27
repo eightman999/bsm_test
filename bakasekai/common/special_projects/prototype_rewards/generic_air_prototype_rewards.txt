@@ -130,7 +130,6 @@
 # 	}
 # }
 
-
 # # EXPANDED AIR GENERIC AIR REWARDS
 
 # #Low Scientist XP gain

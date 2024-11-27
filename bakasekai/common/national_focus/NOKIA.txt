@@ -223,7 +223,4 @@ focus = {
 		y = 2
 		completion_reward={add_ideas={NOK_miraijin}}
 	}
-
-
-
 }

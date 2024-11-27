@@ -103,7 +103,6 @@ country_event = {
 	}
 }
 
-
 # Annex Finland
 country_event = {
 	id = EST_events.2

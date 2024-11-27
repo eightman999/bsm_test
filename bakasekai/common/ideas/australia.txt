@@ -515,9 +515,6 @@ ideas = {
 				original_TAG = AUS
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				industry = 0.10
 			}
@@ -555,9 +552,6 @@ ideas = {
 				original_TAG = AUS
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				armor = 0.15
 			}
@@ -599,16 +593,12 @@ ideas = {
 				original_TAG = AUS
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				naval_equipment = 0.15
 			}
 
 			traits = { pacific_fleet_naval_manufacturer }
 		}
-
 
 	}
 
@@ -624,15 +614,11 @@ ideas = {
 				original_TAG = AUS
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				support_tech = 0.10
 			}
 
 			traits = { support_equipment_manufacturer }
-
 
 		}
 
@@ -644,9 +630,6 @@ ideas = {
 				original_TAG = AUS
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				infantry_weapons = 0.15
 			}

@@ -232,7 +232,6 @@
 # 	}
 # }
 
-
 # # Italian-German Treaty (Germans)
 # country_event = {
 # 	id = italy.5
@@ -541,7 +540,6 @@
 # 	}
 # }
 
-
 # # Italy Germany rejects demands for Vichy territory
 # country_event = {
 # 	id = italy.14
@@ -567,7 +565,6 @@
 
 # 	}
 # }
-
 
 # # Italy Germany accepts demands for Vichy territory
 # country_event = {

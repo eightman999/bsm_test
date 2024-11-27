@@ -6,7 +6,6 @@ technologies = {
 #    #  #  # #  #  #        # #  #  #  #      #
 ### ###  ##  #  #  #      ##  #  # ### #    ##
 
-
 	early_ship_hull_light = {
 
 		enable_equipments = {
@@ -240,7 +239,6 @@ technologies = {
 #### # ##  #   #       #  #  # ###  # # # #### ###   #  # ## ##
 #  # #  #  #   #        # #  # #  # #   # #  # #  #  #  #  # #
 #  # #  #  #  ###     ##   ##  ###  #   # #  # #  # ### #  # ###
-
 
 	basic_depth_charges = {
 
@@ -600,7 +598,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
 		research_cost = 1.5
 
 		start_year = 1936
@@ -722,14 +719,12 @@ technologies = {
 
 	improved_airplane_launcher = {
 
-
 		enable_equipment_modules = {
 			ship_airplane_launcher_2
 		}
 		on_research_complete = {
 			custom_effect_tooltip = airplane_launcher_advice_tt
 		}
-
 
 		research_cost = 0.75
 
@@ -824,13 +819,11 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
-
 #  # ###  ##  #   # #   #      ## #  # ### ###   ##
 #  # #   #  # #   #  # #      #   #  #  #  #  # #
 #### ##  ####  # #    #        #  ####  #  ###   #
 #  # #   #  #  # #    #         # #  #  #  #      #
 #  # ### #  #   #     #       ##  #  # ### #    ##
-
 
 	early_ship_hull_heavy = {
 
@@ -979,7 +972,6 @@ technologies = {
 			}
 		}
 
-
 		categories = {
 			naval_equipment
 			bb_tech
@@ -1090,7 +1082,6 @@ technologies = {
 			ship_armor_cruiser_3
 		}
 
-
 		on_research_complete = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
@@ -1098,7 +1089,6 @@ technologies = {
 			leads_to_tech = improved_heavy_armor_scheme
 			research_cost_coeff = 1
 		}
-
 
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -1147,7 +1137,6 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = heavy_armor_advice_tt
 		}
-
 
 		xp_research_type = navy
 		xp_boost_cost = 50
@@ -1520,7 +1509,6 @@ early_ship_hull_carrier = {
 			ship_torpedo_sub_3
 			sub_ship_engine_3
 		}
-
 
 		path = {
 			leads_to_tech = advanced_ship_hull_submarine

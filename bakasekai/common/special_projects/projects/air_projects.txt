@@ -186,7 +186,6 @@
 # 	}
 # }
 
-
 # sp_air_earthshaker_bomb = {
 # 	specialization = specialization_air 	
 # 	icon = GFX_sp_air_earthshaker_bomb
@@ -373,16 +372,12 @@
 # 	}
 # }
 
-
-
-
    ##    #  #####    ####   #####     ##    ######  ##### 
   #  #   #  #    #  #    #  #    #   #  #   #         #   
  #    #  #  #    #  #       #    #  #    #  #####     #   
  ######  #  #####   #       #####   ######  #         #   
  #    #  #  #   #   #    #  #   #   #    #  #         #   
  #    #  #  #    #   ####   #    #  #    #  #         #   
-
 
 # sp_air_intercontinental_bomber = {
 # 	specialization = specialization_air 	
@@ -778,18 +773,12 @@
 # 		}	
 # 	}
 # }
-
-
-
       #  ######  #####   ####  
       #  #         #    #      
       #  #####     #     ####  
       #  #         #         # 
  #    #  #         #    #    # 
   ####   ######    #     ####  
-
-
-
 # sp_air_jet_engine = {
 # 	specialization = specialization_air 	
 # 	icon = GFX_sp_air_jet_engine
@@ -1552,19 +1541,12 @@
 # }
 
 
-
-
-
-
  #    #  ######  #       #   ####    ####   #####   #####  ######  #####  
  #    #  #       #       #  #    #  #    #  #    #    #    #       #    # 
  ######  #####   #       #  #       #    #  #    #    #    #####   #    # 
  #    #  #       #       #  #       #    #  #####     #    #       #####  
  #    #  #       #       #  #    #  #    #  #         #    #       #   #  
  #    #  ######  ######  #   ####    ####   #         #    ######  #    # 
-
-
-
 # sp_air_helicopter = {
 # 	specialization = specialization_air 	
 # 	icon = GFX_sp_air_helicopter

@@ -1502,7 +1502,6 @@ technologies = {
 		}
 	}
 
-
 	### SPECIAL PROJECTS ###
 
 	sp_artillery_rocket_assisted_projectiles_tech = {
@@ -1556,7 +1555,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	sp_artillery_purpose_built_gun_motor_carriages_tech = {
 		

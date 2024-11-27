@@ -94,7 +94,6 @@ technologies = {
 		}
 	}
 
-
 	early_fighter = {
 
 		enable_equipments = {
@@ -105,7 +104,6 @@ technologies = {
 			leads_to_tech = fighter1
 			research_cost_coeff = 1
 		}
-
 
 		path = {
 			leads_to_tech = CAS1

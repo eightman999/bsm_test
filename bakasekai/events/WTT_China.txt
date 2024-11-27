@@ -64,7 +64,6 @@
 # 	}
 # }
 
-
 # # Answer from warlord china.1 - No
 # country_event = {
 # 	id = wtt_china.3
@@ -82,9 +81,6 @@
 # 		}
 # 	}
 # }
-
-
-
 # # China demands ROOT be puppeted
 # country_event = {
 # 	id = wtt_china.10
@@ -144,7 +140,6 @@
 # 		name = wtt_china.11.a
 # 	}
 # }
-
 
 # # Answer from ROOT china.10 - No
 # country_event = {
@@ -361,9 +356,6 @@
 # 		name = wtt_infiltration.2.a
 # 	}
 # }
-
-
-
 # country_event = {
 # 	id = wtt_infiltration.598
 # 	title = wtt_infiltration.2.t
@@ -428,7 +420,6 @@
 # 		name = wtt_infiltration.2.a
 # 	}
 # }
-
 
 # #Event for nationalists
 # #No infiltration detected but still some detected in the country
@@ -1791,7 +1782,6 @@
 
 # }
 
-
 # ### #  # ###     #  # #  # #   # ###  
 #  #  #  # #       #  # #  # ## ## #  # 
 #  #  #### ##      #### #  # # # # ###  
@@ -1874,7 +1864,6 @@
 
 # }
 
-
 #  ##  ###  ###  ###   ##   ##   ##  #  #      ###  ##  ###   ##  #  # 
 # #  # #  # #  # #  # #  # #  # #  # #  #        # #  # #  # #  # ## # 
 # #### ###  ###  ###  #  # #### #    ####        # #### ###  #### # ## 
@@ -1925,7 +1914,6 @@
 # 		name = wtt_warlord.2.a
 # 	}
 # }
-
 
 # # Answer from warlord wtt_warlord.1 - No
 # country_event = {

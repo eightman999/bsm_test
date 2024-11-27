@@ -41,16 +41,10 @@
 	
 # }
 
-
-
-
 # operations = {
 	
 	
 # }
-
-
-
 # war_measures = {
 	
 	

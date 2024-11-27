@@ -729,7 +729,6 @@ spriteTypes = {
 
 	}
 
-
 	#### German goal icons
 
 	SpriteType = {
@@ -988,14 +987,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_renounce_the_treaty_of_triannon.dds"
 	}
 
-
 	### Switzerland
 
 	SpriteType = {
 		name = "GFX_focus_attack_switzerland"
 		texturefile = "gfx/interface/goals/focus_attack_switzerland.dds"
 	}
-
 
 	### Czech
 
@@ -1040,7 +1037,6 @@ spriteTypes = {
 		name = "GFX_focus_YUG_pan_slavic_congress"
 		texturefile = "gfx/interface/goals/focus_yug_pan_slavic_congress.dds"
 	}
-
 
 	### India
 
@@ -1271,7 +1267,6 @@ spriteTypes = {
 		name = "GFX_focus_jap_zero"
 		texturefile = "gfx/interface/goals/focus_jap_zero.dds"
 	}
-
 
 	### MEX
 
@@ -1523,7 +1518,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_attack_canada.dds"
 	}
 
-
 	### HOL
 
 	SpriteType = {
@@ -1605,9 +1599,6 @@ spriteTypes = {
 		name = "GFX_focus_hol_liberation"
 		texturefile = "gfx/interface/goals/focus_hol_liberation.dds"
 	}
-
-
-
 	SpriteType = {
 		name = "GFX_focus_generic_industry"
 		texturefile = "gfx/interface/goals/focus_generic_industry.dds"
@@ -1627,9 +1618,6 @@ spriteTypes = {
 		name = "GFX_focus_allied_juntas"
 		texturefile = "gfx/interface/goals/focus_generic_allied_juntas.dds"
 	}
-
-
-
 	SpriteType = {
 		name = "GFX_focus_one_empire_1"
 		texturefile = "gfx/interface/goals/focus_generic_one_empire_1.dds"
@@ -1919,7 +1907,6 @@ spriteTypes = {
 		name = "GFX_focus_up_joan_of_arc"
 		texturefile = "gfx/interface/goals/focus_up_joan_of_arc.dds"
 	}
-
 
 	###ESP LAR
 
@@ -3286,7 +3273,6 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_EZO_elections.dds"
 	}
 
-
 	SpriteType = {
 	name = "GFX_focus_EZO_unionise_the_workers"
 	texturefile = "gfx/interface/goals/focus_EZO_unionise_the_workers.dds"
@@ -4184,7 +4170,6 @@ spriteTypes = {
 			texturefile = "gfx/interface/goals/focus_PRO_fusion_of_state_powers.dds"
 	}
 
-
 	SpriteType = {
 			name = "GFX_focus_PRO_our_values"
 			texturefile = "gfx/interface/goals/focus_PRO_our_values.dds"
@@ -4621,29 +4606,6 @@ spriteTypes = {
 		    name = "GFX_focus_TOH_sendai_agreement"
 		    texturefile = "gfx/interface/goals/focus_TOH_sendai_agreement.dds"
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -305,7 +305,6 @@
 # 			}
 # 		}
 
-
 # 		days_mission_timeout = 360
 # 		is_good = no
 # 		activation = {

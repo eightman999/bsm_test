@@ -6,7 +6,6 @@
 # #   #     #    #  #  # #  #     #  # #  # #   # #  #   # 
 # #   ###   #   ### #  #  ##      ###   ##  #   # ###  ##  
 
-
 # sp_rockets_flying_bomb = {
 # 	specialization = specialization_air 
 # 	icon = GFX_sp_rockets_flying_bomb
@@ -308,13 +307,11 @@
 # 	}
 # }
 
-
 # ###   ##  #   #   ###  ## ### ###  ##      #   # ###  ##  ## ### #   ###  ## 
 # #  # #  # #   #    #  #    #   #  #  #     ## ##  #  #   #    #  #   #   #   
 # ###  #### #   #    #   #   #   #  #        # # #  #   #   #   #  #   ##   #  
 # #  # #  # #   #    #    #  #   #  #  #     #   #  #    #   #  #  #   #     # 
 # ###  #  # ### ### ### ##   #  ###  ##      #   # ### ##  ##  ### ### ### ##  
-
 
 # # Ballistic Missiles - The V2 programme
 # sp_rockets_ballistic_missile = {
@@ -522,7 +519,6 @@
 # 		}
 # 	}
 # }
-
 
 # # Medium range Missiles
 # sp_rockets_medium_range_ballistic_missile = {
@@ -821,7 +817,6 @@
 # #  # #  # #  # #  # #  # #  #      #  #  #     #  #  #  #  # 
 #  ##  #  #  ##   ##  #  # ###       #   ##      #  # ### #  # 
 
-
 # # Ground to Air Missiles - The Wasserfall Project
 # sp_rockets_ground_to_air_missile = {
 # 	specialization = specialization_air 
@@ -1016,7 +1011,6 @@
 # 	}
 # }
 
-
 # sp_rocket_interceptor = {
 # 	specialization = specialization_air 
 	
@@ -1106,7 +1100,5 @@
 # 	}
 # }
 
-
 	
-
 

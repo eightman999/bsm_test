@@ -11,7 +11,6 @@
 # 	desc = NSB_poland_events.1.desc
 # 	picture = GFX_report_event_lithuanian_ultimatum
 
-
 	
 # 	is_triggered_only = yes
 
@@ -543,7 +542,6 @@
 # 		}
 # 	}
 # }
-
 
 # #Poland wants to buy Madagascar
 # country_event = {
@@ -1195,7 +1193,6 @@
 # 			}
 # 		}
 
-
 # 		ROM = {
 # 			ROM_king_michael = {
 # 				set_nationality = POL
@@ -1482,7 +1479,6 @@
 # 		}
 # 	}
 # }
-
 
 # add_namespace = NSB_poland_monarchist_events
 
@@ -3884,7 +3880,6 @@
 # 		}
 # 	}
 # }
-
 
 # country_event = {
 # 	id = NSB_polish_fascist_events.5

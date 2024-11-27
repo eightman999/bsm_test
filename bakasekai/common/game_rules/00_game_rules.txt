@@ -399,7 +399,6 @@ allow_party_boosting = {
 #  #  #   # #   #    #  #  #  # #  #      #  #   #   # #    #   #  #  #  #     # 
 ###  ###   #   ### ##  ###  ##  #  #      #  ### #   # #    ### #  #  #  ### ##  
 
-
 allow_paratroopers = {
 	name = "RULE_ALLOW_PARATROOPERS"
 	group = "RULE_GROUP_GAMEPLAY"
@@ -580,9 +579,6 @@ allow_scorched_earth = {
 #    #  # #  # # ##  #  ###    #        #  ###  ##  #     #  ##   #  #        ###  #  # #   ##   #  
 #  # #  # #  # #  #  #  #  #   #         # #    #   #  #  #  #    #  #  #     #  # #  # #   #     # 
  ##   ##   ##  #  #  #  #  #   #       ##  #    ###  ##  ### #   ###  ##      #  #  ##  ### ### ##  
-
-
-
 #GER_faction_soviets = {
 #	name = "RULE_GER_FACTION_SOVIETS"
 #	group = "RULE_GROUP_COUNTRY_SPECIFIC"
@@ -623,9 +619,6 @@ allow_scorched_earth = {
 #		desc = "RULE_ALLOW_IDEOLOGY_CHANGE_USA_BLOCKED_DESC"
 #	}
 #}
-
-
-
  ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
 #  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
 ####  #      ###  ##  #### ####  # #   #  #  # ###  
@@ -1324,7 +1317,6 @@ CZE_ai_behavior = {
 		desc = "RULE_OPTION_RANDOM_AI_DESC"
 	}
 }
-
 
 CHI_ai_behavior = {
 	name = "CHI_AI_BEHAVIOR"
@@ -2978,9 +2970,6 @@ germany_fragmentation_status = {
 		desc = "RULE_OPTION_GERMANY_FRAGMENTED_DESC"
 	}
 }
-
-
-
  #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
  #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
  #     #   #       #        #           #        #      #   # #   #  #        #       
@@ -2988,7 +2977,6 @@ germany_fragmentation_status = {
  #     #   #             #  #           #        #      #   #   # #  #     #        # 
  #     #   #       #     #  #           #        #      #   #    ##  #     #  #     # 
   #####   ###       #####   #######     #        #     ###  #     #   #####    #####  
-
 
 obsolete_focus_branches_visibility = {
 	name = "OBSOLETE_FOCUS_BRANCHES_VISIBILITY"

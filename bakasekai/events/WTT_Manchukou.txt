@@ -51,7 +51,6 @@
 # 	}
 # }
 
-
 # # Answer from warlord wtt_manchukou.1 - No
 # country_event = {
 # 	id = wtt_manchukou.3

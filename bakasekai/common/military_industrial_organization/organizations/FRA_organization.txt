@@ -8,7 +8,6 @@
 
  #################### 
 
-
 FRA_renault_organization = {
 	include = generic_infantry_tank_organization
 	icon = GFX_idea_renault
@@ -288,11 +287,7 @@ FRA_SNCAC_organization = {
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
 
-
 ###################################
-
-
-
 FRA_panhard_organization = {
 	include = generic_armored_car_organization
 	icon = GFX_idea_FRA_panhard

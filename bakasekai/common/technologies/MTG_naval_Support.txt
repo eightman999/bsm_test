@@ -6,7 +6,6 @@ technologies = {
 	#  # #  # #   # #  # #   # #   #  #  #    #
 	#  # #  # #   # #  # #   # ### #  #  #  ##
 
-
 	basic_battery = {
 
 		research_cost = 1
@@ -41,9 +40,6 @@ technologies = {
 			ship_heavy_battery_1
 			ship_secondaries_1
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 1 }
@@ -96,7 +92,6 @@ technologies = {
 			ship_light_battery_2
 		}
 
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 5 }
@@ -132,7 +127,6 @@ technologies = {
 			leads_to_tech = improved_light_battery
 			research_cost_coeff = 1
 		}
-
 
 		destroyer = {
 			lg_attack = 0.05
@@ -206,9 +200,6 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_3
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 11 }
@@ -308,7 +299,6 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 19 }
@@ -340,7 +330,6 @@ technologies = {
 
 		start_year = 1936
 
-
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
@@ -356,9 +345,6 @@ technologies = {
 			ship_light_medium_battery_2
 			ship_secondaries_2
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 5 }
@@ -444,9 +430,6 @@ technologies = {
 			ship_medium_battery_3
 			ship_light_medium_battery_3
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 11 }
@@ -497,7 +480,6 @@ technologies = {
 			hg_armor_piercing = 0.05
 		}
 
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 16 }
@@ -534,7 +516,6 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
-
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1070,9 +1051,6 @@ technologies = {
 		heavy_cruiser = {
 			torpedo_attack = 0.2
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 2 y = 7 }
@@ -1172,9 +1150,7 @@ technologies = {
 
 		start_year = 1940
 
-
 		naval_torpedo_reveal_chance_factor = -0.25
-
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1222,9 +1198,6 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_2
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 7 }
@@ -1266,9 +1239,6 @@ technologies = {
 		enable_equipment_modules = {
 			ship_torpedo_3
 		}
-
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 13 }
@@ -1306,7 +1276,6 @@ technologies = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 19 }
@@ -1330,7 +1299,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 
 ###   ##  #   #  ##   ##  ###      ##   ##  #  # ### ###   ##  #
 #  # #  # ## ## #  # #    #       #  # #  # ## #  #  #  # #  # #
@@ -1642,7 +1610,6 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
-
 #   # ### #  # ###  ##
 ## ##  #  ## # #   #
 # # #  #  # ## ##   #
@@ -1806,9 +1773,6 @@ technologies = {
 			leads_to_tech = degaussing
 			research_cost_coeff = 1
 		}
-
-
-
 		naval_mines_damage_factor = 0.2 # more boom for the boom box
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1854,7 +1818,6 @@ technologies = {
 		start_year = 1938
 
 		naval_mines_effect_reduction = 0.5
-
 
 		destroyer = {
 			sub_detection = 0.1
@@ -2360,7 +2323,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 
 	sp_standard_tenshioned_replenishment_alongside_method = {
 

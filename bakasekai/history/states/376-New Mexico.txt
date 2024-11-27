@@ -11,7 +11,6 @@ state={
 		aluminium=30 # was: 52
 	}
 
-
 	history={
 		set_state_flag = Gold_Rush
 		owner = TEX

@@ -1,9 +1,8 @@
 ﻿capital = 50
 set_cosmetic_tag = WUR_kingdom
 # Starting tech
+land_tech_level_1 = yes
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
@@ -53,25 +52,7 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		not = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		transport = 1
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		mtg_transport = 1
-	}
-}
+navy_tech_level_NA = yes
 
 set_research_slots = 3
 set_convoys = 50
@@ -88,5 +69,4 @@ set_popularities = {
 	fascism_ideology = 10
 	communism_ideology = 60
 }
-
 

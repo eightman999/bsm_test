@@ -347,7 +347,6 @@ intelligence_agency = {
 	available = { original_tag = ISL }
 }
 
-
 intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_generic_1

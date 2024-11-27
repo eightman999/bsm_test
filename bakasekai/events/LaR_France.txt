@@ -6,7 +6,6 @@
 # #  # #  # #  # #  # #  # #     #   #     #  # #       #    #  # #  #  #    # 
 #  ##   ##  #  #  ##  #  # ### ##  ##       ##  #       #    #  # #  # ### ##  
 
-
 # add_namespace = lar_congress_of_paris
 
 # #opening event for France - set up claims, pass on to Italy
@@ -257,7 +256,6 @@
 # #    #  # #    #   #   #  #  # #  # #        # #   #  #  # #   #   #  # #  # #   
 # #     ##  ### ###  #  ###  ##  #  # ###       #   ###  ##  ### ### #  #  ##  ### 
 
-
 # add_namespace = lar_france_political_violence
 
 # # right wing riots
@@ -360,7 +358,6 @@
 # ##  ###  ##  # ## #    ####     #  # # ##  #  #  # # ## 
 # #   #  # #   #  # #  # #  #     #  # #  #  #  #  # #  # 
 # #   #  # ### #  #  ##  #  #      ##  #  # ###  ##  #  # 
-
 
 # add_namespace = lar_france_french_union
 
@@ -2311,7 +2308,6 @@
 #   # #    #    #   #      #  # #   #   #  #  #  #  # #   # 
 # ##  #    ### ###  #      ###  ### ###  ##  ###  ##  #   # 
 
-
 # add_namespace = lar_split_belgium
 
 # #initial event - France wants to control country
@@ -3216,7 +3212,6 @@
 # # # # #  # ###  ##  ##  ###       #  #### #  # ###   #  #### # ## ##  
 # # # # #  # #  # # # #   #  #       # #  # #  # #  #  #  #  # #  # #   
 #  # #   ##  #  # # # ### #  #     ##  #  #  ##  #  #  #  #  #  ##  ### 
-
 
 # #events to notify player that they are having worker issues
 # add_namespace = lar_worker_shortage

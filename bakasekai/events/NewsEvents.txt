@@ -401,7 +401,6 @@ news_event = {
 	}
 }
 
-
 # Soviet Union annexes Tannu Tuva
 news_event = {
 	id = news.14
@@ -2593,7 +2592,6 @@ news_event = {
 		}
 	}
 }
-
 
 # The Fall of Warsaw (Germany)
 news_event = {
@@ -6099,7 +6097,6 @@ news_event = {
 	}
 }
 
-
 #France joins Britain
 news_event = {
 	id = news.175
@@ -6170,9 +6167,6 @@ news_event = {
 		}
 	}
 }
-
-
-
 #Britain rejects French alliance
 news_event = {
 	id = news.176
@@ -6317,7 +6311,6 @@ news_event = {
 	}
 }
 
-
 #The Left Ascendant in France
 news_event = {
 	id = news.178
@@ -6364,7 +6357,6 @@ news_event = {
 	}
 }
 
-
 #The Right Ascendant in France
 news_event = {
 	id = news.179
@@ -6410,7 +6402,6 @@ news_event = {
 		}
 	}
 }
-
 
 #France Is Welcomed by the Comintern
 news_event = {
@@ -6474,7 +6465,6 @@ news_event = {
 	}
 }
 
-
 #Italy And France Unite
 news_event = {
 	id = news.181
@@ -6502,7 +6492,6 @@ news_event = {
 			}
 		}
 	}
-
 
 	#The enemies of democracy grow stronger.
 	option = {
@@ -6534,7 +6523,6 @@ news_event = {
 		}
 	}
 }
-
 
 #France Joins the [From.GetFaction] (Germany)
 news_event = {
@@ -6593,7 +6581,6 @@ news_event = {
 	}
 }
 
-
 #[From.GetName] Rejects French Offer of Alliance!
 news_event = {
 	id = news.183
@@ -6640,7 +6627,6 @@ news_event = {
 		}
 	}
 }
-
 
 #Italy Pursues Closer Bonds With Germany
 news_event = {
@@ -6959,7 +6945,6 @@ news_event = {
 	}
 }
 
-
 #Italy Establishes Alliance With Spain
 #news_event = {
 #	id = news.191
@@ -7178,7 +7163,6 @@ news_event = {
 	}
 }
 
-
 #The Comintern Seeks to Destabilize Western Powers
 news_event = {
 	id = news.196
@@ -7224,7 +7208,6 @@ news_event = {
 		}
 	}
 }
-
 
 #[From.GetName] Gives in to [Soviet.GetAdjective] Ultimatum
 news_event = {
@@ -7339,7 +7322,6 @@ news_event = {
 		}
 	}
 }
-
 
 #[Romania.GetName] Cedes Bessarabia to the [From.GetName]
 news_event = {
@@ -7470,7 +7452,6 @@ news_event = {
 	}
 }
 
-
 #Germany Puppets Turkey
 news_event = {
 	id = news.201
@@ -7554,10 +7535,6 @@ news_event = {
 		}
 	}
 }
-
-
-
-
 
 #Danzig For Slovakia
 news_event = {
@@ -7679,7 +7656,6 @@ news_event = {
 	}
 }
 
-
 #Poland Refuses to Cede Danzig
 news_event = {
 	id = news.204
@@ -7731,7 +7707,6 @@ news_event = {
 		}
 	}
 }
-
 
 #Pax Americana
 news_event = {
@@ -8281,7 +8256,6 @@ news_event = {
 	}
 }
 
-
 #US Aims to Stop Fascism
 news_event = {
 	id = news.213
@@ -8432,7 +8406,6 @@ news_event = {
 		}
 	}
 }
-
 
 #Anti-Soviet Pact
 news_event = {
@@ -8930,7 +8903,6 @@ news_event = {
 	}
 }
 
-
 #British Influence on Spain
 news_event = {
 	id = news.224
@@ -8990,7 +8962,6 @@ news_event = {
 }
 
  
-
 
 #British Influence on Turkey
 news_event = {
@@ -9125,7 +9096,6 @@ news_event = {
 	}
 }
 
-
 #British Diplomatic Balkan Strategy
 news_event = {
 	id = news.228
@@ -9220,7 +9190,6 @@ news_event = {
 		}
 	}
 }
-
 
 #Greece Refuses Puppeting
 news_event = {
@@ -9355,7 +9324,6 @@ news_event = {
 	}
 }
 
-
 #Germany Seeks Scandinavian Support
 news_event = {
 	id = news.232
@@ -9408,7 +9376,6 @@ news_event = {
 		}
 	}
 }
-
 
 #Germany Plans Northern Intervention
 news_event = {
@@ -9486,7 +9453,6 @@ news_event = {
 		}
 	}
 }
-
 
 #Germany Moves to Strike Around Maginot
 news_event = {
@@ -10303,7 +10269,6 @@ news_event = {
 	}
 }
 
-
 # Fascist path AUS annexes New Zealand - Fired from event tfv_australia.21
 news_event = {
 	id = news.254
@@ -10661,7 +10626,6 @@ news_event = {
 	}
 
 }
-
 
 #IND gets famine
 news_event = {
@@ -13239,7 +13203,6 @@ news_event = {
 	}
 }
 
-
 ### Country reunited
 news_event = {
 	id = news.350
@@ -13319,7 +13282,4 @@ news_event = {
 		}
 	}
 }
-
-
-
 

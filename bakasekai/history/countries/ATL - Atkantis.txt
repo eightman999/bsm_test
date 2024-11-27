@@ -47,6 +47,3 @@ set_popularities = {
 	
 }
 
-
-
-

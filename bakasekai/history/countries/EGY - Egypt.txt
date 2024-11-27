@@ -11,9 +11,6 @@ set_convoys = 2000
 
 load_oob = EGY_LAND
 
-
-
-
 set_politics = {
 	ruling_party = neutrality_ideology
 	last_election = "1936.1.1"
@@ -26,9 +23,6 @@ set_popularities = {
 	communism_ideology = 5
 	neutrality_ideology = 50
 }
-
-
-
 create_country_leader = {
 	name = "Muhammad Naguib"
 	desc = ""

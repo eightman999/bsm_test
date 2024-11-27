@@ -773,7 +773,6 @@ ideas = {
 				has_dlc = "No Step Back"
 			}
 
-
 			available = {
 				has_completed_focus = BALTIC_ford_motors
 			}
@@ -890,9 +889,6 @@ ideas = {
 			available = {
 				has_completed_focus = BALTIC_british_designers
 			}
-
-
-
 			research_bonus = {
 				air_equipment = 0.15
 			}

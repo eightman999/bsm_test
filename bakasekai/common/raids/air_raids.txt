@@ -278,7 +278,6 @@
 
 # ###############################################################################
 
-
 # 	lock_bombing_raid = {
 # 		days_to_prepare = 90
 
@@ -638,9 +637,6 @@
 
 # 			}
 # 		}
-
-
-
 # 		success_levels = {
 # 			failure = {
 # 				victim_effects = {
@@ -814,7 +810,6 @@
 
 # ########################################################
 
-
 # 	oilfield_raid = {
 # 		days_to_prepare = 90
 
@@ -870,7 +865,6 @@
 # 		available = {
 
 # 		}
-
 
 # 		# Can launch a raid
 # 		launchable = {
@@ -1154,7 +1148,6 @@
 # 			}
 # 		}
 
-
 # 		starting_point = {
 # 		    types = { air_base }
 # 		}
@@ -1379,7 +1372,6 @@
 # 			}
 # 		}
 
-
 # 		starting_point = {
 # 		    types = { air_base }
 # 		}
@@ -1537,8 +1529,5 @@
 # 			}
 # 		}
 # 	}
-
-
-
 # # END OF TYPES
 # }

@@ -2263,7 +2263,6 @@ sound = {
     file = "animations/sonic_boom_initial_03.wav"
 }
 
-
 ########################### Missiles ######################################
 sound = {
     name = "missile_fire_01"
@@ -2451,7 +2450,6 @@ sound =
 ##############################################
 ###### SPY AGENCY ASSETS #####################
 ##############################################
-
 
 sound =
 {
@@ -3039,7 +3037,6 @@ sound =
 
 ################ AIRCRAFTS ###################
 
-
 ################ RAILWAY GUNS ###################
 
 sound =
@@ -3329,9 +3326,6 @@ sound = {
 	name = "decisions_ui_button_01"
 	file = "menu/decisions_ui_button_01.wav"
 }
-
-
-
 #####################################################
 ################# 	DOCTRINES  	 ####################
 ################# 	MAP MODES  	 ####################
@@ -3387,7 +3381,6 @@ sound =
 	name = "ui_doctrine_tab_naval_03"
 	file = "menu/ui_doctrine_tab_naval_03.wav"
 }
-
 
 sound =
 {
@@ -3517,7 +3510,6 @@ sound =
 	name = "ui_mapmode_terrain_01"
 	file = "menu/ui_mapmode_terrain_01.wav"
 }
-
 
 sound =
 {
@@ -3662,7 +3654,6 @@ sound =
 	name = "ui_spirit_select_03"
 	file = "menu/ui_spirit_select_03.wav"
 }
-
 
 sound =
 {
@@ -4091,7 +4082,6 @@ sound =
 	file = "awards/ui_award_tier_03.wav"
 }
 
-
 ##################### AAT #####################
 sound =
 {
@@ -4213,7 +4203,6 @@ sound =
 	name = "ui_insufficient_delivery_04"
 	file = "menu/ui_insufficient_delivery_04.wav"
 }
-
 
 ##################### LANDMARKS #####################
 sound = 

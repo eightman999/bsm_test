@@ -767,7 +767,6 @@ ideas = {
 			}
 		}
 
-
 		combined_bomber_offensive = {
 			
 			allowed = {
@@ -1203,7 +1202,6 @@ ideas = {
 		}
 	
 	}
-
 
 	tank_manufacturer = { 
 	

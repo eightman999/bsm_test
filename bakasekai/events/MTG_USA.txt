@@ -1048,7 +1048,6 @@
 # #  # #   #   # #  # #  # #  # #  #  #    #     #  # #    #  #  #    #  #  #  # #  # 
 # ###  ### #   #  ##   ##  #  # #  #  #  ##       ##  #    #  # ### ##  ### #  #  ##  
 
-
 # add_namespace = mtg_usa_civil_war_democrats
 
 # #initial event for the democrat uprising
@@ -2531,7 +2530,6 @@
 # #  # #  # #  # #  # #  #  #  #  # #  #     #  # #  # #  # #  #  #  #  # #  # #  # 
 #  ##  #  # #  # #  # ###  ### #  # #  #      ##   ##  #  # #  # ### ###   ##  #  # 
 
-
 # ##intial event for Canada
 # country_event = {
 # 	id = mtg_usa_canadian_corridor.1
@@ -2657,7 +2655,6 @@
 #   # #  # #  #  #  #  # #   #  # #  #      #  #  # #  # #   #  #  #  
 # ##   ##   ##   #  #  # ### #  # #  #      #  #  # #  # ### #  #  #  
 
-
 # ##intial event for Mexico
 # country_event = {
 # 	id = mtg_usa_southern_threat.1
@@ -2772,7 +2769,6 @@
 # #  # #  # #  #  #  #  #     #  # #   # #   #  #  #  #  # #  # #  #     #  # #  # #   #  #  #  #  #  #  # #  # 
 # #  #  ##  #  #  #  #  #     #  # #   # ### #  # ###  ##  #  # #  #     ###   ##  #   # ### #  # ###  ##  #  # 
 
-
 # ##US demands subjugation
 # country_event = {
 # 	id = mtg_usa_north_american_dominion.1
@@ -2884,7 +2880,6 @@
 #  #   #  ###  ####  #  # ##  #  #         #  # ##  #  ##  ###  ##   #   #   #  
 #   #  #  #  # #  #  #  #  #  #  #  #      #  #  #  #  #   #  # #     #  #    # 
 # ##   #  #  # #  #  #   ##  ###  ##      ### #  #  #  ### #  # ### ##   #  ##  
-
 
 # ##US demands colonies
 # country_event = {
@@ -3072,7 +3067,6 @@
 # #    #  # #  #  #  #    #  #  #     #    #  # #  #  #  #    #  #  # #  #  #   #  #  # #  # 
 # #    #  #  ##  ### #   ###  ##      #    #  #  ##  ### #   ###  ##  #  #  #  ###  ##  #  # 
 
-
 # ##US demands colonies - to AUS/ERO if independent, otherwise to britain
 # country_event = {
 # 	id = mtg_usa_pacific_pacification.1
@@ -3240,7 +3234,6 @@
 #  #  ##  #    #  # ###  ##      ####  #   #  #### 
 #   # #   #  # #  # #  # #       #  #   #  #  #  # 
 # ##  ###  ##   ##  #  # ###     #  # ##  ### #  # 
-
 
 # add_namespace = mtg_usa_secure_asia
 # ##puppet demand for Siam
@@ -3581,7 +3574,6 @@
 # #    #  # #  #  #  #   #  #  #        # #  # #  #  #  #  #     #  # #   # #   #  #  #  #  # #  # 
 # #    #  #  ##   #  ###  ##   #      ##   ##   ##   #  #  #     #  # #   # ### #  # ###  ##  #  # 
 
-
 # ##intial event 
 # country_event = {
 # 	id = mtg_usa_protect_south_america.1
@@ -3710,7 +3702,6 @@
 # ##  #  # ###  ##   #  # ## # ##      #  #  # ###  ###  #  # ###   #  
 # #   #  # #  # #    #  #  # #  #       # #  # #    #    #  # #  #  #  
 # #    ##  #  # ### ###  ##  #  #     ##   ##  #    #     ##  #  #  #  
-
 
 # ##event for FROM, USA wants donations
 # country_event = {

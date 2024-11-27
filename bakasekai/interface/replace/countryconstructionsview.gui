@@ -138,7 +138,6 @@ guiTypes = {
 				spriteType = "GFX_non_available_factory_icon"
 			}
 
-
 			instantTextboxType = {
 				name = "available_factories_value"
 				position = { x = 10 y = 32 }
@@ -150,7 +149,6 @@ guiTypes = {
 				maxHeight = 20
 				format = center
 			}
-
 
 			instantTextboxType = {
 				name = "from_trade"
@@ -534,7 +532,6 @@ guiTypes = {
 			hide = yes
 		}
 	}
-
 
 	containerWindowType = {
 		name = "start_construction_entry"

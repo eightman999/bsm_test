@@ -75,18 +75,7 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 }
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-	}
-}
+tank_tech_level_1 = yes
 
 if = {
 	limit = {

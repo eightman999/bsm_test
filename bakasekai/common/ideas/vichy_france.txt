@@ -190,7 +190,6 @@ ideas = {
 
 	high_command = {
 
-
 		VIC_jean_francois_jannekeyn = {
 			ledger = navy
 			

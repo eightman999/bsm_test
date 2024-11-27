@@ -179,7 +179,6 @@ ENG_CA_HISTORICAL = {
 	}
 }
 
-
 ### MINELAYER NAMES###
 ENG_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
@@ -341,7 +340,6 @@ ENG_SS_HISTORICAL = {
 			"Acasta" "Agate" "Aggressor" "Agile" "Aladdin" "Alcestis" "Asgard" "Assurance" "Astarte" 
 	}
 }
-
 
 ### THEME: BRITISH COUNTIES ###
 ENG_COUNTIES = {
@@ -505,7 +503,6 @@ ENG_MYTHOLOGY = {
 		"Cunobeline" "Leir" "Lot" "Mark" "Urien" 
 	}
 }
-
 
 ##### Britain NAME LISTS COMMUNISM #####
 ### REGULAR DESTROYER NAMES###
@@ -688,7 +685,6 @@ ENG_CA_COMMUNISM = {
 	}
 }
 
-
 ### MINELAYER NAMES###
 ENG_MINELAYERS_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
@@ -850,7 +846,6 @@ ENG_SS_COMMUNISM= {
 			"Acasta" "Agate" "Aggressor" "Agile" "Aladdin" "Alcestis" "Asgard" "Assurance" "Astarte" 
 	}
 }
-
 
 ### THEME: BRITISH COUNTIES ###
 ENG_COUNTIES_COMMUNIST = {

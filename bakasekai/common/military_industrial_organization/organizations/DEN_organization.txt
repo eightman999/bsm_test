@@ -167,7 +167,6 @@ DEN_burmeister_wain_organization = {
         position = { x=2 y=0 }
     }
 
-
     add_trait = { 
         token = DEN_mio_trait_coastal_defense_ship_modernization
         name = DEN_mio_trait_coastal_defense_ship_modernization
@@ -470,7 +469,6 @@ DEN_flyvemaskinevaerksted_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 
@@ -902,10 +900,6 @@ DEN_triangel_organization = {
 }
 
 
-
-
-
-
 ##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##      ## ##      ##    ##    ##
 ##        ##  ##          ##       ##     ## ##          ##          ##     ##   ##     ##    ##
@@ -914,9 +908,7 @@ DEN_triangel_organization = {
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##    ##     ##    ##    ##    ##
 ######## ####  ######     ##        #######  ##           ######     ##    ##     ##    ##     ######
 
-
 ### EQUIPMENT STATS ###
-
 
 ###  ##  #  # # #  ## 
  #  #  # ## # # # #   
@@ -940,9 +932,6 @@ DEN_triangel_organization = {
 #build_cost_ic
 #entrenchment - only if you have DLC NSB  and module dozer_blade
 #fuel_capacity - only if you have DLC NSB  and module expanded_fuel_tank
-
-
-
  ## #  # ### ###   ## 
 #   #  #  #  #  # #   
  #  ####  #  ###   #  
@@ -977,9 +966,6 @@ DEN_triangel_organization = {
 #naval_torpedo_hit_chance_factor (requires modules)
 #naval_light_gun_hit_chance_factor (requires modules)
 #naval_heavy_gun_hit_chance_factor (requires modules)
-
-
-
 ###  #    ##  #  # ###  ## 
 #  # #   #  # ## # #   #   
 ###  #   #### # ## ##   #  
@@ -1008,9 +994,6 @@ DEN_triangel_organization = {
 #mines_planting - if you have MtG and BBA
 #mines_sweeping - if you have MtG and BBA
 #night_penalty - only if you have BBA DLC (you need to have module because base value is 0 - radio navigatio
-
-
-
 #   #  ##  ### ### ###  ### ### #   
 ## ## #  #  #  #   #  #  #  #   #   
 # # # ####  #  ##  ###   #  ##  #   
@@ -1037,7 +1020,6 @@ DEN_triangel_organization = {
 ##############################
 #reliability
 #build_cost_ic
-
 
 #############################
 #### ARTILLERY EQUIPMENT ####
@@ -1095,7 +1077,6 @@ DEN_triangel_organization = {
 #air_attack
 #build_cost_ic
 
-
 ##############################
 #### MOTORIZED EQUIPMENT #####
 ##############################
@@ -1148,7 +1129,6 @@ DEN_triangel_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ################################
 #### ARMORED CAR EQUIPMENT #####
 ################################
@@ -1165,7 +1145,6 @@ DEN_triangel_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ##########################
 #### TRAIN EQUIPMENT #####
 ##########################
@@ -1180,7 +1159,6 @@ DEN_triangel_organization = {
 #maximum_speed
 #railway_gun_attack
 #build_cost_ic
-
 
 ### PRODUCTION MODIFIERS ###
 #production_cost_factor

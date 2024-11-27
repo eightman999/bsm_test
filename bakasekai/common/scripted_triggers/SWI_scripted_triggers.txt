@@ -231,7 +231,6 @@ SWI_president_initiative_cancel_trigger = {
 	}
 }
 
-
 SWI_council_not_filled = {
 	custom_trigger_tooltip = {
 		tooltip = SWI_council_not_filled_TT
@@ -399,7 +398,6 @@ SWI_has_fascist_council_president = { #Checks of the president of the council is
 	}
 }
 
-
 SWI_has_fascist_councilor = { #Checks if any councilor is fascist 
 	OR = {
 		var:SWI_councilor_1 = {
@@ -506,7 +504,6 @@ SWI_any_democratic_to_balance_is_about_to_be_angry = {
 	}
 }
 
-
 SWI_any_communist_to_balance_is_about_to_be_angry = {
 	any_other_country = {
 		SWI_is_country_to_balance = yes 
@@ -514,7 +511,6 @@ SWI_any_communist_to_balance_is_about_to_be_angry = {
 		SWI_country_about_to_be_angry = yes 
 	}
 }
-
 
 SWI_any_fascist_to_balance_is_about_to_be_angry = {
 	any_other_country = {

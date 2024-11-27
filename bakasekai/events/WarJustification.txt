@@ -803,7 +803,6 @@ country_event = {
 	}
 }
 
-
 # Generic: Any War (Target)
 country_event = {
 	id = war_justification.220

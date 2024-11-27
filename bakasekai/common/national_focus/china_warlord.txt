@@ -960,7 +960,6 @@
 		}
 	}
 
-
 	focus = {
 		id = CHI_public_works
 		icon = GFX_goal_generic_construct_infrastructure

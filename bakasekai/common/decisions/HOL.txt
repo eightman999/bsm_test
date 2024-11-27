@@ -614,7 +614,6 @@
 # 		}
 # 	}
 
-
 # 	HOL_establish_pro_war_labor_indoctrination = {
 
 # 		icon = hol_war_on_pacifism

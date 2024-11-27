@@ -93,7 +93,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	# Claire Lee Chennault is in shared file
@@ -172,7 +171,6 @@ characters={
 		}
 	}
 
-
 	### NAVY CHIEFS ###
 
 	XSM_lian_zenguang={
@@ -220,7 +218,6 @@ characters={
 			}
 		}
 	}
-
 
 	### AIR CHIEFS ###
 
@@ -271,7 +268,6 @@ characters={
 			}
 		}
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -370,7 +366,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###
 

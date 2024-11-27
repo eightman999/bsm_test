@@ -1,6 +1,5 @@
 armor_generic = {
 
-
 	role = armor
 	
 	upgrade_prio = {
@@ -55,7 +54,6 @@ armor_generic = {
 		replace_with = medium_armor_early
 		target_min_match = 0.5
 	}
-
 
 # TODO reintroduce a fortress buster role maybe?
 #	heavy_armor_default = {
@@ -399,9 +397,6 @@ infantry_generic = {
 }
 
 mountaineers_generic = {
-
-
-
 	role = mountaineers
 	
 	upgrade_prio = {
@@ -443,7 +438,6 @@ mountaineers_generic = {
 }
 
 marines_generic = {
-
 
 	role = marines
 	
@@ -524,11 +518,7 @@ marines_generic = {
 	}
 }
 
-
 paratrooper_generic = {
-
-
-
 	role = paratroopers
 	
 	upgrade_prio = {
@@ -566,9 +556,6 @@ paratrooper_generic = {
 		}
 	}
 }
-
-
-
 # Non-complete list of sub-units
 
 # REGIMENTS:

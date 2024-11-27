@@ -198,7 +198,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-
 	### 2. Armee (Wehrmacht-Gruppenkommando) ###
 	division= {
 		location = 6521
@@ -339,7 +338,6 @@ units = {
 }
 
 ### Air oob in its own file
-
 
 #########################
 ## STARTING PRODUCTION ##

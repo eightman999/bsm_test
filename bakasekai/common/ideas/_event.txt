@@ -101,7 +101,6 @@ ideas = {
 			}
 		}
 
-
 		fascism_defeated = {
 			removal_cost = -1
 			

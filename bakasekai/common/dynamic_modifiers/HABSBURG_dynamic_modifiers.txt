@@ -26,7 +26,6 @@
 #	can be added to countries, states or unit leaders
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
-
 ###### COUNTRY MODIFIERS
 
 # Army Modifiers
@@ -110,8 +109,4 @@ HABSBURG_joint_industry_modifier = { #NATIONAL SPIRIT
 	production_factory_max_efficiency_factor = global.HABSBURG_industry_production_factory_max_efficiency_factor
 	
 }
-
-
-
-
 

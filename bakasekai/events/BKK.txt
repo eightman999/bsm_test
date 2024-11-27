@@ -14,7 +14,6 @@ country_event = {
 		tag = BKK
 	}
 
-
 	option = {
 		name = BKK.1.a  #絶対に止めるべきだ!
 		ai_chance = {
@@ -58,7 +57,6 @@ country_event = {
 		tag = SJK
 	}
 
-
 	option = {
 		name = BKK.2.a  #絶対に止めるべきだ!
 		ai_chance = {
@@ -100,7 +98,6 @@ country_event = {
 		tag = BKK
 	}
 
-
 	option = {
 		name = BKK.3.a  #絶対に止めるべきだ!
 		ai_chance = {
@@ -134,7 +131,6 @@ country_event = {
 		tag = GBR
 		tag = NTS
 	}
-
 
 	option = {
 		name = BKK.4.a  #絶対に止めるべきだ!
@@ -187,7 +183,6 @@ country_event = {
 	trigger = {
 	}
 
-
 	option = {
 		name = BKK.5.a  #パラドのアプデを待ちやがれ!
 		ai_chance = {
@@ -208,7 +203,6 @@ country_event = {
 
 	trigger = {
 	}
-
 
 	option = {
 		name = BKK.6.a  #パラドのアプデを待ちやがれ!

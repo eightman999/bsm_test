@@ -458,7 +458,6 @@ democratic_sleeping_giant_scorer = { #Finds the least armed big democratic_ideol
 	}   
 }
 
-
 ###################################################
 ###########       BY CONTINTENT     ###############
 ###################################################

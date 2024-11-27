@@ -1454,7 +1454,6 @@ focus_tree = {
 		}
 	}
 
-
 	# Army Tree
 	focus = {
 		id = MAC_army_effort

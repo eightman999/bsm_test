@@ -245,9 +245,6 @@ set_variable = {
 set_variable = {
 	ETH_state_decentralization_army_speed = 0.1
 }
-
-
-
 ### Add ideas 
 add_ideas = {
 	ETH_conservative_high_command_idea

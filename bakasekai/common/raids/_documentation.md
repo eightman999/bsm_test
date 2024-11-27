@@ -382,7 +382,6 @@ var:target_state
 var:target_province
 ```
 
-
 ### raid_damage_units
 
 Damage the units performing the raid in scope (the attackers inflict losses).

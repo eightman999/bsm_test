@@ -2277,7 +2277,6 @@
 # 			}
 # 		}
 
-
 # 		on_map_mode = map_and_decisions_view
 
 # 		custom_cost_trigger = {

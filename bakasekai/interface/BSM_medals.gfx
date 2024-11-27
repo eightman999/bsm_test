@@ -1,6 +1,5 @@
 spriteTypes = {
 
-
 	spriteType = {
 		name = "GFX_medal_icon_lih"
 		texturefile = "gfx/interface/medals/LIH_medal_strip.png"

@@ -8,7 +8,6 @@
 
  #################### 
 
-
 ITA_fiat_organization = {
 	include = generic_tank_organization
 	icon = GFX_idea_fiat
@@ -102,7 +101,6 @@ ITA_fiat_organization = {
 		}
 	}
 }
-
 
 #####################
 
@@ -345,9 +343,6 @@ ITA_cantieri_navali_tosi_organization = {
 		}
 	}
 }
-
-
-
 ###########################
 
 ###  #    ##  #  # ###  ## 
@@ -357,7 +352,6 @@ ITA_cantieri_navali_tosi_organization = {
 #    ### #  # #  # ### ##  
 
 ###########################
-
 
 ITA_macchi_organization = {
 	include = generic_light_aircraft_organization
@@ -793,9 +787,6 @@ ITA_fiat_aviazione_organization = {
 		}
 	}
 }
-
-
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -803,7 +794,6 @@ ITA_fiat_aviazione_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

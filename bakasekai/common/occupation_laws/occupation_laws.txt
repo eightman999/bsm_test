@@ -61,7 +61,6 @@
 #	}
 #}
 
-
 no_garrison = {
 	icon = 1
 	sound_effect = "Martial_Law_Interface_No_Garrison"
@@ -161,7 +160,6 @@ foreign_civilian_oversight = {
 	}
 }
 
-
 local_police_force_garrison = {
 	icon = 11
 	sound_effect = "Martial_Law_Interface_Local_Police_Force_Garrison"
@@ -175,14 +173,12 @@ local_police_force_garrison = {
 		local_resources 				= 0.00
 	}
 
-
 	ai_will_do = {
 		base = 100
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.09}
 			add = 200
 		}
-
 
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.34}
@@ -540,14 +536,12 @@ colonial_police = {
 		resistance_damage_to_garrison	= -0.4
 	}
 
-
 	ai_will_do = {
 		base = 250
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.3}
 			add = 200
 		}
-
 
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.44}
@@ -592,14 +586,12 @@ colonial_police_improved = {
 		local_resources 				= 0.25
 	}
 
-
 	ai_will_do = {
 		base = 250
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.3}
 			add = 200
 		}
-
 
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.44}
@@ -645,14 +637,12 @@ colonial_police_final = {
 
 	}
 
-
 	ai_will_do = {
 		base = 250
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.3}
 			add = 200
 		}
-
 
 		modifier = {
 			check_variable  = { resistance_target_without_law > 0.44}

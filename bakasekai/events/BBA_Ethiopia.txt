@@ -503,7 +503,6 @@
 # 	}
 # }
 
-
 # # BoP random events - trigger 
 # #TODO_TA remove logging
 # country_event = {
@@ -666,7 +665,6 @@
 # 			}
 			
 # 			### Other events
-
 
 # 		}
 		
@@ -1269,7 +1267,6 @@
 # 		}
 # 	}
 # }
-
 
 # ### PROTECTOR OF THE SOMALIS EVENT CHAIN
 # # Event to the UK asking for Control of all Somali states 
@@ -1957,7 +1954,6 @@
 
 # }
 
-
 # # For Ethiopia 
 # country_event = {
 # 	id = BBA_ethiopia_exile_events.23
@@ -2027,7 +2023,6 @@
 		
 # 	}
 # }
-
 
 # ### SWEDISH EXILE 
 # # For Sweden - Ethiopia suggests that we join a faction 
@@ -2195,7 +2190,6 @@
 # 		}	
 # 	}
 # }
-
 
 # # GERMANY EXILE
 # # For Germany, Ethiopia Requests Mendiation 
@@ -2415,7 +2409,6 @@
 # 	}
 # }
 
-
 # # For Italy, Germany refuses 
 # country_event = {
 # 	id = BBA_ethiopia_exile_events.44
@@ -2624,7 +2617,6 @@
 # 	}
 
 # }
-
 
 # # False Flag operation 
 # # For Germany, Italians appear to attack
@@ -3034,9 +3026,6 @@
 # 		}
 # 	}
 # }
-
-
-
 # # To Ethiopia, they will give us jamaica 
 # country_event = {
 # 	id = BBA_ethiopia_imperial_events.5
@@ -3055,7 +3044,6 @@
 # 	}
 	
 # }
-
 
 # # To Ethiopia, they refuse to give us jamaica
 # country_event = {
@@ -3172,7 +3160,6 @@
 # 	}
 	
 # }
-
 
 # # To Ethiopia, they refuse to join
 # country_event = {
@@ -3349,9 +3336,6 @@
 # 		custom_effect_tooltip = ETH_imperial_event_21_tt
 # 	}
 # }
-
-
-
 
 # ##############################################################################
 
@@ -4189,7 +4173,6 @@
 	
 # } 
 
-
 # # For Ethiopia - Italy accepts 
 # country_event = {
 # 	id = BBA_ethiopia_fascist_events.05
@@ -4974,7 +4957,6 @@
 # 	}
 # }
 
-
 # # ITA refuses to send equipment
 # country_event = {
 # 	id = BBA_ethiopia_fascist_events.55
@@ -5075,9 +5057,6 @@
 # 		}
 # 	}
 # }
-
-
-
 # # ITA Agree to send designers
 # country_event = {
 # 	id = BBA_ethiopia_fascist_events.58
@@ -5550,7 +5529,6 @@
 # 		}	
 # 	}
 # }
-
 
 # ##########################################################################
 

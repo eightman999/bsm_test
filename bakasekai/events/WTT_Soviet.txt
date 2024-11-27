@@ -117,6 +117,3 @@
 # 		name = wtt_soviet_hold_city_o_fail
 # 	}
 # }
-
-
-

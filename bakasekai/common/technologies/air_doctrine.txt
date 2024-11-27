@@ -1,6 +1,5 @@
 technologies = {
 
-
 	air_superiority = {
 		doctrine_name = "TITLE_STRATEGIC_DESTRUCTION"
 		
@@ -1715,7 +1714,6 @@ technologies = {
 		}
 	}
 
-
 	cas_veteran_initiative = {
 
 		# EFFECT ########
@@ -1936,7 +1934,6 @@ technologies = {
 			heavy_air = -1.5
 		}
 	}
-
 
 #	
 #	air_defence = {

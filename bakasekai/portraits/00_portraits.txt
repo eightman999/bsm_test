@@ -266,7 +266,6 @@ continent = {
 		}
 	}
 
-
 }
 
 continent = {
@@ -680,7 +679,6 @@ MAL_UK = {
 		}
 	}
 }
-
 
 RAJ = {
 	army = {

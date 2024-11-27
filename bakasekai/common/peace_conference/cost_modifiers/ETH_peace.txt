@@ -15,7 +15,6 @@ peace_action_modifiers = {
         cost_multiplier = 0.55
     }
 
-
     ETH_end_of_civil_war_cost_modifier_low = {
         category = treaties_or_conferences
         peace_action_type = take_states
