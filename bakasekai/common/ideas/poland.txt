@@ -402,7 +402,6 @@ country = {
 			is_subject = no 
 		}
 
-
 		removal_cost = -1
 
 		picture = POL_april_constitution
@@ -430,7 +429,6 @@ country = {
 		available = {
 			is_subject = no 
 		}
-
 
 		removal_cost = -1
 
@@ -461,7 +459,6 @@ country = {
 			is_subject = no 
 		}
 
-
 		removal_cost = -1
 
 		picture = POL_april_constitution
@@ -487,7 +484,6 @@ country = {
 		available = {
 			is_subject = no 
 		}
-
 
 		removal_cost = -1
 
@@ -517,7 +513,6 @@ country = {
 			is_subject = no 
 		}
 
-
 		removal_cost = -1
 
 		picture = POL_april_constitution
@@ -546,7 +541,6 @@ country = {
 		available = {
 			is_subject = no 
 		}
-
 
 		removal_cost = -1
 
@@ -859,7 +853,6 @@ country = {
 
 	POL_ideological_fanaticism = {
 
-
 		allowed = {
 			always = no
 		}
@@ -881,7 +874,6 @@ country = {
 
 	POL_segregated_seating_abolished = {
 
-
 		allowed = {
 			always = no
 		}
@@ -902,7 +894,6 @@ country = {
 
 	POL_national_defence_fund_idea = {
 
-
 		allowed = {
 			always = no
 		}
@@ -921,7 +912,6 @@ country = {
 	}
 
 	POL_central_defence_of_poland_idea = {
-
 
 		allowed = {
 			always = no
@@ -2218,7 +2208,6 @@ country = {
 
 			picture = generic_naval_manufacturer_1
 
-
 			allowed = {
 				original_tag = POL
 				has_dlc = "Poland: United and Ready"
@@ -2247,7 +2236,6 @@ country = {
 
 			picture = generic_air_manufacturer_1
 
-
 			allowed = {
 				original_tag = POL
 				has_dlc = "Poland: United and Ready"
@@ -2271,7 +2259,6 @@ country = {
 		POL_pzl = {
 
 			picture = generic_air_manufacturer_2
-
 
 			allowed = {
 				original_tag = POL

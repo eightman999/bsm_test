@@ -4,7 +4,6 @@
 # ROOT = the origin country of the operation
 # ------------------------------------------
 
-
 # Every operation needs a <unique id>, which is operation_test in this case
 operation_test = {
 

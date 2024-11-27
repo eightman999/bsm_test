@@ -111,17 +111,11 @@
 # 					start_weight = -0.1
 # 					weight = 0.1
 # 				}
-
-
-
 # 				air_superiority = {
 # 					reference = 1.0
 # 					start_weight = -0.25
 # 					weight = 0.25
 # 				}
-
-
-
 # 				# Target
 # 				interception = {
 # 					reference = 10
@@ -334,9 +328,6 @@
 # 				}
 # 			}
 # 		}
-
-
-
 # 		success_levels = {
 # 			failure = {
 # 				actor_effects = {
@@ -508,17 +499,11 @@
 # 					start_weight = -0.1
 # 					weight = 0.1
 # 				}
-
-
-
 # 				air_superiority = {
 # 					reference = 1.0
 # 					start_weight = -0.25
 # 					weight = 0.25
 # 				}
-
-
-
 # 				# Target
 # 				interception = {
 # 					reference = 10
@@ -638,7 +623,6 @@
 # 			}
 # 		}
 # 	}
-
 
 # 	thermonuclear_missile_strike = {
 # 		category = nuclear_raids

@@ -3,9 +3,6 @@
 # ###########################
 
 # add_namespace = stability
-
-
-
 # #low stability selector event, hidden
 # country_event = {
 # 	id = stability.3
@@ -156,7 +153,6 @@
 # 	}
 
 # }
-
 
 # #draft dodging
 # country_event = {
@@ -784,7 +780,6 @@
 # 	}
 # }
 
-
 # #military crackdown response to draft dodging - success
 # country_event = {
 # 	id = stability.31
@@ -947,7 +942,6 @@
 # 	}
 
 # }
-
 
 # #military crackdown response to draft dodging, level 3 - success
 # country_event = {

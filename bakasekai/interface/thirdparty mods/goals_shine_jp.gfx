@@ -611,9 +611,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
-
-
 	SpriteType = {
 		name = "GFX_focus_generic_military_academy_shine"
 		texturefile = "gfx/interface/goals/focus_generic_military_academy.dds"
@@ -5191,9 +5188,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
-
-
 	### Romania
 
 	SpriteType = {
@@ -5390,7 +5384,6 @@ spriteTypes = {
 
 	### Hungary
 
-
 	SpriteType = {
 		name = "GFX_focus_hun_elect_a_king_shine"
 		texturefile = "gfx/interface/goals/focus_hun_elect_a_king.dds"
@@ -5422,7 +5415,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_focus_hun_assassinate_horthy_shine"
@@ -5456,7 +5448,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
 	SpriteType = {
 		name = "GFX_focus_secret_rearmament_shine"
 		texturefile = "gfx/interface/goals/focus_secret_rearmament.dds"
@@ -5489,7 +5480,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
 	SpriteType = {
 		name = "GFX_focus_proclaim_the_restauration_of_Austria_Hungary_shine"
 		texturefile = "gfx/interface/goals/focus_proclaim_the_restauration_of_austria_hungary.dds"
@@ -5521,7 +5511,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_focus_renounce_the_treaty_of_trianon_shine"
@@ -5784,7 +5773,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_focus_YUG_banovina_of_croatia_shine"
@@ -6235,7 +6223,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_goal_tfv_sever_ties_with_uk_shine"
@@ -7524,7 +7511,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	### MEX
 
@@ -9131,9 +9117,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
 	### HOL
-
 
 	SpriteType = {
 		name = "GFX_focus_hol_abandon_the_gold_standard_shine"
@@ -12247,7 +12231,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
 	SpriteType = {
 		name = "GFX_focus_KOB_strike_the_junta_shine"
 		texturefile = "gfx/interface/goals/KOB_strike_the_junta.dds"
@@ -12279,7 +12262,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_focus_KOB_join_the_fight_for_france_shine"
@@ -12313,7 +12295,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
 	SpriteType = {
 		name = "GFX_focus_KOB_a_deal_with_the_junta_shine"
 		texturefile = "gfx/interface/goals/KOB_a_deal_with_the_junta.dds"
@@ -12345,7 +12326,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_focus_KOB_charm_european_nations_shine"
@@ -12379,7 +12359,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-
 	SpriteType = {
 		name = "GFX_focus_KOB_friendship_mission_to_the_shogunate_shine"
 		texturefile = "gfx/interface/goals/KOB_friendship_mission_to_the_shogunate.dds"
@@ -12411,7 +12390,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 
 	SpriteType = {
 		name = "GFX_focus_KOB_strike_while_theyre_weak_shine"

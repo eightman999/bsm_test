@@ -377,7 +377,6 @@
  WES_SAND_infantry_equipment_organization: "砂弾銃研究機構"
  WES_SAND_motorized_mechanized_organization: "砂自動車研究所"
 
-
  WES_SAND_mio_initial_trait_standardized_production: "砂を使った生産"
  WES_SAND_mio_trait_simplified_suspension: "砂部品の増加"
  WES_SAND_mio_trait_crew_ergonomics: "乗員砂人間工学"
@@ -465,7 +464,6 @@
  WES_SAND_mio_trait_bulletproof_panels: "防弾パネル"
  WES_SAND_mio_trait_light_flame_projectors: "軽火炎放投射機"
  WES_SAND_mio_trait_land_mine_racks: "地雷ラック"
-
 
  #leadeer
  WES_el_ouali_mustapha_sayed: "El Ouali Mustapha Sayed"

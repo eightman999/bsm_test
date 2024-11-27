@@ -951,7 +951,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	# Patton up there
@@ -1087,7 +1086,6 @@ characters={
 		}
 	}
 
-
 	### ARMY CHIEFS ###
 
 	# Eisenhower up there
@@ -1125,7 +1123,6 @@ characters={
 	# King up there
 
 	# Nimitz up there
-
 
 	### AIR CHIEFS
 
@@ -1239,7 +1236,6 @@ characters={
 		}
 	}
 
-
 	### MILITARY HIGH COMMAND ###
 
 	# Clark up there
@@ -1345,7 +1341,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###
 		

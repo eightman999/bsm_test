@@ -96,7 +96,6 @@ crisis = {
 			}
 		}
 
-
 		complete_effect = {
 			# country_event = stability.22
 		}

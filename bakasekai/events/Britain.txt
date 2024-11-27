@@ -275,7 +275,6 @@ country_event = {
 	}
 }
 
-
 # Chamberlain Passes Away
 country_event = {
 	id = britain.10
@@ -723,7 +722,6 @@ country_event = {
 		}
 	}
 }
-
 
 #Free India Government Leads Revolt
 country_event = {

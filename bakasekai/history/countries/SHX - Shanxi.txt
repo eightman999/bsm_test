@@ -4,9 +4,7 @@ set_stability = 0.7
 set_war_support = 0.4
 set_cosmetic_tag = SHX_military_clique
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 recruit_character = SHX_yan_xishan
 recruit_character = SHX_wang_jingguo

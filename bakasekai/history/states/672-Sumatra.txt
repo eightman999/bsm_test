@@ -11,7 +11,6 @@ state={
 		aluminium=28 # was: 50
 	}
 
-
 	history=
 	{
 		owner = IDN

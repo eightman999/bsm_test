@@ -417,7 +417,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	LAT_ludvigs_bolsteins={
@@ -462,7 +461,6 @@ characters={
 			}
 		}
 	}
-
 
 	### ARMY CHIEFS ###
 
@@ -536,7 +534,6 @@ characters={
 		}
 	}
 
-
 	### NAVY CHIEFS ###
 
 	LAT_tomas_spade={
@@ -585,7 +582,6 @@ characters={
 		}
 	}
 
-
 	### AIR CHIEFS ###
 
 	LAT_konstantins_cakste={
@@ -633,7 +629,6 @@ characters={
 			}
 		}
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -710,7 +705,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###
 	

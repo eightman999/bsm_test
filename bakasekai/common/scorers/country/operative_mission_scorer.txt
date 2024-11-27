@@ -74,7 +74,6 @@ operative_mission_build_intel_network_scorer = {
 	}
 }
 
-
 operative_mission_quiet_network_scorer = {
 	targets = {
 	}
@@ -131,7 +130,6 @@ operative_mission_boost_ideology_scorer = {
 		# TODO
 	}
 }
-
 
 operative_mission_control_trade_scorer = {
 	targets = {

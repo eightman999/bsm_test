@@ -121,7 +121,6 @@ FIN_valtion_panssaritehdas_organization = {
 	}
 }
 
-
 #####################
 
  ## #  # ### ###   ## 
@@ -278,7 +277,6 @@ FIN_crichton_vulcan_organization = { #Coastal Defense Ships & Subs
 	}
 }
 
-
 ###########################
 
 ###  #    ##  #  # ###  ## 
@@ -368,7 +366,6 @@ FIN_valtion_lentokonetehdas_organization = { #Light Aircraft
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 
@@ -491,7 +488,6 @@ FIN_valtion_kivaaritehdas_organization = { #Infantry Equipment
 	}
 }
 
-
 #########################
 ####### ARTILLERY #######
 #########################
@@ -565,9 +561,6 @@ FIN_valtion_tykkitehdas_organization = { #AT (Artillery)
 		}
 	}
 }
-
-
-
 #########################
 ####### MOTORIZED #######
 #########################
@@ -785,10 +778,6 @@ FIN_sisu_auto_organization = { #Motorized
 	}
 }
 
-
-
-
-
 ##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##      ## ##      ##    ##    ##
 ##        ##  ##          ##       ##     ## ##          ##          ##     ##   ##     ##    ##
@@ -797,9 +786,7 @@ FIN_sisu_auto_organization = { #Motorized
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##    ##     ##    ##    ##    ##
 ######## ####  ######     ##        #######  ##           ######     ##    ##     ##    ##     ######
 
-
 ### EQUIPMENT STATS ###
-
 
 ###  ##  #  # # #  ## 
  #  #  # ## # # # #   
@@ -823,9 +810,6 @@ FIN_sisu_auto_organization = { #Motorized
 #build_cost_ic
 #entrenchment - only if you have DLC NSB  and module dozer_blade
 #fuel_capacity - only if you have DLC NSB  and module expanded_fuel_tank
-
-
-
  ## #  # ### ###   ## 
 #   #  #  #  #  # #   
  #  ####  #  ###   #  
@@ -860,9 +844,6 @@ FIN_sisu_auto_organization = { #Motorized
 #naval_torpedo_hit_chance_factor (requires modules)
 #naval_light_gun_hit_chance_factor (requires modules)
 #naval_heavy_gun_hit_chance_factor (requires modules)
-
-
-
 ###  #    ##  #  # ###  ## 
 #  # #   #  # ## # #   #   
 ###  #   #### # ## ##   #  
@@ -891,9 +872,6 @@ FIN_sisu_auto_organization = { #Motorized
 #mines_planting - if you have MtG and BBA
 #mines_sweeping - if you have MtG and BBA
 #night_penalty - only if you have BBA DLC (you need to have module because base value is 0 - radio navigation
-
-
-
 #   #  ##  ### ### ###  ### ### #   
 ## ## #  #  #  #   #  #  #  #   #   
 # # # ####  #  ##  ###   #  ##  #   
@@ -920,7 +898,6 @@ FIN_sisu_auto_organization = { #Motorized
 ##############################
 #reliability
 #build_cost_ic
-
 
 #############################
 #### ARTILLERY EQUIPMENT ####
@@ -978,7 +955,6 @@ FIN_sisu_auto_organization = { #Motorized
 #air_attack
 #build_cost_ic
 
-
 ##############################
 #### MOTORIZED EQUIPMENT #####
 ##############################
@@ -1031,7 +1007,6 @@ FIN_sisu_auto_organization = { #Motorized
 #build_cost_ic
 #fuel_consumption
 
-
 ################################
 #### ARMORED CAR EQUIPMENT #####
 ################################
@@ -1048,7 +1023,6 @@ FIN_sisu_auto_organization = { #Motorized
 #build_cost_ic
 #fuel_consumption
 
-
 ##########################
 #### TRAIN EQUIPMENT #####
 ##########################
@@ -1063,7 +1037,6 @@ FIN_sisu_auto_organization = { #Motorized
 #maximum_speed
 #railway_gun_attack
 #build_cost_ic
-
 
 ### PRODUCTION MODIFIERS ###
 #production_cost_factor

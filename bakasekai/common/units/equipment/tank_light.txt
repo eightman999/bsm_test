@@ -422,7 +422,6 @@ equipments = {
 #		}
 #	}
 
-
 #	light_tank_aa_equipment = {
 #		year = 1934
 #

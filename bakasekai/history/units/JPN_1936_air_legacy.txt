@@ -1,8 +1,5 @@
 ﻿
 
-
-
-
 #AIRCRAFT
 air_wings = {
 	### IJA Air Forces ###
@@ -125,7 +122,6 @@ air_wings = {
 	}
 			
 }
-
 
 #########################
 ## STARTING PRODUCTION ##

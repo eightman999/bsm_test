@@ -880,7 +880,6 @@ ideas = {
 				always = no
 			}
 
-
 			removal_cost = -1
 
 			picture = generic_air_payment
@@ -1791,7 +1790,6 @@ ideas = {
 			}
 		}	
 
-
 	}
 	
 	industrial_concern = {
@@ -1922,8 +1920,5 @@ ideas = {
 		}
 
 	}
-
-
-
 
 }

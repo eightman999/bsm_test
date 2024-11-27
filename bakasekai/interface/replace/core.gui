@@ -50,7 +50,7 @@ guiTypes = {
 		
 		# Console entry
 		instantTextBoxType={
-			position = { x=10 y=70 }
+			position = { x=10 y=75 }
 			name = "console_text"
 			#textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
 			font = "Arial12"
@@ -118,7 +118,6 @@ guiTypes = {
 		maxHeight = 64
 	}
 
-
 	#### DEFAULT SLIDER.
 	scrollbarType = {
 			name = "standardlistbox_slider"	
@@ -136,7 +135,6 @@ guiTypes = {
 			scroll_speed = 40
 			startValue = 0
 			horizontal = 0
-
 
 			guiButtonType = {
 				name = "listboxSliderButton"	
@@ -181,7 +179,6 @@ guiTypes = {
 		stepSize =0.01
 		startValue = 0
 		horizontal = 1
-
 
 		guiButtonType = {
 			name = "listboxSliderButton"	
@@ -457,7 +454,6 @@ guiTypes = {
 			startValue = 0
 			horizontal = 0
 
-
 			guiButtonType = {
 				name = "listboxSliderButton"	
 				quadTextureSprite = "GFX_scroll_drager"
@@ -503,7 +499,6 @@ guiTypes = {
 			startValue = 0
 			horizontal = 0
 
-
 			guiButtonType = {
 				name = "listboxSliderButton"	
 				quadTextureSprite = "slider_noslider"
@@ -538,7 +533,6 @@ guiTypes = {
 			}
 	}
 
-
 	containerWindowType = {
 		name = "error_log_win"
 		position = { x=-192 y=-30}	
@@ -568,7 +562,6 @@ guiTypes = {
 		name = "slow_interface_win"
 		position = { x=-150 y=500}
 		Orientation = upper_right
-
 
 		instantTextboxType = {
 			name = "slow_text"

@@ -8,7 +8,6 @@
 
  #################### 
 
-
 GER_porsche_organization = {
 	include = generic_heavy_tank_organization
 	icon = GFX_idea_porsche
@@ -445,7 +444,6 @@ GER_dornier_organization = {
 	}
 }
 
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -453,7 +451,6 @@ GER_dornier_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

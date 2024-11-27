@@ -1334,7 +1334,6 @@ characters={
 
 			removal_cost = -1
 
-
 			ai_will_do = {
 				base = 10
 				modifier = {
@@ -1487,7 +1486,6 @@ characters={
 			}
 		}
 	}
-
 
 	SWI_walter_allgower={
 		advisor={
@@ -1677,7 +1675,6 @@ characters={
 			on_remove = {
 				SWI_on_remove_councilor = yes
 			}
-
 
 			removal_cost = -1
 			ai_will_do = {
@@ -1928,7 +1925,6 @@ characters={
 			}
 		}
 	}	
-
 
 	SWI_max_weber={
 		advisor={

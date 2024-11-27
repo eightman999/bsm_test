@@ -1947,7 +1947,6 @@ equipments = {
 		}
 	}
 
-
 	### SPECIAL PROJECT ### 
 
 	### LAND CRUISER (NO-NSB VERSION)

@@ -165,7 +165,6 @@ country_event = {
 
 add_namespace = lar_fake_intel_units
 
-
 # delete old intel units created by script
 country_event = {
 	id = lar_fake_intel_units.1
@@ -215,7 +214,6 @@ country_event = {
 }
 
 add_namespace = lar_collab_gov
-
 
 # collab government event
 country_event = {

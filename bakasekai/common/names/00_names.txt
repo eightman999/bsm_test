@@ -27,7 +27,6 @@ default = {
     surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
     callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
 
-
     #Operations - treat these as keys, not strings.
     prefix = o_operation
 
@@ -340,7 +339,6 @@ TWN = {
 	}
 	callsigns = { }
 }
-
 
 SCC = {
     male = {
@@ -720,9 +718,6 @@ DRS = {
     }
 
 }
-
-
-
 GBR = {
     male = {
         names = {
@@ -1597,7 +1592,6 @@ SBR = {
     }
 }
 
-
 RUS = {
     male = {
         names = {
@@ -1735,7 +1729,6 @@ RUS = {
         }
     }
 }
-
 
 SOV = {
     male = {
@@ -2065,7 +2058,6 @@ VAT = {
     }
     callsigns = { Buzzard Dusty Falcon Hawk Hammer Viper Banshee "The Baron" Lightning Duce Raven "Two Shot" Rosso Robur Gino Giri }
 }
-
 
 USA = {
     male = {
@@ -2937,7 +2929,6 @@ CLF = {
     }
 }
 
-
 NYY = {
     male = {
         names = {
@@ -3082,9 +3073,6 @@ NYY = {
         }
     }
 }
-
-
-
 USB = {
     male = {
         names = {
@@ -3331,10 +3319,6 @@ JAP = {
 }
 
 
-
-
-
-
 ###############################################################
 # Scandinavia
 ###############################################################
@@ -3378,7 +3362,6 @@ NOR = {
     }
 }
 
-
 FIN = {
     male = {
         names = {
@@ -3408,7 +3391,6 @@ NKA = {
     surnames = { Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen
 }
 }
-
 
 GRL = {
     male = {
@@ -3529,9 +3511,6 @@ surnames = {
 }
 callsigns = { }
 }
-
-
-
 ###############################################################
 # Eastern Europe
 ###############################################################
@@ -3638,7 +3617,6 @@ GOC = {
     }
     callsigns = { Zeus Hera Poseidon Ares Athena Aphrodite Hermes Hades Apollo }
 }
-
 
 GRC = {
     male = {
@@ -3861,7 +3839,6 @@ CRO = {
     callsigns = { }
 }
 
-
 # SLO = {
 # 	male = {
 # 		names = { "Karol" "Jozef" "Slavomír" "Jaroslav" "Ján" "Vladimír" "Alojz" "Matúš" "Vojtech" }
@@ -3872,7 +3849,6 @@ CRO = {
 # 		surnames = { "Nemcová" "Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" "Horňáková" }
 # 	}
 # }
-
 
 POL = {
     male = {
@@ -4129,7 +4105,6 @@ KAR = {
     callsigns = {  }
 }
 
-
 #Crimea
 CRI = {
     male = {
@@ -4147,7 +4122,6 @@ CRI = {
     }
     callsigns = {  }
 }
-
 
 #Tatarstan
 TAT = {
@@ -4233,7 +4207,6 @@ KBK = {
     callsigns = {  }
 }
 
-
 #North Ossetia-Alania
 NOA = {
     male = {
@@ -4288,7 +4261,6 @@ BSK = {
     callsigns = {  }
 }
 
-
 #Bukhara
 BUK = {
     male = {
@@ -4330,7 +4302,6 @@ BUK = {
     }
     callsigns = {  }
 }
-
 
 #Khiva
 KHI = {
@@ -4429,9 +4400,6 @@ UDM = {
     callsigns = {  }
 }
 
-
-
-
 ###############################################################
 # Western Europe
 ###############################################################
@@ -4478,7 +4446,6 @@ BLX = {
         Orban Pétillon Picquet Pirmez Pirson Raikem Roeser Rogier Rouen Rouppe Seron Thonus Thorn "van Snick" Wahis Wangermée Wyvekens Zoude
     }
 }
-
 
 LUX = {
     male = {
@@ -4554,7 +4521,6 @@ HOL = {
     }
 }
 
-
 CZE = {
     male = {
         names = { "Karel" "Josef" "Jaroslav" "František" "Rostislav" "Václav" "Antonín" "Milan" "Stanislav" "Slavomír" "Jan" "Vilém" "Bořivoj" "Vladimír" "Alois" "Matúš" "Vojtěch" }
@@ -4567,7 +4533,6 @@ CZE = {
         "Horváthová" "Majerová" "Kocianová" "Chalupová" "Ferková" }
     }
 }
-
 
 OGY = {
     male = {
@@ -4583,7 +4548,6 @@ OGY = {
 }
 callsigns = { }
 }
-
 
 AUS = {
     male = {
@@ -4762,7 +4726,6 @@ PML = {
     callsigns = { }
 }
 
-
 CEU = {
     male = {
         names = {
@@ -4797,7 +4760,6 @@ CEU = {
     }
     callsigns = { }
 }
-
 
 ESP = {
     male = {
@@ -6235,7 +6197,6 @@ CTO = {
     callsigns = { }
 }
 
-
 CCS = {
     male = {
         names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
@@ -6246,7 +6207,6 @@ CCS = {
     surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
     callsigns = { }
 }
-
 
 CHN = {
     male = {
@@ -6672,7 +6632,6 @@ KHA = {
         callsigns = {  }
     }
 
-
     #Chukotka (Same as Yakutia)
     CKK = {
         male = {
@@ -6775,7 +6734,6 @@ KHA = {
         callsigns = {  }
     }
 
-
     # Yamalia (Namelist for all Samoyed states)
     YAM = {
         male = {
@@ -6793,7 +6751,6 @@ KHA = {
         }
         callsigns = {  }
     }
-
 
     # Ostyak-Vogulia / Khanty-Mansi
     OVO = {
@@ -6813,7 +6770,6 @@ KHA = {
         callsigns = {  }
     }
 
-
     # Nenetsia (Namelist for all Samoyedic peoples)
     NEN = {
         male = {
@@ -6832,7 +6788,6 @@ KHA = {
         callsigns = {  }
     }
 
-
     # Komi Republic, Finno-Ugric, get to use Ostyak-Vogulias namelist
     KOM = {
         male = {
@@ -6850,9 +6805,6 @@ KHA = {
         }
         callsigns = {  }
     }
-
-
-
     ###############################################################
     # Africa
     ###############################################################
@@ -7851,7 +7803,6 @@ KHA = {
         callsigns = { }
     }
 
-
     ###############################################################
     # North America
     ###############################################################
@@ -8212,7 +8163,6 @@ DOM = {
             Jesús Joaquín José "José Miguel" Juan "Juan Bautista" Manuel Mariano Mario Máximo
             Osvaldo Pablo Pedro Rafael Ramón Raúl Salvador Romás Ulises Wenceslao
 
-
         }
     }
     female = {
@@ -8255,7 +8205,6 @@ HAI = {
     callsigns = { }
 }
 
-
 ###############################################################
 # South America
 ###############################################################
@@ -8281,7 +8230,6 @@ BRA = {
     }
     callsigns = { }
 }
-
 
 ARG = {
     male = {
@@ -8813,7 +8761,6 @@ PUE = {
         Narváez O'Donnell Ortega Pavía Pérez  Rodríguez Rojo Ruiz
         Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe
 
-
     }
     callsigns = { }
 }
@@ -9223,7 +9170,6 @@ ARM = {
     }
 }
 
-
 AZR = {
     male = {
         names = {
@@ -9271,7 +9217,6 @@ AFA = {
     callsigns = { "Danakil" "Aussa" "Keyi Bahiri" }
 }
 
-
 TIG = {
     male = {
         names = {
@@ -9288,7 +9233,6 @@ TIG = {
     }
     callsigns = { "Adwa" "Axum" "Aksum" "Adua" "Macalle" "Tigrinya" "Danakil" "Tana" }
 }
-
 
 QEM = {
     male = {
@@ -9307,7 +9251,6 @@ QEM = {
     callsigns = { "Tana" "Semien" "Beta Israel" "Falash Mura" "Qwara" "Gondar" }
 }
 
-
 BEG = {
     male = {
         names = {
@@ -9324,7 +9267,6 @@ BEG = {
     }
     callsigns = { "Berta" "Gumuz" "Uduk" "Funj" "Benishangul" }
 }
-
 
 ORO = {
     male = {
@@ -9343,7 +9285,6 @@ ORO = {
     callsigns = { "Oromo" "Gadaa" "Addis Abeba" "Bale" }
 }
 
-
 GBA = {
     male = {
         names = {
@@ -9360,7 +9301,6 @@ GBA = {
     }
     callsigns = { "Anuak" "Nuer" "Mezhenger" "Anywaa" "Oromo" "Majang" "Gambela" }
 }
-
 
 SID = {
     male = {

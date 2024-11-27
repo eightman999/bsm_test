@@ -70,7 +70,6 @@
 # 		}
 # 	}
 
-
 # 	SWI_make_germany_happy = {
 # 		complete_effect = {
 # 			DEU = {
@@ -441,7 +440,6 @@
 # 		}
 # 	}
 
-
 # 	SWI_decision_remove_councilor_3 = {
 		
 # 		icon = GFX_decision_SWI_dismiss_council
@@ -679,7 +677,6 @@
 # 		}
 # 	}
 
-
 # 	SWI_invite_to_entente = {
 # 		icon = GFX_decision_hol_exchange_intelligence_data
 # 		priority = 100
@@ -723,7 +720,6 @@
 # 		}
 # 	}
 
-
 # 	SWI_buy_ships_from_country = {
 # 		icon = GFX_decision_generic_naval
 # 		priority = 20
@@ -756,7 +752,6 @@
 # 			}
 # 		}
 
-
 # 		complete_effect = {
 # 			FROM = {
 # 				country_event = { id = BBA_generic_purchase_ships_events.01 hours = 3 }
@@ -767,7 +762,6 @@
 # 			base = 100
 # 		}
 # 	}
-
 
 # 	SWI_cancel_fascism_ban = {
 # 		icon = GFX_decision_generic_break_treaty
@@ -1032,7 +1026,6 @@
 # ######################## COUNCIL PRESIDENT INITIATIVES ################# 	
 # ########################################################################
 
-
 # 	SWI_recently_finished_president_initiative_mission = {
 
 # 		icon = GFX_decision_SWI_elect_confederation_president
@@ -1128,7 +1121,6 @@
 # 			}
 # 		}
 # 	}
-
 
 # 	SWI_swiss_democratic_tradition_campaign = { #For Cantonal Conservatives and Radical Democrats
 
@@ -1894,7 +1886,6 @@
 # 		}	
 # 	}
 
-
 # 	SWI_appease_fascists = { #for Fascist Appeasers and Fascist presidents
 
 # 		icon = GFX_decision_eng_trade_unions_support
@@ -2490,7 +2481,6 @@
 
 # 				}
 
-
 # 			}
 # 			set_country_flag = SWI_has_done_backchannel_negotiations_once
 # 		}
@@ -2506,7 +2496,6 @@
 # 			has_completed_focus = SWI_armed_neutrality
 # 			NOT = { has_country_flag = SWI_militia_active } 
 # 		}
-
 
 # 		custom_cost_trigger = {
 # 			check_variable = {
@@ -3213,7 +3202,6 @@
 # 			add_command_power = 50
 # 		}
 
-
 # 		ai_will_do = {
 # 			base = 100 
 # 			modifier = {
@@ -3300,7 +3288,6 @@
 # 					has_country_flag = SWI_gold_trading_partner
 # 				}
 # 			}
-
 
 # 		}
 
@@ -3802,9 +3789,6 @@
 # 	}
 # }
 
-
-
-
 # SWI_military_readiness_decisions_category = {	
 
 # 	SWI_activate_militia = {  # Activates Militias after a Delay
@@ -4001,7 +3985,6 @@
 # 			activate_mission = SWI_building_up_military_readiness_mission
 # 		} 
 # 	}
-
 
 # 	SWI_confederation_president_speech = {
 # 		priority = 99
@@ -4394,7 +4377,6 @@
 
 # 		fire_only_once = no
 
-
 # 		days_remove = 45
 
 # 		custom_cost_trigger = {
@@ -4662,5 +4644,4 @@
 # 		}
 # 	}
 # }
-
 

@@ -19,7 +19,6 @@ peace_action_modifiers = {
         cost_multiplier = 0.1
     }
 
-
     yalta_pls_leave_poland_alone = {
         category = treaties_or_conferences
         peace_action_type = { take_states puppet liberate force_government }
@@ -49,7 +48,6 @@ peace_action_modifiers = {
         }
         cost_multiplier = 3.0
     }
-
 
     yalta_pls_leave_wgr_alone = {
         category = treaties_or_conferences
@@ -83,7 +81,6 @@ peace_action_modifiers = {
         }
         cost_multiplier = 3.0
     }
-
 
     yalta_pls_leave_ddr_alone = {
         category = treaties_or_conferences
@@ -120,7 +117,6 @@ peace_action_modifiers = {
         cost_multiplier = 3.0
     }
 
-
     yalta_wgr = {
         category = treaties_or_conferences
         peace_action_type = { puppet }
@@ -137,7 +133,6 @@ peace_action_modifiers = {
         }
         cost_multiplier = 0.6
     }
-
 
     yalta_ddr = {
         category = treaties_or_conferences

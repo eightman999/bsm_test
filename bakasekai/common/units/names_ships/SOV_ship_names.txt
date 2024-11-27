@@ -511,10 +511,6 @@ SOV_RIVERS = {
 	}
 }
 
-
-
-
-
 ###########################
 ### NON-COMMUNIST NAMES ###
 ###########################
@@ -613,7 +609,6 @@ SOV_CL_IMPERIAL = {
 		"Almaz" "Zhemchug" "Kazarsky" "Voevoda" "Posadnik" "Vsadnik" "Griden" "Abrek" "Strazh" "Chasovoy"
 	}
 }
-
 
 ### HEAVY CRUISER NAMES###
 SOV_CA_IMPERIAL = {

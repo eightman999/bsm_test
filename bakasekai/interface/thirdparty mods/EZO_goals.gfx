@@ -134,7 +134,6 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_EZO_elections.dds"			
 	}
 
-
 	SpriteType = {
 	name = "GFX_focus_EZO_unionise_the_workers"
 	texturefile = "gfx/interface/goals/focus_EZO_unionise_the_workers.dds"			

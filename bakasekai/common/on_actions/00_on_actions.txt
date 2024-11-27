@@ -107,6 +107,9 @@ on_actions = {
 				add_dynamic_modifier = {
 					modifier = civ_research_buff
 				}
+				add_dynamic_modifier = {
+					modifier = bsm_uc_factor
+				}
 			}
 			every_country = {
 				limit = {
@@ -284,10 +287,7 @@ on_actions = {
 	}
 	on_declare_war = {
 		effect = {
-			if = {
-				limit = {
-					tag = CHN
-				}
+			CHN = {
 				if = {
 					limit = {
 						has_game_rule = {
@@ -312,6 +312,7 @@ on_actions = {
 					}
 				}
 			}
+			
 		}
 	}
 }

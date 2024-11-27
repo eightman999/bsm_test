@@ -832,7 +832,6 @@ objectTypes = {
 	}
 }
 
-
 bitmapfonts = {
 	# Global text colors used in the entire game, for use in loc files ex: "§G Text Text§!"
 	textcolors = {

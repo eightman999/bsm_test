@@ -40,7 +40,6 @@ music = {
 	volume = 0.75
 }
 
-
 # Allies Peace:
 music = {
 	name = "music_supernuke"

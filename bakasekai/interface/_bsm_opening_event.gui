@@ -163,7 +163,6 @@ guiTypes = {
 				fixedsize = yes
 			}
 
-
 			iconType = { #
 				name = "OE_footer_section_1"
 				position = { x = 220 y = 2 }

@@ -118,7 +118,6 @@ equipments = {
 
 		armor_value = 0
 
-
 		surface_detection = 26
 		sub_detection = 5
 		surface_visibility = 30
@@ -128,7 +127,6 @@ equipments = {
 		naval_range = 3000
 
 		max_strength = 250
-
 
 		fuel_consumption = 87
 
@@ -215,9 +213,6 @@ equipments = {
 		naval_range = 4000
 		reliability = 0.75
 		max_strength = 325
-
-
-
 		build_cost_ic = 2600
 		resources = {
 			steel = 4
@@ -286,9 +281,6 @@ equipments = {
 		naval_range = 5000
 		reliability = 0.8
 		max_strength = 350
-
-
-
 		build_cost_ic = 3250
 		resources = {
 			steel = 4
@@ -496,7 +488,6 @@ equipments = {
 		max_strength = 325
 		naval_speed = 25
 
-
 		build_cost_ic = 2700
 		resources = {
 			steel = 4
@@ -615,7 +606,6 @@ equipments = {
 
 		armor_value = 7
 
-
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
@@ -625,7 +615,6 @@ equipments = {
 		naval_range = 3000
 
 		max_strength = 250
-
 
 		fuel_consumption = 87
 
@@ -709,7 +698,6 @@ equipments = {
 
 		armor_value = 9
 
-
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
@@ -719,9 +707,6 @@ equipments = {
 		naval_range = 4000
 
 		max_strength = 325
-
-
-
 		build_cost_ic = 4500
 		resources = {
 			#oil = 1
@@ -756,7 +741,6 @@ equipments = {
 
 		armor_value = 11
 
-
 		surface_detection = 20
 		sub_detection = 5
 		surface_visibility = 30
@@ -766,9 +750,6 @@ equipments = {
 		naval_range = 5000
 
 		max_strength = 350
-
-
-
 		build_cost_ic = 5250
 		resources = {
 			#oil = 2
@@ -803,7 +784,6 @@ equipments = {
 
 		armor_value = 13
 
-
 		surface_detection = 30
 		sub_detection = 5
 		surface_visibility = 30
@@ -813,9 +793,6 @@ equipments = {
 		naval_range = 6000
 
 		max_strength = 400
-
-
-
 		build_cost_ic = 6000
 		resources = {
 			#oil = 2
@@ -926,7 +903,6 @@ equipments = {
 
 		armor_value = 13
 
-
 		surface_detection = 30
 		sub_detection = 5
 		surface_visibility = 30
@@ -937,7 +913,6 @@ equipments = {
 
 		max_strength = 475
 		fuel_consumption = 94
-
 
 		build_cost_ic = 6500
 		resources = {
@@ -1057,6 +1032,5 @@ equipments = {
 		}
 		manpower = 6000
 	}
-
 
 }

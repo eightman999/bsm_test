@@ -46,7 +46,7 @@ autonomy_state = {
 		has_dlc = "Arms Against Tyranny"
 		OR = {
 			original_tag = NOR
-			original_tag = ICE
+			original_tag = ISL
 			original_tag = DEN
 			original_tag = FIN
 		}

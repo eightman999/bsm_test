@@ -86,7 +86,6 @@ ideas = {
 
 		CZE_communism_with_a_human_face = {
 
-
 			allowed = {
 				always = no
 			}
@@ -421,7 +420,6 @@ ideas = {
 			}
 		}
 
-
 		CZE_czech_fascism_idea = {
 
 			picture = generic_fascism_drift_bonus
@@ -516,7 +514,6 @@ ideas = {
 
 		CZE_ckd = {
 
-
 			allowed = {
 				original_tag = CZE
 			}
@@ -536,7 +533,6 @@ ideas = {
 
 			picture = generic_tank_manufacturer_2
 
-
 			allowed = {
 				original_tag = CZE
 			}
@@ -554,7 +550,6 @@ ideas = {
 		CZE_skoda_armor = {
 
 			picture = generic_tank_manufacturer_3
-
 
 			allowed = {
 				original_tag = CZE
@@ -576,7 +571,6 @@ ideas = {
 		designer = yes
 
 		CZE_skoda_shipyards = {
-
 
 			allowed = {
 				original_tag = CZE
@@ -603,7 +597,6 @@ ideas = {
 
 			picture = generic_air_manufacturer_1
 
-
 			allowed = {
 				original_tag = CZE
 			}
@@ -625,7 +618,6 @@ ideas = {
 
 			picture = generic_air_manufacturer_1
 
-
 			allowed = {
 				original_tag = CZE
 			}
@@ -643,11 +635,9 @@ ideas = {
 			}
 		}
 
-
 		CZE_aero = {
 
 			picture = generic_air_manufacturer_2
-
 
 			allowed = {
 				original_tag = CZE
@@ -659,17 +649,14 @@ ideas = {
 
 			traits = { medium_aircraft_manufacturer }
 
-
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-
 		CZE_letov = {
 
 			picture = generic_air_manufacturer_3
-
 
 			allowed = {
 				original_tag = CZE
@@ -699,7 +686,6 @@ ideas = {
 
 			picture = generic_infantry_equipment_manufacturer_2
 
-
 			allowed = {
 				original_tag = CZE
 			}
@@ -718,7 +704,6 @@ ideas = {
 		CZE_skoda_artillery = {
 
 			picture = generic_artillery_manufacturer_2
-
 
 			allowed = {
 				original_tag = CZE

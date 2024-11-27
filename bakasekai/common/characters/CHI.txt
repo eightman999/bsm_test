@@ -273,9 +273,6 @@ characters={
 			}
 		}
 	}
-
-
-
 	CHI_hsueh_yueh={
 		name=CHI_hsueh_yueh
 		portraits={
@@ -521,7 +518,6 @@ characters={
 		}
 	}
 
-
 	### ARMY CHIEFS ###
 
 	#Alexander von Falkenhausen in shared file
@@ -680,9 +676,6 @@ characters={
 		}
 	}
 
-
-
-
 	### AIR CHIEFS ###
 
 	#Claire Lee Chennault in shared file
@@ -735,7 +728,6 @@ characters={
 			}
 		}
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -842,7 +834,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###
 

@@ -868,7 +868,6 @@ guiTypes = {
 		}
 	}
 
-
 ###############################
 ###########AirStuff############
 ###############################
@@ -966,9 +965,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
-
-
 	containerWindowType = {
 		name = "air_theatre_item"
 		position = { x=430 y=15 }
@@ -1057,7 +1053,6 @@ guiTypes = {
 			slotsize = { width=300 height=33 }
 		}
 	}
-
 
 	containerWindowType = {
 		name = "air_theatre_group_row_item"

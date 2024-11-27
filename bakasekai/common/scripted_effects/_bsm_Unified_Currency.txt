@@ -10,8 +10,10 @@ ucs_first_setting = {
 		limit = { NOT = { has_country_flag = stop_Unified_Currency_gain } }
 		set_variable = { Unified_Currency = 0 } #リセット
 		set_variable = { Unified_Currency_Last_Month_gain = 0 } #リセット
+		set_variable = { Unified_Currency_state_loss = 0 } #リセット
 		set_temp_variable = { multiply_value = 12 } #初期値は12か月分
 		ucs_add_Unified_Currency_month = yes
+
 	}
 }
 
@@ -78,27 +80,30 @@ ucs_on_monthly = {
 		set_temp_variable = { multiply_value = 1 }
 		ucs_add_Unified_Currency_month = yes
 		set_variable = { Unified_Currency_Last_Month_gain = temp_last_month } #先月の獲得量の登録
+		set_variable = { Unified_Currency_state_loss = 0 } #リセット
 	}
 }
 #stateを失陥したときの影響
 ucs_on_dairy_effects = {
-	if = {
-		limit = { has_country_flag = should_check_unified_currency }
-		set_temp_variable = { uc_dairy_effect = 0 }
-		add_to_temp_variable = { uc_dairy_effect = modifier@Unified_Currency_dairy_effect }#補正
-		add_to_temp_variable = { uc_dairy_effect = stability } #安定度
-		add_to_temp_variable = { uc_dairy_effect = Cultural_Degree } #文明度
-		add_to_temp_variable = { uc_dairy_effect = war_support } #戦争支持
-		multiply_temp_variable = { uc_dairy_effect = 0.01 } #補正
-		multiply_temp_variable = { uc_dairy_effect = Unified_Currency } #補正
-		subtract_from_variable = { Unified_Currency = uc_dairy_effect } #減少
-		set_variable = { uc_land_loss_effect = uc_dairy_effect } #ログ用
-		log = "[?THIS.GetName]失陥による通貨減少:[?uc_land_loss_effect]"
+	FROM = {
+		set_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_war_factor }
+		add_to_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_dairy_effect }#補正
+		add_to_temp_variable = { uc_StateLoss_effect = stability } #安定度
+		add_to_temp_variable = { uc_StateLoss_effect = Cultural_Degree } #文明度
+		add_to_temp_variable = { uc_StateLoss_effect = war_support } #戦争支持
+		multiply_temp_variable = { uc_StateLoss_effect = 0.05 } #補正
+		multiply_temp_variable = { uc_StateLoss_effect = Unified_Currency } #補正
+		subtract_from_variable = { Unified_Currency = uc_StateLoss_effect } #減少
+		set_variable = { uc_land_loss_effect = uc_StateLoss_effect } #ログ用
+		add_to_variable = { Unified_Currency_state_loss = uc_StateLoss_effect } #ログ用
+		log = "[?FROM.FROM.GetName]失陥による通貨減少:[?uc_land_loss_effect]"
+	}
+
 		#( 0+0.2+0.6 +0.1 + 0.4 )  * 0.01 = 0.013
 		#0.13 * 6420 = 83.346
 		#6420 - 83.346 = 6336.654
 		#まぁどうにか払えるでしょ
-	}
+	
 
 }
 
@@ -106,4 +111,5 @@ combined_unified_currency = {
 	set_variable = { combined_uc_factor = 0 }
 	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_war_factor }
 	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_religion_factor }
+	log = "合計したUC_Factor:[?combined_uc_factor]"
 }

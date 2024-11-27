@@ -119,10 +119,6 @@
  BKK_long_name_ship_3_desc: "長名の船を建造するぞ!"
 
 
-
-
-
-
  #NF(SJK_Normal)
  SJK_industrial_effort: "工業への注力"
  SJK_industrial_effort_desc: "あらゆる政治的取り組みを民需産業の飛躍的増強のために注力する。"
@@ -165,7 +161,6 @@
  SJK_infrastructure_effort_3_desc: "さらなるインフラ拡張によって、高度な秘密計画には必須となる輸送や通信が可能になるだろう。"
  SJK_naval_effort_2: "造船所設備の拡大"
  SJK_naval_effort_2_desc: "真に注目に値する海軍に創り直すため、造船能力を大いに拡大しなければならない。"
-
 
  #NF_LONG_SJK
  SJK_baka_long_name: "バカは長い名前を覚える"

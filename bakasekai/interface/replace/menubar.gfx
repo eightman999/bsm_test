@@ -76,7 +76,6 @@ spriteTypes = {
 		texturefile = "gfx//interface//endgame.dds"
 	}
 
-
 	frameAnimatedSpriteType = {
 		name = "GFX_messageicon_bg"
 		texturefile = "gfx//interface//alerticon_banner2.dds"
@@ -94,12 +93,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//minimap.tga"
 	}
 
-
 	spriteType = {
 		name = "GFX_countryaction_gotolocation_big"
 		texturefile = "gfx\\interface\\countryaction_gotolocation_big.dds"
 	}
-
 
 	
 	frameAnimatedSpriteType = {
@@ -152,7 +149,6 @@ spriteTypes = {
 		name = "GFX_log_bg"
 		texturefile = "gfx//interface//log_bg.tga"
 	}
-
 
 	spriteType = {
 		name = "GFX_closelog_button"

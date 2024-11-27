@@ -9,7 +9,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_chengeng.png"
 	}
 
-
 	spriteType = {
 		name = "GFX_portrait_prc_liubocheng"
 		texturefile = "gfx/leaders/PRC/portrait_prc_liubocheng.dds"
@@ -18,7 +17,6 @@ spriteTypes = {
 		name = "GFX_portrait_prc_liubocheng_small"
 		texturefile = "gfx/interface/ideas/idea_liubocheng.png"
 	}
-
 
 	spriteType = {
 		name = "GFX_portrait_prc_luoronghuan"
@@ -47,7 +45,6 @@ spriteTypes = {
 		name = "GFX_portrait_prc_xvxiangqian_small"
 		texturefile = "gfx/interface/ideas/idea_xvxiangqian.png"
 	}
-
 
 	spriteType = {
 		name = "GFX_portrait_prc_helong"
@@ -183,27 +180,7 @@ spriteTypes = {
 		name = "GFX_portrait_prc_zhaoshangzhi_small"
 		texturefile = "gfx/interface/ideas/idea_zhaoshangzhi.png"
 	}
-
-
-
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

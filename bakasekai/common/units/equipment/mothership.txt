@@ -67,7 +67,6 @@ equipments = {
 		air_superiority = 13
 		reliability = 0.8
 
-
 		surface_detection = 40 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 
 		resources = {

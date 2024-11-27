@@ -75,7 +75,6 @@ BUL_varna_naval_dockyard_organization = {
 ### SOV_nevskoye_design_bureau_organization -> see SOV_organizations.txt 
 ### ITA_crda_organization -> see ITA_organizations.txt 
 
-
 ###########################
 
 ###  #    ##  #  # ###  ## 
@@ -170,7 +169,6 @@ BUL_kaproni_bulgarski_organization = {
 ### ENG_fairey_aviation_organization -> see ENG_organizations.txt 
 ### SOV_ilyushin_design_bureau -> see SOV_organizations.txt 
 
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -178,7 +176,6 @@ BUL_kaproni_bulgarski_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

@@ -477,7 +477,6 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 
-
 		}
 
 		iconType ={
@@ -498,7 +497,6 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-
 
 		iconType ={
 			name ="politics_bottom"
@@ -1073,7 +1071,6 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 
-
 		instantTextboxType = {
 			name = "manage_occupied_title"
 			position = { x = 37 y = 5 }
@@ -1257,7 +1254,6 @@ guiTypes = {
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 		}
-
 
 		instantTextboxType = {
 			name = "title"

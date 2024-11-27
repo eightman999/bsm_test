@@ -1,6 +1,5 @@
 ﻿# add_namespace = wtt_news
 
-
 # #ID wtt_news.30+: China
 # # German Civil War
 # news_event = {

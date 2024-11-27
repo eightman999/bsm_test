@@ -184,7 +184,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	RAJ_rajendra_prasad={
@@ -280,7 +279,6 @@ characters={
 			}
 		}
 	}
-
 
 	### ARMY CHIEFS ###
 
@@ -398,7 +396,6 @@ characters={
 			}
 		}
 	}
-
 
 	### NAVY CHIEFS ###
 
@@ -566,7 +563,6 @@ characters={
 		}
 	}
 
-
 	### MILITARY HIGH COMMAND ###
 
 	RAJ_ram_singh_thakur={
@@ -688,7 +684,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### POLITICAL ADVISORS ###
 

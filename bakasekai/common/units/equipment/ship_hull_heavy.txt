@@ -820,7 +820,6 @@ equipments = {
 
 		max_strength = 450		
 
-
 		build_cost_ic = 5400
 		resources = {
 			#oil = 2
@@ -940,7 +939,6 @@ equipments = {
 		manpower = 7400
 		
 	}
-
 
 	SH_battleship_1 = {
 		year = 1936
@@ -1285,7 +1283,6 @@ equipments = {
 		max_strength = 400
 		
 
-
 		build_cost_ic = 4000
 		resources = {
 			#oil = 1
@@ -1415,7 +1412,6 @@ equipments = {
 		manpower = 8000
 
 	}
-
 
 	
 	

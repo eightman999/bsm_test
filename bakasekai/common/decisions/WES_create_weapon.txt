@@ -344,7 +344,6 @@ create_weapons_auto = {
 
 		cancel_if_not_visible = yes
 
-
         complete_effect = {
 			custom_effect_tooltip = WES_cancel_tt
 		}
@@ -438,9 +437,6 @@ create_weapons_auto = {
 		cost = 0
 
 		fire_only_once = no
-
-
-
 		cancel_if_not_visible = yes
 
 		complete_effect = {
@@ -763,7 +759,6 @@ found_sand_country = {
         }
     }
 }
-
 
 public_works = {
     construction_of_the_transcontinental_railroad_decision_1 = {
@@ -1147,7 +1142,6 @@ Concentration_of_construction_forces = {
     }
 }
 
-
 It_is_dream = {
     dream = {
 
@@ -1174,7 +1168,6 @@ It_is_dream = {
 		}
     }
 }
-
 
 It_is_dream = {
     It_is_dream___dream = {

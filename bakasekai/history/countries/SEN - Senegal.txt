@@ -1,9 +1,7 @@
 ﻿capital = 272
 set_cosmetic_tag = SEN_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 20
 recruit_character = SEN_awt

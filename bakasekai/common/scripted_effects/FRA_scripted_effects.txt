@@ -15,9 +15,6 @@
 #		example_effect = yes
 #	}
 #
-
-
-
 remove_worker_shortage_effect = {	
 	if = {
 		limit = { has_idea = FRA_worker_shortage }

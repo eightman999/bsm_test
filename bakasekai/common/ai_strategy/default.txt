@@ -1,7 +1,6 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 
-
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
@@ -67,7 +66,6 @@ default_unit_production = { #If adding country-unique ones, bear in mind that th
 		id = naval_bomber
 		value = 5
 	}
-
 
 	# Naval unit factors
 	ai_strategy = {
@@ -523,7 +521,6 @@ more_naval_focused_nation = {
 	}
 }
 
-
 default_area_priority = {
 	enable = {
 		always = yes
@@ -639,7 +636,6 @@ default_stockpile_management = {
 		value = 35 # double base stockpile #from 25 to 35
 	}
 }
-
 
 dont_build_capitals_if_on_treaty = {
 	enable = {
@@ -962,7 +958,6 @@ more_upgrades_as_spymaster = {
 		value = -25    # -25% on the define
 	}
 }
-
 
 put_garrisons_on_high_prio = {
 	abort = { always = no }

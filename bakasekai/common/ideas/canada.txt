@@ -321,7 +321,6 @@ ideas = {
 
 			picture = generic_air_bonus
 
-
 			equipment_bonus = {
 				small_plane_airframe = {
 					air_range = 0.1
@@ -583,9 +582,6 @@ ideas = {
 	}
 
 	industrial_concern = {
-
-
-
 		montreal_lab = {
 
 			picture = generic_industrial_concern_1
@@ -594,9 +590,6 @@ ideas = {
 				original_TAG = CAN
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				electronics = 0.15
 			}
@@ -638,15 +631,11 @@ ideas = {
 				original_TAG = CAN
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				support_tech = 0.10
 			}
 
 			traits = { support_equipment_manufacturer }
-
 
 		}
 
@@ -658,9 +647,6 @@ ideas = {
 				original_TAG = CAN
 				has_dlc = "Together for Victory"
 			}
-
-
-
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
@@ -677,7 +663,6 @@ ideas = {
 
 		kingston_shipbuilding = {
 			picture = generic_naval_manufacturer_2
-
 
 			allowed = {
 				original_tag = CAN
@@ -696,7 +681,6 @@ ideas = {
 
 		halifax_shipyard_limited = {
 			picture = generic_naval_manufacturer_3
-
 
 			allowed = {
 				original_tag = CAN
@@ -721,7 +705,6 @@ ideas = {
 		havilland_canada = {
 			picture = generic_air_manufacturer_1
 
-
 			allowed = {
 				original_tag = CAN
 			}
@@ -741,7 +724,6 @@ ideas = {
 
 		canadian_car_foundry = {
 			picture = generic_air_manufacturer_2
-
 
 			allowed = {
 				original_tag = CAN

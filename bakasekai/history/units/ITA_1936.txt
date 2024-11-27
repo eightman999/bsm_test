@@ -69,7 +69,6 @@ division_template = {
 	}
 }
 
-
 #############################
 ###### ASCARI INFANTRY ######
 #############################
@@ -94,7 +93,6 @@ division_template = {
 	priority = 0 
 }
 
-
 ### LIBYAN ASCARI TEMPLATES ###
 
 division_template = { 
@@ -115,7 +113,6 @@ division_template = {
 
 	priority = 0 
 }
-
 
 ### ERITREAN ASCARI TEMPLATES ###
 
@@ -138,7 +135,6 @@ division_template = {
 	priority = 0 
 }
 
-
 ### SOMALI ASCARI TEMPLATES ###
 
 division_template = { 
@@ -159,7 +155,6 @@ division_template = {
 
 	priority = 0 
 }
-
 
 ####### OOB #######
 units = {
@@ -428,10 +423,6 @@ units = {
 		start_experience_factor = 0.3 
 	}
 }
-
-
-
-
 
 
 ####### Starting Production Queue #######

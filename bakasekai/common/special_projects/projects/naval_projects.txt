@@ -201,7 +201,6 @@
 # 		}
 # 	}
 
-
 # 	special_project_parent = {
 # 		sp_naval_cruiser_submarine
 # 	}
@@ -905,7 +904,6 @@
 # sp_naval_nuclear_torpedo = {
 # 	specialization = specialization_naval
 
-
 # 	project_tags = {
 # 		sp_tag_submarine
 # 		sp_tag_nuclear_warfare
@@ -1035,7 +1033,6 @@
 # #Midget Submarine
 # sp_naval_midget_submarine = {
 # 	specialization = specialization_naval
-
 
 # 	project_tags = {
 # 		sp_tag_submarine
@@ -1468,7 +1465,6 @@
 # sp_naval_anechoic_tiles = {
 # 	specialization = specialization_naval
 
-
 # 	project_tags = sp_tag_submarine
 
 # 	ai_will_do = {
@@ -1635,7 +1631,6 @@
 #Torpedo Cruiser
 # sp_naval_torpedo_cruiser = {
 # 	specialization = specialization_naval
-
 
 # 	project_tags = sp_tag_surface_ship
 
@@ -1823,7 +1818,6 @@
 # 	}
 
 # }
-
 
 # #Super Heavy Battleship
 # sp_naval_super_heavy_battleship = {
@@ -2180,7 +2174,6 @@
 # sp_naval_SH_battleship_2 = {
 # 	specialization = specialization_naval 
 
-
 # 	project_tags = sp_tag_surface_ship
 
 # 	ai_will_do = {
@@ -2522,7 +2515,6 @@
 # sp_naval_modern_carrier = {
 # 	specialization = specialization_naval
 
-
 # 	project_tags = sp_tag_surface_ship
 
 # 	ai_will_do = {
@@ -2852,11 +2844,9 @@
 # 	}
 # }
 
-
-# #ICE CARRIER
+# #ISL CARRIER
 # sp_naval_ice_carrier = {
 # 	specialization = specialization_naval
-
 
 # 	project_tags = sp_tag_surface_ship
 
@@ -2937,7 +2927,6 @@
 # 		}
 		
 
-
 # 		enable_equipments = {
 # 			limit = {
 # 				has_dlc = "Man the Guns"
@@ -2956,7 +2945,6 @@
 # 			big_ship_deck_space
 # 			ship_armor_ice_carrier_deck_1
 # 		}	
-
 
 # 	}
 
@@ -3199,7 +3187,6 @@
 
 # sp_naval_proximity_fuze = {
 # 	specialization = specialization_naval
-
 
 # 	project_tags = sp_tag_surface_ship
 

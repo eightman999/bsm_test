@@ -312,7 +312,6 @@
 		
 # 	}
 
-
 # # SAF_support_the_german_coup completed
 # # South-African national focus
 # country_event = {
@@ -923,9 +922,6 @@
 # 		HOL = { SAF_german_coup_inf_HOL_equipment_200 = yes }
 # 	}
 # }
-
-
-
 # # SAF_join_comintern completed
 # # South-African national focus
 # country_event = {
@@ -1146,7 +1142,6 @@
 # 		add_to_tech_sharing_group = comintern_research
 # 	}
 # }
-
 
 # country_event = {
 # 	id = tfv_south_africa.42

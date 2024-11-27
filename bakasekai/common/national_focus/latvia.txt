@@ -1067,7 +1067,6 @@
 # 		}
 # 	}
 
-
 # 	focus = {
 # 		id = LAT_threat_on_our_border
 # 		icon = GFX_focus_LAT_threat_on_our_border

@@ -2,13 +2,8 @@ capital = 289
 oob = "Default_oob"
 set_cosmetic_tag = BKK_kingdom
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	CAS1 = 1
-}
+land_tech_level_0 = yes
+air_tech_level_0 = yes
 
 if = {
 	limit = {

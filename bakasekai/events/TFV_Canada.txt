@@ -471,9 +471,6 @@
 		
 # 	}
 # }
-
-
-
 # # mean_time_to_happen after Completion of CAN_forced_quebec_conscription.
 # # Canadian national focus.
 # country_event = {

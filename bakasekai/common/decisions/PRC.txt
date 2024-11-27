@@ -10,7 +10,6 @@
 # #INFILTRATE_STATE_AI_WILL_DO <ID>
 # #INFILTRATE_JAP_STATE_AI_WILL_DO <ID>
 
-
 # @INFILTRATION_INF_EQ_COST = -500
 # @DAYS_REMOVE_INFILTRATE_STATE = 30
 
@@ -1323,9 +1322,6 @@
 # 	}
 
 # }
-
-
-
 #  ##  #  # ### ###   ####  ##  ##   ##  #  #
 # #  # ## #  #   #       # #  # # # #  # ## #
 # #### # ##  #   #    #  # #### ##  #### # ##
@@ -1465,7 +1461,6 @@
 # 				715 = { PRC_infiltration_uprising_PREV_will_sabotage_state = yes }
 # 			}
 # 		}
-
 
 # 		complete_effect = {
 # 			hidden_effect = {

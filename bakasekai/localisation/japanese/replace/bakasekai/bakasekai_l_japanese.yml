@@ -4,7 +4,6 @@ l_japanese:
 ALPHA_bsm: "バカ世界地図mod v2.1"
 ALPHA_desc: "ばーじょん2.1 どかーん♡(for えーえーてぃー)"
 
-
 POL_seek_an_alliance_with_kaiser: "南極連邦"
 Gtya_des: "国家指導者ガチャが解放される!"
 First_time: "初回限定無料ガチャ券"
@@ -57,7 +56,6 @@ potta: "シンメトリー・ポッター"
  # research_cheam
  WES_SGC_research_name: "SGC研究協力機構"
  WES_SGC_research_desc: "SGC内で研究を協力することで研究を促進する"
-
 
  # ニュースイベント
  baka_news.1.t: "「我々は砂となる!」"
@@ -331,10 +329,9 @@ lolism: "ろり主義"
 syoujyism: "少女主義"
 binuism: "微ぬー主義"
 
-
  atheism:0 "無神論者"
  secularism:0 "世俗主義"
- anemism:0 "原始宗教"
+ animism:0 "原始宗教"
  catholicism:0 "カトリック"
  orthodoxy:0 "正教"
  protestantism:0 "プロテスタント"
@@ -374,9 +371,6 @@ no_religions: "国教なし"
  bsm_realist_politician:0 "現実主義的政治家"
 bsm_defenders_of_culture:0 "文化の擁護者"
 last_ROYAL:0 "最後の王族"
-
-
-
 
 JAP_PB_HISTORICAL: "史実の海防戦艦"
 JAP_TVC_HISTORICAL: "練習艦"

@@ -2,9 +2,7 @@ capital = 732
 oob = "Default_oob"
 set_cosmetic_tag = KYR_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 5
 recruit_character = KYR_ncs

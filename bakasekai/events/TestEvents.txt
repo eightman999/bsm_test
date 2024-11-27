@@ -230,7 +230,6 @@
 
 # add_namespace = performance_test
 
-
 # country_event = {
 # 	id = performance_test.1
 # 	title = "Performance Test Event"
@@ -394,7 +393,6 @@
 # 				add_to_temp_variable = { cycle_index = 1 }
 # 			}
 # 		}
-
 
 # 		every_country = {
 # 			limit = {

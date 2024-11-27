@@ -1,6 +1,5 @@
 add_namespace = WES_cre
 
-
 country_event = {
 	id = WES_cre.1
 	title = WES_cre.1.t

@@ -111,7 +111,6 @@ SWE_gotaverken_organization = {
 	}
 }
 
-
 ###########################
 
 ###  #    ##  #  # ###  ## 
@@ -169,7 +168,6 @@ SWE_husqvarna_organization = {
 		}
 }
 
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -178,9 +176,7 @@ SWE_husqvarna_organization = {
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
 
-
 ###################################
-
 
 SWE_volvo_organization = {
 	include = generic_motorized_mechanized_organization
@@ -234,7 +230,6 @@ SWE_scania_vabis_organization = {
 		has_dlc = "La Resistance"
 	}	
 }
-
 
 SWE_bofors_organization = {
 	include = generic_artillery_organization
@@ -359,9 +354,6 @@ SWE_bofors_organization = {
 }
 
 	
-
-
-
 ##       ####  ######  ########     #######  ########     ######  ########    ###    ########  ######
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##      ## ##      ##    ##    ##
 ##        ##  ##          ##       ##     ## ##          ##          ##     ##   ##     ##    ##
@@ -370,9 +362,7 @@ SWE_bofors_organization = {
 ##        ##  ##    ##    ##       ##     ## ##          ##    ##    ##    ##     ##    ##    ##    ##
 ######## ####  ######     ##        #######  ##           ######     ##    ##     ##    ##     ######
 
-
 ### EQUIPMENT STATS ###
-
 
 ###  ##  #  # # #  ## 
  #  #  # ## # # # #   
@@ -396,9 +386,6 @@ SWE_bofors_organization = {
 #build_cost_ic
 #entrenchment - only if you have DLC NSB  and module dozer_blade
 #fuel_capacity - only if you have DLC NSB  and module expanded_fuel_tank
-
-
-
  ## #  # ### ###   ## 
 #   #  #  #  #  # #   
  #  ####  #  ###   #  
@@ -433,9 +420,6 @@ SWE_bofors_organization = {
 #naval_torpedo_hit_chance_factor (requires modules)
 #naval_light_gun_hit_chance_factor (requires modules)
 #naval_heavy_gun_hit_chance_factor (requires modules)
-
-
-
 ###  #    ##  #  # ###  ## 
 #  # #   #  # ## # #   #   
 ###  #   #### # ## ##   #  
@@ -464,9 +448,6 @@ SWE_bofors_organization = {
 #mines_planting - if you have MtG and BBA
 #mines_sweeping - if you have MtG and BBA
 #night_penalty - only if you have BBA DLC (you need to have module because base value is 0 - radio navigatio
-
-
-
 #   #  ##  ### ### ###  ### ### #   
 ## ## #  #  #  #   #  #  #  #   #   
 # # # ####  #  ##  ###   #  ##  #   
@@ -493,7 +474,6 @@ SWE_bofors_organization = {
 ##############################
 #reliability
 #build_cost_ic
-
 
 #############################
 #### ARTILLERY EQUIPMENT ####
@@ -551,7 +531,6 @@ SWE_bofors_organization = {
 #air_attack
 #build_cost_ic
 
-
 ##############################
 #### MOTORIZED EQUIPMENT #####
 ##############################
@@ -604,7 +583,6 @@ SWE_bofors_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ################################
 #### ARMORED CAR EQUIPMENT #####
 ################################
@@ -621,7 +599,6 @@ SWE_bofors_organization = {
 #build_cost_ic
 #fuel_consumption
 
-
 ##########################
 #### TRAIN EQUIPMENT #####
 ##########################
@@ -636,7 +613,6 @@ SWE_bofors_organization = {
 #maximum_speed
 #railway_gun_attack
 #build_cost_ic
-
 
 ### PRODUCTION MODIFIERS ###
 #production_cost_factor

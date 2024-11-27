@@ -48,7 +48,6 @@
 # 	}
 # }
 
-
 # # create uprising
 # country_event = {
 # 	id = occupied_countries.2

@@ -161,7 +161,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	NZL_keith_j_holyoake={
@@ -229,7 +228,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### ARMY CHIEFS ###
 
@@ -325,7 +323,6 @@ characters={
 		}		
 	}
 
-
 	### NAVY CHIEFS ###
 
 	NZL_h_e_horan={
@@ -397,7 +394,6 @@ characters={
 		}		
 	}
 
-
 	### AIR CHIEFS ###
 
 	NZL_a_j_stallworthy={
@@ -445,7 +441,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -544,7 +539,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### POLITICAL ADVISORS ###
 	

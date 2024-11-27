@@ -4,27 +4,14 @@ set_research_slots = 2
 set_cosmetic_tag = KUB_republic
 
 # Starting tech
+support_tech_level_1 = yes
 set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
 	early_fighter = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	
 }
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-	}
-}
+tank_tech_level_1 = yes
 if = {
 	limit = {
 		

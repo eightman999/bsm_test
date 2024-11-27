@@ -75,7 +75,6 @@ ideas = {
 				has_government = fascism_ideology
 			}
 
-
 			modifier = {
 				stability_factor = 0.05
 				drift_defence_factor = 0.5
@@ -1673,7 +1672,6 @@ ideas = {
 					is_subject_of = GBR
 				}
 			}
-
 
 			allowed_civil_war = {
 				always = yes

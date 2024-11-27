@@ -1203,7 +1203,6 @@ guiTypes = {
 			position = { x=174 y=18 }
 		}
 
-
 		instantTextboxType = {
 			name = "needs"
 			position = { x = 244 y = 20 }

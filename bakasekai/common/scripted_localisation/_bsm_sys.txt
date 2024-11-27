@@ -7,6 +7,7 @@ defined_text = {
 		localization_key = CULTURAL_DEGREES_desc
 	}
 }
+
 defined_text = {
 	name = Unified_Currency_title_txt
 	text = {
@@ -14,11 +15,18 @@ defined_text = {
 		localization_key = Unified_Currency_desc_title
 	}
 }
+戦時補正
 defined_text = {
 	name = Unified_Currency_desc_war_effort
 	text = {
 		trigger = {
-			has_war = yes
+			has_idea = war_effort_2
+		}
+		localization_key = Unified_Currency_desc_war_effort_war_2
+	}
+	text = {
+		trigger = {
+			has_idea = war_effort_1
 		}
 		localization_key = Unified_Currency_desc_war_effort_war
 	}
@@ -27,13 +35,30 @@ defined_text = {
 		localization_key = Unified_Currency_desc_war_effort_default
 	}
 }
+#宗教からの補正
 defined_text = {
 	name = Unified_Currency_desc_religion
 	text = {
 		trigger = {
-			has_idea = communism_religion
+			OR = {
+				has_idea = communism_religion
+				has_idea = shinto
+				has_idea = buddhism
+				has_idea = shia
+				has_idea = secularism
+				has_idea = animism
+				has_idea = atheism
+				has_idea = Stoicism
+				has_idea = catholicism
+				has_idea = protestantism
+				has_idea = orthodox
+				has_idea = judaism
+				has_idea = sunni
+				has_idea = hinduism
+				has_idea = chinese_rels
+			}
 		}
-		localization_key = Unified_Currency_desc_religion_communism
+		localization_key = Unified_Currency_desc_religion
 	}
 	
 }

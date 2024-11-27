@@ -62,9 +62,6 @@
 # #		}
 # #     }
 # #}
-
-
-
 # ##########################################################################
 # ###############  Historical Switzerland Focus Tree Events ################
 # ##########################################################################
@@ -1164,13 +1161,9 @@
 #      }
 # }
 
-
 # ##########################################################################
 # ###############        Intelligence Support Events        ################
 # ##########################################################################
-
-
-
 # country_event = { #Event to ask a country if they would like a Swiss Double Agent 
 # 	id = BBA_switzerland.15
 # 	title = BBA_switzerland.15.t
@@ -1376,7 +1369,6 @@
 # 	}
 # }
 
-
 # country_event = { #Allies Rejected Secret Pact
 # 	id = BBA_switzerland.18
 # 	title = BBA_switzerland.18.t
@@ -1399,7 +1391,6 @@
 # 		}
 # 	}
 # }
-
 
 # country_event = { #Switzerland inviting to the Neutral Entente 
 # 	id = BBA_switzerland.19
@@ -1690,7 +1681,6 @@
 # 	}
 # }
 
-
 # country_event = { #Easter Egg, look away 
 # 	id = BBA_switzerland.96
 # 	hidden = yes
@@ -1803,7 +1793,6 @@
 # 	}
 # }
 
-
 # ##########################################################################
 # ###############           COUNCIL SYSTEM EVENTS           ################
 # ##########################################################################
@@ -1841,7 +1830,6 @@
 # 	title = BBA_SWI_annual_election.1.t
 # 	desc = BBA_SWI_annual_election.1.desc 
 # 	Picture = GFX_report_event_SWI_assembly_hall
-
 
 # 	is_triggered_only = yes 
 
@@ -2032,7 +2020,6 @@
 # 	desc = BBA_SWI_annual_election.2.desc 
 # 	Picture = GFX_report_event_SWI_parliament_members
 
-
 # 	is_triggered_only = yes 
 
 # 	immediate = {
@@ -2196,7 +2183,6 @@
 # 		clr_country_flag = SWI_vacant_confederation_president_position
 # 	}
 # }
-
 
 # ##########################################################################
 # ###############              TRADE AGREEMENTS             ################
@@ -2440,7 +2426,6 @@
 # 		}
 # 		FROM = { country_event = { id = BBA_switzerland_trade.5 hours = 3 } }
 # 	}
-
 
 # }
 
@@ -2734,7 +2719,6 @@
 # 			base = 10 
 # 		}
 
-
 # 	}
 # }
 
@@ -3002,7 +2986,6 @@
 # 		}
 #      }
 # }
-
 
 # country_event = { #Event sent from biggest fascist to SWI to let them know they've been rejected.
 # 	id = BBA_switzerland_fascist.2
@@ -3327,7 +3310,6 @@
 # ##########################################################################
 # ####################        Expansion Events       #######################
 # ##########################################################################
-
 
  
 # country_event = { #Influencing the state failed
@@ -3919,7 +3901,6 @@
 # 	}
 # }
 
-
 # country_event = { #Sending request Alps territory
 # 	id = BBA_swiss_expansion.12
 # 	title = BBA_swiss_expansion.12.t
@@ -4206,7 +4187,6 @@
 # 		}
 # 	}
 # }
-
 
 # country_event = { # Switzerland Notified they're getting independence but no states
 # 	id = BBA_swiss_expansion.17

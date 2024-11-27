@@ -228,7 +228,6 @@
 # 	}
 # }
 
-
 # add_namespace = wtt_political_warlord_support
 
 # #   #  ##  ###  #    ##  ###  ###       ## #  # ###  ###   ##  ###  ### 
@@ -236,7 +235,6 @@
 # # # # #### ###  #   #  # ###  #  #      #  #  # ###  ###  #  # ###   #  
 # # # # #  # #  # #   #  # #  # #  #       # #  # #    #    #  # #  #  #  
 #  # #  #  # #  # ###  ##  #  # ###      ##   ##  #    #     ##  #  #  #  
-
 
 # # FROM asks ROOT to support them in their political efforts
 # country_event = {
@@ -302,7 +300,6 @@
 # 		name = wtt_political_warlord_support.2.a
 # 	}
 # }
-
 
 # # Answer from warlord wtt_political_warlord_support.1 - Wont give support
 # country_event = {
@@ -756,7 +753,6 @@
 # 		name = wtt_take_national_leadership.2.a
 # 	}
 # }
-
 
 # # Answer from old leader wtt_take_national_leadership.1 - Will go to war over it.
 # country_event = {

@@ -8,10 +8,8 @@
 
  #################### 
 
-
 ### ENG_vickers_armstrong_eng_organization -> see ENG_organizations.txt 
 ### FRA_renault_organization -> see FRA_organizations.txt 
-
 
 #####################
 
@@ -31,7 +29,6 @@ BEL_cockerill_organization = {
 		original_tag = BEL
 	}
 }
-
 
 ###########################
 
@@ -60,9 +57,6 @@ BEL_renard_organization = {
 		original_tag = BEL
 	}
 }
-
-
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -70,7 +64,6 @@ BEL_renard_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

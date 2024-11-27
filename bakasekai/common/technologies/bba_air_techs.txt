@@ -985,9 +985,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
-
-
 		path = {
 			leads_to_tech = heavy_bombs
 			research_cost_coeff = 1
@@ -1016,9 +1013,6 @@ technologies = {
 			}
 		}
 	}
-
-
-
 	heavy_bombs = {
 		enable_equipment_modules = {
 			heavy_bomb_locks
@@ -1065,7 +1059,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	armor_piercing_bombs = {
 		enable_equipment_modules = {
@@ -1959,9 +1952,6 @@ technologies = {
 		}
 		################
 	}
-
-
-
 	##### SPECIAL PROJECTS #####
 
 	sp_centrifugal_jet_tech = {

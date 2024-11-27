@@ -58,7 +58,6 @@ dependencies={
 supported_version="1.12.7"
 remote_file_id="2585391890"
 
-
 # フォントは、以下のフォントを利用させて頂いております
 
 # 源真ゴシック

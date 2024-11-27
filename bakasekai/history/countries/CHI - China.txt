@@ -11,10 +11,8 @@ set_stability = 0.2
 set_war_support = 0.5
 set_cosmetic_tag = CHN_minguo
 # Starting tech
+land_tech_level_0 = yes
 set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	interwar_antiair = 1
 	early_fighter = 1
 	early_bomber = 1
 	mass_assault = 1
@@ -59,7 +57,6 @@ if = {
 		basic_naval_mines = 1
 		early_ship_hull_light = 1
 		basic_battery = 1
-		#basic_secondary_battery = 1
 		basic_torpedo = 1
 		coastal_defense_ships = 1
 	}
@@ -120,7 +117,6 @@ recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
 recruit_character = CHI_chen_guofu
 recruit_character = CHI_soong_mei_ling
-
 
 600 = { #Jiangxi
 	add_dynamic_modifier = { modifier = dense_rural_infrastructure }

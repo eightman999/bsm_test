@@ -38,7 +38,6 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}		
 
-
 	spriteType = {
 		name = "GREENBACK"
 		textureFile = "gfx/GBG.png"

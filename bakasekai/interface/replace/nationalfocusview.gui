@@ -126,7 +126,6 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
 
-
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_bg"
@@ -749,7 +748,6 @@ guiTypes = {
 			scrollbarType = standardtext_slider
 		}
 
-
 		containerWindowType = {
 			name = "statsarea"
 			position = { x=20 y=220 }
@@ -879,7 +877,6 @@ guiTypes = {
 			clicksound = click_close
 		}
 
-
 		instantTextboxType = {
 			name = "name"
 			position = { x = 30 y = 12 }
@@ -914,7 +911,6 @@ guiTypes = {
 			maxHeight = 100
 			scrollbarType = standardtext_slider
 		}
-
 
 		containerWindowType = {
 			name = "statsarea"

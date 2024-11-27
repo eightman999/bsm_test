@@ -45,7 +45,6 @@ ETH_BoP_spanish_exiles_modifier = {
 	power_balance_daily = -0.003
 }
 
-
 #########################################
 ########### ITA BOP MODIFIERS ###########
 #########################################
@@ -69,7 +68,6 @@ ITA_power_balance_lost_core_4 = {
 ITA_power_balance_lost_core_5 = {
 	power_balance_weekly = -0.005
 }
-
 
 #TODO_Manu: Old stuff for easy reference. Delete in the future tack
 #ITA_power_balance_lost_core_1 = { # ~ -1 daily

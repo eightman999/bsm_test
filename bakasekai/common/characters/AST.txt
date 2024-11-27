@@ -228,7 +228,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	AST_norman_makin={
@@ -361,7 +360,6 @@ characters={
 		}
 	}
 
-
 	### NAVY CHIEFS ###
 
 	AST_ragnar_colvin={
@@ -416,7 +414,6 @@ characters={
 		}		
 	}
 
-
 	### AIR CHIEFS ###
 
 	AST_richard_williams={
@@ -470,7 +467,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -639,7 +635,6 @@ characters={
 			}
 		}		
 	}
-
 
 	### POLITICAL ADVISORS ###
 

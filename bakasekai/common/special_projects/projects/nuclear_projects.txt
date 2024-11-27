@@ -255,7 +255,6 @@
 # 	}
 # }
 
-
 # # ADVANDED NUCLEAR USAGE
 # sp_commercial_nuclear_reactor = {
 # 	specialization = specialization_nuclear	
@@ -399,7 +398,6 @@
 # 	}
 # }
 
-
 # sp_nuclear_engines = {
 # 	specialization = specialization_nuclear	
 # 	icon = GFX_sp_nuclear_engines
@@ -453,9 +451,6 @@
 		
 # 	}
 # }
-
-
-
 # # ATOMIC BOMBS
 # sp_nuclear_bomb = {
 # 	specialization = specialization_nuclear	

@@ -40,9 +40,6 @@ autonomy_state = {
 	ai_overlord_wants_garrison = {
 		always = no
 	}
-
-
-
 	#ROOT is puppet - FROM is potential OVERLORD
 	use_for_peace_conference_weight = {
 		base = 0

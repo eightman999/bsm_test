@@ -18,5 +18,23 @@ ideas = {
 				base_Cultural_Degree = 0
 			}
 		}
+		war_effort_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				Unified_Currency_war_factor = -0.01
+			}
+		}
+		war_effort_2 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				Unified_Currency_war_factor = -0.025
+			}
+		}
 	}
 }

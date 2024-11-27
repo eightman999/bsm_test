@@ -197,7 +197,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_saf_soviet_advisers.dds"
 	}
 
-
 	### DEU
 
 	spriteType = {
@@ -224,7 +223,6 @@ spriteTypes = {
 		name = "GFX_idea_ger_the_great_red_menace"
 		texturefile = "gfx/interface/ideas/idea_ger_the_great_red_menace.dds"
 	}
-
 
 	### UNIQUE national focus icons
 
@@ -729,7 +727,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
 	}
 
-
 	### GENERIC PORTRAITS EUROPE
 	### suffix from graphicalculturetype
 
@@ -812,7 +809,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_air_chief_all_weather_western_european_2d"
 		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
 	}
-
 
 	## COMMONWEALTH CULTURE ##
 
@@ -972,7 +968,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_air_chief_all_weather_eastern_european_2d"
 		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
 	}
-
 
 	####
 
@@ -1150,7 +1145,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_naval_manufacturer_3"
 		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
 	}
-
 
 	### CONSCRIPTION LAWS
 	spriteType = {
@@ -1805,9 +1799,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/USA_Walter_Krueger.dds"
 	}
 
-
-
-
 	### TURKEY IDEAS
 	spriteType = {
 		name = "GFX_idea_sabiha_gocen"
@@ -1824,7 +1815,6 @@ spriteTypes = {
 		name = "GFX_idea_dolores_ibarruri"
 		texturefile = "gfx/interface/ideas/idea_dolores_ibarruri.dds"
 	}
-
 
 	### BRITISH IDEAS
 	spriteType = {
@@ -2695,7 +2685,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_yug_local_militias.dds"
 	}
 
-
 	### PRC
 
 	spriteType = {
@@ -2855,7 +2844,6 @@ spriteTypes = {
 		name = "GFX_idea_CHI_gao_zihang"
 		texturefile = "gfx/interface/ideas/idea_generic_army_asia_3.dds"
 	}
-
 
 	### GENERIC PORTRAITS ASIA
 	### suffix from graphicalculturetype
@@ -3284,7 +3272,6 @@ spriteTypes = {
 		name = "GFX_idea_generic_air_arab_3"
 		texturefile = "gfx/interface/ideas/idea_generic_air_arab_3.dds"
 	}
-
 
 ### GENERIC PORTRAITS AFRICAN
 ### suffix from graphicalculturetype
@@ -4145,7 +4132,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_fra_rene_massigli.dds"
 	}
 
-
 	spriteType = {
 		name = "GFX_idea_FRA_pierre_pucheu"
 		texturefile = "gfx/interface/ideas/idea_fra_pierre_pucheu.dds"
@@ -4343,7 +4329,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_por_jose_hipolito_raposo.dds"
 	}
 
-
 	SpriteType = {
 		name = "GFX_idea_por_camisas_azuis"
 		texturefile = "gfx/interface/ideas/idea_por_camisas_azuis.dds"
@@ -4443,7 +4428,6 @@ spriteTypes = {
 	###  #######  ##  ####  ##  ###  ####
 	###  #######  ##        ##     ######
 	#####################################
-
 
 	### OSA - British Osaka
 
@@ -5444,7 +5428,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/PRO_koki_hirota.dds"
 	}
 
-
 	SpriteType = {
 		name = "GFX_idea_PRO_saburo_arasaka"
 		texturefile = "gfx/interface/ideas/PRO_saburo_arasaka.dds"
@@ -5526,7 +5509,6 @@ spriteTypes = {
 	}
 
 	### AMC - American Chiba
-
 
 	SpriteType = {
 		name = "GFX_idea_AMC_john_moore"
@@ -6394,7 +6376,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/KOB_united_royalist_front.dds"
 	}
 
-
 ###Expanded Political Advisors###
 spriteType = {
 name = "GFX_idea_hideki_tojo_pm"
@@ -6531,9 +6512,6 @@ name = "GFX_idea_JSR_akahata"
 texturefile = "gfx/interface/ideas/Idea_JAP_workers_unite.png"
 }
 
-
-
-
 ###MAN###
 
 spriteType = {
@@ -6621,9 +6599,6 @@ spriteType = {
 name = "GFX_idea_Jun_Ushiroku_Advisor"
 texturefile = "gfx/interface/ideas/man/advisors/Jun_Ushiroku_Advisor.dds"
 }
-
-
-
 ###BEI###
 
 spriteType = {
@@ -6644,6 +6619,5 @@ spriteType = {
 name = "GFX_idea_Kwantung_Adviors"
 texturefile = "gfx/interface/ideas/Keiji_Suzuki_Advisor.dds"
 }
-
 
 }

@@ -1,9 +1,7 @@
 ﻿capital = 559
 set_cosmetic_tag = SOM_federal_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 10
 set_politics = {

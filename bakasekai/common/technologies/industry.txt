@@ -1848,7 +1848,6 @@ technologies = {
 		}
 	}
 
-
 	excavation3 = {
 		
 		local_resources_factor = 0.10
@@ -2028,7 +2027,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	excavation5 = {
 		

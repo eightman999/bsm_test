@@ -10,7 +10,6 @@ bitmapfonts = {
 		cursor_offset = { 0 4 }
 		color = 0xffffffff
 
-
 		textcolors = {
 			G = { 86 172 91 }
 			R = { 222 86 70 }
@@ -27,7 +26,6 @@ bitmapfonts = {
 		cursor_offset = { 0 4 }
 		color = 0xffffffff
 
-
 		textcolors = {
 			G = { 86 172 91 }
 			R = { 222 86 70 }
@@ -36,9 +34,6 @@ bitmapfonts = {
 			T = { 255 255 255 }
 		}
 	}
-
-
-
 
     bitmapfont = {
 		name = "vanilla_hoi_18mbs"

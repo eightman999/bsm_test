@@ -48,7 +48,6 @@
 # 	}
 # }
 
-
 # ### LIGHT CRUISER NAMES###
 # AST_CL_HISTORICAL = {
 # 	name = NAME_THEME_HISTORICAL_CL
@@ -155,7 +154,6 @@
 # 		"Captain Cook" "Captain Bligh" "Shark Bay" "Geographe Bay" "Carpentaria" "King Sound" "Sydney" "Vengeance" "Melbourne" 
 # 	}
 # }
-
 
 # ### SUBMARINES ###
 # AST_SS_HISTORICAL = {
@@ -326,7 +324,6 @@
 # 	}
 # }
 
-
 # ### LIGHT CRUISER NAMES###
 # AST_CL_COMMUNIST = {
 # 	name = NAME_THEME_HISTORICAL_CL
@@ -433,7 +430,6 @@
 # 		"Captain Cook" "Captain Bligh" "Shark Bay" "Geographe Bay" "Carpentaria" "King Sound" "Sydney" "Vengeance" "Melbourne" 
 # 	}
 # }
-
 
 # ### SUBMARINES ###
 # AST_SS_COMMUNIST = {

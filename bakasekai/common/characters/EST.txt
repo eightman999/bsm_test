@@ -316,7 +316,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	EST_juhan_tuuling={
@@ -374,7 +373,6 @@ characters={
 			}
 		}
 	}
-
 
 	### ARMY CHIEFS ###
 
@@ -472,7 +470,6 @@ characters={
 		}
 	}
 
-
 	### AIR CHIEFS ###
 
 	EST_richard_tomberg={
@@ -532,7 +529,6 @@ characters={
 			}
 		}
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -630,7 +626,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###
 

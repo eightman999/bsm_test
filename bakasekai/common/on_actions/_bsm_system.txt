@@ -413,13 +413,21 @@ on_actions = {
             }
         }
     }
-    on_actions = {
-        on_state_control_changed = {
-            set_country_flag = {
-                flag = should_check_unified_currency
-                days = 1
-                value = 1
+    on_state_control_changed = {
+        #州の失陥に関する処理
+        ucs_on_dairy_effects = yes
+    }
+    on_declare_war = {
+        if = {
+            limit = {
+                NOT = {
+                    OR = {
+                        has_idea = war_effort_1
+                    }
+                }
             }
+            add_ideas = war_effort_1
         }
+        
     }
 }

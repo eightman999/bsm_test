@@ -2994,7 +2994,6 @@
 # 			}
 # 		}
 
-
 # 		complete_effect = {
 # 			add_command_power = -15
 # 			352 = { save_global_event_target_as = TUR_kurdish_state_event_target }
@@ -3280,7 +3279,6 @@
 # 				state = 352
 # 			}
 # 		}
-
 
 # 		on_map_mode = map_only
 
@@ -3838,7 +3836,6 @@
 # 		}
 # 	}
 # }
-
 
 # TUR_the_enemy_within = {
 
@@ -5356,7 +5353,6 @@
 # 		}
 
 # 		fire_only_once = yes
-
 
 # 		complete_effect = {
 # 			add_stability = -0.1

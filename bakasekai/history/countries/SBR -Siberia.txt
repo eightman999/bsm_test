@@ -39,5 +39,4 @@ recruit_character = SBR_Aleksandr_Mikhailovich_Krasnoshchyokov
 recruit_character = SBR_Jeronimas_Uborevicius
 recruit_character = SBR_Vasily_Konstantinovich_Blyukher
 
-
 set_stability = 0.6

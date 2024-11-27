@@ -5,7 +5,6 @@ ideas = {
 
 			picture = prc_permit_opium_trade
 
-
 			removal_cost = -1
 
 			modifier = {

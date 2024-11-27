@@ -240,7 +240,6 @@ guiTypes = {
 			position = {x=190 y=35}
 			Orientation = upper_right
 
-
 			checkBoxType = {
 				name = "popup_minor_events_checkbox"
 				position = { x = -11 y = -7 }
@@ -268,7 +267,6 @@ guiTypes = {
 			position = {x=10 y=58}
 			Orientation = upper_right
 
-
 			checkBoxType = {
 				name = "popup_events_checkbox"
 				position = { x = -11 y = -7 }
@@ -295,7 +293,6 @@ guiTypes = {
 			name = "news_checkbox_window"
 			position = {x=260 y=58}
 			Orientation = upper_right
-
 
 			checkBoxType = {
 				name = "popup_news_checkbox"
@@ -336,7 +333,6 @@ guiTypes = {
 ###########################################
 # Items that go in the category container #
 ###########################################
-
 
 	#################
 	# Report Events #
@@ -678,7 +674,6 @@ guiTypes = {
 			frame = 2
 		}
 	}
-
 
 	containerWindowType = {
 		name = "on_map_decision_locator_item"
