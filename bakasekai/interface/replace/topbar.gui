@@ -445,16 +445,16 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}		
 		
-		instantTextBoxType = {
-			name ="fuel_value"
-			position = { x= 513 y = 4 }
-			font = "hoi_18mbs"
-			text = "999d"
-			format = center
-			maxWidth = 48
-			maxHeight = 24
-			fixedsize = yes
-		}
+		# instantTextBoxType = {
+		# 	name ="fuel_value"
+		# 	position = { x= 513 y = 4 }
+		# 	font = "hoi_18mbs"
+		# 	text = "999d"
+		# 	format = center
+		# 	maxWidth = 48
+		# 	maxHeight = 24
+		# 	fixedsize = yes
+		# }
 		
 		iconType = {
 			name ="fuel_ratio_bar"

@@ -991,7 +991,7 @@ bitmapfonts = {
 		#		path = "gfx/fonts/hoi_16mbs"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		color = -8939009
 	}
@@ -1174,7 +1174,7 @@ bitmapfonts = {
 		name = "vic_18"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		languages = {
 			"l_russian"
@@ -1224,7 +1224,7 @@ bitmapfonts = {
 		name = "vic_22"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		languages = {
 			"l_russian"
@@ -1390,7 +1390,7 @@ bitmapfonts = {
 		#		path = "gfx/fonts/hoi_18"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1433,7 +1433,7 @@ bitmapfonts = {
 		#		path = "gfx/fonts/hoi_18b"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		color = 0xffffffff
 		textcolors = {
