@@ -68,12 +68,7 @@ recruit_character = BRA_arlindo_veiga_dos_santos
 # recruit_character = BRA_random_army_chief
 
 set_country_flag = monroe_doctrine
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1934.7.17"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_N = yes
 
 set_popularities = {
 	neutrality_ideology = 100

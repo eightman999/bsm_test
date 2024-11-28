@@ -204,12 +204,7 @@ recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 12
-	elections_allowed = yes
-}
+political_set_M = yes
 
 set_popularities = {
 	constitutional_monarchy = 64

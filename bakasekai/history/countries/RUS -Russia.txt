@@ -127,12 +127,7 @@ recruit_character = RUS_Roman_Fyodorovich_von_Ungern
 recruit_character = RUS_arecsey
 # give_guarantee = JPN
 set_convoys = 10
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_m = yes
 add_ideas = sav_isan
 set_popularities = {
 	rightneutrality = 30

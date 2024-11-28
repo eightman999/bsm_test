@@ -36,12 +36,7 @@ recruit_character = YEM_nae_m_al_abdul
 set_war_support = 0.1
 set_stability = 0.8
 set_convoys = 5
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	neutrality_ideology = 100

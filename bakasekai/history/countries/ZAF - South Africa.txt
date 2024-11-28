@@ -19,7 +19,7 @@ set_technology = {
 }
 
 tank_tech_level_0 = yes
-navy_tech_level_0 = yes
+navy_tech_level_1 = yes
 set_convoys = 25
 set_politics = {
 	ruling_party = stupidism

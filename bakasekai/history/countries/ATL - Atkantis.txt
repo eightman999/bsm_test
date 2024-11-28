@@ -1,16 +1,11 @@
 capital = 710 # Montenegro
-
 # obb=
 set_cosmetic_tag = ATL_republic
 set_research_slots = 6
-
 # Starting tech
 # clone of Yugoslavia
-set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	infantry_weapons1 = 1
-}
+land_tech_level_1 = yes
+support_tech_level_0 = yes
 
 if = {
 	limit = {
@@ -34,16 +29,9 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = mythologicalism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_0 = yes
 
 set_popularities = {
 	mythologicalism = 100
-
-	
 }
 

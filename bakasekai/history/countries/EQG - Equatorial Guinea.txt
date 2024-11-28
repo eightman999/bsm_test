@@ -24,12 +24,7 @@ recruit_character = EQG_acr
 recruit_character = EQG_stc
 recruit_character = EQG_ai2
 recruit_character = EQG_ncs
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	democratic_ideology = 25

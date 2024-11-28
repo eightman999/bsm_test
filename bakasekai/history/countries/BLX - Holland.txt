@@ -4,16 +4,6 @@ set_research_slots = 3
 set_stability = 0.75
 set_war_support = 0
 add_command_power = 10
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	# set_naval_oob = "HOL_1936_naval_mtg"
-	# else = {
-	# 	set_naval_oob = "HOL_1936_naval_legacy"
-	# }
-}
-
 set_cosmetic_tag = BLX_united_kingdom
 land_tech_level_1 = yes
 support_tech_level_0 = yes
@@ -158,12 +148,7 @@ recruit_character = LUX_pierre_dupong
 recruit_character = LUX_pierre_krier
 recruit_character = LUX_martin_karp
 
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 12
-	elections_allowed = yes
-}
+political_set_M = yes
 
 set_popularities = {
 	constitutional_monarchy = 100

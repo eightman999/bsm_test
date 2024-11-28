@@ -2,10 +2,8 @@ capital = 408
 oob = "Default_oob"
 set_research_slots = 4
 set_cosmetic_tag = FAREASTERNMOSCOW_empire
+support_tech_level_0 = yes
 set_technology = {
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
 	early_fighter = 1
 	gwtank = 1
 	basic_light_tank = 1
@@ -135,12 +133,7 @@ if = {
 # recruit_character = MOS_maria
 give_guarantee = JPN
 set_convoys = 10
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_m = yes
 
 set_popularities = {
 	rightneutrality = 30

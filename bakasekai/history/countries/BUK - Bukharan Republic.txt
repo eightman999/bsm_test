@@ -5,7 +5,7 @@ set_cosmetic_tag = BUK_republic
 # Starting tech
 land_tech_level_3 = yes
 support_tech_level_2 = yes
-air_tech_level_HIDDEN = yes
+air_tech_level_2 = yes
 doctrine_set_0 = yes
 
 if = {
@@ -50,12 +50,7 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 70

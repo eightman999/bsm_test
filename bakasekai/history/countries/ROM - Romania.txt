@@ -56,10 +56,8 @@ recruit_character = ROM_gheorghe_argeseanu
 recruit_character = ROM_king_michael
 recruit_character = ROM_octavian_goga
 # Starting tech
+support_tech_level_0 = yes
 set_technology = {
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
 	motorised_infantry = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1

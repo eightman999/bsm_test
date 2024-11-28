@@ -9,12 +9,7 @@ set_technology = {
 set_stability = 0.6
 set_war_support = 0.7
 save_global_event_target_as = WTT_communist_china
-set_politics = {
-	ruling_party = stupidism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_s = yes
 
 set_popularities = {
 	stupidism = 100

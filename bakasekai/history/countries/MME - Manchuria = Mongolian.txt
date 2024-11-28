@@ -52,12 +52,7 @@ recruit_character = MEN_nalan_kang_an
 recruit_character = MEN_songgotu_zhanshan
 recruit_character = MEN_megata_toshiro
 set_convoys = 50
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_m = yes
 if = {
 	limit = {
 		has_dlc = "No Step Back"

@@ -68,7 +68,7 @@ USA_recalc_congress_icon_frames = yes
 # Starting tech
 land_tech_level_2 = yes
 support_tech_level_0 = yes
-air_tech_level_2 = yes
+air_tech_level_3 = yes
 set_technology = {
 	superior_firepower = 1
 	base_strike = 1

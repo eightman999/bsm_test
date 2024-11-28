@@ -54,12 +54,7 @@ recruit_character = SIA_kuang_abhayavongsa
 recruit_character = SIA_thawee_punyaketu
 recruit_character = SIA_phot_bhahalyodin
 set_convoys = 15
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	fascism_ideology = 20

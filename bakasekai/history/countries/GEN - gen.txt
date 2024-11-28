@@ -10,12 +10,7 @@ set_technology = {
 	transport = 1
 }
 
-set_politics = {
-	ruling_party = stupidism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_s = yes
 
 recruit_character = sensyosya_6
 set_popularities = {

@@ -17,12 +17,7 @@ set_technology = {
 	basic_train = 1
 }
 
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1932.11.27"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_b = yes
 
 set_popularities = {
 	democratic_ideology = 83

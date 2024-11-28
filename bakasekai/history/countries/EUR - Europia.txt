@@ -130,12 +130,7 @@ add_to_faction = PAL
 # }
 
 set_convoys = 4000
-set_politics = {
-	ruling_party = mythologicalism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_1 = yes
 
 set_popularities = {
 	mythologicalism = 20

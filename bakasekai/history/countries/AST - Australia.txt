@@ -108,12 +108,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1934.9.15"
-	election_frequency = 36
-	elections_allowed = yes
-}
+political_set_A = yes
 
 set_popularities = {
 	democratic_ideology = 98

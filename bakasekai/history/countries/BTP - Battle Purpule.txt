@@ -60,12 +60,7 @@ recruit_character = BT_lit_B
 recruit_character = BT_rat_B
 recruit_character = BT_btl_B
 recruit_character = BT_zjd_B
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_m = yes
 
 set_popularities = {
 	communism_ideology = 20

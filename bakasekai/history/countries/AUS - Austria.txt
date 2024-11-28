@@ -14,12 +14,7 @@ set_technology = {
 }
 
 recruit_character = AUS_EMU
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1930.11.9"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	neutrality_ideology = 48

@@ -2,10 +2,8 @@ capital = 1000
 oob = "Default_oob"
 set_cosmetic_tag = NPL_republic
 set_research_slots = 10
+support_tech_level_0 = yes
 set_technology = {
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
 	early_fighter = 1
 	gwtank = 1
 	basic_light_tank = 1
@@ -15,12 +13,7 @@ set_technology = {
 }
 
 set_convoys = 0
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_N = yes
 
 set_popularities = {
 	democratic_ideology = 30

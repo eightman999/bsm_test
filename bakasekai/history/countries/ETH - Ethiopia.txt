@@ -2,10 +2,8 @@
 oob = "Default_oob"
 # Starting tech
 set_cosmetic_tag = ETH_empire
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
+land_tech_level_0 = yes
+support_tech_level_m = yes
 
 set_variable = {
 	ETH_war_escalation_level = 0
@@ -340,12 +338,7 @@ set_global_flag = second_italo_ethiopian_war_flag
 	clr_global_flag = second_italo_ethiopian_war_flag
 }
 
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 promote_character = {
 	character = ETH_haile_selassie

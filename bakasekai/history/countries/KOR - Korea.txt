@@ -14,12 +14,7 @@ recruit_character = KOR_Shin_Sung
 recruit_character = KOR_Sohn_Won_Yil
 
 set_convoys = 5
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_m = yes
 
 set_popularities = {
 	constitutional_monarchy = 65

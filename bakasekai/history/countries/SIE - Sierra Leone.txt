@@ -24,12 +24,7 @@ recruit_character = SIE_coi
 recruit_character = SIE_pot
 recruit_character = SIE_aa2
 recruit_character = SIE_awt
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 55

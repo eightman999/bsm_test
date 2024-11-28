@@ -24,12 +24,7 @@ recruit_character = GNB_aco2
 recruit_character = GNB_aa2
 recruit_character = GNB_nt
 recruit_character = GNB_communist_guy
-set_politics = {
-	ruling_party = communism_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_C = yes
 
 set_popularities = {
 	democratic_ideology = 25

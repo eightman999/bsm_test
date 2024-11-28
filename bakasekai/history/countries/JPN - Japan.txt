@@ -173,12 +173,7 @@ CTO = {
 	}
 }
 
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 12
-	elections_allowed = yes
-}
+political_set_M = yes
 
 set_popularities = {
 	constitutional_monarchy = 100

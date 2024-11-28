@@ -28,12 +28,7 @@ recruit_character = WLS_acas
 recruit_character = WLS_acgs
 recruit_character = WLS_aa2
 recruit_character = WLS_democratic_guy
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 93

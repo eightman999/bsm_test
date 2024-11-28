@@ -39,12 +39,7 @@ tank_tech_level_1 = yes
 # recruit_character = AFG_haji_faiz_muhammed_zikeria
 # recruit_character = AFG_mohammad_hashim_khan
 # recruit_character = AFG_muhammed_nowroz
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	fascism_ideology = 15

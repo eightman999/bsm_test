@@ -1,9 +1,8 @@
-﻿capital = 779
-set_cosmetic_tag = IVO_republic
+﻿capital = 333
 # Starting tech
 land_tech_level_0 = yes
 
-set_convoys = 20
+set_convoys = 10
 political_set_n = yes
 
 set_popularities = {
