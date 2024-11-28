@@ -9,12 +9,12 @@ equipments = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				NOT = {
-					#has_idea = BUL_army_restrictions_aat
+					has_idea = BUL_army_restrictions_aat
 				}
 			}
 			else = {
 				NOT = {
-					#has_idea = BUL_army_restrictions
+					has_idea = BUL_army_restrictions
 				}
 			}
 		}
@@ -198,6 +198,7 @@ equipments = {
 		
 		max_strength = 30
 
+
 		
 		build_cost_ic = 420
 		resources = {
@@ -307,6 +308,7 @@ equipments = {
 		
 		max_strength = 30
 
+
 		
 		build_cost_ic = 490
 		resources = {
@@ -366,6 +368,7 @@ equipments = {
 		
 		max_strength = 40
 
+
 		
 		build_cost_ic = 650
 		resources = {
@@ -412,6 +415,7 @@ equipments = {
 			steel = 1
 		}
 	}
+
 
 	ship_hull_nuclear_submarine = {
 		abbreviation = "hefns"
@@ -474,6 +478,7 @@ equipments = {
 		
 		manpower = 400
 		max_strength = 50
+
 
 		
 		build_cost_ic = 1150
@@ -604,6 +609,7 @@ equipments = {
 		naval_range = 3000
 		
 		max_strength = 30
+
 
 		
 		build_cost_ic = 350
@@ -738,6 +744,7 @@ equipments = {
 		reliability = 0.75
 		fuel_consumption = 1
 
+
 		sub_visibility = 26
 		naval_speed = 16
 		reliability = 0.75
@@ -745,6 +752,7 @@ equipments = {
 		naval_range = 5000
 		
 		max_strength = 30
+
 
 		
 		build_cost_ic = 490
@@ -834,12 +842,14 @@ equipments = {
 		reliability = 0.75
 		fuel_consumption = 1
 
+
 		sub_visibility = 13
 		naval_speed = 19
 		
 		naval_range = 6500
 		
 		max_strength = 40
+
 
 		
 		build_cost_ic = 650
@@ -989,6 +999,7 @@ equipments = {
 		reliability = 0.8
 		fuel_consumption = 0
 
+
 		sub_visibility = 12
 		naval_speed = 22
 	
@@ -1090,6 +1101,7 @@ equipments = {
 		reliability = 0.8
 		fuel_consumption = 4
 
+
 		sub_visibility = 13
 		naval_speed = 20
 	
@@ -1097,6 +1109,7 @@ equipments = {
 		naval_range = 6500
 		
 		max_strength = 40
+
 
 		
 		build_cost_ic = 900
@@ -1189,6 +1202,7 @@ equipments = {
 		surface_visibility = 1
 		reliability = 0.8
 		fuel_consumption = 0
+
 
 		sub_visibility = 14
 		naval_speed = 22
