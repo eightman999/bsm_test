@@ -759,7 +759,7 @@
  SUD_DEF:0 "スーダン"
  SUD_ADJ:0 "スーダン"
  
- CH1:0 "トーゴ"
+ TOG:0 "トーゴ"
  TOG_DEF:0 "トーゴ"
  TOG_ADJ:0 "トーゴ"
  
@@ -1008,7 +1008,7 @@
  EJR_DEF:0 "東方エルサレム"
  EJR_ADJ:0 "東方エルサレム"
  
- ENG:0 "上"
+ JYO:0 "上"
  ENG_DEF:0 "上"
  ENG_ADJ:0 "上"
  
@@ -1016,11 +1016,11 @@
  GEN_DEF:0 "元寇"
  GEN_ADJ:0 "元寇"
  
- GER:0 "志'"
+ SHI:0 "志'"
  GER_DEF:0 "志'"
  GER_ADJ:0 "志'"
  
- JAP:0 "三'"
+ THR:0 "三'"
  JAP_DEF:0 "三'"
  JAP_ADJ:0 "三'"
  
@@ -1056,7 +1056,7 @@
  PRK_DEF:0 "北朝鮮"
  PRK_ADJ:0 "北朝鮮"
  
- RAJ:0 "國'"
+ KOK:0 "國'"
  RAJ_DEF:0 "國'"
  RAJ_ADJ:0 "國'"
  

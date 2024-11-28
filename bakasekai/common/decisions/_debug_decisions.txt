@@ -18,7 +18,7 @@ debug_decisions = {
 			has_global_flag = debug_chn_civilwar
 		}
 		remove_effect = {
-			RAJ = {
+			KOK = {
 				country_event = {
 					id = CHN_civil_war.2
 				}

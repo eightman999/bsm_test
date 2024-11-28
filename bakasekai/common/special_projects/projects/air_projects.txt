@@ -426,7 +426,7 @@ sp_air_intercontinental_bomber = {
 		country_effects = {
 			if = {
 				limit = {
-					original_tag = GER
+					original_tag = DEU
 					has_country_flag = GER_amerikabomber_focke_wulf_flag
 				}
 				custom_effect_tooltip = GER_amerikabomber_focke_wulf_name

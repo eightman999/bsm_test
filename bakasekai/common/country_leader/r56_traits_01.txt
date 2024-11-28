@@ -3922,7 +3922,7 @@ leader_traits = {
         conscription = 0.01
     }
 
-    ###------> RAJ <><> <><> <><> <><> <><>
+    ###------> IND <><> <><> <><> <><> <><>
     rebel_president_trait= {
         random = no
         sprite = 13

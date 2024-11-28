@@ -776,7 +776,7 @@ leader_traits = {
                     original_tag = SWE
                     original_tag = AUS
                     original_tag = BRA
-                    original_tag = GER
+                    original_tag = DEU
                 }
             }
         }
@@ -794,7 +794,7 @@ leader_traits = {
                     original_tag = SWE
                     original_tag = AUS
                     original_tag = BRA
-                    original_tag = GER
+                    original_tag = DEU
                 }
                 NOT = {
                     OR = {

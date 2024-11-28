@@ -30,7 +30,7 @@
 # 			modifier = {
 # 				# Don't waste Fallschirmjägers on this, unless late in the war and it might help us winning
 # 				factor = 0
-# 				tag = GER
+# 				tag = DEU
 # 				date < 1944.1.1
 # 				NOT = { surrender_progress > 0 }
 # 			}

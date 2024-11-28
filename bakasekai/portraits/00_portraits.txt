@@ -680,7 +680,7 @@ MAL_UK = {
 	}
 }
 
-RAJ = {
+IND = {
 	army = {
 		male = {
 			"GFX_Portrait_The_Raj_Army_Generic"
