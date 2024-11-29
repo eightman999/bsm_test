@@ -159,16 +159,7 @@ sp_nuclear_major_political_interference_generic_reward = {
 		max = 85
 	}
 
-	weight = {
-		base = 1
-		modifier = {
-			factor = 0.25
-			FROM = {
-				NOT = { has_dictatorship_government = yes }
-				
-			}
-		}
-	}
+
 	
 	option = {
 		token = sp_nuclear_major_political_interference_generic_reward_option_keep
