@@ -9,17 +9,7 @@ support_tech_level_1 = yes
 air_tech_level_0 = yes
 land_tech_level_1 = yes
 tank_tech_level_1 = yes
-if = {
-	limit = {
-		
-		has_dlc = "No Step Back"
-		
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-}
+
 
 if = {
 	limit = {

@@ -4,14 +4,8 @@ oob = "Default_oob"
 set_cosmetic_tag = AUS_empire
 set_tech_level_1 = yes
 land_tech_level_1 = yes
-set_technology = {
-	tech_recon = 1
-	tech_engineers = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-
-}
+air_tech_level_0 = yes
+support_tech_level_1 = yes
 
 recruit_character = AUS_EMU
 political_set_n = yes

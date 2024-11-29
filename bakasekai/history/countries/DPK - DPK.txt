@@ -7,9 +7,7 @@ set_cosmetic_tag = DPKandPOLandLIT_most_serene_kingdom
 recruit_character = Friedrich_Christian_von_Sachsen
 political_set_M = yes
 
-set_popularities = {
-	constitutional_monarchy = 100
-}
+popularities_set_M = yes
 
 land_tech_level_1 = yes
 support_tech_level_0 = yes

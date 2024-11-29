@@ -7,9 +7,7 @@ set_war_support = 0.7
 recruit_character = RSK_Ferdinando_Pio
 political_set_M = yes
 
-set_popularities = {
-	constitutional_monarchy = 100
-}
+popularities_set_M = yes
 
 land_tech_level_1 = yes
 support_tech_level_0 = yes

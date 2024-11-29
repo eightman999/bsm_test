@@ -3,17 +3,8 @@
 set_cosmetic_tag = NAV_kingdom
 # Starting tech
 land_tech_level_1 = yes
-set_technology = {
-	tech_recon = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-}
+support_tech_level_1 = yes
+air_tech_level_1 = yes
 
 set_convoys = 20
 political_set_d = yes

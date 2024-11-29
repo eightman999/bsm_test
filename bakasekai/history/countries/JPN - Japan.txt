@@ -175,9 +175,7 @@ CTO = {
 
 political_set_M = yes
 
-set_popularities = {
-	constitutional_monarchy = 100
-}
+popularities_set_M = yes
 
 create_faction = daitoa_kyoeiken
 add_to_faction = CHI

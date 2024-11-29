@@ -139,3 +139,9 @@ popularities_set_N = {
 		neutrality_ideology = 100
 	}	
 }
+
+popularities_set_M = {
+	set_popularities = {
+		constitutional_monarchy = 100
+	}
+}

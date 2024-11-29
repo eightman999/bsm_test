@@ -3,19 +3,11 @@ oob = "Default_oob"
 set_cosmetic_tag = BEL_kingdom
 set_tech_level_1 = yes
 set_stability = 0.8
-set_war_support = 0.3#we see what you are doing there Adolf
+set_war_support = 0.3
 land_tech_level_1 = yes
-set_technology = {
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	motorised_infantry = 1
-	early_fighter = 1
-	trench_warfare = 1
-	fuel_silos = 1
-	fuel_refining = 1
-
-}
+support_tech_level_2 = yes
+industry_tech_level_1 = yes
+air_tech_level_1 = yes
 
 political_set_b = yes
 
