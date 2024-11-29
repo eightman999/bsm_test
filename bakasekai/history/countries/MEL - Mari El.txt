@@ -1,7 +1,7 @@
 ﻿capital = 833#Yoshkar-Ola
 #oob = "Default_oob" 
 set_cosmetic_tag = MEL_republic
-set_research_slots = 3
+set_tech_level_1 = yes
 # Starting tech
 land_tech_level_3 = yes
 support_tech_level_2 = yes

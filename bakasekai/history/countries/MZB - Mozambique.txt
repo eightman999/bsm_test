@@ -28,9 +28,7 @@ recruit_character = MZB_ncs
 recruit_character = MZB_awt
 political_set_n = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes
 
 create_country_leader = {
 	name = "Eduardo Tsonga"

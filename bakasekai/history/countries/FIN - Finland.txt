@@ -5,13 +5,13 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	# set_naval_oob = "FIN_1936_naval_mtg"
+
 	# else = {
 	# 	set_naval_oob = "FIN_1936_naval_legacy"
 	# }
 }
 
-set_research_slots = 3
+set_tech_level_1 = yes
 recruit_character = FIN_risto_heikki_ryti
 recruit_character = FIN_aimo_aaltonen
 recruit_character = FIN_vilho_annala
@@ -45,7 +45,7 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 	tech_engineers = 1
-	basic_train = 1
+
 }
 
 if = {

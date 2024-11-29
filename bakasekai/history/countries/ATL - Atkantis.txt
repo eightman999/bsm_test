@@ -1,7 +1,7 @@
 capital = 710 # Montenegro
 # obb=
 set_cosmetic_tag = ATL_republic
-set_research_slots = 6
+set_tech_level_4 = yes
 # Starting tech
 # clone of Yugoslavia
 land_tech_level_1 = yes

@@ -4,12 +4,11 @@ set_fuel_ratio = 0.8
 # starting_truck_buffer = 0.8
 # Starting tech
 set_cosmetic_tag = CUB_republic
-land_tech_level_1 = yes
 land_tech_level_2 = yes
 support_tech_level_1 = yes
 air_tech_level_4 = yes
 set_technology = {
-	basic_train = 1
+
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1

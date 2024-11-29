@@ -37,6 +37,4 @@ if = {
 
 political_set_n = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes

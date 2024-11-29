@@ -12,6 +12,14 @@ land_tech_level_1 ={
         gw_artillery = 1
         tech_trucks = 1
     }
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		set_technology = {
+			armored_car1 = 1
+		}
+	}
 }
 
 land_tech_level_2 ={
@@ -23,6 +31,14 @@ land_tech_level_2 ={
         interwar_antiair = 1
         basic_train = 1
     }
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		set_technology = {
+			armored_car1 = 1
+		}
+	}
 }
 
 land_tech_level_3 ={
@@ -36,6 +52,14 @@ land_tech_level_3 ={
         motorised_infantry = 1
         paratroopers = 1
     }
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		set_technology = {
+			armored_car1 = 1
+		}
+	}
 }
 
 support_tech_level_m ={
@@ -270,7 +294,45 @@ navy_tech_level_2 ={
     }
 }
 
-navy_tech_level_3 ={
+navy_tech_level_3 = {
+	if = {
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_technology = {
+			early_submarine = 1
+			early_destroyer = 1
+			early_light_cruiser = 1
+			early_heavy_cruiser = 1
+			early_battleship = 1
+			transport = 1
+		}
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+			basic_naval_mines = 1
+			submarine_mine_laying = 1
+			early_ship_hull_submarine = 1
+			basic_ship_hull_submarine = 1
+			early_ship_hull_light = 1
+			early_ship_hull_cruiser = 1
+			early_ship_hull_heavy = 1
+			basic_battery = 1
+			basic_torpedo = 1
+			mtg_transport = 1
+			pre_dreadnoughts = 1
+			coastal_defense_ships = 1
+		}
+		
+	}
+}
+
+navy_tech_level_4 ={
     if = {
         limit = {
             not = {
@@ -309,6 +371,7 @@ navy_tech_level_3 ={
 doctrine_set_0 ={
     set_technology = {
         mass_assault = 1
+		trench_warfare = 1
         fleet_in_being = 1
     }
 }
@@ -318,6 +381,18 @@ doctrine_set_1 = {
 		mobile_warfare = 1
 		trade_interdiction = 1
 		formation_flying = 1
+	}
+}
+industry_tech_level_0 = {
+    set_technology = {
+        fuel_silos = 1
+    }
+}
+
+industry_tech_level_1 = {
+	set_technology = {
+		fuel_silos = 1
+		synth_oil_experiments = 1
 	}
 }
 

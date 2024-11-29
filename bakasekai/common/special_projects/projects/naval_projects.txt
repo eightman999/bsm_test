@@ -725,7 +725,6 @@ sp_naval_rocket_launching_submarine = {
 			}			
 		}	
 	}
-
 }
 
 # Nuclear Missile Submarine
@@ -898,7 +897,6 @@ sp_naval_nuclear_missile_submarine = {
 			}			
 		}	
 	}
-
 }
 
 #Nuclear Torpedo
@@ -1029,7 +1027,6 @@ sp_naval_nuclear_torpedo = {
 			}
 		}	
 	}
-
 }
 
 #Midget Submarine
@@ -1461,7 +1458,6 @@ sp_naval_aip_engine = {
 
 		}	
 	}
-
 }
 
 #ANECHOIC TILES
@@ -1620,7 +1616,6 @@ sp_naval_anechoic_tiles = {
 
 		}	
 	}
-
 }
 
 #########################################################
@@ -1821,7 +1816,6 @@ sp_naval_torpedo_cruiser = {
 			}
 		}	
 	}
-
 }
 
 
@@ -3057,7 +3051,6 @@ sp_naval_ice_carrier = {
 			}
 		}	
 	}
-
 }
 
 #Underway Replenishment

@@ -73,7 +73,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -119,7 +118,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -164,7 +162,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -210,7 +207,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -265,7 +261,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 continent = {
@@ -353,7 +348,6 @@ continent = {
 			}
 		}
 	}
-
 }
 
 DEU = {
@@ -867,7 +861,6 @@ HOL = {
 			"GFX_Portrait_Europe_Generic_navy_3"
 		}
 	}
-
 }
 
 TUR = {

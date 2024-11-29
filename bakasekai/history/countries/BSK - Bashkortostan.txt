@@ -1,6 +1,6 @@
 capital = 651#Ufa
 oob = "Default_oob"
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = BSK_republic
 # Starting tech
 land_tech_level_3 = yes

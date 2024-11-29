@@ -1,6 +1,6 @@
 capital = 829 #Engels
 oob = "Default_oob"
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = VGE_republic
 
 recruit_character = VGE_heinrich_luft

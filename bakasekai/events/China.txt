@@ -1078,7 +1078,6 @@ country_event = {
 	option = {
 		name = china.106.a
 	}
-
 }
 
 # China and Japan no longer at war - Break up faction and Mao claims his part of China
@@ -1223,7 +1222,6 @@ country_event = {
 		name = china.110.a
 		add_timed_idea = { idea = CHI_civil_war_deserters days = 180 }
 	}
-
 }
 
 # China and Japan no longer at war - Break up faction and Mao claims his part of China

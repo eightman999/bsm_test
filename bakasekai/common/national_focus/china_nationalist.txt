@@ -2273,5 +2273,4 @@
 			# unlock_decision_tooltip = CHI_forced_loans
 		}
 	}
-
 }

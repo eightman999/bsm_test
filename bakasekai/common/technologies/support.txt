@@ -2252,5 +2252,4 @@ technologies = {
 			}
 		}
 	}
-
 }

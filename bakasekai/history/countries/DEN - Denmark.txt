@@ -5,7 +5,7 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	# set_naval_oob = "DEN_1936_naval_mtg"
+
 	# else = {
 	# 	set_naval_oob = "DEN_1936_naval_legacy"
 	# }
@@ -32,7 +32,7 @@ recruit_character = DEN_wilhelm_prior
 recruit_character = DEN_ejnar_warum
 recruit_character = DEN_viggo_kampman
 recruit_character = DEN_knud_kristensen
-set_research_slots = 3
+set_tech_level_1 = yes
 set_stability = 0.9
 set_war_support = 0.1
 land_tech_level_1 = yes

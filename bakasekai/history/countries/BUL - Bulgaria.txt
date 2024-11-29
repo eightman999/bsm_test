@@ -416,7 +416,7 @@ if = {
 		recruit_character = BUL_stefan_nedev
 	}
 	#TECHNOLOGY
-	set_research_slots = 3	#DLC
+	set_tech_level_1 = yes	#DLC
 	#RULING PARTY
 	set_politics = {
 		#DLC
@@ -478,5 +478,5 @@ set_technology = {
 	motorised_infantry = 1
 	early_fighter = 1
 	fuel_silos = 1
-	basic_train = 1
+
 }

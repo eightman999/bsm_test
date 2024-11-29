@@ -1,5 +1,5 @@
 capital = 914
-set_research_slots = 5
+set_tech_level_3 = yes
 set_cosmetic_tag = PEG_group
 oob = "Default_oob"#pengin
 recruit_character = PEG_pengin

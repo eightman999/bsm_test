@@ -1,7 +1,7 @@
 capital = 826#Sukhumi
 oob = "Default_oob"
 set_cosmetic_tag = ABK_republic
-set_research_slots = 3
+set_tech_level_1 = yes
 
 # Starting tech
 land_tech_level_3 = yes
@@ -9,8 +9,7 @@ support_tech_level_2 = yes
 air_tech_level_2 = yes
 doctrine_set_0 = yes
 tank_tech_level_1 = yes
-navy_tech_level_3 = yes
-
+navy_tech_level_4 = yes
 political_set_d = yes
 
 set_popularities = {

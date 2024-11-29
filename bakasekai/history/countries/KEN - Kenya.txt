@@ -9,9 +9,7 @@ set_convoys = 5
 # A colony of Italy in 1939.  However, if independent it would have the same politics as in 1936
 political_set_N = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes
 
 create_country_leader = {
 	name = "Dedan Ngwale"

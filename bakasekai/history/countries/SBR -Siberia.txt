@@ -1,7 +1,7 @@
 capital = 576
 oob = "Default_oob"
 set_cosmetic_tag = SAINTSIBERIA_free_state
-set_research_slots = 3
+set_tech_level_1 = yes
 # add_ideas = {
 # 	anti_german_military
 # }
@@ -11,14 +11,10 @@ set_research_slots = 3
 # }
 
 support_tech_level_0 = yes
-set_technology = {
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	fuel_silos = 1
-}
+industry_tech_level_0 = yes
+air_tech_level_0 = yes
+land_tech_level_1 = yes
+tank_tech_level_1 = yes
 
 set_convoys = 0
 set_politics = {

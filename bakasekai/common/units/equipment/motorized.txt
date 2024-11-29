@@ -90,5 +90,4 @@ equipments = {
 		archetype = motorbike_equipment
 		priority = 1 #Very low
 	}
-
 }

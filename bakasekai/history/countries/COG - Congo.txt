@@ -8,9 +8,7 @@ support_tech_level_m = yes
 set_convoys = 5
 political_set_n = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes
 
 create_country_leader = {
 	name = "François Tolenga"

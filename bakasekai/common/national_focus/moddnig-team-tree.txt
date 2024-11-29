@@ -445,5 +445,4 @@ focus_tree = {
 		}
 		prerequisite = { focus = ICE_warm_hand_typing  }
 	}
-
 }

@@ -1467,5 +1467,4 @@ spriteTypes = {
 		name = "GFX_portrait_USA_alexander_vandegrift"
 		texturefile = "gfx/leaders/USA/portrait_usa_alexander_vandegrift.dds"
 	}
-
 }

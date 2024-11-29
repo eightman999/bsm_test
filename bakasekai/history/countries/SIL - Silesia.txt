@@ -1,6 +1,6 @@
 ﻿capital = 66
 #oob = "Default_oob" 
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = SIL_duchy
 # Starting tech
 land_tech_level_1 = yes

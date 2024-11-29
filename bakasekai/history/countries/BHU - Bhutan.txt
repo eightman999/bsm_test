@@ -29,6 +29,4 @@ recruit_character = BHU_sonam_tobgay_dorji
 recruit_character = BHU_mang_pos_bhur_bai
 political_set_n = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes

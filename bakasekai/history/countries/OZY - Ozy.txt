@@ -1,7 +1,7 @@
 capital = 4
 oob = "Default_oob"
 oob = "OZY_1936"
-set_research_slots = 3
+set_tech_level_1 = yes
 land_tech_level_1 = yes
 set_technology = {
 	tech_recon = 1
@@ -9,7 +9,7 @@ set_technology = {
 	tech_support = 1
 	tech_mountaineers = 1
 	early_fighter = 1
-	basic_train = 1
+
 }
 
 recruit_character = OZY_otto_von_habsburg

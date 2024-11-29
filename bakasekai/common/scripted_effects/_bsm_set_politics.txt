@@ -133,3 +133,9 @@ political_set_f = {
 		elections_allowed = yes
 	}
 }
+
+popularities_set_N = {
+	set_popularities = {
+		neutrality_ideology = 100
+	}	
+}

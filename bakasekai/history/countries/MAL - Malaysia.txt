@@ -1,6 +1,6 @@
 ﻿capital = 336#Kuala Lumpur
 oob = "Default_oob"
-set_research_slots = 3
+set_tech_level_1 = yes
 recruit_character = MAL_shenton_thomas
 recruit_character = MAL_onn_jaafar
 recruit_character = MAL_lai_teck

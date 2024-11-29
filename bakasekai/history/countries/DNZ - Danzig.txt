@@ -1,6 +1,6 @@
 ﻿capital = 85 #Danzig
 set_cosmetic_tag = DNZ_free_city
-set_research_slots = 3
+set_tech_level_1 = yes
 
 # Starting tech
 land_tech_level_1 = yes
@@ -19,9 +19,8 @@ set_technology = {
 	early_bomber = 1
 	strategic_bomber1 = 1
 	naval_bomber1 = 1
-	mass_assault = 1
-	fleet_in_being = 1
 }
+doctrine_set_0 = yes
 if = {
 	limit = {
 		NOT = {

@@ -21,12 +21,11 @@ set_fuel_ratio = 0.8
 set_cosmetic_tag = DEU_reich
 # starting_truck_buffer = 0.8
 # Starting tech
-land_tech_level_1 = yes
 land_tech_level_2 = yes
 support_tech_level_1 = yes
 air_tech_level_4 = yes
 set_technology = {
-	basic_train = 1
+
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -83,7 +82,7 @@ if = {
 		transport = 1
 	}
 	DEU_navy_variants = yes
-	# set_naval_oob = "GER_1936_naval"
+
 }
 
 if = {
@@ -115,7 +114,7 @@ if = {
 		basic_cruiser_armor_scheme = 1
 	}
 	DEU_navy_variants_2 = yes
-	# set_naval_oob = "GER_1936_naval_mtg"
+
 }
 
 if = {
@@ -142,7 +141,7 @@ set_variable = {
 	value = 0
 }
 
-set_research_slots = 4
+set_tech_level_2 = yes
 set_convoys = 200
 set_stability = 0.75
 set_war_support = 0.3

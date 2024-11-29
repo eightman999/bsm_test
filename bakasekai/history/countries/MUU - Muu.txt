@@ -1,6 +1,6 @@
 capital = 887# Montenegro
 oob = "Default_oob"
-set_research_slots = 3
+set_tech_level_1 = yes
 # Starting tech
 # clone of Yugoslavia
 support_tech_level_0 = yes

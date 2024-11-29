@@ -1,6 +1,6 @@
 capital = 943# Montenegro
 # obb=
-set_research_slots = 6
+set_tech_level_4 = yes
 # Starting tech
 # clone of Yugoslavia
 set_technology = {

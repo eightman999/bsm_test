@@ -639,7 +639,6 @@ SWI_bring_professionalized_divisions_to_the_correct_level = {
 		add_to_variable = { SWI_infantry_template_level = 1 }
 		log = "Militia Template Level is: [?SWI_infantry_template_level]"
 	}
-
 }
 
 SWI_reset_citizen_militia_active_modifier = {
@@ -764,7 +763,6 @@ SWI_fill_neighbors = {
 			}
 		}
 	}
-
 }
 
 SWI_update_neighbor_opinion_balance = { #This is the one to call when you add opinion modifiers. 

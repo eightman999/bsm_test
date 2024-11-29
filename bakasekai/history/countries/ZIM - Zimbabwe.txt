@@ -28,9 +28,7 @@ recruit_character = ZIM_aa2
 recruit_character = ZIM_democratic_guy
 political_set_N = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes
 
 create_country_leader = {
 	name = "Marcus James Hugins"

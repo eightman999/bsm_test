@@ -776,7 +776,6 @@ country_event = {
 		name = WES.19.a  #戦いは続く…
 		
 	}
-
 }
 
 country_event = {
@@ -834,7 +833,6 @@ country_event = {
 		add_ideas = WES_private_use_of_public_funds
 
 	}
-
 }
 
 country_event = {
@@ -901,7 +899,6 @@ country_event = {
 		}
 		
 	}
-
 }
 
 country_event = {
@@ -959,7 +956,6 @@ country_event = {
 		name = WES.23.a  #これで満足しただろう
 		
 	}
-
 }
 
 country_event = {
@@ -1027,7 +1023,6 @@ country_event = {
 			has_country_flag = WES_anarchy_create_fin #完成後外す
 		}
 	}
-
 }
 
 country_event = {
@@ -1075,7 +1070,6 @@ country_event = {
 		#promote_character = WES_anarchy
 		
 	}
-
 }
 
 country_event = {
@@ -1222,7 +1216,6 @@ country_event = {
 		}
 		
 	}
-
 }
 
 country_event = {
@@ -1247,7 +1240,6 @@ country_event = {
 		name = WES.27.a  #民衆の支持は取り付けた!
 		add_ideas = WES_construction_of_the_transcontinental_railroad_2
 	}
-
 }
 
 country_event = {

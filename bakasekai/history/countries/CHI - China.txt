@@ -5,13 +5,8 @@ set_war_support = 0.5
 set_cosmetic_tag = CHN_minguo
 # Starting tech
 land_tech_level_0 = yes
-set_technology = {
-	early_fighter = 1
-	early_bomber = 1
-	mass_assault = 1
-	fleet_in_being = 1
-	basic_train = 1
-}
+air_tech_level_1 = yes
+doctrine_set_0 = yes
 add_ideas = {
 	german_advisors
 }
@@ -105,67 +100,3 @@ recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
 recruit_character = CHI_chen_guofu
 recruit_character = CHI_soong_mei_ling
-
-600 = { #Jiangxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-749 = { #Huangshan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-606 = { #Anhui
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-607 = { #Henan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-620 = { #Hubei
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-602 = { #Hunan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-750 = { #Changde
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-744 = { #Xian
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-605 = { #Sichuan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-748 = { #Zunyi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-603 = { #Guizhu
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-615 = { #Shanxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-622 = { #Shaanxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-325 = { #Yunnan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-325 = { #Dali
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-328 = { #Kirin
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-715 = { #Liaoning
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-714 = { #Heilungkiang
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-717 = { #Hungkiang
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-761 = { #Hulunbuir
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-323 = { #Nepal
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}

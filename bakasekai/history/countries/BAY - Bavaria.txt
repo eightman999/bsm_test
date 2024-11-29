@@ -1,18 +1,14 @@
 ﻿capital = 52
 # Starting tech
 set_cosmetic_tag = BAY_kingdom
-land_tech_level_1 = yes
 land_tech_level_2 = yes
 support_tech_level_1 = yes
 air_tech_level_4 = yes
 doctrine_set_1 = yes
 industry_tech_level_2 = yes
-
 tank_tech_level_3 = yes
-
 navy_tech_level_0 = yes
-
-set_research_slots = 3
+set_tech_level_1 = yes
 set_convoys = 50
 set_stability = 0.75
 political_set_N = yes

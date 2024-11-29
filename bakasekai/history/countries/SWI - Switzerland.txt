@@ -1,22 +1,7 @@
 ﻿capital = 3
 set_cosmetic_tag = SWI_confederation
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	# set_oob = "SWI_1936_BBA"
-	# set_air_oob = "SWI_1936_air_bba"
-	else = {
-		# set_oob = "SWI_1936"
-		# set_air_oob = "SWI_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			CAS1 = 1
-		}
-	}
-}
-
-set_research_slots = 3
+air_tech_level_1 = yes
+set_tech_level_1 = yes
 land_tech_level_1 = yes
 set_technology = {
 	tech_mountaineers = 1
@@ -24,7 +9,7 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	fuel_silos = 1
-	basic_train = 1
+
 }
 
 ##### Characters for both

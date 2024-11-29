@@ -1,37 +1,12 @@
 capital = 408
 oob = "Default_oob"
-set_research_slots = 4
+set_tech_level_2 = yes
 set_cosmetic_tag = FAREASTERNMOSCOW_empire
 support_tech_level_0 = yes
-set_technology = {
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	fuel_silos = 1
-}
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
+industry_tech_level_0 = yes
+air_tech_level_0 = yes
+land_tech_level_1 = yes
 tank_tech_level_1 = yes
-	# set_oob = "JAP_1936"
-}
-
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-	# set_oob = "JAP_1936_nsb"
-}
 
 if = {
 	limit = {
@@ -62,7 +37,7 @@ if = {
 		cruiser_submarines = 1
 		basic_dp_light_battery = 1
 	}
-	# set_naval_oob = "JPN_1936_naval"
+
 }
 
 if = {
@@ -86,14 +61,13 @@ if = {
 		basic_carrier = 1
 		transport = 1
 	}
-	# set_naval_oob = "JPN_1936_naval_legacy"
 }
 
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
 	}
-	# set_air_oob = "JAP_1936_air_bba"
+
 	set_technology = {
 		aa_lmg = 1
 		engines_1 = 1
@@ -105,7 +79,7 @@ if = {
 		basic_small_airframe = 1
 	}
 	else = {
-		# set_air_oob = "JAP_1936_air_legacy"
+	
 		set_technology = {
 			cv_early_fighter = 1
 			cv_CAS1 = 1
@@ -117,20 +91,6 @@ if = {
 		}
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
-
-# recruit_character = MOS_Oliga
-# recruit_character = MOS_anastashia
-# recruit_character = MOS_tatiana
-# recruit_character = MOS_maria
 give_guarantee = JPN
 set_convoys = 10
 political_set_m = yes

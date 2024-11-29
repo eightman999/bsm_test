@@ -1,6 +1,6 @@
 capital = 307
 oob = "Default_oob"
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = ESP_republic
 land_tech_level_1 = yes
 set_technology = {
@@ -13,7 +13,7 @@ set_technology = {
 	early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
-	basic_train = 1
+
 }
 
 if = {

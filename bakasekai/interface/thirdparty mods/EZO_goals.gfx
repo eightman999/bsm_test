@@ -395,5 +395,4 @@ spriteTypes = {
 	name = "GFX_focus_EZO_invite_old_russian_navy"  
 	texturefile = "gfx/interface/goals/focus_EZO_invite_old_russian_navy.dds"			
 	}
-
 }

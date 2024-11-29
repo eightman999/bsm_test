@@ -163,7 +163,6 @@ country_event = {
 		SS_resolve_effects_ss = yes
 		subtract_from_variable = { var = wehrmacht_anger value = 5}
 	}
-
 }
 
 #SS recruitment, norway
@@ -655,7 +654,6 @@ country_event = {
 		SS_resolve_effects_ss = yes
 		subtract_from_variable = { var = wehrmacht_anger value = 5}
 	}
-
 }
 
 #SS recruitment, france
@@ -786,7 +784,6 @@ country_event = {
 		SS_resolve_effects_ss = yes
 		subtract_from_variable = { var = wehrmacht_anger value = 5}
 	}
-
 }
 
 #SS recruitment, estonia
@@ -1597,7 +1594,6 @@ country_event = {
 			base = 25
 		}
 	}
-
 }
 
 # ss resolution events - power struggle between Himmler and Göring after Hitler assassinated
@@ -1704,7 +1700,6 @@ country_event = {
 		set_variable = { var = wehrmacht_anger value = 0 }
 		set_variable = { var = SS_anger value = 0 }
 	}
-
 }
 # for alt-history stuff
 add_namespace = ss_recruitment_alternate

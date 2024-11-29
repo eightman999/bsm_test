@@ -38,6 +38,4 @@ set_stability = 0.8
 set_convoys = 5
 political_set_n = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes

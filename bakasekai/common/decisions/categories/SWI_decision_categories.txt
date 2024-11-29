@@ -60,7 +60,6 @@ SWI_military_readiness_decisions_category = { #### Militia and Military Readines
 		# has_completed_focus = SWI_armed_neutrality
 		NOT = { has_country_flag = SWI_militias_turned_into_regulars }
 	}
-
 }
 
 # SWI_absolute_neutrality_decisions_category = { 

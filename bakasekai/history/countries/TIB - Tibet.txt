@@ -26,6 +26,4 @@ recruit_character = TIB_reting_rimpoche
 recruit_character = TIB_taktra_rinpoche
 political_set_n = yes
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes

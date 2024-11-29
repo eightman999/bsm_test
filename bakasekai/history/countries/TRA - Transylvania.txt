@@ -1,6 +1,6 @@
 ﻿capital = 84
 
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = TRA_principality
 # Starting tech
 # clone of Yugoslavia

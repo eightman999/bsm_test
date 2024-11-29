@@ -1,18 +1,10 @@
 capital = 321
 oob = "Default_oob"
 set_cosmetic_tag = PRT_republic
-set_research_slots = 3
-land_tech_level_1 = yes
-set_technology = {
-	gw_artillery = 1
-	interwar_antiair = 1
-	tech_support = 1
-	tech_engineers = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
-	basic_train = 1
-}
+set_tech_level_1 = yes
+land_tech_level_2 = yes
+support_tech_level_0 = yes
+air_tech_level_1 = yes
 
 if = {
 	limit = {

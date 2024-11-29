@@ -1555,5 +1555,4 @@ spriteTypes = {
 		name = "GFX_idea_south_america_generic_navy_21"
 		texturefile = "gfx/interface/ideas/idea_south_america_generic_navy_21.dds"
 	}
-
 }

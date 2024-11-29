@@ -20,13 +20,13 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	# set_naval_oob = "ROM_1936_naval_mtg"
+
 	# else = {
 	# 	set_naval_oob = "ROM_1936_naval_legacy"
 	# }
 }
 
-set_research_slots = 3
+set_tech_level_1 = yes
 set_stability = 0.6
 set_war_support = 0.6
 recruit_character = ROM_gheorghe_tatarescu
@@ -64,7 +64,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	early_fighter = 1
-	basic_train = 1
+
 }
 tank_tech_level_1 = yes
 if = {

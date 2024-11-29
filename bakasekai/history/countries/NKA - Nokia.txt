@@ -1,7 +1,7 @@
 ﻿capital = 141
 oob = "Default_oob"
 set_cosmetic_tag = NKA_kingdom
-set_research_slots = 3
+set_tech_level_1 = yes
 set_stability = 0.9
 set_war_support = 0.1
 land_tech_level_1 = yes
@@ -16,7 +16,7 @@ set_technology = {
 	naval_bomber1 = 1
 	cv_naval_bomber1 = 1
 	early_bomber = 1
-	basic_train = 1
+
 }
 tank_tech_level_1 = yes
 if = {
