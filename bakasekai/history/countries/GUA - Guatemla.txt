@@ -2,12 +2,8 @@
 oob = "Default_oob"
 set_cosmetic_tag = GUA_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-}
-
+land_tech_level_0 = yes
+air_tech_level_0 = yes
 recruit_character = GUA_jorge_ubico
 recruit_character = GUA_justo_arbenz
 recruit_character = GUA_máximo_arbenz

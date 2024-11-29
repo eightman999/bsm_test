@@ -129,14 +129,6 @@ if = {
 	#	add_ideas = MTG_naval_treaty_adherent
 }
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
 
 give_guarantee = PAL
 set_convoys = 300

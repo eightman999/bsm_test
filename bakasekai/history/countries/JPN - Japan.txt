@@ -16,22 +16,11 @@ add_ideas = {
 	JAP_hirohito
 }
 
-land_tech_level_1 = yes
-set_technology = {
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	motorised_infantry = 1
-	marines = 1
-	gw_artillery = 1
-
-	trench_warfare = 1
-	base_strike = 1
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	fuel_refining = 1
-}
-
+land_tech_level_2 = yes
+support_tech_level_2 = yes
+navy_tech_level_4 = yes
+industry_tech_level_2 = yes
+tank_tech_level_3 = yes
 create_import = {
 	resource = oil
 	factories = 2
@@ -40,54 +29,7 @@ create_import = {
 
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-tank_tech_level_1 = yes
-
-}
-
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-
-}
-
-if = {
-	limit = {
 		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		basic_torpedo = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_heavy_battery = 1
-		basic_medium_battery = 1
-		IJNS = 1
-		improved_ship_torpedo_launcher = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		mtg_transport = 1
-		coastal_defense_ships = 1
-		basic_depth_charges = 1
-		basic_cruiser_armor_scheme = 1
-		cruiser_submarines = 1
-		basic_dp_light_battery = 1
 	}
 	# JPN_navy_variants_2 = yes
 	set_naval_oob = "JPN_1936_naval"
@@ -99,62 +41,11 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-	}
 	JPN_navy_variants = yes
 	set_naval_oob = "JPN_1936_naval_legacy"
 }
 
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
 
-	set_technology = {
-		aa_lmg = 1
-		engines_1 = 1
-		engines_2 = 1
-		early_bombs = 1
-		aircraft_construction = 1
-		iw_small_airframe = 1
-		iw_medium_airframe = 1
-		basic_small_airframe = 1
-	}
-	else = {
-	
-		set_technology = {
-			cv_early_fighter = 1
-			cv_CAS1 = 1
-			cv_naval_bomber1 = 1
-			early_fighter = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
-		}
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
 
 set_convoys = 400
 puppet = SCC
@@ -188,18 +79,7 @@ add_to_faction = VNM
 add_to_faction = HAW
 add_to_faction = CTO
 add_to_faction = KOR
-# add_to_faction = MOS
-# every_country = {
-# 	limit = {
-# 		is_in_faction_with = JPN
-# 	}
-# 	every_country = {
-# 		limit = {
-# 			is_in_faction_with = JPN
-# 		}
-# 		give_guarantee = PREV
-# 	}
-# }
+
 RUS = {
 	every_country = {
 		limit = {
@@ -368,145 +248,3 @@ if = {
 		}
 	}
 }
-
-# if = {
-# 	limit = {
-# 		has_dlc = "No Step Back"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Type 94 Tankette"
-# 		type = light_tank_chassis_0
-# 		parent_version = 0
-# 		modules = {
-# 			main_armament_slot = tank_heavy_machine_gun
-# 			turret_type_slot = tank_light_one_man_tank_turret
-# 			suspension_type_slot = tank_bogie_suspension
-# 			armor_type_slot = tank_riveted_armor
-# 			engine_type_slot = tank_gasoline_engine
-# 		}
-# 		upgrades = {
-# 			tank_nsb_engine_upgrade = 1
-# 			tank_nsb_armor_upgrade = 1
-# 		}
-# 		obsolete = yes
-# 		#icon = "GFX_JAP_basic_light_tank_medium"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Type 89 I-Go"
-# 		type = medium_tank_chassis_0
-# 		parent_version = 0
-# 		modules = {
-# 			main_armament_slot = tank_close_support_gun
-# 			turret_type_slot = tank_medium_one_man_tank_turret
-# 			suspension_type_slot = tank_bogie_suspension
-# 			armor_type_slot = tank_riveted_armor
-# 			engine_type_slot = tank_diesel_engine
-# 		}
-# 		upgrades = {
-# 			tank_nsb_engine_upgrade = 3
-# 			tank_nsb_armor_upgrade = 2
-# 		}
-# 		#icon = "GFX_JAP_basic_medium_tank_medium"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Type 95 Ha-Go"
-# 		type = light_tank_chassis_1
-# 		parent_version = 0
-# 		modules = {
-# 			main_armament_slot = tank_small_cannon
-# 			turret_type_slot = tank_light_one_man_tank_turret
-# 			suspension_type_slot = tank_bogie_suspension
-# 			armor_type_slot = tank_riveted_armor
-# 			engine_type_slot = tank_diesel_engine
-# 		}
-# 		upgrades = {
-# 			tank_nsb_engine_upgrade = 2
-# 			tank_nsb_armor_upgrade = 2
-# 		}
-# 		#icon = "GFX_JAP_improved_light_tank_medium"
-# 	}
-# }
-# if = {
-# 	limit = {
-# 		has_dlc = "By Blood Alone"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Ki-10"
-# 		type = small_plane_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = light_mg_2x
-# 			engine_type_slot = engine_1_1x
-# 			special_type_slot_1 = empty
-# 		}
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Ki-2"
-# 		type = small_plane_cas_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = small_bomb_bay
-# 			engine_type_slot = engine_1_2x
-# 			special_type_slot_1 = lmg_defense_turret
-# 		}
-# 		#icon = "GFX_JAP_CAS1_medium"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Ki-1"
-# 		type = medium_plane_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = medium_bomb_bay
-# 			engine_type_slot = engine_1_2x
-# 			special_type_slot_1 = lmg_defense_turret
-# 		}
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Ki-3"
-# 		type = small_plane_cas_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = bomb_locks
-# 			engine_type_slot = engine_1_1x
-# 			special_type_slot_1 = lmg_defense_turret
-# 		}
-# 		#icon = "GFX_JAP_CAS1_medium"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "Aichi D1A2"
-# 		type = cv_small_plane_cas_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = bomb_locks
-# 			engine_type_slot = engine_1_1x
-# 			special_type_slot_1 = dive_brakes_small
-# 		}
-# 		#icon = "GFX_JAP_CAS1_medium"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "A4N"
-# 		type = cv_small_plane_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = light_mg_2x
-# 			engine_type_slot = engine_1_1x
-# 			special_type_slot_1 = empty
-# 		}
-# 	}
-# 	create_equipment_variant = {
-# 		name = "B2M"
-# 		type = cv_small_plane_naval_bomber_airframe_0
-# 		modules = {
-# 			fixed_main_weapon_slot = torpedo_mounting
-# 			engine_type_slot = engine_1_1x
-# 			special_type_slot_1 = empty
-# 		}
-# 		obsolete = yes
-# 		#icon = "GFX_JAP_cv_naval_bomber1_medium"
-# 	}
-# 	create_equipment_variant = {
-# 		name = "B4Y"
-# 		type = cv_small_plane_naval_bomber_airframe_1
-# 		modules = {
-# 			fixed_main_weapon_slot = torpedo_mounting
-# 			fixed_auxiliary_weapon_slot_1 = bomb_locks
-# 			engine_type_slot = engine_2_1x
-# 			special_type_slot_1 = empty
-# 		}
-# 		#icon = "GFX_JAP_cv_naval_bomber1_medium"
-# 	}
-# }
