@@ -46,7 +46,7 @@ guiTypes = {
 				name = "state_name"
 				position = { x = 15 y = 13 }
 				textureFile = ""
-				font = "bsm_30_black"
+				font = "bsm_24h"
 				text = "STATE_NAME_TEST"
 				maxWidth = 460
 				maxHeight = 30
@@ -207,7 +207,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "resistance_container"
-				position = { x = 20 y = 196}	
+				position = { x = 90 y = 300}	
 				size = { width = 519 height = 100 }
 				
 				iconType ={
