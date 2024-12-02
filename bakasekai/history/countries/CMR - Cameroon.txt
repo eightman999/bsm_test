@@ -24,12 +24,7 @@ recruit_character = CMR_mt
 recruit_character = CMR_ai2
 recruit_character = CMR_ncs
 recruit_character = CMR_acr
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	democratic_ideology = 25

@@ -1934,5 +1934,4 @@ technologies = {
 			rocketry
 		}
 	}
-
 }

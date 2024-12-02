@@ -585,7 +585,6 @@ default_area_priority = {
 		id = oceania
 		value = 75
 	}
-
 }
 
 default_area_priority_non_africa = {
@@ -619,7 +618,6 @@ default_railway_gun_management = {
 		type = railway_gun_divisions_ratio
 		value = 4
 	}
-
 }
 
 default_stockpile_management = {
@@ -830,7 +828,6 @@ build_intelligence_agency_as_major = {
 		type = intelligence_agency_usable_factories
 		value = 5
 	}
-
 }
 
 build_intelligence_agency = {
@@ -850,7 +847,6 @@ build_intelligence_agency = {
 		type = intelligence_agency_usable_factories
 		value = 5
 	}
-
 }
 
 upgrade_intelligence_agency = {

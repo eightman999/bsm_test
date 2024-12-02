@@ -1,7 +1,7 @@
 ﻿capital = 11
 oob = "Default_oob"
 set_cosmetic_tag = LIT_republic
-set_research_slots = 3
+set_tech_level_1 = yes
 if = {
 	limit = {
 		has_DLC = "No Step Back"

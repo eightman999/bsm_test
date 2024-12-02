@@ -21,7 +21,6 @@ music = {
 			factor = 2
 		}
 	}
-
 }
 
 music = {

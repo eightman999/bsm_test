@@ -218,7 +218,7 @@ on_actions = {
                     #ヒンデゥー教
                     limit = {
                         OR = {
-                            tag = RAJ
+                            tag = IND
                         }
                     }
                     set_country_flag = Support_For_Hinduism

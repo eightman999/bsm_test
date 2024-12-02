@@ -2,24 +2,13 @@ capital = 521
 oob = "Default_oob"
 
 set_cosmetic_tag = AUS_empire
-set_research_slots = 3
+set_tech_level_1 = yes
 land_tech_level_1 = yes
-set_technology = {
-	tech_recon = 1
-	tech_engineers = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	basic_train = 1
-}
+air_tech_level_0 = yes
+support_tech_level_1 = yes
 
 recruit_character = AUS_EMU
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1930.11.9"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	neutrality_ideology = 48

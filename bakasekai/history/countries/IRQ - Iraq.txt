@@ -3,14 +3,8 @@ oob = "Default_oob"
 set_cosmetic_tag = IRQ_hashemite_kingdom
 # Starting tech
 land_tech_level_1 = yes
-set_technology = {
-	tech_mountaineers = 1
-	gw_artillery = 1
-	early_fighter = 1
-	CAS1 = 1
-	fuel_silos = 1
-}
-
+support_tech_level_max = yes
+air_tech_level_1 = yes
 if = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"
@@ -21,12 +15,7 @@ if = {
 }
 
 set_convoys = 5
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	fascism_ideology = 20

@@ -1,7 +1,7 @@
 ﻿capital = 107
 oob = "Default_oob"
 set_cosmetic_tag = SER_kingdom
-set_research_slots = 3
+set_tech_level_1 = yes
 # add_ideas = {
 # 	anti_german_military
 # }
@@ -10,25 +10,14 @@ set_research_slots = 3
 # 	kokudo_touitu
 # }
 
-set_technology = {
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	fuel_silos = 1
-}
+support_tech_level_0 = yes
+industry_tech_level_0 = yes
+air_tech_level_0 = yes
+land_tech_level_1 = yes
+tank_tech_level_1 = yes
 
 set_convoys = 0
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_N = yes
 
 set_popularities = {
 	democratic_ideology = 30

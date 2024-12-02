@@ -1,6 +1,6 @@
 ﻿capital = 84
 
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = TRA_principality
 # Starting tech
 # clone of Yugoslavia
@@ -41,12 +41,7 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 create_country_leader = {
 	name = "Iuliu Maniu"

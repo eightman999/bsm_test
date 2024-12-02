@@ -28,12 +28,7 @@ recruit_character = MON_gomgchigryn_bumtsend
 recruit_character = MON_dansrabilegyin_dogsam
 recruit_character = MON_yundunwangcug
 recruit_character = MON_pai_yun_ti
-set_politics = {
-	ruling_party = mythologicalism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_1 = yes
 set_cosmetic_tag = MON_han
 set_popularities = {
 	mythologicalism = 100

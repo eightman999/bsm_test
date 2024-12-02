@@ -6,13 +6,8 @@ set_cosmetic_tag = IND_GBR
 # Starting tech
 land_tech_level_1 = yes
 support_tech_level_0 = yes
-set_technology = {
-	trench_warfare = 1
-	fleet_in_being = 1
-	fuel_silos = 1
-	fuel_refining = 1
-}
-
+industry_tech_level_1 = yes
+doctrine_set_0 = yes
 recruit_character = RAJ_lord_linlithgow
 recruit_character = RAJ_v_d_savarkar
 recruit_character = RAJ_p_krishna_pillai
@@ -62,7 +57,7 @@ if = {
 	recruit_character = RAJ_jayanto_nath_chaudhuri
 }
 
-navy_tech_level_NA = yes
+navy_tech_level_0 = yes
 
 if = {
 	limit = {
@@ -88,44 +83,3 @@ if = {
 
 tank_tech_level_0 = yes
 set_convoys = 20
-640 = {
-	#Mandalay
-	add_dynamic_modifier = {
-		modifier = dense_rural_infrastructure
-	}
-}
-
-432 = {
-	#Assam
-	add_dynamic_modifier = {
-		modifier = dense_rural_infrastructure
-	}
-}
-
-427 = {
-	#Hyderabad
-	add_dynamic_modifier = {
-		modifier = dense_rural_infrastructure
-	}
-}
-
-436 = {
-	#Jabalpur
-	add_dynamic_modifier = {
-		modifier = dense_rural_infrastructure
-	}
-}
-
-437 = {
-	#Indore
-	add_dynamic_modifier = {
-		modifier = dense_rural_infrastructure
-	}
-}
-
-433 = {
-	#Rajahsthan
-	add_dynamic_modifier = {
-		modifier = dense_rural_infrastructure
-	}
-}

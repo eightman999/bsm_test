@@ -531,7 +531,7 @@
 # 			base = 1
 # 			modifier = {
 # 				factor = 3
-# 				original_tag = ENG # Just for historical reasons
+# 				original_tag = GBR # Just for historical reasons
 # 			}
 # 		}
 
@@ -834,11 +834,11 @@
 # 			}
 # 			modifier = {
 # 				factor = 3 # Historical
-# 				original_tag = ENG
-# 				has_war_with = GER
+# 				original_tag = GBR
+# 				has_war_with = DEU
 # 				FROM = {
 # 					original_tag = ROM
-# 					is_in_faction_with = GER
+# 					is_in_faction_with = DEU
 # 				}
 # 			}
 # 		}

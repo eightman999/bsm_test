@@ -2081,7 +2081,7 @@ generic_escort_ship_organization = {
 		}
 		NOT = {
 			AND = {
-				OR = { tag = AST tag = ERO tag = RAJ }
+				OR = { tag = AST tag = ERO tag = IND }
 				has_dlc = "Together for Victory"
 			}
 		}
@@ -3549,7 +3549,7 @@ generic_general_aircraft_organization = {
 		}
 		NOT = {
 			AND = {
-				OR = { tag = AST tag = RAJ }
+				OR = { tag = AST tag = IND }
 				has_dlc = "Together for Victory"
 			}
 		}
@@ -6298,7 +6298,7 @@ generic_artillery_organization = {
 		}
 		NOT = {
 			AND = {
-				tag = RAJ
+				tag = IND
 				has_dlc = "Together for Victory"
 			}
 		}
@@ -6668,7 +6668,7 @@ generic_infantry_equipment_organization = {
 		}
 		NOT = {
 			AND = {
-				OR = { tag = AST tag = CAN tag = RAJ }
+				OR = { tag = AST tag = CAN tag = IND }
 				has_dlc = "Together for Victory"
 			}
 		}

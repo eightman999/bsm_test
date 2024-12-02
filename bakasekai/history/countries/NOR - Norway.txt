@@ -1,7 +1,7 @@
 capital = 923
 oob = "Default_oob"
 set_cosmetic_tag = NOR_kingdom
-set_research_slots = 3
+set_tech_level_1 = yes
 add_ideas = {
 	limited_conscription
 }
@@ -39,7 +39,7 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
-	basic_train = 1
+
 }
 
 if = {

@@ -52,7 +52,7 @@ YAK	= "countries/Asia.txt"	#サハ
 YAM	= "countries/Asia.txt"	#ヤマリア
 YUN	= "countries/Asia.txt"	#雲南
 KDB = "countries/Asia.txt"	#コンバウン王国
-CH1 = "countries/Asia.txt"	#中国
+CHK = "countries/Asia.txt"	#中国
 #Middle East
 ABK	= "countries/Middle East.txt"	#アブハジア
 ARM	= "countries/Middle East.txt"	#アルメニア

@@ -310,7 +310,7 @@ DEU = {
     }
 
 }
-ENG = {
+JYO = {
     
     male = {
         names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
@@ -3307,7 +3307,7 @@ CSA = {
 
 # }
 
-JAP = {
+THR = {
     male = {
         names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
     }
@@ -6065,7 +6065,7 @@ IND = {
     callsigns = { }
 }
 
-RAJ = {
+IND = {
     male = {
         names = {
             Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
@@ -7481,7 +7481,7 @@ KHA = {
         callsigns = { }
     }
 
-    CH1 = {
+    CHK = {
         male = {
             names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
         }

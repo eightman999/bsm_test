@@ -48,5 +48,4 @@ spriteTypes = {
 		name = "GFX_CHI_Chen_Shaokuan"
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Chen_Shaokuan.tga"
 	}
-
 }

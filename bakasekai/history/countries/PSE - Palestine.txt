@@ -5,12 +5,7 @@ set_cosmetic_tag = PSE_state
 land_tech_level_0 = yes
 
 set_convoys = 5
-set_politics = {
-	ruling_party = fascism_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_F = yes
 
 set_popularities = {
 	fascism_ideology = 100

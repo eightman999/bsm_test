@@ -1,28 +1,13 @@
 ﻿capital = 14
 set_cosmetic_tag = BRI_duchy
 #oob = "Default_oob" 
-set_research_slots = 3
+set_tech_level_1 = yes
 # Starting tech
 land_tech_level_1 = yes
-support_tech_level_0 = yes
-set_technology = {
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	CAS1 = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-	fuel_silos = 1
-	fuel_refining = 1
-	basic_train = 1
-}
+support_tech_level_1 = yes
+air_tech_level_4 = yes
+doctrine_set_a = yes
+industry_tech_level_1 = yes
 
 if = {
 	limit = {
@@ -96,14 +81,6 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
 
 set_convoys = 20
 recruit_character = BRI_fascist_guy
@@ -126,12 +103,7 @@ recruit_character = BRI_democratic_guy
 recruit_character = BRI_mt
 recruit_character = BRI_ncs
 recruit_character = BRI_awt
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_N = yes
 
 set_popularities = {
 	democratic_ideology = 20

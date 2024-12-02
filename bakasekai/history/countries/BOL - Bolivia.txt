@@ -4,10 +4,8 @@ set_cosmetic_tag = BOL_republic
 # Starting tech
 land_tech_level_0 = yes
 support_tech_level_0 = yes
-set_technology = {
-	early_fighter = 1
-	fuel_silos = 1
-}
+air_tech_level_0 = yes
+industry_tech_level_0 = yes
 
 recruit_character = BOL_josé_luis_tejada_sorzano
 recruit_character = BOL_Óscar_Únzaga_de_la_vega
@@ -37,6 +35,4 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_popularities = {
-	neutrality_ideology = 100
-}
+popularities_set_N = yes

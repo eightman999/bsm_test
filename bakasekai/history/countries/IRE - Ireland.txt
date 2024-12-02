@@ -1,12 +1,9 @@
 ﻿capital = 113
 oob = "Default_oob"
 set_cosmetic_tag = IRE_republic
-set_research_slots = 3
+set_tech_level_1 = yes
 land_tech_level_1 = yes
-set_technology = {
-	fuel_silos = 1
-	basic_train = 1
-}
+industry_tech_level_0 = yes
 
 set_convoys = 10
 recruit_character = IRE_Éamon_de_valera

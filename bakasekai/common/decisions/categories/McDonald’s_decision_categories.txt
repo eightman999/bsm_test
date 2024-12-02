@@ -92,7 +92,6 @@ MAC_balance_of_power_category ={
 	visible = {
 		
 	}
-
 }
 
 MAC_congress = {

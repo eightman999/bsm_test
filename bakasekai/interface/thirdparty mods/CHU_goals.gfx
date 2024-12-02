@@ -531,5 +531,4 @@ spriteTypes = {
 	name = "GFX_focus_CHU_annex_SHO" 
 	texturefile = "gfx/interface/goals/focus_CHU_annex_SHO.dds"			
 	}
-
 }

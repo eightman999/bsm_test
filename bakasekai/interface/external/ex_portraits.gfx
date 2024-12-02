@@ -1452,11 +1452,11 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_portrait_ger_wilhelm_ii"
-		texturefile = "gfx/leaders/DEU/portrait_ger_wilhelm_ii.dds"
+		texturefile = "gfx/leaders/GER/portrait_ger_wilhelm_ii.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_ger_wilhelm_iii"
-		texturefile = "gfx/leaders/DEU/portrait_ger_wilhelm_iii.dds"
+		texturefile = "gfx/leaders/GER/portrait_ger_wilhelm_iii.dds"
 	}
 	
 	##########################
@@ -1467,5 +1467,4 @@ spriteTypes = {
 		name = "GFX_portrait_USA_alexander_vandegrift"
 		texturefile = "gfx/leaders/USA/portrait_usa_alexander_vandegrift.dds"
 	}
-
 }

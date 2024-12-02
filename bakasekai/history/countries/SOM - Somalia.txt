@@ -4,12 +4,7 @@ set_cosmetic_tag = SOM_federal_republic
 land_tech_level_0 = yes
 
 set_convoys = 10
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	democratic_ideology = 25

@@ -44,7 +44,7 @@ CHN = {	#中華
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 245 12 55 }
 }
-CH1 = {	#中華
+CHK = {	#中華
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 245 12 55 }
 }
@@ -997,7 +997,7 @@ EJR = {	#東方エルサレム
 	color = rgb { 194 44 36 }
 	color_ui = rgb { 194 44 36 }
 }
-ENG = {	#上
+JYO = {	#上
 	color = rgb { 20 40 45 }
 	color_ui = rgb { 20 40 45 }
 }
@@ -1005,11 +1005,11 @@ GEN = {	#元寇
 	color = rgb { 120 100 5 }
 	color_ui = rgb { 120 100 5 }
 }
-GER = {	#志'
+SHI = {	#志'
 	color = rgb { 20 10 45 }
 	color_ui = rgb { 20 10 45 }
 }
-JAP = {	#三'
+THR = {	#三'
 	color = rgb { 20 100 4 }
 	color_ui = rgb { 20 100 4 }
 }
@@ -1041,7 +1041,7 @@ PRK = {	#北朝鮮
 	color = rgb { 113 175 184 }
 	color_ui = rgb { 113 175 184 }
 }
-RAJ = {	#國'
+KOK = {	#國'
 	color = rgb { 20 100 45 }
 	color_ui = rgb { 20 100 45 }
 }

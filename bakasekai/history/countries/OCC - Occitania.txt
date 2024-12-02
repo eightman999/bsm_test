@@ -1,6 +1,6 @@
 capital = 31
 oob = "Default_oob"
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = OCC_republic
 # Starting tech
 land_tech_level_1 = yes
@@ -98,14 +98,6 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
 
 set_convoys = 20
 recruit_character = OCC_ncm
@@ -128,12 +120,7 @@ recruit_character = OCC_acr
 recruit_character = OCC_stc
 recruit_character = OCC_ai2
 recruit_character = OCC_ncs
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 50

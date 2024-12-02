@@ -3,25 +3,11 @@
 # Starting tech
 set_cosmetic_tag = CAT_republic
 land_tech_level_1 = yes
-set_technology = {
-	tech_recon = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-}
+support_tech_level_1 = yes
+air_tech_level_1 = yes
 
 set_convoys = 20
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 50

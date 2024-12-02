@@ -1,57 +1,15 @@
 ﻿capital = 202#Kiev
 oob = "BTL_1936"
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = BTL_triple_states
 # Starting tech
 land_tech_level_3 = yes
 support_tech_level_2 = yes
-set_technology = {
-	gwtank = 1
-	basic_light_tank = 1	# PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
-	mass_assault = 1
-	fleet_in_being = 1
-}
+tank_tech_level_1 = yes
+air_tech_level_2 = yes
+doctrine_set_0 = yes
 
-if = {
-	limit = {
-		not = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		mtg_transport = 1
-		basic_battery = 1
-		basic_torpedo = 1
-	}
-}
+navy_tech_level_3 = yes
 
 recruit_character = KarlGero
 recruit_character = Antanas_Smetona
@@ -60,12 +18,7 @@ recruit_character = BT_lit
 recruit_character = BT_rat
 recruit_character = BT_btl
 recruit_character = BT_zjd
-set_politics = {
-	ruling_party = mythologicalism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_0 = yes
 
 set_popularities = {
 	communism_ideology = 20

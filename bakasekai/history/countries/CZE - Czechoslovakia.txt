@@ -17,18 +17,12 @@ if = {
 }
 
 land_tech_level_1 = yes
-set_technology = {
-	tech_support = 1
-	tech_recon = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
-	fuel_silos = 1
-	basic_train = 1
-}
+support_tech_level_1 = yes
+air_tech_level_1 = yes
+doctrine_set_0 = yes
+industry_tech_level_1 = yes
+tank_tech_level_2 = yes
+
 recruit_character = CZE_karl_albrecht
 recruit_character = CZE_edvard_benesh
 recruit_character = CZE_jaroslav_krejchi
@@ -56,29 +50,7 @@ recruit_character = CZE_jozef_tiso
 recruit_character = CZE_vojtech_tuka
 recruit_character = CZE_konrad_henlein
 recruit_character = CZE_gustav_husak
-
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
-	}
-}
-
-set_research_slots = 3
+tech_level_1 = yes
 
 set_politics = {
 	ruling_party = democratic_ideology

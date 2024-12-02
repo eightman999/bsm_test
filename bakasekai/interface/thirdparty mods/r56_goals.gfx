@@ -6356,7 +6356,7 @@ spriteTypes = {
 		name = "GFX_goal_mexico_trade_protectionism"
 		texturefile = "gfx/interface/goals/mex/goal_mexico_trade_protectionnism.dds"
 	}
-	###------> RAJ <><> <><> <><> <><> <><>
+	###------> IND <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_RAJ_indian_revolt"
 		texturefile = "gfx/interface/goals/raj/r56_goal_RAJ_indian_revolt.dds"

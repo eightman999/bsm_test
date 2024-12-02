@@ -152,7 +152,7 @@ check_has_focus_tree_to_switch_to_fascism = {
 	# }
 	NOT = {
 		AND = {
-			tag = RAJ
+			tag = IND
 			has_dlc = "Together for Victory"
 		}
 	}
@@ -211,7 +211,7 @@ check_has_focus_tree_to_switch_to_democratic = {
 		tag = ERO
 	}
 	NOT = {
-		tag = RAJ
+		tag = IND
 	}
 	NOT = {
 		tag = CZE
@@ -251,7 +251,7 @@ check_has_focus_tree_to_switch_to_communism = {
 	}
 	NOT = {
 		AND = {
-			tag = RAJ
+			tag = IND
 			has_dlc = "Together for Victory"
 		}
 	}

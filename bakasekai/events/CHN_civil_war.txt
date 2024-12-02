@@ -11,11 +11,11 @@ country_event = {
 		hidden_effect = {
 			add_political_power = -100
 			every_controlled_state = {
-				add_core_of = JAP
-				add_core_of = RAJ
-				add_core_of = GER
+				add_core_of = THR
+				add_core_of = KOK
+				add_core_of = SHI
 			}
-			JAP = {
+			THR = {
 				add_political_power = 100
 				set_state_controller = 618
 				set_state_controller = 617
@@ -28,15 +28,15 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 			}
-			RAJ = {
+			KOK = {
 				add_political_power = 100
 				set_state_controller = 619
 				set_state_controller = 287
@@ -55,11 +55,11 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 			}
-			GER = {
+			SHI = {
 				add_political_power = 100
 				set_state_controller = 758
 				set_state_controller = 322
@@ -79,11 +79,11 @@ country_event = {
 		hidden_effect = {
 			add_political_power = -100
 			every_controlled_state = {
-				add_core_of = JAP
-				add_core_of = RAJ
-				add_core_of = GER
+				add_core_of = THR
+				add_core_of = KOK
+				add_core_of = SHI
 			}
-			JAP = {
+			THR = {
 				add_political_power = 100
 				set_state_controller = 618
 				set_state_controller = 617
@@ -92,7 +92,7 @@ country_event = {
 				set_state_owner = 617
 				set_state_owner = 760
 			}
-			RAJ = {
+			KOK = {
 				add_political_power = 100
 				set_state_controller = 619
 				set_state_controller = 287
@@ -107,7 +107,7 @@ country_event = {
 					days = 7
 				}
 			}
-			GER = {
+			SHI = {
 				add_political_power = 100
 				set_state_controller = 758
 				set_state_controller = 322
@@ -130,14 +130,14 @@ country_event = {
 	option = {
 		name = CHN_civil_war.2.a
 		hidden_effect = {
-			RAJ = {
+			KOK = {
 				every_controlled_state = {
-					add_core_of = ENG
-					add_core_of = CH1
-					add_core_of = SMA
+					add_core_of = JYO
+					add_core_of = CHK
+					add_core_of = SHT
 				}
 			}
-			ENG = {
+			JYO = {
 				set_state_controller = 755
 				set_state_owner = 755
 				declare_war_on = {
@@ -145,27 +145,27 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = CH1
+					target = CHK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = SMA
+					target = SHT
 					type = puppet_wargoal_focus
 				}
 			}
-			CH1 = {
+			CHK = {
 				set_state_controller = 619
 				set_state_owner = 619
 				declare_war_on = {
@@ -173,19 +173,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 			}
-			SMA = {
+			SHT = {
 				set_state_controller = 287
 				set_state_owner = 287
 				declare_war_on = {
@@ -193,19 +193,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 			}
-			RAJ = {
+			KOK = {
 				add_political_power = -20
 			}
 			CHN = {
@@ -219,26 +219,26 @@ country_event = {
 	option = {
 		name = CHN_civil_war.2.2.a
 		hidden_effect = {
-			RAJ = {
+			KOK = {
 				every_controlled_state = {
-					add_core_of = ENG
-					add_core_of = CH1
-					add_core_of = SMA
+					add_core_of = JYO
+					add_core_of = CHK
+					add_core_of = SHT
 				}
 			}
-			ENG = {
+			JYO = {
 				set_state_controller = 755
 				set_state_owner = 755
 			}
-			SMA = {
+			SHT = {
 				set_state_controller = 619
 				set_state_owner = 619
 			}
-			CH1 = {
+			CHK = {
 				set_state_controller = 287
 				set_state_owner = 287
 			}
-			RAJ = {
+			KOK = {
 				add_political_power = -20
 			}
 			CHN = {
@@ -274,19 +274,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 			}
-			JAP = {
+			THR = {
 				country_event = {
 					id = CHN_civil_war.5
 					days = 14
@@ -335,19 +335,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = CH1
+					target = CHK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -355,11 +355,11 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = SMA
+					target = SHT
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = ENG
+					target = JYO
 					type = puppet_wargoal_focus
 				}
 			}
@@ -383,17 +383,17 @@ country_event = {
 	option = {
 		name = CHN_civil_war.5.a
 		hidden_effect = {
-			RAJ = {
+			KOK = {
 				every_controlled_state = {
 					add_core_of = SHX
 				}
 			}
-			JAP = {
+			THR = {
 				every_controlled_state = {
 					add_core_of = SHX
 				}
 			}
-			GER = {
+			SHI = {
 				every_controlled_state = {
 					add_core_of = SHX
 				}
@@ -409,19 +409,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = CH1
+					target = CHK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -429,11 +429,11 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = SMA
+					target = SHT
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = ENG
+					target = JYO
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -455,17 +455,17 @@ country_event = {
 	option = {
 		name = CHN_civil_war.6.a
 		hidden_effect = {
-			RAJ = {
+			KOK = {
 				every_controlled_state = {
 					add_core_of = YUN
 				}
 			}
-			JAP = {
+			THR = {
 				every_controlled_state = {
 					add_core_of = YUN
 				}
 			}
-			GER = {
+			SHI = {
 				every_controlled_state = {
 					add_core_of = YUN
 				}
@@ -492,19 +492,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = CH1
+					target = CHK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -512,11 +512,11 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = SMA
+					target = SHT
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = ENG
+					target = JYO
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -643,7 +643,7 @@ country_event = {
 					add_core_of = MME
 				}
 			}
-			JAP = {
+			THR = {
 				every_controlled_state = {
 					add_core_of = MME
 				}
@@ -663,19 +663,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = CH1
+					target = CHK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -683,11 +683,11 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = SMA
+					target = SHT
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = ENG
+					target = JYO
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -738,7 +738,7 @@ country_event = {
 					add_core_of = SIK
 				}
 			}
-			JAP = {
+			THR = {
 				every_controlled_state = {
 					add_core_of = SIK
 				}
@@ -762,19 +762,19 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = JAP
+					target = THR
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = GER
+					target = SHI
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = RAJ
+					target = KOK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = CH1
+					target = CHK
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
@@ -782,11 +782,11 @@ country_event = {
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = SMA
+					target = SHT
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {
-					target = ENG
+					target = JYO
 					type = puppet_wargoal_focus
 				}
 				declare_war_on = {

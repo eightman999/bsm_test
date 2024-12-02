@@ -7,12 +7,7 @@ set_country_flag = monroe_doctrine
 set_war_support = 0.88
 set_convoys = 5000
 recruit_character = DIS_WD
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_N = yes
 
 set_popularities = {
 	democratic_ideology = 30

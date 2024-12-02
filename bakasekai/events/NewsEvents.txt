@@ -10518,7 +10518,6 @@ news_event = {
 		name = news.264.d
 		trigger = { TAG = SOV }
 	}
-
 }
 
 #ZAF demands Madagascar
@@ -10556,7 +10555,6 @@ news_event = {
 		name = news.265.d
 		trigger = { TAG = SOV }
 	}
-
 }
 #ERO finishes Bob Semple tank
 news_event = {
@@ -10592,7 +10590,6 @@ news_event = {
 			}
 		}
 	}
-
 }
 
 #ERO finishes Big Bob tank
@@ -10624,7 +10621,6 @@ news_event = {
 			}
 		}
 	}
-
 }
 
 #IND gets famine
@@ -10738,7 +10734,6 @@ news_event = {
 			NOT = { is_in_faction_with = DEU }
 		}
 	}
-
 }
 
 # News event - IND release SOV helps
@@ -10792,7 +10787,6 @@ news_event = {
 			NOT = { is_in_faction_with = SOV }
 		}
 	}
-
 }
 
 # News event - IND quit India movement

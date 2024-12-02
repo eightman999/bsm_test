@@ -12,17 +12,7 @@ set_technology = {
 	
 }
 tank_tech_level_1 = yes
-if = {
-	limit = {
-		
-		has_dlc = "No Step Back"
-		
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-}
+
 
 if = {
 	limit = {
@@ -47,12 +37,7 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_N = yes
 
 set_popularities = {
 	democratic_ideology = 30

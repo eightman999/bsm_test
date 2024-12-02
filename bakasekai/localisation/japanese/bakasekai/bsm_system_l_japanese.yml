@@ -17,7 +17,7 @@ Unified_Currency_desc_title:0 "我が政府が様々な用途に使用するこ�
 Unified_Currency_desc_war_effort_default:0 "\n内訳"
 Unified_Currency_desc_war_effort_war:0 "\n内訳\n戦時疲弊 I: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]"
 Unified_Currency_desc_war_effort_war_2:0 "\n内訳\n戦時疲弊 II: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]""
-Unified_Currency_desc_religion:0 "\国教: [?modifier@Unified_Currency_religion_factor|0%+]"
+Unified_Currency_desc_religion:0 "\n国教: [?modifier@Unified_Currency_religion_factor|0%+]"
 daily_National_Unity_Power_gain:0 "日ごとの国家統合力"
 National_Unity_Power_gain_factor:0 "国家統合力獲得補正"
 

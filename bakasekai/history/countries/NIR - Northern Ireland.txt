@@ -1,5 +1,5 @@
 ﻿capital = 119
-set_research_slots = 3
+set_tech_level_1 = yes
 set_cosmetic_tag = NIR_duchy
 land_tech_level_1 = yes
 set_technology = {

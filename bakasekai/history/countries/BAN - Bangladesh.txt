@@ -25,12 +25,7 @@ recruit_character = BAN_nt
 recruit_character = BAN_communist_guy
 recruit_character = BAN_acr
 set_convoys = 5
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 75

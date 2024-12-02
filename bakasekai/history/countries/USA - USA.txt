@@ -14,7 +14,7 @@ if = {
 }
 set_cosmetic_tag = AMERICA_united_states
 
-set_research_slots = 4
+set_tech_level_2 = yes
 set_stability = 0.75
 set_war_support = 0
 add_command_power = 20
@@ -68,7 +68,7 @@ USA_recalc_congress_icon_frames = yes
 # Starting tech
 land_tech_level_2 = yes
 support_tech_level_0 = yes
-air_tech_level_2 = yes
+air_tech_level_3 = yes
 set_technology = {
 	superior_firepower = 1
 	base_strike = 1
@@ -76,7 +76,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	marines = 1
-	basic_train = 1
+
 }
 
 puppet = GRL

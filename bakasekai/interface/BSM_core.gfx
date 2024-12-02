@@ -4,8 +4,6 @@ bitmapfonts = {
 		fontfiles = {
 			"gfx/fonts/vanilla_hoi_24header"
 			"gfx/fonts/japanese/vanilla_hoi_24header"
-			"gfx/fonts/vanilla_hoi_24header_2"
-			"gfx/fonts/vanilla_hoi_24header_3"
 		}
 		cursor_offset = { 0 4 }
 		color = 0xffffffff

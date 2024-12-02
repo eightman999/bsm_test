@@ -236,7 +236,7 @@ PAK = {
 	}
 }
 
-RAJ = {
+IND = {
 	scientist = {
 		female = {
 			"GFX_portrait_generic_india_female_01"

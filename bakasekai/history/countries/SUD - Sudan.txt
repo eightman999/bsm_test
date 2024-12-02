@@ -24,12 +24,7 @@ recruit_character = SUD_nt
 recruit_character = SUD_pot
 recruit_character = SUD_nccr
 recruit_character = SUD_aco2
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	democratic_ideology = 25

@@ -1,50 +1,12 @@
 capital = 321
 oob = "Default_oob"
 set_cosmetic_tag = PRT_republic
-set_research_slots = 3
-land_tech_level_1 = yes
-set_technology = {
-	gw_artillery = 1
-	interwar_antiair = 1
-	tech_support = 1
-	tech_engineers = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
-	basic_train = 1
-}
+set_tech_level_1 = yes
+land_tech_level_2 = yes
+support_tech_level_0 = yes
+air_tech_level_1 = yes
+navy_tech_level_B = yes
 
-if = {
-	limit = {
-		not = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		transport = 1
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		mtg_transport = 1
-	}
-}
 recruit_character = POR_antonio_de_oliveira_salazar
 recruit_character = POR_bento_goncalves
 recruit_character = POR_rolao_preto
@@ -84,7 +46,7 @@ recruit_character = POR_fernando_dos_santos_costa
 recruit_character = POR_augusto_de_vasconcelos
 recruit_character = POR_agostinho_lourenco
 recruit_character = POR_DDN
-set_convoys = 50
+
 set_politics = {
 	ruling_party = constitutional_monarchy
 	last_election = "1933.3.5"

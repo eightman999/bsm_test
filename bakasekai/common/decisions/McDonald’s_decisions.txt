@@ -1235,7 +1235,6 @@ MAC_balance_of_power_category = {
 			}
 		}
 	}
-
 }
 
 MAC_congress = {

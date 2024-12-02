@@ -45,5 +45,4 @@ ideas = {
 			removal_cost = -1
 		}
 	}
-
 }

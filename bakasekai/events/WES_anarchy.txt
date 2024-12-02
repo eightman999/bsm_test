@@ -302,7 +302,6 @@ country_event = {
 		}
 		load_focus_tree = wes-pdx
 	}
-
 }
 
 country_event = {

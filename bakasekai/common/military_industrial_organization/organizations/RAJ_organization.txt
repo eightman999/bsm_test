@@ -22,7 +22,7 @@ RAJ_mazagon_dock_limited_organization = {
 	include = generic_escort_ship_organization
 	icon = GFX_idea_mazagon_dock_limited
 	allowed = {
-		original_TAG = RAJ
+		original_TAG = IND
 		has_dlc = "Together for Victory"
 	}
 }
@@ -31,7 +31,7 @@ RAJ_garden_reach_shipbuilders_organization = {
 	include = generic_task_force_ship_organization
 	icon = GFX_idea_garden_reach_shipbuilders
 	allowed = {
-		original_TAG = RAJ
+		original_TAG = IND
 		has_dlc = "Together for Victory"
 	}
 }
@@ -40,7 +40,7 @@ RAJ_scindia_shipyard_organization = {
 	include = generic_battle_line_ship_organization
 	icon = GFX_idea_scindia_shipyard
 	allowed = {
-		original_TAG = RAJ
+		original_TAG = IND
 		has_dlc = "Together for Victory"
 	}
 }
@@ -60,7 +60,7 @@ RAJ_hindustan_aircraft_organization = {
 	include = generic_light_aircraft_organization
 	icon = GFX_idea_hindustan_aircraft
 	allowed = {
-		original_TAG = RAJ
+		original_TAG = IND
 		has_dlc = "Together for Victory"
 	}
 }
@@ -80,7 +80,7 @@ RAJ_ishapore_rifle_factory_organization = {
 	include = generic_infantry_equipment_organization
 	icon = GFX_idea_ishapore_rifle_factory
 	allowed = {
-		original_TAG = RAJ
+		original_TAG = IND
 		has_dlc = "Together for Victory"
 	}
 }
@@ -89,7 +89,7 @@ RAJ_ordnance_factories_board_organization = {
 	include = generic_artillery_organization
 	icon = GFX_idea_ordnance_factories_board
 	allowed = {
-		original_TAG = RAJ
+		original_TAG = IND
 		has_dlc = "Together for Victory"
 	}
 }

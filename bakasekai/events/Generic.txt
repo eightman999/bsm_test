@@ -1026,7 +1026,6 @@ country_event = {
 			}
 		}
 	}
-
 }
 
 # Race for the Bomb success event
@@ -1726,7 +1725,6 @@ country_event = {
 			FROM = { country_event = { id = generic.22 hours = 6 } }
 		}
 	}
-
 }
 
 #Became puppet
@@ -1757,7 +1755,6 @@ country_event = {
 			}
 		}
 	}
-
 }
 
 #Denied puppet
@@ -1781,7 +1778,6 @@ country_event = {
 			}
 		}
 	}
-
 }
 
 # generic event for demanding territory

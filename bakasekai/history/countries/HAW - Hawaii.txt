@@ -3,19 +3,10 @@
 set_cosmetic_tag = HAW_kingdom
 # Starting tech
 land_tech_level_1 = yes
-set_technology = {
-	tech_support = 1
-	tech_recon = 1
-	tech_engineers = 1
-	marines = 1
-	gw_artillery = 1
-	basic_train = 1
-	trench_warfare = 1
-	base_strike = 1
-	fuel_silos = 1
-	synth_oil_experiments = 1
-	fuel_refining = 1
-}
+support_tech_level_1 = yes
+air_tech_level_1 = yes
+doctrine_set_0 = yes
+industry_tech_level_2 = yes
 
 set_convoys = 200
 recruit_character = HWI_higashihushimi_kaiurani_natsuhito

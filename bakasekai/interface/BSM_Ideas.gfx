@@ -270,5 +270,4 @@ spriteTypes = {
 		name = "GFX_idea_shinto"
 		texturefile = "gfx/interface/ideas/idea_shinto.dds"
 	}
-
 }

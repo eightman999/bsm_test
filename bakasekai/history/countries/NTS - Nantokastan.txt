@@ -5,12 +5,7 @@ set_cosmetic_tag = NTS_republic
 land_tech_level_0 = yes
 
 set_convoys = 5
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 create_country_leader = {
 	name = "Nikolay Aleksandrovich Skvortsov"
