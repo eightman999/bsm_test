@@ -2284,6 +2284,41 @@ bitmapfonts = {
 		color = 0xffffffff
 	}
 	bitmapfont = {
+		name = "bsm_24h"
+		fontfiles = {
+			"gfx/fonts/bsm_jis_24"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
+	}
+
+	bitmapfont = {
 		name = "bsm_30_black"
 		fontfiles = {
 			"gfx/fonts/jis30"
