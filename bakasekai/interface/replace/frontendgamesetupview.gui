@@ -573,7 +573,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "back_button"
-			position = { x = 30 y = -57 }
+			position = { x = 30 y = -60 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "BACK"
 			buttonFont = "hoi_18mbs"
@@ -585,7 +585,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "select_button"
-			position = { x = -252 y = -57 }
+			position = { x = -252 y = -60 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_SCENARIO"
 			buttonFont = "hoi_18mbs"
@@ -865,7 +865,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name ="focus"
-				position = { x = 9 y = 75 }
+				position = { x = 9 y = 80 }
 				size = { width = 100% height = 100 }
 
 				gridboxType = {
@@ -2178,14 +2178,14 @@ guiTypes = {
 
 			iconType = {
 				name = "enabled_achievement_icons"
-				position = { x = -382 y = -115 }
+				position = { x = -382 y = -125 }
 				quadTextureSprite ="GFX_enabled_achievement_icons"
 				Orientation = "LOWER_RIGHT"
 			}
 
 			ButtonType = {
 				name = "play_button"
-				position = { x = -300 y = -100 }
+				position = { x = -300 y = -120 }
 				quadTextureSprite ="GFX_play_button"
 				buttonText = "FE_START"
 				buttonFont = "hoi_30header"

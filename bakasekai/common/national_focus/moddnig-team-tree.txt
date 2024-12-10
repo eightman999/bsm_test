@@ -168,7 +168,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ICE_return_admins  }
-		mutually_exclusive = { focus = ICE_tolinerism_rise  focus = ICE_kometsubism  }
+		mutually_exclusive = { focus = ICE_tolinerism_rise  focus = ICE_ameeto_return  }
 	}
 
 	#Ameeto return
