@@ -22,7 +22,7 @@ air_tech_level_1 = yes
 doctrine_set_0 = yes
 industry_tech_level_1 = yes
 tank_tech_level_2 = yes
-
+navy_tech_level_1 = yes
 recruit_character = CZE_karl_albrecht
 recruit_character = CZE_edvard_benesh
 recruit_character = CZE_jaroslav_krejchi
@@ -50,7 +50,7 @@ recruit_character = CZE_jozef_tiso
 recruit_character = CZE_vojtech_tuka
 recruit_character = CZE_konrad_henlein
 recruit_character = CZE_gustav_husak
-tech_level_1 = yes
+
 
 set_politics = {
 	ruling_party = democratic_ideology

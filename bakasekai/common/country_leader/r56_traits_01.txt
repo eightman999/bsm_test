@@ -4152,7 +4152,7 @@ leader_traits = {
 
     }
 
-    ###------> SAF <><> <><> <><> <><> <><>
+    ###------> ZAF <><> <><> <><> <><> <><>
 
     womens_figurehead = {
         random = no

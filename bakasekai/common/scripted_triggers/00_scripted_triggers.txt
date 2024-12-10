@@ -140,12 +140,12 @@ check_has_focus_tree_to_switch_to_fascism = {
 	# OR = {
 	# 	NOT = {
 	# 		AND = {
-	# 			tag = SAF
+	# 			tag = ZAF
 	# 			has_dlc = "Together for Victory"
 	# 		}
 	# 	}
 	# 	AND = {
-	# 		tag = SAF
+	# 		tag = ZAF
 	# 		has_dlc = "Together for Victory"
 	# 		has_completed_focus = SAF_south_africa_first
 	# 	}
@@ -203,7 +203,7 @@ check_has_focus_tree_to_switch_to_democratic = {
 	NOT = {
 		tag = CAN
 	}
-	# NOT = { tag = SAF }
+	# NOT = { tag = ZAF }
 	NOT = {
 		tag = AST
 	}

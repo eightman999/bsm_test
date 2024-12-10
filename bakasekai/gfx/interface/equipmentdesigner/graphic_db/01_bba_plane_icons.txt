@@ -609,6 +609,7 @@ ITA = {
 	}
 }
 
+
 # MM: When uncommenting this ETH and SWI will lose access to the generic models in the designer. The planes below are automatically hooked-in anyways, so commented to keep the generic.
 #ETH = {
 #	small_plane_airframe = {
@@ -778,7 +779,7 @@ ZAF = {
 	
 }
 
-ERO = {
+NZL = {
 	
 }
 

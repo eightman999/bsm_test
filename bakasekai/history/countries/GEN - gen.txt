@@ -1,12 +1,12 @@
 capital = 614
 oob = "Default_oob"
 set_research_slots = 2
-land_tech_level_0 = 0
-air_tech_level_0 = 0
-navy_tech_level_0 = 0
-support_tech_level_0 = 0
-doctrine_set_0 = 0
-int_tech_level_0 = 0
+land_tech_level_0 = yes
+air_tech_level_0 = yes
+navy_tech_level_0 = yes
+support_tech_level_0 = yes
+doctrine_set_0 = yes
+# int_tech_level_0 = yes
 political_set_s = yes
 
 recruit_character = sensyosya_6
