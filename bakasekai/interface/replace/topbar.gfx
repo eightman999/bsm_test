@@ -279,6 +279,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/topbar/toolbar/science_button.dds"
 		noOfFrames = 2
 	}
+
+	spriteType = {
+		name = "GFX_topbar_naisei"
+		texturefile = "gfx/interface/topbar/toolbar/bak/topbar_naisei.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_topbar_anomaries"
+		texturefile = "gfx/interface/topbar/toolbar/bak/topbar_anomaries.dds"
+		noOfFrames = 2
+	}
 	spriteType = {
 		name = "GFX_topbar_decisionview_button"
 		texturefile = "gfx/interface/topbar/toolbar/topbar_decisionview_button.dds"
