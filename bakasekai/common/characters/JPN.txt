@@ -1712,7 +1712,7 @@ characters = {
 					limit = {
 						has_global_flag = japanese_civil_war
 					}
-					has_government = constitutional_emperor
+					has_government = constitutional_monarchy
 				}
 			}
 			traits = {

@@ -2067,7 +2067,7 @@ generic_escort_ship_organization = {
 
 	allowed = {
 		NOT = { OR = { tag = DEU tag = GBR tag = SOV tag = FRA tag = ITA tag = JPN tag = USA tag = BEL tag = CAN tag = SWE tag = HUN tag = CZE tag = ROM tag = MYS 
-		# tag = POR 
+		# tag = POL 
 		tag = GRC tag = TUR tag = LAT tag = EST } }
 		NOT = { OR = { tag = ESP tag = SPA tag = SPB tag = SPC tag = SPD } }
 		NOT = {
@@ -3567,7 +3567,7 @@ generic_general_aircraft_organization = {
 		}
 		# NOT = {
 		# 	AND = {
-		# 		tag = POR
+		# 		tag = POL
 		# 		has_dlc = "La Resistance"
 		# 	}
 		# }
@@ -6319,7 +6319,7 @@ generic_artillery_organization = {
 		}
 		# NOT = {
 		# 	AND = {
-		# 		OR = { tag = ESP tag = POR}
+		# 		OR = { tag = ESP tag = POL}
 		# 		has_dlc = "La Resistance"
 		# 	}
 		# }
@@ -6689,7 +6689,7 @@ generic_infantry_equipment_organization = {
 		}
 		# NOT = {
 		# 	AND = {
-		# 		OR = { tag = ESP tag = POR }
+		# 		OR = { tag = ESP tag = POL }
 		# 		has_dlc = "La Resistance"
 		# 	}
 		# }
@@ -7295,7 +7295,7 @@ generic_motorized_mechanized_organization = {
 		}
 		# NOT = {
 		# 	AND = {
-		# 		OR = { tag = ESP tag = SPA tag = SPB tag = SPC tag = SPD tag = POR }
+		# 		OR = { tag = ESP tag = SPA tag = SPB tag = SPC tag = SPD tag = POL }
 		# 		has_dlc = "La Resistance"
 		# 	}
 		# }

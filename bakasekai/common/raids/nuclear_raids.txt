@@ -27,7 +27,7 @@
 # 			modifier = {
 # 				factor = 5 # Historical bombing of Japan
 # 				FROM = {
-# 					original_tag = JAP
+# 					original_tag = JPN
 # 				}
 # 				original_tag = USA
 # 				has_war_with = FROM

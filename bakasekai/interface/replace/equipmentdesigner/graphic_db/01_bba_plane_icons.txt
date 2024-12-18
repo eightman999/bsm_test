@@ -774,7 +774,7 @@ CAN = {
 	
 }
 
-SAF = {
+ZAF = {
 	
 }
 
@@ -848,7 +848,7 @@ MEX = {
 
 #La Resistance
 
-POR = {
+POL = {
 	
 }
 

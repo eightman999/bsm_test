@@ -7,6 +7,7 @@ DRS	= "countries/Asia.txt"	#シンガポール
 EAH	= "countries/Asia.txt"	#地球
 EJR	= "countries/Asia.txt"	#東方エルサレム
 JYO	= "countries/Asia.txt"	#上
+SHT = "countries/Asia.txt"	#下
 ERO	= "countries/Asia.txt"	#エロマンガ
 FRP	= "countries/Asia.txt"	#太平洋
 GEN	= "countries/Asia.txt"	#元寇

@@ -3,7 +3,7 @@ oob = "Default_oob"
 set_cosmetic_tag = IRQ_hashemite_kingdom
 # Starting tech
 land_tech_level_1 = yes
-support_tech_level_max = yes
+support_tech_level_m = yes
 air_tech_level_1 = yes
 if = {
 	limit = {

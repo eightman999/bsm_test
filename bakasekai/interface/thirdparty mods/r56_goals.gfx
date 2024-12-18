@@ -5026,7 +5026,7 @@ spriteTypes = {
 		name = "GFX_goal_FRA_the_front_morges"
 		texturefile = "gfx/interface/goals/pol/r56_goal_FRA_the_front_morges.dds"
 	}
-	###------> POR <><> <><> <><> <><> <><>
+	###------> POL <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_POR_coa_air_force"
 		texturefile = "gfx/interface/goals/por/r56_goal_POR_coa_air_force.dds"
@@ -5267,7 +5267,7 @@ spriteTypes = {
 		name = "GFX_goal_flag_ukraine2"
 		texturefile = "gfx/interface/goals/rut/r56_goal_RUT_flag_ukraine2.dds"
 	}
-	###------> SAF <><> <><> <><> <><> <><>
+	###------> ZAF <><> <><> <><> <><> <><>
 	SpriteType = {
 		name = "GFX_goal_SAF_flag_transvaal"
 		texturefile = "gfx/interface/goals/saf/r56_goal_SAF_flag_transvaal.dds"

@@ -359,7 +359,7 @@ MAL_UK = {
 	}
 }
 
-SAF = {
+ZAF = {
 	scientist = {
 		female = {
 			"GFX_portrait_generic_europe_female_01"

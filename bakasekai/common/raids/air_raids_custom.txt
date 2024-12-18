@@ -1679,18 +1679,18 @@
 
 # 		# Specific Target is visible
 # 		show_target = {
-# 			has_war_with = JAP
+# 			has_war_with = JPN
 # 			528 = { # Kyushu
-# 				is_owned_and_controlled_by = JAP
+# 				is_owned_and_controlled_by = JPN
 # 			}
 # 			531 = { # Kansai
-# 				is_owned_and_controlled_by = JAP
+# 				is_owned_and_controlled_by = JPN
 # 			}
 # 		}
 
 # 		# Can prepare
 # 		available = {
-# 			has_war_with = JAP
+# 			has_war_with = JPN
 # 			surrender_progress > 0.05
 # 		}
 # 		launchable = {

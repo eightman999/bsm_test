@@ -1,8 +1,32 @@
 guiTypes = {
+
 	containerWindowType = {
 		name = "bsm_topbar"
 		position = { x=0 y=0 }	
 		size = { width=100%% height=100%% }
+		containerWindowType = {
+			name = "naiseis_button"
+			position = { x=675 y=35 }
+			
+			buttonType = {
+				name = "naisei_button"
+				quadTextureSprite ="GFX_topbar_naisei"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+				shortcut = "a"
+				clicksound = click_close
+				oversound = ui_menu_over
+			}
+			buttonType = {
+				name = "anomaries_button"
+				quadTextureSprite ="GFX_topbar_anomaries"
+				position = { x= 62 y = 0 }
+				Orientation = "UPPER_LEFT"
+				shortcut = "s"
+				clicksound = click_close
+				oversound = ui_menu_over
+			}
+		}
 		containerWindowType = {
 			name = "popular_opinion"
 			position = { x= 705 y = 8}
@@ -88,7 +112,7 @@ guiTypes = {
 					y = 1
 				}
 				name = "cd_bg"
-				# quadTextureSprite ="GFX_bg_mini_tooltip"
+				quadTextureSprite ="GFX_bg_mini_tooltip"
 				pdx_tooltip = "Unified_Currency_title"
 				pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
@@ -98,8 +122,8 @@ guiTypes = {
 				position = { x= -2 y = -4 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-				# pdx_tooltip = "Unified_Currency_title"
-				# pdx_tooltip_delayed = "Unified_Currency_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 				scale = 0.8
 			}
 			instantTextBoxType = {
@@ -112,8 +136,8 @@ guiTypes = {
 				maxHeight = 24
 				fixedsize = yes
 				alwaystransparent = yes
-				# pdx_tooltip = "Unified_Currency_title"
-				# pdx_tooltip_delayed = "Unified_Currency_desc"
+				pdx_tooltip = "Unified_Currency_title"
+				pdx_tooltip_delayed = "Unified_Currency_desc"
 			}
 		}
 		containerWindowType = {
