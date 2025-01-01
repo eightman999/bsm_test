@@ -6,7 +6,7 @@ guiTypes = {
 		#金
 		iconType = {
 			name ="gold_mine_icon"
-			spriteType = "GFX_raid_type_icon_mine_sabotage_raid"
+			spriteType = "GFX_resource_energy"
 			position = { x= 35 y = 162 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
@@ -27,7 +27,7 @@ guiTypes = {
 		#宝石
 		iconType = {
 			name ="jewel_mine_icon"
-			spriteType = "GFX_resource_minerals_large"
+			spriteType = "GFX_resource"
 			position = { x= 35 y = 183 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
