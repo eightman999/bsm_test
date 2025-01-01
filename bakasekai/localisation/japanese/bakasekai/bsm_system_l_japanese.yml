@@ -68,6 +68,44 @@ bsm_ecpp:0 "国庫から政治力を得る"
 # pp_to_ec:0 "通貨に変換"
 # pp_to_ec_desc:0 "§H政治力§!を国庫に変換する。"
 #############MINE##################
+#State view
+tt_gold_mine_icon:0 "§H金鉱山§!\n金鉱山の規模:[?THIS.gold_mine]"
+tt_jewel_mine_icon:0 "§H宝石鉱山§!\n宝石鉱山の規模:[?THIS.jewel_mine]"
+#effect
+tt_add_gold_mine_level:0 "§H[?state_id.GetName]§!の金鉱山の規模が[?level|0+]変化する"
+tt_add_jewel_mine_level:0 "§H[?state_id.GetName]§!の宝石鉱山の規模が[?level|0+]変化する"
+#dec
+bsm_mine_dev:0 "鉱山の開発"
+expansion_gold_mine_1:0 "[FROM.GetName]の金鉱山開発 I"
+expansion_gold_mine_1_desc:0 "金鉱山の規模を拡大する。"
+expansion_gold_mine_2:0 "[FROM.GetName]の金鉱山開発 II"
+expansion_gold_mine_2_desc:0 "$expansion_gold_mine_1_desc$"
+expansion_gold_mine_3:0 "[FROM.GetName]の金鉱山開発 III"
+expansion_gold_mine_3_desc:0 "$expansion_gold_mine_1_desc$"
+expansion_gold_mine_4:0 "[FROM.GetName]の金鉱山開発 IV"
+expansion_gold_mine_4_desc:0 "$expansion_gold_mine_1_desc$"
+expansion_gold_mine_5:0 "[FROM.GetName]の金鉱山開発 V"
+expansion_gold_mine_5_desc:0 "$expansion_gold_mine_1_desc$"
+
+expansion_jewel_mine_1:0 "[FROM.GetName]の宝石鉱山開発 I"
+expansion_jewel_mine_1_desc:0 "宝石鉱山の規模を拡大する。"
+expansion_jewel_mine_2:0 "[FROM.GetName]の宝石鉱山開発 II"
+expansion_jewel_mine_2_desc:0 "$expansion_jewel_mine_1_desc$"
+expansion_jewel_mine_3:0 "[FROM.GetName]の宝石鉱山開発 III"
+expansion_jewel_mine_3_desc:0 "$expansion_jewel_mine_1_desc$"
+expansion_jewel_mine_4:0 "[FROM.GetName]の宝石鉱山開発 IV"
+expansion_jewel_mine_4_desc:0 "$expansion_jewel_mine_1_desc$"
+expansion_jewel_mine_5:0 "[FROM.GetName]の宝石鉱山開発 V"
+expansion_jewel_mine_5_desc:0 "$expansion_jewel_mine_1_desc$"
+
+mine_reopening:0 "[FROM.GetName]における鉱山の再稼働"
+
+cc_expansion_mine_1:0 "£resource_energy_large §H50§!"
+cc_expansion_mine_1_blocked:0 "£resource_energy_large §G50§!"
+
+tt_mine_reopening:0 "§H[FROM.GetName]§!における§H鉱山§!を§H再稼働§!する\nこれにより、[FROM.GetName]の金鉱山及び宝石鉱山の収入を得ることができるようになる"
+
+
 need_50_energy:0 "£resource_energy_icon §Y150§!"
 need_50_energy_blocked:0 "£resource_energy_icon §R50§!"
 need_50_energy_tooltip:0 "鉱山の拡張には、£resource_energy_icon §H通貨§!が§Y50§!必要です。"
@@ -85,11 +123,6 @@ MD_Jewel:0 "[?ROOT.MD_Jewel|0]"
 MD_cost:0 "£resource_energy_icon [?ROOT.MD_cost|0]"
 MD_gain:0 "£resource_energy_icon [?ROOT.MD_gain|0]"
 
-bsm_mine_dev:0 "鉱山の開発"
-dev_mine_gold:0 "[FROM.GetName]の金鉱山開発 I"
-dev_mine_Jewel:0 "[FROM.GetName]の宝石鉱山開発 I"
-dev_mine_gold_desc:0 "金鉱山の規模を拡大する。"
-dev_mine_Jewel_desc:0 "宝石鉱山の規模を拡大する。"
 
 MD_gold_desc:0 "金鉱山規模"
 MD_Jewel_desc:0 "宝石鉱山規模"

@@ -167,7 +167,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "state_resources"
-				position = { x= 19 y=199}
+				position = { x= 19 y=208 }
 				size = { width=135 height=99 }
 				
 				

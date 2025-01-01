@@ -22,7 +22,7 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = OZY
-		set_state_flag = Gold_Rush
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={

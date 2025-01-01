@@ -6,10 +6,10 @@ bsm_mine_dev = { #鉱山
 	visible = {
 		OR = {
 			any_owned_state = {
-				has_state_flag = Gold_Rush
+				has_variable = gold_mine
 			}
 			any_owned_state = {
-				has_state_flag = Jewel_Rush
+				has_variable = jewel_mine
 			}
 		}
 	}

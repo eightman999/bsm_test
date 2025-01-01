@@ -111,5 +111,6 @@ combined_unified_currency = {
 	set_variable = { combined_uc_factor = 0 }
 	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_war_factor }
 	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_religion_factor }
-	log = "合計したUC_Factor:[?combined_uc_factor]"
+	# log = "合計したUC_Factor:[?combined_uc_factor]"
+	#logがうるさすぎるのでいったん消させてください
 }

@@ -1,0 +1,48 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "bsm_state_view"
+		position = { x=0 y=0}
+		#金
+		iconType = {
+			name ="gold_mine_icon"
+			spriteType = "GFX_raid_type_icon_mine_sabotage_raid"
+			position = { x= 35 y = 162 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.8
+			pdx_tooltip = tt_gold_mine_icon
+		}
+		instantTextBoxType = {
+			name = "gold_mine_level"
+			position = { x= 50 y = 167 }
+			text = "[?THIS.gold_mine]"
+			font = "bsm_16_black"
+			maxWidth = 40
+			maxHeight = 30
+			fixedsize = yes
+			format = center
+			borderSize = {x = 0 y = 0 }
+		}
+
+		#宝石
+		iconType = {
+			name ="jewel_mine_icon"
+			spriteType = "GFX_resource_minerals_large"
+			position = { x= 35 y = 183 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.8
+			pdx_tooltip = tt_jewel_mine_icon
+		}
+		instantTextBoxType = {
+			name = "jewel_mine_level"
+			position = { x= 50 y = 188 }
+			text = "[?THIS.jewel_mine]"
+			font = "bsm_16_black"
+			maxWidth = 40
+			maxHeight = 30
+			fixedsize = yes
+			format = center
+			borderSize = {x = 0 y = 0 }
+		}
+	}
+}
