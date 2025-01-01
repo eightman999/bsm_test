@@ -8,9 +8,6 @@ bsm_mine_dev = { #鉱山
 			any_owned_state = {
 				has_variable = gold_mine
 			}
-			any_owned_state = {
-				has_variable = jewel_mine
-			}
 		}
 	}
 }

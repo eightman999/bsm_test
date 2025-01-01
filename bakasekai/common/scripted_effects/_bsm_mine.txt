@@ -13,18 +13,7 @@ culc_mine_total = {
 			limit = { check_variable = { THIS.gold_mine > 0 } is_in_array = { occupied_mine_state = THIS } }
 			add_to_variable = { ROOT.MD_gold = THIS.gold_mine }
 		}
-		#宝石鉱山
-		set_variable = { MD_Jewel = 0 }
-		#領有済
-		every_owned_state = {
-			limit = { check_variable = { THIS.jewel_mine > 0 } }
-			add_to_variable = { ROOT.MD_Jewel = THIS.jewel_mine }
-		}
-		#占領済み
-		every_controlled_state = {
-			limit = { check_variable = { THIS.jewel_mine > 0 } is_in_array = { occupied_mine_state = THIS } }
-			add_to_variable = { ROOT.MD_Jewel = THIS.jewel_mine }
-		}
+
 	}
 }
 
@@ -38,19 +27,6 @@ add_gold_mine_level = {
 		}
 		custom_effect_tooltip = tt_add_gold_mine_level
 		var:state_id = { add_to_variable = { gold_mine = level } }
-		culc_mine_total = yes
-	}
-}
-#指定のステートの宝石鉱山のレベルを既定の量変化させる(temp state_id / level)
-
-add_jewel_mine_level = {
-	if = {
-		limit = {
-			has_variable = state_id
-			has_variable = level
-		}
-		custom_effect_tooltip = tt_add_jewel_mine_level
-		var:state_id = { add_to_variable = { jewel_mine = level } }
 		culc_mine_total = yes
 	}
 }
@@ -75,19 +51,6 @@ mine_on_monthly = {
 	multiply_temp_variable = { temp_MD_gold_gain = temp_threat } #総レベル×2.5 × (国際緊張度+1)
 	set_variable = { MD_gain = temp_MD_gold_gain }
 	# log = "gold gain :[?temp_MD_gold_gain]"
-
-	#現状の設定（仮置き）
-	#宝石鉱山のコスト＝総レベル×2
-	#宝石鉱山の収入＝総レベル×2.5　細かい仕様は後で
-	set_temp_variable = { temp_MD_jewel_cost = MD_jewel }
-	multiply_temp_variable = { temp_MD_jewel_cost = 2 } #適当に2倍
-	add_to_variable = { MD_cost = temp_MD_jewel_cost }
-
-	set_temp_variable = { temp_MD_jewel_gain = MD_jewel }
-	multiply_temp_variable = { temp_MD_jewel_gain = 2.5 } #総レベル×2.5
-	add_to_variable = { MD_gain = temp_MD_jewel_gain }
-	# log = "total gain :[?MD_gain]"
-	# log = "total cost :[?MD_cost]"
 
 	#実際に足したり引いたり泣いたり笑ったり
 	subtract_from_variable = { Unified_Currency = MD_cost } #通貨からコストを引く
