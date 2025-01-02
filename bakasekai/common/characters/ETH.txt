@@ -476,12 +476,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_decentralization_large_effect = yes
+					#ETH_BOP_decentralization_large_effect = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_centralization_large_effect = yes
+					#ETH_BOP_centralization_large_effect = yes
 				}
 			}
 		}
@@ -588,12 +588,12 @@ characters = {
 			cost = 50
 			on_add = {
 				owner = {
-					ETH_BOP_decentralization_large_effect = yes
+					#ETH_BOP_decentralization_large_effect = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_centralization_large_effect = yes
+					#ETH_BOP_centralization_large_effect = yes
 				}
 			}
 		}
@@ -639,12 +639,12 @@ characters = {
 				}
 				on_add = {
 					owner = {
-						ETH_BOP_decentralization_large_effect = yes
+						#ETH_BOP_decentralization_large_effect = yes
 					}
 				}
 				on_remove = {
 					owner = {
-						ETH_BOP_centralization_large_effect = yes
+						#ETH_BOP_centralization_large_effect = yes
 					}
 				}
 			}
@@ -784,12 +784,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 		}
@@ -958,12 +958,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 		}
@@ -1056,12 +1056,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 		}
@@ -1100,12 +1100,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 		}
@@ -1170,12 +1170,12 @@ characters = {
 				}
 				on_add = {
 					owner = {
-						ETH_BOP_centralization_small_effect = yes
+						#ETH_BOP_centralization_small_effect  = yes
 					}
 				}
 				on_remove = {
 					owner = {
-						ETH_BOP_decentralization_small_effect = yes
+						#ETH_BOP_decentralization_small_effect  = yes
 					}
 				}
 			}
@@ -1269,12 +1269,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 		}
@@ -1313,12 +1313,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 		}
@@ -1350,12 +1350,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 		}
@@ -1385,12 +1385,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 		}
@@ -1432,12 +1432,12 @@ characters = {
 			}
 			on_add = {
 				owner = {
-					ETH_BOP_centralization_small_effect = yes
+					#ETH_BOP_centralization_small_effect  = yes
 				}
 			}
 			on_remove = {
 				owner = {
-					ETH_BOP_decentralization_small_effect = yes
+					#ETH_BOP_decentralization_small_effect  = yes
 				}
 			}
 		}

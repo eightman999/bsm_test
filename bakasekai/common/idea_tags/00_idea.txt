@@ -212,10 +212,10 @@ slot_ledgers = {
 	
 	theorist = invalid # must be overridden
 	high_command = invalid # must be overridden
-	Extra = invalid # must be overridden
-	ideology_party = invalid # must be overridden
-	religion_party = invalid # must be overridden
-	civilian_party = invalid # must be overridden
+	# Extra = invalid # must be overridden
+	# ideology_party = invalid # must be overridden
+	# religion_party = invalid # must be overridden
+	# civilian_party = invalid # must be overridden
 	anomalies = invalid
 	mobilization_laws = civilian
 }
