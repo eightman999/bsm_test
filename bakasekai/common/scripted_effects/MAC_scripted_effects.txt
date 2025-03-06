@@ -34,6 +34,7 @@ MAC_initiate_balance_of_power_effect_1 = {
 		set_default = yes # whether or not to reset the power balance to the initial value, default = no
 		#set_value = 0.25 # if specified will set the value of the power balance, this option will override the effect of set_default so the two options should not be used together. if neither set_default or set_value is specified the current value of the power balance will not change
 	}
+	country_event = {id = MCD.20}
 }
 
 MAC_initiate_balance_of_power_effect_2 = {
