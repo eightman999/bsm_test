@@ -728,6 +728,12 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			AND = {
+				has_any_power_balance = yes
+				has_country_flag = MAC_start_cola_war
+			}
+		}
 		prerequisite = {
 			focus = MAC_coca_cola
 		}
@@ -1421,11 +1427,7 @@ focus_tree = {
 			focus = MAC_with_bking
 		}
 		available = {
-			AND = {
-				has_completed_focus = MAC_Overseas_shop_openings
-				has_any_power_balance = no
-
-			}
+			
 		}
 		prerequisite = {
 		}
@@ -1453,11 +1455,7 @@ focus_tree = {
 			focus = MAC_against_bking
 		}
 		available = {
-			AND = {
-				has_completed_focus = MAC_Overseas_shop_openings
-				has_any_power_balance = no
-
-			}
+			
 		}
 		prerequisite = {
 		}
