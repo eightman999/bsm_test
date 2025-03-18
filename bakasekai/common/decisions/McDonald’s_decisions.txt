@@ -1926,9 +1926,157 @@ MAC_cola_war_oppose_move = {
 			}
 		}
 		timeout_effect = {
-			activate_decision = MAC_NF_
+			activate_decision = MAC_NF_promote_lobbying
 			add_ideas = MAC_e_cola_capitalism_idea
 
+		}
+		days_mission_timeout = 70
+		is_good = no
+		activation = {
+			has_country_flag = MAC_start_cola_war
+			has_country_flag = MAC_pepsi_flag
+			NOT = {
+				OR = {
+					has_country_flag = MAC_finish_cola_war
+					has_country_flag = MAC_start_cola_battle
+				}
+			}
+		}
+	}
+
+	MAC_NF_promote_lobbying = {
+		icon = ger_mefo_bills
+		available = {
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				congress_low_support_trigger = yes
+				factor = 0
+			}
+		}
+		timeout_effect = {
+			activate_decision = MAC_NF_MAC_loans_from_banks
+			add_political_power = 50
+			MAC_congress_medium_opposition = yes
+		}
+		days_mission_timeout = 70
+		is_good = no
+		activation = {
+			has_country_flag = MAC_start_cola_war
+			has_country_flag = MAC_pepsi_flag
+			NOT = {
+				OR = {
+					has_country_flag = MAC_finish_cola_war
+					has_country_flag = MAC_start_cola_battle
+				}
+			}
+		}
+	}
+
+	MAC_NF_loans_from_banks = {
+		icon = ger_mefo_bills
+		available = {
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				congress_low_support_trigger = yes
+				factor = 0
+			}
+		}
+		timeout_effect = {
+			activate_decision = MAC_NF_partnership_with_WalMart
+		}
+		days_mission_timeout = 70
+		is_good = no
+		activation = {
+			has_country_flag = MAC_start_cola_war
+			has_country_flag = MAC_pepsi_flag
+			NOT = {
+				OR = {
+					has_country_flag = MAC_finish_cola_war
+					has_country_flag = MAC_start_cola_battle
+				}
+			}
+		}
+	}
+	MAC_NF_partnership_with_WalMart = {
+		icon = ger_mefo_bills
+		available = {
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				congress_low_support_trigger = yes
+				factor = 0
+			}
+		}
+		timeout_effect = {
+			MAC_bop_medium_decrease_effect = yes
+			add_ideas = MAC_spread_coke
+			activate_decision = MAC_NF_plant_expansion
+		}
+		days_mission_timeout = 70
+		is_good = no
+		activation = {
+			has_country_flag = MAC_start_cola_war
+			has_country_flag = MAC_pepsi_flag
+			NOT = {
+				OR = {
+					has_country_flag = MAC_finish_cola_war
+					has_country_flag = MAC_start_cola_battle
+				}
+			}
+		}
+	}
+	MAC_NF_plant_expansion = {
+		icon = ger_mefo_bills
+		available = {
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				congress_low_support_trigger = yes
+				factor = 0
+			}
+		}
+		timeout_effect = {
+			activate_decision = MAC_NF_dr_pepper
+			MAC_congress_medium_opposition = yes
+		}
+		days_mission_timeout = 70
+		is_good = no
+		activation = {
+			has_country_flag = MAC_start_cola_war
+			has_country_flag = MAC_pepsi_flag
+			NOT = {
+				OR = {
+					has_country_flag = MAC_finish_cola_war
+					has_country_flag = MAC_start_cola_battle
+				}
+			}
+		}
+	}
+	MAC_NF_dr_pepper = {
+		icon = ger_mefo_bills
+		available = {
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				congress_low_support_trigger = yes
+				factor = 0
+			}
+		}
+		timeout_effect = {
+			activate_decision = MAC_NF_
+			MAC_congress_medium_opposition = yes
 		}
 		days_mission_timeout = 70
 		is_good = no

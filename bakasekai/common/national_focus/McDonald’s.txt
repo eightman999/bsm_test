@@ -741,8 +741,7 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			custom_effect_tooltip = MAC_start_cola_war_tt
-			add_political_power = 150
+			add_ideas = MAC_NRA_support
 		}
 	}
 
@@ -1349,8 +1348,6 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			custom_effect_tooltip = MAC_start_cola_war_tt
-			add_political_power = 150
 			country_event = { id = MCD.12 }
 		}
 	}
@@ -1378,8 +1375,6 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			custom_effect_tooltip = MAC_start_cola_war_tt
-			add_political_power = 150
 			country_event = { id = MCD.12 }
 		}
 	}
@@ -1407,8 +1402,6 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			custom_effect_tooltip = MAC_start_cola_war_tt
-			add_political_power = 150
 			country_event = { id = MCD.12 }
 		}
 	}
