@@ -16,7 +16,7 @@ Unified_Currency_desc:0 "通貨は、国民の生産および消費活動や貿�
 Unified_Currency_desc_title:0 "我が政府が様々な用途に使用することができる通貨の保有量。\n------------------------------------\n通貨獲得補正: [?modifier@Unified_Currency_gain_factor|0%+][Unified_Currency_desc_war_effort][Unified_Currency_desc_religion]\n------------------------------------\n合計:[?ROOT.combined_uc_factor|0+%]\n------------------------------------\n先月の獲得量: [?ROOT.Unified_Currency_Last_Month_gain|a0+]"
 Unified_Currency_desc_war_effort_default:0 "\n内訳"
 Unified_Currency_desc_war_effort_war:0 "\n内訳\n戦時疲弊 I: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]"
-Unified_Currency_desc_war_effort_war_2:0 "\n内訳\n戦時疲弊 II: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]""
+Unified_Currency_desc_war_effort_war_2:0 "\n内訳\n戦時疲弊 II: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]"
 Unified_Currency_desc_religion:0 "\n国教: [?modifier@Unified_Currency_religion_factor|0%+]"
 daily_National_Unity_Power_gain:0 "日ごとの国家統合力"
 National_Unity_Power_gain_factor:0 "国家統合力獲得補正"
