@@ -17,7 +17,7 @@ ucs_first_setting = {
 	}
 }
 
-#指定の月数分の統一通貨を追加する　temp multiply_value　が必要　
+#指定の月数分の統一通貨を追加する  temp multiply_value  が必要  
 ucs_add_Unified_Currency_month = {
 	if = {
 		limit = { has_variable = multiply_value }
@@ -40,7 +40,7 @@ ucs_add_Unified_Currency_month = {
 			multiply_temp_variable = { temp_state_plus_2 = 1.1 } #飛行場レベル * 1.1
 			add_to_temp_variable = { temp_state_plus_1 = temp_state_plus_2 } #(インフラレベル * 1.25)+(飛行場レベル * 1.1)
 			multiply_temp_variable = { temp_state = temp_state_plus_1 } #人口(m) * (インフラレベル * 1.25)+(飛行場レベル * 1.1)
-			# multiply_temp_variable = { temp_state = 種族係数 } #人口(m) * インフラ * 飛行場 *　種族係数　（未実装）
+			# multiply_temp_variable = { temp_state = 種族係数 } #人口(m) * インフラ * 飛行場 *  種族係数  （未実装）
 			add_to_temp_variable = { PREV.temp_state_sum = temp_state }
 		}
 		multiply_temp_variable = { temp_add_amount = temp_state_sum } #SUM{ 人口(m) * (インフラレベル * 1.25)+(飛行場レベル * 1.1) } * 民需出力 * ( 安定度+文明 ) 
@@ -63,7 +63,7 @@ ucs_add_Unified_Currency_month = {
 	else = { log = "wow... No temp variable !!" }
 
 }
-#指定分分の統一通貨を追加する　temp add_value　が必要　
+#指定分分の統一通貨を追加する  temp add_value  が必要  
 ucs_add_Unified_Currency = {
 	if = {
 		limit = { has_variable = add_value }

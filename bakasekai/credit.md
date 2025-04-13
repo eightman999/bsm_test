@@ -1,6 +1,6 @@
 # クレジット&スペシャルサンクス（敬称略）
 ## パロディ元
-故　谷口正人（谷口一刀）：Chakuwiki：バカ世界地図ならびに日本地図
+故  谷口正人（谷口一刀）：Chakuwiki：バカ世界地図ならびに日本地図
 
 ## ネタ提供
 - ちーさら ：佐山県（https://www.youtube.com/@tiisara）
@@ -25,7 +25,7 @@
 - d3ash Vanilla Super Events (https://steamcommunity.com/sharedfiles/filedetails/?id=2525366756)
 
 ## 3Dモデル・テクスチャ提供・作成
-- SaintDaveUK　Irish Unit Pack mod (https://steamcommunity.com/sharedfiles/filedetails/?id=957459864)
+- SaintDaveUK  Irish Unit Pack mod (https://steamcommunity.com/sharedfiles/filedetails/?id=957459864)
 - Valley
 - kuzu⍼バーチャル彼女 —
 
@@ -51,7 +51,7 @@
 - リュブリャナ
 - 水洗トイレこめつぶ
 - スライム
-- ライト　松明ボッチ 
+- ライト  松明ボッチ 
 - あめえと
 - toliner
 - Valley
@@ -82,7 +82,7 @@
 - toliner
 - Valley
 - blitz_reisdusche_weit
-- ライト　松明ボッチ 
+- ライト  松明ボッチ 
 - あめえと
 - さんぼる
 - リュブリャナ
