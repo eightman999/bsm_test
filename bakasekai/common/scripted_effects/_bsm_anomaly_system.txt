@@ -1,0 +1,2299 @@
+
+
+AS_first_setting = {#初期設定
+    #アノマリーの情報を登録する。
+    #国際酸素生成合弁会社の機密文書
+    clear_array = global.AS_AN_database_id_1
+    add_to_array = { global.AS_AN_database_id_1 = token:AS_AN_International_Oxygen_Documents } #国際酸素生成合弁会社の機密文書
+    add_to_array = { global.AS_AN_database_id_1 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_1 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_1 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_1 = 150 } #日数:150日
+    #滋賀会議の議事録
+    clear_array = global.AS_AN_database_id_2
+    add_to_array = { global.AS_AN_database_id_2 = token:AS_AN_Shiga_Conference_Records } #滋賀会議の議事録
+    add_to_array = { global.AS_AN_database_id_2 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_2 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_2 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_2 = 275 } #日数:275日
+    #企業国家契約書
+    clear_array = global.AS_AN_database_id_3
+    add_to_array = { global.AS_AN_database_id_3 = token:AS_AN_Corporate_State_Contract } #企業国家契約書
+    add_to_array = { global.AS_AN_database_id_3 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_3 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_3 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_3 = 200 } #日数:200日
+    #バルカン空間歪曲
+    clear_array = global.AS_AN_database_id_4
+    add_to_array = { global.AS_AN_database_id_4 = token:AS_AN_Balkan_Space_Distortion } #バルカン空間歪曲
+    add_to_array = { global.AS_AN_database_id_4 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_4 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_4 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_4 = 600 } #日数:600日
+    #バカ教育改革の資料
+    clear_array = global.AS_AN_database_id_5
+    add_to_array = { global.AS_AN_database_id_5 = token:AS_AN_Stupid_Education_Reform } #バカ教育改革の資料
+    add_to_array = { global.AS_AN_database_id_5 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_5 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_5 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_5 = 60 } #日数:60日
+    #大陸移動エンジン
+    clear_array = global.AS_AN_database_id_6
+    add_to_array = { global.AS_AN_database_id_6 = token:AS_AN_Continental_Drift_Engine } #大陸移動エンジン
+    add_to_array = { global.AS_AN_database_id_6 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_6 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_6 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_6 = 400 } #日数:400日
+    #北極ポーランド遺跡
+    clear_array = global.AS_AN_database_id_7
+    add_to_array = { global.AS_AN_database_id_7 = token:AS_AN_Nordic_Pole_Colony } #北極ポーランド遺跡
+    add_to_array = { global.AS_AN_database_id_7 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_7 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_7 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_7 = 120 } #日数:120日
+    #縦長化機器
+    clear_array = global.AS_AN_database_id_8
+    add_to_array = { global.AS_AN_database_id_8 = token:AS_AN_Longitudinal_Stretching_Device } #縦長化機器
+    add_to_array = { global.AS_AN_database_id_8 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_8 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_8 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_8 = 100 } #日数:100日
+    #横長化システム
+    clear_array = global.AS_AN_database_id_9
+    add_to_array = { global.AS_AN_database_id_9 = token:AS_AN_Horizontal_Compression_System } #横長化システム
+    add_to_array = { global.AS_AN_database_id_9 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_9 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_9 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_9 = 180 } #日数:180日
+    #沖縄移動機器
+    clear_array = global.AS_AN_database_id_10
+    add_to_array = { global.AS_AN_database_id_10 = token:AS_AN_Okinawa_Teleportation_Device } #沖縄移動機器
+    add_to_array = { global.AS_AN_database_id_10 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_10 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_10 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_10 = 300 } #日数:300日
+    #彗星ガス分析器
+    clear_array = global.AS_AN_database_id_11
+    add_to_array = { global.AS_AN_database_id_11 = token:AS_AN_Comet_Gas_Analyzer } #彗星ガス分析器
+    add_to_array = { global.AS_AN_database_id_11 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_11 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_11 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_11 = 30 } #日数:30日
+    #海洋変換式
+    clear_array = global.AS_AN_database_id_12
+    add_to_array = { global.AS_AN_database_id_12 = token:AS_AN_Ocean_Conversion_Formula } #海洋変換式
+    add_to_array = { global.AS_AN_database_id_12 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_12 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_12 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_12 = 40 } #日数:40日
+    #メキシコ運河設計図
+    clear_array = global.AS_AN_database_id_13
+    add_to_array = { global.AS_AN_database_id_13 = token:AS_AN_Mexican_Canal_Blueprint } #メキシコ運河設計図
+    add_to_array = { global.AS_AN_database_id_13 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_13 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_13 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_13 = 120 } #日数:120日
+    #東京湾拡張計画書
+    clear_array = global.AS_AN_database_id_14
+    add_to_array = { global.AS_AN_database_id_14 = token:AS_AN_Tokyo_Bay_Expansion_Plans } #東京湾拡張計画書
+    add_to_array = { global.AS_AN_database_id_14 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_14 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_14 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_14 = 550 } #日数:550日
+    #黄海狭窄機器
+    clear_array = global.AS_AN_database_id_15
+    add_to_array = { global.AS_AN_database_id_15 = token:AS_AN_Yellow_Sea_Narrowing_Tool } #黄海狭窄機器
+    add_to_array = { global.AS_AN_database_id_15 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_15 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_15 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_15 = 60 } #日数:60日
+    #マダガスカル台湾交換機器
+    clear_array = global.AS_AN_database_id_16
+    add_to_array = { global.AS_AN_database_id_16 = token:AS_AN_Madagascar_Taiwan_Swap_Device } #マダガスカル台湾交換機器
+    add_to_array = { global.AS_AN_database_id_16 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_16 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_16 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_16 = 200 } #日数:200日
+    #アフリカ内陸水路
+    clear_array = global.AS_AN_database_id_17
+    add_to_array = { global.AS_AN_database_id_17 = token:AS_AN_African_Interior_Waterway } #アフリカ内陸水路
+    add_to_array = { global.AS_AN_database_id_17 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_17 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_17 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_17 = 450 } #日数:450日
+    #英愛橋梁計画書
+    clear_array = global.AS_AN_database_id_18
+    add_to_array = { global.AS_AN_database_id_18 = token:AS_AN_UK_Ireland_Bridge_Plans } #英愛橋梁計画書
+    add_to_array = { global.AS_AN_database_id_18 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_18 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_18 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_18 = 40 } #日数:40日
+    #シーランド建国文書
+    clear_array = global.AS_AN_database_id_19
+    add_to_array = { global.AS_AN_database_id_19 = token:AS_AN_Sealand_Founding_Documents } #シーランド建国文書
+    add_to_array = { global.AS_AN_database_id_19 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_19 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_19 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_19 = 20 } #日数:20日
+    #南極封印破損
+    clear_array = global.AS_AN_database_id_20
+    add_to_array = { global.AS_AN_database_id_20 = token:AS_AN_Antarctic_Containment_Breach } #南極封印破損
+    add_to_array = { global.AS_AN_database_id_20 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_20 = 1 } #タイプ:危機
+    add_to_array = { global.AS_AN_database_id_20 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_20 = 30 } #日数:30日
+    #北極ポーランド公文書
+    clear_array = global.AS_AN_database_id_21
+    add_to_array = { global.AS_AN_database_id_21 = token:AS_AN_Arctic_Poland_Archives } #北極ポーランド公文書
+    add_to_array = { global.AS_AN_database_id_21 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_21 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_21 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_21 = 600 } #日数:600日
+    #太平洋日本移動痕跡
+    clear_array = global.AS_AN_database_id_22
+    add_to_array = { global.AS_AN_database_id_22 = token:AS_AN_Pacific_Japan_Relocation } #太平洋日本移動痕跡
+    add_to_array = { global.AS_AN_database_id_22 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_22 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_22 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_22 = 150 } #日数:150日
+    #チリ海岸変形器
+    clear_array = global.AS_AN_database_id_23
+    add_to_array = { global.AS_AN_database_id_23 = token:AS_AN_Chilean_Coastal_Reshaper } #チリ海岸変形器
+    add_to_array = { global.AS_AN_database_id_23 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_23 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_23 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_23 = 300 } #日数:300日
+    #きょぬー主義宣言
+    clear_array = global.AS_AN_database_id_24
+    add_to_array = { global.AS_AN_database_id_24 = token:AS_AN_Kyonuism_Manifesto } #きょぬー主義宣言
+    add_to_array = { global.AS_AN_database_id_24 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_24 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_24 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_24 = 90 } #日数:90日
+    #ひんぬー主義秘密文書
+    clear_array = global.AS_AN_database_id_25
+    add_to_array = { global.AS_AN_database_id_25 = token:AS_AN_Hinnuism_Secret_Texts } #ひんぬー主義秘密文書
+    add_to_array = { global.AS_AN_database_id_25 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_25 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_25 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_25 = 20 } #日数:20日
+    #共産民主主義実験
+    clear_array = global.AS_AN_database_id_26
+    add_to_array = { global.AS_AN_database_id_26 = token:AS_AN_Communist_Democracy_Experiment } #共産民主主義実験
+    add_to_array = { global.AS_AN_database_id_26 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_26 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_26 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_26 = 30 } #日数:30日
+    #平和的軍国主義教義
+    clear_array = global.AS_AN_database_id_27
+    add_to_array = { global.AS_AN_database_id_27 = token:AS_AN_Peaceful_Militarism_Doctrine } #平和的軍国主義教義
+    add_to_array = { global.AS_AN_database_id_27 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_27 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_27 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_27 = 180 } #日数:180日
+    #知識集約型研究所
+    clear_array = global.AS_AN_database_id_28
+    add_to_array = { global.AS_AN_database_id_28 = token:AS_AN_Knowledge_Intensive_Laboratory } #知識集約型研究所
+    add_to_array = { global.AS_AN_database_id_28 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_28 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_28 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_28 = 40 } #日数:40日
+    #ましゅまろ工学研究
+    clear_array = global.AS_AN_database_id_29
+    add_to_array = { global.AS_AN_database_id_29 = token:AS_AN_Marshmallow_Engineering } #ましゅまろ工学研究
+    add_to_array = { global.AS_AN_database_id_29 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_29 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_29 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_29 = 275 } #日数:275日
+    #原始回帰プロセス
+    clear_array = global.AS_AN_database_id_30
+    add_to_array = { global.AS_AN_database_id_30 = token:AS_AN_Primitive_Regression_Process } #原始回帰プロセス
+    add_to_array = { global.AS_AN_database_id_30 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_30 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_30 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_30 = 120 } #日数:120日
+    #マンハッタン計画文書
+    clear_array = global.AS_AN_database_id_31
+    add_to_array = { global.AS_AN_database_id_31 = token:AS_AN_Manhattan_Project_Documents } #マンハッタン計画文書
+    add_to_array = { global.AS_AN_database_id_31 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_31 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_31 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_31 = 400 } #日数:400日
+    #ペーパークリップ作戦ファイル
+    clear_array = global.AS_AN_database_id_32
+    add_to_array = { global.AS_AN_database_id_32 = token:AS_AN_Operation_Paperclip_Files } #ペーパークリップ作戦ファイル
+    add_to_array = { global.AS_AN_database_id_32 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_32 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_32 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_32 = 600 } #日数:600日
+    #ツングースカ事件の残骸
+    clear_array = global.AS_AN_database_id_33
+    add_to_array = { global.AS_AN_database_id_33 = token:AS_AN_Tunguska_Event_Remains } #ツングースカ事件の残骸
+    add_to_array = { global.AS_AN_database_id_33 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_33 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_33 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_33 = 350 } #日数:350日
+    #ロズウェル残骸
+    clear_array = global.AS_AN_database_id_34
+    add_to_array = { global.AS_AN_database_id_34 = token:AS_AN_Roswell_Debris } #ロズウェル残骸
+    add_to_array = { global.AS_AN_database_id_34 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_34 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_34 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_34 = 200 } #日数:200日
+    #フィラデルフィア実験機器
+    clear_array = global.AS_AN_database_id_35
+    add_to_array = { global.AS_AN_database_id_35 = token:AS_AN_Philadelphia_Experiment_Device } #フィラデルフィア実験機器
+    add_to_array = { global.AS_AN_database_id_35 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_35 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_35 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_35 = 400 } #日数:400日
+    #ハイジャンプ作戦の記録
+    clear_array = global.AS_AN_database_id_36
+    add_to_array = { global.AS_AN_database_id_36 = token:AS_AN_Operation_Highjump_Logs } #ハイジャンプ作戦の記録
+    add_to_array = { global.AS_AN_database_id_36 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_36 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_36 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_36 = 300 } #日数:300日
+    #ヴォイニッチ手稿
+    clear_array = global.AS_AN_database_id_37
+    add_to_array = { global.AS_AN_database_id_37 = token:AS_AN_Voynich_Manuscript } #ヴォイニッチ手稿
+    add_to_array = { global.AS_AN_database_id_37 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_37 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_37 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_37 = 180 } #日数:180日
+    #アンティキティラ機械
+    clear_array = global.AS_AN_database_id_38
+    add_to_array = { global.AS_AN_database_id_38 = token:AS_AN_Antikythera_Mechanism } #アンティキティラ機械
+    add_to_array = { global.AS_AN_database_id_38 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_38 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_38 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_38 = 120 } #日数:120日
+    #バグダッド電池
+    clear_array = global.AS_AN_database_id_39
+    add_to_array = { global.AS_AN_database_id_39 = token:AS_AN_Baghdad_Battery } #バグダッド電池
+    add_to_array = { global.AS_AN_database_id_39 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_39 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_39 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_39 = 60 } #日数:60日
+    #ギョベクリ・テペの碑文
+    clear_array = global.AS_AN_database_id_40
+    add_to_array = { global.AS_AN_database_id_40 = token:AS_AN_Gobekli_Tepe_Inscriptions } #ギョベクリ・テペの碑文
+    add_to_array = { global.AS_AN_database_id_40 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_40 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_40 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_40 = 30 } #日数:30日
+    #ナスカの地上絵調査記録
+    clear_array = global.AS_AN_database_id_41
+    add_to_array = { global.AS_AN_database_id_41 = token:AS_AN_Nazca_Lines_Survey } #ナスカの地上絵調査記録
+    add_to_array = { global.AS_AN_database_id_41 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_41 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_41 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_41 = 40 } #日数:40日
+    #死海文書
+    clear_array = global.AS_AN_database_id_42
+    add_to_array = { global.AS_AN_database_id_42 = token:AS_AN_Dead_Sea_Scrolls } #死海文書
+    add_to_array = { global.AS_AN_database_id_42 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_42 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_42 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_42 = 20 } #日数:20日
+    #モヘンジョダロの放射性骨格
+    clear_array = global.AS_AN_database_id_43
+    add_to_array = { global.AS_AN_database_id_43 = token:AS_AN_Mohenjo_Daro_Radioactive_Skeletons } #モヘンジョダロの放射性骨格
+    add_to_array = { global.AS_AN_database_id_43 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_43 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_43 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_43 = 150 } #日数:150日
+    #アレクサンドリア大図書館の記録
+    clear_array = global.AS_AN_database_id_44
+    add_to_array = { global.AS_AN_database_id_44 = token:AS_AN_The_Great_Library_Archives } #アレクサンドリア大図書館の記録
+    add_to_array = { global.AS_AN_database_id_44 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_44 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_44 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_44 = 550 } #日数:550日
+    #ポートロイヤル水中遺跡
+    clear_array = global.AS_AN_database_id_45
+    add_to_array = { global.AS_AN_database_id_45 = token:AS_AN_Port_Royal_Underwater_Ruins } #ポートロイヤル水中遺跡
+    add_to_array = { global.AS_AN_database_id_45 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_45 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_45 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_45 = 450 } #日数:450日
+    #バイキングの太陽石
+    clear_array = global.AS_AN_database_id_46
+    add_to_array = { global.AS_AN_database_id_46 = token:AS_AN_Viking_Sun_Stone } #バイキングの太陽石
+    add_to_array = { global.AS_AN_database_id_46 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_46 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_46 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_46 = 200 } #日数:200日
+    #ピリ・レイスの完全地図
+    clear_array = global.AS_AN_database_id_47
+    add_to_array = { global.AS_AN_database_id_47 = token:AS_AN_Piri_Reis_Complete_Map } #ピリ・レイスの完全地図
+    add_to_array = { global.AS_AN_database_id_47 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_47 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_47 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_47 = 90 } #日数:90日
+    #ギリシャ火薬の調合式
+    clear_array = global.AS_AN_database_id_48
+    add_to_array = { global.AS_AN_database_id_48 = token:AS_AN_Greek_Fire_Formula } #ギリシャ火薬の調合式
+    add_to_array = { global.AS_AN_database_id_48 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_48 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_48 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_48 = 275 } #日数:275日
+    #ローマンコンクリートの調合法
+    clear_array = global.AS_AN_database_id_49
+    add_to_array = { global.AS_AN_database_id_49 = token:AS_AN_Roman_Concrete_Recipe } #ローマンコンクリートの調合法
+    add_to_array = { global.AS_AN_database_id_49 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_49 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_49 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_49 = 50 } #日数:50日
+    #ダマスカス鋼の鍛造法
+    clear_array = global.AS_AN_database_id_50
+    add_to_array = { global.AS_AN_database_id_50 = token:AS_AN_Damascus_Steel_Forging_Method } #ダマスカス鋼の鍛造法
+    add_to_array = { global.AS_AN_database_id_50 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_50 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_50 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_50 = 40 } #日数:40日
+    #マヤ暦の完全周期
+    clear_array = global.AS_AN_database_id_51
+    add_to_array = { global.AS_AN_database_id_51 = token:AS_AN_Mayan_Calendar_Complete_Cycle } #マヤ暦の完全周期
+    add_to_array = { global.AS_AN_database_id_51 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_51 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_51 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_51 = 120 } #日数:120日
+    #中国の地震計
+    clear_array = global.AS_AN_database_id_52
+    add_to_array = { global.AS_AN_database_id_52 = token:AS_AN_Chinese_Seismograph } #中国の地震計
+    add_to_array = { global.AS_AN_database_id_52 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_52 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_52 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_52 = 300 } #日数:300日
+    #テスラの失われた論文
+    clear_array = global.AS_AN_database_id_53
+    add_to_array = { global.AS_AN_database_id_53 = token:AS_AN_Tesla_Missing_Papers } #テスラの失われた論文
+    add_to_array = { global.AS_AN_database_id_53 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_53 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_53 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_53 = 30 } #日数:30日
+    #琥珀の間のパネル
+    clear_array = global.AS_AN_database_id_54
+    add_to_array = { global.AS_AN_database_id_54 = token:AS_AN_Amber_Room_Panels } #琥珀の間のパネル
+    add_to_array = { global.AS_AN_database_id_54 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_54 = 9 } #タイプ:作品
+    add_to_array = { global.AS_AN_database_id_54 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_54 = 400 } #日数:400日
+    #フィボナッチの秘密手稿
+    clear_array = global.AS_AN_database_id_55
+    add_to_array = { global.AS_AN_database_id_55 = token:AS_AN_Fibonacci_Secret_Manuscript } #フィボナッチの秘密手稿
+    add_to_array = { global.AS_AN_database_id_55 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_55 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_55 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_55 = 180 } #日数:180日
+    #アルキメデスの火の鏡
+    clear_array = global.AS_AN_database_id_56
+    add_to_array = { global.AS_AN_database_id_56 = token:AS_AN_Archimedes_Death_Ray } #アルキメデスの火の鏡
+    add_to_array = { global.AS_AN_database_id_56 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_56 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_56 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_56 = 150 } #日数:150日
+    #シュメール王名表
+    clear_array = global.AS_AN_database_id_57
+    add_to_array = { global.AS_AN_database_id_57 = token:AS_AN_Sumerian_King_List } #シュメール王名表
+    add_to_array = { global.AS_AN_database_id_57 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_57 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_57 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_57 = 50 } #日数:50日
+    #空中庭園の設計図
+    clear_array = global.AS_AN_database_id_58
+    add_to_array = { global.AS_AN_database_id_58 = token:AS_AN_Hanging_Gardens_Blueprint } #空中庭園の設計図
+    add_to_array = { global.AS_AN_database_id_58 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_58 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_58 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_58 = 60 } #日数:60日
+    #始皇帝陵の調査
+    clear_array = global.AS_AN_database_id_59
+    add_to_array = { global.AS_AN_database_id_59 = token:AS_AN_First_Emperor_Tomb_Survey } #始皇帝陵の調査
+    add_to_array = { global.AS_AN_database_id_59 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_59 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_59 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_59 = 100 } #日数:100日
+    #マオリの航海図
+    clear_array = global.AS_AN_database_id_60
+    add_to_array = { global.AS_AN_database_id_60 = token:AS_AN_Maori_Navigation_Charts } #マオリの航海図
+    add_to_array = { global.AS_AN_database_id_60 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_60 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_60 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_60 = 500 } #日数:500日
+    #アステカの完全写本
+    clear_array = global.AS_AN_database_id_61
+    add_to_array = { global.AS_AN_database_id_61 = token:AS_AN_Aztec_Codex_Complete } #アステカの完全写本
+    add_to_array = { global.AS_AN_database_id_61 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_61 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_61 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_61 = 45 } #日数:45日
+    #ヒッタイトの製鉄法
+    clear_array = global.AS_AN_database_id_62
+    add_to_array = { global.AS_AN_database_id_62 = token:AS_AN_Hittite_Iron_Working_Methods } #ヒッタイトの製鉄法
+    add_to_array = { global.AS_AN_database_id_62 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_62 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_62 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_62 = 250 } #日数:250日
+    #オルメカの巨石頭像の機構
+    clear_array = global.AS_AN_database_id_63
+    add_to_array = { global.AS_AN_database_id_63 = token:AS_AN_Olmec_Colossal_Heads_Mechanism } #オルメカの巨石頭像の機構
+    add_to_array = { global.AS_AN_database_id_63 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_63 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_63 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_63 = 35 } #日数:35日
+    #アレクサンドリアの灯台設計図
+    clear_array = global.AS_AN_database_id_64
+    add_to_array = { global.AS_AN_database_id_64 = token:AS_AN_Lighthouse_Of_Alexandria_Plans } #アレクサンドリアの灯台設計図
+    add_to_array = { global.AS_AN_database_id_64 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_64 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_64 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_64 = 220 } #日数:220日
+    #ミノア線形文字Aの解読
+    clear_array = global.AS_AN_database_id_65
+    add_to_array = { global.AS_AN_database_id_65 = token:AS_AN_Minoan_Linear_A_Decipherment } #ミノア線形文字Aの解読
+    add_to_array = { global.AS_AN_database_id_65 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_65 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_65 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_65 = 180 } #日数:180日
+    #ラパヌイのロンゴロンゴ板
+    clear_array = global.AS_AN_database_id_66
+    add_to_array = { global.AS_AN_database_id_66 = token:AS_AN_Rapa_Nui_Rongorongo_Tablets } #ラパヌイのロンゴロンゴ板
+    add_to_array = { global.AS_AN_database_id_66 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_66 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_66 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_66 = 380 } #日数:380日
+    #インダス印章コレクション
+    clear_array = global.AS_AN_database_id_67
+    add_to_array = { global.AS_AN_database_id_67 = token:AS_AN_Indus_Valley_Seals_Collection } #インダス印章コレクション
+    add_to_array = { global.AS_AN_database_id_67 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_67 = 9 } #タイプ:作品
+    add_to_array = { global.AS_AN_database_id_67 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_67 = 520 } #日数:520日
+    #キープ計算システム
+    clear_array = global.AS_AN_database_id_68
+    add_to_array = { global.AS_AN_database_id_68 = token:AS_AN_Quipu_Computational_System } #キープ計算システム
+    add_to_array = { global.AS_AN_database_id_68 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_68 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_68 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_68 = 25 } #日数:25日
+    #ストーンヘンジの音響特性
+    clear_array = global.AS_AN_database_id_69
+    add_to_array = { global.AS_AN_database_id_69 = token:AS_AN_Stonehenge_Acoustic_Properties } #ストーンヘンジの音響特性
+    add_to_array = { global.AS_AN_database_id_69 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_69 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_69 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_69 = 30 } #日数:30日
+    #エジプトの星図作成技術
+    clear_array = global.AS_AN_database_id_70
+    add_to_array = { global.AS_AN_database_id_70 = token:AS_AN_Egyptian_Star_Mapping_Technology } #エジプトの星図作成技術
+    add_to_array = { global.AS_AN_database_id_70 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_70 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_70 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_70 = 200 } #日数:200日
+    #バビロニアの数学粘土板
+    clear_array = global.AS_AN_database_id_71
+    add_to_array = { global.AS_AN_database_id_71 = token:AS_AN_Babylonian_Mathematical_Tablets } #バビロニアの数学粘土板
+    add_to_array = { global.AS_AN_database_id_71 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_71 = 9 } #タイプ:作品
+    add_to_array = { global.AS_AN_database_id_71 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_71 = 140 } #日数:140日
+    #鄭和の宝船艦隊の航海記録
+    clear_array = global.AS_AN_database_id_72
+    add_to_array = { global.AS_AN_database_id_72 = token:AS_AN_Zheng_He_Treasure_Fleet_Logs } #鄭和の宝船艦隊の航海記録
+    add_to_array = { global.AS_AN_database_id_72 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_72 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_72 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_72 = 90 } #日数:90日
+    #大和型戦艦の沈没残骸
+    clear_array = global.AS_AN_database_id_73
+    add_to_array = { global.AS_AN_database_id_73 = token:AS_AN_Yamato_Sunken_Battleship } #大和型戦艦の沈没残骸
+    add_to_array = { global.AS_AN_database_id_73 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_73 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_73 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_73 = 170 } #日数:170日
+    #島原の乱の遺物
+    clear_array = global.AS_AN_database_id_74
+    add_to_array = { global.AS_AN_database_id_74 = token:AS_AN_Shimabara_Rebellion_Artifacts } #島原の乱の遺物
+    add_to_array = { global.AS_AN_database_id_74 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_74 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_74 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_74 = 550 } #日数:550日
+    #昭和研究部隊731の記録
+    clear_array = global.AS_AN_database_id_75
+    add_to_array = { global.AS_AN_database_id_75 = token:AS_AN_Showa_Research_Unit_731 } #昭和研究部隊731の記録
+    add_to_array = { global.AS_AN_database_id_75 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_75 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_75 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_75 = 180 } #日数:180日
+    #縄文の土偶
+    clear_array = global.AS_AN_database_id_76
+    add_to_array = { global.AS_AN_database_id_76 = token:AS_AN_Dogu_Clay_Figurines } #縄文の土偶
+    add_to_array = { global.AS_AN_database_id_76 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_76 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_76 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_76 = 400 } #日数:400日
+    #神風記録
+    clear_array = global.AS_AN_database_id_77
+    add_to_array = { global.AS_AN_database_id_77 = token:AS_AN_Kamikaze_Divine_Wind_Records } #神風記録
+    add_to_array = { global.AS_AN_database_id_77 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_77 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_77 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_77 = 150 } #日数:150日
+    #縄文遺跡の発掘
+    clear_array = global.AS_AN_database_id_78
+    add_to_array = { global.AS_AN_database_id_78 = token:AS_AN_Jomon_Archaeological_Site } #縄文遺跡の発掘
+    add_to_array = { global.AS_AN_database_id_78 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_78 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_78 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_78 = 300 } #日数:300日
+    #アイヌの聖典
+    clear_array = global.AS_AN_database_id_79
+    add_to_array = { global.AS_AN_database_id_79 = token:AS_AN_Ainu_Sacred_Texts } #アイヌの聖典
+    add_to_array = { global.AS_AN_database_id_79 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_79 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_79 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_79 = 100 } #日数:100日
+    #零式艦上戦闘機の設計図
+    clear_array = global.AS_AN_database_id_80
+    add_to_array = { global.AS_AN_database_id_80 = token:AS_AN_Zero_Fighter_Blueprints } #零式艦上戦闘機の設計図
+    add_to_array = { global.AS_AN_database_id_80 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_80 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_80 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_80 = 60 } #日数:60日
+    #徳川幕府の機密文書
+    clear_array = global.AS_AN_database_id_81
+    add_to_array = { global.AS_AN_database_id_81 = token:AS_AN_Tokugawa_Shogunate_Archives } #徳川幕府の機密文書
+    add_to_array = { global.AS_AN_database_id_81 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_81 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_81 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_81 = 40 } #日数:40日
+    #与那国海底遺跡
+    clear_array = global.AS_AN_database_id_82
+    add_to_array = { global.AS_AN_database_id_82 = token:AS_AN_Yonaguni_Underwater_Monument } #与那国海底遺跡
+    add_to_array = { global.AS_AN_database_id_82 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_82 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_82 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_82 = 30 } #日数:30日
+    #古墳発掘調査
+    clear_array = global.AS_AN_database_id_83
+    add_to_array = { global.AS_AN_database_id_83 = token:AS_AN_Kofun_Tomb_Excavation } #古墳発掘調査
+    add_to_array = { global.AS_AN_database_id_83 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_83 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_83 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_83 = 45 } #日数:45日
+    #武田信玄の合戦術
+    clear_array = global.AS_AN_database_id_84
+    add_to_array = { global.AS_AN_database_id_84 = token:AS_AN_Shingen_Battle_Tactics } #武田信玄の合戦術
+    add_to_array = { global.AS_AN_database_id_84 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_84 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_84 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_84 = 200 } #日数:200日
+    #関西国際空港の建設技術
+    clear_array = global.AS_AN_database_id_85
+    add_to_array = { global.AS_AN_database_id_85 = token:AS_AN_Kansai_International_Airport_Engineering } #関西国際空港の建設技術
+    add_to_array = { global.AS_AN_database_id_85 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_85 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_85 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_85 = 180 } #日数:180日
+    #忍術の巻物
+    clear_array = global.AS_AN_database_id_86
+    add_to_array = { global.AS_AN_database_id_86 = token:AS_AN_Ninja_Scrolls } #忍術の巻物
+    add_to_array = { global.AS_AN_database_id_86 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_86 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_86 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_86 = 275 } #日数:275日
+    #歌舞伎の精神操作技法
+    clear_array = global.AS_AN_database_id_87
+    add_to_array = { global.AS_AN_database_id_87 = token:AS_AN_Kabuki_Mind_Control_Techniques } #歌舞伎の精神操作技法
+    add_to_array = { global.AS_AN_database_id_87 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_87 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_87 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_87 = 350 } #日数:350日
+    #エニグマ機の原型
+    clear_array = global.AS_AN_database_id_88
+    add_to_array = { global.AS_AN_database_id_88 = token:AS_AN_Enigma_Machine_Prototype } #エニグマ機の原型
+    add_to_array = { global.AS_AN_database_id_88 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_88 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_88 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_88 = 120 } #日数:120日
+    #ストーンヘンジの完全設計図
+    clear_array = global.AS_AN_database_id_89
+    add_to_array = { global.AS_AN_database_id_89 = token:AS_AN_Stonehenge_Complete_Blueprint } #ストーンヘンジの完全設計図
+    add_to_array = { global.AS_AN_database_id_89 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_89 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_89 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_89 = 600 } #日数:600日
+    #完全なロゼッタストーン
+    clear_array = global.AS_AN_database_id_90
+    add_to_array = { global.AS_AN_database_id_90 = token:AS_AN_Rosetta_Stone_Complete } #完全なロゼッタストーン
+    add_to_array = { global.AS_AN_database_id_90 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_90 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_90 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_90 = 300 } #日数:300日
+    #ブレッチリー・パークの解読法
+    clear_array = global.AS_AN_database_id_91
+    add_to_array = { global.AS_AN_database_id_91 = token:AS_AN_Bletchley_Park_Decryption_Methods } #ブレッチリー・パークの解読法
+    add_to_array = { global.AS_AN_database_id_91 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_91 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_91 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_91 = 200 } #日数:200日
+    #東インド会社の会計簿
+    clear_array = global.AS_AN_database_id_92
+    add_to_array = { global.AS_AN_database_id_92 = token:AS_AN_East_India_Company_Ledgers } #東インド会社の会計簿
+    add_to_array = { global.AS_AN_database_id_92 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_92 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_92 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_92 = 150 } #日数:150日
+    #ハドリアヌスの長城軍事マニュアル
+    clear_array = global.AS_AN_database_id_93
+    add_to_array = { global.AS_AN_database_id_93 = token:AS_AN_Hadrians_Wall_Military_Manual } #ハドリアヌスの長城軍事マニュアル
+    add_to_array = { global.AS_AN_database_id_93 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_93 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_93 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_93 = 60 } #日数:60日
+    #HMSビクトリー海戦術
+    clear_array = global.AS_AN_database_id_94
+    add_to_array = { global.AS_AN_database_id_94 = token:AS_AN_HMS_Victory_Naval_Tactics } #HMSビクトリー海戦術
+    add_to_array = { global.AS_AN_database_id_94 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_94 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_94 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_94 = 100 } #日数:100日
+    #ロンドン塔のカラス
+    clear_array = global.AS_AN_database_id_95
+    add_to_array = { global.AS_AN_database_id_95 = token:AS_AN_Tower_Of_London_Ravens } #ロンドン塔のカラス
+    add_to_array = { global.AS_AN_database_id_95 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_95 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_95 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_95 = 45 } #日数:45日
+    #ブリタニア橋の鉄工技術
+    clear_array = global.AS_AN_database_id_96
+    add_to_array = { global.AS_AN_database_id_96 = token:AS_AN_Britannia_Bridge_Iron_Technology } #ブリタニア橋の鉄工技術
+    add_to_array = { global.AS_AN_database_id_96 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_96 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_96 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_96 = 30 } #日数:30日
+    #サットン・フーの財宝
+    clear_array = global.AS_AN_database_id_97
+    add_to_array = { global.AS_AN_database_id_97 = token:AS_AN_Sutton_Hoo_Treasure } #サットン・フーの財宝
+    add_to_array = { global.AS_AN_database_id_97 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_97 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_97 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_97 = 25 } #日数:25日
+    #完全版ドゥームズデイ・ブック
+    clear_array = global.AS_AN_database_id_98
+    add_to_array = { global.AS_AN_database_id_98 = token:AS_AN_Domesday_Book_Complete } #完全版ドゥームズデイ・ブック
+    add_to_array = { global.AS_AN_database_id_98 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_98 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_98 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_98 = 380 } #日数:380日
+    #クロップサークル製造技術
+    clear_array = global.AS_AN_database_id_99
+    add_to_array = { global.AS_AN_database_id_99 = token:AS_AN_Crop_Circle_Technology } #クロップサークル製造技術
+    add_to_array = { global.AS_AN_database_id_99 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_99 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_99 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_99 = 180 } #日数:180日
+    #ジョン王の失われた王冠宝飾
+    clear_array = global.AS_AN_database_id_100
+    add_to_array = { global.AS_AN_database_id_100 = token:AS_AN_Lost_Crown_Jewels_Of_King_John } #ジョン王の失われた王冠宝飾
+    add_to_array = { global.AS_AN_database_id_100 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_100 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_100 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_100 = 20 } #日数:20日
+    #失われたシェイクスピア戯曲
+    clear_array = global.AS_AN_database_id_101
+    add_to_array = { global.AS_AN_database_id_101 = token:AS_AN_Lost_Shakespeare_Plays } #失われたシェイクスピア戯曲
+    add_to_array = { global.AS_AN_database_id_101 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_101 = 9 } #タイプ:作品
+    add_to_array = { global.AS_AN_database_id_101 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_101 = 500 } #日数:500日
+    #アングロサクソン年代記の原本
+    clear_array = global.AS_AN_database_id_102
+    add_to_array = { global.AS_AN_database_id_102 = token:AS_AN_Anglo_Saxon_Chronicle_Original } #アングロサクソン年代記の原本
+    add_to_array = { global.AS_AN_database_id_102 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_102 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_102 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_102 = 320 } #日数:320日
+    #マグナ・カルタ第四の写本
+    clear_array = global.AS_AN_database_id_103
+    add_to_array = { global.AS_AN_database_id_103 = token:AS_AN_Magna_Carta_Fourth_Copy } #マグナ・カルタ第四の写本
+    add_to_array = { global.AS_AN_database_id_103 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_103 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_103 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_103 = 200 } #日数:200日
+    #ローマ軍団マニュアル
+    clear_array = global.AS_AN_database_id_104
+    add_to_array = { global.AS_AN_database_id_104 = token:AS_AN_Roman_Legion_Manual } #ローマ軍団マニュアル
+    add_to_array = { global.AS_AN_database_id_104 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_104 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_104 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_104 = 90 } #日数:90日
+    #バチカン秘密文書館
+    clear_array = global.AS_AN_database_id_105
+    add_to_array = { global.AS_AN_database_id_105 = token:AS_AN_Vaticans_Secret_Archive } #バチカン秘密文書館
+    add_to_array = { global.AS_AN_database_id_105 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_105 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_105 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_105 = 180 } #日数:180日
+    #サハラ先史時代河川システム
+    clear_array = global.AS_AN_database_id_106
+    add_to_array = { global.AS_AN_database_id_106 = token:AS_AN_Sahara_Prehistoric_River_System } #サハラ先史時代河川システム
+    add_to_array = { global.AS_AN_database_id_106 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_106 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_106 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_106 = 600 } #日数:600日
+    #タッシリの洞窟壁画
+    clear_array = global.AS_AN_database_id_107
+    add_to_array = { global.AS_AN_database_id_107 = token:AS_AN_Tassili_Cave_Paintings } #タッシリの洞窟壁画
+    add_to_array = { global.AS_AN_database_id_107 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_107 = 9 } #タイプ:作品
+    add_to_array = { global.AS_AN_database_id_107 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_107 = 350 } #日数:350日
+    #四国遍路の奇跡
+    clear_array = global.AS_AN_database_id_108
+    add_to_array = { global.AS_AN_database_id_108 = token:AS_AN_Shikoku_Pilgrimage_Miracle } #四国遍路の奇跡
+    add_to_array = { global.AS_AN_database_id_108 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_108 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_108 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_108 = 90 } #日数:90日
+    #ファストフード帝国戦略
+    clear_array = global.AS_AN_database_id_109
+    add_to_array = { global.AS_AN_database_id_109 = token:AS_AN_Fast_Food_Empire_Strategy } #ファストフード帝国戦略
+    add_to_array = { global.AS_AN_database_id_109 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_109 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_109 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_109 = 150 } #日数:150日
+    #魔法の王国精神制御
+    clear_array = global.AS_AN_database_id_110
+    add_to_array = { global.AS_AN_database_id_110 = token:AS_AN_Magic_Kingdom_Mind_Control } #魔法の王国精神制御
+    add_to_array = { global.AS_AN_database_id_110 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_110 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_110 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_110 = 60 } #日数:60日
+    #シーランド主権文書
+    clear_array = global.AS_AN_database_id_111
+    add_to_array = { global.AS_AN_database_id_111 = token:AS_AN_Sealand_Sovereignty_Documents } #シーランド主権文書
+    add_to_array = { global.AS_AN_database_id_111 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_111 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_111 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_111 = 450 } #日数:450日
+    #極小国家通貨システム
+    clear_array = global.AS_AN_database_id_112
+    add_to_array = { global.AS_AN_database_id_112 = token:AS_AN_Micronation_Currency_System } #極小国家通貨システム
+    add_to_array = { global.AS_AN_database_id_112 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_112 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_112 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_112 = 30 } #日数:30日
+    #ツングースカ事件データ
+    clear_array = global.AS_AN_database_id_113
+    add_to_array = { global.AS_AN_database_id_113 = token:AS_AN_Tunguska_Event_Data } #ツングースカ事件データ
+    add_to_array = { global.AS_AN_database_id_113 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_113 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_113 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_113 = 40 } #日数:40日
+    #ヴェネツィアの造船技術
+    clear_array = global.AS_AN_database_id_114
+    add_to_array = { global.AS_AN_database_id_114 = token:AS_AN_Venetian_Naval_Architecture } #ヴェネツィアの造船技術
+    add_to_array = { global.AS_AN_database_id_114 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_114 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_114 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_114 = 300 } #日数:300日
+    #ポンペイ保存技術
+    clear_array = global.AS_AN_database_id_115
+    add_to_array = { global.AS_AN_database_id_115 = token:AS_AN_Pompeii_Preservation_Technology } #ポンペイ保存技術
+    add_to_array = { global.AS_AN_database_id_115 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_115 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_115 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_115 = 180 } #日数:180日
+    #ダヴィンチの失われた発明
+    clear_array = global.AS_AN_database_id_116
+    add_to_array = { global.AS_AN_database_id_116 = token:AS_AN_Da_Vinci_Lost_Inventions } #ダヴィンチの失われた発明
+    add_to_array = { global.AS_AN_database_id_116 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_116 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_116 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_116 = 50 } #日数:50日
+    #ロシアの冬季生存マニュアル
+    clear_array = global.AS_AN_database_id_117
+    add_to_array = { global.AS_AN_database_id_117 = token:AS_AN_Russian_Winter_Survival_Manual } #ロシアの冬季生存マニュアル
+    add_to_array = { global.AS_AN_database_id_117 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_117 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_117 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_117 = 550 } #日数:550日
+    #ラスプーチンの治癒技術
+    clear_array = global.AS_AN_database_id_118
+    add_to_array = { global.AS_AN_database_id_118 = token:AS_AN_Rasputin_Healing_Techniques } #ラスプーチンの治癒技術
+    add_to_array = { global.AS_AN_database_id_118 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_118 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_118 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_118 = 100 } #日数:100日
+    #四国の隠された温泉
+    clear_array = global.AS_AN_database_id_119
+    add_to_array = { global.AS_AN_database_id_119 = token:AS_AN_Shikoku_Hidden_Onsen } #四国の隠された温泉
+    add_to_array = { global.AS_AN_database_id_119 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_119 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_119 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_119 = 320 } #日数:320日
+    #サハラのガラス形成
+    clear_array = global.AS_AN_database_id_120
+    add_to_array = { global.AS_AN_database_id_120 = token:AS_AN_Saharan_Glass_Formation } #サハラのガラス形成
+    add_to_array = { global.AS_AN_database_id_120 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_120 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_120 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_120 = 25 } #日数:25日
+    #KGB超能力研究
+    clear_array = global.AS_AN_database_id_121
+    add_to_array = { global.AS_AN_database_id_121 = token:AS_AN_KGB_Psychic_Research } #KGB超能力研究
+    add_to_array = { global.AS_AN_database_id_121 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_121 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_121 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_121 = 200 } #日数:200日
+    #ディズニーアニメーション技術
+    clear_array = global.AS_AN_database_id_122
+    add_to_array = { global.AS_AN_database_id_122 = token:AS_AN_Disney_Animation_Technology } #ディズニーアニメーション技術
+    add_to_array = { global.AS_AN_database_id_122 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_122 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_122 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_122 = 500 } #日数:500日
+    #フィレンツェ銀行システム
+    clear_array = global.AS_AN_database_id_123
+    add_to_array = { global.AS_AN_database_id_123 = token:AS_AN_Florence_Banking_System } #フィレンツェ銀行システム
+    add_to_array = { global.AS_AN_database_id_123 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_123 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_123 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_123 = 45 } #日数:45日
+    #ファストフード依存性配合
+    clear_array = global.AS_AN_database_id_124
+    add_to_array = { global.AS_AN_database_id_124 = token:AS_AN_Fast_Food_Addictive_Formula } #ファストフード依存性配合
+    add_to_array = { global.AS_AN_database_id_124 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_124 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_124 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_124 = 180 } #日数:180日
+    #ハット・リバー法的抜け穴
+    clear_array = global.AS_AN_database_id_125
+    add_to_array = { global.AS_AN_database_id_125 = token:AS_AN_Hutt_River_Legal_Loopholes } #ハット・リバー法的抜け穴
+    add_to_array = { global.AS_AN_database_id_125 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_125 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_125 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_125 = 150 } #日数:150日
+    #四国の聖なる森
+    clear_array = global.AS_AN_database_id_126
+    add_to_array = { global.AS_AN_database_id_126 = token:AS_AN_Shikoku_Sacred_Forest } #四国の聖なる森
+    add_to_array = { global.AS_AN_database_id_126 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_126 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_126 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_126 = 20 } #日数:20日
+    #ソビエト気象制御
+    clear_array = global.AS_AN_database_id_127
+    add_to_array = { global.AS_AN_database_id_127 = token:AS_AN_Soviet_Weather_Control } #ソビエト気象制御
+    add_to_array = { global.AS_AN_database_id_127 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_127 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_127 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_127 = 80 } #日数:80日
+    #シチリアマフィアネットワーク
+    clear_array = global.AS_AN_database_id_128
+    add_to_array = { global.AS_AN_database_id_128 = token:AS_AN_Sicily_Mafia_Network } #シチリアマフィアネットワーク
+    add_to_array = { global.AS_AN_database_id_128 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_128 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_128 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_128 = 400 } #日数:400日
+    #極小国家同盟条約
+    clear_array = global.AS_AN_database_id_129
+    add_to_array = { global.AS_AN_database_id_129 = token:AS_AN_Micronation_Alliance_Treaty } #極小国家同盟条約
+    add_to_array = { global.AS_AN_database_id_129 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_129 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_129 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_129 = 200 } #日数:200日
+    #サハラ砂漠地下水脈
+    clear_array = global.AS_AN_database_id_130
+    add_to_array = { global.AS_AN_database_id_130 = token:AS_AN_Sahara_Desert_Underground_River } #サハラ砂漠地下水脈
+    add_to_array = { global.AS_AN_database_id_130 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_130 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_130 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_130 = 30 } #日数:30日
+    #ローマ水中コンクリート配合
+    clear_array = global.AS_AN_database_id_131
+    add_to_array = { global.AS_AN_database_id_131 = token:AS_AN_Roman_Concrete_Underwater_Formula } #ローマ水中コンクリート配合
+    add_to_array = { global.AS_AN_database_id_131 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_131 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_131 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_131 = 280 } #日数:280日
+    #ハッピーミール心理設計
+    clear_array = global.AS_AN_database_id_132
+    add_to_array = { global.AS_AN_database_id_132 = token:AS_AN_Happy_Meal_Psychological_Design } #ハッピーミール心理設計
+    add_to_array = { global.AS_AN_database_id_132 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_132 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_132 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_132 = 170 } #日数:170日
+    #ロシア超深度掘削計画
+    clear_array = global.AS_AN_database_id_133
+    add_to_array = { global.AS_AN_database_id_133 = token:AS_AN_Russian_Deep_Drilling_Project } #ロシア超深度掘削計画
+    add_to_array = { global.AS_AN_database_id_133 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_133 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_133 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_133 = 40 } #日数:40日
+    #ポプテピピック混沌発生器
+    clear_array = global.AS_AN_database_id_134
+    add_to_array = { global.AS_AN_database_id_134 = token:AS_AN_Popteamepic_Chaos_Generator } #ポプテピピック混沌発生器
+    add_to_array = { global.AS_AN_database_id_134 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_134 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_134 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_134 = 420 } #日数:420日
+    #頭文字Dドリフト技術
+    clear_array = global.AS_AN_database_id_135
+    add_to_array = { global.AS_AN_database_id_135 = token:AS_AN_Initial_D_Drift_Technique } #頭文字Dドリフト技術
+    add_to_array = { global.AS_AN_database_id_135 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_135 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_135 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_135 = 300 } #日数:300日
+    #ニャンキャット推進システム
+    clear_array = global.AS_AN_database_id_136
+    add_to_array = { global.AS_AN_database_id_136 = token:AS_AN_Nyan_Cat_Propulsion_System } #ニャンキャット推進システム
+    add_to_array = { global.AS_AN_database_id_136 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_136 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_136 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_136 = 150 } #日数:150日
+    #ボンゴキャットリズム制御
+    clear_array = global.AS_AN_database_id_137
+    add_to_array = { global.AS_AN_database_id_137 = token:AS_AN_Bongo_Cat_Rhythm_Control } #ボンゴキャットリズム制御
+    add_to_array = { global.AS_AN_database_id_137 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_137 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_137 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_137 = 400 } #日数:400日
+    #壁ドン心理戦術
+    clear_array = global.AS_AN_database_id_138
+    add_to_array = { global.AS_AN_database_id_138 = token:AS_AN_Kabedon_Psychological_Warfare } #壁ドン心理戦術
+    add_to_array = { global.AS_AN_database_id_138 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_138 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_138 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_138 = 30 } #日数:30日
+    #長いお〜のび〜る機器
+    clear_array = global.AS_AN_database_id_139
+    add_to_array = { global.AS_AN_database_id_139 = token:AS_AN_Long_Long_Man_Extension_Device } #長いお〜のび〜る機器
+    add_to_array = { global.AS_AN_database_id_139 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_139 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_139 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_139 = 45 } #日数:45日
+    #ウガンダナックルズナビゲーション
+    clear_array = global.AS_AN_database_id_140
+    add_to_array = { global.AS_AN_database_id_140 = token:AS_AN_Ugandan_Knuckles_Navigation } #ウガンダナックルズナビゲーション
+    add_to_array = { global.AS_AN_database_id_140 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_140 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_140 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_140 = 25 } #日数:25日
+    #ひろゆきイチゴ畑論法
+    clear_array = global.AS_AN_database_id_141
+    add_to_array = { global.AS_AN_database_id_141 = token:AS_AN_Hiroyuki_Strawberry_Fields } #ひろゆきイチゴ畑論法
+    add_to_array = { global.AS_AN_database_id_141 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_141 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_141 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_141 = 20 } #日数:20日
+    #吉田宇宙的愛情
+    clear_array = global.AS_AN_database_id_142
+    add_to_array = { global.AS_AN_database_id_142 = token:AS_AN_Yoshida_Cosmic_Affection } #吉田宇宙的愛情
+    add_to_array = { global.AS_AN_database_id_142 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_142 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_142 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_142 = 180 } #日数:180日
+    #ピコ太郎PPAP方程式
+    clear_array = global.AS_AN_database_id_143
+    add_to_array = { global.AS_AN_database_id_143 = token:AS_AN_Pikotaro_PPAP_Formula } #ピコ太郎PPAP方程式
+    add_to_array = { global.AS_AN_database_id_143 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_143 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_143 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_143 = 500 } #日数:500日
+    #田代島猫ネットワーク
+    clear_array = global.AS_AN_database_id_144
+    add_to_array = { global.AS_AN_database_id_144 = token:AS_AN_Tashirojima_Cat_Island_Network } #田代島猫ネットワーク
+    add_to_array = { global.AS_AN_database_id_144 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_144 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_144 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_144 = 80 } #日数:80日
+    #ギャルピース外交戦略
+    clear_array = global.AS_AN_database_id_145
+    add_to_array = { global.AS_AN_database_id_145 = token:AS_AN_Gyaru_Peace_Diplomatic_Strategy } #ギャルピース外交戦略
+    add_to_array = { global.AS_AN_database_id_145 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_145 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_145 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_145 = 160 } #日数:160日
+    #まさかの予測アルゴリズム
+    clear_array = global.AS_AN_database_id_146
+    add_to_array = { global.AS_AN_database_id_146 = token:AS_AN_Masaka_Prediction_Algorithm } #まさかの予測アルゴリズム
+    add_to_array = { global.AS_AN_database_id_146 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_146 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_146 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_146 = 250 } #日数:250日
+    #ドラゴンボール戦闘力スキャナー
+    clear_array = global.AS_AN_database_id_147
+    add_to_array = { global.AS_AN_database_id_147 = token:AS_AN_Dragonball_Power_Level_Scanner } #ドラゴンボール戦闘力スキャナー
+    add_to_array = { global.AS_AN_database_id_147 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_147 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_147 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_147 = 35 } #日数:35日
+    #なみだぼしの感情操作
+    clear_array = global.AS_AN_database_id_148
+    add_to_array = { global.AS_AN_database_id_148 = token:AS_AN_Namidaboshi_Emotional_Manipulation } #なみだぼしの感情操作
+    add_to_array = { global.AS_AN_database_id_148 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_148 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_148 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_148 = 320 } #日数:320日
+    #東方弾幕防御システム
+    clear_array = global.AS_AN_database_id_149
+    add_to_array = { global.AS_AN_database_id_149 = token:AS_AN_Touhou_Bullet_Pattern_Defense } #東方弾幕防御システム
+    add_to_array = { global.AS_AN_database_id_149 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_149 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_149 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_149 = 200 } #日数:200日
+    #アキラバイクスライド機動
+    clear_array = global.AS_AN_database_id_150
+    add_to_array = { global.AS_AN_database_id_150 = token:AS_AN_Akira_Bike_Slide_Maneuver } #アキラバイクスライド機動
+    add_to_array = { global.AS_AN_database_id_150 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_150 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_150 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_150 = 450 } #日数:450日
+    #モナー芸術価値生成器
+    clear_array = global.AS_AN_database_id_151
+    add_to_array = { global.AS_AN_database_id_151 = token:AS_AN_Mona_Artistic_Value_Generator } #モナー芸術価値生成器
+    add_to_array = { global.AS_AN_database_id_151 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_151 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_151 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_151 = 50 } #日数:50日
+    #柴犬ドージ影響力
+    clear_array = global.AS_AN_database_id_152
+    add_to_array = { global.AS_AN_database_id_152 = token:AS_AN_Shiba_Inu_Doge_Influence } #柴犬ドージ影響力
+    add_to_array = { global.AS_AN_database_id_152 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_152 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_152 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_152 = 180 } #日数:180日
+    #ジブリ環境精霊
+    clear_array = global.AS_AN_database_id_153
+    add_to_array = { global.AS_AN_database_id_153 = token:AS_AN_Ghibli_Environmental_Spirit } #ジブリ環境精霊
+    add_to_array = { global.AS_AN_database_id_153 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_153 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_153 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_153 = 30 } #日数:30日
+    #あらあら周波数操作
+    clear_array = global.AS_AN_database_id_154
+    add_to_array = { global.AS_AN_database_id_154 = token:AS_AN_Ara_Ara_Frequency_Manipulation } #あらあら周波数操作
+    add_to_array = { global.AS_AN_database_id_154 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_154 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_154 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_154 = 220 } #日数:220日
+    #ザ・ワールド時間操作
+    clear_array = global.AS_AN_database_id_155
+    add_to_array = { global.AS_AN_database_id_155 = token:AS_AN_Za_Warudo_Time_Manipulation } #ザ・ワールド時間操作
+    add_to_array = { global.AS_AN_database_id_155 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_155 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_155 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_155 = 90 } #日数:90日
+    #トラック君異世界転送
+    clear_array = global.AS_AN_database_id_156
+    add_to_array = { global.AS_AN_database_id_156 = token:AS_AN_Truck_Kun_Isekai_Transport } #トラック君異世界転送
+    add_to_array = { global.AS_AN_database_id_156 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_156 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_156 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_156 = 600 } #日数:600日
+    #かわいいメタル音波兵器
+    clear_array = global.AS_AN_database_id_157
+    add_to_array = { global.AS_AN_database_id_157 = token:AS_AN_Kawaii_Metal_Sonic_Weapon } #かわいいメタル音波兵器
+    add_to_array = { global.AS_AN_database_id_157 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_157 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_157 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_157 = 350 } #日数:350日
+    #ツンデレ心理戦
+    clear_array = global.AS_AN_database_id_158
+    add_to_array = { global.AS_AN_database_id_158 = token:AS_AN_Tsundere_Psychological_Warfare } #ツンデレ心理戦
+    add_to_array = { global.AS_AN_database_id_158 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_158 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_158 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_158 = 280 } #日数:280日
+    #お前はもう死んでいる技法
+    clear_array = global.AS_AN_database_id_159
+    add_to_array = { global.AS_AN_database_id_159 = token:AS_AN_Omae_Wa_Mou_Shindeiru_Technique } #お前はもう死んでいる技法
+    add_to_array = { global.AS_AN_database_id_159 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_159 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_159 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_159 = 60 } #日数:60日
+    #ナニッ！反応強化
+    clear_array = global.AS_AN_database_id_160
+    add_to_array = { global.AS_AN_database_id_160 = token:AS_AN_Nani_Reaction_Enhancement } #ナニッ！反応強化
+    add_to_array = { global.AS_AN_database_id_160 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_160 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_160 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_160 = 170 } #日数:170日
+    #引きこもりバンカーシステム
+    clear_array = global.AS_AN_database_id_161
+    add_to_array = { global.AS_AN_database_id_161 = token:AS_AN_Hikikomori_Bunker_System } #引きこもりバンカーシステム
+    add_to_array = { global.AS_AN_database_id_161 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_161 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_161 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_161 = 25 } #日数:25日
+    #リックロール心理的転換
+    clear_array = global.AS_AN_database_id_162
+    add_to_array = { global.AS_AN_database_id_162 = token:AS_AN_Rickroll_Psychological_Diversion } #リックロール心理的転換
+    add_to_array = { global.AS_AN_database_id_162 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_162 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_162 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_162 = 210 } #日数:210日
+    #浮気男注意転換機器
+    clear_array = global.AS_AN_database_id_163
+    add_to_array = { global.AS_AN_database_id_163 = token:AS_AN_Distracted_Boyfriend_Attention_Shift } #浮気男注意転換機器
+    add_to_array = { global.AS_AN_database_id_163 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_163 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_163 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_163 = 45 } #日数:45日
+    #ハランベ連帯運動
+    clear_array = global.AS_AN_database_id_164
+    add_to_array = { global.AS_AN_database_id_164 = token:AS_AN_Harambe_Solidarity_Movement } #ハランベ連帯運動
+    add_to_array = { global.AS_AN_database_id_164 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_164 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_164 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_164 = 30 } #日数:30日
+    #ロス・パターン認識
+    clear_array = global.AS_AN_database_id_165
+    add_to_array = { global.AS_AN_database_id_165 = token:AS_AN_Loss_Pattern_Recognition } #ロス・パターン認識
+    add_to_array = { global.AS_AN_database_id_165 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_165 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_165 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_165 = 40 } #日数:40日
+    #ストンクス市場操作
+    clear_array = global.AS_AN_database_id_166
+    add_to_array = { global.AS_AN_database_id_166 = token:AS_AN_Stonks_Market_Manipulation } #ストンクス市場操作
+    add_to_array = { global.AS_AN_database_id_166 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_166 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_166 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_166 = 200 } #日数:200日
+    #This is Fineクライシス管理
+    clear_array = global.AS_AN_database_id_167
+    add_to_array = { global.AS_AN_database_id_167 = token:AS_AN_This_Is_Fine_Crisis_Management } #This is Fineクライシス管理
+    add_to_array = { global.AS_AN_database_id_167 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_167 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_167 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_167 = 280 } #日数:280日
+    #ドージ・トゥ・ザ・ムーン推進
+    clear_array = global.AS_AN_database_id_168
+    add_to_array = { global.AS_AN_database_id_168 = token:AS_AN_Doge_To_The_Moon_Propulsion } #ドージ・トゥ・ザ・ムーン推進
+    add_to_array = { global.AS_AN_database_id_168 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_168 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_168 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_168 = 90 } #日数:90日
+    #驚いたピカチュウ予測モデル
+    clear_array = global.AS_AN_database_id_169
+    add_to_array = { global.AS_AN_database_id_169 = token:AS_AN_Surprised_Pikachu_Predictive_Model } #驚いたピカチュウ予測モデル
+    add_to_array = { global.AS_AN_database_id_169 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_169 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_169 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_169 = 180 } #日数:180日
+    #ギャラクシーブレイン認知増強
+    clear_array = global.AS_AN_database_id_170
+    add_to_array = { global.AS_AN_database_id_170 = token:AS_AN_Galaxy_Brain_Cognitive_Enhancer } #ギャラクシーブレイン認知増強
+    add_to_array = { global.AS_AN_database_id_170 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_170 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_170 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_170 = 25 } #日数:25日
+    #棺桶ダンス士気反転機器
+    clear_array = global.AS_AN_database_id_171
+    add_to_array = { global.AS_AN_database_id_171 = token:AS_AN_Coffin_Dance_Morale_Inverter } #棺桶ダンス士気反転機器
+    add_to_array = { global.AS_AN_database_id_171 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_171 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_171 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_171 = 550 } #日数:550日
+    #Xを押して疑う信頼性分析
+    clear_array = global.AS_AN_database_id_172
+    add_to_array = { global.AS_AN_database_id_172 = token:AS_AN_X_To_Doubt_Credibility_Analyzer } #Xを押して疑う信頼性分析
+    add_to_array = { global.AS_AN_database_id_172 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_172 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_172 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_172 = 300 } #日数:300日
+    #簡単にはいかないバリア
+    clear_array = global.AS_AN_database_id_173
+    add_to_array = { global.AS_AN_database_id_173 = token:AS_AN_One_Does_Not_Simply_Barrier } #簡単にはいかないバリア
+    add_to_array = { global.AS_AN_database_id_173 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_173 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_173 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_173 = 150 } #日数:150日
+    #All Your Base支配システム
+    clear_array = global.AS_AN_database_id_174
+    add_to_array = { global.AS_AN_database_id_174 = token:AS_AN_All_Your_Base_Control_System } #All Your Base支配システム
+    add_to_array = { global.AS_AN_database_id_174 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_174 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_174 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_174 = 400 } #日数:400日
+    #グランピーキャット士気抑制
+    clear_array = global.AS_AN_database_id_175
+    add_to_array = { global.AS_AN_database_id_175 = token:AS_AN_Grumpy_Cat_Morale_Suppression } #グランピーキャット士気抑制
+    add_to_array = { global.AS_AN_database_id_175 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_175 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_175 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_175 = 120 } #日数:120日
+    #痛みを隠すハロルド耐久力
+    clear_array = global.AS_AN_database_id_176
+    add_to_array = { global.AS_AN_database_id_176 = token:AS_AN_Hide_The_Pain_Harold_Endurance } #痛みを隠すハロルド耐久力
+    add_to_array = { global.AS_AN_database_id_176 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_176 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_176 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_176 = 60 } #日数:60日
+    #「やばい」と笑う警告システム
+    clear_array = global.AS_AN_database_id_177
+    add_to_array = { global.AS_AN_database_id_177 = token:AS_AN_Chuckles_Im_In_Danger_Warning } #「やばい」と笑う警告システム
+    add_to_array = { global.AS_AN_database_id_177 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_177 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_177 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_177 = 35 } #日数:35日
+    #蒸し太ももハム欺瞞技術
+    clear_array = global.AS_AN_database_id_178
+    add_to_array = { global.AS_AN_database_id_178 = token:AS_AN_Steamed_Hams_Deception_Technique } #蒸し太ももハム欺瞞技術
+    add_to_array = { global.AS_AN_database_id_178 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_178 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_178 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_178 = 35 } #日数:35日
+    #災害ガール混沌発生器
+    clear_array = global.AS_AN_database_id_179
+    add_to_array = { global.AS_AN_database_id_179 = token:AS_AN_Disaster_Girl_Chaos_Generator } #災害ガール混沌発生器
+    add_to_array = { global.AS_AN_database_id_179 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_179 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_179 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_179 = 210 } #日数:210日
+    #蛾とランプの誘引システム
+    clear_array = global.AS_AN_database_id_180
+    add_to_array = { global.AS_AN_database_id_180 = token:AS_AN_Moth_Lamp_Attraction_System } #蛾とランプの誘引システム
+    add_to_array = { global.AS_AN_database_id_180 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_180 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_180 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_180 = 500 } #日数:500日
+    #彼らはブドウに手術をした精密術
+    clear_array = global.AS_AN_database_id_181
+    add_to_array = { global.AS_AN_database_id_181 = token:AS_AN_They_Did_Surgery_On_A_Grape_Precision } #彼らはブドウに手術をした精密術
+    add_to_array = { global.AS_AN_database_id_181 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_181 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_181 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_181 = 250 } #日数:250日
+    #バチカン秘密文書庫
+    clear_array = global.AS_AN_database_id_182
+    add_to_array = { global.AS_AN_database_id_182 = token:AS_AN_Vatican_Secret_Archives } #バチカン秘密文書庫
+    add_to_array = { global.AS_AN_database_id_182 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_182 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_182 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_182 = 180 } #日数:180日
+    #死海文書完全版
+    clear_array = global.AS_AN_database_id_183
+    add_to_array = { global.AS_AN_database_id_183 = token:AS_AN_Dead_Sea_Scrolls_Complete } #死海文書完全版
+    add_to_array = { global.AS_AN_database_id_183 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_183 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_183 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_183 = 450 } #日数:450日
+    #仏陀の悟りの手法
+    clear_array = global.AS_AN_database_id_184
+    add_to_array = { global.AS_AN_database_id_184 = token:AS_AN_Buddhas_Enlightenment_Method } #仏陀の悟りの手法
+    add_to_array = { global.AS_AN_database_id_184 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_184 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_184 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_184 = 320 } #日数:320日
+    #メッカの黒石の断片
+    clear_array = global.AS_AN_database_id_185
+    add_to_array = { global.AS_AN_database_id_185 = token:AS_AN_Mecca_Black_Stone_Fragment } #メッカの黒石の断片
+    add_to_array = { global.AS_AN_database_id_185 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_185 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_185 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_185 = 600 } #日数:600日
+    #神道の神降ろしの儀式
+    clear_array = global.AS_AN_database_id_186
+    add_to_array = { global.AS_AN_database_id_186 = token:AS_AN_Shinto_Kami_Summoning_Ritual } #神道の神降ろしの儀式
+    add_to_array = { global.AS_AN_database_id_186 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_186 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_186 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_186 = 180 } #日数:180日
+    #北欧のルーン石完全セット
+    clear_array = global.AS_AN_database_id_187
+    add_to_array = { global.AS_AN_database_id_187 = token:AS_AN_Norse_Runestone_Complete_Set } #北欧のルーン石完全セット
+    add_to_array = { global.AS_AN_database_id_187 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_187 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_187 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_187 = 100 } #日数:100日
+    #エジプト死者の書オリジナル
+    clear_array = global.AS_AN_database_id_188
+    add_to_array = { global.AS_AN_database_id_188 = token:AS_AN_Egyptian_Book_Of_The_Dead_Original } #エジプト死者の書オリジナル
+    add_to_array = { global.AS_AN_database_id_188 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_188 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_188 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_188 = 200 } #日数:200日
+    #ゾロアスター教の聖なる火
+    clear_array = global.AS_AN_database_id_189
+    add_to_array = { global.AS_AN_database_id_189 = token:AS_AN_Zoroastrian_Sacred_Fire } #ゾロアスター教の聖なる火
+    add_to_array = { global.AS_AN_database_id_189 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_189 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_189 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_189 = 350 } #日数:350日
+    #ヒンドゥー第三の目活性化
+    clear_array = global.AS_AN_database_id_190
+    add_to_array = { global.AS_AN_database_id_190 = token:AS_AN_Hindu_Third_Eye_Activation } #ヒンドゥー第三の目活性化
+    add_to_array = { global.AS_AN_database_id_190 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_190 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_190 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_190 = 40 } #日数:40日
+    #カバラ生命の樹の地図
+    clear_array = global.AS_AN_database_id_191
+    add_to_array = { global.AS_AN_database_id_191 = token:AS_AN_Kabbalah_Tree_Of_Life_Map } #カバラ生命の樹の地図
+    add_to_array = { global.AS_AN_database_id_191 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_191 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_191 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_191 = 550 } #日数:550日
+    #チベット死者の書オリジナル
+    clear_array = global.AS_AN_database_id_192
+    add_to_array = { global.AS_AN_database_id_192 = token:AS_AN_Tibetan_Book_Of_The_Dead_Original } #チベット死者の書オリジナル
+    add_to_array = { global.AS_AN_database_id_192 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_192 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_192 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_192 = 150 } #日数:150日
+    #ブードゥー・ロア召喚儀式
+    clear_array = global.AS_AN_database_id_193
+    add_to_array = { global.AS_AN_database_id_193 = token:AS_AN_Vodou_Loa_Summoning_Ritual } #ブードゥー・ロア召喚儀式
+    add_to_array = { global.AS_AN_database_id_193 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_193 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_193 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_193 = 300 } #日数:300日
+    #アボリジニ・ドリームタイム・マッピング
+    clear_array = global.AS_AN_database_id_194
+    add_to_array = { global.AS_AN_database_id_194 = token:AS_AN_Aboriginal_Dreamtime_Mapping } #アボリジニ・ドリームタイム・マッピング
+    add_to_array = { global.AS_AN_database_id_194 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_194 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_194 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_194 = 180 } #日数:180日
+    #アステカ人身供犠の写本
+    clear_array = global.AS_AN_database_id_195
+    add_to_array = { global.AS_AN_database_id_195 = token:AS_AN_Aztec_Codex_Of_Human_Sacrifice } #アステカ人身供犠の写本
+    add_to_array = { global.AS_AN_database_id_195 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_195 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_195 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_195 = 90 } #日数:90日
+    #グノーシス派の秘密福音書
+    clear_array = global.AS_AN_database_id_196
+    add_to_array = { global.AS_AN_database_id_196 = token:AS_AN_Gnostic_Secret_Gospels } #グノーシス派の秘密福音書
+    add_to_array = { global.AS_AN_database_id_196 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_196 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_196 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_196 = 500 } #日数:500日
+    #ガンダムのフェイズシフト装甲
+    clear_array = global.AS_AN_database_id_197
+    add_to_array = { global.AS_AN_database_id_197 = token:AS_AN_Gundams_Phase_Shift_Armor } #ガンダムのフェイズシフト装甲
+    add_to_array = { global.AS_AN_database_id_197 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_197 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_197 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_197 = 60 } #日数:60日
+    #チャクラネットワークシステム
+    clear_array = global.AS_AN_database_id_198
+    add_to_array = { global.AS_AN_database_id_198 = token:AS_AN_Chakra_Network_System } #チャクラネットワークシステム
+    add_to_array = { global.AS_AN_database_id_198 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_198 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_198 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_198 = 450 } #日数:450日
+    #賢者の石の製法
+    clear_array = global.AS_AN_database_id_199
+    add_to_array = { global.AS_AN_database_id_199 = token:AS_AN_Philosopher_Stone_Formula } #賢者の石の製法
+    add_to_array = { global.AS_AN_database_id_199 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_199 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_199 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_199 = 600 } #日数:600日
+    #スタンド顕現機器
+    clear_array = global.AS_AN_database_id_200
+    add_to_array = { global.AS_AN_database_id_200 = token:AS_AN_Stands_Manifestation } #スタンド顕現機器
+    add_to_array = { global.AS_AN_database_id_200 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_200 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_200 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_200 = 350 } #日数:350日
+    #ドミネーター執行システム
+    clear_array = global.AS_AN_database_id_201
+    add_to_array = { global.AS_AN_database_id_201 = token:AS_AN_Dominator_Enforcement_System } #ドミネーター執行システム
+    add_to_array = { global.AS_AN_database_id_201 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_201 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_201 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_201 = 550 } #日数:550日
+    #デスノート因果律操作
+    clear_array = global.AS_AN_database_id_202
+    add_to_array = { global.AS_AN_database_id_202 = token:AS_AN_Death_Note_Causality_Manipulation } #デスノート因果律操作
+    add_to_array = { global.AS_AN_database_id_202 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_202 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_202 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_202 = 200 } #日数:200日
+    #EVAシンクロ率向上
+    clear_array = global.AS_AN_database_id_203
+    add_to_array = { global.AS_AN_database_id_203 = token:AS_AN_EVA_Synchronization } #EVAシンクロ率向上
+    add_to_array = { global.AS_AN_database_id_203 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_203 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_203 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_203 = 500 } #日数:500日
+    #本能寺学園の生命繊維服
+    clear_array = global.AS_AN_database_id_204
+    add_to_array = { global.AS_AN_database_id_204 = token:AS_AN_Honnouji_Life_Fiber_Uniform } #本能寺学園の生命繊維服
+    add_to_array = { global.AS_AN_database_id_204 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_204 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_204 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_204 = 300 } #日数:300日
+    #巨人化血清
+    clear_array = global.AS_AN_database_id_205
+    add_to_array = { global.AS_AN_database_id_205 = token:AS_AN_Titans_Transformation_Serum } #巨人化血清
+    add_to_array = { global.AS_AN_database_id_205 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_205 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_205 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_205 = 180 } #日数:180日
+    #ギアス絶対服従
+    clear_array = global.AS_AN_database_id_206
+    add_to_array = { global.AS_AN_database_id_206 = token:AS_AN_Geass_Absolute_Obedience } #ギアス絶対服従
+    add_to_array = { global.AS_AN_database_id_206 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_206 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_206 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_206 = 580 } #日数:580日
+    #千と千尋の湯屋経済
+    clear_array = global.AS_AN_database_id_207
+    add_to_array = { global.AS_AN_database_id_207 = token:AS_AN_Spirited_Away_Bathhouse_Economy } #千と千尋の湯屋経済
+    add_to_array = { global.AS_AN_database_id_207 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_207 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_207 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_207 = 450 } #日数:450日
+    #ワンピースの悪魔の実
+    clear_array = global.AS_AN_database_id_208
+    add_to_array = { global.AS_AN_database_id_208 = token:AS_AN_One_Piece_Devil_Fruit } #ワンピースの悪魔の実
+    add_to_array = { global.AS_AN_database_id_208 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_208 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_208 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_208 = 200 } #日数:200日
+    #トトロの森の繋がり
+    clear_array = global.AS_AN_database_id_209
+    add_to_array = { global.AS_AN_database_id_209 = token:AS_AN_Totoro_Forest_Connection } #トトロの森の繋がり
+    add_to_array = { global.AS_AN_database_id_209 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_209 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_209 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_209 = 320 } #日数:320日
+    #ハウルの動く城
+    clear_array = global.AS_AN_database_id_210
+    add_to_array = { global.AS_AN_database_id_210 = token:AS_AN_Howls_Moving_Castle } #ハウルの動く城
+    add_to_array = { global.AS_AN_database_id_210 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_210 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_210 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_210 = 90 } #日数:90日
+    #攻殻機動隊の電脳
+    clear_array = global.AS_AN_database_id_211
+    add_to_array = { global.AS_AN_database_id_211 = token:AS_AN_Ghost_In_The_Shell_Cyberbrain } #攻殻機動隊の電脳
+    add_to_array = { global.AS_AN_database_id_211 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_211 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_211 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_211 = 520 } #日数:520日
+    #鬼滅の呼吸法
+    clear_array = global.AS_AN_database_id_212
+    add_to_array = { global.AS_AN_database_id_212 = token:AS_AN_Kimetsu_Breathing_Technique } #鬼滅の呼吸法
+    add_to_array = { global.AS_AN_database_id_212 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_212 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_212 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_212 = 350 } #日数:350日
+    #蟲との共生関係
+    clear_array = global.AS_AN_database_id_213
+    add_to_array = { global.AS_AN_database_id_213 = token:AS_AN_Mushi_Symbiotic_Relation } #蟲との共生関係
+    add_to_array = { global.AS_AN_database_id_213 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_213 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_213 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_213 = 180 } #日数:180日
+    #アキラの超能力覚醒
+    clear_array = global.AS_AN_database_id_214
+    add_to_array = { global.AS_AN_database_id_214 = token:AS_AN_Akira_Psychic_Awakening } #アキラの超能力覚醒
+    add_to_array = { global.AS_AN_database_id_214 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_214 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_214 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_214 = 100 } #日数:100日
+    #もののけ姫の森の精霊
+    clear_array = global.AS_AN_database_id_215
+    add_to_array = { global.AS_AN_database_id_215 = token:AS_AN_Princess_Mononoke_Forest_Spirit } #もののけ姫の森の精霊
+    add_to_array = { global.AS_AN_database_id_215 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_215 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_215 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_215 = 420 } #日数:420日
+    #モンスターハンターの生物学
+    clear_array = global.AS_AN_database_id_216
+    add_to_array = { global.AS_AN_database_id_216 = token:AS_AN_Monster_Hunter_Biology } #モンスターハンターの生物学
+    add_to_array = { global.AS_AN_database_id_216 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_216 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_216 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_216 = 280 } #日数:280日
+    #見聞色の覇気
+    clear_array = global.AS_AN_database_id_217
+    add_to_array = { global.AS_AN_database_id_217 = token:AS_AN_Haki_Observation_Technique } #見聞色の覇気
+    add_to_array = { global.AS_AN_database_id_217 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_217 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_217 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_217 = 190 } #日数:190日
+    #ドラえもんの四次元ポケット
+    clear_array = global.AS_AN_database_id_218
+    add_to_array = { global.AS_AN_database_id_218 = token:AS_AN_Doraemon_4D_Pocket } #ドラえもんの四次元ポケット
+    add_to_array = { global.AS_AN_database_id_218 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_218 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_218 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_218 = 170 } #日数:170日
+    #頭文字Dの慣性ドリフト
+    clear_array = global.AS_AN_database_id_219
+    add_to_array = { global.AS_AN_database_id_219 = token:AS_AN_Initial_D_Inertia_Drift } #頭文字Dの慣性ドリフト
+    add_to_array = { global.AS_AN_database_id_219 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_219 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_219 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_219 = 580 } #日数:580日
+    #ジブリ風の谷の滑空機
+    clear_array = global.AS_AN_database_id_220
+    add_to_array = { global.AS_AN_database_id_220 = token:AS_AN_Ghibli_Wind_Valley_Glider } #ジブリ風の谷の滑空機
+    add_to_array = { global.AS_AN_database_id_220 = 4 } #カテゴリ:空軍
+    add_to_array = { global.AS_AN_database_id_220 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_220 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_220 = 60 } #日数:60日
+    #シュタインズ・ゲートの時間跳躍
+    clear_array = global.AS_AN_database_id_221
+    add_to_array = { global.AS_AN_database_id_221 = token:AS_AN_Steins_Gate_Time_Leap } #シュタインズ・ゲートの時間跳躍
+    add_to_array = { global.AS_AN_database_id_221 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_221 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_221 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_221 = 150 } #日数:150日
+    #Fateのサーヴァント召喚
+    clear_array = global.AS_AN_database_id_222
+    add_to_array = { global.AS_AN_database_id_222 = token:AS_AN_Fate_Servant_Summoning } #Fateのサーヴァント召喚
+    add_to_array = { global.AS_AN_database_id_222 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_222 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_222 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_222 = 450 } #日数:450日
+    #君の名は入れ替わり現象
+    clear_array = global.AS_AN_database_id_223
+    add_to_array = { global.AS_AN_database_id_223 = token:AS_AN_Your_Name_Body_Switching } #君の名は入れ替わり現象
+    add_to_array = { global.AS_AN_database_id_223 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_223 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_223 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_223 = 600 } #日数:600日
+    #エヴァンゲリオンATフィールド
+    clear_array = global.AS_AN_database_id_224
+    add_to_array = { global.AS_AN_database_id_224 = token:AS_AN_Neon_Genesis_AT_Field } #エヴァンゲリオンATフィールド
+    add_to_array = { global.AS_AN_database_id_224 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_224 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_224 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_224 = 250 } #日数:250日
+    #ラピュタの飛行石
+    clear_array = global.AS_AN_database_id_225
+    add_to_array = { global.AS_AN_database_id_225 = token:AS_AN_Laputa_Crystal_Energy } #ラピュタの飛行石
+    add_to_array = { global.AS_AN_database_id_225 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_225 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_225 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_225 = 400 } #日数:400日
+    #レイン電脳世界接続
+    clear_array = global.AS_AN_database_id_226
+    add_to_array = { global.AS_AN_database_id_226 = token:AS_AN_Serial_Experiments_Lain_Wired } #レイン電脳世界接続
+    add_to_array = { global.AS_AN_database_id_226 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_226 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_226 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_226 = 300 } #日数:300日
+    #コードギアスのナイトメアフレーム
+    clear_array = global.AS_AN_database_id_227
+    add_to_array = { global.AS_AN_database_id_227 = token:AS_AN_Code_Geass_Knightmare_Frame } #コードギアスのナイトメアフレーム
+    add_to_array = { global.AS_AN_database_id_227 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_227 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_227 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_227 = 550 } #日数:550日
+    #草薙の剣
+    clear_array = global.AS_AN_database_id_228
+    add_to_array = { global.AS_AN_database_id_228 = token:AS_AN_Kusanagi_No_Tsurugi } #草薙の剣
+    add_to_array = { global.AS_AN_database_id_228 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_228 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_228 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_228 = 330 } #日数:330日
+    #八尺瓊勾玉
+    clear_array = global.AS_AN_database_id_229
+    add_to_array = { global.AS_AN_database_id_229 = token:AS_AN_Magatama_Of_Yasakani } #八尺瓊勾玉
+    add_to_array = { global.AS_AN_database_id_229 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_229 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_229 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_229 = 600 } #日数:600日
+    #村正の妖刀
+    clear_array = global.AS_AN_database_id_230
+    add_to_array = { global.AS_AN_database_id_230 = token:AS_AN_Muramasa_Blade } #村正の妖刀
+    add_to_array = { global.AS_AN_database_id_230 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_230 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_230 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_230 = 350 } #日数:350日
+    #陰陽師の式神の巻物
+    clear_array = global.AS_AN_database_id_231
+    add_to_array = { global.AS_AN_database_id_231 = token:AS_AN_Onmyoji_Shikigami_Scroll } #陰陽師の式神の巻物
+    add_to_array = { global.AS_AN_database_id_231 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_231 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_231 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_231 = 200 } #日数:200日
+    #平安時代のお札
+    clear_array = global.AS_AN_database_id_232
+    add_to_array = { global.AS_AN_database_id_232 = token:AS_AN_Heian_Period_Talisman } #平安時代のお札
+    add_to_array = { global.AS_AN_database_id_232 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_232 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_232 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_232 = 450 } #日数:450日
+    #鎌倉時代の軍配
+    clear_array = global.AS_AN_database_id_233
+    add_to_array = { global.AS_AN_database_id_233 = token:AS_AN_Kamakura_War_Fan } #鎌倉時代の軍配
+    add_to_array = { global.AS_AN_database_id_233 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_233 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_233 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_233 = 180 } #日数:180日
+    #弥生時代の銅鏡
+    clear_array = global.AS_AN_database_id_234
+    add_to_array = { global.AS_AN_database_id_234 = token:AS_AN_Yayoi_Period_Bronze_Mirror } #弥生時代の銅鏡
+    add_to_array = { global.AS_AN_database_id_234 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_234 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_234 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_234 = 90 } #日数:90日
+    #神風の神聖弓
+    clear_array = global.AS_AN_database_id_235
+    add_to_array = { global.AS_AN_database_id_235 = token:AS_AN_Kamikaze_Sacred_Bow } #神風の神聖弓
+    add_to_array = { global.AS_AN_database_id_235 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_235 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_235 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_235 = 300 } #日数:300日
+    #飛鳥時代の経典
+    clear_array = global.AS_AN_database_id_236
+    add_to_array = { global.AS_AN_database_id_236 = token:AS_AN_Asuka_Period_Sutra } #飛鳥時代の経典
+    add_to_array = { global.AS_AN_database_id_236 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_236 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_236 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_236 = 45 } #日数:45日
+    #戦国忍者の道具
+    clear_array = global.AS_AN_database_id_237
+    add_to_array = { global.AS_AN_database_id_237 = token:AS_AN_Sengoku_Ninja_Tools } #戦国忍者の道具
+    add_to_array = { global.AS_AN_database_id_237 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_237 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_237 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_237 = 35 } #日数:35日
+    #縄文のドウグー
+    clear_array = global.AS_AN_database_id_238
+    add_to_array = { global.AS_AN_database_id_238 = token:AS_AN_Jomon_Dogu_Figurine } #縄文のドウグー
+    add_to_array = { global.AS_AN_database_id_238 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_238 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_238 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_238 = 150 } #日数:150日
+    #平安時代の化粧箱
+    clear_array = global.AS_AN_database_id_239
+    add_to_array = { global.AS_AN_database_id_239 = token:AS_AN_Heian_Cosmetic_Box } #平安時代の化粧箱
+    add_to_array = { global.AS_AN_database_id_239 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_239 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_239 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_239 = 100 } #日数:100日
+    #鎌倉禅宗の巻物
+    clear_array = global.AS_AN_database_id_240
+    add_to_array = { global.AS_AN_database_id_240 = token:AS_AN_Kamakura_Zen_Scroll } #鎌倉禅宗の巻物
+    add_to_array = { global.AS_AN_database_id_240 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_240 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_240 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_240 = 50 } #日数:50日
+    #源氏の兜
+    clear_array = global.AS_AN_database_id_241
+    add_to_array = { global.AS_AN_database_id_241 = token:AS_AN_Minamoto_War_Helmet } #源氏の兜
+    add_to_array = { global.AS_AN_database_id_241 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_241 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_241 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_241 = 160 } #日数:160日
+    #平安雅楽の楽器
+    clear_array = global.AS_AN_database_id_242
+    add_to_array = { global.AS_AN_database_id_242 = token:AS_AN_Heian_Court_Music_Instrument } #平安雅楽の楽器
+    add_to_array = { global.AS_AN_database_id_242 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_242 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_242 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_242 = 40 } #日数:40日
+    #奈良時代の薬箱
+    clear_array = global.AS_AN_database_id_243
+    add_to_array = { global.AS_AN_database_id_243 = token:AS_AN_Nara_Period_Medicine_Box } #奈良時代の薬箱
+    add_to_array = { global.AS_AN_database_id_243 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_243 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_243 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_243 = 25 } #日数:25日
+    #大和時代の埴輪
+    clear_array = global.AS_AN_database_id_244
+    add_to_array = { global.AS_AN_database_id_244 = token:AS_AN_Yamato_Period_Haniwa } #大和時代の埴輪
+    add_to_array = { global.AS_AN_database_id_244 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_244 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_244 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_244 = 60 } #日数:60日
+    #室町時代の硯
+    clear_array = global.AS_AN_database_id_245
+    add_to_array = { global.AS_AN_database_id_245 = token:AS_AN_Muromachi_Ink_Stone } #室町時代の硯
+    add_to_array = { global.AS_AN_database_id_245 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_245 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_245 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_245 = 170 } #日数:170日
+    #古墳時代の副葬品宝石
+    clear_array = global.AS_AN_database_id_246
+    add_to_array = { global.AS_AN_database_id_246 = token:AS_AN_Kofun_Burial_Jewels } #古墳時代の副葬品宝石
+    add_to_array = { global.AS_AN_database_id_246 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_246 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_246 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_246 = 30 } #日数:30日
+    #戦国時代の軍鼓
+    clear_array = global.AS_AN_database_id_247
+    add_to_array = { global.AS_AN_database_id_247 = token:AS_AN_Sengoku_War_Drum } #戦国時代の軍鼓
+    add_to_array = { global.AS_AN_database_id_247 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_247 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_247 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_247 = 280 } #日数:280日
+    #南北朝時代の御璽
+    clear_array = global.AS_AN_database_id_248
+    add_to_array = { global.AS_AN_database_id_248 = token:AS_AN_Nanbokucho_Imperial_Seal } #南北朝時代の御璽
+    add_to_array = { global.AS_AN_database_id_248 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_248 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_248 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_248 = 120 } #日数:120日
+    #古代の星図
+    clear_array = global.AS_AN_database_id_249
+    add_to_array = { global.AS_AN_database_id_249 = token:AS_AN_Ancient_Star_Chart } #古代の星図
+    add_to_array = { global.AS_AN_database_id_249 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_249 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_249 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_249 = 400 } #日数:400日
+    #未知の金属合金
+    clear_array = global.AS_AN_database_id_250
+    add_to_array = { global.AS_AN_database_id_250 = token:AS_AN_Unknown_Metal_Alloy } #未知の金属合金
+    add_to_array = { global.AS_AN_database_id_250 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_250 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_250 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_250 = 180 } #日数:180日
+    #忘れられた薬草
+    clear_array = global.AS_AN_database_id_251
+    add_to_array = { global.AS_AN_database_id_251 = token:AS_AN_Forgotten_Medicinal_Herbs } #忘れられた薬草
+    add_to_array = { global.AS_AN_database_id_251 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_251 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_251 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_251 = 280 } #日数:280日
+    #謎の水晶ドクロ
+    clear_array = global.AS_AN_database_id_252
+    add_to_array = { global.AS_AN_database_id_252 = token:AS_AN_Mysterious_Crystal_Skull } #謎の水晶ドクロ
+    add_to_array = { global.AS_AN_database_id_252 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_252 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_252 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_252 = 90 } #日数:90日
+    #古代の兵法書
+    clear_array = global.AS_AN_database_id_253
+    add_to_array = { global.AS_AN_database_id_253 = token:AS_AN_Ancient_War_Manual } #古代の兵法書
+    add_to_array = { global.AS_AN_database_id_253 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_253 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_253 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_253 = 550 } #日数:550日
+    #電磁気異常現象
+    clear_array = global.AS_AN_database_id_254
+    add_to_array = { global.AS_AN_database_id_254 = token:AS_AN_Electromagnetic_Anomaly } #電磁気異常現象
+    add_to_array = { global.AS_AN_database_id_254 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_254 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_254 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_254 = 150 } #日数:150日
+    #先史時代の洞窟壁画
+    clear_array = global.AS_AN_database_id_255
+    add_to_array = { global.AS_AN_database_id_255 = token:AS_AN_Prehistoric_Cave_Paintings } #先史時代の洞窟壁画
+    add_to_array = { global.AS_AN_database_id_255 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_255 = 9 } #タイプ:作品
+    add_to_array = { global.AS_AN_database_id_255 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_255 = 400 } #日数:400日
+    #説明不能な機械機器
+    clear_array = global.AS_AN_database_id_256
+    add_to_array = { global.AS_AN_database_id_256 = token:AS_AN_Unexplained_Mechanical_Device } #説明不能な機械機器
+    add_to_array = { global.AS_AN_database_id_256 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_256 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_256 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_256 = 60 } #日数:60日
+    #神聖な豊穣の像
+    clear_array = global.AS_AN_database_id_257
+    add_to_array = { global.AS_AN_database_id_257 = token:AS_AN_Sacred_Fertility_Statue } #神聖な豊穣の像
+    add_to_array = { global.AS_AN_database_id_257 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_257 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_257 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_257 = 300 } #日数:300日
+    #未確認生物標本
+    clear_array = global.AS_AN_database_id_258
+    add_to_array = { global.AS_AN_database_id_258 = token:AS_AN_Unidentified_Biological_Specimen } #未確認生物標本
+    add_to_array = { global.AS_AN_database_id_258 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_258 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_258 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_258 = 40 } #日数:40日
+    #太古の楽器
+    clear_array = global.AS_AN_database_id_259
+    add_to_array = { global.AS_AN_database_id_259 = token:AS_AN_Ancient_Musical_Instrument } #太古の楽器
+    add_to_array = { global.AS_AN_database_id_259 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_259 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_259 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_259 = 580 } #日数:580日
+    #失われた錬金術の処方箋
+    clear_array = global.AS_AN_database_id_260
+    add_to_array = { global.AS_AN_database_id_260 = token:AS_AN_Lost_Alchemical_Formula } #失われた錬金術の処方箋
+    add_to_array = { global.AS_AN_database_id_260 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_260 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_260 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_260 = 30 } #日数:30日
+    #異常気象パターン
+    clear_array = global.AS_AN_database_id_261
+    add_to_array = { global.AS_AN_database_id_261 = token:AS_AN_Anomalous_Weather_Pattern } #異常気象パターン
+    add_to_array = { global.AS_AN_database_id_261 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_261 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_261 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_261 = 320 } #日数:320日
+    #時間測定の遺物
+    clear_array = global.AS_AN_database_id_262
+    add_to_array = { global.AS_AN_database_id_262 = token:AS_AN_Timekeeping_Artifact } #時間測定の遺物
+    add_to_array = { global.AS_AN_database_id_262 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_262 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_262 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_262 = 200 } #日数:200日
+    #海底遺跡の地図
+    clear_array = global.AS_AN_database_id_263
+    add_to_array = { global.AS_AN_database_id_263 = token:AS_AN_Underwater_Ruins_Map } #海底遺跡の地図
+    add_to_array = { global.AS_AN_database_id_263 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_263 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_263 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_263 = 170 } #日数:170日
+    #遺伝子操作の古文書
+    clear_array = global.AS_AN_database_id_264
+    add_to_array = { global.AS_AN_database_id_264 = token:AS_AN_Genetic_Manipulation_Text } #遺伝子操作の古文書
+    add_to_array = { global.AS_AN_database_id_264 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_264 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_264 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_264 = 25 } #日数:25日
+    #神聖幾何学模様
+    clear_array = global.AS_AN_database_id_265
+    add_to_array = { global.AS_AN_database_id_265 = token:AS_AN_Sacred_Geometric_Patterns } #神聖幾何学模様
+    add_to_array = { global.AS_AN_database_id_265 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_265 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_265 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_265 = 450 } #日数:450日
+    #説明不能なエネルギー源
+    clear_array = global.AS_AN_database_id_266
+    add_to_array = { global.AS_AN_database_id_266 = token:AS_AN_Inexplicable_Energy_Source } #説明不能なエネルギー源
+    add_to_array = { global.AS_AN_database_id_266 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_266 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_266 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_266 = 100 } #日数:100日
+    #古代の航海道具
+    clear_array = global.AS_AN_database_id_267
+    add_to_array = { global.AS_AN_database_id_267 = token:AS_AN_Ancient_Navigation_Tool } #古代の航海道具
+    add_to_array = { global.AS_AN_database_id_267 = 3 } #カテゴリ:海軍
+    add_to_array = { global.AS_AN_database_id_267 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_267 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_267 = 600 } #日数:600日
+    #暗号化された知識の貯蔵庫
+    clear_array = global.AS_AN_database_id_268
+    add_to_array = { global.AS_AN_database_id_268 = token:AS_AN_Coded_Knowledge_Repository } #暗号化された知識の貯蔵庫
+    add_to_array = { global.AS_AN_database_id_268 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_268 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_268 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_268 = 160 } #日数:160日
+    #気象制御の遺物
+    clear_array = global.AS_AN_database_id_269
+    add_to_array = { global.AS_AN_database_id_269 = token:AS_AN_Weather_Control_Artifact } #気象制御の遺物
+    add_to_array = { global.AS_AN_database_id_269 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_269 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_269 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_269 = 350 } #日数:350日
+    #地下都市の設計図
+    clear_array = global.AS_AN_database_id_270
+    add_to_array = { global.AS_AN_database_id_270 = token:AS_AN_Subterranean_City_Plans } #地下都市の設計図
+    add_to_array = { global.AS_AN_database_id_270 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_270 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_270 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_270 = 420 } #日数:420日
+    #重力異常現象
+    clear_array = global.AS_AN_database_id_271
+    add_to_array = { global.AS_AN_database_id_271 = token:AS_AN_Gravitational_Anomaly } #重力異常現象
+    add_to_array = { global.AS_AN_database_id_271 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_271 = 2 } #タイプ:現象
+    add_to_array = { global.AS_AN_database_id_271 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_271 = 210 } #日数:210日
+    #精神作用クリスタル
+    clear_array = global.AS_AN_database_id_272
+    add_to_array = { global.AS_AN_database_id_272 = token:AS_AN_Mind_Affecting_Crystal } #精神作用クリスタル
+    add_to_array = { global.AS_AN_database_id_272 = 5 } #カテゴリ:信仰
+    add_to_array = { global.AS_AN_database_id_272 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_272 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_272 = 500 } #日数:500日
+    #古代の通信機器
+    clear_array = global.AS_AN_database_id_273
+    add_to_array = { global.AS_AN_database_id_273 = token:AS_AN_Ancient_Communication_Device } #古代の通信機器
+    add_to_array = { global.AS_AN_database_id_273 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_273 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_273 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_273 = 180 } #日数:180日
+    #自然発火サンプル
+    clear_array = global.AS_AN_database_id_274
+    add_to_array = { global.AS_AN_database_id_274 = token:AS_AN_Spontaneous_Combustion_Samples } #自然発火サンプル
+    add_to_array = { global.AS_AN_database_id_274 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_274 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_274 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_274 = 300 } #日数:300日
+    #精神強化の霊薬
+    clear_array = global.AS_AN_database_id_275
+    add_to_array = { global.AS_AN_database_id_275 = token:AS_AN_Mental_Enhancement_Elixir } #精神強化の霊薬
+    add_to_array = { global.AS_AN_database_id_275 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_275 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_275 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_275 = 380 } #日数:380日
+    #浮遊技術の遺物
+    clear_array = global.AS_AN_database_id_276
+    add_to_array = { global.AS_AN_database_id_276 = token:AS_AN_Levitation_Technology } #浮遊技術の遺物
+    add_to_array = { global.AS_AN_database_id_276 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_276 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_276 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_276 = 550 } #日数:550日
+    #念動力増幅機器
+    clear_array = global.AS_AN_database_id_277
+    add_to_array = { global.AS_AN_database_id_277 = token:AS_AN_Telekinetic_Amplifier } #念動力増幅機器
+    add_to_array = { global.AS_AN_database_id_277 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_277 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_277 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_277 = 290 } #日数:290日
+    #不老不死の処方
+    clear_array = global.AS_AN_database_id_278
+    add_to_array = { global.AS_AN_database_id_278 = token:AS_AN_Immortality_Treatment } #不老不死の処方
+    add_to_array = { global.AS_AN_database_id_278 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_278 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_278 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_278 = 430 } #日数:430日
+    #世界的大災害の証拠
+    clear_array = global.AS_AN_database_id_279
+    add_to_array = { global.AS_AN_database_id_279 = token:AS_AN_Global_Catastrophe_Evidence } #世界的大災害の証拠
+    add_to_array = { global.AS_AN_database_id_279 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_279 = 6 } #タイプ:記録
+    add_to_array = { global.AS_AN_database_id_279 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_279 = 600 } #日数:600日
+    #精神活性キノコ
+    clear_array = global.AS_AN_database_id_280
+    add_to_array = { global.AS_AN_database_id_280 = token:AS_AN_Psychoactive_Fungus } #精神活性キノコ
+    add_to_array = { global.AS_AN_database_id_280 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_280 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_280 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_280 = 120 } #日数:120日
+    #高度な手術道具
+    clear_array = global.AS_AN_database_id_281
+    add_to_array = { global.AS_AN_database_id_281 = token:AS_AN_Advanced_Surgical_Tools } #高度な手術道具
+    add_to_array = { global.AS_AN_database_id_281 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_281 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_281 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_281 = 190 } #日数:190日
+    #現実歪曲地帯
+    clear_array = global.AS_AN_database_id_282
+    add_to_array = { global.AS_AN_database_id_282 = token:AS_AN_Reality_Distortion_Zone } #現実歪曲地帯
+    add_to_array = { global.AS_AN_database_id_282 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_282 = 4 } #タイプ:構造物
+    add_to_array = { global.AS_AN_database_id_282 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_282 = 150 } #日数:150日
+    #記憶転送機器
+    clear_array = global.AS_AN_database_id_283
+    add_to_array = { global.AS_AN_database_id_283 = token:AS_AN_Memory_Transference_Device } #記憶転送機器
+    add_to_array = { global.AS_AN_database_id_283 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_283 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_283 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_283 = 480 } #日数:480日
+    #大気組成改変機器
+    clear_array = global.AS_AN_database_id_284
+    add_to_array = { global.AS_AN_database_id_284 = token:AS_AN_Atmospheric_Composition_Modifier } #大気組成改変機器
+    add_to_array = { global.AS_AN_database_id_284 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_284 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_284 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_284 = 520 } #日数:520日
+    #生物学的変成の公式
+    clear_array = global.AS_AN_database_id_285
+    add_to_array = { global.AS_AN_database_id_285 = token:AS_AN_Biological_Transmutation_Formula } #生物学的変成の公式
+    add_to_array = { global.AS_AN_database_id_285 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_285 = 3 } #タイプ:概念
+    add_to_array = { global.AS_AN_database_id_285 = 25 } #難易度:地獄
+    add_to_array = { global.AS_AN_database_id_285 = 330 } #日数:330日
+    #浮遊する文鎮
+    clear_array = global.AS_AN_database_id_286
+    add_to_array = { global.AS_AN_database_id_286 = token:AS_AN_Levitating_Paperweight } #浮遊する文鎮
+    add_to_array = { global.AS_AN_database_id_286 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_286 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_286 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_286 = 580 } #日数:580日
+    #削っても減らない鉛筆
+    clear_array = global.AS_AN_database_id_287
+    add_to_array = { global.AS_AN_database_id_287 = token:AS_AN_Never_Ending_Pencil } #削っても減らない鉛筆
+    add_to_array = { global.AS_AN_database_id_287 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_287 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_287 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_287 =  } #日数:日
+    #反響を吸収するティーカップ
+    clear_array = global.AS_AN_database_id_288
+    add_to_array = { global.AS_AN_database_id_288 = token:AS_AN_Echo_Absorbing_Tea_Cup } #反響を吸収するティーカップ
+    add_to_array = { global.AS_AN_database_id_288 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_288 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_288 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_288 =  } #日数:日
+    #色が変わる塩
+    clear_array = global.AS_AN_database_id_289
+    add_to_array = { global.AS_AN_database_id_289 = token:AS_AN_Color_Changing_Salt } #色が変わる塩
+    add_to_array = { global.AS_AN_database_id_289 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_289 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_289 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_289 =  } #日数:日
+    #切れない輪ゴム
+    clear_array = global.AS_AN_database_id_290
+    add_to_array = { global.AS_AN_database_id_290 = token:AS_AN_Unbreakable_Rubber_Band } #切れない輪ゴム
+    add_to_array = { global.AS_AN_database_id_290 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_290 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_290 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_290 =  } #日数:日
+    #無限のコーヒーマグ
+    clear_array = global.AS_AN_database_id_291
+    add_to_array = { global.AS_AN_database_id_291 = token:AS_AN_Infinite_Coffee_Mug } #無限のコーヒーマグ
+    add_to_array = { global.AS_AN_database_id_291 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_291 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_291 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_291 =  } #日数:日
+    #完全無音の石
+    clear_array = global.AS_AN_database_id_292
+    add_to_array = { global.AS_AN_database_id_292 = token:AS_AN_Perfect_Silence_Rock } #完全無音の石
+    add_to_array = { global.AS_AN_database_id_292 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_292 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_292 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_292 =  } #日数:日
+    #気分感知メガネ
+    clear_array = global.AS_AN_database_id_293
+    add_to_array = { global.AS_AN_database_id_293 = token:AS_AN_Mood_Reading_Glasses } #気分感知メガネ
+    add_to_array = { global.AS_AN_database_id_293 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_293 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_293 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_293 =  } #日数:日
+    #磁性を持つ木製キューブ
+    clear_array = global.AS_AN_database_id_294
+    add_to_array = { global.AS_AN_database_id_294 = token:AS_AN_Magnetic_Wood_Cube } #磁性を持つ木製キューブ
+    add_to_array = { global.AS_AN_database_id_294 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_294 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_294 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_294 =  } #日数:日
+    #自動整列するトランプ
+    clear_array = global.AS_AN_database_id_295
+    add_to_array = { global.AS_AN_database_id_295 = token:AS_AN_Self_Sorting_Deck } #自動整列するトランプ
+    add_to_array = { global.AS_AN_database_id_295 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_295 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_295 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_295 =  } #日数:日
+    #時間減速の砂時計
+    clear_array = global.AS_AN_database_id_296
+    add_to_array = { global.AS_AN_database_id_296 = token:AS_AN_Time_Slowing_Hourglass } #時間減速の砂時計
+    add_to_array = { global.AS_AN_database_id_296 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_296 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_296 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_296 =  } #日数:日
+    #記憶力増強のお茶
+    clear_array = global.AS_AN_database_id_297
+    add_to_array = { global.AS_AN_database_id_297 = token:AS_AN_Memory_Enhancing_Tea } #記憶力増強のお茶
+    add_to_array = { global.AS_AN_database_id_297 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_297 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_297 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_297 =  } #日数:日
+    #破れない石鹸の泡
+    clear_array = global.AS_AN_database_id_298
+    add_to_array = { global.AS_AN_database_id_298 = token:AS_AN_Indestructible_Soap_Bubble } #破れない石鹸の泡
+    add_to_array = { global.AS_AN_database_id_298 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_298 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_298 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_298 =  } #日数:日
+    #静電気を消す消しゴム
+    clear_array = global.AS_AN_database_id_299
+    add_to_array = { global.AS_AN_database_id_299 = token:AS_AN_Static_Electricity_Eraser } #静電気を消す消しゴム
+    add_to_array = { global.AS_AN_database_id_299 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_299 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_299 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_299 =  } #日数:日
+    #重さのないレンガ
+    clear_array = global.AS_AN_database_id_300
+    add_to_array = { global.AS_AN_database_id_300 = token:AS_AN_Weightless_Brick } #重さのないレンガ
+    add_to_array = { global.AS_AN_database_id_300 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_300 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_300 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_300 =  } #日数:日
+    #溶けない氷
+    clear_array = global.AS_AN_database_id_301
+    add_to_array = { global.AS_AN_database_id_301 = token:AS_AN_Never_Melting_Ice_Cube } #溶けない氷
+    add_to_array = { global.AS_AN_database_id_301 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_301 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_301 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_301 =  } #日数:日
+    #逆を指すコンパス
+    clear_array = global.AS_AN_database_id_302
+    add_to_array = { global.AS_AN_database_id_302 = token:AS_AN_Reverse_Compass } #逆を指すコンパス
+    add_to_array = { global.AS_AN_database_id_302 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_302 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_302 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_302 =  } #日数:日
+    #念話するメモ帳
+    clear_array = global.AS_AN_database_id_303
+    add_to_array = { global.AS_AN_database_id_303 = token:AS_AN_Telepathic_Notepad } #念話するメモ帳
+    add_to_array = { global.AS_AN_database_id_303 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_303 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_303 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_303 =  } #日数:日
+    #水を弾く紙
+    clear_array = global.AS_AN_database_id_304
+    add_to_array = { global.AS_AN_database_id_304 = token:AS_AN_Water_Repelling_Paper } #水を弾く紙
+    add_to_array = { global.AS_AN_database_id_304 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_304 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_304 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_304 =  } #日数:日
+    #光を曲げるコイン
+    clear_array = global.AS_AN_database_id_305
+    add_to_array = { global.AS_AN_database_id_305 = token:AS_AN_Light_Bending_Coin } #光を曲げるコイン
+    add_to_array = { global.AS_AN_database_id_305 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_305 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_305 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_305 =  } #日数:日
+    #思考を映す鏡
+    clear_array = global.AS_AN_database_id_306
+    add_to_array = { global.AS_AN_database_id_306 = token:AS_AN_Thought_Reflecting_Mirror } #思考を映す鏡
+    add_to_array = { global.AS_AN_database_id_306 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_306 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_306 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_306 =  } #日数:日
+    #永遠に燃えるマッチ
+    clear_array = global.AS_AN_database_id_307
+    add_to_array = { global.AS_AN_database_id_307 = token:AS_AN_Ever_Burning_Match } #永遠に燃えるマッチ
+    add_to_array = { global.AS_AN_database_id_307 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_307 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_307 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_307 =  } #日数:日
+    #瞬時に成長する種
+    clear_array = global.AS_AN_database_id_308
+    add_to_array = { global.AS_AN_database_id_308 = token:AS_AN_Instant_Growing_Seed } #瞬時に成長する種
+    add_to_array = { global.AS_AN_database_id_308 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_308 = 10 } #タイプ:有機物
+    add_to_array = { global.AS_AN_database_id_308 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_308 =  } #日数:日
+    #感情を吸い取るスポンジ
+    clear_array = global.AS_AN_database_id_309
+    add_to_array = { global.AS_AN_database_id_309 = token:AS_AN_Emotion_Absorbing_Sponge } #感情を吸い取るスポンジ
+    add_to_array = { global.AS_AN_database_id_309 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_309 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_309 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_309 =  } #日数:日
+    #自動翻訳するノート
+    clear_array = global.AS_AN_database_id_310
+    add_to_array = { global.AS_AN_database_id_310 = token:AS_AN_Self_Translating_Notebook } #自動翻訳するノート
+    add_to_array = { global.AS_AN_database_id_310 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_310 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_310 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_310 =  } #日数:日
+    #重力を無視する靴
+    clear_array = global.AS_AN_database_id_311
+    add_to_array = { global.AS_AN_database_id_311 = token:AS_AN_Gravity_Defying_Boots } #重力を無視する靴
+    add_to_array = { global.AS_AN_database_id_311 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_311 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_311 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_311 =  } #日数:日
+    #完璧なバランスのペン
+    clear_array = global.AS_AN_database_id_312
+    add_to_array = { global.AS_AN_database_id_312 = token:AS_AN_Perfect_Balance_Pen } #完璧なバランスのペン
+    add_to_array = { global.AS_AN_database_id_312 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_312 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_312 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_312 =  } #日数:日
+    #温度に適応する手袋
+    clear_array = global.AS_AN_database_id_313
+    add_to_array = { global.AS_AN_database_id_313 = token:AS_AN_Temperature_Adapting_Glove } #温度に適応する手袋
+    add_to_array = { global.AS_AN_database_id_313 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_313 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_313 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_313 =  } #日数:日
+    #音を可視化するチョーク
+    clear_array = global.AS_AN_database_id_314
+    add_to_array = { global.AS_AN_database_id_314 = token:AS_AN_Sound_Visualizing_Chalk } #音を可視化するチョーク
+    add_to_array = { global.AS_AN_database_id_314 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_314 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_314 = 85 } #難易度:朝飯前
+    add_to_array = { global.AS_AN_database_id_314 =  } #日数:日
+    #相転移を起こす指輪
+    clear_array = global.AS_AN_database_id_315
+    add_to_array = { global.AS_AN_database_id_315 = token:AS_AN_Phase_Shifting_Ring } #相転移を起こす指輪
+    add_to_array = { global.AS_AN_database_id_315 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_315 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_315 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_315 =  } #日数:日
+    #記憶を保存するロウソク
+    clear_array = global.AS_AN_database_id_316
+    add_to_array = { global.AS_AN_database_id_316 = token:AS_AN_Memory_Storing_Candle } #記憶を保存するロウソク
+    add_to_array = { global.AS_AN_database_id_316 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_316 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_316 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_316 =  } #日数:日
+    #運を変えるサイコロ
+    clear_array = global.AS_AN_database_id_317
+    add_to_array = { global.AS_AN_database_id_317 = token:AS_AN_Luck_Altering_Dice } #運を変えるサイコロ
+    add_to_array = { global.AS_AN_database_id_317 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_317 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_317 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_317 =  } #日数:日
+    #夢を記録する枕
+    clear_array = global.AS_AN_database_id_318
+    add_to_array = { global.AS_AN_database_id_318 = token:AS_AN_Dream_Recording_Pillow } #夢を記録する枕
+    add_to_array = { global.AS_AN_database_id_318 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_318 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_318 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_318 =  } #日数:日
+    #摩擦をゼロにする油
+    clear_array = global.AS_AN_database_id_319
+    add_to_array = { global.AS_AN_database_id_319 = token:AS_AN_Friction_Nullifying_Oil } #摩擦をゼロにする油
+    add_to_array = { global.AS_AN_database_id_319 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_319 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_319 = 80 } #難易度:簡単
+    add_to_array = { global.AS_AN_database_id_319 =  } #日数:日
+    #無音爆発の粉末
+    clear_array = global.AS_AN_database_id_320
+    add_to_array = { global.AS_AN_database_id_320 = token:AS_AN_Silent_Explosion_Powder } #無音爆発の粉末
+    add_to_array = { global.AS_AN_database_id_320 = 2 } #カテゴリ:陸軍
+    add_to_array = { global.AS_AN_database_id_320 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_320 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_320 =  } #日数:日
+    #傷を癒す粘土
+    clear_array = global.AS_AN_database_id_321
+    add_to_array = { global.AS_AN_database_id_321 = token:AS_AN_Wound_Healing_Clay } #傷を癒す粘土
+    add_to_array = { global.AS_AN_database_id_321 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_321 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_321 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_321 =  } #日数:日
+    #思考速度を高める帽子
+    clear_array = global.AS_AN_database_id_322
+    add_to_array = { global.AS_AN_database_id_322 = token:AS_AN_Thought_Speed_Enhancing_Hat } #思考速度を高める帽子
+    add_to_array = { global.AS_AN_database_id_322 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_322 = 8 } #タイプ:小物
+    add_to_array = { global.AS_AN_database_id_322 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_322 =  } #日数:日
+    #真実を見抜くインク
+    clear_array = global.AS_AN_database_id_323
+    add_to_array = { global.AS_AN_database_id_323 = token:AS_AN_Truth_Detecting_Ink } #真実を見抜くインク
+    add_to_array = { global.AS_AN_database_id_323 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_323 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_323 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_323 =  } #日数:日
+    #不可能な折り方の地図
+    clear_array = global.AS_AN_database_id_324
+    add_to_array = { global.AS_AN_database_id_324 = token:AS_AN_Impossible_Folding_Map } #不可能な折り方の地図
+    add_to_array = { global.AS_AN_database_id_324 = 1 } #カテゴリ:政治
+    add_to_array = { global.AS_AN_database_id_324 = 5 } #タイプ:文書
+    add_to_array = { global.AS_AN_database_id_324 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_324 =  } #日数:日
+    #植物と会話する機器
+    clear_array = global.AS_AN_database_id_325
+    add_to_array = { global.AS_AN_database_id_325 = token:AS_AN_Plant_Communication_Device } #植物と会話する機器
+    add_to_array = { global.AS_AN_database_id_325 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_325 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_325 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_325 =  } #日数:日
+    #瞬間凍結する塩
+    clear_array = global.AS_AN_database_id_326
+    add_to_array = { global.AS_AN_database_id_326 = token:AS_AN_Instant_Freezing_Salt } #瞬間凍結する塩
+    add_to_array = { global.AS_AN_database_id_326 = 7 } #カテゴリ:経済
+    add_to_array = { global.AS_AN_database_id_326 = 11 } #タイプ:無機物
+    add_to_array = { global.AS_AN_database_id_326 = 60 } #難易度:日常的
+    add_to_array = { global.AS_AN_database_id_326 =  } #日数:日
+    #影を固体化するランプ
+    clear_array = global.AS_AN_database_id_327
+    add_to_array = { global.AS_AN_database_id_327 = token:AS_AN_Shadow_Solidifying_Lamp } #影を固体化するランプ
+    add_to_array = { global.AS_AN_database_id_327 = 6 } #カテゴリ:文明
+    add_to_array = { global.AS_AN_database_id_327 = 7 } #タイプ:機器
+    add_to_array = { global.AS_AN_database_id_327 = 40 } #難易度:困難
+    add_to_array = { global.AS_AN_database_id_327 =  } #日数:日"
+}
+
+#アノマリーの効果
+#破棄
+#失敗
+#成功
