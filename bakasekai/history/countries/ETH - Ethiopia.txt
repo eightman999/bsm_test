@@ -85,15 +85,7 @@ recruit_character = ETH_makonnen_endelkatchew
 recruit_character = ETH_haile_selassie_gugsa
 recruit_character = ETH_alemework_beyene
 set_convoys = 5
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
-	declare_war_on = {
-		target = PAL
-		type = annex_everything
-	}
-}
+
 
 set_global_flag = second_italo_ethiopian_war_flag
 1936.05.05 = {
