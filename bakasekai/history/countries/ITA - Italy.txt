@@ -383,7 +383,7 @@ add_dynamic_modifier = {
 	modifier = ITA_ricostruzione_industriale_dynamic_modifier
 }
 
-#MILITARY INDUSTRY
+#MILITARY INDUSTRIA
 set_variable = {
 	ITA_military_industry_dm_production_factory_start_efficiency_factor = -0.05
 }
@@ -1171,10 +1171,6 @@ ITA_carlo_favagrossa = {
 }
 
 ITA_giacomo_acerbo = {
-	set_character_flag = ITA_character_can_be_purged
-}
-
-ITA_guido_jung = {
 	set_character_flag = ITA_character_can_be_purged
 }
 

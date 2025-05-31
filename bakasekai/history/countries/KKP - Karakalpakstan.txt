@@ -18,5 +18,3 @@ set_popularities = {
 	communism_ideology = 30
 	neutrality_ideology = 0
 }
-
-recruit_character = KKP_islam_sadyk

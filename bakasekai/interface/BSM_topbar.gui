@@ -67,24 +67,15 @@ guiTypes = {
 			position = { x= 780 y = 8}
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
-			background = {
-				position = {
-					x = 2
-					y = 1
-				}
-				name = "cd_bg"
-				# quadTextureSprite ="GFX_bg_mini_tooltip"
-				# pdx_tooltip = "CULTURAL_DEGREES_title"
-				# pdx_tooltip_delayed = "CULTURAL_DEGREES_desc_test_2"
-			}
+
 			iconType = {
 				name ="cd"
 				spriteType = "GFX_resource_influence"
 				position = { x= 4 y = 2 }
 				Orientation = "UPPER_LEFT"
 				# alwaystransparent = yes
-				# pdx_tooltip = "CULTURAL_DEGREES_title"
-				# pdx_tooltip_delayed = "CULTURAL_DEGREES_desc_test_2"
+				pdx_tooltip = "CULTURAL_DEGREES_desc"
+				pdx_tooltip_delayed = ""
 
 			}
 			instantTextBoxType = {
@@ -97,8 +88,8 @@ guiTypes = {
 				maxHeight = 24
 				fixedsize = yes
 				# alwaystransparent = yes
-				pdx_tooltip = "CULTURAL_DEGREES_desc_test_2"
-				# pdx_tooltip_delayed = "CULTURAL_DEGREES_desc_test_2"
+				pdx_tooltip = "CULTURAL_DEGREES_desc"
+				pdx_tooltip_delayed = ""
 			}
 		}
 		containerWindowType = {
@@ -113,8 +104,8 @@ guiTypes = {
 				}
 				name = "cd_bg"
 				quadTextureSprite ="GFX_bg_mini_tooltip"
-				pdx_tooltip = "Unified_Currency_title"
-				pdx_tooltip_delayed = "Unified_Currency_desc"
+				pdx_tooltip = "Unified_Currency_title_txt"
+				pdx_tooltip_delayed = "Unified_Currency_desc_2"
 			}
 			iconType = {
 				name ="ec"
@@ -122,8 +113,8 @@ guiTypes = {
 				position = { x= -2 y = -4 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-				pdx_tooltip = "Unified_Currency_title"
-				pdx_tooltip_delayed = "Unified_Currency_desc"
+				pdx_tooltip = "Unified_Currency_title_txt"
+				pdx_tooltip_delayed = "Unified_Currency_desc_2"
 				scale = 0.8
 			}
 			instantTextBoxType = {
@@ -136,8 +127,8 @@ guiTypes = {
 				maxHeight = 24
 				fixedsize = yes
 				alwaystransparent = yes
-				pdx_tooltip = "Unified_Currency_title"
-				pdx_tooltip_delayed = "Unified_Currency_desc"
+				pdx_tooltip = "Unified_Currency_title_txt"
+				pdx_tooltip_delayed = "Unified_Currency_desc_2"
 			}
 		}
 		containerWindowType = {
