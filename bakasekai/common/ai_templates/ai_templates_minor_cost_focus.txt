@@ -52,7 +52,7 @@ garrison_generic = {
 			factor = 1
 		}
 		target_template = {
-			support = { }
+			
 			regiments = {
 				infantry = 4
 			}
@@ -74,7 +74,7 @@ suppression_generic = {
 			factor = 1
 		}
 		target_template = {
-			support = { }
+			
 			regiments = {
 				cavalry = 4
 			}
@@ -96,7 +96,7 @@ mountaineers_generic = {
 		target_template = {
 			support = { engineer = 1 }
 			regiments = {
-				mountaineers = 6
+				mountaineers = 3
 			}
 		}
 	}
@@ -114,9 +114,9 @@ marines_generic = {
 			factor = 1
 		}
 		target_template = {
-			support = { }
+			
 			regiments = {
-				marine = 6
+				marine = 3
 			}
 		}
 	}
@@ -134,9 +134,9 @@ paratrooper_generic = {
 			factor = 1
 		}
 		target_template = {
-			support = { }
+			
 			regiments = {
-				paratrooper = 6
+				paratrooper = 3
 			}
 		}
 	}

@@ -5,6 +5,7 @@ news_event = {
 	desc = HRH.1.d
 	picture = GFX_news_event_004
 	major = yes
+	is_triggered_only = yes
 	option = {
 		name = HRH.1.a
 		trigger = {
