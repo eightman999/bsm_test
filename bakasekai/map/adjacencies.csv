@@ -2,9 +2,6 @@
 7869;10707;sea;14217;-1;-1;-1;-1;;Hokubei
 14725;5239;sea;14621;-1;-1;-1;-1;;Hokubei2
 8030;7982;sea;2919;-1;-1;-1;-1;HORMUZ_STRAIT;HORMUZ_STRAIT
-11946;4179;sea;14370;-1;-1;-1;-1;;syanhi-honsyu2
-7072;14585;sea;1232;-1;-1;-1;-1;;syanhi-honsyu3-2
-4027;7046;sea;2264;-1;-1;-1;-1;;syanhi-honsyu4
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
@@ -69,7 +66,6 @@
 1742;7868;sea;2510;-1;-1;-1;-1;;Sakhalin-Siberia
 12661;7884;sea;8538;-1;-1;-1;-1;;Kodiak-Alaska
 11985;15033;sea;14354;-1;-1;-1;-1;;Japan-Kyushu
-4094;11946;sea;15034;-1;-1;-1;-1;;Shikoku-Chugoku
 9952;1117;sea;808;-1;-1;-1;-1;;Niigata-Sado
 15030;7046;sea;2264;-1;-1;-1;-1;;Kyushu-Shikoku
 3995;13024;sea;2855;-1;-1;-1;-1;;Saipan-Tinian
@@ -305,9 +301,7 @@
 13625;219;impassable;-1;-1;-1;-1;-1;;Sléibhte Pennine
 14473;14472;sea;9053;-1;-1;-1;-1;;oosima
 11930;14579;sea;5898;-1;-1;-1;-1;;awasima
-13037;1512;sea;6240;-1;-1;-1;-1;;Chima
 14570;1512;sea;6439;-1;-1;-1;-1;;Chima
-14570;14569;sea;7929;-1;-1;-1;-1;;Chima
 14567;14571;sea;6240;-1;-1;-1;-1;;Chima
 14573;14575;sea;5461;-1;-1;-1;-1;;Chima
 14576;14575;sea;5486;-1;-1;-1;-1;;Chima
@@ -346,7 +340,7 @@
 13569;13585;sea;14633;-1;-1;-1;-1;Matochkin_Strait;
 10201;7265;sea;7479;-1;-1;-1;-1;Pok_Strait;
 13037;1512;sea;6240;-1;-1;-1;-1;NEMRO_Channel;Chima
-14570;1512;sea;6439;-1;-1;-1;-1;Goyo_Channel;Chima
+1512;14570;sea;6439;-1;-1;-1;-1;Goyo_Channel;Chima
 14570;14569;sea;7929;-1;-1;-1;-1;;Chima
 14567;14571;sea;6240;-1;-1;-1;-1;ETOROF_Channel;Chima
 11946;4179;sea;14370;-1;-1;-1;-1;Kurushima_Strait;syanhi-honsyu2

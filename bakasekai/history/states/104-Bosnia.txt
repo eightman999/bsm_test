@@ -13,6 +13,7 @@ state={
 
 	history={
 		owner = MYS
+		add_core_of = HLW
 		victory_points = {
 			11899 5 
 		}
