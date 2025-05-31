@@ -379,10 +379,6 @@ set_variable = {
 	ITA_iri_production_speed_dockyard_factor = 0
 }
 
-add_dynamic_modifier = {
-	modifier = ITA_ricostruzione_industriale_dynamic_modifier
-}
-
 #MILITARY INDUSTRIA
 set_variable = {
 	ITA_military_industry_dm_production_factory_start_efficiency_factor = -0.05
@@ -420,11 +416,6 @@ set_variable = {
 	ITA_military_industry_air_equipment_upgrade_xp_cost = 0
 }
 
-add_dynamic_modifier = {
-	modifier = ITA_military_industry_dynamic_modifier
-}
-
-add_ideas = ITA_hidden_research_penalties_ns#TODO_Manu: Hidden NS to apply research penalties as part of the Military Industry Dynamic Modifier. Delete when code support is in
 #REGIO ESERCITO
 #set_variable = { ITA_re_army_experience_loss_factor = -0.1 }
 set_variable = {
@@ -576,10 +567,6 @@ set_variable = {
 	ITA_re_heat_attrition_factor = 0
 }
 
-add_dynamic_modifier = {
-	modifier = ITA_regio_esercito_dynamic_modifier
-}
-
 #REGIA AERONAUTICA
 set_variable = {
 	ITA_ra_air_ace_generation_chance_factor = 0.1
@@ -635,10 +622,6 @@ set_variable = {
 
 set_variable = {
 	ITA_ra_air_intercept_efficiency = 0
-}
-
-add_dynamic_modifier = {
-	modifier = ITA_regia_aeronautica_dynamic_modifier
 }
 
 #REGIA MARINA
@@ -728,10 +711,6 @@ set_variable = {
 
 set_variable = {
 	ITA_rm_naval_invasion_prep_speed = 0
-}
-
-add_dynamic_modifier = {
-	modifier = ITA_regia_marina_dynamic_modifier
 }
 
 #INTERNATIONAL AID (Commie)

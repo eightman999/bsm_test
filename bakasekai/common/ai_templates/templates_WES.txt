@@ -21,8 +21,6 @@ armored_sand_WES = {
 			}
 		}
 		target_template = {
-			priority = 0.5
-			value = 1000
 			support = {
 				engineer = 1
 				light_tank_recon = 1
@@ -35,19 +33,7 @@ armored_sand_WES = {
 				artillery_brigade = 9
 				anti_air_brigade = 1
 				sand = 20
-			}
-		}
-		allowed_units = {
-			heavy_armor
-			sand
-			artillery_brigade
-			engineer
-			mot_recon
-			light_tank_recon
-			signal_company
-			logistics_company
-			field_hospital
-		}
+			}		}
 		replace_at_match = 0.4
 		target_min_match = 0.5
 	}
@@ -72,16 +58,10 @@ infantry_sand_WES = {
 				factor = 10000
 				has_tech = sand
 			}
-		}
-		target_template = {
-			priority = 0.9
-			value = 3000
+		}		target_template = {
 			regiments = {
 				sand = 20
 			}
-		}
-		allowed_units = {
-			infantry
 		}
 	}
 }

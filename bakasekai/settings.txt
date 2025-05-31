@@ -1,8 +1,20 @@
 force_pow2_textures=no
 language="l_japanese"
 graphics={
-	size={ x=1440 y=900 }
-	min_gui={ x=1280 y=720 }
+	size = {
+		remove_effect = {
+			log = "[GetDate]: [Root.GetName]: decision size"
+		}
+		remove_effect = {
+			log = "[GetDate]: [Root.GetName]: decision size"
+		} x=1440 y=900 }
+	min_gui = {
+		remove_effect = {
+			log = "[GetDate]: [Root.GetName]: decision min_gui"
+		}
+		remove_effect = {
+			log = "[GetDate]: [Root.GetName]: decision min_gui"
+		} x=1280 y=720 }
 	gui_scale=1.000000
 	refreshRate=60
 	max_refresh_rate=75

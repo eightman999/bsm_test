@@ -2064,7 +2064,7 @@ SWI_allow_hiring_councilor_again = {
 # 		}
 # 		# SWI = {
 # 		# 	unlock_decision_tooltip = {
-# 		# 		decision = SWI_militarization_drive
+# 		 	 		# 		decision = SWI_militarization_drive
 # 		# 		show_effect_tooltip = yes
 # 		# 		show_modifiers = yes
 # 		# 	}

@@ -287,7 +287,20 @@ on_actions = {
 	}
 	on_declare_war = {
 		effect = {
+			if ={
+				limit ={
+					OR={
+						FROM = {
+							original_tag = CHN
+						}
+						ROOT = {
+							original_tag = CHN
+						}
+					}
+				}
+			}
 			CHN = {
+				set_global_flag = CHN_civil_war
 				if = {
 					limit = {
 						has_game_rule = {

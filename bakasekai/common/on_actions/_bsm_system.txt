@@ -417,8 +417,10 @@ on_actions = {
         ucs_on_dairy_effects = yes
     }
     on_declare_war = {
+        #戦時補正
         if = {
             limit = {
+                has_war = yes
                 NOT = {
                     has_idea = war_effort_1
                 }

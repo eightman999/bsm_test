@@ -1,0 +1,263 @@
+CHN_civil_war_strategy = {
+	# 内戦時のAI戦略
+	enable = {
+		has_global_flag = CHN_civil_war
+	}
+	abort = {
+		always = no
+	}
+
+	# 歩兵・騎兵重視
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 10
+	}
+	# 山岳兵多め、海兵少なめ
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 1
+	}
+	# 強襲上陸積極
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 200
+	}
+	# 駆逐艦・輸送艦・潜水艦重視
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = convoy
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_sub
+		value = 100
+	}
+	# 戦時中は機雷敷設（条件は上位で制御できないため、常時指定）
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 100
+	}
+	# asiaエリアに戦力集中
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 200
+	}
+	# スパイ国家志向
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 20
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_intelligence
+		value = 2000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_defense
+		value = 2000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operation
+		value = 1000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operative
+		value = 500
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_crypto
+		value = 3000
+	}
+	# 既存の敵視・同盟・支援拒否などはそのまま維持
+	ai_strategy = {
+		type = antagonize
+		id = CHN
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = PRC
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = GXC
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = YUN
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = SHX
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = XSM
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = SIK
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = MEN
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = MAN
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = CHK
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		value = -200
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		value = -200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		value = -200
+	}
+	ai_strategy = {
+		type = support
+		value = -200
+	}
+	ai_strategy = {
+		type = alliance
+		id = MME
+		value = 200
+	}
+}
+
+CHN_war_strategy = {
+	# 戦時のAI戦略
+	enable = {
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	# 歩兵・騎兵重視
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 10
+	}
+	# 山岳兵多め、海兵少なめ
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 1
+	}
+	# 強襲上陸積極
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 200
+	}
+	# 駆逐艦・輸送艦・潜水艦重視
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = convoy
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_sub
+		value = 100
+	}
+	# 戦時中は機雷敷設（条件は上位で制御できないため、常時指定）
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer
+		value = 100
+	}
+	# asiaエリアに戦力集中
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 200
+	}
+	# スパイ国家志向
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 20
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_intelligence
+		value = 2000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_defense
+		value = 2000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operation
+		value = 1000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operative
+		value = 500
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_crypto
+		value = 3000
+	}
+}
