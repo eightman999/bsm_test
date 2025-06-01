@@ -1,13 +1,16 @@
 CHN_civil_war_strategy = {
 	# 内戦時のAI戦略
 	enable = {
-		has_global_flag = CHN_civil_war
+		# 自分以外の国家がCHINA_COUNTRYフラグを持っている場合に有効化
+		any_other_country = { 
+			has_country_flag = CHINA_COUNTRY 
+		}
 	}
 	abort = {
 		always = no
 	}
 
-	# 歩兵・騎兵重視
+	# 歩兵・騎兵重視 (変更なし)
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
@@ -18,7 +21,7 @@ CHN_civil_war_strategy = {
 		id = cavalry
 		value = 10
 	}
-	# 山岳兵多め、海兵少なめ
+	# 山岳兵多め、海兵少なめ (変更なし)
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
@@ -29,12 +32,12 @@ CHN_civil_war_strategy = {
 		id = marines
 		value = 1
 	}
-	# 強襲上陸積極
+	# 強襲上陸積極 (変更なし)
 	ai_strategy = {
 		type = naval_invasion_focus
 		value = 200
 	}
-	# 駆逐艦・輸送艦・潜水艦重視
+	# 駆逐艦・輸送艦・潜水艦重視 (変更なし)
 	ai_strategy = {
 		type = role_ratio
 		id = naval_screen
@@ -50,32 +53,32 @@ CHN_civil_war_strategy = {
 		id = naval_sub
 		value = 100
 	}
-	# 戦時中は機雷敷設（条件は上位で制御できないため、常時指定）
+	# 戦時中は機雷敷設（条件は上位で制御できないため、常時指定） (変更なし)
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_layer
 		value = 100
 	}
-	# asiaエリアに戦力集中
+	# asiaエリアに戦力集中 (変更なし)
 	ai_strategy = {
 		type = area_priority
 		id = asia
 		value = 200
 	}
-	# スパイ国家志向
+	# スパイ国家志向 (強化)
 	ai_strategy = {
 		type = intelligence_agency_usable_factories
-		value = 20
+		value = 50 # 20 -> 50 に強化 [cite: 2, 657]
 	}
 	ai_strategy = {
 		type = intelligence_agency_branch_desire_factor
 		id = branch_intelligence
-		value = 2000
+		value = 5000 # 2000 -> 5000 に強化 [cite: 2, 657]
 	}
 	ai_strategy = {
 		type = intelligence_agency_branch_desire_factor
 		id = branch_defense
-		value = 2000
+		value = 5000 # 2000 -> 5000 に強化 [cite: 2, 657]
 	}
 	ai_strategy = {
 		type = intelligence_agency_branch_desire_factor
@@ -90,74 +93,74 @@ CHN_civil_war_strategy = {
 	ai_strategy = {
 		type = intelligence_agency_branch_desire_factor
 		id = branch_crypto
-		value = 3000
+		value = 6000 # 3000 -> 6000 に強化 [cite: 2, 657]
 	}
-	# 既存の敵視・同盟・支援拒否などはそのまま維持
+	# 既存の敵視・同盟・支援拒否などはそのまま維持 (敵視は強化、同盟・支援拒否は大幅強化)
 	ai_strategy = {
 		type = antagonize
 		id = CHN
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = PRC
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = GXC
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = YUN
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = SHX
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = XSM
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = SIK
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = MEN
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = MAN
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = antagonize
 		id = CHK
-		value = 200
+		value = 500 # 200 -> 500 に強化 [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = alliance
-		value = -200
+		value = -1000 # -200 -> -1000 に大幅強化 (同盟拒否) [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = send_lend_lease_desire
-		value = -200
+		value = -1000 # -200 -> -1000 に大幅強化 (レンドリース拒否) [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
-		value = -200
+		value = -1000 # -200 -> -1000 に大幅強化 (義勇軍拒否) [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = support
-		value = -200
+		value = -1000 # -200 -> -1000 に大幅強化 (支援拒否) [cite: 3, 654]
 	}
 	ai_strategy = {
 		type = alliance
@@ -167,7 +170,7 @@ CHN_civil_war_strategy = {
 }
 
 CHN_war_strategy = {
-	# 戦時のAI戦略
+	# 戦時のAI戦略 (変更なし)
 	enable = {
 		always = yes
 	}
@@ -220,8 +223,7 @@ CHN_war_strategy = {
 	}
 	# 戦時中は機雷敷設（条件は上位で制御できないため、常時指定）
 	ai_strategy = {
-		type = role_ratio
-		id = naval_mine_layer
+		type = naval_mine_layer
 		value = 100
 	}
 	# asiaエリアに戦力集中

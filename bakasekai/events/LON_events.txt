@@ -1,0 +1,228 @@
+add_namespace = LON.leader_change
+
+news_event = {
+    id = LON.leader_change.1
+    title = LON.leader_change.1.t
+    desc = LON.leader_change.1.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        # 現在のリーダーを退任させ、次のリーダーを任命
+        # LON_GBは既存のキャラクターで、この例ではHarry Twyfordが初期リーダー
+        set_country_leader_ideology = neutrality_democracy #現在のリーダーのイデオロギーを設定（念のため）
+        retire_country_leader = yes # 現在のリーダーを退任させる
+        add_country_leader_role = { # 次のリーダーを任命
+            character = LON_frank_bowater
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.2
+    title = LON.leader_change.2.t
+    desc = LON.leader_change.2.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_william_coxen
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.3
+    title = LON.leader_change.3.t
+    desc = LON.leader_change.3.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_george_wilkinson
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.4
+    title = LON.leader_change.4.t
+    desc = LON.leader_change.4.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_john_laurie
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.5
+    title = LON.leader_change.5.t
+    desc = LON.leader_change.5.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_samuel_joseph
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.6
+    title = LON.leader_change.6.t
+    desc = LON.leader_change.6.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_frank_newson_smith
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.7
+    title = LON.leader_change.7.t
+    desc = LON.leader_change.7.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_frank_alexander
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.8
+    title = LON.leader_change.8.t
+    desc = LON.leader_change.8.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_charles_davis
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
+
+news_event = {
+    id = LON.leader_change.9
+    title = LON.leader_change.9.t
+    desc = LON.leader_change.9.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    immediate = {
+        set_country_leader_ideology = neutrality_democracy
+        retire_country_leader = yes
+        add_country_leader_role = {
+            character = LON_bracewell_smith
+            promote_leader = yes
+            country_leader = {
+                ideology = neutrality_democracy
+            }
+        }
+    }
+    
+    option = {
+        name = EVT_OK
+    }
+}
