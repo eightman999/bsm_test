@@ -1,0 +1,103 @@
+LON_respond_battle_crisis_category = {
+	icon = GFX_decision_category_generic_crisis
+	picture = GFX_decision_cat_picture_crisis
+
+	LON_respond_to_bank_crisis_1 = {
+		icon = GFX_decision_empty # 空のアイコン
+		cost = 50
+		available = {
+			has_idea = LON_economic_downturn
+			check_variable = { ROOT.political_power > 50 }
+		}
+		complete_effect = {
+			add_political_power = -50
+			add_stability = 0.05
+			add_war_support = 0.03
+			remove_ideas = LON_economic_downturn
+			add_ideas = LON_economic_recovery_effort # 回復努力アイデア
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	LON_respond_to_bank_crisis_2 = {
+		icon = GFX_decision_empty # 空のアイコン
+		cost = 75
+		available = {
+			has_idea = LON_economic_downturn
+			check_variable = { ROOT.political_power > 75 }
+		}
+		prerequisite = { decision = LON_respond_to_bank_crisis_1 }
+		complete_effect = {
+			add_political_power = -75
+			add_stability = 0.10
+			add_war_support = 0.05
+			add_civilian_factories = 1 # 民需工場を1つ追加（経済刺激策）
+			remove_ideas = LON_economic_recovery_effort
+			add_ideas = LON_strong_economic_measures # 強力な経済対策アイデア
+			# 経済危機が収束に向かうにつれて通貨収入補正を元に戻す
+			set_variable = { LON_currency_crisis_factor = 0 } 
+		}
+		ai_will_do = {
+			factor = 8
+		}
+	}
+}
+
+LON_infrastructure_category = {
+	icon = GFX_decision_category_generic_industry
+	
+	LON_repair_london_bridge_minor = {
+		icon = GFX_decision_empty
+		cost = 25
+		available = {
+			check_variable = { LON_london_bridge_condition > 0 }
+			check_variable = { LON_london_bridge_condition <= 50 } # 損耗度が50以下
+		}
+		complete_effect = {
+			set_temp_variable = { repair_amount = 20 }
+			subtract_from_variable = { LON_london_bridge_condition = temp_repair_amount }
+			clamp_variable = { var = LON_london_bridge_condition min = 0 }
+			add_political_power = -25
+			add_stability = 0.02
+			clr_country_flag = LON_bridge_critical_warning_sent # 警告フラグをクリア
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 1.5
+				check_variable = { LON_london_bridge_condition > 20 }
+			}
+		}
+	}
+
+	LON_repair_london_bridge_major = {
+		icon = GFX_decision_empty
+		cost = 50
+		available = {
+			check_variable = { LON_london_bridge_condition > 50 } # 損耗度が50より大きい
+		}
+		complete_effect = {
+			set_temp_variable = { repair_amount = 50 }
+			subtract_from_variable = { LON_london_bridge_condition = temp_repair_amount }
+			clamp_variable = { var = LON_london_bridge_condition min = 0 }
+			add_political_power = -50
+			add_stability = 0.05
+			add_war_support = 0.02
+			add_civilian_factories = -1 # 大規模修理で一時的に工場を使用
+			clr_country_flag = LON_bridge_critical_warning_sent # 警告フラグをクリア
+		}
+		remove_effect = {
+			add_civilian_factories = 1 # 工場を返還
+		}
+		days_remove = 90 # 90日間工事
+		ai_will_do = {
+			factor = 8
+			modifier = {
+				factor = 2
+				check_variable = { LON_london_bridge_condition > 70 }
+			}
+		}
+	}
+}

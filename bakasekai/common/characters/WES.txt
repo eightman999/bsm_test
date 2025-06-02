@@ -15,7 +15,8 @@ characters={
         }
         advisor = {
             slot = political_advisor
-            idea_token = WES_sands
+            idea_token = WES_advisor_token
+            ledger = civilian
             allowed = {
                 original_tag = WES
             }
@@ -98,7 +99,7 @@ characters={
         name=WES_anarchy
         portraits={
             civilian={
-                            civilian={
+
                 large="gfx/leaders/WES/Anarchy.dds"
             }
         }
@@ -111,7 +112,7 @@ characters={
     }
 
     WES_Bokkassa = {
-        name=WES_Bokkassa
+        name = "Bokkassa"
         portraits={
             civilian={
                 large="gfx/leaders/WES/bokassa_army.png"

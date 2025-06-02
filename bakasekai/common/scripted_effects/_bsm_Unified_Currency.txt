@@ -87,7 +87,7 @@ ucs_on_monthly = {
 ucs_on_dairy_effects = {
 	FROM = {
 		set_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_war_factor }
-		add_to_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_dairy_effect }#補正
+		add_to_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_daily_effect }#補正
 		add_to_temp_variable = { uc_StateLoss_effect = stability } #安定度
 		add_to_temp_variable = { uc_StateLoss_effect = Cultural_Degree } #文明度
 		add_to_temp_variable = { uc_StateLoss_effect = war_support } #戦争支持

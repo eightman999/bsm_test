@@ -20,4 +20,5 @@ set_popularities = {
 }
 
 recruit_character = BYA_seymon_ignatyev
-recruit_character = BYA_bidia_dandaron
+# recruit_character = { # 未定義キャラクターのため一時的にコメントアウト
+# recruit_character = BYA_bidia_dandaron

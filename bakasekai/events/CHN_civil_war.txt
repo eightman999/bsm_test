@@ -16,6 +16,7 @@ country_event = {
 				add_core_of = SHI
 			}
 			THR = {
+
 				add_political_power = 100
 				set_state_controller = 618
 				set_state_controller = 617
@@ -23,17 +24,24 @@ country_event = {
 				set_state_owner = 618
 				set_state_owner = 617
 				set_state_owner = 760
+								set_variable = { name = POP_Division_count value = 4 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
 				}
-				declare_war_on = {
-					target = SHI
-					type = puppet_wargoal_focus
-				}
-				declare_war_on = {
-					target = KOK
-					type = puppet_wargoal_focus
+				if = {
+					limit = {
+						country_exists = SHI
+						NOT = { has_war_with = SHI }
+					}
+					declare_war_on = {
+						target = SHI
+						type = annex_everything
+					}
 				}
 			}
 			KOK = {
@@ -46,6 +54,11 @@ country_event = {
 				set_state_owner = 619
 				set_state_owner = 287
 				set_state_owner = 759
+				set_variable = { name = POP_Division_count value = 5 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				country_event = {
 					id = CHN_civil_war.2
 					days = 7
@@ -54,9 +67,15 @@ country_event = {
 					target = CHN
 					type = puppet_wargoal_focus
 				}
-				declare_war_on = {
-					target = SHI
-					type = puppet_wargoal_focus
+				if = {
+					limit = {
+						country_exists = SHI
+						NOT = { has_war_with = SHI }
+					}
+					declare_war_on = {
+						target = SHI
+						type = annex_everything
+					}
 				}
 			}
 			SHI = {
@@ -67,9 +86,24 @@ country_event = {
 				set_state_owner = 758
 				set_state_owner = 757
 				set_state_owner = 322
+												set_variable = { name = POP_Division_count value = 4 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
+				}
+				if = {
+					limit = {
+						country_exists = SHI
+						NOT = { has_war_with = SHI }
+					}
+					declare_war_on = {
+						target = SHI
+						type = annex_everything
+					}
 				}
 			}
 		}
@@ -91,6 +125,11 @@ country_event = {
 				set_state_owner = 618
 				set_state_owner = 617
 				set_state_owner = 760
+												set_variable = { name = POP_Division_count value = 4 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 			}
 			KOK = {
 				add_political_power = 100
@@ -102,6 +141,11 @@ country_event = {
 				set_state_owner = 619
 				set_state_owner = 287
 				set_state_owner = 759
+												set_variable = { name = POP_Division_count value = 5 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				country_event = {
 					id = CHN_civil_war.2
 					days = 7
@@ -115,6 +159,11 @@ country_event = {
 				set_state_owner = 758
 				set_state_owner = 757
 				set_state_owner = 322
+												set_variable = { name = POP_Division_count value = 3 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 			}
 		}
 	}
@@ -140,6 +189,11 @@ country_event = {
 			JYO = {
 				set_state_controller = 755
 				set_state_owner = 755
+												set_variable = { name = POP_Division_count value = 2 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -168,6 +222,11 @@ country_event = {
 			CHK = {
 				set_state_controller = 619
 				set_state_owner = 619
+												set_variable = { name = POP_Division_count value = 5 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -188,6 +247,11 @@ country_event = {
 			SHT = {
 				set_state_controller = 287
 				set_state_owner = 287
+												set_variable = { name = POP_Division_count value = 2 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -229,17 +293,37 @@ country_event = {
 			JYO = {
 				set_state_controller = 755
 				set_state_owner = 755
+												set_variable = { name = POP_Division_count value = 1 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 			}
 			SHT = {
 				set_state_controller = 619
 				set_state_owner = 619
+												set_variable = { name = POP_Division_count value = 1 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 			}
 			CHK = {
 				set_state_controller = 287
 				set_state_owner = 287
+												set_variable = { name = POP_Division_count value = 1 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 			}
 			KOK = {
 				add_political_power = -20
+												set_variable = { name = POP_Division_count value = 1 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 			}
 			CHN = {
 				country_event = {
@@ -269,6 +353,11 @@ country_event = {
 				set_state_owner = 756
 				set_state_controller = 616
 				set_state_owner = 616
+												set_variable = { name = POP_Division_count value = 4 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -316,6 +405,7 @@ country_event = {
 				add_core_of = PRC
 			}
 			PRC = {
+				
 				set_state_controller = 595
 				set_state_owner = 595
 				set_state_controller = 600
@@ -330,6 +420,11 @@ country_event = {
 				set_state_owner = 599
 				set_state_controller = 594
 				set_state_owner = 594
+												set_variable = { name = POP_Division_count value = 8 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -404,6 +499,11 @@ country_event = {
 				set_state_controller = 617
 				set_state_owner = 618
 				set_state_owner = 617
+												set_variable = { name = POP_Division_count value = 4 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -487,6 +587,11 @@ country_event = {
 				set_state_owner = 601
 				set_state_owner = 747
 				set_state_controller = 747
+												set_variable = { name = POP_Division_count value = 5 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -592,10 +697,12 @@ country_event = {
 				set_state_owner = 609
 				set_state_controller = 608
 				set_state_owner = 608
-				declare_war_on = {
-					target = CHN
-					type = puppet_wargoal_focus
-				}
+												set_variable = { name = POP_Division_count value = 14 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
+
 				promote_character = {
 					character = MAN_aisin_gioro_puyi
 					ideology = constitutional_emperor
@@ -607,8 +714,13 @@ country_event = {
 				JPN = {
 					puppet = MME
 				}
+				
 			}
 			CHN = {
+				declare_war_on = {
+					target = MME
+					type = puppet_wargoal_focus
+				}
 				country_event = {
 					id = CHN_civil_war.8
 					days = 30
@@ -658,6 +770,11 @@ country_event = {
 				set_state_controller = 746
 				set_state_owner = 621
 				set_state_owner = 746
+				set_variable = { name = POP_Division_count value = 10 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus
@@ -757,6 +874,11 @@ country_event = {
 				set_state_owner = 597
 				set_state_owner = 745
 				set_state_owner = 743
+				set_variable = { name = POP_Division_count value = 4 }
+				pop_cavalry_random_owned_state_v3 = yes
+				pop_infantry_capital_state_v3 = yes
+				pop_infantry_random_owned_state_v3 =  yes
+				set_variable = { name = POP_Division_count value = 0 }
 				declare_war_on = {
 					target = CHN
 					type = puppet_wargoal_focus

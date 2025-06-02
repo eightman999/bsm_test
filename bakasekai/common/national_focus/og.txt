@@ -355,7 +355,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -717,7 +717,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH

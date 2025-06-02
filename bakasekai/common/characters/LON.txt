@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = neutrality_democracy
-			expire = "1974.1.1.1"
+			expire = "1937.1.1.1"
 		}
 	}
 	LON_harry_twyford = {
@@ -20,7 +20,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1936.1.1.1" # 初期のリーダーとして設定後、イベントで次のリーダーに切り替える
+            expire = "1938.1.1.1"
         }
     }
     LON_frank_bowater = {
@@ -32,7 +32,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1937.1.1.1"
+            expire = "1939.1.1.1"
         }
     }
     LON_william_coxen = {
@@ -44,7 +44,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1938.1.1.1"
+            expire = "1940.1.1.1"
         }
     }
     LON_george_wilkinson = {
@@ -56,7 +56,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1939.1.1.1"
+            expire = "1941.1.1.1"
         }
     }
     LON_john_laurie = {
@@ -68,7 +68,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1940.1.1.1"
+            expire = "1942.1.1.1"
         }
     }
     LON_samuel_joseph = {
@@ -80,7 +80,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1941.1.1.1"
+            expire = "1943.1.1.1"
         }
     }
     LON_frank_newson_smith = {
@@ -92,7 +92,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1942.1.1.1"
+            expire = "1944.1.1.1"
         }
     }
     LON_frank_alexander = {
@@ -104,7 +104,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1943.1.1.1"
+            expire = "1945.1.1.1"
         }
     }
     LON_charles_davis = {
@@ -116,7 +116,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1944.1.1.1"
+            expire = "1946.1.1.1"
         }
     }
     LON_bracewell_smith = {
@@ -128,7 +128,7 @@ characters = {
         }
         country_leader = {
             ideology = neutrality_democracy
-            expire = "1945.1.1.1"
+            expire = "1947.1.1.1"
         }
     }
 }
