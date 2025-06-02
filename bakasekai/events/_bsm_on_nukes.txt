@@ -1,4 +1,4 @@
-add_namespace = bsm_system
+add_namespace = nukes_drop
 
 news_event = {
 	id = nukes_drop.1
