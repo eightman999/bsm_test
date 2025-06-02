@@ -922,37 +922,37 @@ focus_tree = {
 			hidden_effect = {
 				add_relation_modifier = {
 					target = CHI
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = SCC
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = UTP
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = SCC
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = IDN
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = BKK
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = VNM
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
 				add_relation_modifier = {
 					target = HAW
-					modifier = azian_alignment
+					modifier = East_Asian_Accord
 				}
-				create_faction = asean_alignment
+				create_faction = East_Asian_Alignment
 				add_to_faction = CHI
 				add_to_faction = SCC
 				add_to_faction = UTP

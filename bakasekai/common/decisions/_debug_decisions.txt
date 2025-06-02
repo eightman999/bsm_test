@@ -168,12 +168,30 @@ debug_decisions = {
 	debug_ucs_on_monthly = {
 		icon = generic_independence
 		fire_only_once = no
-		remove_effect = {
+		complete_effect = {
 			ucs_on_monthly = yes
 
 		}
 	}
-	
+	debug_mine_add = {
+		icon = generic_independence
+		fire_only_once = no
+		complete_effect = {
+			set_temp_variable = { state_id = 902 }
+			set_temp_variable = { level = 100 }
+
+			add_gold_mine_level = yes
+
+		}
+	}
+	debug_mine_on_monthly = {
+		icon = generic_independence
+		fire_only_once = no
+		complete_effect = {
+			mine_on_monthly = yes
+
+		}
+	}
 	# debug_hs_set = {
 	# 	icon = generic_independence
 	# 	fire_only_once = no

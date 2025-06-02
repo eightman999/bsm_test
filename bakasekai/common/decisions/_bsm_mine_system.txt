@@ -1,0 +1,210 @@
+bsm_mine_dev = {
+	#金鉱山
+	expansion_gold_mine_1 = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		state_target = yes 
+		on_map_mode = map_and_decisions_view
+		target_array = owned_states
+		available = {
+			has_tech = excavation1
+        }
+        visible = {
+        }
+
+		target_trigger = {
+			check_variable = { FROM.gold_mine = 1 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		custom_cost_trigger = {
+			check_variable = { Unified_Currency  > 49.999 }
+		}
+		custom_cost_text = cc_expansion_mine_1
+
+		complete_effect = {
+			hidden_effect = {
+				subtract_from_variable = { Unified_Currency = 50 }
+			}
+		}
+		remove_effect ={
+			set_temp_variable = { state_id = FROM }
+			set_temp_variable = { level = 1 }
+			add_gold_mine_level = yes
+		}
+	}
+	expansion_gold_mine_2 = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		state_target = yes 
+		on_map_mode = map_and_decisions_view
+		target_array = owned_states
+		available = {
+			has_tech = excavation2
+        }
+        visible = {
+        }
+
+		target_trigger = {
+			check_variable = { FROM.gold_mine = 2 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		custom_cost_trigger = {
+			check_variable = { Unified_Currency  > 49.999 }
+		}
+		custom_cost_text = cc_expansion_mine_1
+
+		complete_effect = {
+			hidden_effect = {
+				subtract_from_variable = { Unified_Currency = 50 }
+			}
+		}
+		remove_effect ={
+			set_temp_variable = { state_id = FROM }
+			set_temp_variable = { level = 1 }
+			add_gold_mine_level = yes
+		}
+	}
+	expansion_gold_mine_3 = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		state_target = yes 
+		on_map_mode = map_and_decisions_view
+		target_array = owned_states
+		available = {
+			has_tech = excavation3
+        }
+        visible = {
+        }
+
+		target_trigger = {
+			check_variable = { FROM.gold_mine = 3 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		custom_cost_trigger = {
+			check_variable = { Unified_Currency  > 49.999 }
+		}
+		custom_cost_text = cc_expansion_mine_1
+
+		complete_effect = {
+			hidden_effect = {
+				subtract_from_variable = { Unified_Currency = 50 }
+			}
+		}
+		remove_effect ={
+			set_temp_variable = { state_id = FROM }
+			set_temp_variable = { level = 1 }
+			add_gold_mine_level = yes
+		}
+	}
+	expansion_gold_mine_4 = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		state_target = yes 
+		on_map_mode = map_and_decisions_view
+		target_array = owned_states
+		available = {
+			has_tech = excavation4
+        }
+        visible = {
+        }
+
+		target_trigger = {
+			check_variable = { FROM.gold_mine = 4 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		custom_cost_trigger = {
+			check_variable = { Unified_Currency  > 49.999 }
+		}
+		custom_cost_text = cc_expansion_mine_1
+
+		complete_effect = {
+			hidden_effect = {
+				subtract_from_variable = { Unified_Currency = 50 }
+			}
+		}
+		remove_effect ={
+			set_temp_variable = { state_id = FROM }
+			set_temp_variable = { level = 1 }
+			add_gold_mine_level = yes
+		}
+	}
+	expansion_gold_mine_5 = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		state_target = yes 
+		on_map_mode = map_and_decisions_view
+		target_array = owned_states
+		available = {
+			has_tech = excavation5
+        }
+        visible = {
+        }
+
+		target_trigger = {
+			check_variable = { FROM.gold_mine = 5 }
+		}
+		fire_only_once = yes
+		days_remove = 100
+		custom_cost_trigger = {
+			check_variable = { Unified_Currency  > 49.999 }
+		}
+		custom_cost_text = cc_expansion_mine_1
+
+		complete_effect = {
+			hidden_effect = {
+				subtract_from_variable = { Unified_Currency = 50 }
+			}
+		}
+		remove_effect ={
+			set_temp_variable = { state_id = FROM }
+			set_temp_variable = { level = 1 }
+			add_gold_mine_level = yes
+		}
+	}
+
+	mine_reopening = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		state_target = yes 
+		on_map_mode = map_and_decisions_view
+		target_array = controlled_states
+		available = {
+        }
+        visible = {
+			
+        }
+
+		target_trigger = {
+			NOT = {
+				is_in_array = { occupied_mine_state = FROM }
+				FROM = { is_owned_by = ROOT }
+			}
+			OR = {
+				check_variable = { FROM.gold_mine > 0 }
+				check_variable = { FROM.jewel_mine > 0 }
+			}
+		}
+		fire_only_once = yes
+		days_remove = 60
+		# custom_cost_trigger = {
+		# 	check_variable = { Unified_Currency  > 49.999 }
+		# }
+		# custom_cost_text = cc_expansion_mine_1
+
+		complete_effect = {
+			# hidden_effect = {
+			# 	subtract_from_variable = { Unified_Currency = 50 }
+			# }
+		}
+		remove_effect ={
+			add_to_array = { occupied_mine_state = FROM }
+			custom_effect_tooltip = tt_mine_reopening
+		}
+	}
+
+}
+

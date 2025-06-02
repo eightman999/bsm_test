@@ -285,34 +285,59 @@ on_actions = {
 			}
 		}
 	}
-	on_declare_war = {
-		effect = {
-			CHN = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = China_divides
-							option = DEFAULT
-						}
-						is_ai = yes
-					}
-					country_event = {
-						id = CHN_civil_war.1
-					}
-				}
-				else_if = {
-					limit = {
-						# has_game_rule = {
-						# 	rule = China_divides
-						# 	option = CHINA_DIVIDES_DEFAULT_PL
-						# }
-					}
-					country_event = {
-						id = CHN_civil_war.1
-					}
-				}
-			}
-			
-		}
-	}
+    on_declare_war = {
+        effect = {
+            # 戦争の当事者（宣戦布告した側かされた側）に中国が含まれるかを確認
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = { original_tag = CHN } # ROOT: 宣戦布告した国
+                        FROM = { original_tag = CHN } # FROM: 宣戦布告された国
+                    }
+                }
+
+                # --- 中国が戦争に関与した場合、CHNタグの国に対して以下の効果を実行 ---
+                CHN = {
+                    set_global_flag = CHN_civil_war
+                    # グローバルフラグ CHN_civil_war をセットします。
+
+                    # ゲームルール「China_divides」が「DEFAULT」オプションかつ、CHNがAI操作の場合
+                    if = {
+                        limit = {
+                            has_game_rule = {
+                                rule = China_divides # (★要確認) 実際のゲームルール名に置き換えてください
+                                option = DEFAULT    # (★要確認) 実際のオプション名に置き換えてください
+                            }
+                            is_ai = yes
+                        }
+                        country_event = {
+                            id = CHN_civil_war.1 # (★要確認・要作成) 対応するイベントID
+                        }
+                    }
+                    # (★要確認) 次の else_if ブロックの条件とイベントIDについてご確認ください
+                    else_if = {
+                        limit = {
+                            # (★要確認) この条件ブロックは現在コメントアウトされています。
+                            # もし別のゲームルールオプションに基づいた分岐が必要な場合は、
+                            # 以下のコメントを解除し、適切な rule と option を指定してください。
+                            # has_game_rule = {
+                            # rule = China_divides # (★要確認)
+                            # option = CHINA_DIVIDES_DEFAULT_PL # (★要確認) 実際のオプション名に
+                            # }
+                            # (★要確認) 上記の has_game_rule を有効にする場合、
+                            # この limit ブロックが空でないことを確認してください。
+                            # limit が空の場合、この else_if は常に真（先のifが偽の場合）と評価されます。
+                        }
+                        country_event = {
+                            # (★要確認) 現在、上の if ブロックと同じイベントID CHN_civil_war.1 を呼び出しています。
+                            # もし条件によって異なるイベントを発生させたい場合は、
+                            # ここで別のイベントIDを指定してください。
+                            id = CHN_civil_war.1 # (★要確認・要作成)
+                        }
+                    }
+                    # 他のゲームルールオプションに対応する場合は、さらに else_if や else をここに追加してください。
+                }
+            }
+        }
+    }
 }

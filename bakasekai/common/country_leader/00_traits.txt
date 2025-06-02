@@ -2126,7 +2126,7 @@ leader_traits = {
 
         neutrality_ideology_drift = 0.12
         stability_factor = 0.1
-        war_support_ideology_factor = 0.1
+        war_support_factor = 0.1
 
     }
     ambitious_negotiator_neutrality = { #This trait will be changed to fascist if Bulgaria becomes fascist or a Fascist Regency Council is formed (on_ruling_party_change)

@@ -6,17 +6,17 @@ characters={
                 large="gfx/leaders/WES/Sands.dds"
                 small="GFX_idea_WES_Sands"
             }
-        }
-        country_leader={
+        }        country_leader={
             ideology=fascism_ideology
             traits={ charisma }
             desc = SAND_DESC_LOC
             expire="1999.1.1.1"
-            id=-1
+            id=501
         }
         advisor = {
             slot = political_advisor
-            idea_token = WES_sands
+            idea_token = WES_advisor_token
+            ledger = civilian
             allowed = {
                 original_tag = WES
             }
@@ -39,18 +39,17 @@ characters={
             civilian={
                 large="gfx/leaders/WES/Portrait_Arabia_Generic_1.dds"
             }
-        }
-        country_leader={
+        }        country_leader={
             ideology=centrism
             traits = { }
             expire="1959.1.1.1"
-            id=-1
+            id=502
         }
         country_leader={
             ideology= liberalism
             traits = { }
             expire="1959.1.1.1"
-            id=-1
+            id=503
         }
     }
 
@@ -60,12 +59,11 @@ characters={
             civilian={
                 large="gfx/leaders/WES/issac_ali.dds"
             }
-        }
-        country_leader={
+        }        country_leader={
             ideology=liberalism
             traits = { }
             expire="1969.1.1.1"
-            id=-1
+            id=504
         }
     }
 
@@ -75,12 +73,11 @@ characters={
             civilian={
                 large="gfx/leaders/WES/fennec_2.dds"
             }
-        }
-        country_leader={
+        }        country_leader={
             ideology=liberalism
             traits = { cute_head_of_state }
             expire="1989.1.1.1"
-            id=-1
+            id=505
         }
     }
 
@@ -90,12 +87,11 @@ characters={
             civilian={
                 large="gfx/leaders/operative_unknown.dds"
             }
-        }
-        country_leader={
+        }        country_leader={
             ideology=liberalism
             traits = { }
             expire="1999.1.1.1"
-            id=-1
+            id=506
         }
     }
 
@@ -103,6 +99,7 @@ characters={
         name=WES_anarchy
         portraits={
             civilian={
+
                 large="gfx/leaders/WES/Anarchy.dds"
             }
         }
@@ -110,15 +107,14 @@ characters={
             ideology=anarchism
             traits = { anarchy }
             expire="1999.1.1.1"
-            id=-1
+            id=507
         }
     }
 
     WES_Bokkassa = {
-        name=WES_Bokkassa
+        name = "Bokkassa"
         portraits={
             civilian={
-                #large="gfx/leaders/WES/bokassa.png"
                 large="gfx/leaders/WES/bokassa_army.png"
             }
             army = {
@@ -128,7 +124,7 @@ characters={
         country_leader={
             ideology=kingdom
             expire="1989.1.1.1"
-            id=-1
+            id=508
         }
     }
 

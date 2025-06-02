@@ -179,7 +179,6 @@ recruit_character = JAP_machida_chuji
 # recruit_character = JAP_miyamoto_yuriko
 recruit_character = JAP_Okada_Keisuke
 recruit_character = JAP_Prince_Higashikuni_Naruhiko
-recruit_character = JAP_Kanin_Kotohito
 recruit_character = JAP_Kingoroo_Hashimoto
 recruit_character = JAP_army_staff
 recruit_character = JAP_navy_staff

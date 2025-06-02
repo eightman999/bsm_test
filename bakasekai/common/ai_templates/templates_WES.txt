@@ -2,10 +2,7 @@ armored_sand_WES = {
 	available_for = {
 		WES
 	}
-	roles = {
-		armor
-	}
-	match_to_count = 0.5
+	role = armor
 	upgrade_prio = {
 		factor = 2
 		modifier = {
@@ -23,49 +20,7 @@ armored_sand_WES = {
 				factor = 1
 			}
 		}
-		target_width = 42
-		width_weight = 2
-		column_swap_factor = 0.5
-		stat_weights = {
-			0			#-- default_morale
-			1.1			#-- defense
-			1.1			#-- breakthrough
-			0.6			#-- hardness
-			2			#-- soft_attack
-			0			#-- hard_attack
-			0.1			#-- recon
-			0.01			#-- entrenchment
-			0.1			#-- initiative
-			0.01			#-- casualty_trickleback
-			-0.05			#-- supply_consumption_factor
-			-0.01			#-- supply_consumption
-			0			#-- suppression
-			0			#-- suppression_factor
-			0.01			#-- experience_loss_factor
-			0			#-- equipment_capture_factor
-			0			#-- fuel_capacity
-			#-- Air Values
-			0.02			#-- air_attack
-			#-- Common Values
-			10			#-- max_organisation
-			0.8			#-- max_strength
-			0			#-- maximum_speed
-			0.2			#-- armor_value
-			0.05			#-- ap_attack
-			0.1			#-- reliability
-			0.1			#-- reliability_factor
-			0			#-- weight
-			0			#-- fuel_consumption
-			0			#-- fuel_consumption_factor
-			0			#-- strat_attack
-			0			#-- carrier_size
-			0			#-- acc_hot_gain
-			0			#-- acc_cold_gain
-			0			#-- build_cost_ic
-		}
 		target_template = {
-			weight = 0.5
-			match_value = 1000
 			support = {
 				engineer = 1
 				light_tank_recon = 1
@@ -78,22 +33,8 @@ armored_sand_WES = {
 				artillery_brigade = 9
 				anti_air_brigade = 1
 				sand = 20
-			}
-		}
-		allowed_types = {
-			heavy_armor
-			#Cheaper but slower might be worth considering
-			sand
-			artillery_brigade
-			engineer
-			mot_recon
-			light_tank_recon
-			signal_company
-			logistics_company
-			field_hospital
-		}
+			}		}
 		replace_at_match = 0.4
-		# TODO:# replace_with = modern_armor_default_WES
 		target_min_match = 0.5
 	}
 }
@@ -102,9 +43,7 @@ infantry_sand_WES = {
 	available_for = {
 		WES
 	}
-	roles = {
-		infantry
-	}
+	role = infantry
 	upgrade_prio = {
 		factor = 3
 		modifier = {
@@ -112,7 +51,6 @@ infantry_sand_WES = {
 			has_tech = sand
 		}
 	}
-	match_to_count = 0.5
 	infantry_sand_WES = {
 		upgrade_prio = {
 			factor = 6
@@ -120,56 +58,10 @@ infantry_sand_WES = {
 				factor = 10000
 				has_tech = sand
 			}
-		}
-		target_width = 20
-		width_weight = 1
-		column_swap_factor = 0.5
-		stat_weights = {
-			0			#-- default_morale
-			0			#-- defense
-			1			#-- breakthrough
-			0			#-- hardness
-			4			#-- soft_attack
-			0			#-- hard_attack
-			0			#-- recon
-			1			#-- entrenchment
-			0			#-- initiative
-			0			#-- casualty_trickleback
-			0			#-- supply_consumption_factor
-			0			#-- supply_consumption
-			0			#-- suppression
-			0			#-- suppression_factor
-			0			#-- experience_loss_factor
-			0			#-- equipment_capture_factor
-			0			#-- fuel_capacity
-			#-- Air Values
-			0			#-- air_attack
-			#-- Common Values
-			0.6			#-- max_organisation
-			0.4			#-- max_strength
-			0			#-- maximum_speed
-			0			#-- armor_value
-			0.2			#-- ap_attack
-			0			#-- reliability
-			0			#-- reliability_factor
-			0			#-- weight
-			0			#-- fuel_consumption
-			0			#-- fuel_consumption_factor
-			0			#-- strat_attack
-			0			#-- carrier_size
-			0			#-- acc_hot_gain
-			0			#-- acc_cold_gain
-			0			#-- build_cost_ic
-		}
-		target_template = {
-			weight = 0.9
-			match_value = 3000
+		}		target_template = {
 			regiments = {
 				sand = 20
 			}
-		}
-		allowed_types = {
-			infantry
 		}
 	}
 }
@@ -198,11 +90,3 @@ infantry_sand_WES = {
 #recon
 #signal_company
 #maintenance_company
-#anti_tank_brigade
-#anti_air_brigade
-#artillery_brigade
-#field_hospital
-#logistics_company
-#military_police
-#light_sp_anti_air_brigade
-#light_sp_artillery_brigade

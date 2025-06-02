@@ -3654,7 +3654,7 @@ focus_tree = {
 						is_coastal = no
 					}
 					add_core_of = MAC
-					transfer_state = MAC
+					transfer_state_to = MAC
 				}
 			}
 		}

@@ -12,11 +12,11 @@ COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 #####通貨#####
 Unified_Currency_title:0 "[Unified_Currency_title_txt]"
 Unified_Currency:0 "[?ROOT.Unified_Currency|0]"
-Unified_Currency_desc:0 "通貨は、国民の生産および消費活動や貿易を通じて獲得できる。\nまた探検隊の派遣や未知の解明をはじめとした政府の様々な用途に使用することができる。§H政府与党§!や§H政治顧問§!、§H宗教§!などによっても獲得量は変動する。"
+Unified_Currency_desc_2:0 "通貨は、国民の生産および消費活動や貿易を通じて獲得できる。\nまた探検隊の派遣や未知の解明をはじめとした政府の様々な用途に使用することができる。§H政府与党§!や§H政治顧問§!、§H宗教§!などによっても獲得量は変動する。"
 Unified_Currency_desc_title:0 "我が政府が様々な用途に使用することができる通貨の保有量。\n------------------------------------\n通貨獲得補正: [?modifier@Unified_Currency_gain_factor|0%+][Unified_Currency_desc_war_effort][Unified_Currency_desc_religion]\n------------------------------------\n合計:[?ROOT.combined_uc_factor|0+%]\n------------------------------------\n先月の獲得量: [?ROOT.Unified_Currency_Last_Month_gain|a0+]"
 Unified_Currency_desc_war_effort_default:0 "\n内訳"
 Unified_Currency_desc_war_effort_war:0 "\n内訳\n戦時疲弊 I: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]"
-Unified_Currency_desc_war_effort_war_2:0 "\n内訳\n戦時疲弊 II: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]""
+Unified_Currency_desc_war_effort_war_2:0 "\n内訳\n戦時疲弊 II: [?modifier@Unified_Currency_war_factor|0%+]\n国土失陥:[?Unified_Currency_state_loss|1+]"
 Unified_Currency_desc_religion:0 "\n国教: [?modifier@Unified_Currency_religion_factor|0%+]"
 daily_National_Unity_Power_gain:0 "日ごとの国家統合力"
 National_Unity_Power_gain_factor:0 "国家統合力獲得補正"
@@ -68,13 +68,36 @@ bsm_ecpp:0 "国庫から政治力を得る"
 # pp_to_ec:0 "通貨に変換"
 # pp_to_ec_desc:0 "§H政治力§!を国庫に変換する。"
 #############MINE##################
+#State view
+tt_gold_mine_icon:0 "§H金鉱山§!\n金鉱山の規模:[?THIS.gold_mine]"
+#effect
+tt_add_gold_mine_level:0 "§H[?state_id.GetName]§!の金鉱山の規模が[?level|0+]変化する"
+#dec
+bsm_mine_dev:0 "鉱山の開発"
+expansion_gold_mine_1:0 "[FROM.GetName]の金鉱山開発 I"
+expansion_gold_mine_1_desc:0 "金鉱山の規模を拡大する。"
+expansion_gold_mine_2:0 "[FROM.GetName]の金鉱山開発 II"
+expansion_gold_mine_2_desc:0 "$expansion_gold_mine_1_desc$"
+expansion_gold_mine_3:0 "[FROM.GetName]の金鉱山開発 III"
+expansion_gold_mine_3_desc:0 "$expansion_gold_mine_1_desc$"
+expansion_gold_mine_4:0 "[FROM.GetName]の金鉱山開発 IV"
+expansion_gold_mine_4_desc:0 "$expansion_gold_mine_1_desc$"
+expansion_gold_mine_5:0 "[FROM.GetName]の金鉱山開発 V"
+expansion_gold_mine_5_desc:0 "$expansion_gold_mine_1_desc$"
+
+mine_reopening:0 "[FROM.GetName]における鉱山の再稼働"
+
+cc_expansion_mine_1:0 "£resource_energy_large §H50§!"
+cc_expansion_mine_1_blocked:0 "£resource_energy_large §G50§!"
+
+tt_mine_reopening:0 "§H[FROM.GetName]§!における§H鉱山§!を§H再稼働§!する\nこれにより、[FROM.GetName]の金鉱山の収入を得ることができるようになる"
+
+
 need_50_energy:0 "£resource_energy_icon §Y150§!"
 need_50_energy_blocked:0 "£resource_energy_icon §R50§!"
 need_50_energy_tooltip:0 "鉱山の拡張には、£resource_energy_icon §H通貨§!が§Y50§!必要です。"
 MD_gold_desc_tip:0 "金鉱山の規模"
 MD_gold_desc_tip_d:0 "金鉱山の規模が大きいほど、§H金§!の生産量が増加する。"
-MD_Jewel_desc_tip:0 "宝石鉱山の規模"
-MD_Jewel_desc_tip_d:0 "宝石鉱山の規模が大きいほど、§H宝石§!の生産量が増加する。"
 MD_cost_desc_tip:0 "鉱山の維持コスト"
 MD_cost_desc_tip_d:0 "鉱山の規模が大きいほど、§H維持コスト§!が増加する。"
 MD_gain_desc_tip:0 "鉱山収入"
@@ -85,14 +108,8 @@ MD_Jewel:0 "[?ROOT.MD_Jewel|0]"
 MD_cost:0 "£resource_energy_icon [?ROOT.MD_cost|0]"
 MD_gain:0 "£resource_energy_icon [?ROOT.MD_gain|0]"
 
-bsm_mine_dev:0 "鉱山の開発"
-dev_mine_gold:0 "[FROM.GetName]の金鉱山開発 I"
-dev_mine_Jewel:0 "[FROM.GetName]の宝石鉱山開発 I"
-dev_mine_gold_desc:0 "金鉱山の規模を拡大する。"
-dev_mine_Jewel_desc:0 "宝石鉱山の規模を拡大する。"
 
 MD_gold_desc:0 "金鉱山規模"
-MD_Jewel_desc:0 "宝石鉱山規模"
 MD_cost_desc:0 "維持コスト"
 MD_gain_desc:0 "収入"
 

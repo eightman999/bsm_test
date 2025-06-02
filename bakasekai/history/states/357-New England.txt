@@ -24,7 +24,7 @@ state={
 
 			}
 		}
-		set_state_flag = Gold_Rush
+		set_variable = { gold_mine = 1 }
 		add_core_of = NYY
 		victory_points = {
 			6732 20 

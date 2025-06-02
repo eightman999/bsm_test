@@ -15,7 +15,7 @@ state = {
 			4800
 			1			#Oyrot-Tura/Gorno-Altaysk
 		}
-		set_state_flag = Gold_Rush
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		4781

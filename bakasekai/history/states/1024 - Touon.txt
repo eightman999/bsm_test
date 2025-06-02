@@ -13,7 +13,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		set_state_flag = Jewel_Rush
+		set_variable = { jewel_mine = 1 }
 	}
 	provinces = {
 		14413

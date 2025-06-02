@@ -12,10 +12,14 @@ defined_text = {
 	name = Unified_Currency_title_txt
 	text = {
 		#default
+		trigger = {
+			always = yes
+		}
 		localization_key = Unified_Currency_desc_title
 	}
 }
-戦時補正
+
+#戦時補正
 defined_text = {
 	name = Unified_Currency_desc_war_effort
 	text = {
@@ -35,6 +39,7 @@ defined_text = {
 		localization_key = Unified_Currency_desc_war_effort_default
 	}
 }
+
 #宗教からの補正
 defined_text = {
 	name = Unified_Currency_desc_religion
@@ -60,8 +65,8 @@ defined_text = {
 		}
 		localization_key = Unified_Currency_desc_religion
 	}
-	
 }
+
 defined_text = {
 	name = OE_page_url
 	text = {

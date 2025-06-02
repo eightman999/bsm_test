@@ -1,9 +1,10 @@
 ideas = {
 	religion_party = {
-		law = yes
+		# law = yes
 		use_list_view = yes
 		atheism = {
 			picture = atheism
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = atheism_COUNTRY
 			}
@@ -22,6 +23,7 @@ ideas = {
 		}
 		animism = {
 			picture = animism
+			#ledger  = religion_party
 			visible = {
 				OR = {
 					has_country_flag = animism_COUNTRY
@@ -37,6 +39,7 @@ ideas = {
 		}
 		secularism = {
 			cancel_if_invalid = no
+			#ledger  = religion_party
 			modifier = {
 				mythologicalism_drift = -0.2
 				stability_factor = 0.015
@@ -46,6 +49,7 @@ ideas = {
 		}
 		shinto = {
 			cancel_if_invalid = no
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Shinto
 			}
@@ -60,7 +64,7 @@ ideas = {
 		}
 		buddhism = {
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Buddhism
 			}
@@ -77,7 +81,7 @@ ideas = {
 		shia = {
 			picture = shia
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Shia
 			}
@@ -90,7 +94,7 @@ ideas = {
 			}
 		}
 		Stoicism = {
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Stoicism_COUNTRY
 			}
@@ -105,7 +109,7 @@ ideas = {
 		}
 		catholicism = {
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Catholicism
 			}
@@ -121,7 +125,7 @@ ideas = {
 		}
 		protestantism = {
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Protestantism
 			}
@@ -138,7 +142,7 @@ ideas = {
 		}
 		orthodoxy = {
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = orthodoxy_COUNTRY
 			}
@@ -154,7 +158,7 @@ ideas = {
 		}
 		judaism = {
 			picture = judaism
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Judaism
 			}
@@ -171,7 +175,7 @@ ideas = {
 		}
 		sunni = {
 			picture = sunni
-
+				#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Sunni
 			}
@@ -186,7 +190,7 @@ ideas = {
 		}
 		hinduism = {
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = Support_For_Hinduism
 			}
@@ -200,7 +204,7 @@ ideas = {
 		}
 		communism_religion = {
 			cancel_if_invalid = no
-
+			#ledger  = religion_party
 			visible = {
 				# communism_ideology > 0.5
 				has_government = communism_ideology
@@ -215,7 +219,7 @@ ideas = {
 		chinese_rels = {
 			cost = 50
 			removal_cost = -1
-
+			#ledger  = religion_party
 			visible = {
 				has_country_flag = chinese_COUNTRY
 			}

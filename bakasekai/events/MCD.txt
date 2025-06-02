@@ -263,6 +263,7 @@ country_event = {
 			factor = 0
 		}
 		load_focus_tree = McDonald
+		set_global_flag = MAC_has_McDonald_Tree
 		add_ideas = tightly_bound_feelings
 
 		

@@ -38,3 +38,11 @@ HRH_recapture_states = {
 		}
 	}
 }
+
+HRH_decisions = {
+	decision_name = {
+		available = {
+			has_country_flag = some_flag
+		}
+	}
+}

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		set_state_flag = Gold_Rush
+		set_variable = { gold_mine = 1 }
 		owner = TEX
 		buildings = {
 			infrastructure = 2
