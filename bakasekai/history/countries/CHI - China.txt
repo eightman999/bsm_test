@@ -1,4 +1,4 @@
-capital = 613# Nanjing
+capital = 524# Nanjing
 oob = "Default_oob"
 set_stability = 0.2
 set_war_support = 0.5

@@ -1,4 +1,4 @@
-capital = 288
+capital = 335
 #oob = "Default_oob" 
 set_cosmetic_tag = IDN_republic
 # Starting tech
