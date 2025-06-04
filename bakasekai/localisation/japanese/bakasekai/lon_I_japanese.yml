@@ -67,9 +67,6 @@ EV_OK: "わかった。"
  # Opinion Modifiers
  great_economic_ties: "強固な経済的つながり"
 
- # Events (Battle Central Bank Crisis)
- LON.battle_central_bank_crisis.start.t: "バトル中央銀行危機"
- LON.battle_central_bank_crisis.start.desc: "バトル中央銀行で深刻な危機が展開しているとの報告が入りました。£150万ポンドの債券とかなりの株式がデフォルトの危機に瀕しています。この大規模な金融ショックは、広範囲にわたる不安定を引き起こし、我々の国家を深い経済不況に陥れると脅かしています。"
 
  # Decisions (Battle Central Bank Crisis)
  LON_respond_battle_crisis_category: "バトル中央銀行危機対応"
@@ -87,14 +84,16 @@ EV_OK: "わかった。"
  LON_strong_economic_measures: "強力な経済対策"
  LON_strong_economic_measures_desc: "政府の断固たる介入は、強固な経済回復のための基礎を築いたが、今後の道は依然として困難である。"
 
- # ロンドン橋関連イベント
- LON.london_bridge_destroyed_on_independence.t: "ロンドン橋の崩落"
- LON.london_bridge_destroyed_on_independence.desc: "独立の混乱の中で、長きにわたり本土とロンドンを結んできたロンドン橋が崩落しました。これは、我々の独立の象徴であると同時に、本土との関係における新たな時代の始まりを告げるものです。橋の損耗は著しく、早急な再建計画が必要です。"
- LON.london_bridge_wear_and_tear.t: "ロンドン橋の損耗"
- LON.london_bridge_wear_and_tear.desc: "時折の突風や季節的な災害により、ロンドン橋は少しずつ損耗しています。このまま放置すれば、その堅牢性は失われ、通行に支障をきたすかもしれません。"
- LON.london_bridge_critical_condition.t: "ロンドン橋、危険水域"
- LON.london_bridge_critical_condition.desc: "ロンドン橋の損耗が危険なレベルに達しました。早急な修理がなければ、いつ崩落してもおかしくない状況です。交通や交易への影響が懸念されます。"
-
+# Events (Battle Central Bank Crisis)
+LON_battle_central_bank_crisis_start.t: "バトル中央銀行危機"
+LON_battle_central_bank_crisis_start.desc: "バトル中央銀行で深刻な危機が展開しているとの報告が入った。150万ポンドの債券とかなりの株式がデフォルトの危機に瀕している。この大規模な金融ショックは、広範囲にわたる不安定を引き起こし、我々の国家を深い経済不況に陥れると脅かしている。"
+# ロンドン橋関連イベント
+LON_london_bridge_destroyed_on_independence.t: "ロンドン橋の崩落"
+LON_london_bridge_destroyed_on_independence.desc: "独立の混乱の中で、長きにわたり本土とロンドンを結んできたロンドン橋が崩落した。これは、我々の独立の象徴であると同時に、本土との関係における新たな時代の始まりを告げるものである。橋の損耗は著しく、早急な再建計画が必要である。"
+LON_london_bridge_wear_and_tear.t: "ロンドン橋の損耗"
+LON_london_bridge_wear_and_tear.desc: "時折の突風や季節的な災害により、ロンドン橋は少しずつ損耗している。このまま放置すれば、その堅牢性は失われ、通行に支障をきたすかもしれない。"
+LON_london_bridge_critical_condition.t: "ロンドン橋、危険水域"
+LON_london_bridge_critical_condition.desc: "ロンドン橋の損耗が危険なレベルに達した。早急な修理がなければ、いつ崩落してもおかしくない状況である。交通や交易への影響が懸念される。"
  # ロンドン橋修理ディシジョン
  LON_london_bridge_maintenance_category: "ロンドン橋の保守"
  LON_london_bridge_maintenance_category_desc: "ロンドン橋の健全性を維持するためには、定期的な保守と必要に応じた修理が不可欠である。"

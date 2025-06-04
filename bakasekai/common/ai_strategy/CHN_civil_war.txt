@@ -111,11 +111,11 @@ CHN_civil_war_strategy = {
 		id = GXC
 		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
 	}
-	ai_strategy = {
-		type = antagonize
-		id = YUN
-		value = 500 # 200 -> 500 に強化 [cite: 2, 654]
-	}
+	# ai_strategy = {
+	# 	type = antagonize
+	# 	id = YUN
+	# 	value = 500 # 200 -> 500 に強化 [cite: 2, 654]
+	# }
 	ai_strategy = {
 		type = antagonize
 		id = SHX

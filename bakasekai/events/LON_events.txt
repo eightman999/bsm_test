@@ -10,7 +10,7 @@ news_event = {
     
     immediate = {
         # LON_GB から Harry Twyford に変更
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_harry_twyford
     }
     
@@ -22,13 +22,13 @@ news_event = {
 news_event = {
     id = LON.leader_change.2
     title = LON.leader_change.2.t
-    desc = LON.leader_change.2.desc
+    desc = LON.leader_leader.2.desc
     
     is_triggered_only = yes
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_frank_bowater
     }
     
@@ -46,7 +46,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_william_coxen
     }
     
@@ -64,7 +64,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_george_wilkinson
     }
     
@@ -82,7 +82,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_john_laurie
     }
     
@@ -100,7 +100,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_samuel_joseph
     }
     
@@ -118,7 +118,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_frank_newson_smith
     }
     
@@ -136,7 +136,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_frank_alexander
     }
     
@@ -154,7 +154,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_charles_davis
     }
     
@@ -172,7 +172,7 @@ news_event = {
     major = yes
     
     immediate = {
-        kill_country_leader = yes
+        #kill_country_leader = yes
         promote_character = LON_bracewell_smith
     }
     
@@ -182,10 +182,9 @@ news_event = {
 }
 
 
-
 # アイルランド原住民との交渉開始イベント
 country_event = {
-    id = LON.ireland_negotiation_start
+    id = LON.ireland_negotiation_start # イベントIDの修正# [cite: 11]
     title = LON.ireland_negotiation_start.t
     desc = LON.ireland_negotiation_start.desc
     picture = GFX_report_event_ireland_generic_1 # 適当な汎用画像
@@ -200,17 +199,17 @@ country_event = {
         country_event = { id = LON.ireland_negotiation_progress days = 60 random_days = 30 } # 数ヶ月後に次のイベント
     }
     option = {
-        name = LON.ireland_negotiation_start.b # 交渉を拒否
+        name = LON.ireland_negotiation_start.b # 交渉を拒否# [cite: 12]
         ai_chance = { factor = 20 }
         add_political_power = 25
         add_war_support = -0.05
-        add_opinion_modifier = { target = IRE modifier = LON_irish_displeasure }
+        add_opinion_modifier = { target = IRE modifier = "LON_irish_displeasure" } # 引用符で囲む# [cite: 12]
     }
 }
 
 # アイルランド交渉進捗イベント
 country_event = {
-    id = LON.ireland_negotiation_progress
+    id = LON.ireland_negotiation_progress # イベントIDの修正# [cite: 13]
     title = LON.ireland_negotiation_progress.t
     desc = LON.ireland_negotiation_progress.desc
     picture = GFX_report_event_ireland_generic_2 # 適当な汎用画像
@@ -218,22 +217,22 @@ country_event = {
     is_triggered_only = yes
     
     trigger = {
-        has_country_flag = LON_ireland_negotiations_ongoing
+        has_country_flag = LON_ireland_negotiations_ongoing# [cite: 13]
     }
 
     option = {
         name = LON.ireland_negotiation_progress.a # 合意に達する
         ai_chance = { factor = 70 }
-        remove_country_flag = LON_ireland_negotiations_ongoing
-        add_opinion_modifier = { target = IRE modifier = LON_irish_friendship }
+        clr_country_flag = LON_ireland_negotiations_ongoing # remove_country_flag を clr_country_flag に修正# [cite: 14]
+        add_opinion_modifier = { target = IRE modifier = "LON_irish_friendship" } # 引用符で囲む# [cite: 14]
         add_stability = 0.05
         add_war_support = 0.05
     }
     option = {
         name = LON.ireland_negotiation_progress.b # 交渉決裂
         ai_chance = { factor = 30 }
-        remove_country_flag = LON_ireland_negotiations_ongoing
-        add_opinion_modifier = { target = IRE modifier = LON_irish_animosity }
+        clr_country_flag = LON_ireland_negotiations_ongoing # remove_country_flag を clr_country_flag に修正# [cite: 14]
+        add_opinion_modifier = { target = IRE modifier = "LON_irish_animosity" } # 引用符で囲む# [cite: 14]
         add_stability = -0.05
         add_war_support = -0.05
     }
@@ -241,7 +240,7 @@ country_event = {
 
 # ドミニオン地位獲得イベント
 country_event = {
-    id = LON.seek_dominion_status
+    id = LON.seek_dominion_status # イベントIDの修正# [cite: 15]
     title = LON.seek_dominion_status.t
     desc = LON.seek_dominion_status.desc
     picture = GFX_report_event_dominion # 適当な画像
@@ -253,12 +252,12 @@ country_event = {
         ai_chance = {
             factor = 100
             modifier = {
-                factor = 0.5
+                factor = 0.5# [cite: 16]
                 GBR = { has_opinion = { target = ROOT value < 50 } } # イギリスの意見が低いと確率低下
             }
         }
         GBR = {
-            set_autonomy = { target = ROOT autonomous_state = autonomy_dominion } # ロンドンをドミニオンにする
+            set_autonomy = { target = ROOT autonomous_state = autonomy_dominion } # ロンドンをドミニオンにする# [cite: 17]
         }
         add_political_power = 100
         add_stability = 0.1
@@ -269,14 +268,14 @@ country_event = {
         ai_chance = {
             factor = 100
             modifier = {
-                factor = 0.5
+                factor = 0.5# [cite: 18]
                 GBR = { has_opinion = { target = ROOT value > 50 } } # イギリスの意見が高いと確率低下
             }
         }
         add_political_power = -50
         add_stability = -0.05
         add_war_support = -0.05
-        add_opinion_modifier = { target = GBR modifier = LON_dominion_rejected }
+        add_opinion_modifier = { target = GBR modifier = "LON_dominion_rejected" } # 引用符で囲む# [cite: 19]
     }
 }
 
@@ -286,7 +285,7 @@ country_event = {
 
 # 独立時のロンドン橋破壊イベント
 country_event = {
-    id = LON.london_bridge_destroyed_on_independence
+    id = LON.london_bridge_destroyed_on_independence # イベントIDの修正# [cite: 20]
     title = LON.london_bridge_destroyed_on_independence.t
     desc = LON.london_bridge_destroyed_on_independence.desc
     picture = GFX_report_event_london_bridge_destroyed # ロンドン橋破壊の画像
@@ -298,7 +297,7 @@ country_event = {
         add_stability = -0.15
         add_war_support = -0.10
         # 橋の損耗度を最大に設定
-        set_variable = { LON_london_bridge_condition = 100 } 
+        set_variable = { LON_london_bridge_condition = 100 }# [cite: 20]
     }
     
     option = {
@@ -308,42 +307,44 @@ country_event = {
 
 # ロンドン橋の定期的な損耗イベント
 country_event = {
-    id = LON.london_bridge_wear_and_tear
+    id = LON.london_bridge_wear_and_tear # イベントIDの修正# [cite: 21]
     title = LON.london_bridge_wear_and_tear.t
     desc = LON.london_bridge_wear_and_tear.desc
     picture = GFX_report_event_bridge_damage # 橋の損傷の画像
     
-    is_triggered_only = yes
-    
+    # is_triggered_only を削除するか no に設定しないと mean_time_to_happen は機能しません。
+    # 今回は手動でトリガーされることを想定しているため、mean_time_to_happen を削除します。
+    # is_triggered_only = yes# [cite: 21] # この行はコメントアウトまたは削除します。
+
     trigger = {
         has_country_flag = LON_london_bridge_exists # ロンドン橋が存在する
-        check_variable = { LON_london_bridge_condition < 100 } # 損耗度が100未満
+        check_variable = { var = LON_london_bridge_condition compare = less_than value = 100 } # 損耗度が100未満
     }
 
     mean_time_to_happen = {
         days = 180 # 半年に1回程度発生
         modifier = {
             days = -90
-            check_variable = { LON_london_bridge_condition > 50 } # 損耗度が高いほど発生頻度が増加
+            check_variable = { var = LON_london_bridge_condition compare = greater_than value = 50 } # 損耗度が高いほど発生頻度が増加# [cite: 22]
         }
         modifier = {
             days = -60
-            check_variable = { LON_london_bridge_condition > 80 } # さらに高いとさらに増加
+            check_variable = { var = LON_london_bridge_condition compare = greater_than value = 80 } # さらに高いとさらに増加
         }
     }
 
     immediate = {
-        set_temp_variable = { add_damage = 5 } # 基礎ダメージ5%
+        set_temp_variable = { add_damage = 5 } # 基礎ダメージ5%# [cite: 23]
         random = {
             chance = 50 # 50%の確率でさらにダメージ
             add_to_temp_variable = { add_damage = 5 }
         }
-        add_to_variable = { LON_london_bridge_condition = temp_add_damage } # 損耗度にダメージを加算
+        add_to_variable = { LON_london_bridge_condition = temp:add_damage } # 損耗度にダメージを加算 (temp変数への参照を修正)
         clamp_variable = { var = LON_london_bridge_condition max = 100 } # 損耗度を100で上限設定
 
         # 損耗度が一定値を超えたら警告イベント
         if = {
-            limit = { check_variable = { LON_london_bridge_condition > 70 } }
+            limit = { check_variable = { var = LON_london_bridge_condition compare = greater_than value = 70 } }# [cite: 24]
             country_event = { id = LON.london_bridge_critical_condition hours = 1 }
         }
     }
@@ -355,18 +356,18 @@ country_event = {
 
 # ロンドン橋が深刻な損耗状態になった警告イベント
 country_event = {
-    id = LON.london_bridge_critical_condition
+    id = LON.london_bridge_critical_condition # イベントIDの修正# [cite: 25]
     title = LON.london_bridge_critical_condition.t
     desc = LON.london_bridge_critical_condition.desc
     picture = GFX_report_event_bridge_critical # 橋が危険な状態の画像
     
-    is_triggered_only = yes
+    is_triggered_only = yes # mean_time_to_happen がないため is_triggered_only を維持
 
     trigger = {
         has_country_flag = LON_london_bridge_exists
-        check_variable = { LON_london_bridge_condition >= 70 } # 損耗度が70以上
+        check_variable = { var = LON_london_bridge_condition compare = greater_than_or_equals value = 70 } # 損耗度が70以上
         # 重複トリガーを防ぐためのフラグ、ディシジョンで修理開始時にクリア
-        NOT = { has_country_flag = LON_bridge_critical_warning_sent } 
+        NOT = { has_country_flag = LON_bridge_critical_warning_sent }# [cite: 26]
     }
 
     immediate = {
@@ -384,10 +385,10 @@ country_event = {
 # バトル中央銀行危機 (Battle Central Bank Crisis) イベント群
 # ============================================================================
 country_event = {
-    id = LON.battle_central_bank_crisis.start
+    id = LON.battle_central_bank_crisis.start # イベントIDの修正# [cite: 27]
     title = LON.battle_central_bank_crisis.start.t
     desc = LON.battle_central_bank_crisis.start.desc
-    picture = GFX_report_event_economic_crisis # 経済危機を示す汎用画像
+    picture = GFX_report_event_economic_crisis # 経済危機を示す汎用画像# [cite: 27]
     
     is_triggered_only = yes # グローバルフラッグでトリガーされる
 
@@ -400,8 +401,8 @@ country_event = {
         activate_decision = LON_respond_battle_crisis_category
         # 通貨システム連携: 月間通貨収入を激減させる
         set_temp_variable = { UC_penalty = 50 } # 例として50%減
-        multiply_temp_variable = { UC_penalty = -1 }
-        set_variable = { LON_currency_crisis_factor = var:UC_penalty } # 経済危機中の通貨収入補正
+        multiply_temp_variable = { UC_penalty = -1 }# [cite: 28]
+        set_variable = { LON_currency_crisis_factor = temp:UC_penalty } # 一時変数への参照を修正# [cite: 28]
     }
 
     option = {

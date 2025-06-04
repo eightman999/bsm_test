@@ -1,4 +1,4 @@
-capital = 547
+capital = 544
 oob = "Default_oob"
 set_cosmetic_tag = KEN_republic
 # Starting tech
