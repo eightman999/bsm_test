@@ -1,0 +1,7 @@
+fabricated_claim_bsm_negative_opinion = {
+    value = -50
+    decay = 1
+    trade = no
+    target = yes
+    modifier_type = "opinion" # 必要に応じて型を明示
+}

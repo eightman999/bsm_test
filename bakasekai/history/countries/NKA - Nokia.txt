@@ -1,4 +1,4 @@
-﻿capital = 141
+﻿capital = 110
 oob = "Default_oob"
 set_cosmetic_tag = NKA_kingdom
 set_tech_level_1 = yes

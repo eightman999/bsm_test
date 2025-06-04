@@ -1,4 +1,4 @@
-capital = 321
+capital = 698
 oob = "Default_oob"
 set_cosmetic_tag = PRT_republic
 set_tech_level_1 = yes

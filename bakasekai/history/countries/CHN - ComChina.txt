@@ -1,4 +1,4 @@
-capital = 622
+capital = 601
 oob = "Default_oob"
 if = {
 	limit = {

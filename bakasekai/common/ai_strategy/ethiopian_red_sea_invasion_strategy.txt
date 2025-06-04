@@ -11,14 +11,14 @@ eth_red_sea_aggressive_invasion = {
         has_war_with = ETH # 現在のAIがETHと戦争中であること [cite: 51]
         NOT = { # 既に戦略地域102の制海権を確保していないこと
             naval_superiority = {
-                region = 102 # 戦略地域102 (紅海)
-                value = 0.8 # 80%以上の制海権
+                region = 102 # 戦略地域102 (紅海) [cite: 2]
+                value = 0.8 # 80%以上の制海権 [cite: 2]
             }
         }
         NOT = { # 既に戦略地域102の制空権を確保していないこと
             air_superiority = {
-                region = 102 # 戦略地域102 (紅海)
-                value = 0.8 # 80%以上の制空権
+                region = 102 # 戦略地域102 (紅海) [cite: 3]
+                value = 0.8 # 80%以上の制空権 [cite: 3]
             }
         }
     }
@@ -31,12 +31,12 @@ eth_red_sea_aggressive_invasion = {
             # 戦略地域102の制海権と制空権を十分に確保した場合に中止
             AND = {
                 naval_superiority = {
-                    region = 102
-                    value = 0.9 # 90%以上の制海権で十分とみなす
+                    region = 102 [cite: 4]
+                    value = 0.9 # 90%以上の制海権で十分とみなす [cite: 4]
                 }
                 air_superiority = {
-                    region = 102
-                    value = 0.9 # 90%以上の制空権で十分とみなす
+                    region = 102 [cite: 5]
+                    value = 0.9 # 90%以上の制空権で十分とみなす [cite: 5]
                 }
             }
         }
@@ -55,7 +55,7 @@ eth_red_sea_aggressive_invasion = {
     # 前線管理に関するAIストラテジー（強襲上陸を苛烈に）
     ai_strategy = {
         type = front_control # 前線管理に関するAIストラテジー [cite: 651]
-        tag = ETH # 対象国をETHに設定 [cite: 651]
+        tag = ETH # 対象国をETHに設定 [cite: 7]
         ordertype = invasion # 海上侵攻にこのストラテジーを適用 [cite: 651]
         execution_type = rush # 実行タイプを「苛烈 (rush)」に設定。これにより、AIはより攻撃的に行動します。 [cite: 651]
         value = 150 # この設定の優先度を高く設定
@@ -63,14 +63,14 @@ eth_red_sea_aggressive_invasion = {
 
     # 戦略地域102の制海権獲得を優先するAIストラテジー
     ai_strategy = {
-        type = naval_superiority # 制海権獲得を促すAIストラテジー
+        type = naval_supremacy # 制海権獲得を促すAIストラテジー (修正: naval_superiority -> naval_supremacy) [cite: 661]
         id = 102 # 戦略地域102 (紅海) を対象
-        value = 100 # 優先度
+        value = 100 # 優先度 [cite: 8]
     }
 
     # 戦略地域102の制空権獲得を優先するAIストラテジー
     ai_strategy = {
-        type = air_superiority # 制空権獲得を促すAIストラテジー
+        type = air_supremacy # 制空権獲得を促すAIストラテジー (修正: air_superiority -> air_supremacy) [cite: 661]
         id = 102 # 戦略地域102 (紅海) を対象
         value = 100 # 優先度
     }
@@ -78,8 +78,8 @@ eth_red_sea_aggressive_invasion = {
     # 戦略地域102への海軍ミッション（攻撃部隊）の拠点化を促す
     ai_strategy = {
         type = strike_force_home_base # 攻撃部隊の拠点化を促すAIストラテジー [cite: 652]
-        id = 102 # 戦略地域102 (紅海) を対象 [cite: 652]
-        value = 70 # 優先度 [cite: 652]
+        id = 102 # 戦略地域102 (紅海) を対象 [cite: 9]
+        value = 70 # 優先度 [cite: 9]
     }
 
     # 輸送船の生産を促すAIストラテジー

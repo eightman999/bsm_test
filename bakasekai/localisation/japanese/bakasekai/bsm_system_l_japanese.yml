@@ -1,4 +1,5 @@
 ﻿l_japanese:
+USA_GENERIC_GATHERING_STORM_DESC: "かつて世界最強を誇った超大国アメリカは、今や複数の企業系国家に分裂している。カリフォルニア、テキサス、ニューヨークヤンキースなど、各地域はそれぞれ独自の特色を持つ企業や組織によって統治されている。豊富な資源と技術力は健在だが、内部での競争も激しい。分裂した大陸に、再び統一の時は訪れるのだろうか？"
 COUNTRY_PO:0 "[?ROOT.National_Unity_Power|0]"
 popular_opinion_title:0 "国家統合力"
 popular_opinion_desc:0 "国民が、§Hバカであればあるほど§!多く獲得できる。また、§H宗教§!や§H国民精神§!によっても獲得できる。\n特定の§H国家方針§!で追加の統合力を獲得し、§H政治顧問§!で獲得量を増加させることもできる。\n\n国家統合力は伝統の取得やアノマリーの研究に使用される。"
@@ -113,3 +114,31 @@ MD_gold_desc:0 "金鉱山規模"
 MD_cost_desc:0 "維持コスト"
 MD_gain_desc:0 "収入"
 
+
+
+# ------------------------------請求権の捏造--------------------------------------
+BSM_FABRICATE_CLAIM_DIPLO_COST:0 "£resource_energy_large §H100§!"
+BSM_FABRICATE_CLAIM_DIPLO_COST_DESC:0 "請求権の捏造には、£resource_energy_large §H通貨§!が§Y100§!必要です。"
+# 外交アクション
+  DIPLOMACY_BSM_FABRICATE_CLAIM_NAME:0 "請求権の捏造"
+  DIPLOMACY_BSM_FABRICATE_CLAIM_NAME_DESC:0 "§Y[FROM.GetNameDefCap]§!の州のいずれか一つに対する請求権の捏造プロセスを開始します。通貨を消費し、外交関係が悪化する可能性があります。"
+  BSM_FABRICATE_CLAIM_DIPLO_COST:0 "コスト: "£resource_energy_large§Y 通貨§!"
+
+  # スクリプトトリガー (ツールチップ用、任意)
+  bsm_can_initiate_fabricate_claim_diplo_action_trigger:0 "請求権捏造を開始可能"
+  bsm_can_fabricate_claim_on_this_state_in_event_trigger:0 "この州に請求権を捏造可能"
+
+  # イベント
+  BSM_FABRICATE_CLAIM_EVENT_1_TITLE:0 "[FROM.GetNameDefCap]に対する請求権の捏造"
+  BSM_FABRICATE_CLAIM_EVENT_1_DESC:0 "諜報部員が[FROM.GetNameDefCap]の領土である§Y[event_target:bsm_target_state_for_claim_fabrication.GetName]§!に対する請求権の捏造準備を完了しました。\n\nこれには§R[ROOT.bsm_fabrication_actual_cost] UC§!を消費し、間違いなく国際的な非難を浴び、[FROM.GetNameDefCap]との関係は悪化するでしょう。" 
+# [ROOT.bsm_fabrication_actual_cost] はイベント内で計算したコストを表示する一時変数
+  BSM_FABRICATE_CLAIM_EVENT_1_OPT_A:0 "実行せよ！[event_target:bsm_target_state_for_claim_fabrication.GetName]は我々のものだ！"
+  BSM_FABRICATE_CLAIM_EVENT_1_OPT_B:0 "今はその時ではない。"
+
+  BSM_FABRICATE_CLAIM_UC_SHORTAGE_TITLE:0 "資金不足"
+  BSM_FABRICATE_CLAIM_UC_SHORTAGE_DESC:0 "請求権の捏造に必要な通貨が不足しています。"
+  OKAY:0 "了解"
+
+  # 緊張度とOpinion
+  LOC_BSM_FABRICATE_CLAIM_THREAT_JP:0 "請求権の捏造"
+  fabricated_claim_bsm_negative_opinion:0 "我が国への請求権捏造" # 相手国から見た自国への評価

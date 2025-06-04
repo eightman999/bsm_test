@@ -1336,8 +1336,8 @@ bitmapfonts = {
 		name = "hoi_16mbs"
 		#		path = "gfx/fonts/hoi_16mbs"
 		fontfiles = {
-			"gfx/fonts/hoi_16mbs"
-			"gfx/fonts/hoi_16mbs_cryllic"
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
 		}
 		color = 0xffffffff
 		textcolors = {

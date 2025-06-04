@@ -5,7 +5,7 @@ modifier_definitions = {
         category = country
 
         dynamic_modifiers = {
-            currency_gain_factor = var:LON_currency_crisis_factor # 変数'LON_currency_crisis_factor'の値を適用
+            currency_gain_factor = var:LON_currency_crisis_factor
         }
     }
 }

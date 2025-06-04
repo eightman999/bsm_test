@@ -315,7 +315,6 @@ areas = {
             243 # Off South Magnetic Pole (南磁極沖)
             244 # Off Dronning Maud Land (ドローニング・モード・ランド沖)
             245 # Off Riiser-Larsen Ice Shelf (リーザー・ラルセン棚氷沖)
-            SPL # Antarctica (南極大陸) [cite: 9]
         }
     }
 
@@ -331,7 +330,6 @@ areas = {
             253 # Sea North of Greenland (グリーンランド以北海域)
             256 # Arctic Sea Area (北極海域)
             263 # Arctic Islands (北極諸島)
-            NPL # North Pole Continent (北極大陸) [cite: 9]
         }
     }
 

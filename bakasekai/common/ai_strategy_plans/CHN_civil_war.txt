@@ -5,10 +5,10 @@ CHN_civil_war_plan = {
     allowed = {
         OR = {
             tag = CHI
-            tag = PRC
+            tag = CHN
             tag = SHX
             tag = XSM
-            tag = YUN
+            tag = MME
             tag = GXC
             tag = SIK
         }
