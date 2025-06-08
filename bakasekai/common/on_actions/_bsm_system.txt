@@ -261,7 +261,10 @@ on_actions = {
             #### 文明化率 ####
             #仮削除
             #### 鉱山 ####
+            set_variable = { global.MD_demand = 10 }		#鉱山の需要
             every_country = {
+                limit = { always = yes }
+                mine_first_setting = yes
                 mine_on_monthly = yes
             }
             #### 傭兵 ####
