@@ -28,6 +28,7 @@ set_technology = {
 	fuel_refining = 1
 
 	synth_oil_experiments = 1
+	light_tank_chassis_2 = 1
 }
 
 if = {

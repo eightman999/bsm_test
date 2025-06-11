@@ -25,31 +25,22 @@ gcs_create_or_join_alliance = {
         }
         # ファクションが存在する場合、そのファクションに加盟を試みる
         # 既存の地球市民社会同盟のリーダーを探す
-        any_country = {
+        random_country = {
             limit = {
                 is_in_faction = yes
-                faction_leader = {
-                    has_country_flag = gcs_alliance_formed_flag
-                }
-                NOT = { tag = ROOT } # 自身以外の国に
+                is_faction_leader = yes
+                has_country_flag = gcs_alliance_formed_flag
+                NOT = { tag = ROOT }
             }
             # 見つかったファクションリーダーの国を一時的なイベントターゲットとして保存
-            save_temporary_event_target_as = gcs_alliance_leader_temp 
-        }
-
-        # 一時的なイベントターゲットが設定されている（つまり、同盟リーダーが見つかった）場合
-        if = {
-            limit = {
-                has_event_target = gcs_alliance_leader_temp
-            }
-            ROOT = {
-                # ROOT（効果を実行する国）がまだファクションに加盟していない場合
-                if = {
-                    limit = {
-                        NOT = { is_in_faction = yes }
-                    }
-                    add_to_faction = event_target:gcs_alliance_leader_temp # 特定のファクションリーダーのファクションに加入
+            save_event_target_as = gcs_alliance_leader_temp
+            
+            # ROOT（効果を実行する国）がまだファクションに加盟していない場合
+            if = {
+                limit = {
+                    ROOT = { NOT = { is_in_faction = yes } }
                 }
+                add_to_faction = ROOT
             }
         }
     }
