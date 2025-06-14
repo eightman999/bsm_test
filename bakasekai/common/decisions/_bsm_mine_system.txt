@@ -256,7 +256,27 @@ bsm_mine = {
 		}
 	}
 
+	debug_1 = {
+		icon = GFX_raid_type_icon_mine_sabotage_raid
+		priority = 50
+		days_remove = 60
+		modifier = {
+			MD_gain_factor = 0.5
+		}
+		available = {
+        }
+        visible = {
+			
+        }
 
+		remove_effect = {
+			calc_gold_demand = yes
+		}
+		complete_effect ={
+
+
+		}
+	}
 
 
 }

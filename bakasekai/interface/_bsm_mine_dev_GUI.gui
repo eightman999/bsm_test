@@ -46,8 +46,8 @@ guiTypes = {
 				maxHeight = 23
 				format = centre
 				fixedsize = yes
-				pdx_tooltip = MD_total_tooltip
-				pdx_tooltip_delayed = MD_total_tooltip_delay
+				pdx_tooltip = MD_demand_tooltip
+				pdx_tooltip_delayed = MD_demand_tooltip_delay
 			}
 			instantTextboxType = {
 				name = "MD_demand"
@@ -58,8 +58,8 @@ guiTypes = {
 				maxHeight = 23
 				format = centre
 				fixedsize = yes
-				pdx_tooltip = MD_total_tooltip
-				pdx_tooltip_delayed = MD_total_tooltip_delay
+				pdx_tooltip = MD_demand_tooltip
+				pdx_tooltip_delayed = MD_demand_tooltip_delay
 			}
 
 			# 合計収支
@@ -109,6 +109,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "bsm_mine_log"
 				size = { width = 310 height = 210 }
+
 				position = { x = 203 y = 35 }
 				background = {
 					name = "Background"
@@ -120,7 +121,7 @@ guiTypes = {
 				gridboxtype = {
 					name = "mine_log_gridbox"
 					position = { x=10 y=0 }
-					size = { width = 100%% height = 100%% }
+					size = { width = 100%% height = 10%% }
 					slotsize = { width=285 height= 50 }
 					max_slots_horizontal = 1
 					add_horizontal = no

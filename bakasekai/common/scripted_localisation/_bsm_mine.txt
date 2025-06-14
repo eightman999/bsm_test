@@ -13,6 +13,10 @@ defined_text = {
         localization_key = MD_log_occupied_change
     }
     text = {
+        trigger = { check_variable = { log_id = 4 } }
+        localization_key = MD_log_on_monthly
+    }
+    text = {
         localization_key = MD_log_unknown
     }
 }
