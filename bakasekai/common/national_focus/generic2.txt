@@ -2,6 +2,10 @@ focus_tree = {
 	id = generic_focus
 	country = {
 		factor = 2
+		modifier = {
+			factor = 0
+			tag = ___
+		}
 	}
 	default = yes
 	reset_on_civilwar = no
