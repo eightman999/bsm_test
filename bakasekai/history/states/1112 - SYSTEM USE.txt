@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			15320  404
 		}
-		set_variable = { gold_mine = 500 }
+		set_variable = { gold_mine = 999 }
 	}
 	provinces={15320}
 }
