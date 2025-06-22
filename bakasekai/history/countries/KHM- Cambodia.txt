@@ -1,4 +1,4 @@
-capital = 741
+capital = 461
 oob = "Default_oob"
 set_tech_level_1 = yes
 set_cosmetic_tag = KHM_kingdom

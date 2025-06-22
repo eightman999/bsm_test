@@ -1,0 +1,13 @@
+opinion_modifiers={
+fabricated_claim_bsm_negative_opinion = {
+    value = -50
+    decay = 1
+    trade = no
+}
+
+shipyard_ll_opinion_modifier = {
+    value = 25 # 友好度を25ポイント増加
+    days = 180 # 友好度補正が持続する期間 (180日)
+    trade = yes
+}
+}

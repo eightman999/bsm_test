@@ -22,6 +22,7 @@ replace_path="common/ideas"
 replace_path="common/characters"
 replace_path="common/intelligence_agencies"
 replace_path="common/military_industrial_organization"
+replace_path="common/military_industrial_organization/organizations"
 replace_path="common/dynamic_modifiers"
 replace_path="common/peace_conference/cost_modifiers"
 replace_path="common/technologies"
@@ -55,7 +56,7 @@ name="バカ世界地図テスト版"
 dependencies={
 	"Japanese Language mod"
 }
-supported_version="1.12.7"
+supported_version="1.13.*"
 remote_file_id="2585391890"
 
 # フォントは、以下のフォントを利用させて頂いております

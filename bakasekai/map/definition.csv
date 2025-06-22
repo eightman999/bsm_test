@@ -15305,8 +15305,8 @@
 15304;15;15;229;sea;true;ocean;0
 15305;111;0;15;land;true;mountain;3
 15306;111;5;15;land;true;mountain;3
-15307;111;10;15;land;true;mountain;6
-15308;111;15;15;land;true;mountain;2
+15307;111;10;15;land;false;mountain;6
+15308;111;15;15;land;false;mountain;2
 15309;111;20;15;land;true;mountain;9
 15310;111;25;15;land;true;mountain;8
 15311;111;30;15;land;true;mountain;2
@@ -15318,4 +15318,4 @@
 15317;111;60;15;land;true;plains;2
 15318;111;65;15;land;true;plains;2
 15319;111;70;15;land;true;plains;2
-15320;111;75;15;land;true;plains;2
+15320;100;100;100;land;false;plains;7

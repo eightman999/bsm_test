@@ -19,4 +19,4 @@ set_popularities = {
 	neutrality_ideology = 20
 }
 
-recruit_character = BSK_yakov_bykin
+# recruit_character = BSK_yakov_bykin # 未定義キャラクターのため一時的にコメントアウト

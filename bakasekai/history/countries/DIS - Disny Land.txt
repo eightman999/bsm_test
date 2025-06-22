@@ -1,4 +1,4 @@
-capital = 318
+capital = 366
 oob = "Default_oob"
 # Starting tech
 land_tech_level_0 = yes

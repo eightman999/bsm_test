@@ -1,4 +1,4 @@
-﻿capital = 804
+﻿capital = 358
 set_tech_level_1 = yes
 oob = "Default_oob"
 # Starting tech

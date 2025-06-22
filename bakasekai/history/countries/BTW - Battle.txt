@@ -11,13 +11,7 @@ doctrine_set_0 = yes
 
 navy_tech_level_3 = yes
 
-recruit_character = KarlGero
-recruit_character = Antanas_Smetona
-recruit_character = BT_est
-recruit_character = BT_lit
-recruit_character = BT_rat
 recruit_character = BT_btl
-recruit_character = BT_zjd
 political_set_0 = yes
 
 set_popularities = {

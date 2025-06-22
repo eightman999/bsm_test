@@ -1,4 +1,4 @@
-﻿capital = 638
+﻿capital = 733
 set_cosmetic_tag = GMI_imperial_state
 #oob = "Default_oob" 
 # Starting tech

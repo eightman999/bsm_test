@@ -1,5 +1,5 @@
-﻿capital = 399#Izhevsk
-#oob = "Default_oob" 
+﻿capital = 827#Izhevsk
+#oob = "Default_oob"
 set_tech_level_1 = yes
 set_cosmetic_tag = UDM_republic
 # Starting tech
@@ -13,10 +13,7 @@ navy_tech_level_3 = yes
 political_set_d = yes
 
 set_popularities = {
-	democratic_ideology = 60
-	fascism_ideology = 20
+	democratic_ideology = 80
+	fascism_ideology = 10
 	communism_ideology = 10
-	neutrality_ideology = 10
 }
-
-recruit_character = UDM_boris

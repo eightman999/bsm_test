@@ -18,6 +18,3 @@ set_popularities = {
 	communism_ideology = 20
 	neutrality_ideology = 10
 }
-
-recruit_character = KHI_nedirbay_aytakov
-recruit_character = KHI_junaid_khan

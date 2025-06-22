@@ -1,7 +1,7 @@
 shared_focus = {
 	id = HRE_plan_four_years
 	icon = GFX_goal_generic_production
-	x = 16
+	x = 24
 	y = 0
 	cost = 5
 	available = {
@@ -82,7 +82,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -122,7 +121,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -136,7 +134,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -150,7 +147,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -192,7 +188,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -206,7 +201,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -220,7 +214,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -234,7 +227,6 @@ shared_focus = {
 				free_building_slots = {
 					building = infrastructure
 					size > 0
-					include_locked = yes
 				}
 			}
 			add_building_construction = {
@@ -275,7 +267,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 1
-						include_locked = yes
 					}
 				}
 			}
@@ -291,7 +282,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -306,7 +296,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -354,7 +343,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 1
-						include_locked = yes
 					}
 				}
 			}
@@ -370,7 +358,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -385,7 +372,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -400,7 +386,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -448,7 +433,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 1
-						include_locked = yes
 					}
 				}
 			}
@@ -464,7 +448,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -479,7 +462,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -494,7 +476,6 @@ shared_focus = {
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -543,7 +524,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 1
-						include_locked = yes
 					}
 				}
 			}
@@ -559,7 +539,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -574,7 +553,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -622,7 +600,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 1
-						include_locked = yes
 					}
 				}
 			}
@@ -641,7 +618,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -656,7 +632,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -671,7 +646,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -719,7 +693,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 1
-						include_locked = yes
 					}
 				}
 			}
@@ -738,7 +711,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -753,7 +725,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -768,7 +739,6 @@ shared_focus = {
 					free_building_slots = {
 						building = arms_factory
 						size > 0
-						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 1

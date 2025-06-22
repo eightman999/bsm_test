@@ -545,22 +545,6 @@ SWI_turn_militias_into_regulars = { #Effect to turn militias into regulars
 				}
 				clr_country_flag = SWI_militia_active
 			}
-			if = {
-				limit = {
-					has_dynamic_modifier = { modifier =  SWI_dormant_citizen_militia} 
-				}
-				remove_dynamic_modifier = {
-					modifier = SWI_dormant_citizen_militia 
-				}
-			}
-			if = {
-				limit = {
-					has_dynamic_modifier = { modifier = SWI_active_citizen_militia }
-				}
-				remove_dynamic_modifier = {
-					modifier = SWI_active_citizen_militia 
-				}
-			}
 		}  
 	}
 }
@@ -642,14 +626,12 @@ SWI_bring_professionalized_divisions_to_the_correct_level = {
 }
 
 SWI_reset_citizen_militia_active_modifier = {
-
 	set_variable = { SWI_citizen_militia_industrial_capacity_factory = SWI_citizen_militia_initial_industrial_capacity_factory }
 	set_variable = { SWI_citizen_militia_industrial_capacity_dockyard = SWI_citizen_militia_initial_industrial_capacity_dockyard }
 	set_variable = { SWI_citizen_militia_production_speed_buildings_factor = SWI_citizen_militia_initial_production_speed_buildings_factor }
 	set_variable = { SWI_citizen_militia_civ_factory_use = SWI_citizen_militia_initial_civ_factory_use }
 	set_variable = { SWI_citizen_militia_training_time_factor = SWI_citizen_militia_initial_training_time_factor}
 	set_variable = { SWI_citizen_militia_active_level = 1 }
-
 }
 
 SWI_level_up_citizen_militia_active_modifier = {
@@ -1709,7 +1691,6 @@ SWI_seize_gold = {
 		set_variable = { SWI.SWI_gold_seized_lack_of_resource_penalty_factor = SWI_gold_seized_lack_of_resource_penalty_factor  }
 		set_variable = { SWI.SWI_gold_seized_factory_max_efficiency_factor = SWI_gold_seized_factory_max_efficiency_factor  }
 	}
-	remove_dynamic_modifier = { modifier = SWI_gold_trade_with_switzerland }
 	custom_effect_tooltip = SWI_remove_swiss_gold_dynamic_mod_TT
 	add_opinion_modifier = {
 		target = SWI
@@ -1719,13 +1700,8 @@ SWI_seize_gold = {
 		target = SWI 
 		modifier = SWI_gold_trade
 	}
-	add_dynamic_modifier = {
-		modifier = SWI_stole_our_gold_reserves
-		days = 180
-	}
 	custom_effect_tooltip = SWI_add_stolen_gold_dynamic_mod_TT
 	SWI = {
-		add_dynamic_modifier = { modifier = SWI_seized_gold days = 365 } 
 		custom_effect_tooltip = SWI_seized_gold_dynamic_mod_TT
 	}
 	SWI_adjust_gold_market_after_seizing_gold = yes 
@@ -2088,7 +2064,7 @@ SWI_allow_hiring_councilor_again = {
 # 		}
 # 		# SWI = {
 # 		# 	unlock_decision_tooltip = {
-# 		# 		decision = SWI_militarization_drive
+# 		 	 		# 		decision = SWI_militarization_drive
 # 		# 		show_effect_tooltip = yes
 # 		# 		show_modifiers = yes
 # 		# 	}

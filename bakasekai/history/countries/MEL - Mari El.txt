@@ -1,7 +1,7 @@
-﻿capital = 833#Yoshkar-Ola
-#oob = "Default_oob" 
-set_cosmetic_tag = MEL_republic
+﻿capital = 825#Yoshkar-Ola
+oob = "Default_oob"
 set_tech_level_1 = yes
+set_cosmetic_tag = MEL_republic
 # Starting tech
 land_tech_level_3 = yes
 support_tech_level_2 = yes
@@ -13,10 +13,7 @@ navy_tech_level_3 = yes
 political_set_d = yes
 
 set_popularities = {
-	democratic_ideology = 50
-	fascism_ideology = 40
+	democratic_ideology = 80
+	fascism_ideology = 10
 	communism_ideology = 10
-	neutrality_ideology = 0
 }
-
-recruit_character = MEL_zinovy_zhadinov
