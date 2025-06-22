@@ -24,11 +24,6 @@ ideas = {
                 consumer_goods_factor = 0.1 # 消費財が増加
                 research_speed_factor = -0.05
             }
-            # 通貨収入補正はこのアイデアの期間中有効
-            add_dynamic_modifier = {
-                modifier = LON_currency_crisis_modifier
-                days = -1 # 無期限
-            }
         }
         LON_economic_recovery_effort = {
             picture = GFX_idea_empty # 空のアイコン
@@ -42,7 +37,7 @@ ideas = {
             modifier = {
                 stability_factor = 0.1
                 consumer_goods_factor = -0.1
-                industrial_research_speed_factor = 0.05
+                research_speed_factor = 0.05
             }
         }
     }

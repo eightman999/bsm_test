@@ -23,7 +23,6 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.05
 				army_core_attack_factor = 0.05
-				army_core_defense_factor = 0.05
 				surrender_limit = 0.25 # 降伏限界 +25%
 			}
 		}
