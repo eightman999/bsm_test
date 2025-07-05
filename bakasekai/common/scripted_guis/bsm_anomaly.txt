@@ -18,6 +18,9 @@ scripted_gui = {
 			# 		set_variable = { OE_page = 1 }
 			# 	}
 			# }
+			close_button_click = {
+				clear_variable = bsm_anomaly_tab
+			}
 		}
 	}
 }
