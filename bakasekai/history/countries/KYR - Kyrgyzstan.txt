@@ -2,9 +2,7 @@ capital = 732
 oob = "Default_oob"
 set_cosmetic_tag = KYR_republic
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 5
 recruit_character = KYR_ncs
@@ -27,12 +25,7 @@ recruit_character = KYR_stc
 recruit_character = KYR_aa2
 recruit_character = KYR_ncm
 recruit_character = KYR_communist_guy
-set_politics = {
-	ruling_party = democratic_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_d = yes
 
 set_popularities = {
 	democratic_ideology = 50

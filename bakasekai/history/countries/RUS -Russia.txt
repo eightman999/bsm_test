@@ -17,24 +17,16 @@ if = {
 	set_oob = "SOV_1936_nsb"
 }
 
-set_research_slots = 3
+set_tech_level_1 = yes
+land_tech_level_3 = yes
+support_tech_level_2 = yes
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_support = 1
-	tech_engineers = 1
-	tech_military_police = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	paratroopers = 1
-	gw_artillery = 1
 	interwar_antiair = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	basic_train = 1
+
 	synth_oil_experiments = 1
 }
 
@@ -42,7 +34,7 @@ if = {
 	limit = {
 		has_dlc = "By Blood Alone"
 	}
-	# set_air_oob = "SOV_1936_air_bba"
+
 	set_technology = {
 		iw_small_airframe = 1
 		aa_lmg = 1
@@ -57,7 +49,7 @@ if = {
 		aircraft_construction = 1
 	}
 	else = {
-		# set_air_oob = "SOV_1936_air_legacy"
+	
 		set_technology = {
 			early_fighter = 1
 			fighter1 = 1
@@ -67,18 +59,7 @@ if = {
 		}
 	}
 }
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-	}
-}
+tank_tech_level_1 = yes
 
 if = {
 	limit = {
@@ -137,16 +118,17 @@ recruit_character = MOS_Oliga
 recruit_character = MOS_anastashia
 recruit_character = MOS_tatiana
 recruit_character = MOS_maria
-recruit_character = SOV_georgy_zhukov
+recruit_character = RUS_Peter_von_Wrangel
+recruit_character = RUS_Anton_ivanovich_Denikin
+recruit_character = RUS_Aleksandr_Vasilevich_Kolchak
+recruit_character = RUS_berence
+recruit_character = RUS_Boris_Vladimirovich_Annenkov
+recruit_character = RUS_Roman_Fyodorovich_von_Ungern
+recruit_character = RUS_arecsey
 # give_guarantee = JPN
 set_convoys = 10
-set_politics = {
-	ruling_party = constitutional_monarchy
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
+political_set_m = yes
+add_ideas = sav_isan
 set_popularities = {
 	rightneutrality = 30
 	neutrality_ideology = 30

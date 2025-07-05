@@ -32,8 +32,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CHL_start_discuss
 		}
+
 		mutually_exclusive = {
-			focus = CHL_adopt_larger_country
+			focus = CHL_adopt_to_kyonu
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -74,6 +75,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHL_adopt_longer_country
 		}
+		
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHL_politic_discussing
@@ -3652,7 +3654,7 @@ focus_tree = {
 						is_coastal = no
 					}
 					add_core_of = MAC
-					transfer_state = MAC
+					transfer_state_to = MAC
 				}
 			}
 		}

@@ -4778,9 +4778,6 @@ prospect_for_resources = {
 				}
 			}
 		}
-
-
-
 		cost = 25
 		days_remove = 90
 
@@ -7363,7 +7360,6 @@ prospect_for_resources = {
 				state = 350
 			}
 		}
-
 
 		available = {
 			has_tech = excavation3

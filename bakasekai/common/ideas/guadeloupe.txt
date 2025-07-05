@@ -1,7 +1,6 @@
 ideas = {
 	# MILITARY
 
-
 	political_advisor = {
 	
 		GDL_democratic_guy = {

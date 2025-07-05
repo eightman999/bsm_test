@@ -74,13 +74,13 @@ focus_tree = {
 			AND = {
 				has_idea = battle3_kodoku
 				NOT = {
-					has_country_flag = "NAISEN_JYUNBI"
+					has_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 				}
 			}
 		}
 		select_effect = {
 			add_ideas = battle3_naisen
-			set_country_flag = "国内問題に対処"
+			set_country_flag = Addressing_domestic_issues #"国内問題に対処"
 			IF = {
 				limit = {
 					NOT = {
@@ -89,7 +89,7 @@ focus_tree = {
 				}
 				set_global_flag = "BSM_Battle"
 				BTY = {
-					set_country_flag = "NAISEN_JYUNBI"
+					set_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 					set_country_flag = naisennbattle
 					add_state_core = 11
 					add_state_core = 12
@@ -163,10 +163,10 @@ focus_tree = {
 						level = 5
 					}
 					add_ideas = war_economy
-					load_oob="BTY_civilwar"
+					load_oob = "BTY_civilwar"
 				}
 				BTW = {
-					set_country_flag = "NAISEN_JYUNBI"
+					set_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 					add_state_core = 11
 					add_state_core = 12
 					add_state_core = 13
@@ -222,18 +222,17 @@ focus_tree = {
 						type = industrial_complex
 						level = 5
 					}
-					load_oob="BTW_civilwar"
+					load_oob = "BTW_civilwar"
 				}
 				BTP = {
-					set_country_flag = "NAISEN_JYUNBI"
+					set_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 					ROOT = {
-						if = {	
+						if = {
 							limit = {
-							tag = BTP
+								tag = BTP
 							}
 							add_manpower = 200000
 						}
-
 					}
 					add_state_core = 11
 					add_state_core = 12
@@ -305,10 +304,10 @@ focus_tree = {
 						type = industrial_complex
 						level = 5
 					}
-					load_oob="BTP_civilwar"
+					load_oob = "BTP_civilwar"
 				}
 				BTG = {
-					set_country_flag = "NAISEN_JYUNBI"
+					set_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 					add_state_core = 11
 					add_state_core = 12
 					add_state_core = 13
@@ -379,11 +378,11 @@ focus_tree = {
 						type = industrial_complex
 						level = 5
 					}
-					load_oob="BTG_civilwar"
+					load_oob = "BTG_civilwar"
 					add_ideas = war_economy
 				}
 				BTL = {
-					set_country_flag = "NAISEN_JYUNBI"
+					set_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 					add_offsite_building = {
 						type = industrial_complex
 						level = 5
@@ -393,7 +392,7 @@ focus_tree = {
 						days = 3
 					}
 					add_ideas = war_economy
-					load_oob="BTL_civilwar"
+					load_oob = "BTL_civilwar"
 				}
 				BTW = {
 					add_ideas = battle3_kodoku
@@ -421,9 +420,10 @@ focus_tree = {
 				}
 				play_song = "music_rcww"
 			}
+			set_global_flag = "BSM_Battle_naisen"
 			every_country = {
 				limit = {
-					has_country_flag = "NAISEN_JYUNBI"
+					has_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 				}
 				add_stability = 0.3
 				add_ideas = battle3_kodoku
@@ -431,7 +431,7 @@ focus_tree = {
 					type = industrial_complex
 					level = 5
 				}
-				clr_country_flag = "NAISEN_JYUNBI"
+				clr_country_flag = BTLs_Preparation_for_civil_war #"NAISEN_JYUNBI"
 			}
 			declare_war_on = {
 				target = BTG
@@ -486,7 +486,7 @@ focus_tree = {
 				}
 			}
 			ROOT = {
-				if ={
+				if = {
 					limit = {
 						is_ai = no
 					}
@@ -494,7 +494,6 @@ focus_tree = {
 						id = baka_super.1
 					}
 				}
-
 			}
 		}
 	}
@@ -556,7 +555,7 @@ focus_tree = {
 			factor = 100
 		}
 		select_effect = {
-			set_country_flag = "国内問題に対処"
+			set_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		completion_reward = {
 			add_stability = 0.1
@@ -1033,7 +1032,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1343,7 +1342,7 @@ focus_tree = {
 		x = 17
 		y = 0
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -1619,7 +1618,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -1752,7 +1750,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -2191,9 +2189,7 @@ focus_tree = {
 		y = 13
 		bypass = {
 			GRC = {
-			
-					is_puppet = yes
-				
+				is_puppet = yes
 			}
 		}
 		completion_reward = {
@@ -2219,9 +2215,7 @@ focus_tree = {
 		y = 13
 		bypass = {
 			TUR = {
-		
-					is_puppet = yes
-				
+				is_puppet = yes
 			}
 		}
 		completion_reward = {
@@ -2247,8 +2241,7 @@ focus_tree = {
 		y = 13
 		bypass = {
 			MYS = {
-					is_puppet = yes
-				
+				is_puppet = yes
 			}
 		}
 		completion_reward = {

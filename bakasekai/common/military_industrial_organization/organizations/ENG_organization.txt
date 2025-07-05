@@ -205,7 +205,6 @@ ENG_vauxhall_organization = {
 	}
 }
 
-
  ######  ##     ## #### ########   ######  
 ##    ## ##     ##  ##  ##     ## ##    ## 
 ##       ##     ##  ##  ##     ## ##       
@@ -213,9 +212,6 @@ ENG_vauxhall_organization = {
       ## ##     ##  ##  ##              ## 
 ##    ## ##     ##  ##  ##        ##    ## 
  ######  ##     ## #### ##         ######  
-
-
-
 ENG_harland_wolff_organization = {
 	include = generic_task_force_ship_organization
 	icon = GFX_idea_harland_wolff
@@ -264,7 +260,6 @@ ENG_harland_wolff_organization = {
 		}
 	}
 }
-
 
 ENG_cammell_laird_organization = {
 	include = generic_battle_line_ship_organization
@@ -409,9 +404,6 @@ ENG_john_brown_organization = {
 		}
 	}
 }
-
-
-
 ########  ##          ###    ##    ## ########  ######  
 ##     ## ##         ## ##   ###   ## ##       ##    ## 
 ##     ## ##        ##   ##  ####  ## ##       ##       
@@ -419,7 +411,6 @@ ENG_john_brown_organization = {
 ##        ##       ######### ##  #### ##             ## 
 ##        ##       ##     ## ##   ### ##       ##    ## 
 ##        ######## ##     ## ##    ## ########  ######  
-
 
 ENG_supermarine_organization = {
 	include = generic_high_agility_fighter_aircraft_organization
@@ -627,9 +618,6 @@ ENG_avro_organization = {
 		original_tag = GBR
 	}
 }
-
-
-
 
 ##     ##    ###    ######## ######## ########  #### ######## ##       
 ###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       

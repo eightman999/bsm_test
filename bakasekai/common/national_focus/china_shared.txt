@@ -34,7 +34,6 @@
 #		}
 #	}
 
-
 shared_focus = {
 	id = CHI_invite_foreign_investors 
 	icon = GFX_focus_generic_concessions
@@ -787,9 +786,6 @@ shared_focus = {
 	}
 }
 
-
-
-
 shared_focus = {
 	id = CHI_combined_arms_warfare
 	icon = GFX_goal_generic_army_doctrines
@@ -1343,7 +1339,6 @@ shared_focus = {
 		}
 	}
 }
-
 
 shared_focus = {
 	id = CHI_guarantee_the_hanoi_route
@@ -2210,7 +2205,7 @@ shared_focus = {
 			IND = { country_event = { id = generic.5 } }
 		}
 		else = {
-			IND = { country_event = wtt_china_shared.1 }
+			# IND = { country_event = wtt_china_shared.1 }
 		}
 	}
 }

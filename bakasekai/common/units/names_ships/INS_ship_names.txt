@@ -17,7 +17,6 @@ INS_DD_HISTORICAL = {
 	}
 }
 
-
 ### LIGHT CRUISER NAMES###
 INS_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
@@ -106,7 +105,6 @@ INS_CV_HISTORICAL = {
 		"Sumatra" "Java" "Kalimantan" "Sulawesi" "Nusa Tenggara" "Papua" "Maluku" "Aceh"
 	}
 }
-
 
 ### SUBMARINES ###
 INS_SS_HISTORICAL = {

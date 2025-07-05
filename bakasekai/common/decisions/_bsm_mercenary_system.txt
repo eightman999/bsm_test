@@ -6,7 +6,7 @@ mercenary_system_koyou = {
 			AND = {
 				custom_trigger_tooltip ={
 					check_variable = {
-						COUNTRY_e_c  > 29
+						Unified_Currency > 29
 					}
 					tooltip =  need_50_energy
 				}
@@ -16,17 +16,17 @@ mercenary_system_koyou = {
 					}
 					tooltip =  MS_max_tt
 				}
-				NOT = { has_country_flag = MS_ALLOWED }
+				NOT = { has_country_flag = Mercenary_System_Allowed }
 
 			}
 
 		}
 		visible = {
-			has_country_flag = MS_ALLOWED
+			has_country_flag = Mercenary_System_Allowed
 		}
 		complete_effect = {
 			subtract_from_variable = {
-				COUNTRY_e_c = 30
+				Unified_Currency = 30
 			}
 			add_to_variable = {
 				MS_sum_num = 2
@@ -40,7 +40,7 @@ mercenary_system_koyou = {
 				}
 				priority = 0
 			}
-			ROOT.capital = {
+			random_owned_state = {
 				create_unit = {
 					division = "division_template = MS_NAME start_experience_factor = 1 start_equipment_factor = 1"
 					owner = ROOT
@@ -56,7 +56,7 @@ mercenary_system_koyou = {
 			AND = {
 				custom_trigger_tooltip ={
 					check_variable = {
-						COUNTRY_e_c  > 49
+						Unified_Currency  > 49
 					}
 					tooltip =  need_50_energy
 				}
@@ -66,16 +66,16 @@ mercenary_system_koyou = {
 					}
 					tooltip =  MS_max_tt
 				}
-				NOT = { has_country_flag = MS_ALLOWED }
+				NOT = { has_country_flag = Mercenary_System_Allowed }
 
 			}
 		}
 		visible = {
-			has_country_flag = MS_ALLOWED
+			has_country_flag = Mercenary_System_Allowed
 		}
 		complete_effect = {
 			subtract_from_variable = {
-				COUNTRY_e_c = 50
+				Unified_Currency = 50
 			}
 			add_to_variable = {
 				MS_sum_num = 4
@@ -91,7 +91,7 @@ mercenary_system_koyou = {
 				}
 				priority = 0
 			}
-			ROOT.capital = {
+			random_owned_state = {
 				create_unit = {
 					division = "division_template = MS_NAME_2 start_experience_factor = 1 start_equipment_factor = 1"
 					owner = ROOT
@@ -102,7 +102,7 @@ mercenary_system_koyou = {
 	}
 	mercenary_system_kaiko = {
 		visible = {
-			has_country_flag = MS_ALLOWED
+			has_country_flag = Mercenary_System_Allowed
 		}
 		available = {
 			check_variable = {

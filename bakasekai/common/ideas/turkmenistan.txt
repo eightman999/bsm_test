@@ -1,7 +1,6 @@
 ideas = {
 	# MILITARY
 
-
 	political_advisor = {
 
 		TMS_democratic_guy = {

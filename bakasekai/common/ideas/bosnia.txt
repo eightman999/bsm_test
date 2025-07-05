@@ -1,7 +1,6 @@
 ideas = {
 	# MILITARY
 
-
 	political_advisor = {
 	
 		BOS_democratic_guy = {

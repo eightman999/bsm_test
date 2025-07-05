@@ -143,7 +143,6 @@ guiTypes = {
 			pdx_tooltip = "WARGOAL"
 		}
 
-
 		buttonType ={
 			name ="defender_capitulation"
 			quadTextureSprite = "GFX_surrender_icon"

@@ -1,316 +1,59 @@
-
-
-BSM_set_mine = {
-	set_variable = {
-		global.MD_gold_demand = 1
-	}
-	add_to_variable = {
-		global.MD_gold_demand = threat
-	}
-	set_variable = {
-		MD_cost = 0
-	}
-	set_variable = {
-		MD_gold = 0
-	}
-	set_variable = {
-		MD_juwel = 0
-	}
-	set_variable = {
-		MD_gain = 0
-	}
-	every_owned_state = {
-		if = {
-			limit = {
-				has_state_flag = Gold_Rush
-			}
-			add_to_variable = {
-				amount_goid_mine = 1
-			}
-			multiply_variable = {
-				amount_goid_mine = infrastructure_level
-			}
-			add_to_variable = {
-				PREV.MD_gold = amount_goid_mine
-			}
-			add_to_variable = {
-				PREV.MD_cost = amount_goid_mine
-			}
+#現在のスコープの領有する鉱山のレベルの合計を算出します。
+culc_mine_total = {
+	hidden_effect = {
+		#金鉱山
+		set_variable = { MD_gold = 0 }
+		#領有済
+		every_owned_state = {
+			limit = { check_variable = { THIS.gold_mine > 0 } }
+			add_to_variable = { ROOT.MD_gold = THIS.gold_mine }
 		}
-		if = {
-			limit = {
-				has_state_flag = Jewel_Rush
-			}
-			add_to_variable = {
-				amount_juwel_mine = 1
-			}
-			multiply_variable = {
-				amount_juwel_mine = infrastructure_level
-			}
-			add_to_variable = {
-				PREV.MD_juwel = amount_juwel_mine
-			}
-			add_to_variable = {
-				PREV.MD_cost = amount_goid_mine
-			}
+		#占領済み
+		every_controlled_state = {
+			limit = { check_variable = { THIS.gold_mine > 0 } is_in_array = { occupied_mine_state = THIS } }
+			add_to_variable = { ROOT.MD_gold = THIS.gold_mine }
 		}
-	}
-	divide_variable = {
-		MD_cost = 30
+
 	}
 }
 
-BSM_weekly_mine = {
-	set_variable = {
-		global.MD_gold_demand = 1
-	}
-	add_to_variable = {
-		global.MD_gold_demand = threat
-	}
-	set_variable = {
-		MD_cost = 0
-	}
-	set_variable = {
-		MD_gold = 0
-	}
-	set_variable = {
-		MD_juwel = 0
-	}
-	every_owned_state = {
-		if = {
-			limit = {
-				has_state_flag = Gold_Rush
-			}	
-			add_to_variable = {
-				PREV.MD_gold = amount_goid_mine
-			}
-			add_to_variable = {
-				PREV.MD_cost = amount_goid_mine
-			}
-		}
-		if = {
-			limit = {
-				has_state_flag = Jewel_Rush
-			}
-			add_to_variable = {
-				PREV.MD_juwel = amount_juwel_mine
-			}
-			add_to_variable = {
-				PREV.MD_cost = amount_goid_mine
-			}
-		}
-		divide_variable = {
-			MD_cost = 20
-		}
-		subtract_from_variable = {
-			COUNTRY_e_c = MD_cost
-		}
-	}
-}
 
-BSM_MINE_EXPORT = {
+#指定のステートの金鉱山のレベルを既定の量変化させる(temp state_id / level)
+add_gold_mine_level = {
 	if = {
 		limit = {
-			has_idea = uncontrolled_exports
-		}
-		add_to_variable = {
-			global.MD_gold_supply = MD_gold
-		}
-		add_to_variable = {
-			global.MD_juwel_supply = MD_juwel
-		}
-		set_variable = {
-			MD_gain_g = MD_gold
-		}
-		set_variable = {
-			MD_gain_j = MD_juwel
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_g
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_j
-		}
-		multiply_variable = {
-			MD_gain = global.MD_req
-		}
-		divide_variable = {
-			MD_gain = 10
-		}
-	}else_if={
-		limit = {
-			has_idea = free_trade
-		}
-		add_to_variable = {
-			global.MD_gold_supply = MD_gold
-		}
-		add_to_variable = {
-			global.MD_juwel_supply = MD_juwel
-		}
-		set_temp_variable = {
-			MD_gain_g = MD_gold
-		}
-		set_temp_variable = {
-			MD_gain_j = MD_juwel
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_g
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_j
-		}
-		multiply_variable = {
-			MD_gain = global.MD_req
-		}
-		divide_variable = {
-			MD_gain = 5
-		}
-	}else_if={
-		limit = {
-			has_idea = export_focus
-		}
-		add_to_variable = {
-			global.MD_gold_supply = MD_gold
-		}
-		add_to_variable = {
-			global.MD_juwel_supply = MD_juwel
-		}
-		set_temp_variable = {
-			MD_gain_g = MD_gold
-		}
-		set_temp_variable = {
-			MD_gain_j = MD_juwel
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_g
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_j
-		}
-		multiply_variable = {
-			MD_gain = global.MD_req
-		}
-		divide_variable = {
-			MD_gain = 2.5
-		}
-	}else_if={
-		limit = {
-			has_idea = limited_exports
-		}
-		add_to_variable = {
-			global.MD_gold_supply = MD_gold
-		}
-		add_to_variable = {
-			global.MD_juwel_supply = MD_juwel
-		}
-		set_temp_variable = {
-			MD_gain_g = MD_gold
-		}
-		set_temp_variable = {
-			MD_gain_j = MD_juwel
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_g
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_j
-		}
-		multiply_variable = {
-			MD_gain = global.MD_req
-		}
-		divide_variable = {
-			MD_gain = 7.5
-		}
-	}else_if={
-		limit = {
-			has_idea = closed_economy
-		}
-		add_to_variable = {
-			global.MD_gold_supply = MD_gold
-		}
-		add_to_variable = {
-			global.MD_juwel_supply = MD_juwel
-		}
-		set_temp_variable = {
-			MD_gain_g = MD_gold
-		}
-		set_temp_variable = {
-			MD_gain_j = MD_juwel
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		multiply_variable = {
-			MD_gain_g = global.MD_gold_demand
-		}
-		multiply_variable = {
-			MD_gain_j = global.MD_juwel_demand
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_g
-		}
-		add_to_variable = {
-			MD_gain = MD_gain_j
-		}
-		multiply_variable = {
-			MD_gain = global.MD_req
-		}
-		divide_variable = {
-			MD_gain = 10
-		}
-		add_to_variable = {
-			COUNTRY_e_c = MD_gain
-		}
+			has_variable = state_id
+			has_variable = level
+		}
+		custom_effect_tooltip = tt_add_gold_mine_level
+		var:state_id = { add_to_variable = { gold_mine = level } }
+		culc_mine_total = yes
 	}
+}
+
+mine_on_monthly = {
+	culc_mine_total = yes
+
+	# log = "[?MD_gold]/[?MD_jewel]"
+	#現状の設定（仮置き）
+	#金鉱山のコスト＝総レベル×2
+	#金鉱山の収入＝総レベル×2.5 × (国際緊張度+1)
+
+	set_temp_variable = { temp_MD_gold_cost = MD_gold }
+	multiply_temp_variable = { temp_MD_gold_cost = 2 } #適当に2倍
+	set_variable = { MD_cost = temp_MD_gold_cost }
+	# log = "gold cost :[?temp_MD_gold_cost]"
+
+	set_temp_variable = { temp_MD_gold_gain = MD_gold }
+	multiply_temp_variable = { temp_MD_gold_gain = 2.5 } #総レベル×2.5
+	set_temp_variable = { temp_threat = global.threat } #国際緊張度
+	add_to_temp_variable = { temp_threat = 1 } #国際緊張度+1
+	multiply_temp_variable = { temp_MD_gold_gain = temp_threat } #総レベル×2.5 × (国際緊張度+1)
+	set_variable = { MD_gain = temp_MD_gold_gain }
+	# log = "gold gain :[?temp_MD_gold_gain]"
+
+	#実際に足したり引いたり泣いたり笑ったり
+	subtract_from_variable = { Unified_Currency = MD_cost } #通貨からコストを引く
+	add_to_variable = { Unified_Currency = MD_gain } #通貨から収入を足す
+	#( ;∀;)
 }

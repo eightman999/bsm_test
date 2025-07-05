@@ -15,7 +15,7 @@ state={
 				naval_base = 2
 			}
 		}
-		set_state_flag = Gold_Rush
+		set_variable = { gold_mine = 1 }
 		victory_points = {
 			1939 2
 		}
@@ -23,6 +23,7 @@ state={
 			5210 1
 		}
 		add_core_of = WES
+		add_core_of = KEN
 	}
 
 	provinces={

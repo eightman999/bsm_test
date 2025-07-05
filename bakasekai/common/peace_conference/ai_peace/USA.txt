@@ -17,7 +17,6 @@ peace_ai_desires = {
         ai_desire = 1500
     }
 
-
     # Don't give Okinawa to Japan
     USA_take_okinawa_part_two = {
         peace_action_type = { puppet force_government }
@@ -31,7 +30,6 @@ peace_ai_desires = {
         }
         ai_desire = -100
     }
-
 
     # If the Soviets have a puppet Korea, we want one two
     USA_puppet_s_korea = {
@@ -56,7 +54,6 @@ peace_ai_desires = {
         }
         ai_desire = 200
     }
-
 
     # Reduce desire to liberate if the Soviets are involved in order to establish control
     USA_puppet_s_korea_part_two = {
@@ -83,7 +80,6 @@ peace_ai_desires = {
         ai_desire = -75
     }
 
-
     # The 38th parallell
     USA_dont_puppet_n_korea = {
         peace_action_type = { puppet }
@@ -109,7 +105,6 @@ peace_ai_desires = {
         }
         ai_desire = -50
     }
-
 
     # MacArthur
     USA_puppet_japan = {
@@ -149,7 +144,6 @@ peace_ai_desires = {
         }
         ai_desire = 1100 #Finite offset
     }
-
 
     USA_dont_liberate_the_wrong_usa = {
         peace_action_type = { puppet force_government liberate }

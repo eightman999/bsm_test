@@ -28,12 +28,7 @@ recruit_character = PAR_remigio_bastia_martin
 recruit_character = PAR_francisco_esculies
 recruit_character = PAR_riccardo_odriosola
 set_country_flag = monroe_doctrine
-set_politics = {
-	ruling_party = communism_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+political_set_c = yes
 
 set_popularities = {
 	democratic_ideology = 25

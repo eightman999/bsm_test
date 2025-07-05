@@ -59,7 +59,6 @@ TUR_has_a_prime_minister = {
 	}
 }
 
-
 TUR_can_only_have_one_prime_minister = {
 	custom_trigger_tooltip = {
 		tooltip = TUR_can_only_have_one_prime_minister_tt

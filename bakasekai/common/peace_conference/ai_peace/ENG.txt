@@ -23,7 +23,6 @@ peace_ai_desires = {
         ai_desire = 75
     }
 
-
     democratic_communist_uk_puppet_ireland = {
         peace_action_type = puppet
         enable = {

@@ -21,7 +21,6 @@ WTT_setup_political_struggle = {
 		set_variable = { global.small_state_support_value = @SMALL_STATE_SUPPORT_VALUE }
 		set_variable = { global.big_state_support_value = @BIG_STATE_SUPPORT_VALUE }
 
-
 		
 		#283 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Gansu
 		#287 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Taklamakan
@@ -60,7 +59,6 @@ WTT_setup_political_struggle = {
 		#621 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Suiyuan
 			#PRC capital
 			622 = {	set_variable = { state_political_support_value = @SMALL_STATE_SUPPORT_VALUE } } # Shaanxi
-
 
 		GXC = { set_variable = { warlord_political_support_value = @WARLORD_SUPPORT_VALUE } }
 		YUN = { set_variable = { warlord_political_support_value = @WARLORD_SUPPORT_VALUE } }
@@ -373,7 +371,6 @@ WTT_recalculate_state_support_for_ROOT = {
 	}
 }
 
-
 #State scope
 # WTT_fire_add_support_status_events = {
 # 	if = {
@@ -426,7 +423,6 @@ WTT_recalculate_state_support_for_ROOT = {
 # 		}
 # 	}
 # }
-
 
 #State scope
 # WTT_fire_remove_support_status_events = {

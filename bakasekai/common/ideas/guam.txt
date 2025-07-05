@@ -1,7 +1,6 @@
 ideas = {
 	# MILITARY
 
-
 	political_advisor = {
 
 		GUM_democratic_guy = {

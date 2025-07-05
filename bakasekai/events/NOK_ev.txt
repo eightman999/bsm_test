@@ -9,11 +9,5 @@ news_event={
 		name=NOK.1.a
 	}
 }
-
-
-
     
 	
-
-
-

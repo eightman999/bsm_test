@@ -16,7 +16,6 @@
 @tank_production_capacity_factor = 0.05
 @tank_soft_attack = 0.05
 
-
 ### SHIPS
 #POISTION
 @ship_1_X = 9
@@ -63,7 +62,6 @@
 @materiel_production_efficiency_cap_factor = 0.1
 @materiel_production_capacity_factor = 0.1
 
-
 ########    ###    ##    ## ##    ##  ######  
    ##      ## ##   ###   ## ##   ##  ##    ## 
    ##     ##   ##  ####  ## ##  ##   ##       
@@ -71,7 +69,6 @@
    ##    ######### ##  #### ##  ##         ## 
    ##    ##     ## ##   ### ##   ##  ##    ## 
    ##    ##     ## ##    ## ##    ##  ######  
-
 
 SOV_morozov_design_bureau_organization = {
 	include = generic_mobile_tank_organization
@@ -792,10 +789,6 @@ SOV_kirov_organization = {
 	}
 }
 
-
-
-
-
  ######  ##     ## #### ########   ######  
 ##    ## ##     ##  ##  ##     ## ##    ## 
 ##       ##     ##  ##  ##     ## ##       
@@ -1514,9 +1507,6 @@ SOV_sevastopol_marine_plant_organization = {
 	}
 }
 
-
-
-
 ########  ##          ###    ##    ## ########  ######  
 ##     ## ##         ## ##   ###   ## ##       ##    ## 
 ##     ## ##        ##   ##  ####  ## ##       ##       
@@ -2182,10 +2172,6 @@ SOV_tupolev_design_bureau_organization = {
 }
 
 
-
-
-
-
 ##     ##    ###    ######## ######## ########  #### ######## ##       
 ###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       
 #### ####  ##   ##     ##    ##       ##     ##  ##  ##       ##       
@@ -2193,9 +2179,6 @@ SOV_tupolev_design_bureau_organization = {
 ##     ## #########    ##    ##       ##   ##    ##  ##       ##       
 ##     ## ##     ##    ##    ##       ##    ##   ##  ##       ##       
 ##     ## ##     ##    ##    ######## ##     ## #### ######## ######## 
-
-
-
 SOV_grabin_design_bureau_organization = {
 	include = generic_artillery_organization
 	icon = GFX_idea_grabin_design_bureau

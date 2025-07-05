@@ -20,8 +20,6 @@
 #		...
 #	}
 # }
-
-
 #国家分裂
 China_divides = {
 	name = "CHINA_DIVIDES"
@@ -67,29 +65,6 @@ AI_NF_choice = {
 		desc = "RULE_KHAOS_DESC"	
 	}
 }
-
-#
-# List of options showing in the Game Rules screen
-#
-# format is:
-# rule_token = {
-#	name = "TEXT_KEY_FOR_NAME"
-#	required_dlc = "Name of the Required DLC"
-#	desc = "TEXT_KEY_FOR_LONG_DESC"
-#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
-#	icon = gfx_option_token							# Optional icon
-#	option = {										# Unless other specified, the first option is the default option
-#		name = option_token
-#		text = "TEXT_KEY_FOR_OPTION_NAME"
-#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
-#													# If not specified, this is set to yes for default options and no for all other options.
-#	}
-#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
-#		name = option_token
-#		text = "TEXT_KEY_FOR_OPTION_NAME"
-#		...
-#	}
-# }
 
 allow_wargoals = {
 	name = "RULE_ALLOW_WARGOALS"
@@ -424,7 +399,6 @@ allow_party_boosting = {
 #  #  #   # #   #    #  #  #  # #  #      #  #   #   # #    #   #  #  #  #     # 
 ###  ###   #   ### ##  ###  ##  #  #      #  ### #   # #    ### #  #  #  ### ##  
 
-
 allow_paratroopers = {
 	name = "RULE_ALLOW_PARATROOPERS"
 	group = "RULE_GROUP_GAMEPLAY"
@@ -605,9 +579,6 @@ allow_scorched_earth = {
 #    #  # #  # # ##  #  ###    #        #  ###  ##  #     #  ##   #  #        ###  #  # #   ##   #  
 #  # #  # #  # #  #  #  #  #   #         # #    #   #  #  #  #    #  #  #     #  # #  # #   #     # 
  ##   ##   ##  #  #  #  #  #   #       ##  #    ###  ##  ### #   ###  ##      #  #  ##  ### ### ##  
-
-
-
 #GER_faction_soviets = {
 #	name = "RULE_GER_FACTION_SOVIETS"
 #	group = "RULE_GROUP_COUNTRY_SPECIFIC"
@@ -648,9 +619,6 @@ allow_scorched_earth = {
 #		desc = "RULE_ALLOW_IDEOLOGY_CHANGE_USA_BLOCKED_DESC"
 #	}
 #}
-
-
-
  ##  ###     ###  ### #  #  ##  #   # ###  ##  ###  
 #  #  #      #  # #   #  # #  # #   #  #  #  # #  # 
 ####  #      ###  ##  #### ####  # #   #  #  # ###  
@@ -659,7 +627,6 @@ allow_scorched_earth = {
 
 GER_ai_behavior = {
 	name = "GER_AI_BEHAVIOR"
-	required_dlc = "Waking the Tiger"
 	group = "RULE_GROUP_AI_BEHAVIOR"
 	default = {
 		name = DEFAULT
@@ -681,6 +648,23 @@ GER_ai_behavior = {
 		name = KAISER
 		text = "RULE_OPTION_KAISER"
 		desc = "RULE_KAISER_GER_AI_DESC"
+	}
+	option = {
+		name = GER_ALT_FASCIST
+		text = "RULE_OPTION_GER_ALT_FASCIST"
+		desc = "RULE_OPTION_GER_ALT_FASCIST_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = GER_COMMUNIST_STALINIST
+		text = "RULE_OPTION_GER_COMMUNIST_STALINIST"
+		desc = "RULE_OPTION_GER_COMMUNIST_STALINIST_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = GER_COMMUNIST_SPARTACUS
+		text = "RULE_OPTION_GER_COMMUNIST_SPARTACUS"
+		desc = "RULE_OPTION_GER_COMMUNIST_SPARTACUS_AI_DESC"
 	}
 	option = {
 		name = RANDOM
@@ -757,7 +741,7 @@ JAP_ai_behavior = {
 		desc = "RULE_OPTION_COMMUNIST_JAP_AI_DESC"
 	}
 	option = {
-		name = neutrality_ideology
+		name = NEUTRALITY
 		text = "RULE_OPTION_NEUTRALITY"
 		desc = "RULE_OPTION_NEUTRALITY_JAP_AI_DESC"
 	}
@@ -1147,7 +1131,7 @@ HUN_ai_behavior = {
 	}
 	option = {
 		name = COMMUNIST
-		text = "RULE_OPTION_COMMUNIST"
+		text = "RULE_OPTION_HUN_COMMUNIST_STALINISM"
 		desc = "RULE_OPTION_COMMUNIST_HUN_AI_DESC"
 	}
 	option = {
@@ -1157,19 +1141,60 @@ HUN_ai_behavior = {
 	}
 	option = {
 		name = DEMOCRATIC
-		text = "RULE_OPTION_DEMOCRATIC"
+		text = "RULE_OPTION_HUN_DEMOCRATIC_KING"
 		desc = "RULE_OPTION_DEMOCRATIC_HUN_AI_DESC"
 	}
 	option = {
 		name = FASCIST_ALTERNATE
-		text = "RULE_OPTION_FASCIST_ALTERNATE"
+		text = "RULE_OPTION_HUN_ROME_PROTOCOLS"
 		desc = "RULE_FASCIST_ALTERNATE_HUN_AI_DESC"
 	}
 	option = {
 		name = FASCIST_HISTORICAL
-		text = "RULE_OPTION_FASCIST_HISTORICAL"
+		text = "RULE_OPTION_HUN_HISTORICAL"
 		desc = "RULE_FASCIST_HUN_AI_DESC"
 		allow_achievements = yes
+	}
+	option = {
+		name = FASCIST_KING
+		text = "RULE_OPTION_HUN_FASCIST_KING"
+		desc = "RULE_FASCIST_ALTERNATE_KING_HUN_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = HABSBURG_HUNGARY
+		text = "RULE_OPTION_HUN_HABSBURG_HUNGARY"
+		desc = "RULE_HABSBURG_HUNGARY_HUN_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = HORTHYIST_KING_HUNGARY
+		text = "RULE_OPTION_HUN_HORTHYIST_KING_HUNGARY"
+		desc = "RULE_HORTHYIST_KING_HUNGARY_HUN_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = REPUBLICAN_DEMOCRACY
+		text = "RULE_OPTION_HUN_REPUBLICAN_DEMOCRACY"
+		desc = "RULE_REPUBLICAN_DEMOCRACY_HUN_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = REPUBLICAN_DEMOCRACY_EXPANSIONIST
+		text = "RULE_OPTION_HUN_REPUBLICAN_DEMOCRACY_EXPANSIONIST"
+		desc = "RULE_REPUBLICAN_DEMOCRACY_EXPANSIONIST_HUN_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = RESTORE_THE_SOCIALIST_REPUBLIC
+		text = "RULE_OPTION_HUN_RESTORE_THE_SOCIALIST_REPUBLIC"
+		desc = "RULE_RESTORE_THE_SOCIALIST_REPUBLIC_HUN_AI_DESC"
+	}
+	option = {
+		required_dlc = "Gotterdammerung"
+		name = ARROW_CROSS_MOVEMENT
+		text = "RULE_OPTION_HUN_ARROW_CROSS_MOVEMENT"
+		desc = "RULE_ARROW_CROSS_MOVEMENT_HUN_AI_DESC"
 	}
 	option = {
 		name = RANDOM
@@ -1293,7 +1318,6 @@ CZE_ai_behavior = {
 	}
 }
 
-
 CHI_ai_behavior = {
 	name = "CHI_AI_BEHAVIOR"
 	required_dlc = "Waking the Tiger"
@@ -1399,7 +1423,7 @@ ENG_ai_behavior = {
 		required_dlc = "Man the Guns"
 	}
 	option = {
-		name = neutrality_ideology
+		name = NEUTRALITY
 		text = "RULE_OPTION_THE_KINGS_PARTY"
 		desc = "RULE_OPTION_THE_KINGS_PARTY_ENG_AI_DESC"
 		required_dlc = "Man the Guns"
@@ -1492,7 +1516,7 @@ HOL_ai_behavior = {
 		desc = "RULE_OPTION_LEGACY_OF_THE_DE_ZEVEN_PROVINCIEN_MUTINY_HOL_AI_DESC"
 	}
 	option = {
-		name = neutrality_ideology
+		name = NEUTRALITY
 		text = "RULE_OPTION_ORANJE_BOVEN"
 		desc = "RULE_OPTION_ORANJE_BOVEN_HOL_AI_DESC"
 	}
@@ -2297,6 +2321,398 @@ ICE_ai_behavior = {
 	}
 }
 
+CHL_ai_behavior = {
+	name = "CHL_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Trial of Allegiance"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_HISTORICAL_CHL_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_CHL_COMMUNIST"
+		desc = "RULE_OPTION_CHL_COMMUNIST_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = OPERATION_BOLIVAR
+		text = "RULE_OPTION_CHL_OPERATION_BOLIVAR"
+		desc = "RULE_OPTION_CHL_OPERATION_BOLIVAR_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = PAN_HISPANISM
+		text = "RULE_OPTION_CHL_PAN_HISPANISM"
+		desc = "RULE_OPTION_CHL_PAN_HISPANISM_DESC"
+		allow_achievements = no
+	}	
+	option = {
+		name = ANTI_IMPERIALISM
+		text = "RULE_OPTION_CHL_ANTI_IMPERIALISM"
+		desc = "RULE_OPTION_CHL_ANTI_IMPERIALISM_DESC"
+		allow_achievements = no
+	}	
+	option = {
+		name = LE_DELUGE
+		text = "RULE_OPTION_CHL_LE_DELUGE"
+		desc = "RULE_OPTION_CHL_LE_DELUGE_DESC"
+		allow_achievements = no
+	}	
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+BRA_ai_behavior = {
+	name = "BRA_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Trial of Allegiance"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_HISTORICAL_BRA_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = FASCISM
+		text = "RULE_OPTION_FASCISM"
+		desc = "RULE_FASCISM_BRA_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC"
+		desc = "RULE_DEMOCRATIC_BRA_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = BRA_MONARCHIST_HENRIQUE
+		text = "RULE_OPTION_MONARCHIST_HENRIQUE"
+		desc = "RULE_OPTION_MONARCHIST_HENRIQUE_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = BRA_MONARCHIST_ALCANTARA
+		text = "RULE_OPTION_MONARCHIST_ALCANTARA"
+		desc = "RULE_OPTION_MONARCHIST_ALCANTARA_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = BRA_COMMUNIST_STALINISM
+		text = "RULE_OPTION_BRA_COMMUNIST_STALINISM"
+		desc = "RULE_OPTION_BRA_COMMUNIST_STALINISM_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = BRA_COMMUNIST_INDEPENDENT
+		text = "RULE_OPTION_BRA_COMMUNIST_INDEPENDENT"
+		desc = "RULE_OPTION_BRA_COMMUNIST_INDEPENDENT_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+
+ARG_ai_behavior = {
+	name = "ARG_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Trial of Allegiance"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_HISTORICAL_ARG_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = FASCISM
+		text = "RULE_OPTION_FASCISM"
+		desc = "RULE_FASCISM_ARG_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST"
+		desc = "RULE_COMMUNIST_ARG_AI_DESC"
+		allow_achievements = no
+	}
+
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC"
+		desc = "RULE_DEMOCRATIC_ARG_AI_DESC"
+		allow_achievements = no
+	}
+
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+URG_AI_BEHAVIOR = {
+	name = "URG_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Trial of Allegiance"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_URG_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = DEMOCRATIC_ALT
+		text = "RULE_OPTION_DEMOCRATIC_ALT_AI"
+		desc = "RULE_OPTION_DEMOCRATIC_ALT_AI_URG_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = FASCIST
+		text = "RULE_OPTION_FASCIST_URG_AI"
+		desc = "RULE_OPTION_FASCIST_AI_URG_DESC"
+		allow_achievements = no
+	}
+
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+PAR_AI_BEHAVIOR = {
+	name = "PAR_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Trial of Allegiance"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_PAR_AI_DESC"
+		allow_achievements = yes
+	}
+
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST_PAR_AI"
+		desc = "RULE_OPTION_COMMUNIST_PAR_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = DEMOCRATIC
+		text = "RULE_OPTION_DEMOCRATIC_PAR_AI"
+		desc = "RULE_OPTION_DEMOCRATIC_PAR_AI_DESC"
+		allow_achievements = no
+	}
+
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+AUS_AI_BEHAVIOR = {
+	name = "AUS_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Gotterdammerung"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_AUS_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AUS_MONARCHIST_PUPPET
+		text = "RULE_OPTION_MONARCHIST_PUPPET_AUS_AI"
+		desc = "RULE_OPTION_MONARCHIST_PUPPET_AUS_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_MONARCHIST_ANNEX
+		text = "RULE_OPTION_MONARCHIST_ANNEX_AUS_AI"
+		desc = "RULE_OPTION_MONARCHIST_ANNEX_AUS_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_NEUTRALITY_FEDERATIVE
+		text = "RULE_OPTION_AUS_NEUTRALITY_FEDERATIVE_AI"
+		desc = "RULE_OPTION_AUS_NEUTRALITY_FEDERATIVE_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_COMMUNIST_SOV_ALIGNED
+		text = "RULE_OPTION_AUS_COMMUNIST_SOV_ALIGNED_AI"
+		desc = "RULE_OPTION_AUS_COMMUNIST_SOV_ALIGNED_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_COMMUNIST
+		text = "RULE_OPTION_AUS_COMMUNIST_AI"
+		desc = "RULE_OPTION_AUS_COMMUNIST_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_DEMOCRATIC_FEDERATIVE
+		text = "RULE_OPTION_AUS_DEMOCRATIC_FEDERATIVE_AI"
+		desc = "RULE_OPTION_AUS_DEMOCRATIC_FEDERATIVE_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_DEMOCRATIC_ALLIES
+		text = "RULE_OPTION_AUS_DEMOCRATIC_ALLIES_AI"
+		desc = "RULE_OPTION_AUS_DEMOCRATIC_ALLIES_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = AUS_DEMOCRATIC_ALPINE_FEDERATION
+		text = "RULE_OPTION_AUS_DEMOCRATIC_ALPINE_FEDERATION_AI"
+		desc = "RULE_OPTION_AUS_DEMOCRATIC_ALPINE_FEDERATION_AI_DESC"
+		allow_achievements = no
+	}
+
+	option = {
+		name = AUS_ANTI_ANSCLUSS_STRESS
+		text = "RULE_OPTION_AUS_ANTI_ANSCLUSS_STRESS_AI"
+		desc = "RULE_OPTION_AUS_ANTI_ANSCLUSS_STRESS_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+BEL_AI_BEHAVIOR = {
+	name = "BEL_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Gotterdammerung"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_BEL_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = NATIONALIST_FASCIST
+		text = "RULE_OPTION_NATIONALIST_FASCIST_BEL_AI"
+		desc = "RULE_OPTION_NATIONALIST_FASCIST_BEL_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = EXPANSIONIST_FASCIST
+		text = "RULE_OPTION_EXPANSIONIST_FASCIST_BEL_AI"
+		desc = "RULE_OPTION_EXPANSIONIST_FASCIST_BEL_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = DEFENSIVE_DEMOCRAT
+		text = "RULE_OPTION_DEFENSIVE_DEMOCRAT_BEL_AI"
+		desc = "RULE_OPTION_DEFENSIVE_DEMOCRAT_BEL_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = COMMUNIST
+		text = "RULE_OPTION_COMMUNIST_BEL_AI"
+		desc = "RULE_OPTION_COMMUNIST_BEL_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
+
+COG_AI_BEHAVIOR = {
+	name = "COG_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	required_dlc = "Gotterdammerung"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = HISTORICAL
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_OPTION_HISTORICAL_COG_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = COG_DEM_INDEPENDENCE
+		text = "RULE_OPTION_COG_DEM_INDEPENDENCE_AI"
+		desc = "RULE_OPTION_COG_DEM_INDEPENDENCE_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = COG_COM_INDEPENDENCE
+		text = "RULE_OPTION_COG_COM_INDEPENDENCE_AI"
+		desc = "RULE_OPTION_COG_COM_INDEPENDENCE_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = COG_COM_REVOLUTION
+		text = "RULE_OPTION_COG_COM_REVOLUTION_AI"
+		desc = "RULE_OPTION_COG_COM_REVOLUTION_AI_DESC"
+		allow_achievements = no
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM" 
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+		allow_achievements = no
+	}
+}
 
  ##   ##  #   # ###      ## ### ### #  # ###  
 #    #  # ## ## #       #   #    #  #  # #  # 
@@ -2317,6 +2733,11 @@ americas_colonization_status = {
 		name = AMERICAS_DECOLONIZED
 		text = "RULE_OPTION_AMERICAS_DECOLONIZED"
 		desc = "RULE_OPTION_AMERICAS_DECOLONIZED_DESC"
+	}
+	option = {
+		name = AMERICAS_DEIMPERIALIZED
+		text = "RULE_OPTION_AMERICAS_DEIMPERIALIZED"
+		desc = "RULE_OPTION_AMERICAS_DEIMPERIALIZED_DESC"
 	}
 }
 africa_colonization_status = {
@@ -2519,9 +2940,36 @@ nordics_fragmentation_status = {
 		desc = "RULE_OPTION_NORDICS_FRAGMENTED_DESC"
 	}
 }
-
-
-
+quebec_colonization_status = {
+	name = "QUEBEC_COLONIZATION_STATUS"
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_COLONIZATION_DESC"
+	}
+	option = {
+		name = FREE_QUEBEC
+		text = "RULE_OPTION_QUEBEC"
+		desc = "RULE_OPTION_QUEBEC_DESC"
+	}
+}
+germany_fragmentation_status = {
+	name = "GERMANY_FRAGMENTATION_STATUS"
+	required_dlc = "Man the Guns"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_GER_FRAGEMNTATION_DESC"
+	}
+	option = {
+		name = GERMANY_FRAGMENTED
+		text = "RULE_OPTION_GERMANY_FRAGMENTED"
+		desc = "RULE_OPTION_GERMANY_FRAGMENTED_DESC"
+	}
+}
  #     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
  #     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
  #     #   #       #        #           #        #      #   # #   #  #        #       
@@ -2529,7 +2977,6 @@ nordics_fragmentation_status = {
  #     #   #             #  #           #        #      #   #   # #  #     #        # 
  #     #   #       #     #  #           #        #      #   #    ##  #     #  #     # 
   #####   ###       #####   #######     #        #     ###  #     #   #####    #####  
-
 
 obsolete_focus_branches_visibility = {
 	name = "OBSOLETE_FOCUS_BRANCHES_VISIBILITY"
@@ -2600,38 +3047,5 @@ peace_score_reset_low_scores = {
 		desc = "RULE_OPTION_PEACE_SCORE_RESET_LOW_SCORES_NO_DESC"
 	}
 }
-
-#We could add stuff for political advisor visibility filters here too, in the future
-
-
-
-##   ##  #   # ###      ## ### ### #  # ###  
-#    #  # ## ## #       #   #    #  #  # #  # 
-# ## #### # # # ##       #  ##   #  #  # ###  
-#  # #  # #   # #         # #    #  #  # #    
-##  #  # #   # ###     ##  ###  #   ##  #     
-#     #  ###       #####   #######  #######  #######  ###  #     #   #####    #####  
-#     #   #       #     #  #           #        #      #   ##    #  #     #  #     # 
-#     #   #       #        #           #        #      #   # #   #  #        #       
-#     #   #        #####   #####       #        #      #   #  #  #  #  ####   #####  
-#     #   #             #  #           #        #      #   #   # #  #     #        # 
-#     #   #       #     #  #           #        #      #   #    ##  #     #  #     # 
-#####   ###       #####   #######     #        #     ###  #     #   #####    #####  
-# obsolete_focus_branches_visibility = {
-# 	name = "OBSOLETE_FOCUS_BRANCHES_VISIBILITY"
-# 	required_dlc = "No Step Back"
-# 	group = "RULE_GROUP_GENERAL_UI"
-# 	default = {
-# 		name = HIDE
-# 		text = "RULE_OPTION_HIDE"
-# 		desc = "RULE_OPTION_HIDE_DESC"
-# 	}
-# 	option = {
-# 		name = SHOW
-# 		text = "RULE_OPTION_SHOW"
-# 		desc = "RULE_OPTION_SHOW_DESC_DESC"
-# 		allow_achievements = yes
-# 	}
-# }
 
 #We could add stuff for political advisor visibility filters here too, in the future

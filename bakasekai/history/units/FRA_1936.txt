@@ -571,7 +571,6 @@ units = {
 		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
 	}
 
-
 	# XVe Corps d'Armée (Région Militaire in 1936) -- Marseille
 	division= {	# "29ème Division d'Infanterie Alpine"
 		location = 11506
@@ -602,7 +601,6 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-
 
 	##### North African Theatre #####
 	### Army: Troupes de Alger ###
@@ -733,7 +731,6 @@ units = {
 
 	}
 
-
 	##### Eastern Mediterranean Theatre #####
 	### Army: Mandat du Levant ### -- Beirut
 	division= {	
@@ -756,7 +753,6 @@ units = {
 
 	}
 
-
 	##### Far Seas Theatre ##### -- Dakar
 	division= {	
 		name = "Troupes de Sénégalais"
@@ -774,7 +770,6 @@ units = {
 		start_equipment_factor = 0.15
 
 	}
-
 
 	##### Indochina Theatre #####
 	### Army Group: Troupes d'Indochine ### -- Saigon
@@ -902,7 +897,6 @@ units = {
 
 	}			
 
-
 	### Island Garrisons ###
 	division = { # "Comandancia de Baleares"		
 		location = 11506  #Mallorca
@@ -920,7 +914,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}			
-
 
 	### Ejército de África ###
 	division = {			
@@ -995,6 +988,5 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 50
 	}
-
 }
 ###################

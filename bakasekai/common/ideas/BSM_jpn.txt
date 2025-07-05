@@ -150,7 +150,7 @@ ideas = {
 			}
 		}
 		comic_market_rich = {
-			picture = GFX_idea_comic_rich
+			picture = GFX_idea_comiket
 			allowed = {
 				always = no
 			}
@@ -163,7 +163,7 @@ ideas = {
 			}
 		}
 		comic_market_cheep = {
-			picture = GFX_idea_comic_cheep
+			picture = GFX_idea_comiket
 			allowed = {
 				always = no
 			}
@@ -188,11 +188,12 @@ ideas = {
 		}
 		A_gift_from_valley = {
 		}
-		
+		#GFX_idea_comiket
 	}
 	ideology_party = {
 		JPN_YOSEI = {
 			picture = GFX_idea_JPN_YOSEI
+			#ledger  = ideology_party
 			allowed = {
 				original_tag = JPN
 			}
@@ -205,6 +206,7 @@ ideas = {
 		}
 		JPN_Taisei = {
 			picture = GFX_idea_JPN_Taisei
+			#ledger  = ideology_party
 			allowed = {
 				original_tag = JPN
 			}
@@ -217,6 +219,7 @@ ideas = {
 		}
 		JPN_Kyosan = {
 			picture = GFX_idea_JPN_Kyosan
+			#ledger  = ideology_party
 			allowed = {
 				original_tag = JPN
 			}
@@ -232,6 +235,7 @@ ideas = {
 	civilian_party = {
 		JPN_Kyosan_2 = {
 			picture = GFX_idea_JPN_Kyosan
+			#ledger  = civilian_party
 			allowed = {
 				original_tag = JPN
 			}
@@ -245,6 +249,7 @@ ideas = {
 		}
 		JPN_Old_navys = {
 			picture = GFX_idea_JPN_Old_navys
+			#ledger  = civilian_party
 			allowed = {
 				original_tag = JPN
 			}
@@ -261,6 +266,7 @@ ideas = {
 		}
 		JPN_Taikankyohou = {
 			picture = GFX_idea_JPN_Taikankyohou
+			#ledger  = civilian_party
 			allowed = {
 				original_tag = JPN
 			}
@@ -469,8 +475,10 @@ ideas = {
 		}
 	}
 	Extra = {
+		# designer = yes
 		NHK_com = {
 			picture = GFX_idea_NHK_com
+			#ledger  = Extra
 			name = NHK_com
 			allowed = {
 				original_tag = JPN
@@ -485,6 +493,7 @@ ideas = {
 		}
 		Kisyaseizo = {
 			picture = GFX_idea_Kisyaseizo
+			#ledger  = Extra
 			name = Kisyaseizo
 			allowed = {
 				original_tag = JPN
@@ -513,6 +522,7 @@ ideas = {
 		eidan = {
 			name = eidan_name
 			picture = GFX_idea_eidan
+			#ledger  = Extra
 			allowed = {
 				original_tag = JPN
 			}
@@ -529,6 +539,7 @@ ideas = {
 		okamoto = {
 			name = name_okamoto
 			picture = GFX_idea_okamoto
+			
 			allowed = {
 				original_tag = JPN
 			}

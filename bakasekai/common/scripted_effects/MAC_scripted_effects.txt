@@ -24,7 +24,6 @@
 ##     ## ##     ## ##
 ########   #######  ##
 
-
 MAC_initiate_balance_of_power_effect_1 = {
 	#set_country_flag = MAC_bop1_start_flag
 	set_power_balance = {
@@ -163,9 +162,6 @@ MAC_bop_very3_low_decrease_effect = {
 MAC_bop_remove_bop_effect = {
 	remove_power_balance = { id = MAC_power_balance }
 }
-
-
-
 MAC_recalc_congress_icon_frames = {
 	
 	set_temp_variable = { directors_temp = directors_support }
@@ -463,6 +459,3 @@ MAC_flip_support = {
 	set_variable = { representatives_support = representatives_temp }
 	MAC_recalc_congress_icon_frames = yes
 }
-
-
-

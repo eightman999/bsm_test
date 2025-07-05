@@ -1,8 +1,5 @@
 ﻿
 
-
-
-
 #AIRCRAFT
 air_wings = {
 	### IJA Air Forces ###
@@ -135,7 +132,6 @@ air_wings = {
 		cv_small_plane_naval_bomber_airframe_0 =  { owner = "JPN" amount = 4 version_name = "B2M" } 	# historical 36
 	}
 }
-
 
 #########################
 ## STARTING PRODUCTION ##

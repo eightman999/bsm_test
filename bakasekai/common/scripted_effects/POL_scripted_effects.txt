@@ -628,7 +628,6 @@ POL_monarchist_civil_war_effect = {
 			}
 		}
 	}
-
 }
 
 POL_peasant_division_effect = {

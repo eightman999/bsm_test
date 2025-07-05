@@ -135,7 +135,6 @@ CHI_warlord_integration_up = {
 	}
 }
 
-
 CHI_warlord_integration_down = {
 	if = {
 		limit = {

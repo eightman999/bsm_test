@@ -3,5 +3,4 @@ spriteTypes = {
 		name = "GFX_adjuster_large_river_bg"
 		textureFile = "gfx/interface/river.png"
 	}
-
 }

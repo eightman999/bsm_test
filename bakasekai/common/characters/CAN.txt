@@ -203,7 +203,6 @@ characters={
 		}
 	}
 
-
 	### THEORISTS ###
 
 	CAN_kenneth_stuart={
@@ -272,7 +271,6 @@ characters={
 			}
 		}
 	}
-
 
 	### ARMY CHIEFS ###
 
@@ -343,7 +341,6 @@ characters={
 			}
 		}
 	}
-
 
 	### NAVY CHIEFS ###
 
@@ -416,7 +413,6 @@ characters={
 			}
 		}
 	}
-
 
 	### AIR CHIEFS ###
 
@@ -513,7 +509,6 @@ characters={
 			}
 		}
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -612,7 +607,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###	
 

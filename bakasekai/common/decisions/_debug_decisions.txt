@@ -18,7 +18,7 @@ debug_decisions = {
 			has_global_flag = debug_chn_civilwar
 		}
 		remove_effect = {
-			RAJ = {
+			KOK = {
 				country_event = {
 					id = CHN_civil_war.2
 				}
@@ -143,26 +143,53 @@ debug_decisions = {
 		icon = generic_independence
 		fire_only_once = no
 		remove_effect = {
-			set_variable = { var = COUNTRY_CULTURAL_DEGREE value = 0.8 }
-			# set_variable = { var = COUNTRY_P_O value = 80 }
+			set_variable = { var = Cultural_Degree value = 0.8 }
+			# set_variable = { var = National_Unity_Power value = 80 }
 		}
 	}
 	debug_po_set = {
 		icon = generic_independence
 		fire_only_once = no
 		remove_effect = {
-			# set_variable = { var = COUNTRY_CULTURAL_DEGREE value = 80 }
-			set_variable = { var = COUNTRY_P_O value = 0.8 }
+			# set_variable = { var = Cultural_Degree value = 80 }
+			set_variable = { var = National_Unity_Power value = 0.8 }
 		}
 	}
-	debug_eco_set = {
+
+	debug_independence_all = {
 		icon = generic_independence
 		fire_only_once = no
 		remove_effect = {
 			ROOT = {
-				BSMS_GDP_sum = yes
-				log = "ROOT GDP is [?ROOT.BSMS_GDP]"
+				bsm_debug_independence_all = yes
 			}
+		}
+	}
+	debug_ucs_on_monthly = {
+		icon = generic_independence
+		fire_only_once = no
+		complete_effect = {
+			ucs_on_monthly = yes
+
+		}
+	}
+	debug_mine_add = {
+		icon = generic_independence
+		fire_only_once = no
+		complete_effect = {
+			set_temp_variable = { state_id = 902 }
+			set_temp_variable = { level = 100 }
+
+			add_gold_mine_level = yes
+
+		}
+	}
+	debug_mine_on_monthly = {
+		icon = generic_independence
+		fire_only_once = no
+		complete_effect = {
+			mine_on_monthly = yes
+
 		}
 	}
 	# debug_hs_set = {

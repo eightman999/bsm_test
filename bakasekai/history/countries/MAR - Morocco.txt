@@ -1,18 +1,11 @@
-capital = 461
+capital = 448
 # Starting tech
 set_cosmetic_tag = MAR_kingdom
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 20
 recruit_character = MAR_Muhammad_V
-set_politics = {
-	ruling_party = mythologicalism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_1 = yes
 
 set_popularities = {
 	democratic_ideology = 25

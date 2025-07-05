@@ -1,7 +1,7 @@
 ﻿capital = 11
 oob = "Default_oob"
 set_cosmetic_tag = LIT_republic
-set_research_slots = 3
+set_tech_level_1 = yes
 if = {
 	limit = {
 		has_DLC = "No Step Back"
@@ -60,9 +60,8 @@ IF = {
 	recruit_character = LIT_edvardas_adamkavicius
 }
 
+land_tech_level_1 = yes
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
 	early_fighter = 1
 	gw_artillery = 1
 	tech_support = 1

@@ -148,7 +148,6 @@ Dieting_decision = {
 
 Progression_of_obesity = {
 
-
 	MAC_cancel_mefos = {
 
 		icon = GFX_decision_oppression
@@ -173,7 +172,6 @@ Progression_of_obesity = {
 		fire_only_once = no
 
 		cancel_if_not_visible = yes
-
 
         complete_effect = {
 			custom_effect_tooltip = MAC_cancel_tt
@@ -215,9 +213,6 @@ Progression_of_obesity = {
 		cost = 0
 
 		fire_only_once = no
-
-
-
 		cancel_if_not_visible = yes
 
 		complete_effect = {
@@ -234,7 +229,6 @@ Progression_of_obesity = {
 		remove_effect = {
 			clr_country_flag = MAC_has_cancelled_mefo
 		}
-
 
 		ai_will_do = {
 			factor = 20
@@ -400,9 +394,6 @@ McDonald_Store_Opening_Policy = {
 		cost = 20
 
 		fire_only_once = yes
-
-
-
         complete_effect = {
 			custom_effect_tooltip = MAC_determination_tt
 			hidden_effect = {
@@ -440,9 +431,6 @@ Making_burgers= {
 		cost = 20
 
 		fire_only_once = yes
-
-
-
         complete_effect = {
 			add_ideas = Buns
 
@@ -473,9 +461,6 @@ Making_burgers= {
 		cost = 20
 
 		fire_only_once = yes
-
-
-
         complete_effect = {
 			add_ideas = Lettuce
 		}
@@ -506,9 +491,6 @@ Making_burgers= {
 		cost = 20
 
 		fire_only_once = yes
-
-
-
         complete_effect = {
 			add_ideas = Patty
 		}
@@ -540,9 +522,6 @@ Making_burgers= {
 		cost = 20
 
 		fire_only_once = yes
-
-
-
         complete_effect = {
 			add_ideas = Burger
 			remove_ideas = Buns
@@ -639,9 +618,6 @@ Determination_of_abbreviations= {
 		cost = 20
 
 		fire_only_once = yes
-
-
-
         complete_effect = {
 			remove_ideas = MAC_abbreviation_dispute
 			country_event = { id = MCD.8 }
@@ -932,7 +908,6 @@ MAC_balance_of_power_category = {
 		}
 	}
 
-
 	MAC_Cessation_of_Conflict = {
 		allowed = {
             original_tag = MAC
@@ -1020,9 +995,6 @@ MAC_balance_of_power_category = {
 		}
 	}
 
-
-
-
 	MAC_cokist_propaganda = {
 		allowed = {
             original_tag = MAC
@@ -1104,7 +1076,6 @@ MAC_balance_of_power_category = {
 			MAC_bop_low_decrease_effect = yes
 		}
 	}
-
 
 	MAC_pepsist_propaganda = {
 		allowed = {
@@ -1277,12 +1248,7 @@ MAC_balance_of_power_category = {
 			}
 		}
 	}
-
 }
-
-
-
-
 
 MAC_congress = {
 	MAC_weekly_check = {

@@ -2,9 +2,7 @@
 #oob = "Default_oob" 
 set_cosmetic_tag = UAE_sheikhdoms
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+land_tech_level_0 = yes
 
 set_convoys = 5
 recruit_character = UAE_stc
@@ -27,12 +25,7 @@ recruit_character = UAE_acgs
 recruit_character = UAE_nccr
 recruit_character = UAE_fascist_guy
 recruit_character = UAE_ar
-set_politics = {
-	ruling_party = neutrality_ideology
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+political_set_n = yes
 
 set_popularities = {
 	democratic_ideology = 23

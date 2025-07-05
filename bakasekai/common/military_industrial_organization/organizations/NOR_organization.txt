@@ -45,7 +45,6 @@ NOR_thunes_mekaniske_verksted_organization = {
 
 ### USA_chrysler_organization -> see USA_organizations.txt
 
-
 #####################
 
  ## #  # ### ###   ## 
@@ -169,7 +168,6 @@ NOR_karljohansvern_verft_organization = {
 
 ### SOV_rubin_design_bureau_organization -> see SOV_organizations.txt 
 
-
 ###########################
 
 ###  #    ##  #  # ###  ## 
@@ -222,7 +220,6 @@ NOR_marinens_flyvebaatfabrikk_organization = {
 
 ### ENG_de_havilland_organization -> see ENG_organizations.txt
 
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -230,7 +227,6 @@ NOR_marinens_flyvebaatfabrikk_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

@@ -1,6 +1,5 @@
 technologies = {
 
-
 	air_superiority = {
 		doctrine_name = "TITLE_STRATEGIC_DESTRUCTION"
 		
@@ -803,6 +802,7 @@ technologies = {
 		
 		# EFFECT ########
 		air_cas_efficiency = 0.20
+		ground_attack_factor = 0.10
 		###########
 		
 		path = {
@@ -1714,7 +1714,6 @@ technologies = {
 		}
 	}
 
-
 	cas_veteran_initiative = {
 
 		# EFFECT ########
@@ -1936,12 +1935,11 @@ technologies = {
 		}
 	}
 
-
 #	
 #	air_defence = {
 #
 #		# EFFECT ########
-#		#air_interception_attack_factor = 0.05
+#		air_interception_attack_factor = 0.05
 #		###########
 #		
 #		path = {

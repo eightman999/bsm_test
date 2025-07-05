@@ -40,7 +40,6 @@ peace_ai_desires = {
         ai_desire = 50  # 50 percent higher desire
     }
 
-
     SOV_czech_puppet_histo = {
         peace_action_type = puppet
         enable = {
@@ -51,7 +50,6 @@ peace_ai_desires = {
         }
         ai_desire = 150
     }
-
 
     SOV_claims_histo = {
         peace_action_type = take_state
@@ -69,7 +67,6 @@ peace_ai_desires = {
         ai_desire = 400
     }
 
-
     SOV_leave_austria_alone = {
         peace_action_type = { take_states puppet liberate force_government }
         enable = {
@@ -79,7 +76,6 @@ peace_ai_desires = {
         }
         ai_desire = -50
     }
-
 
     # Create a Korean puppet in North Korea.
     SOV_puppet_n_korea = {
@@ -98,7 +94,6 @@ peace_ai_desires = {
         }
         ai_desire = 75
     }
-
 
     # The 38th parallell - don't take South Korea if the US are on the same side
     SOV_not_puppet_s_korea = {

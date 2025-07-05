@@ -1,7 +1,6 @@
 characters = {
 	
 
-
 	MNT_kristo_popovic = {
 		name = "Krsto Popović"
 		portraits = {
@@ -13,7 +12,6 @@ characters = {
 			ideology = oligarchism
 			traits = { }
 			expire = "1947.1.1.1"
-			id = -1
 		}
 
 		corps_commander = { 
@@ -32,7 +30,6 @@ characters = {
 		}
 	}
 
-
 	MNT_blazo_jovanovic = {
 		name = "Blažo Jovanović"
 		portraits = {
@@ -44,7 +41,6 @@ characters = {
 			ideology = leninism
 			traits = { }
 			expire = "1953.3.1"
-			id = -1
 		}
 
 		corps_commander = { 
@@ -61,7 +57,6 @@ characters = {
 		}
 	}
 
-
 	MNT_blazo_dukanovic = {
 		name = "Blažo Đukanović"
 		portraits = {
@@ -73,7 +68,6 @@ characters = {
 			ideology = fascism_ideology
 			traits = { }
 			expire = "1943.1.1.1"
-			id = -1
 		}
 
 		corps_commander = { 
@@ -91,6 +85,4 @@ characters = {
 			}
 		}
 	}
-
-
 }

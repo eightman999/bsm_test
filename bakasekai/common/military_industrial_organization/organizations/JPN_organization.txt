@@ -18,7 +18,6 @@ JAP_osaka_army_arsenal_organization = {
 	
 } 
 
-
 #####################
 
  ## #  # ### ###   ## 
@@ -28,7 +27,6 @@ JAP_osaka_army_arsenal_organization = {
 ##  #  # ### #    ##  
  
 #####################
-
 
 JAP_kure_naval_arsenal_organization = {
 	include = generic_battle_line_ship_organization
@@ -96,7 +94,6 @@ JAP_sasebo_naval_arsenal_organization = {
 
 ###########################
 
-
 JAP_mitsubishi_organization = {
 	include = generic_high_agility_fighter_aircraft_organization
 	icon = GFX_idea_mitsubishi
@@ -145,9 +142,6 @@ JAP_yokosuka_organization = {
 		has_dlc = "Arms Against Tyranny"
 	}
 }
-
-
-
 ################################### 
 
 #   #  ##  ### ### ###  ### ### #   
@@ -155,7 +149,6 @@ JAP_yokosuka_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

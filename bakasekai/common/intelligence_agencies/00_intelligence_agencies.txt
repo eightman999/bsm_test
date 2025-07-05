@@ -243,22 +243,22 @@ intelligence_agency = {
 	available = { original_tag = BUL }
 }
 
-intelligence_agency = {
+# intelligence_agency = {
 	
-	picture = GFX_agency_logo_eth_fetno_derash
-	names = { fetno_derash arbegnoch }
+# 	picture = GFX_agency_logo_eth_fetno_derash
+# 	names = { fetno_derash arbegnoch }
 	
-	default = { 
-		tag = ETH 
-		NOT = { has_government = communism_ideology }
-		NOT = { is_subject_of = ITA }
-	} 
-	available = { 
-		original_tag = ETH 
-		NOT = { has_government = communism_ideology }
-		NOT = { is_subject_of = ITA }
-	}
-}
+# 	default = { 
+# 		tag = ETH 
+# 		NOT = { has_government = communism_ideology }
+# 		NOT = { is_subject_of = ITA }
+# 	} 
+# 	available = { 
+# 		original_tag = ETH 
+# 		NOT = { has_government = communism_ideology }
+# 		NOT = { is_subject_of = ITA }
+# 	}
+# }
 
 intelligence_agency = {
 	
@@ -343,10 +343,9 @@ intelligence_agency = {
 	picture = GFX_intelligence_agency_logo_ICE_logreglan
 	names = { "Lögreglan" }
 
-	default = { tag = ICE }
-	available = { original_tag = ICE }
+	default = { tag = ISL }
+	available = { original_tag = ISL }
 }
-
 
 intelligence_agency = {
 	

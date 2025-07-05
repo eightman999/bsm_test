@@ -1174,7 +1174,6 @@ leader_traits = {
 
 	}
 
-
 	JUNO_mayor_of_the_city_of_asuncion = {
 		sprite = 13
 		random = no

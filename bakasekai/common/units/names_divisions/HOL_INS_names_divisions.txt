@@ -336,7 +336,6 @@ HOL_GAR_01 =
 	}
 }
 
-
 INS_INF_01 = 
 {
 	name = "Colonial Division"

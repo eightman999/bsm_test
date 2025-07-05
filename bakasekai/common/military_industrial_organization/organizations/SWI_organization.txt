@@ -7,9 +7,6 @@
  #  #  # #  # # # ## 
 
  #################### 
-
-
-
 SWI_eidgenossische_KW = {
 	name = SWI_eidgenossische_KW
 	include = generic_heavy_tank_organization
@@ -19,7 +16,6 @@ SWI_eidgenossische_KW = {
 		has_dlc = "By Blood Alone"
 	}
 }
-
 
 #####################
 
@@ -40,7 +36,6 @@ SWI_werner_risch_organization = {
 		has_dlc = "By Blood Alone"
 	}
 }
-
 
 ###########################
 
@@ -72,7 +67,6 @@ SWI_eidgenossische_FW_organization = {
 # # # ####  #  ##  ###   #  ##  #   
 #   # #  #  #  #   #  #  #  #   #   
 #   # #  #  #  ### #  # ### ### ### 
-
 
 ###################################
 

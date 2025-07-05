@@ -60,7 +60,6 @@
 # 	liberate = { #Liberate might be buggy and might require country-specific workarounds...
 # 		factor = 200 
 
-
 # 		modifier={
 # 		factor=0
 # 		ROOT={OR={tag=MEX tag=DIS tag=CLF tag=LVE tag=TEX tag=NEV tag=NYY tag=HLW tag=MAC tag=BTW tag=BTP tag=BTY tag=BTL tag=BTG

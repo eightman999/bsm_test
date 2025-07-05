@@ -450,7 +450,6 @@ characters={
 		}
 	}
 
-
 	### ARMY CHIEFS ###
 
 	MEX_saturnino_cedillo={
@@ -587,13 +586,11 @@ characters={
 		}
 	}
 
-
 	### NAVY CHIEFS ###
 
 	# Corona up there
 
 	# Blanco up there
-
 
 	### AIR CHIEFS ###
 
@@ -653,7 +650,6 @@ characters={
 			legacy_id=701
 		}
 	}
-
 
 	### MILITARY HIGH COMMAND ###
 
@@ -759,7 +755,6 @@ characters={
 			}
 		}
 	}
-
 
 	### POLITICAL ADVISORS ###	
 	

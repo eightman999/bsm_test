@@ -878,7 +878,6 @@ JAP_GAR_01 =
 	}
 }
 
-
 JAP_IMB_01 =
 {
 	name = "Mixed Brigade"

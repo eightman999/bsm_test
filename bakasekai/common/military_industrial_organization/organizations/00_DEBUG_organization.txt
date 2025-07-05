@@ -79,7 +79,6 @@ DEBUG_generic_tank_refurbishment_plant_organization = {
 	}
 }
 
-
  ######  ##     ## #### ########   ######  
 ##    ## ##     ##  ##  ##     ## ##    ## 
 ##       ##     ##  ##  ##     ## ##       
@@ -87,7 +86,6 @@ DEBUG_generic_tank_refurbishment_plant_organization = {
       ## ##     ##  ##  ##              ## 
 ##    ## ##     ##  ##  ##        ##    ## 
  ######  ##     ## #### ##         ######  
-
 
 DEBUG_generic_task_force_ship_organization = {
 	include = generic_task_force_ship_organization
@@ -160,9 +158,6 @@ DEBUG_generic_black_sea_fleet_organization = {
 		owner = { has_country_flag = mio_show_all_archetypes_flag }
 	}
 }
-
-
-
 ########  ##          ###    ##    ## ########  ######  
 ##     ## ##         ## ##   ###   ## ##       ##    ## 
 ##     ## ##        ##   ##  ####  ## ##       ##       
@@ -170,7 +165,6 @@ DEBUG_generic_black_sea_fleet_organization = {
 ##        ##       ######### ##  #### ##             ## 
 ##        ##       ##     ## ##   ### ##       ##    ## 
 ##        ######## ##     ## ##    ## ########  ######  
-
 
 DEBUG_generic_general_aircraft_organization = {
 	include = generic_general_aircraft_organization
@@ -279,9 +273,6 @@ DEBUG_generic_range_focused_aircraft_organization = {
 		owner = { has_country_flag = mio_show_all_archetypes_flag }
 	}
 }
-
-
-
 ##     ##    ###    ######## ######## ########  #### ######## ##       
 ###   ###   ## ##      ##    ##       ##     ##  ##  ##       ##       
 #### ####  ##   ##     ##    ##       ##     ##  ##  ##       ##       
@@ -289,7 +280,6 @@ DEBUG_generic_range_focused_aircraft_organization = {
 ##     ## #########    ##    ##       ##   ##    ##  ##       ##       
 ##     ## ##     ##    ##    ##       ##    ##   ##  ##       ##       
 ##     ## ##     ##    ##    ######## ##     ## #### ######## ######## 
-
 
 DEBUG_generic_artillery_organization = {
 	include = generic_artillery_organization

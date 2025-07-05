@@ -522,7 +522,7 @@
  RUS_DEF:0 "ロシア"
  RUS_ADJ:0 "ロシア"
 
- SOS:0 "スールー"
+ SUS:0 "スールー"
  SOS_ADJ:0 "スールー"
  SOS_DEF:0 "スールー"
  
@@ -1008,7 +1008,7 @@
  EJR_DEF:0 "東方エルサレム"
  EJR_ADJ:0 "東方エルサレム"
  
- ENG:0 "上"
+ JYO:0 "上"
  ENG_DEF:0 "上"
  ENG_ADJ:0 "上"
  
@@ -1016,11 +1016,11 @@
  GEN_DEF:0 "元寇"
  GEN_ADJ:0 "元寇"
  
- GER:0 "志'"
+ SHI:0 "志'"
  GER_DEF:0 "志'"
  GER_ADJ:0 "志'"
  
- JAP:0 "三'"
+ THR:0 "三'"
  JAP_DEF:0 "三'"
  JAP_ADJ:0 "三'"
  
@@ -1056,7 +1056,7 @@
  PRK_DEF:0 "北朝鮮"
  PRK_ADJ:0 "北朝鮮"
  
- RAJ:0 "國'"
+ KOK:0 "國'"
  RAJ_DEF:0 "國'"
  RAJ_ADJ:0 "國'"
  
@@ -1281,3 +1281,26 @@
  UTP_ADJ:0 "ユートピア"
  
 #アメリカ諸州
+ PML:0 "メリリャ"
+  PML_DEF:0 "メリリャ"
+  PML_ADJ:0 "メリリャ"
+
+GGY:0 "ガーンジー"
+GGY_DEF:0 "ガーンジー"
+GGY_ADJ:0 "ガーンジー"
+
+JEY:0 "ジャージー"
+JEY_DEF:0 "ジャージー"
+JEY_ADJ:0 "ジャージー"
+
+CEU:0 "セウタ"
+CEU_DEF:0 "セウタ"
+CEU_ADJ:0 "セウタ"
+
+GOC:0 "アトス"
+GOC_DEF:0 "アトス"
+GOC_ADJ:0 "アトス"
+
+GIB:0 "ジブラルタル"
+GIB_DEF:0 "ジブラルタル"
+GIB_ADJ:0 "ジブラルタル"

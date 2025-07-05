@@ -1,12 +1,12 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_default"
-		texturefile = "gfx/interface/thisisdog.png"
+		texturefile = "gfx/interface/thisisdog.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_default_fallback_texture"
-		texturefile = "gfx/interface/thisisdog.png"
+		texturefile = "gfx/interface/thisisdog.dds"
 	}
 	spriteType = {
 		name = "GFX_pdx_logo_credits"
@@ -19,11 +19,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_console_win_bg"
-		texturefile = "gfx/interface/console_win_bg.dds"
+		texturefile = "gfx/interface/console_win_bg.png"
 	}
 	spriteType = {
 		name = "GFX_dog"
-		texturefile = "gfx/interface/thisisdog.png"
+		texturefile = "gfx/interface/thisisdog.dds"
 	}
 	spriteType = {
 		name = "GFX_in_game_menu_dark_overlay"
@@ -832,7 +832,6 @@ objectTypes = {
 	}
 }
 
-
 bitmapfonts = {
 	# Global text colors used in the entire game, for use in loc files ex: "§G Text Text§!"
 	textcolors = {
@@ -992,7 +991,7 @@ bitmapfonts = {
 		#		path = "gfx/fonts/hoi_16mbs"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		color = -8939009
 	}
@@ -1175,7 +1174,7 @@ bitmapfonts = {
 		name = "vic_18"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		languages = {
 			"l_russian"
@@ -1225,7 +1224,7 @@ bitmapfonts = {
 		name = "vic_22"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		languages = {
 			"l_russian"
@@ -1337,8 +1336,8 @@ bitmapfonts = {
 		name = "hoi_16mbs"
 		#		path = "gfx/fonts/hoi_16mbs"
 		fontfiles = {
-			"gfx/fonts/hoi_16mbs"
-			"gfx/fonts/hoi_16mbs_cryllic"
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1391,7 +1390,7 @@ bitmapfonts = {
 		#		path = "gfx/fonts/hoi_18"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1434,7 +1433,7 @@ bitmapfonts = {
 		#		path = "gfx/fonts/hoi_18b"
 		fontfiles = {
 			"gfx/fonts/hoi_18"
-			"gfx/fonts/hoi_18_cryllic"
+
 		}
 		color = 0xffffffff
 		textcolors = {
@@ -1605,8 +1604,8 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "hoi4_typewriter16"
 		fontfiles = {
-			"gfx/fonts/hoi4_typewriter16"
-			"gfx/fonts/hoi_16typewriter"
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
 		}
 		color = 0xff000000
 		textcolors = {
@@ -1635,16 +1634,6 @@ bitmapfonts = {
 				255
 				255
 			}
-		}
-	}
-	bitmapfont_override = {
-		name = "hoi4_typewriter16"
-		fontfiles = {
-			"gfx/fonts/hoi_16typewriter"
-		}
-		languages = {
-			"l_russian"
-			"l_polish"
 		}
 	}
 	#bitmapfont_override = {
@@ -2254,7 +2243,7 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "Arial12"
-		path = "gfx/fonts/Arial12"
+		path = "gfx/fonts/jis12"
 		color = 0xffffffff
 		textcolors = {
 			G = {
@@ -2284,22 +2273,157 @@ bitmapfonts = {
 			}
 		}
 	}
-	bitmapfont_override = {
-		name = "Arial12"
-		fontfiles = {
-			"gfx/fonts/japanese/Arial12"
-		}
-		languages = {
-			"l_japanese"
-		}
-	}
 	bitmapfont = {
 		name = "cg_16b"		####### GENERAL TOOLTIP FONT ########
 		#		path = "gfx/fonts/cg_16b"
 		fontfiles = {
-			"gfx/fonts/hoi_16tooltip3"
+			# "gfx/fonts/cg_16b"
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
 		}
 		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "bsm_24h"
+		fontfiles = {
+			"gfx/fonts/bsm_jis_24"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
+	}
+
+	bitmapfont = {
+		name = "bsm_30_black"
+		fontfiles = {
+			"gfx/fonts/jis30"
+			"gfx/fonts/jis30_2"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
+	}
+
+	bitmapfont = {
+		name = "bsm_16_black"
+		fontfiles = {
+			"gfx/fonts/jis16_b"
+			"gfx/fonts/jis16_b_2"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
+	}
+
+	bitmapfont = {
+		name = "bsm_16"
+		fontfiles = {
+			"gfx/fonts/jis16"
+			"gfx/fonts/jis16_2"
+		}
+		color = 0xffffffff
+		textcolors = {
+			G = {
+				24
+				112
+				26
+			}
+			R = {
+				124
+				24
+				24
+			}
+			Y = {
+				0
+				0
+				0
+			}
+			H = {
+				219
+				203
+				71
+			}
+			T = {
+				255
+				255
+				255
+			}
+		}
 	}
 	# bitmapfont_override = {
 	# 	name = "cg_16b"

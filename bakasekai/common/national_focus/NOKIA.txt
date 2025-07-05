@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = -1
+			add = 100000000
 			tag = NKA
 		}
 	}
@@ -223,7 +223,4 @@ focus = {
 		y = 2
 		completion_reward={add_ideas={NOK_miraijin}}
 	}
-
-
-
 }

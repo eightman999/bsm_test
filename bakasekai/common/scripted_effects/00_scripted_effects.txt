@@ -1634,7 +1634,6 @@ add_ruling_to_neu = {
 	}
 }
 
-
 on_daily = {
 
 }
@@ -1642,137 +1641,6 @@ on_daily = {
 #on_daily_USA = {
 #	# you can specify an on daily action for a specific country
 #}
-
-###Game weight variables for faction load balancing.
-###We store these on germany because ... we have to
-
-set_add_fascist_game_weight_large = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = fascist_game_weight
-				}
-			}
-			set_variable = { var = fascist_game_weight value = 20 }
-		}
-		else = {
-			add_to_variable = { var = fascist_game_weight value = 20 }
-		}
-	}
-}
-
-set_add_democratic_game_weight_large = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = democratic_game_weight
-				}
-			}
-			set_variable = { var = democratic_game_weight value = 20 }
-		}
-		else = {
-			add_to_variable = { var = democratic_game_weight value = 20 }
-		}
-	}
-}
-
-set_add_unaligned_game_weight_large = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = unaligned_game_weight
-				}
-			}
-			set_variable = { var = unaligned_game_weight value = 20 }
-		}
-		else = {
-			add_to_variable = { var = unaligned_game_weight value = 20 }
-		}
-	}
-}
-
-set_add_communist_weight_large = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = communist_game_weight
-				}
-			}
-			set_variable = { var = communist_game_weight value = 20 }
-		}
-		else = {
-			add_to_variable = { var = communist_game_weight value = 20 }
-		}
-	}
-}
-
-set_add_fascist_weight_small = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = fascist_game_weight
-				}
-			}
-			set_variable = { var = fascist_game_weight value = 8 }
-		}
-		else = {
-			add_to_variable = { var = fascist_game_weight value = 8 }
-		}
-	}
-}
-
-set_add_democratic_weight_small = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = democratic_game_weight
-				}
-			}
-			set_variable = { var = democratic_game_weight value = 8 }
-		}
-		else = {
-			add_to_variable = { var = democratic_game_weight value = 8 }
-		}
-	}
-}
-
-set_add_unaligned_weight_small = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = unaligned_game_weight
-				}
-			}
-			set_variable = { var = unaligned_game_weight value = 8 }
-		}
-		else = {
-			add_to_variable = { var = unaligned_game_weight value = 8 }
-		}
-	}
-}
-
-set_add_communist_weight_small = {
-	DEU = {
-		if = {
-			limit = {
-				NOT = {
-					has_variable = communist_game_weight
-				}
-			}
-			set_variable = { var = communist_game_weight value = 8 }
-		}
-		else = {
-			add_to_variable = { var = communist_game_weight value = 8 }
-		}
-	}
-}
 
 leave_the_league_of_nations = {
 	custom_effect_tooltip = leave_the_league_of_nations_tt
@@ -4066,7 +3934,6 @@ find_global_platonic_countries = { # Look for the countries that meet the best c
 	find_local_dangerous_fascist = yes 
 }
 
-
 find_biggest_fascist_bully = { # Finds the biggest and/or meanest fascist country 
 	get_highest_scored_country = {
 		var = GLOBAL.platonic_fascist_bully
@@ -4124,7 +3991,6 @@ find_local_dangerous_fascist = {
 	}
 }
 
-
 # The idea is that you can use these effects to store the party popularities (and, if desired, the ruling party) when puppeting or possibly when starting civil wars, and then use the "restore" effects to reset it after the puppeting has happened, so that you don't have to use the overlord's ideology if you don't want to. 
 get_current_ideology_popularities = {
 	set_variable = { ROOT.communist_support_before_change = ROOT.party_popularity_100@communism_ideology }
@@ -4157,7 +4023,6 @@ restore_ruling_party = {
 		}
 	}
 }
-
 
 #Upgrades state cat to the next valid level. Called from state scope
 increase_state_category = {

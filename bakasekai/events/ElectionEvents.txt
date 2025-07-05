@@ -72,7 +72,6 @@ country_event = {
 	}
 }
 
-
 # Public Demands Rearmament
 country_event = {
 	id = election.3
