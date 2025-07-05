@@ -43,6 +43,18 @@ McDonald_Store_Opening_Policy ={
 	#available={#has_country_flag=gone_sand}
 
 }
+debug_McDonald_Store_Opening_Policy = {
+	icon = GFX_decision_category_generic_economy
+	allowed = {
+		original_tag = MAC
+		always = yes
+		
+	}
+	visible = {
+		is_debug = yes
+	}
+
+}
 
 Making_burgers ={
 

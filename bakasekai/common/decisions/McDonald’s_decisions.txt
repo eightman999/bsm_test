@@ -410,6 +410,38 @@ McDonald_Store_Opening_Policy = {
 	}
 }
 
+debug_McDonald_Store_Opening_Policy = {
+
+	debug_Determination_of_policy = {
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		allowed = {
+            original_tag = MAC
+            always = yes
+			is_debug = yes
+        }
+
+		available = {
+		}
+        visible = {
+        }
+
+		cost = 0
+
+		fire_only_once = yes
+        complete_effect = {
+			load_focus_tree = McDonald
+			add_ideas = tightly_bound_feelings
+
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
+
 Making_burgers= {
 
 	Getting_Buns = {
