@@ -130,6 +130,22 @@ MD_log_unknown:0 "不明なイベント"
 MD_event_1:0 "ハレー彗星の飛来"
 MD_event_2:0 "世界的不況"
 
+#イベント
+mine.0.title:0 "欠番"
+mine.0.desc:0 "欠番"
+mine.0.a:0 "neko"
+mine.1.title:0 "[FROM.GetName]でのストライキ発生"
+mine.1.desc:0 "[FROM.GetName]の鉱山のストライキのデスク"
+mine.1.a:0 "なるほど"
+mine.2.title:0 "[FROM.GetName]による占領"
+mine.2.desc:0 "[FROM.GetName]による占領のデスク"
+mine.2.a:0 "なるほど"
+mine.3.title:0 "[FROM.GetName]による解放"
+mine.3.desc:0 "[FROM.GetName]による解放のデスク"
+mine.3.a:0 "なるほど"
+mine.4.title:0 "[FROM.GetName]の鉱脈発見"
+mine.4.desc:0 "[FROM.GetName]の鉱脈発見のデスク"
+mine.4.a:0 "なるほど"
 
 
 # ------------------------------請求権の捏造--------------------------------------
