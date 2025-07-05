@@ -16,7 +16,10 @@ spriteTypes = {
 		tilingCenter = no
 		effectFile = "gfx/FX/buttonstate.shader"
 	}
-
+	spriteType = {
+		name = "GFX_bsm_mainmenu_bg"
+		texturefile = "gfx/loadingscreens/main menu/bsm_bg.png"
+	}
 	spriteType = {
 		name = "GFX_st_1"
 		texturefile = "gfx/loadingscreens/main menu/HMJK.png"
