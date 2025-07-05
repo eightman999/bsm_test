@@ -1348,7 +1348,7 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			country_event = { id = MCD.12 }
+			add_ideas = MAC_dr_pepper_idea
 		}
 	}
 
@@ -1375,7 +1375,7 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			country_event = { id = MCD.12 }
+			add_ideas = MAC_saida_idea
 		}
 	}
 
@@ -1402,7 +1402,7 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			country_event = { id = MCD.12 }
+			add_ideas = MAC_alcola_idea
 		}
 	}
 

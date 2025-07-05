@@ -398,6 +398,139 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+
+		MAC_cola_capitalism_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+		MAC_spread_coke = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				consumer_goods_factor = 0.05
+				local_resources_factor = 0.05
+			}
+		}
+
+		MAC_mass_propaganda_campaign_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				boost_ideology_mission_factor = 0.5
+				local_resources_factor = 0.05
+			}
+		}
+
+		MAC_NRA_support = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				local_resources_factor = 0.05
+				boost_ideology_mission_factor = 0.5
+			}
+		}
+
+		MAC_dr_pepper_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				local_resources_factor = 0.05
+				boost_ideology_mission_factor = 0.5
+			}
+		}
+		MAC_saida_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				local_resources_factor = 0.05
+				boost_ideology_mission_factor = 0.5
+			}
+		}
+		MAC_alcola_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				local_resources_factor = 0.05
+				boost_ideology_mission_factor = 0.5
+			}
+		}
+
+		MAC_pepsi_guerrilla_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				local_resources_factor = 0.05
+				boost_ideology_mission_factor = 0.5
+			}
+		}
 		
 	}
 }		
