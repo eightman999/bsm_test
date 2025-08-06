@@ -10,4 +10,23 @@ shipyard_ll_opinion_modifier = {
     days = 180 # 友好度補正が持続する期間 (180日)
     trade = yes
 }
+
+# Nokia Decision Opinion Modifiers
+NKA_network_expansion = {
+    value = 15
+    days = 365
+    trade = yes
+}
+
+NKA_patent_theft = {
+    value = -35
+    days = 730
+    trade = no
+}
+
+NKA_failed_espionage = {
+    value = -20
+    days = 365
+    trade = no
+}
 }
