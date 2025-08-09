@@ -9,7 +9,7 @@ ideas = {
 		democratic_awakening = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				democratic_ideology_drift = 0.05
+				democratic_daily = 0.05
 				stability_factor = 0.05
 				political_power_gain = 0.1
 			}
@@ -45,17 +45,17 @@ ideas = {
 		revolutionary_vanguard_idea = {
 			picture = generic_communist_drift_bonus
 			modifier = {
-				communism_ideology_drift = 0.05
+				communism_daily = 0.05
 				industrial_capacity_factory = 0.1
 				army_intel_to_others = 5.0
-				partisan_effect = 0.25
+				partisans_effect = 0.25
 			}
 		}
 
 		nationalist_movement_idea = {
 			picture = generic_fascist_drift_bonus
 			modifier = {
-				fascism_ideology_drift = 0.05
+				fascism_daily = 0.05
 				army_attack_factor = 0.1
 				justify_war_goal_time = -0.25
 				war_support_factor = 0.1
@@ -75,7 +75,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				civilism_drift = 0.05
-				civilian_factory_construction_speed = 0.1
+				civilian_factories_construction_speed_factor = 0.1
 				trade_opinion_factor = 0.2
 				consumer_goods_factor = -0.05
 			}
@@ -255,7 +255,7 @@ ideas = {
 		trade_expansion_idea = {
 			picture = generic_production_bonus
 			modifier = {
-				civilian_factory_construction_speed = 0.1
+				civilian_factories_construction_speed_factor = 0.1
 				consumer_goods_factor = -0.1
 				trade_opinion_factor = 0.2
 			}
@@ -271,7 +271,7 @@ ideas = {
 		HRE_focus_to_army_idea = {
 			picture = generic_army_war_college
 			modifier = {
-				army_experience_factor = 0.1
+				army_experience_gain_factor = 0.1
 				land_doctrine_cost_factor = -0.1
 				army_attack_factor = 0.05
 			}
@@ -324,7 +324,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				stability_factor = 0.1
-				democratic_ideology_drift = 0.02
+				democratic_daily = 0.02
 			}
 		}
 
@@ -332,7 +332,7 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			modifier = {
 				army_morale_factor = 0.1
-				fascism_ideology_drift = 0.02
+				fascism_daily = 0.02
 			}
 		}
 
@@ -340,7 +340,7 @@ ideas = {
 			picture = generic_communist_drift_bonus
 			modifier = {
 				industrial_capacity_factory = 0.05
-				communism_ideology_drift = 0.02
+				communism_daily = 0.02
 			}
 		}
 
@@ -348,7 +348,7 @@ ideas = {
 			picture = generic_army_war_college
 			modifier = {
 				land_doctrine_cost_factor = -0.1
-				army_experience_factor = 0.1
+				army_experience_gain_factor = 0.1
 			}
 			rule = {
 				can_send_volunteers = yes

@@ -104,7 +104,7 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.1
 				army_defence_factor = 0.1
-				fascism_acceptance = 25
+				fascism_daily = 0.1
 			}
 		}
 		
@@ -575,7 +575,7 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				democratic_ideology_drift = -0.1
+				democratic_daily = -0.1
 			}
 		}
 
@@ -595,8 +595,8 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				democratic_ideology_drift = -0.1
-				communism_ideology_drift = 0.2
+				democratic_daily = -0.1
+				communism_daily = 0.2
 			}
 		}
 
@@ -616,8 +616,8 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				democratic_ideology_drift = -0.1
-				fascism_ideology_drift = 0.2
+				democratic_daily = -0.1
+				fascism_daily = 0.2
 			}
 		}
 
@@ -637,8 +637,8 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				democratic_ideology_drift = -0.1
-				fascism_ideology_drift = 0.2
+				democratic_daily = -0.1
+				fascism_daily = 0.2
 			}
 		}
 
