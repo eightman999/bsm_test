@@ -45,6 +45,13 @@ Enable collection and use the Script tab to analyze processing times. Focus on o
 - Mercenary System (`_bsm_mercenary_system.*`)
 - Custom diplomatic actions and scripted GUIs
 
+**Modified Vanilla Systems:**
+- **Ideologies:** Vanilla ideology names have been changed to avoid conflicts:
+  - `communism` → `communism_ideology`
+  - `democratic` → `democratic_ideology`
+  - `fascism` → `fascism_ideology`
+  - `neutrality` → `neutrality_ideology`
+
 **Performance Considerations:**
 - Use early returns in triggers (check lightweight conditions first)
 - Avoid `any_state` in frequently-executed code
