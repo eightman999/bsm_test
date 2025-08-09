@@ -14,7 +14,7 @@ country_event = {
 		name = emu_empire.1.a
 		add_political_power = 100
 		add_stability = 0.1
-		add_country_modifier = {
+		add_modifier = {
 			name = emu_empire_awakened
 			duration = -1
 		}
@@ -31,7 +31,7 @@ country_event = {
 	
 	trigger = {
 		tag = AUS
-		has_country_modifier = emu_war_legacy
+		has_modifier = emu_war_legacy
 		date > 1936.11.1
 		date < 1936.11.30
 	}
@@ -63,7 +63,7 @@ country_event = {
 	option = {
 		name = emu_empire.3.a
 		add_political_power = 200
-		add_country_modifier = {
+		add_modifier = {
 			name = feathered_bureaucracy
 			duration = -1
 		}
@@ -80,12 +80,12 @@ country_event = {
 	
 	trigger = {
 		tag = AUS
-		has_country_modifier = dust_storm_defense
+		has_modifier = dust_storm_defense
 		has_war = yes
 		any_enemy_country = {
 			any_owned_state = {
 				is_coastal = no
-				terrain = desert
+				is_terrain = desert
 			}
 		}
 	}
@@ -96,7 +96,7 @@ country_event = {
 	
 	option = {
 		name = emu_empire.4.a
-		add_country_modifier = {
+		add_modifier = {
 			name = dust_storm_advantage
 			duration = 60
 		}
@@ -166,7 +166,7 @@ country_event = {
 	option = {
 		name = emu_empire.6.a
 		add_political_power = 300
-		add_country_modifier = {
+		add_modifier = {
 			name = emu_world_ambition
 			duration = -1
 		}
@@ -224,7 +224,7 @@ country_event = {
 	
 	option = {
 		name = emu_empire.8.a
-		add_country_modifier = {
+		add_modifier = {
 			name = emu_migration_bonus
 			duration = -1
 		}
@@ -289,10 +289,10 @@ country_event = {
 	
 	trigger = {
 		tag = AUS
-		has_country_modifier = emu_ramming_tactics
+		has_modifier = emu_ramming_tactics
 		has_war = yes
 		any_enemy_country = {
-			has_equipment = { armor > 50 }
+			has_tech = basic_light_tank_chassis
 		}
 	}
 	
@@ -302,7 +302,7 @@ country_event = {
 	
 	option = {
 		name = emu_empire.10.a
-		add_country_modifier = {
+		add_modifier = {
 			name = successful_ramming_operation
 			duration = 120
 		}
@@ -353,7 +353,7 @@ country_event = {
 	
 	option = {
 		name = emu_empire.11.b
-		add_country_modifier = {
+		add_modifier = {
 			name = avian_diplomatic_isolationism
 			duration = 365
 		}
@@ -377,12 +377,13 @@ country_event = {
 	
 	option = {
 		name = emu_empire.12.a
-		add_country_modifier = {
+		add_modifier = {
 			name = wingless_conqueror_spirit
 			duration = -1
 		}
 		add_named_threat = { threat = 5 name = "Emu Empire Expansionism" }
-		every_major = {
+		every_other_country = {
+			limit = { is_major = yes }
 			country_event = { id = emu_empire.13 days = 1 }
 		}
 		ai_chance = { factor = 100 }
