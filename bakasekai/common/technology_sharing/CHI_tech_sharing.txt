@@ -1,0 +1,4 @@
+CHI_technological_cooperation_tech_group = {
+	# This group is for technological cooperation between Chinese warlords and the central government.
+	# Research sharing bonus is determined by events and national focuses.
+}

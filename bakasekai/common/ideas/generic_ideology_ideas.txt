@@ -48,7 +48,7 @@ ideas = {
 				communism_ideology_drift = 0.05
 				industrial_capacity_factory = 0.1
 				army_intel_to_others = 5.0
-				partisan_effect = 0.25
+				partisans_efficiency = 0.25
 			}
 		}
 
@@ -271,7 +271,7 @@ ideas = {
 		HRE_focus_to_army_idea = {
 			picture = generic_army_war_college
 			modifier = {
-				army_experience_factor = 0.1
+				army_experience_gain = 0.1
 				land_doctrine_cost_factor = -0.1
 				army_attack_factor = 0.05
 			}
@@ -348,7 +348,7 @@ ideas = {
 			picture = generic_army_war_college
 			modifier = {
 				land_doctrine_cost_factor = -0.1
-				army_experience_factor = 0.1
+				army_experience_gain = 0.1
 			}
 			rule = {
 				can_send_volunteers = yes
