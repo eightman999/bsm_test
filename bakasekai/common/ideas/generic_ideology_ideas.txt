@@ -9,7 +9,7 @@ ideas = {
 		democratic_awakening = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				daily_democratic_ideology_support = 0.05
+				democratic_ideology_drift = 0.05
 				stability_factor = 0.05
 				political_power_gain = 0.1
 			}
@@ -45,7 +45,7 @@ ideas = {
 		revolutionary_vanguard_idea = {
 			picture = generic_communist_drift_bonus
 			modifier = {
-				daily_communism_ideology_support = 0.05
+				communism_ideology_drift = 0.05
 				industrial_capacity_factory = 0.1
 				army_intel_to_others = 5.0
 				partisans_efficiency = 0.25
@@ -55,7 +55,7 @@ ideas = {
 		nationalist_movement_idea = {
 			picture = generic_fascist_drift_bonus
 			modifier = {
-				daily_fascism_ideology_support = 0.05
+				fascism_ideology_drift = 0.05
 				army_attack_factor = 0.1
 				justify_war_goal_time = -0.25
 				war_support_factor = 0.1
@@ -324,7 +324,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				stability_factor = 0.1
-				daily_democratic_ideology_support = 0.02
+				democratic_ideology_drift = 0.02
 			}
 		}
 
@@ -332,7 +332,7 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			modifier = {
 				army_morale_factor = 0.1
-				daily_fascism_ideology_support = 0.02
+				fascism_ideology_drift = 0.02
 			}
 		}
 
@@ -340,7 +340,7 @@ ideas = {
 			picture = generic_communist_drift_bonus
 			modifier = {
 				industrial_capacity_factory = 0.05
-				daily_communism_ideology_support = 0.02
+				communism_ideology_drift = 0.02
 			}
 		}
 
