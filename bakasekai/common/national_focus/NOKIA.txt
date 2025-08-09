@@ -332,11 +332,11 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = fascism_ideology
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = fascism_ideology
 				popularity = 0.6
 			}
 		}
@@ -400,11 +400,11 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			set_politics = {
-				ruling_party = communism
+				ruling_party = communism_ideology
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = communism
+				ideology = communism_ideology
 				popularity = 0.6
 			}
 		}

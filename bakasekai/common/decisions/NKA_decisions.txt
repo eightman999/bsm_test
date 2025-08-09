@@ -1,12 +1,14 @@
 # Nokia Handset Development Decisions
 NKA_handset_development = {
+	
+	picture = GFX_decision_generic_research
 	NKA_develop_new_handset = {
 		icon = generic_research
 		
 		allowed = { tag = NKA }
 		
 		available = {
-			political_power > 75
+			has_political_power > 75
 			num_of_civilian_factories > 5
 		}
 		
@@ -51,11 +53,16 @@ NKA_handset_development = {
 
 # Network Expansion Decisions (Democratic Path)
 NKA_network_expansion_decisions = {
+	
+	picture = GFX_decision_generic_diplomatic
 	NKA_improve_relations_network = {
 		icon = generic_diplomatic_treaty
 		
 		allowed = { 
 			tag = NKA 
+		}
+		
+		visible = {
 			has_idea = NKA_global_network_initiative
 		}
 		
@@ -68,7 +75,7 @@ NKA_network_expansion_decisions = {
 		}
 		
 		available = {
-			political_power > 50
+			has_political_power > 50
 		}
 		
 		cost = 50
@@ -76,9 +83,9 @@ NKA_network_expansion_decisions = {
 		
 		remove_effect = {
 			ROOT = {
-				improve_relation = {
+				add_opinion_modifier = {
 					target = FROM
-					value = 25
+					modifier = improved_relations
 				}
 			}
 			FROM = {
@@ -106,11 +113,14 @@ NKA_network_expansion_decisions = {
 		
 		allowed = { 
 			tag = NKA 
+		}
+		
+		visible = {
 			has_completed_focus = NKA_sekai_wo_tsunagu
 		}
 		
 		available = {
-			political_power > 100
+			has_political_power > 100
 			is_faction_leader = no
 			NOT = { is_in_faction = yes }
 		}
@@ -130,11 +140,16 @@ NKA_network_expansion_decisions = {
 
 # Patent War Decisions (Fascist Path)
 NKA_patent_war_decisions = {
+	
+	picture = GFX_decision_generic_research
 	NKA_steal_technology_blueprints = {
 		icon = generic_research
 		
 		allowed = { 
 			tag = NKA 
+		}
+		
+		visible = {
 			has_completed_focus = NKA_tokkyo_sensou
 		}
 		
@@ -147,7 +162,7 @@ NKA_patent_war_decisions = {
 		}
 		
 		available = {
-			political_power > 100
+			has_political_power > 100
 			has_war = no
 		}
 		
@@ -183,7 +198,9 @@ NKA_patent_war_decisions = {
 			modifier = {
 				factor = 2
 				FROM = { 
-					has_tech_bonus = yes
+					has_tech_bonus = {
+						technology = infantry_weapons
+					}
 				}
 			}
 		}
@@ -194,6 +211,9 @@ NKA_patent_war_decisions = {
 		
 		allowed = { 
 			tag = NKA 
+		}
+		
+		visible = {
 			has_completed_focus = NKA_aggressive_monopoly
 		}
 		
@@ -206,7 +226,7 @@ NKA_patent_war_decisions = {
 		}
 		
 		available = {
-			political_power > 150
+			has_political_power > 150
 			has_war = no
 			FROM = { is_guaranteed_by = no }
 		}
@@ -237,11 +257,16 @@ NKA_patent_war_decisions = {
 
 # Revolutionary Decisions (Communist Path)
 NKA_revolutionary_decisions = {
+	
+	picture = GFX_decision_generic_propaganda
 	NKA_spread_open_source_ideology = {
 		icon = generic_propaganda
 		
 		allowed = { 
 			tag = NKA 
+		}
+		
+		visible = {
 			has_completed_focus = NKA_kaihou_sareta_gijutsu
 		}
 		
@@ -249,12 +274,12 @@ NKA_revolutionary_decisions = {
 			FROM = {
 				NOT = { tag = ROOT }
 				is_neighbor_of = ROOT
-				NOT = { has_government = communism }
+				NOT = { has_government = communism_ideology }
 			}
 		}
 		
 		available = {
-			political_power > 75
+			has_political_power > 75
 		}
 		
 		cost = 75
@@ -274,7 +299,7 @@ NKA_revolutionary_decisions = {
 			modifier = {
 				factor = 2
 				FROM = { 
-					communism > 0.15
+					communism_ideology > 0.15
 				}
 			}
 		}
@@ -283,16 +308,21 @@ NKA_revolutionary_decisions = {
 
 # Special Equipment Decision (Non-Aligned Path)
 NKA_special_equipment = {
+	
+	picture = GFX_decision_generic_army
 	NKA_develop_3310_equipment = {
 		icon = generic_army_war_college
 		
 		allowed = { 
 			tag = NKA 
+		}
+		
+		visible = {
 			has_completed_focus = NKA_3310_seishin
 		}
 		
 		available = {
-			political_power > 100
+			has_political_power > 100
 			has_tech = infantry_weapons1
 			num_of_military_factories > 3
 		}
@@ -301,11 +331,11 @@ NKA_special_equipment = {
 		days_remove = 120
 		
 		modifier = {
-			military_factory_use = 3
+			consumer_goods_factor = 0.03
 		}
 		
 		remove_effect = {
-			unlock_equipment_tooltip = infantry_equipment_3310
+			custom_effect_tooltip = NKA_unlock_3310_equipment_tt
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1

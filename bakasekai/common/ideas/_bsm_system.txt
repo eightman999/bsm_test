@@ -68,5 +68,31 @@ ideas = {
 				Unified_Currency_war_factor = -0.025
 			}
 		}
+		
+		system_efficiency = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+			icon = generic_production_bonus
+			cost = 0
+		}
+		
+		management_security = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_org_factor = 0.1
+				encryption_factor = 0.15
+				decryption_factor = 0.15
+			}
+			icon = generic_intel_bonus
+			cost = 0
+		}
 	}
 }

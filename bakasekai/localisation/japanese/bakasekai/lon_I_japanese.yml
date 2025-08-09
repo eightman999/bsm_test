@@ -58,9 +58,29 @@ EV_OK: "わかった。"
  LON_patrol_shipping_lanes: "航路のパトロール" # 後回しだが、とりあえず残しておく
  LON_patrol_shipping_lanes_desc: "主要な航路の積極的なパトロールは、海賊行為や不正な侵入を阻止し、商品の自由な流れを確保し、海洋の利益を守るだろう。"
 
+ # National Focuses (Financial Supremacy)
+ LON_international_investment_bank: "国際投資銀行"
+ LON_international_investment_bank_desc: "シティの力を世界に示す時が来た。我々の資本は、友好国の産業を育て、そして我々に利益をもたらすだろう。"
+ LON_funding_the_allies: "連合国への融資"
+ LON_funding_the_allies_desc: "民主主義の大義のため、同盟国の戦争努力を我々の金融力で支援する。この投資は平和と自由への投資である。"
+ LON_offshore_banking: "オフショア・バンキング"
+ LON_offshore_banking_desc: "国境を越えた金融サービスを提供し、世界中の富裕層と企業の資本を引き寄せる。ロンドンは真の国際金融センターとなる。"
+ LON_arsenal_of_democracy_fund: "民主主義の兵器廠ファンド"
+ LON_arsenal_of_democracy_fund_desc: "戦時において、我々は民主主義諸国の「兵器廠」として機能する。金融という武器で、自由を守る戦いを支援しよう。"
+ LON_masters_of_the_city: "シティの支配者"
+ LON_masters_of_the_city_desc: "世界の金はロンドンに集まり、そしてロンドンから世界に流れる。我々はもはや単なる都市ではない。金融という見えざる帝国なのだ。"
+
  # Ideas
  LON_financial_hub: "金融ハブ"
  LON_financial_hub_desc: "ロンドンの金融市場は世界の羨望の的であり、世界中から資本と人材を引き寄せている。"
+ LON_international_financial_hub: "国際金融ハブ"
+ LON_international_financial_hub_desc: "ロンドンの金融市場は国際的な影響力を持つまでに成長し、世界中の投資家と企業を魅了している。"
+ LON_offshore_banking_hub: "オフショア銀行センター"
+ LON_offshore_banking_hub_desc: "国境を越えた金融サービスにより、ロンドンは世界の資本が集まる安全な避難港となった。"
+ LON_democracy_arsenal_fund: "民主主義兵器廠ファンド"
+ LON_democracy_arsenal_fund_desc: "戦時下において、我々の金融力は民主主義を守る武器となる。同盟国への支援は我々の使命である。"
+ LON_masters_of_city: "シティの完全支配"
+ LON_masters_of_city_desc: "世界の金融システムの中心に君臨する我々は、もはや単なる都市国家ではない。見えざる金融帝国の皇帝なのだ。"
  LON_coastal_defense_initiative: "沿岸防衛イニシアティブ" # 後回しだが、とりあえず残しておく
  LON_coastal_defense_initiative_desc: "外部からの脅威や違法行為に対する海上の防衛を強化するためのプログラム。"
 
@@ -101,3 +121,37 @@ LON_london_bridge_critical_condition.desc: "ロンドン橋の損耗が危険な
  LON_repair_london_bridge_minor_desc: "ロンドン橋の軽微な損耗を修理し、安全性を維持する。費用は少ないが、大規模な損耗には効果が薄い。"
  LON_repair_london_bridge_major: "ロンドン橋の大規模修理"
  LON_repair_london_bridge_major_desc: "ロンドン橋の深刻な損耗を修理し、長期的な堅牢性を回復する。多大な費用と民需工場を要するが、その効果は大きい。"
+
+ # 投資システム関連
+ LON_international_investment_category: "国際投資"
+ LON_invest_in_ally: "同盟国への投資"
+ LON_invest_in_ally_desc: "友好的な同盟国の産業発展を支援することで、相互の経済関係を強化し、我々の影響力を拡大する。"
+ LON_invest_in_democracy: "民主主義国への投資"
+ LON_invest_in_democracy_desc: "民主主義を共有する国家への経済支援を通じて、自由と平等の価値を世界に広める。"
+ 
+ LON_foreign_investment: "ロンドン資本の投資"
+ LON_foreign_investment_desc: "ロンドンの金融街からの投資により、我が国の産業発展が加速している。"
+ 
+ LON_grateful_for_investment: "投資への感謝"
+ LON_investment_leverage: "投資による影響力"
+ 
+ # カスタムツールチップ
+ LON_funding_allies_tooltip: "同盟国への融資効果が強化され、より有利な条件で投資を行えるようになります。"
+ LON_masters_city_tooltip: "シティの完全支配により、世界の金融システムに絶大な影響力を持つようになります。"
+ LON_investment_effect_tooltip: "対象国は2年間、産業発展ボーナスを受け取り、我々は貿易上の影響力を獲得します。"
+ LON_democracy_investment_tooltip: "民主主義国への投資により、価値観を共有する国家との絆が深まります。"
+ LON_investment_accepted_tooltip: "投資が受け入れられ、両国の経済関係が強化されます。"
+ LON_investment_rejected_tooltip: "投資は拒否されましたが、政治的影響はありません。"
+ LON_democracy_investment_accepted_tooltip: "民主主義への投資が歓迎され、価値観の絆が深まります。"
+ LON_democracy_investment_rejected_tooltip: "投資は拒否されましたが、独立性への敬意が示されました。"
+ 
+ # 投資関連イベント
+ LON_investment.1.t: "ロンドンからの投資提案"
+ LON_investment.1.desc: "シティ・オブ・ロンドンから、我が国の産業発展を支援する投資の提案が届いた。この投資は我が国の経済を大きく後押しするだろうが、同時にロンドンの影響力拡大を意味する。"
+ LON_investment.1.a: "投資を歓迎する"
+ LON_investment.1.b: "独立性を重視し、投資を辞退する"
+ 
+ LON_investment.2.t: "民主主義支援投資"
+ LON_investment.2.desc: "ロンドンの金融街から、民主主義的価値観を共有する国として、特別な投資プログラムの提案を受けた。この投資は単なる経済支援を超え、自由と民主主義の理念を推進するものだ。"
+ LON_investment.2.a: "民主主義の盟友として投資を受け入れる"
+ LON_investment.2.b: "外国の干渉として丁重に断る"

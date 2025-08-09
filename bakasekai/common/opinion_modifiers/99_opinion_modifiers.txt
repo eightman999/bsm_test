@@ -29,4 +29,40 @@ NKA_failed_espionage = {
     days = 365
     trade = no
 }
+
+# エミュー帝国関連
+threatened_by_emu_empire = {
+    value = -50
+    decay = 1
+    days = 365
+    trade = no
+}
+
+amused_by_emu_empire = {
+    value = 25
+    decay = 1
+    days = 180
+    trade = yes
+}
+
+emu_egg_theft_incident = {
+    value = -30
+    decay = 1
+    days = 270
+    trade = no
+}
+
+bird_diplomatic_understanding = {
+    value = 40
+    decay = 1
+    days = 540
+    trade = yes
+}
+
+fear_of_emu_empire = {
+    value = -75
+    decay = 1
+    days = 720
+    trade = no
+}
 }
