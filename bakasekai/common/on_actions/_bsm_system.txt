@@ -94,6 +94,7 @@ on_actions = {
                             tag = MNT
                             tag = ETH
                             tag = LEB
+                            tag = TWN
                         }
                     }
                     set_country_flag = Support_For_Orthodoxy
