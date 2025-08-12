@@ -48,7 +48,7 @@ ideas = {
 				communism_ideology_drift = 0.05
 				industrial_capacity_factory = 0.1
 				army_intel_to_others = 5.0
-				partisans_efficiency = 0.25
+                                resistance_damage_to_garrison_on_our_occupied_states = 0.25
 			}
 		}
 
@@ -75,7 +75,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				civilism_drift = 0.05
-				civilian_factory_construction_speed = 0.1
+                                production_speed_civilian_factory_factor = 0.1
 				trade_opinion_factor = 0.2
 				consumer_goods_factor = -0.05
 			}
@@ -255,7 +255,7 @@ ideas = {
 		trade_expansion_idea = {
 			picture = generic_production_bonus
 			modifier = {
-				civilian_factory_construction_speed = 0.1
+                                production_speed_civilian_factory_factor = 0.1
 				consumer_goods_factor = -0.1
 				trade_opinion_factor = 0.2
 			}
@@ -271,7 +271,7 @@ ideas = {
 		HRE_focus_to_army_idea = {
 			picture = generic_army_war_college
 			modifier = {
-				army_experience_gain = 0.1
+                                experience_gain_army = 0.1
 				land_doctrine_cost_factor = -0.1
 				army_attack_factor = 0.05
 			}
@@ -348,7 +348,7 @@ ideas = {
 			picture = generic_army_war_college
 			modifier = {
 				land_doctrine_cost_factor = -0.1
-				army_experience_gain = 0.1
+                                experience_gain_army = 0.1
 			}
 			rule = {
 				can_send_volunteers = yes
