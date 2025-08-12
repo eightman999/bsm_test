@@ -104,3 +104,6 @@ Extensive character definitions in `common/characters/` organized by country, in
 6. **Effects and Triggers:** When implementing logic, consult the coding context references:
    - Effects: `documents/00_coding_contexts/01_effects/effects.json`
    - Triggers: `documents/00_coding_contexts/04_triggers/triggers.json`
+
+## Asset References
+- For a complete list of goal interface graphics, see [goals_file_list.md](goals_file_list.md).
