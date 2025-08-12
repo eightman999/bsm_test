@@ -25,10 +25,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 100
-			add_modifier = {
-				name = emu_empire_awakened
-				duration = -1
-			}
+			add_ideas = emu_empire_awakened
 		}
 	}
 	
@@ -45,10 +42,7 @@ focus_tree = {
 			add_political_power = 150
 			add_stability = 0.1
 			add_war_support = 0.05
-			add_modifier = {
-				name = emu_war_legacy
-				duration = -1
-			}
+			add_ideas = emu_war_legacy
 		}
 	}
 	
@@ -63,10 +57,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 200
-			add_modifier = {
-				name = feathered_bureaucracy
-				duration = -1
-			}
+			add_ideas = feathered_bureaucracy
 		}
 	}
 	
@@ -86,10 +77,7 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			add_modifier = {
-				name = dust_storm_defense
-				duration = -1
-			}
+			add_ideas = dust_storm_defense
 		}
 	}
 	
@@ -129,10 +117,7 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			add_modifier = {
-				name = emu_speed_tactics
-				duration = -1
-			}
+			add_ideas = emu_speed_tactics
 		}
 	}
 	
@@ -181,10 +166,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 300
-			add_modifier = {
-				name = imperial_expansion
-				duration = -1
-			}
+			add_ideas = imperial_expansion
 			unlock_decision_category_tooltip = emu_expansion_decisions
 		}
 	}
@@ -244,10 +226,7 @@ focus_tree = {
 				amount = 5
 				state = 285
 			}
-			add_modifier = {
-				name = feather_industrial_complex
-				duration = -1
-			}
+			add_ideas = feather_industrial_complex
 		}
 	}
 	
@@ -261,10 +240,7 @@ focus_tree = {
 		y = 6
 		
 		completion_reward = {
-			add_modifier = {
-				name = emu_migration_bonus
-				duration = -1
-			}
+			add_ideas = emu_migration_bonus
 			every_owned_state = {
 				limit = { 
 					is_coastal = no
@@ -284,10 +260,7 @@ focus_tree = {
 		y = 5
 		
 		completion_reward = {
-			add_modifier = {
-				name = avian_diplomatic_corps
-				duration = -1
-			}
+			add_ideas = avian_diplomatic_corps
 			unlock_decision_category_tooltip = emu_bird_diplomacy
 		}
 	}
@@ -308,10 +281,7 @@ focus_tree = {
 				uses = 1
 				category = armor
 			}
-			add_modifier = {
-				name = emu_ramming_tactics
-				duration = -1
-			}
+			add_ideas = emu_ramming_tactics
 		}
 	}
 
@@ -329,10 +299,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 500
-			add_modifier = {
-				name = emu_world_ambition
-				duration = -1
-			}
+			add_ideas = emu_world_ambition
 			custom_effect_tooltip = AUS_world_domination_tt
 		}
 	}
@@ -353,10 +320,7 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			add_modifier = {
-				name = feather_blitzkrieg
-				duration = -1
-			}
+			add_ideas = feather_blitzkrieg
 		}
 	}
 	
@@ -371,10 +335,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 300
-			add_modifier = {
-				name = wingless_conqueror_spirit
-				duration = -1
-			}
+			add_ideas = wingless_conqueror_spirit
 			every_other_country = {
 				limit = { is_major = yes }
 				add_opinion_modifier = {
