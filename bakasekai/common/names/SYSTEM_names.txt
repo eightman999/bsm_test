@@ -1,0 +1,9 @@
+_ = {
+        male = {
+                names = { "System" }
+        }
+        female = {
+                names = { "System" }
+        }
+        surnames = { "Manager" }
+}
