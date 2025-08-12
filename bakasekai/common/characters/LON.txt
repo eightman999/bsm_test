@@ -1,6 +1,6 @@
 characters = {
-    LON_GB = {
-        name = LON_GB
+    LON_George_Broadbridge = {
+        name = LON_George_Broadbridge
         portraits = {
             civilian = {
                 large = "gfx/leaders/LON/LON_GB.png"

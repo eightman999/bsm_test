@@ -2,7 +2,7 @@ capital = 113
 oob = "Default_oob"
 land_tech_level_0 = yes
 
-recruit_character = LON_GB
+recruit_character = LON_George_Broadbridge
 recruit_character = LON_frank_newson_smith
 recruit_character = LON_john_laurie
 recruit_character = LON_george_wilkinson
@@ -14,7 +14,7 @@ recruit_character = LON_charles_davis
 recruit_character = LON_william_coxen
 recruit_character = LON_frank_alexander
 
-promote_character = LON_GB
+promote_character = LON_George_Broadbridge
 
 set_convoys = 0
 set_politics = {
