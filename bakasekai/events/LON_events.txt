@@ -4,16 +4,14 @@ news_event = {
     id = LON.leader_change.1
     title = LON.leader_change.1.t
     desc = LON.leader_change.1.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        # LON_GB から Harry Twyford に変更
-        #kill_country_leader = yes
-        promote_character = LON_harry_twyford
+        promote_character = LON_frank_newson_smith
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -22,16 +20,15 @@ news_event = {
 news_event = {
     id = LON.leader_change.2
     title = LON.leader_change.2.t
-    desc = LON.leader_leader.2.desc
-    
+    desc = LON.leader_change.2.desc
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_frank_bowater
+        promote_character = LON_john_laurie
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -41,15 +38,14 @@ news_event = {
     id = LON.leader_change.3
     title = LON.leader_change.3.t
     desc = LON.leader_change.3.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_william_coxen
+        promote_character = LON_george_wilkinson
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -59,15 +55,14 @@ news_event = {
     id = LON.leader_change.4
     title = LON.leader_change.4.t
     desc = LON.leader_change.4.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_george_wilkinson
+        promote_character = LON_frank_bowater
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -77,15 +72,14 @@ news_event = {
     id = LON.leader_change.5
     title = LON.leader_change.5.t
     desc = LON.leader_change.5.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_john_laurie
+        promote_character = LON_harry_twyford
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -95,15 +89,14 @@ news_event = {
     id = LON.leader_change.6
     title = LON.leader_change.6.t
     desc = LON.leader_change.6.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_samuel_joseph
+        promote_character = LON_bracewell_smith
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -113,15 +106,14 @@ news_event = {
     id = LON.leader_change.7
     title = LON.leader_change.7.t
     desc = LON.leader_change.7.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_frank_newson_smith
+        promote_character = LON_samuel_joseph
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -131,15 +123,14 @@ news_event = {
     id = LON.leader_change.8
     title = LON.leader_change.8.t
     desc = LON.leader_change.8.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_frank_alexander
+        promote_character = LON_charles_davis
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -149,15 +140,14 @@ news_event = {
     id = LON.leader_change.9
     title = LON.leader_change.9.t
     desc = LON.leader_change.9.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_charles_davis
+        promote_character = LON_william_coxen
     }
-    
+
     option = {
         name = EVT_OK
     }
@@ -167,15 +157,14 @@ news_event = {
     id = LON.leader_change.10
     title = LON.leader_change.10.t
     desc = LON.leader_change.10.desc
-    
+
     is_triggered_only = yes
     major = yes
-    
+
     immediate = {
-        #kill_country_leader = yes
-        promote_character = LON_bracewell_smith
+        promote_character = LON_frank_alexander
     }
-    
+
     option = {
         name = EVT_OK
     }
