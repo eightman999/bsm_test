@@ -36,7 +36,7 @@ LON_international_investment_category = {
     picture = LON_investment_category_picture # GFX_decision_cat_picture_economy のような汎用画像でもOK
     visible = {
         tag = LON
-        has_idea = LON_international_financial_hub
+        has_idea = LON_global_financial_network
     }
     priority = 40
 }
