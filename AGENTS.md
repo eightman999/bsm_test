@@ -101,3 +101,6 @@ Extensive character definitions in `common/characters/` organized by country, in
 3. **Localization:** Ensure all new content has proper Japanese localization
 4. **Testing:** Use debug tools and test scenarios to verify functionality
 5. **Documentation:** Complex systems should include documentation files in appropriate directories
+6. **Effects and Triggers:** When implementing logic, consult the coding context references:
+   - Effects: `documents/00_coding_contexts/01_effects/effects.json`
+   - Triggers: `documents/00_coding_contexts/04_triggers/triggers.json`
