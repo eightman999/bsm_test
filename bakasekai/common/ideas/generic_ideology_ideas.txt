@@ -75,7 +75,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			modifier = {
 				civilism_drift = 0.05
-                                production_speed_civilian_factory_factor = 0.1
+                                production_speed_industrial_complex_factor = 0.1
 				trade_opinion_factor = 0.2
 				consumer_goods_factor = -0.05
 			}
@@ -255,7 +255,7 @@ ideas = {
 		trade_expansion_idea = {
 			picture = generic_production_bonus
 			modifier = {
-                                production_speed_civilian_factory_factor = 0.1
+                                production_speed_industrial_complex_factor = 0.1
 				consumer_goods_factor = -0.1
 				trade_opinion_factor = 0.2
 			}
