@@ -14,9 +14,9 @@
 			focus = HRE_focus_to_nuke
 		}
 		available_if_capitulated = yes
-		available = {
-			has_completed_focus = HRE_focus_of_nuke
-		}
+                available = {
+                        has_completed_focus = HRE_focus_to_nuke
+                }
 		completion_reward = {
 			army_experience = 100
 			add_doctrine_cost_reduction = {
