@@ -3996,11 +3996,10 @@ SWI_military_readiness_decisions_category = {
 
 		activation = {  has_Country_flag = SWI_building_up_mr_cont_focus_active } 
 
-		timeout_effect = {
-			SWI_mr_lowest_increase = yes
-			activate_mission = SWI_building_up_military_readiness_mission
-		} 
-	}
+                timeout_effect = {
+                        SWI_mr_lowest_increase = yes
+                }
+        }
 
 
 	SWI_confederation_president_speech = {

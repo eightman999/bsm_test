@@ -1,0 +1,13 @@
+LON_world_investment_category = {
+        visible = { always = no }
+        LON_world_investment_category = {
+                allowed = { always = no }
+        }
+}
+
+LON_respond_battle_crisis_category = {
+        visible = { always = no }
+        LON_respond_battle_crisis_category = {
+                allowed = { always = no }
+        }
+}

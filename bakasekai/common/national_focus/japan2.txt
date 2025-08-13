@@ -729,14 +729,6 @@ focus_tree = {
 			focus = BJPN_zhengcehuiyi
 			# focus = BJPN_wajie
 		}
-		completion_reward = {
-			if = {
-				limit = {
-					has_country_flag = OWRI
-				}
-				load_focus_tree = japanv
-			}
-		}
 	}
 	#神聖教育
 	focus = {
