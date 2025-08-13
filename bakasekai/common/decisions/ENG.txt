@@ -3422,7 +3422,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			NOT = { has_government = communism }
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_1
 		}
 
@@ -3522,7 +3522,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			NOT = { has_government = communism }
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_2
 		}
 
@@ -3622,7 +3622,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			NOT = { has_government = communism }
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_3
 		}
 
@@ -3723,7 +3723,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_4
 		}
 
@@ -3824,7 +3824,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_5
 		}
 
@@ -3925,7 +3925,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_6
 		}
 
@@ -4026,7 +4026,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_7
 		}
 
@@ -4127,7 +4127,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_8
 		}
 
@@ -4228,7 +4228,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_9
 		}
 
@@ -4329,7 +4329,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_10
 		}
 
@@ -4430,7 +4430,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_11
 		}
 
@@ -4531,7 +4531,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_12
 		}
 
@@ -4632,7 +4632,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_13
 		}
 
@@ -4733,7 +4733,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_14
 		}
 
@@ -4834,7 +4834,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minister_appointment_15
 		}
 
@@ -5004,7 +5004,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_legislation_amendment
 		}
 
@@ -5155,7 +5155,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_conscription_limitations
 		}
 
@@ -5335,7 +5335,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_workplace_safety_legislation
 		}
 
@@ -5507,7 +5507,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_increase_in_paid_leave
 		}
 
@@ -5679,7 +5679,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_minimum_pay_increase
 		}
 
@@ -5851,7 +5851,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_construction_safety_legislation
 		}
 
@@ -6003,7 +6003,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			has_country_flag = ENG_trade_unions_demand_mandatory_union_days
 		}
 
@@ -6164,7 +6164,7 @@ ENG_concessions_to_the_trade_unions = {
 		visible = {
 			NOT = { has_government = communism }
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 		}
 
 		complete_effect = {
@@ -6291,7 +6291,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 		}
 
 		complete_effect = {
@@ -6345,7 +6345,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 		}
 
 		complete_effect = {
@@ -6382,7 +6382,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 		}
 
 		complete_effect = {
@@ -6419,7 +6419,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 		}
 
 		complete_effect = {
@@ -6456,7 +6456,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		visible = {
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 		}
 
 		complete_effect = {
@@ -6489,7 +6489,7 @@ ENG_concessions_to_the_trade_unions = {
 
 		activation = {
 			tag = GBR
-			has_completed_focus = ENG_concessions_to_the_trade_unions
+			has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			NOT = { has_completed_focus = ENG_decolonization }
 			has_government = communism
 			has_country_flag = ENG_switched_to_communism_civil_war_flag

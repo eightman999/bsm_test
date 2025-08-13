@@ -2246,7 +2246,7 @@ focus_tree = {
 			if = {
 				limit = { 
 					GBR = { 
-						NOT = { has_completed_focus = ENG_concessions_to_the_trade_unions }
+						NOT = { has_country_flag = ENG_concessions_to_the_trade_unions_completed }
 						is_faction_leader = yes
 					}
 				}
@@ -4509,7 +4509,7 @@ focus_tree = {
 				AND = { 
 					is_historical_focus_on = no
 					has_completed_focus = GRE_compromise_with_the_monarchists
-					GBR = { has_completed_focus = ENG_concessions_to_the_trade_unions }
+					GBR = { has_country_flag = ENG_concessions_to_the_trade_unions_completed }
 				}
 			}
 		}

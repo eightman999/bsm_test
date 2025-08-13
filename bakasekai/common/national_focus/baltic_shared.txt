@@ -1125,8 +1125,9 @@ shared_focus = {
 				category = motorized_equipment
 			}
 		}
-		show_ideas_tooltip = BALTIC_ford
-	}
+                show_ideas_tooltip = BALTIC_ford
+                set_country_flag = BALTIC_ford_motors_completed
+        }
 }
 
 shared_focus = {
@@ -2425,15 +2426,9 @@ shared_focus = {
 		factor = 1
 		modifier = {
 			factor = 0
-			any_other_country = { #we shouldn't see several Baltic states going down this path
-				OR = {
-					has_completed_focus = BALTIC_restore_workers_republic
-					focus_progress = {
-						focus = BALTIC_restore_workers_republic
-						progress > 0
-					}
-				}
-			}
+                        any_other_country = { #we shouldn't see several Baltic states going down this path
+                                has_country_flag = BALTIC_restore_workers_republic_completed
+                        }
 		}
 	}
 
@@ -2476,13 +2471,14 @@ shared_focus = {
 			ideology = communism
 			popularity = 0.1
 		}
-		add_ideas = {
-			BALTIC_restore_workers_republic_idea
-		}
-		add_ideas = {
-			BALTIC_catholic_opposition_idea
-		}
-	}
+                add_ideas = {
+                        BALTIC_restore_workers_republic_idea
+                }
+                add_ideas = {
+                        BALTIC_catholic_opposition_idea
+                }
+                set_country_flag = BALTIC_restore_workers_republic_completed
+        }
 }
 ########################
 #### SOVIET SUPPORT ####
@@ -3268,9 +3264,9 @@ shared_focus = {
 			}
 		}
 		if = {
-			limit = {
-				has_completed_focus = BALTIC_ford_motors
-			}
+                        limit = {
+                                has_country_flag = BALTIC_ford_motors_completed
+                        }
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
