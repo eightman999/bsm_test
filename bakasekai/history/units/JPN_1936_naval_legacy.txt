@@ -69,9 +69,9 @@ units = {
 			task_force = {
 				name = "第四戦隊"
 				location = 7157  #Yokosuka
-				ship = { name = "妙高" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JPN version_name = "妙高型"} } }
-				ship = { name = "那智" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JPN version_name = "妙高型"} } }
-				ship = { name = "羽黒" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JPN version_name = "妙高型"} } }
+				ship = { name = "妙高" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JPN version_name = "妙高型"} } }
+				ship = { name = "那智" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JPN version_name = "妙高型"} } }
+				ship = { name = "羽黒" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JPN version_name = "妙高型"} } }
 			}
 			task_force = {
 				name = "第七戦隊"
@@ -311,7 +311,7 @@ units = {
 				ship = { name = "金剛" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JPN version_name = "金剛型"} } }
 				ship = { name = "霧島" definition = battleship equipment = { battleship_1 = {amount = 1 owner = JPN version_name = "金剛型"} } }
 				ship = { name = "赤城" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JPN version_name = "赤城型"} }}
-				ship = { name = "足柄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JPN version_name = "妙高型"} } }
+				ship = { name = "足柄" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JPN version_name = "妙高型"} } }
 				ship = { name = "愛宕" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JPN version_name = "高雄型"} } }
 				ship = { name = "龍田" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JPN version_name = "天龍型"} } }
 				ship = { name = "北上" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JPN version_name = "球磨型"} } }

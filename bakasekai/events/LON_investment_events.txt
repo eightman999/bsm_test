@@ -52,8 +52,8 @@ country_event = {
             factor = 15
             modifier = {
                 factor = 0.3
-                has_government = democratic
-                democratic > 0.7
+                has_government = democratic_ideology
+                democratic_ideology > 0.7
             }
         }
         FROM = {

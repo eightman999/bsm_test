@@ -5,13 +5,13 @@ LON_international_investment_category = {
         
         available = {
             has_idea = LON_global_financial_network
-            political_power > 99
-            num_of_allies > 0
+            has_political_power > 99
+            has_faction = yes
         }
         
         target_trigger = {
             FROM = {
-                is_ally_of = ROOT
+                is_in_faction_with = ROOT
                 NOT = { has_country_flag = LON_recently_invested }
                 is_major = no
             }
@@ -56,7 +56,7 @@ LON_international_investment_category = {
             }
             modifier = {
                 factor = 0.5
-                political_power < 150
+                has_political_power < 150
             }
         }
     }
@@ -66,13 +66,13 @@ LON_international_investment_category = {
         
         available = {
             has_idea = LON_global_financial_network
-            political_power > 149
+            has_political_power > 149
         }
         
         target_trigger = {
             FROM = {
-                has_government = democratic
-                NOT = { is_ally_of = ROOT }
+                has_government = democratic_ideology
+                NOT = { is_in_faction_with = ROOT }
                 NOT = { has_country_flag = LON_recently_invested }
                 is_major = no
                 NOT = { has_war_with = ROOT }
@@ -95,13 +95,9 @@ LON_international_investment_category = {
             FROM = {
                 clr_country_flag = LON_recently_invested
                 add_timed_idea = { idea = LON_foreign_investment days = 730 }
-                add_opinion_modifier = { 
-                    target = ROOT 
-                    modifier = LON_grateful_for_investment 
-                }
-                improve_relation = {
+                add_opinion_modifier = {
                     target = ROOT
-                    value = 25
+                    modifier = LON_grateful_for_investment
                 }
             }
             ROOT = {
