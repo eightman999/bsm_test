@@ -1,8 +1,7 @@
 # Nokia Handset Development Decisions
 NKA_handset_development = {
-	
-	picture = GFX_decision_generic_research
-	NKA_develop_new_handset = {
+
+        NKA_develop_new_handset = {
 		icon = generic_research
 		
 		allowed = { tag = NKA }
@@ -53,9 +52,8 @@ NKA_handset_development = {
 
 # Network Expansion Decisions (Democratic Path)
 NKA_network_expansion_decisions = {
-	
-	picture = GFX_decision_generic_diplomatic
-	NKA_improve_relations_network = {
+
+        NKA_improve_relations_network = {
 		icon = generic_diplomatic_treaty
 		
 		allowed = { 
@@ -140,9 +138,8 @@ NKA_network_expansion_decisions = {
 
 # Patent War Decisions (Fascist Path)
 NKA_patent_war_decisions = {
-	
-	picture = GFX_decision_generic_research
-	NKA_steal_technology_blueprints = {
+
+        NKA_steal_technology_blueprints = {
 		icon = generic_research
 		
 		allowed = { 
@@ -257,9 +254,8 @@ NKA_patent_war_decisions = {
 
 # Revolutionary Decisions (Communist Path)
 NKA_revolutionary_decisions = {
-	
-	picture = GFX_decision_generic_propaganda
-	NKA_spread_open_source_ideology = {
+
+        NKA_spread_open_source_ideology = {
 		icon = generic_propaganda
 		
 		allowed = { 
@@ -308,9 +304,8 @@ NKA_revolutionary_decisions = {
 
 # Special Equipment Decision (Non-Aligned Path)
 NKA_special_equipment = {
-	
-	picture = GFX_decision_generic_army
-	NKA_develop_3310_equipment = {
+
+        NKA_develop_3310_equipment = {
 		icon = generic_army_war_college
 		
 		allowed = { 
