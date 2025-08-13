@@ -1,0 +1,78 @@
+add_namespace = LON
+
+# Ireland negotiation start
+country_event = {
+    id = LON.1
+    title = LON.1.t
+    desc = LON.1.d
+    is_triggered_only = yes
+    option = {
+        name = LON.1.a
+    }
+}
+
+# Ireland negotiation progress
+country_event = {
+    id = LON.2
+    title = LON.2.t
+    desc = LON.2.d
+    is_triggered_only = yes
+    option = {
+        name = LON.2.a
+    }
+}
+
+# Seek dominion status
+country_event = {
+    id = LON.3
+    title = LON.3.t
+    desc = LON.3.d
+    is_triggered_only = yes
+    option = {
+        name = LON.3.a
+    }
+}
+
+# London Bridge destroyed on independence
+country_event = {
+    id = LON.4
+    title = LON.4.t
+    desc = LON.4.d
+    is_triggered_only = yes
+    option = {
+        name = LON.4.a
+    }
+}
+
+# London Bridge wear and tear
+country_event = {
+    id = LON.5
+    title = LON.5.t
+    desc = LON.5.d
+    is_triggered_only = yes
+    option = {
+        name = LON.5.a
+    }
+}
+
+# London Bridge critical condition
+country_event = {
+    id = LON.6
+    title = LON.6.t
+    desc = LON.6.d
+    is_triggered_only = yes
+    option = {
+        name = LON.6.a
+    }
+}
+
+# Battle central bank crisis start
+country_event = {
+    id = LON.7
+    title = LON.7.t
+    desc = LON.7.d
+    is_triggered_only = yes
+    option = {
+        name = LON.7.a
+    }
+}
