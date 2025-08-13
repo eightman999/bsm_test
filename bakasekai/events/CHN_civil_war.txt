@@ -35,7 +35,6 @@ country_event = {
 					target = RAJ
 					type = puppet_wargoal_focus
 				}
-			}
 			RAJ = {
 				add_political_power = 100
 				set_state_controller = 619
@@ -283,6 +282,7 @@ country_event = {
 					target = RAJ
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 			}
 			JAP = {
 				country_event = {
@@ -359,6 +359,7 @@ country_event = {
 					target = ENG
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 			}
 			CHN = {
 				country_event = {
@@ -436,6 +437,7 @@ country_event = {
 					target = PRC
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 			}
 		}
 	}
@@ -522,6 +524,7 @@ country_event = {
 					target = SHX
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 			}
 			CHN = {
 				country_event = {
@@ -590,6 +593,7 @@ country_event = {
 					target = CHN
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 				promote_character = {
 					character = MAN_aisin_gioro_puyi
 					ideology = constitutional_emperor
@@ -696,6 +700,7 @@ country_event = {
 					target = MME
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 			}
 			CHN = {
 				country_event = {
@@ -794,6 +799,7 @@ country_event = {
 					target = MME
 					type = puppet_wargoal_focus
 				}
+				CHN_civil_war_spawn_units_effect = yes
 			}
 			CHN = {
 				country_event = {

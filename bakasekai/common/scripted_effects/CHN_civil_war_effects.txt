@@ -1,0 +1,22 @@
+CHN_civil_war_spawn_units_effect = {
+	every_owned_state = {
+		random_list = {
+		    25 = { create_unit = { division = "name = \"Militia Division\" division_template = \"Militia\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Artillery Division\" division_template = \"Artillery Division\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Cavalry Division\" division_template = \"Cavalry Division\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3" owner = PREV } }
+		}
+		random_list = {
+		    25 = { create_unit = { division = "name = \"Militia Division\" division_template = \"Militia\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Artillery Division\" division_template = \"Artillery Division\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Cavalry Division\" division_template = \"Cavalry Division\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3" owner = PREV } }
+		}
+		random_list = {
+		    25 = { create_unit = { division = "name = \"Militia Division\" division_template = \"Militia\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Artillery Division\" division_template = \"Artillery Division\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Cavalry Division\" division_template = \"Cavalry Division\" start_experience_factor = 0.3" owner = PREV } }
+		    25 = { create_unit = { division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.3" owner = PREV } }
+		}
+	}
+}
