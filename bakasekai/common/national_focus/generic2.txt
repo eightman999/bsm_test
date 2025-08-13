@@ -251,23 +251,23 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
-					free_building_slots = {
-						building = civilian_factory
+                                            free_building_slots = {
+                                                building = industrial_complex
 						size = 1
 					}
 				}
-				add_building_construction = { type = civilian_factory level = 2 instant_build = yes }
+                                add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
 			}
 			if = {
 				limit = { has_government = civilism }
 				random_owned_controlled_state = {
 					limit = {
-						free_building_slots = {
-							building = civilian_factory
+                                                    free_building_slots = {
+                                                        building = industrial_complex
 							size = 1
 						}
 					}
-					add_building_construction = { type = civilian_factory level = 1 instant_build = yes }
+                                            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 				}
 			}
 			if = { limit = { has_government = technicalism } add_research_slot = 1 }
@@ -287,12 +287,12 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
-					free_building_slots = {
-						building = civilian_factory
+                                            free_building_slots = {
+                                                building = industrial_complex
 						size = 1
 					}
 				}
-				add_building_construction = { type = civilian_factory level = 3 instant_build = yes }
+                                add_building_construction = { type = industrial_complex level = 3 instant_build = yes }
 			}
 			if = { limit = { has_government = futurism } add_tech_bonus = { name = industrial_bonus bonus = 1 uses = 2 category = industry } }
 		}
@@ -425,12 +425,12 @@ focus_tree = {
 				limit = { has_government = civilism }
 				random_owned_controlled_state = {
 					limit = {
-						free_building_slots = {
-							building = civilian_factory
+                                                    free_building_slots = {
+                                                        building = industrial_complex
 							size = 1
 						}
 					}
-					add_building_construction = { type = civilian_factory level = 1 instant_build = yes }
+                                            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 				}
 			}
 		}
