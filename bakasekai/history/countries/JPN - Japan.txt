@@ -27,15 +27,110 @@ JAP_ship_design = yes
 JAP_tank_design = yes
 
 set_technology = {
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	early_ship_hull_carrier = 1
+        early_fighter = 1
+        cv_early_fighter = 1
+        cv_naval_bomber1 = 1
+        early_ship_hull_carrier = 1
+}
+create_equipment_variant = {
+        name = "蒼龍型"
+        type = ship_hull_carrier_1
+        modules = {
+                fixed_ship_deck_slot_1 = ship_deck_space
+                fixed_ship_deck_slot_2 = ship_deck_space
+                fixed_ship_anti_air_slot = ship_anti_air_1
+                fixed_ship_radar_slot = empty
+                fixed_ship_engine_slot = carrier_ship_engine_1
+                fixed_ship_secondaries_slot = ship_secondaries_1
+                front_1_custom_slot = ship_deck_space
+        }
+}
+create_equipment_variant = {
+        name = "最上型"
+        type = ship_hull_cruiser_2
+        modules = {
+                fixed_ship_battery_slot = ship_medium_battery_2
+                fixed_ship_anti_air_slot = ship_anti_air_1
+                fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+                fixed_ship_radar_slot = empty
+                fixed_ship_engine_slot = cruiser_ship_engine_2
+                fixed_ship_armor_slot = ship_armor_cruiser_2
+                fixed_ship_secondaries_slot = ship_secondaries_1
+                front_1_custom_slot = ship_medium_battery_2
+                mid_1_custom_slot = ship_torpedo_2
+                mid_2_custom_slot = ship_torpedo_2
+                rear_1_custom_slot = ship_airplane_launcher_1
+        }
+}
+create_equipment_variant = {
+        name = "利根型"
+        type = ship_hull_cruiser_2
+        modules = {
+                fixed_ship_battery_slot = ship_medium_battery_2
+                fixed_ship_anti_air_slot = empty
+                fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+                fixed_ship_radar_slot = empty
+                fixed_ship_engine_slot = cruiser_ship_engine_2
+                fixed_ship_armor_slot = ship_armor_cruiser_2
+                fixed_ship_secondaries_slot = ship_secondaries_1
+                front_1_custom_slot = ship_medium_battery_2
+                mid_1_custom_slot = ship_torpedo_2
+                mid_2_custom_slot = ship_airplane_launcher_1
+                rear_1_custom_slot = ship_airplane_launcher_1
+        }
+}
+create_equipment_variant = {
+        name = "出雲型"
+        type = ship_hull_cruiser_coastal_defense_ship
+        modules = {
+                fixed_ship_battery_slot = ship_medium_battery_1
+                fixed_ship_anti_air_slot = empty
+                fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+                fixed_ship_radar_slot = empty
+                fixed_ship_engine_slot = cruiser_ship_engine_1
+                fixed_ship_armor_slot = ship_armor_cruiser_2
+                mid_1_custom_slot = ship_secondaries_1
+                mid_2_custom_slot = ship_secondaries_1
+                rear_1_custom_slot = empty
+        }
+        obsolete = yes
+}
+create_equipment_variant = {
+        name = "春日型"
+        type = ship_hull_cruiser_coastal_defense_ship
+        modules = {
+                fixed_ship_battery_slot = ship_medium_battery_1
+                fixed_ship_anti_air_slot = empty
+                fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+                fixed_ship_radar_slot = empty
+                fixed_ship_engine_slot = cruiser_ship_engine_1
+                fixed_ship_armor_slot = ship_armor_cruiser_2
+                mid_1_custom_slot = ship_secondaries_1
+                mid_2_custom_slot = ship_secondaries_1
+                rear_1_custom_slot = empty
+        }
+        obsolete = yes
+}
+create_equipment_variant = {
+        name = "吾妻型"
+        type = ship_hull_cruiser_coastal_defense_ship
+        modules = {
+                fixed_ship_battery_slot = ship_medium_battery_2
+                fixed_ship_anti_air_slot = ship_anti_air_1
+                fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+                fixed_ship_radar_slot = empty
+                fixed_ship_engine_slot = cruiser_ship_engine_2
+                fixed_ship_armor_slot = ship_armor_cruiser_2
+                mid_1_custom_slot = ship_secondaries_1
+                mid_2_custom_slot = ship_secondaries_1
+                rear_1_custom_slot = ship_airplane_launcher_1
+        }
+        obsolete = yes
 }
 create_import = {
-	resource = oil
-	factories = 2
-	exporter = IDN
+        resource = oil
+        factories = 2
+        exporter = IDN
 }
 
 if = {
