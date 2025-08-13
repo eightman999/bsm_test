@@ -1916,7 +1916,7 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_completed_focus = ENG_concessions_to_the_trade_unions
+				has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			}
 		}
 		available_if_capitulated = yes
@@ -11958,14 +11958,15 @@ focus_tree = {
 					}
 				}
 			}
-			hidden_effect = {
-				news_event = {
-					id = mtg_news.33
-					days = 1
-				}
-			}
-		}
-	}
+                        hidden_effect = {
+                                news_event = {
+                                        id = mtg_news.33
+                                        days = 1
+                                }
+                        }
+                        set_country_flag = ENG_concessions_to_the_trade_unions_completed
+                }
+        }
 	focus = {
 		id = ENG_move_to_secure_the_dominions
 		prerequisite = {

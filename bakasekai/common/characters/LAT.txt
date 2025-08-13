@@ -212,8 +212,8 @@ characters={
 			available = {
 				if = {
 					limit = { has_DLC = "No Step Back" }
-					has_completed_focus = BALTIC_restore_workers_republic
-				}
+                                        has_country_flag = BALTIC_restore_workers_republic_completed
+                                }
 			}
 			traits = {
 				communist_revolutionary 

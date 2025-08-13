@@ -46,7 +46,7 @@ country_event = {
 			NOT = {
 				OR = {
 					has_completed_focus = ENG_organize_the_blackshirts
-					has_completed_focus = ENG_concessions_to_the_trade_unions
+					has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					has_completed_focus = ENG_steady_as_she_goes
 				}
 			}
@@ -67,7 +67,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_completed_focus = ENG_concessions_to_the_trade_unions
+				has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			}
 			modifier = {
 				factor = 0
@@ -121,7 +121,7 @@ country_event = {
 			NOT = {
 				OR = {
 					has_completed_focus = ENG_organize_the_blackshirts
-					has_completed_focus = ENG_concessions_to_the_trade_unions
+					has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					has_completed_focus = ENG_steady_as_she_goes
 				}
 			}
@@ -142,7 +142,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_completed_focus = ENG_concessions_to_the_trade_unions
+				has_country_flag = ENG_concessions_to_the_trade_unions_completed
 			}
 			modifier = {
 				factor = 0
@@ -3641,7 +3641,7 @@ country_event = {
 
 	#trigger = {
 	#	tag = GBR
-	#	has_completed_focus = ENG_concessions_to_the_trade_unions
+	#	has_country_flag = ENG_concessions_to_the_trade_unions_completed
 	#	NOT = { has_completed_focus = ENG_decolonization }
 	#	has_government = communism
 	#	has_country_flag = ENG_switched_to_communism_civil_war_flag

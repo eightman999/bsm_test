@@ -1809,7 +1809,7 @@ GRE_pay_back_debt_to_the_ifc_category = {
 			}
 			modifier = {
 				factor = 0
-				GBR = { has_completed_focus = ENG_concessions_to_the_trade_unions }
+				GBR = { has_country_flag = ENG_concessions_to_the_trade_unions_completed }
 			}
 		}
 
@@ -2066,7 +2066,7 @@ GRE_pay_back_debt_to_the_ifc_category = {
 			}
 			modifier = {
 				factor = 0
-				GBR = { has_completed_focus = ENG_concessions_to_the_trade_unions }
+				GBR = { has_country_flag = ENG_concessions_to_the_trade_unions_completed }
 			}
 		}
 

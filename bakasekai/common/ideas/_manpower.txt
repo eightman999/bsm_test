@@ -102,7 +102,7 @@ ideas = {
 					limit = {
 						original_tag = GBR
 						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
+						has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					}
 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
 				}
@@ -207,7 +207,7 @@ ideas = {
 					limit = {
 						original_tag = GBR
 						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
+						has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					}
 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
 				}
@@ -344,7 +344,7 @@ ideas = {
 					limit = {
 						original_tag = GBR
 						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
+						has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					}
 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
 				}
@@ -483,7 +483,7 @@ ideas = {
 					limit = {
 						original_tag = GBR
 						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
+						has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					}
 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
 				}
@@ -612,7 +612,7 @@ ideas = {
 					limit = {
 						original_tag = GBR
 						has_dlc = "Man the Guns"
-						has_completed_focus = ENG_concessions_to_the_trade_unions
+						has_country_flag = ENG_concessions_to_the_trade_unions_completed
 					}
 					NOT = { has_country_flag = ENG_cannot_increase_conscription_law }
 				}
