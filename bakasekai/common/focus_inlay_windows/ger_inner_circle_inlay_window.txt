@@ -1,0 +1,6 @@
+# Overrides vanilla to remove references to deprecated focuses
+ger_inner_circle_inlay_window = {
+    trigger = {
+        has_completed_focus = GER_oppose_hitler
+    }
+}
