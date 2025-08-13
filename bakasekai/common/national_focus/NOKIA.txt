@@ -124,17 +124,22 @@ focus_tree = {
 		y = 1
 
 	}
-	focus = {
-		id = NOK_army
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = NOK_guntoushi
-		}
-		x = 11
-		y = 4
-
-	}
+        focus = {
+                id = NOK_army
+                icon = GFX_goal_unknown
+                cost = 10.00
+                prerequisite = {
+                        focus = NOK_guntoushi
+                }
+                x = 11
+                y = 4
+                completion_reward = {
+                        add_tech_bonus = {
+                                bonus = 0.5
+                                category = cat_mobile_warfare
+                        }
+                }
+        }
 	focus = {
 		id = NOK_sinwa
 		icon = GFX_goal_unknown

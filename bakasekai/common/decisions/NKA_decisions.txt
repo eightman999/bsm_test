@@ -1,0 +1,39 @@
+emu_expansion_decisions = {
+    NKA_network_expansion_decisions = {
+        icon = GFX_decision_generic_construct_civilian
+        allowed = {
+            original_tag = NKA
+            always = yes
+        }
+        visible = {
+            always = yes
+        }
+        available = {
+            always = yes
+        }
+        cost = 10
+        complete_effect = {
+            add_political_power = -10
+        }
+    }
+}
+
+emu_bird_diplomacy = {
+    NKA_patent_war_decisions = {
+        icon = GFX_decision_generic_diplomacy
+        allowed = {
+            original_tag = NKA
+            always = yes
+        }
+        visible = {
+            always = yes
+        }
+        available = {
+            always = yes
+        }
+        cost = 10
+        complete_effect = {
+            add_political_power = -10
+        }
+    }
+}
