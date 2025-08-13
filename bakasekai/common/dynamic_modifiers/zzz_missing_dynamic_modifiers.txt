@@ -1,0 +1,3 @@
+# Placeholder dynamic modifiers to satisfy references
+SWI_active_citizen_militia = { }
+ETH_arranged_expansion_modifier = { }
