@@ -87,6 +87,10 @@ EV_OK: "わかった。"
 
  # Opinion Modifiers
  great_economic_ties: "強固な経済的つながり"
+ LON_irish_displeasure: "アイルランドの不満"
+ LON_irish_friendship: "アイルランドとの友好"
+ LON_irish_animosity: "アイルランドへの敵意"
+ LON_dominion_rejected: "自治領要請の拒否"
 
 
  # Decisions (Battle Central Bank Crisis)

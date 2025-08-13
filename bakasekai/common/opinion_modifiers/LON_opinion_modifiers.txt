@@ -40,4 +40,26 @@ opinion_modifiers = {
         value = -30
         decay = 2
     }
+
+    # アイルランド交渉関連
+    LON_irish_displeasure = {
+        value = -20
+        decay = 1
+    }
+
+    LON_irish_friendship = {
+        value = 20
+        decay = 1
+        trade = yes
+    }
+
+    LON_irish_animosity = {
+        value = -40
+        decay = 1
+    }
+
+    LON_dominion_rejected = {
+        value = -25
+        decay = 1
+    }
 }

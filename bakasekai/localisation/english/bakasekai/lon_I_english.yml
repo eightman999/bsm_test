@@ -87,6 +87,10 @@ EV_OK: "Understood."
 
  # Opinion Modifiers
  great_economic_ties: "Strong Economic Ties"
+ LON_irish_displeasure: "Irish Displeasure"
+ LON_irish_friendship: "Irish Friendship"
+ LON_irish_animosity: "Irish Animosity"
+ LON_dominion_rejected: "Dominion Request Rejected"
 
 
  # Decisions (Battle Central Bank Crisis)
