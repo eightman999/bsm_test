@@ -58,5 +58,15 @@ ideas = {
                 research_speed = 0.05
             }
         }
+
+        # Foreign investment received from London capital
+        LON_foreign_investment = {
+            picture = GFX_idea_empty
+            modifier = {
+                political_power_gain = 0.05
+                consumer_goods_factor = -0.05
+                production_speed_industrial_complex_factor = 0.10
+            }
+        }
     }
 }
