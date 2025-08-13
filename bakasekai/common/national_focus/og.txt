@@ -962,12 +962,9 @@ focus_tree = {
 	focus = {
 		id = OGa_5
 		icon = GFX_goal_generic_CAS
-		prerequisite = {
-			focus = OGa_1_2
-		}
-		prerequisite = {
-			focus = motorization_effort
-		}
+                prerequisite = {
+                        focus = OGa_1_2
+                }
 		x = -1
 		y = 1
 		relative_position_id = OGa_1_2
@@ -989,12 +986,9 @@ focus_tree = {
 	focus = {
 		id = OGa_6
 		icon = GFX_focus_rocketry
-		prerequisite = {
-			focus = OGa_1_2
-		}
-		prerequisite = {
-			focus = infrastructure_effort
-		}
+                prerequisite = {
+                        focus = OGa_1_2
+                }
 		x = 0
 		y = 2
 		relative_position_id = OGa_1_2

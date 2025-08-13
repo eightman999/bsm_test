@@ -1275,9 +1275,6 @@ focus_tree = {
 		prerequisite = {
 			focus = battle3a_1_2
 		}
-		prerequisite = {
-			focus = motorization_effort
-		}
 		x = -1
 		y = 1
 		relative_position_id = battle3a_1_2
@@ -1301,9 +1298,6 @@ focus_tree = {
 		icon = GFX_focus_rocketry
 		prerequisite = {
 			focus = battle3a_1_2
-		}
-		prerequisite = {
-			focus = infrastructure_effort
 		}
 		x = 0
 		y = 2

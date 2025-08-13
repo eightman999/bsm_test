@@ -1,0 +1,13 @@
+ETHIOPIAN_RED_SEA_INVASION = {
+    enable = {
+        always = yes
+    }
+    ai_strategy = {
+        type = naval_priority
+        value = 1
+    }
+    ai_strategy = {
+        type = air_priority
+        value = 1
+    }
+}
