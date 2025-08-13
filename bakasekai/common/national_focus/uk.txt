@@ -11418,7 +11418,6 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
-			country_exists = IRE
 			NOT = {
 				is_in_faction_with = IRE
 			}
