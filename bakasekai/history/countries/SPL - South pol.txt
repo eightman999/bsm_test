@@ -51,5 +51,5 @@ set_variable = {
 }
 
 complete_special_project = {
-        project = sp_naval_ice_carrier
+        project = sp:sp_naval_ice_carrier
 }
