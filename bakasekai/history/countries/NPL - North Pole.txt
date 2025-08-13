@@ -1,5 +1,5 @@
 capital = 1000
-oob = "Default_oob"
+oob = "pengin"
 set_research_slots = 10
 set_technology = {
 	tech_support = 1
@@ -8,9 +8,10 @@ set_technology = {
 	early_fighter = 1
 	gwtank = 1
 	basic_light_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	fuel_silos = 1
+        infantry_weapons = 1
+        infantry_weapons1 = 1
+        fuel_silos = 1
+        army_of_penguin = 1
 }
 
 set_convoys = 0
