@@ -1,0 +1,7 @@
+scripted_diplomatic_actions = {
+    bsm_fabricate_claim_action = {
+        allowed = { always = no }
+        target = { always = yes }
+        effect = { }
+    }
+}
