@@ -1,0 +1,21 @@
+emu_expansion_decisions = {
+    icon = GFX_decision_category_generic_political
+    allowed = {
+        original_tag = NKA
+        always = yes
+    }
+    visible = {
+        always = yes
+    }
+}
+
+emu_bird_diplomacy = {
+    icon = GFX_decision_category_generic_diplomacy
+    allowed = {
+        original_tag = NKA
+        always = yes
+    }
+    visible = {
+        always = yes
+    }
+}
