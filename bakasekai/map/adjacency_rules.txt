@@ -853,6 +853,36 @@ adjacency_rule = {
 		tooltip = disable_canal_tt
 	}
 		
-	icon = 14824
-	offset = { 1 0 -6 }
+        icon = 14824
+        offset = { 1 0 -6 }
+}
+
+# Falkland Strait
+adjacency_rule = {
+        name = "FALKLAND_STRAIT"
+
+        contested = {
+                army = no
+                navy = no
+                submarine = yes
+                trade = no
+        }
+        enemy = {
+                army = no
+                navy = no
+                submarine = yes
+                trade = no
+        }
+        friend = {
+                army = yes
+                navy = yes
+                submarine = yes
+                trade = yes
+        }
+        neutral = {
+                army = yes
+                navy = yes
+                submarine = yes
+                trade = yes
+        }
 }

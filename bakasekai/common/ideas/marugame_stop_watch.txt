@@ -1,0 +1,8 @@
+ideas = {
+    country = {
+        marugame_stop_watch = {
+            ledger = political
+        }
+    }
+}
+
