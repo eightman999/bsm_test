@@ -182,7 +182,7 @@ country_event = {
     option = {
         name = nokia.40.a
         add_stability = 0.05
-        add_research_bonus = {
+        add_tech_bonus = {
             bonus = 0.5
             uses = 1
             category = industry
@@ -206,7 +206,7 @@ country_event = {
     
     option = {
         name = nokia.100.a  # "Sponsor the championship!"
-        trigger = { political_power > 25 }
+        trigger = { has_political_power > 25 }
         add_political_power = -25
         add_stability = 0.02
         add_war_support = 0.01
@@ -218,16 +218,3 @@ country_event = {
     }
 }
 
-# Legacy Event (compatibility)
-news_event = {
-    id = NOK.1
-    title = NOK.1.t
-    desc = NOK.1.d
-    picture = GFX_news_event_001
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = NOK.1.a
-    }
-}
