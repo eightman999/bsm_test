@@ -31,10 +31,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = {
-					tag = GBR
-					has_completed_focus = uk_china_focus
-				}
+                                FROM = {
+                                        tag = GBR
+                                }
 				# tag = event_target:WTT_current_china_leader
 			}
 			effect_tooltip = {
@@ -49,10 +48,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = {
-					tag = GBR
-					has_completed_focus = uk_china_focus
-				}
+                                FROM = {
+                                        tag = GBR
+                                }
 				# tag = event_target:WTT_current_china_leader
 			}
 			effect_tooltip = {

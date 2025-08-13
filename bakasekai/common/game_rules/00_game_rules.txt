@@ -633,17 +633,22 @@ JAP_ai_behavior = {
 		text = "RULE_OPTION_DEMOCRATIC"
 		desc = "RULE_DEMOCRATIC_JAP_AI_DESC"
 	}
-	option = {
-		name = FASCIST
-		text = "RULE_OPTION_FASCIST"
-		desc = "RULE_FASCIST_JAP_AI_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = RANDOM
-		text = "RULE_OPTION_RANDOM"
-		desc = "RULE_OPTION_RANDOM_AI_DESC"
-	}
+        option = {
+                name = FASCIST
+                text = "RULE_OPTION_FASCIST"
+                desc = "RULE_FASCIST_JAP_AI_DESC"
+                allow_achievements = yes
+        }
+        option = {
+                name = NAVAL_RULE
+                text = "NAVAL_RULE"
+                desc = "NAVAL_RULE"
+        }
+        option = {
+                name = RANDOM
+                text = "RULE_OPTION_RANDOM"
+                desc = "RULE_OPTION_RANDOM_AI_DESC"
+        }
 }
 
 ITA_ai_behavior = {
