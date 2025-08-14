@@ -32,34 +32,34 @@ set_popularities = {
 
 # 1936年以降の各年1月1日にリーダーを交代させるイベントをスケジュール
 1937.1.1 = {
-    country_event = { id = LON.leader_change.1 days = 0 } # Sir Frank Newson-Smith に変更
+    country_event = { id = LON.1 days = 0 } # Sir Frank Newson-Smith に変更
 }
 1938.1.1 = {
-    country_event = { id = LON.leader_change.2 days = 0 } # Lt. Col. Sir John Laurie に変更
+    country_event = { id = LON.2 days = 0 } # Lt. Col. Sir John Laurie に変更
 }
 1939.1.1 = {
-    country_event = { id = LON.leader_change.3 days = 0 } # Sir George Wilkinson に変更
+    country_event = { id = LON.3 days = 0 } # Sir George Wilkinson に変更
 }
 1940.1.1 = {
-    country_event = { id = LON.leader_change.4 days = 0 } # Maj. Sir Frank Bowater に変更
+    country_event = { id = LON.4 days = 0 } # Maj. Sir Frank Bowater に変更
 }
 1941.1.1 = {
-    country_event = { id = LON.leader_change.5 days = 0 } # Sir Harry Twyford に変更
+    country_event = { id = LON.5 days = 0 } # Sir Harry Twyford に変更
 }
 1942.1.1 = {
-    country_event = { id = LON.leader_change.6 days = 0 } # Sir Bracewell Smith に変更
+    country_event = { id = LON.6 days = 0 } # Sir Bracewell Smith に変更
 }
 1943.1.1 = {
-    country_event = { id = LON.leader_change.7 days = 0 } # Sir Samuel Joseph に変更
+    country_event = { id = LON.7 days = 0 } # Sir Samuel Joseph に変更
 }
 1944.1.1 = {
-    country_event = { id = LON.leader_change.8 days = 0 } # Sir Charles Davis に変更
+    country_event = { id = LON.8 days = 0 } # Sir Charles Davis に変更
 }
 1945.1.1 = {
-    country_event = { id = LON.leader_change.9 days = 0 } # Sir William Coxen に変更
+    country_event = { id = LON.9 days = 0 } # Sir William Coxen に変更
 }
 1946.1.1 = {
-    country_event = { id = LON.leader_change.10 days = 0 } # Sir Frank Alexander に変更
+    country_event = { id = LON.10 days = 0 } # Sir Frank Alexander に変更
 }
 
 # ロンドン橋が最初から存在するように設定

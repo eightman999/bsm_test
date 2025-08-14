@@ -36,12 +36,12 @@
  LON_celtic_resistance: "Celtic Resistance"
 
  # Events
- LON_celtic.1.t: "Celtic Unification Concept"
- LON_celtic.1.desc: "The concept of integration with Ireland is being discussed within the government. What approach should we take?"
- LON_celtic.1.a: "Aim for peaceful integration"
- LON_celtic.1.b: "Consider more aggressive measures"
+ LON.18.t: "Celtic Unification Concept"
+ LON.18.desc: "The concept of integration with Ireland is being discussed within the government. What approach should we take?"
+ LON.18.a: "Aim for peaceful integration"
+ LON.18.b: "Consider more aggressive measures"
 
- LON_celtic.2.t: "Integration Proposal from London"
- LON_celtic.2.desc: "A proposal regarding Celtic unification has arrived from the London government. How should we respond?"
- LON_celtic.2.a: "Build a cooperative relationship"
- LON_celtic.2.b: "Maintain independence"
+ LON.19.t: "Integration Proposal from London"
+ LON.19.desc: "A proposal regarding Celtic unification has arrived from the London government. How should we respond?"
+ LON.19.a: "Build a cooperative relationship"
+ LON.19.b: "Maintain independence"

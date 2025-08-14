@@ -24,7 +24,7 @@ LON_international_investment_category = {
         complete_effect = {
             FROM = {
                 set_country_flag = LON_recently_invested
-                country_event = { id = LON_investment.1 hours = 6 }
+                country_event = { id = LON.20 hours = 6 }
             }
             custom_effect_tooltip = LON_investment_effect_tooltip
         }
@@ -86,7 +86,7 @@ LON_international_investment_category = {
         complete_effect = {
             FROM = {
                 set_country_flag = LON_recently_invested
-                country_event = { id = LON_investment.2 hours = 6 }
+                country_event = { id = LON.21 hours = 6 }
             }
             custom_effect_tooltip = LON_democracy_investment_tooltip
         }
