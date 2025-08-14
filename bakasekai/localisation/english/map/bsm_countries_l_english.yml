@@ -381,6 +381,9 @@ l_english:
  GBR:0 "Britain"
  GBR_DEF:0 "Britain"
  GBR_ADJ:0 "British"
+ ENG:0 "England"
+ ENG_DEF:0 "England"
+ ENG_ADJ:0 "English"
 
  GLC:0 "Galicia"
  GLC_DEF:0 "Galicia"
@@ -1009,8 +1012,6 @@ l_english:
  EJR_ADJ:0 "Eastern Jerusalem"
 
  JYO:0 "Jo"
- ENG_DEF:0 "Jo"
- ENG_ADJ:0 "Jo"
 
  GEN:0 "Genko"
  GEN_DEF:0 "Genko"

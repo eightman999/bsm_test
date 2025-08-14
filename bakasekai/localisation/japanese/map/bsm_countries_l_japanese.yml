@@ -381,6 +381,9 @@
  GBR:0 "イギリス"
  GBR_DEF:0 "イギリス"
  GBR_ADJ:0 "イギリス"
+ ENG:0 "イングランド"
+ ENG_DEF:0 "イングランド"
+ ENG_ADJ:0 "イングランド"
  
  GLC:0 "ガリシア"
  GLC_DEF:0 "ガリシア"
@@ -1009,8 +1012,6 @@
  EJR_ADJ:0 "東方エルサレム"
  
  JYO:0 "上"
- ENG_DEF:0 "上"
- ENG_ADJ:0 "上"
  
  GEN:0 "元寇"
  GEN_DEF:0 "元寇"
