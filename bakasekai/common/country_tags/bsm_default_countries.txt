@@ -23,6 +23,7 @@ PPP	= "countries/Asia.txt"	#プププ・ランド
 PRC	= "countries/Asia.txt"	#漢
 PRK	= "countries/Asia.txt"	#北朝鮮
 KOK	= "countries/Asia.txt"	#國'
+RAJ     = "countries/Asia.txt"  #ラージプーターナー
 SBR	= "countries/Asia.txt"	#シベリア
 SCC	= "countries/Asia.txt"	#上海
 SJK	= "countries/Asia.txt"	#スリジャヤワルダナプラコッテ
