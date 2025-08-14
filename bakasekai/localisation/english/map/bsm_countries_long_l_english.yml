@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  ##Vanilla
  #Asia
  ABK_republic:0 "Republic of Abkhazia"
@@ -720,8 +720,8 @@ l_english:
  EJR_republic:0 "Republic of Eastern Jerusalem"
  EJR_republic_DEF:0 "The Republic of Eastern Jerusalem"
 
- ENG_state:0 "State of Jo"
- ENG_state_DEF:0 "The State of Jo"
+ ENG_state:0 "State of England"
+ ENG_state_DEF:0 "The State of England"
 
 
 
