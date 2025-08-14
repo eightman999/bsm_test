@@ -62,7 +62,7 @@ reduce_occupation_cost_effect = {
 		}
 		swap_ideas = {
 			remove_idea = FRA_occupation_costs_2
-			add_ideas = FRA_occupation_costs_1
+			add_idea = FRA_occupation_costs_1
 		}
 	}
 	else_if = {
@@ -71,7 +71,7 @@ reduce_occupation_cost_effect = {
 		}
 		swap_ideas = {
 			remove_idea = FRA_occupation_costs_3
-			add_ideas = FRA_occupation_costs_2
+			add_idea = FRA_occupation_costs_2
 		}
 	}
 	else_if = {
@@ -80,7 +80,7 @@ reduce_occupation_cost_effect = {
 		}
 		swap_ideas = {
 			remove_idea = FRA_occupation_costs_4
-			add_ideas = FRA_occupation_costs_3
+			add_idea = FRA_occupation_costs_3
 		}
 	}
 }
@@ -92,7 +92,7 @@ increase_occupation_cost_effect = {
 		}
 		swap_ideas = {
 			remove_idea = FRA_occupation_costs_3
-			add_ideas = FRA_occupation_costs_4
+			add_idea = FRA_occupation_costs_4
 		}
 	}
 	else_if = {
@@ -101,7 +101,7 @@ increase_occupation_cost_effect = {
 		}
 		swap_ideas = {
 			remove_idea = FRA_occupation_costs_2
-			add_ideas = FRA_occupation_costs_3
+			add_idea = FRA_occupation_costs_3
 		}
 	}
 	else_if = {
@@ -110,7 +110,7 @@ increase_occupation_cost_effect = {
 		}
 		swap_ideas = {
 			remove_idea = FRA_occupation_costs_1
-			add_ideas = FRA_occupation_costs_2
+			add_idea = FRA_occupation_costs_2
 		}
 	}
 	else_if = {

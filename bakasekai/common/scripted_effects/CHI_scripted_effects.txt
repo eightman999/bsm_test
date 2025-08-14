@@ -17,28 +17,28 @@ CHI_hyper_inflation_level_up = {
 		limit = { has_idea = CHI_hyper_inflation_4 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_4
-			add_ideas = CHI_hyper_inflation_5
+			add_idea = CHI_hyper_inflation_5
 		}
 	}
 	else_if = {
 		limit = { has_idea = CHI_hyper_inflation_3 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_3
-			add_ideas = CHI_hyper_inflation_4
+			add_idea = CHI_hyper_inflation_4
 		}
 	}
 	else_if = {
 		limit = { has_idea = CHI_hyper_inflation_2 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_2
-			add_ideas = CHI_hyper_inflation_3
+			add_idea = CHI_hyper_inflation_3
 		}
 	}
 	else_if = {
 		limit = { has_idea = CHI_hyper_inflation_1 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_1
-			add_ideas = CHI_hyper_inflation_2
+			add_idea = CHI_hyper_inflation_2
 		}
 	}
 	else_if = {
@@ -56,7 +56,7 @@ custom_effect_tooltip = CHI_inflation_down_tt
 		effect_tooltip = {
 			swap_ideas = {
 				remove_idea = CHI_hyper_inflation_1
-				add_ideas = CHI_hyper_inflation_none
+				add_idea = CHI_hyper_inflation_none
 			}
 		}
 		hidden_effect = { remove_ideas = CHI_hyper_inflation_1 }
@@ -65,28 +65,28 @@ custom_effect_tooltip = CHI_inflation_down_tt
 		limit = { has_idea = CHI_hyper_inflation_2 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_2
-			add_ideas = CHI_hyper_inflation_1
+			add_idea = CHI_hyper_inflation_1
 		}
 	}
 	if = {
 		limit = { has_idea = CHI_hyper_inflation_3 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_3
-			add_ideas = CHI_hyper_inflation_2
+			add_idea = CHI_hyper_inflation_2
 		}
 	}
 	if = {
 		limit = { has_idea = CHI_hyper_inflation_4 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_4
-			add_ideas = CHI_hyper_inflation_3
+			add_idea = CHI_hyper_inflation_3
 		}
 	}
 	if = {
 		limit = { has_idea = CHI_hyper_inflation_5 }
 		swap_ideas = {
 			remove_idea = CHI_hyper_inflation_5
-			add_ideas = CHI_hyper_inflation_4
+			add_idea = CHI_hyper_inflation_4
 		}
 	}
 }
@@ -100,7 +100,7 @@ CHI_warlord_integration_up = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_4
-			add_ideas = CHI_warlord_integration_5
+			add_idea = CHI_warlord_integration_5
 		}
 	}
 	else_if = {
@@ -109,7 +109,7 @@ CHI_warlord_integration_up = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_3
-			add_ideas = CHI_warlord_integration_4
+			add_idea = CHI_warlord_integration_4
 		}
 	}
 	else_if = {
@@ -118,7 +118,7 @@ CHI_warlord_integration_up = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_2
-			add_ideas = CHI_warlord_integration_3
+			add_idea = CHI_warlord_integration_3
 		}
 	}
 	else_if = {
@@ -127,7 +127,7 @@ CHI_warlord_integration_up = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_1
-			add_ideas = CHI_warlord_integration_2
+			add_idea = CHI_warlord_integration_2
 		}
 	}
 	else = {
@@ -142,7 +142,7 @@ CHI_warlord_integration_down = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_5
-			add_ideas = CHI_warlord_integration_4
+			add_idea = CHI_warlord_integration_4
 		}
 	}
 	else_if = {
@@ -151,7 +151,7 @@ CHI_warlord_integration_down = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_4
-			add_ideas = CHI_warlord_integration_3
+			add_idea = CHI_warlord_integration_3
 		}
 	}
 	else_if = {
@@ -160,7 +160,7 @@ CHI_warlord_integration_down = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_3
-			add_ideas = CHI_warlord_integration_2
+			add_idea = CHI_warlord_integration_2
 		}
 	}
 	else_if = {
@@ -169,7 +169,7 @@ CHI_warlord_integration_down = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_warlord_integration_2
-			add_ideas = CHI_warlord_integration_1
+			add_idea = CHI_warlord_integration_1
 		}
 	}
 	else = {
@@ -243,7 +243,7 @@ CHI_unity_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_chinese_unity_2
-			add_ideas = CHI_chinese_unity_3
+			add_idea = CHI_chinese_unity_3
 		}
 	}
 	if = {
@@ -252,7 +252,7 @@ CHI_unity_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_chinese_unity_1
-			add_ideas = CHI_chinese_unity_2
+			add_idea = CHI_chinese_unity_2
 		}
 	}
 	if = {
@@ -276,7 +276,7 @@ CHI_unity_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_chinese_unity_2
-			add_ideas = CHI_chinese_unity_1
+			add_idea = CHI_chinese_unity_1
 		}
 	}
 	else_if = {
@@ -285,7 +285,7 @@ CHI_unity_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = CHI_chinese_unity_3
-			add_ideas = CHI_chinese_unity_2
+			add_idea = CHI_chinese_unity_2
 		}
 	}
 	else_if = {

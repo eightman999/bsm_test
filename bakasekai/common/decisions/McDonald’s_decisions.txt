@@ -312,7 +312,7 @@ Progression_of_obesity = {
 					}
                     swap_ideas = {
 				        remove_idea = Obesity_1
-				        add_ideas = Obesity_2
+				        add_idea = Obesity_2
                     }
 
 				}
@@ -323,7 +323,7 @@ Progression_of_obesity = {
 						}
                     	swap_ideas = {
 				    	    remove_idea = Obesity_2
-				        	add_ideas = Obesity_3
+				        	add_idea = Obesity_3
                     	}
 
 					}
@@ -334,7 +334,7 @@ Progression_of_obesity = {
 							}
                     		swap_ideas = {
 				        		remove_idea = Obesity_3
-				   			    add_ideas = Obesity_4
+				   			    add_idea = Obesity_4
                    			}
 						}
 					}

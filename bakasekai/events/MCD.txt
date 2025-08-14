@@ -30,7 +30,7 @@ country_event = {
 			}
             swap_ideas = {
 				remove_idea = Obesity_2
-			    add_ideas = Obesity_1
+			    add_idea = Obesity_1
             }
 					
 		}
@@ -40,7 +40,7 @@ country_event = {
 			}
             swap_ideas = {
 			    remove_idea = Obesity_3
-			    add_ideas = Obesity_2
+			    add_idea = Obesity_2
             }
 					
 		}
@@ -50,7 +50,7 @@ country_event = {
 			}
             swap_ideas = {
 		        remove_idea = Obesity_4
-		        add_ideas = Obesity_3
+		        add_idea = Obesity_3
             }
 					
 		}
@@ -90,7 +90,7 @@ country_event = {
 			}
             swap_ideas = {
 				remove_idea = Obesity_2
-			    add_ideas = Obesity_1
+			    add_idea = Obesity_1
             }
 					
 		}
@@ -100,7 +100,7 @@ country_event = {
 			}
             swap_ideas = {
 			    remove_idea = Obesity_3
-			    add_ideas = Obesity_2
+			    add_idea = Obesity_2
             }
 					
 		}
@@ -110,7 +110,7 @@ country_event = {
 			}
             swap_ideas = {
 		        remove_idea = Obesity_4
-		        add_ideas = Obesity_3
+		        add_idea = Obesity_3
             }
 					
 		}
@@ -148,7 +148,7 @@ country_event = {
 			}
             swap_ideas = {
 				remove_idea = Obesity_2
-			    add_ideas = Obesity_1
+			    add_idea = Obesity_1
             }
 					
 		}
@@ -158,7 +158,7 @@ country_event = {
 			}
             swap_ideas = {
 			    remove_idea = Obesity_3
-			    add_ideas = Obesity_2
+			    add_idea = Obesity_2
             }
 					
 		}
@@ -168,7 +168,7 @@ country_event = {
 			}
             swap_ideas = {
 		        remove_idea = Obesity_4
-		        add_ideas = Obesity_3
+		        add_idea = Obesity_3
             }
 					
 		}

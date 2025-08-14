@@ -103,7 +103,7 @@ POL_april_constitution_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_april_constitution_1
-			add_ideas = POL_april_constitution_2
+			add_idea = POL_april_constitution_2
 		}
 	}
 	else_if = {
@@ -112,7 +112,7 @@ POL_april_constitution_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_april_constitution_2
-			add_ideas = POL_april_constitution_3
+			add_idea = POL_april_constitution_3
 		}
 	}
 	else_if = {
@@ -121,7 +121,7 @@ POL_april_constitution_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_april_constitution_3
-			add_ideas = POL_april_constitution_4
+			add_idea = POL_april_constitution_4
 		}
 	}
 }
@@ -160,7 +160,7 @@ POL_sanation_left_opposition_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_left_opposition_1
-			add_ideas = POL_sanation_left_opposition_2
+			add_idea = POL_sanation_left_opposition_2
 		}
 	}
 	else_if = {
@@ -169,7 +169,7 @@ POL_sanation_left_opposition_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_left_opposition_2
-			add_ideas = POL_sanation_left_opposition_3
+			add_idea = POL_sanation_left_opposition_3
 		}
 	}
 	else_if = {
@@ -178,7 +178,7 @@ POL_sanation_left_opposition_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_left_opposition_3
-			add_ideas = POL_sanation_left_opposition_4
+			add_idea = POL_sanation_left_opposition_4
 		}
 	}
 	else_if = {
@@ -246,7 +246,7 @@ POL_sanation_left_opposition_down = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_left_opposition_4
-			add_ideas = POL_sanation_left_opposition_3
+			add_idea = POL_sanation_left_opposition_3
 		}
 	}
 	else_if = {
@@ -255,7 +255,7 @@ POL_sanation_left_opposition_down = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_left_opposition_3
-			add_ideas = POL_sanation_left_opposition_2
+			add_idea = POL_sanation_left_opposition_2
 		}
 	}
 	else_if = {
@@ -264,7 +264,7 @@ POL_sanation_left_opposition_down = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_left_opposition_2
-			add_ideas = POL_sanation_left_opposition_1
+			add_idea = POL_sanation_left_opposition_1
 		}
 	}
 	else_if = {
@@ -312,7 +312,7 @@ POL_sanation_right_opposition_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_right_opposition_1
-			add_ideas = POL_sanation_right_opposition_2
+			add_idea = POL_sanation_right_opposition_2
 		}
 	}
 	else_if = {
@@ -321,7 +321,7 @@ POL_sanation_right_opposition_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_right_opposition_2
-			add_ideas = POL_sanation_right_opposition_3
+			add_idea = POL_sanation_right_opposition_3
 		}
 	}
 	else_if = {
@@ -330,7 +330,7 @@ POL_sanation_right_opposition_up = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_right_opposition_3
-			add_ideas = POL_sanation_right_opposition_4
+			add_idea = POL_sanation_right_opposition_4
 		}
 	}
 	else_if = {
@@ -395,7 +395,7 @@ POL_sanation_right_opposition_down = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_right_opposition_4
-			add_ideas = POL_sanation_right_opposition_3
+			add_idea = POL_sanation_right_opposition_3
 		}
 	}
 	else_if = {
@@ -404,7 +404,7 @@ POL_sanation_right_opposition_down = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_right_opposition_3
-			add_ideas = POL_sanation_right_opposition_2
+			add_idea = POL_sanation_right_opposition_2
 		}
 	}
 	else_if = {
@@ -413,7 +413,7 @@ POL_sanation_right_opposition_down = {
 		}
 		swap_ideas = {
 			remove_idea = POL_sanation_right_opposition_2
-			add_ideas = POL_sanation_right_opposition_1
+			add_idea = POL_sanation_right_opposition_1
 		}
 	}
 	# else_if = {

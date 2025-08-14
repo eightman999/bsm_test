@@ -45,7 +45,7 @@ GRE_debt_check_effect = {
 			}
 			swap_ideas = {
 				remove_idea = GRE_debt_to_the_ifc_2
-				add_ideas = GRE_debt_to_the_ifc_3
+				add_idea = GRE_debt_to_the_ifc_3
 			}
 		}
 		else_if = {
@@ -55,7 +55,7 @@ GRE_debt_check_effect = {
 			}
 			swap_ideas = {
 				remove_idea = GRE_debt_to_the_ifc
-				add_ideas = GRE_debt_to_the_ifc_2
+				add_idea = GRE_debt_to_the_ifc_2
 			}
 		}
 	}

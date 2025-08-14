@@ -62,11 +62,11 @@ country_event = {
 		}
 		swap_ideas = {
 			remove_idea = WES_greening_1
-			add_ideas = WES_greening_2
+			add_idea = WES_greening_2
 		}
 		swap_ideas = {
             remove_idea = WES_trade_at_SGC_1
-    	    add_ideas = WES_trade_at_SGC_2
+    	    add_idea = WES_trade_at_SGC_2
           	}
 		WES = { country_event = { id = WES.11 } }
 	}
@@ -104,11 +104,11 @@ country_event = {
 		}
 		swap_ideas = {
 			remove_idea = WES_greening_2
-			add_ideas = WES_greening_3
+			add_idea = WES_greening_3
 		}
       	swap_ideas = {
       	   	remove_idea = WES_trade_at_SGC_2
-   		 	add_ideas = WES_trade_at_SGC_3
+   		 	add_idea = WES_trade_at_SGC_3
    		}
 		WES = { country_event = { id = WES.11 } }
 	}
@@ -148,11 +148,11 @@ country_event = {
 		}
 		swap_ideas = {
 			remove_idea = WES_greening_3
-			add_ideas = WES_greening_4
+			add_idea = WES_greening_4
     	}
         swap_ideas = {
     	    remove_idea = WES_trade_at_SGC_3
-       		add_ideas = WES_trade_at_SGC_4
+       		add_idea = WES_trade_at_SGC_4
        	}
 		WES = { country_event = { id = WES.9 } }
 		effect_tooltip = {
@@ -234,7 +234,7 @@ country_event = {
 			}
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_1
-				add_ideas = WES_investment_in_resource_development_2
+				add_idea = WES_investment_in_resource_development_2
         	}
 			WES = { country_event = { id = WES.11 } }
 		}
@@ -276,7 +276,7 @@ country_event = {
 			}
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_2
-				add_ideas = WES_investment_in_resource_development_3
+				add_idea = WES_investment_in_resource_development_3
      	   }
 			WES = { country_event = { id = WES.11 } }
 		}
@@ -319,7 +319,7 @@ country_event = {
 			}
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_3
-				add_ideas = WES_investment_in_resource_development_4
+				add_idea = WES_investment_in_resource_development_4
       		}
 			WES = { country_event = { id = WES.11 } }
 			#give_resource_rights = { receiver = WES state = every_state ={limit={is_owned_by=ROOT} }	}#TAG_TAG
@@ -1098,7 +1098,7 @@ country_event = {
 			}
 			swap_ideas = {
 				remove_idea = WES_stability_minus
-				add_ideas = WES_stability_minus_2
+				add_idea = WES_stability_minus_2
 			}
 		}
 		else = {
@@ -1108,7 +1108,7 @@ country_event = {
 					}
 					swap_ideas = {
 						remove_idea = WES_stability_minus_2
-						add_ideas = WES_stability_minus_3
+						add_idea = WES_stability_minus_3
 					}
 				}
 				else = {
@@ -1118,7 +1118,7 @@ country_event = {
 						}
 						swap_ideas ={
 							remove_idea = WES_stability_minus_3
-							add_ideas = WES_stability_minus_4
+							add_idea = WES_stability_minus_4
 						}
 					}
 					else = {
@@ -1128,7 +1128,7 @@ country_event = {
 							}
 							swap_ideas ={
 								remove_idea = WES_stability_minus_4
-								add_ideas = WES_stability_minus_5
+								add_idea = WES_stability_minus_5
 							}
 						}
 						else = {
@@ -1138,7 +1138,7 @@ country_event = {
 								}
 								swap_ideas ={
 									remove_idea = WES_stability_minus_5
-									add_ideas = WES_stability_minus_6
+									add_idea = WES_stability_minus_6
 								}
 							}
 							else = {
@@ -1148,7 +1148,7 @@ country_event = {
 									}
 									swap_ideas ={
 										remove_idea = WES_stability_minus_6
-										add_ideas = WES_stability_minus_7
+										add_idea = WES_stability_minus_7
 									}
 								}
 								else = {
@@ -1158,7 +1158,7 @@ country_event = {
 										}
 										swap_ideas ={
 											remove_idea = WES_stability_minus_7
-											add_ideas = WES_stability_minus_8
+											add_idea = WES_stability_minus_8
 										}
 									}
 									else = {
@@ -1168,7 +1168,7 @@ country_event = {
 											}
 											swap_ideas ={
 												remove_idea = WES_stability_minus_8
-												add_ideas = WES_stability_minus_9
+												add_idea = WES_stability_minus_9
 											}
 										}
 										else = {
@@ -1178,7 +1178,7 @@ country_event = {
 												}
 												swap_ideas ={
 													remove_idea = WES_stability_minus_9
-													add_ideas = WES_stability_minus_10
+													add_idea = WES_stability_minus_10
 												}
 											}
 											else = {

@@ -12,7 +12,7 @@ HOL_de_crisisjaren_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_de_crisisjaren_2
-			add_ideas = HOL_de_crisisjaren_1
+			add_idea = HOL_de_crisisjaren_1
 		}
 	}
 	else_if = {
@@ -21,7 +21,7 @@ HOL_de_crisisjaren_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_de_crisisjaren_3
-			add_ideas = HOL_de_crisisjaren_2
+			add_idea = HOL_de_crisisjaren_2
 		}
 	}
 	else_if = {
@@ -30,7 +30,7 @@ HOL_de_crisisjaren_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_de_crisisjaren_4
-			add_ideas = HOL_de_crisisjaren_3
+			add_idea = HOL_de_crisisjaren_3
 		}
 	}
 	else_if = {
@@ -39,7 +39,7 @@ HOL_de_crisisjaren_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_de_crisisjaren_5
-			add_ideas = HOL_de_crisisjaren_4
+			add_idea = HOL_de_crisisjaren_4
 		}
 	}
 }
@@ -58,7 +58,7 @@ HOL_shell_shocked_spectator_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_shell_shocked_spectator_2
-			add_ideas = HOL_shell_shocked_spectator_1
+			add_idea = HOL_shell_shocked_spectator_1
 		}
 	}
 	else_if = {
@@ -67,7 +67,7 @@ HOL_shell_shocked_spectator_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_shell_shocked_spectator_3
-			add_ideas = HOL_shell_shocked_spectator_2
+			add_idea = HOL_shell_shocked_spectator_2
 		}
 	}
 	else_if = {
@@ -76,7 +76,7 @@ HOL_shell_shocked_spectator_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_shell_shocked_spectator_4
-			add_ideas = HOL_shell_shocked_spectator_3
+			add_idea = HOL_shell_shocked_spectator_3
 		}
 	}
 	else_if = {
@@ -85,7 +85,7 @@ HOL_shell_shocked_spectator_level_down = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_shell_shocked_spectator_5
-			add_ideas = HOL_shell_shocked_spectator_4
+			add_idea = HOL_shell_shocked_spectator_4
 		}
 	}
 }
@@ -98,7 +98,7 @@ HOL_domestic_jet_engine_designs_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = HOL_domestic_jet_engine_designs_1
-			add_ideas = HOL_domestic_jet_engine_designs_2
+			add_idea = HOL_domestic_jet_engine_designs_2
 		}
 	}
 	else_if = {

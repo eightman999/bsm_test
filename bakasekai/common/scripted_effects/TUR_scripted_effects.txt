@@ -152,7 +152,7 @@ TUR_integrate_kurdish_state_effect = {
 				}
 				swap_ideas = {
 					remove_idea = TUR_sectarian_woes
-					add_ideas = TUR_sectarian_woes_1
+					add_idea = TUR_sectarian_woes_1
 				}
 			}
 			else_if = {
@@ -564,7 +564,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_minimal_power_disloyal
+				add_idea = TUR_kemalist_army_officers_minimal_power_disloyal
 			}
 		}
 		else_if = { 
@@ -575,7 +575,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_minimal_power_neutral
+				add_idea = TUR_kemalist_army_officers_minimal_power_neutral
 			}
 		}
 		else_if = { 
@@ -586,7 +586,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_minimal_power_loyal
+				add_idea = TUR_kemalist_army_officers_minimal_power_loyal
 			}
 		}
 		else_if = { #reduced power
@@ -600,7 +600,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_decreased_power_disloyal
+				add_idea = TUR_kemalist_army_officers_decreased_power_disloyal
 			}
 		}
 		else_if = { 
@@ -614,7 +614,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_decreased_power_neutral
+				add_idea = TUR_kemalist_army_officers_decreased_power_neutral
 			}
 		}
 		else_if = { 
@@ -628,7 +628,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_decreased_power_loyal
+				add_idea = TUR_kemalist_army_officers_decreased_power_loyal
 			}
 		}
 		else_if = { #limited power
@@ -642,7 +642,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_limited_power_disloyal
+				add_idea = TUR_kemalist_army_officers_limited_power_disloyal
 			}
 		}
 		else_if = { 
@@ -656,7 +656,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_limited_power_neutral
+				add_idea = TUR_kemalist_army_officers_limited_power_neutral
 			}
 		}
 		else_if = { 
@@ -670,7 +670,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_extended_power_loyal
+				add_idea = TUR_kemalist_army_officers_extended_power_loyal
 			}
 		}
 		else_if = { #extended powers
@@ -684,7 +684,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_extended_power_disloyal
+				add_idea = TUR_kemalist_army_officers_extended_power_disloyal
 			}
 		}
 		else_if = { 
@@ -698,7 +698,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_extended_power_neutral
+				add_idea = TUR_kemalist_army_officers_extended_power_neutral
 			}
 		}
 		else_if = { 
@@ -712,7 +712,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_extended_power_loyal
+				add_idea = TUR_kemalist_army_officers_extended_power_loyal
 			}
 		}
 		else_if = { #unlimited powah!
@@ -723,7 +723,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_powerful_disloyal
+				add_idea = TUR_kemalist_army_officers_powerful_disloyal
 			}
 		}
 		else_if = { 
@@ -734,7 +734,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_powerful_neutral
+				add_idea = TUR_kemalist_army_officers_powerful_neutral
 			}
 		}
 		else_if = { 
@@ -745,7 +745,7 @@ TUR_kemalist_loyalty_and_power_update_effect = {
 			}
 			swap_ideas = {
 				remove_idea = var:current_officer_spirit
-				add_ideas = TUR_kemalist_army_officers_powerful_loyal
+				add_idea = TUR_kemalist_army_officers_powerful_loyal
 			}
 		}
 	}

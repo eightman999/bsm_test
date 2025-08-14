@@ -190,7 +190,7 @@ crisis = {
 				}
 				swap_ideas = {
 					remove_idea = draft_dodging_2
-					add_ideas = draft_dodging_3
+					add_idea = draft_dodging_3
 				}
 			}
 			if = {
@@ -199,7 +199,7 @@ crisis = {
 				}
 				swap_ideas = {
 					remove_idea = draft_dodging
-					add_ideas = draft_dodging_2
+					add_idea = draft_dodging_2
 				}
 			}	
 		}
@@ -302,7 +302,7 @@ crisis = {
 				}
 				swap_ideas = {
 					remove_idea = strikes_2
-					add_ideas = strikes_3
+					add_idea = strikes_3
 				}
 			}
 			if = {
@@ -311,7 +311,7 @@ crisis = {
 				}
 				swap_ideas = {
 					remove_idea = strikes_1
-					add_ideas = strikes_2
+					add_idea = strikes_2
 				}
 			}	
 		}
@@ -458,7 +458,7 @@ crisis = {
 				}
 				swap_ideas = {
 					remove_idea = mutiny_2
-					add_ideas = mutiny_3
+					add_idea = mutiny_3
 				}
 			}
 			if = {
@@ -467,7 +467,7 @@ crisis = {
 				}
 				swap_ideas = {
 					remove_idea = mutiny_1
-					add_ideas = mutiny_2
+					add_idea = mutiny_2
 				}
 			}	
 		}
@@ -636,7 +636,7 @@ demobilization = {
 				}
 				swap_ideas = {
 					remove_idea = strikes_2
-					add_ideas = strikes_3
+					add_idea = strikes_3
 				}
 			}
 			if = {
@@ -645,7 +645,7 @@ demobilization = {
 				}
 				swap_ideas = {
 					remove_idea = strikes_1
-					add_ideas = strikes_2
+					add_idea = strikes_2
 				}
 			}
 			if = {

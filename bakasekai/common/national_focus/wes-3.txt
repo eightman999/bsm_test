@@ -3030,7 +3030,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_train_strength
-				add_ideas = WES_train_strength_2
+				add_idea = WES_train_strength_2
 			}
 		}
 	}
@@ -3079,7 +3079,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_shipbuilding_capacity_1
-				add_ideas = WES_shipbuilding_capacity_2
+				add_idea = WES_shipbuilding_capacity_2
 			}
 		}
 	}
@@ -3380,7 +3380,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_Gone_with_the_sand
-				add_ideas = WES_Gone_with_the_sand_2
+				add_idea = WES_Gone_with_the_sand_2
 			}
 		}
 	}
@@ -4038,7 +4038,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_sand_war
-				add_ideas = WES_sand_war_2
+				add_idea = WES_sand_war_2
 			}
 			hidden_effect = {
 				WES = {
@@ -4408,11 +4408,11 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_greening_1
-				add_ideas = WES_greening_2
+				add_idea = WES_greening_2
 			}
 			swap_ideas = {
 				remove_idea = WES_trade_at_SGC_1
-				add_ideas = WES_trade_at_SGC_2
+				add_idea = WES_trade_at_SGC_2
 			}
 			if = {
 				limit = {
@@ -4552,11 +4552,11 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_greening_2
-				add_ideas = WES_greening_3
+				add_idea = WES_greening_3
 			}
 			swap_ideas = {
 				remove_idea = WES_trade_at_SGC_2
-				add_ideas = WES_trade_at_SGC_3
+				add_idea = WES_trade_at_SGC_3
 			}
 			if = {
 				limit = {
@@ -4845,11 +4845,11 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = WES_greening_3
-				add_ideas = WES_greening_4
+				add_idea = WES_greening_4
 			}
 			swap_ideas = {
 				remove_idea = WES_trade_at_SGC_3
-				add_ideas = WES_trade_at_SGC_4
+				add_idea = WES_trade_at_SGC_4
 			}
 			hidden_effect = {
 				WES = {
@@ -5584,7 +5584,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_1
-				add_ideas = WES_investment_in_resource_development_2
+				add_idea = WES_investment_in_resource_development_2
 			}
 			if = {
 				limit = {
@@ -5724,7 +5724,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_2
-				add_ideas = WES_investment_in_resource_development_3
+				add_idea = WES_investment_in_resource_development_3
 			}
 			if = {
 				limit = {
@@ -5864,7 +5864,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_3
-				add_ideas = WES_investment_in_resource_development_4
+				add_idea = WES_investment_in_resource_development_4
 			}
 			if = {
 				limit = {
@@ -6628,15 +6628,15 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = WES_greening_4
-				add_ideas = WES_greening_5
+				add_idea = WES_greening_5
 			}
 			swap_ideas = {
 				remove_idea = WES_trade_at_SGC_4
-				add_ideas = WES_trade_at_SGC_5
+				add_idea = WES_trade_at_SGC_5
 			}
 			swap_ideas = {
 				remove_idea = WES_investment_in_resource_development_4
-				add_ideas = WES_investment_in_resource_development_5
+				add_idea = WES_investment_in_resource_development_5
 			}
 			if = {
 				limit = {
@@ -6647,15 +6647,15 @@ focus_tree = {
 				EGY = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6668,15 +6668,15 @@ focus_tree = {
 				MAR = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6689,15 +6689,15 @@ focus_tree = {
 				KSM = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6710,15 +6710,15 @@ focus_tree = {
 				KEN = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6731,15 +6731,15 @@ focus_tree = {
 				KHM = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6752,15 +6752,15 @@ focus_tree = {
 				AMA = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6773,15 +6773,15 @@ focus_tree = {
 				SAU = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6794,15 +6794,15 @@ focus_tree = {
 				IRQ = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6815,15 +6815,15 @@ focus_tree = {
 				IRN = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}
@@ -6836,15 +6836,15 @@ focus_tree = {
 				TUR = {
 					swap_ideas = {
 						remove_idea = WES_greening_4
-						add_ideas = WES_greening_5
+						add_idea = WES_greening_5
 					}
 					swap_ideas = {
 						remove_idea = WES_trade_at_SGC_4
-						add_ideas = WES_trade_at_SGC_5
+						add_idea = WES_trade_at_SGC_5
 					}
 					swap_ideas = {
 						remove_idea = WES_investment_in_resource_development_4
-						add_ideas = WES_investment_in_resource_development_5
+						add_idea = WES_investment_in_resource_development_5
 					}
 				}
 			}

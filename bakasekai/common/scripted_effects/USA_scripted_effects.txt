@@ -15,14 +15,14 @@ USA_great_depression_level_up = {
 		limit = { has_idea = great_depression_2 }
 		swap_ideas = {
 			remove_idea = great_depression_2
-			add_ideas = great_depression
+			add_idea = great_depression
 		}
 	}
 	else_if = {
 		limit = { has_idea = great_depression_3 }
 		swap_ideas = {
 			remove_idea = great_depression_3
-			add_ideas = great_depression_2
+			add_idea = great_depression_2
 		}
 	}
 	
@@ -40,7 +40,7 @@ USA_great_depression_level_down = {
 		custom_effect_tooltip = USA_great_depression_down_tt
 		swap_ideas = {
 			remove_idea = great_depression_2
-			add_ideas = great_depression_3
+			add_idea = great_depression_3
 		}
 	}
 	if = {
@@ -48,7 +48,7 @@ USA_great_depression_level_down = {
 		custom_effect_tooltip = USA_great_depression_down_tt
 		swap_ideas = {
 			remove_idea = great_depression
-			add_ideas = great_depression_2
+			add_idea = great_depression_2
 		}
 	}
 }
