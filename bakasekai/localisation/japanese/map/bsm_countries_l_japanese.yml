@@ -1173,6 +1173,10 @@
  PAL_DEF:0 "パリ"
  PAL_ADJ:0 "パリ"
  
+ PER:0 "ペルシュ伯領"
+ PER_DEF:0 "ペルシュ伯領"
+ PER_ADJ:0 "ペルシュ"
+
  POS:0 "シーランド"
  POS_DEF:0 "シーランド"
  POS_ADJ:0 "シーランド"
