@@ -2,77 +2,84 @@ add_namespace = LON
 
 # Ireland negotiation start
 country_event = {
+    # LON.ireland_negotiation_start
     id = LON.1
-    title = LON.1.t
-    desc = LON.1.d
+    title = LON.ireland_negotiation_start.t
+    desc = LON.ireland_negotiation_start.d
     is_triggered_only = yes
     option = {
-        name = LON.1.a
+        name = LON.ireland_negotiation_start.a
     }
 }
 
 # Ireland negotiation progress
 country_event = {
+    # LON.ireland_negotiation_progress
     id = LON.2
-    title = LON.2.t
-    desc = LON.2.d
+    title = LON.ireland_negotiation_progress.t
+    desc = LON.ireland_negotiation_progress.d
     is_triggered_only = yes
     option = {
-        name = LON.2.a
+        name = LON.ireland_negotiation_progress.a
     }
 }
 
 # Seek dominion status
 country_event = {
+    # LON.seek_dominion_status
     id = LON.3
-    title = LON.3.t
-    desc = LON.3.d
+    title = LON.seek_dominion_status.t
+    desc = LON.seek_dominion_status.d
     is_triggered_only = yes
     option = {
-        name = LON.3.a
+        name = LON.seek_dominion_status.a
     }
 }
 
 # London Bridge destroyed on independence
 country_event = {
+    # LON.london_bridge_destroyed_on_independence
     id = LON.4
-    title = LON.4.t
-    desc = LON.4.d
+    title = LON.london_bridge_destroyed_on_independence.t
+    desc = LON.london_bridge_destroyed_on_independence.d
     is_triggered_only = yes
     option = {
-        name = LON.4.a
+        name = LON.london_bridge_destroyed_on_independence.a
     }
 }
 
 # London Bridge wear and tear
 country_event = {
+    # LON.london_bridge_wear_and_tear
     id = LON.5
-    title = LON.5.t
-    desc = LON.5.d
+    title = LON.london_bridge_wear_and_tear.t
+    desc = LON.london_bridge_wear_and_tear.d
     is_triggered_only = yes
     option = {
-        name = LON.5.a
+        name = LON.london_bridge_wear_and_tear.a
     }
 }
 
 # London Bridge critical condition
 country_event = {
+    # LON.london_bridge_critical_condition
     id = LON.6
-    title = LON.6.t
-    desc = LON.6.d
+    title = LON.london_bridge_critical_condition.t
+    desc = LON.london_bridge_critical_condition.d
     is_triggered_only = yes
     option = {
-        name = LON.6.a
+        name = LON.london_bridge_critical_condition.a
     }
 }
 
 # Battle central bank crisis start
 country_event = {
+    # LON.battle_central_bank_crisis_start
     id = LON.7
-    title = LON.7.t
-    desc = LON.7.d
+    title = LON.battle_central_bank_crisis_start.t
+    desc = LON.battle_central_bank_crisis_start.d
     is_triggered_only = yes
     option = {
-        name = LON.7.a
+        name = LON.battle_central_bank_crisis_start.a
     }
 }
