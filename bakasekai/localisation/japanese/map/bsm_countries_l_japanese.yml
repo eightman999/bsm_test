@@ -381,11 +381,15 @@
  GBR:0 "イギリス"
  GBR_DEF:0 "イギリス"
  GBR_ADJ:0 "イギリス"
- 
+
+ GER:0 "ゲルミヤン侯国"
+ GER_DEF:0 "ゲルミヤン侯国"
+ GER_ADJ:0 "ゲルミヤン"
+
  GLC:0 "ガリシア"
  GLC_DEF:0 "ガリシア"
  GLC_ADJ:0 "ガリシア"
- 
+
  GRC:0 "ギリシャ"
  GRC_DEF:0 "ギリシャ"
  GRC_ADJ:0 "ギリシャ"

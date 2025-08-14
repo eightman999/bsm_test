@@ -379,6 +379,10 @@ GBR = {	#イギリス
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
 }
+GER = { #ゲルミヤン侯国
+        color = rgb { 160 82 45 }
+        color_ui = rgb { 160 82 45 }
+}
 GLC = {	#ガリシア
 	color = rgb { 0 153 204 }
 	color_ui = rgb { 0 153 204 }
