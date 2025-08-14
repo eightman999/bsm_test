@@ -1,4 +1,5 @@
 add_namespace = LON.leader_change
+add_namespace = LON
 
 news_event = {
     id = LON.leader_change.1
