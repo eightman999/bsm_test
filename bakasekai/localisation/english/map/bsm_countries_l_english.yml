@@ -1057,8 +1057,9 @@ l_english:
  PRK_ADJ:0 "North Korean"
 
  KOK:0 "Koku'"
- RAJ_DEF:0 "Koku'"
- RAJ_ADJ:0 "Koku'"
+ RAJ:0 "Rajputana"
+ RAJ_DEF:0 "Rajputana"
+ RAJ_ADJ:0 "Rajputani"
 
  SBR:0 "Siberia"
  SBR_DEF:0 "Siberia"
