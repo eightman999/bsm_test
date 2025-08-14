@@ -89,7 +89,7 @@ guiTypes = {
 				name = "text"
 				position = { x = -450 y = -157 }
 				textureFile = ""
-                               font = "bsm_24h"
+				font = "bsm_16"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 900

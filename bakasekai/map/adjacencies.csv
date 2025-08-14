@@ -94,8 +94,8 @@
 177;7123;sea;5533;-1;-1;-1;-1;;Martinique-Dominica
 7123;9377;sea;5533;-1;-1;-1;-1;;Dominica-Guadeloupe
 9377;4450;sea;2887;-1;-1;-1;-1;;Guadeloupe-Montserrat
-4450;13084;sea;2887;-1;-1;-1;-1;;Montserrat-Anguilla
-13084;4155;sea;5507;-1;-1;-1;-1;;Anguilla-Virgin Islands
+4450;13084;sea;2887;-1;-1;-1;-1;Virgin_Strait;Montserrat-Anguilla
+13084;4155;sea;5507;-1;-1;-1;-1;Virgin_Strait;Anguilla-Virgin Islands
 10203;9805;sea;5890;-1;-1;-1;-1;;Corfu-Epirus
 1106;12001;sea;5913;-1;-1;-1;-1;;Lefkada-Epirus
 3401;7127;sea;6801;-1;-1;-1;-1;;Cyclades-Greece
@@ -342,11 +342,11 @@
 14567;14571;sea;6240;-1;-1;-1;-1;ETOROF_Channel;Chima
 11946;4179;sea;14370;-1;-1;-1;-1;Kurushima_Strait;syanhi-honsyu2
 9965;14585;sea;1232;-1;-1;-1;-1;Naruto_Strait;syanhi-honsyu3-1
-7072;14585;sea;1232;-1;-1;-1;-1;;syanhi-honsyu3-2
+7072;14585;sea;1232;-1;-1;-1;-1;Naruto_Strait;syanhi-honsyu3-2
 4027;7046;sea;2264;-1;-1;-1;-1;Hoyo_Strait;syanhi-honsyu4
 11985;15033;sea;14354;-1;-1;-1;-1;Kanmon_Strait;Japan-Kyushu
 4094;11946;sea;15034;-1;-1;-1;-1;Kurushima_Strait;Shikoku-Chugoku
-14585;7113;sea;1232;-1;-1;-1;-1;;Shikoku-Kansai
+14585;7113;sea;1232;-1;-1;-1;-1;Naruto_Strait;Shikoku-Kansai
 9952;1117;sea;808;-1;-1;-1;-1;Sado_Strait;Niigata-Sado
 12960;15210;sea;15211;-1;-1;-1;-1;Falkand_Strait;Falkand
 1089;10076;sea;15299;-1;-1;-1;-1;;syanhai
@@ -356,4 +356,5 @@
 4619;7167;sea;15301;-1;-1;-1;-1;;syanhai
 13140;4130;sea;15302;-1;-1;-1;-1;;syanhai
 5030;7596;sea;15303;-1;-1;-1;-1;;syanhai
+1440;7660;sea;5557;-1;-1;-1;-1;Mona_Channel;Mona-Channel
 -1;-1;-1;-1;-1;-1;-1;-1;-1
