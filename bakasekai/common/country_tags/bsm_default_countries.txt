@@ -60,6 +60,7 @@ NYY	= "countries/Western Europe.txt"	#ニューヨークヤンキース
 OZY	= "countries/Western Europe.txt"	#オージー
 PAL	= "countries/Western Europe.txt"	#パリ
 PEG	= "countries/Western Europe.txt"	#ペンギン
+PER	= "countries/Western Europe.txt"	#ペルシュ伯領
 POS	= "countries/Western Europe.txt"	#シーランド
 SAN	= "countries/Western Europe.txt"	#サンマリノ
 SPL	= "countries/Western Europe.txt"	#南極大陸

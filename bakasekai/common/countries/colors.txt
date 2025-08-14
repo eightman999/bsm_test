@@ -1168,6 +1168,10 @@ PAL = {	#パリ
 	color = rgb { 123 5 195 }
 	color_ui = rgb { 123 5 195 }
 }
+PER = {	#ペルシュ伯領
+	color = rgb { 125 85 139 }
+	color_ui = rgb { 125 85 139 }
+}
 POS = {	#シーランド
 	color = rgb { 2001 1 1 }
 	color_ui = rgb { 2001 1 1 }
