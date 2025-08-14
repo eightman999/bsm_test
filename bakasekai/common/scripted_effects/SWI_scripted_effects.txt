@@ -24,7 +24,7 @@ SWI_make_helvetia_defensive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_passive_peace
-			add_idea = SWI_spirit_of_helvetia_defensive_peace
+			add_ideas = SWI_spirit_of_helvetia_defensive_peace
 		}
 	}
 	else_if = {
@@ -33,7 +33,7 @@ SWI_make_helvetia_defensive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_aggressive_peace
-			add_idea = SWI_spirit_of_helvetia_defensive_peace
+			add_ideas = SWI_spirit_of_helvetia_defensive_peace
 		}
 	}
 	else_if = {
@@ -42,7 +42,7 @@ SWI_make_helvetia_defensive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_passive_war
-			add_idea = SWI_spirit_of_helvetia_defensive_war
+			add_ideas = SWI_spirit_of_helvetia_defensive_war
 		}
 	}
 	else_if = {
@@ -51,7 +51,7 @@ SWI_make_helvetia_defensive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_aggressive_war
-			add_idea = SWI_spirit_of_helvetia_defensive_war
+			add_ideas = SWI_spirit_of_helvetia_defensive_war
 		}
 	}
 	else_if = {
@@ -77,7 +77,7 @@ SWI_make_helvetia_aggressive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_passive_peace
-			add_idea = SWI_spirit_of_helvetia_aggressive_peace
+			add_ideas = SWI_spirit_of_helvetia_aggressive_peace
 		}
 	}
 	else_if = {
@@ -86,7 +86,7 @@ SWI_make_helvetia_aggressive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_defensive_peace
-			add_idea = SWI_spirit_of_helvetia_aggressive_peace
+			add_ideas = SWI_spirit_of_helvetia_aggressive_peace
 		}
 	}
 	else_if = {
@@ -95,7 +95,7 @@ SWI_make_helvetia_aggressive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_passive_war
-			add_idea = SWI_spirit_of_helvetia_aggressive_war
+			add_ideas = SWI_spirit_of_helvetia_aggressive_war
 		}
 	}
 	else_if = {
@@ -104,7 +104,7 @@ SWI_make_helvetia_aggressive = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_defensive_war
-			add_idea = SWI_spirit_of_helvetia_aggressive_war
+			add_ideas = SWI_spirit_of_helvetia_aggressive_war
 		}
 	}
 	else_if = {
@@ -130,7 +130,7 @@ SWI_make_helvetia_war = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_passive_peace
-			add_idea = SWI_spirit_of_helvetia_passive_war
+			add_ideas = SWI_spirit_of_helvetia_passive_war
 		}
 	}
 	if = {
@@ -139,7 +139,7 @@ SWI_make_helvetia_war = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_defensive_peace
-			add_idea = SWI_spirit_of_helvetia_defensive_war
+			add_ideas = SWI_spirit_of_helvetia_defensive_war
 		}
 	}
 	if = {
@@ -148,7 +148,7 @@ SWI_make_helvetia_war = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_aggressive_peace
-			add_idea = SWI_spirit_of_helvetia_aggressive_war
+			add_ideas = SWI_spirit_of_helvetia_aggressive_war
 		}
 	}
 }
@@ -160,7 +160,7 @@ SWI_make_helvetia_peace = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_passive_war
-			add_idea = SWI_spirit_of_helvetia_passive_peace
+			add_ideas = SWI_spirit_of_helvetia_passive_peace
 		}
 	}
 	if = {
@@ -169,7 +169,7 @@ SWI_make_helvetia_peace = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_defensive_war
-			add_idea = SWI_spirit_of_helvetia_defensive_peace
+			add_ideas = SWI_spirit_of_helvetia_defensive_peace
 		}
 	}
 	if = {
@@ -178,7 +178,7 @@ SWI_make_helvetia_peace = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_spirit_of_helvetia_aggressive_war
-			add_idea = SWI_spirit_of_helvetia_aggressive_peace
+			add_ideas = SWI_spirit_of_helvetia_aggressive_peace
 		}
 	}	
 }
@@ -499,7 +499,7 @@ SWI_remove_militia_recruitment_law = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_citizen_militia_1
-			add_idea = limited_conscription
+			add_ideas = limited_conscription
 		}
 	}
 	else_if = {
@@ -508,7 +508,7 @@ SWI_remove_militia_recruitment_law = {
 		}
 		swap_ideas = {
 			remove_idea = SWI_citizen_militia_2
-			add_idea = extensive_conscription
+			add_ideas = extensive_conscription
 		}
 	}
 }

@@ -39,7 +39,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHL_politic_discussing
-				add_idea = CHL_go_north
+				add_ideas = CHL_go_north
 			}
 			add_stability = 0.1
 			add_popularity = {
@@ -79,7 +79,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHL_politic_discussing
-				add_idea = CHL_take_kyonu
+				add_ideas = CHL_take_kyonu
 			}
 			CHL = {
 				add_popularity = {
@@ -926,7 +926,7 @@ focus_tree = {
 			add_research_slot = 1
 			swap_ideas = {
 				remove_idea = CHL_too_late_industrial_6
-				add_idea = CHL_weak_research_0
+				add_ideas = CHL_weak_research_0
 			}
 		}
 	}
@@ -1560,7 +1560,7 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CHL_mass_recruit_0
-				add_idea = CHL_mass_recruit_1
+				add_ideas = CHL_mass_recruit_1
 			}
 		}
 	}
@@ -1969,7 +1969,7 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CHL_naval_superior_tech_0
-				add_idea = CHL_naval_superior_tech_1
+				add_ideas = CHL_naval_superior_tech_1
 			}
 		}
 	}
@@ -2077,7 +2077,7 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CHL_naval_superior_mass_0
-				add_idea = CHL_naval_superior_mass_1
+				add_ideas = CHL_naval_superior_mass_1
 			}
 		}
 	}
@@ -2200,7 +2200,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {
-				add_idea = CHL_coast_emperor_naval_kai
+				add_ideas = CHL_coast_emperor_naval_kai
 				remove_idea = CHL_coast_emperor_naval
 			}
 			random_owned_state = {
@@ -3247,7 +3247,7 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CHL_go_north
-				add_idea = CHL_get_longer
+				add_ideas = CHL_get_longer
 			}
 		}
 	}
@@ -3287,7 +3287,7 @@ focus_tree = {
 			}
 			swap_ideas = {
 				remove_idea = CHL_go_north
-				add_idea = CHL_get_coast
+				add_ideas = CHL_get_coast
 			}
 			add_ideas = CHL_emergency_recruit
 			hidden_effect = {
@@ -3973,7 +3973,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHL_politic_discussing
-				add_idea = CHL_take_heathenism
+				add_ideas = CHL_take_heathenism
 			}
 			CHL = {
 				add_popularity = {

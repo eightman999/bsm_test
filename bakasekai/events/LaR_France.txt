@@ -3240,7 +3240,7 @@
 # 		hidden_effect = {
 # 			swap_ideas = {
 # 				remove_idea = FRA_full_employment
-# 				add_idea = FRA_worker_shortage
+# 				add_ideas = FRA_worker_shortage
 # 			}
 # 		}
 # 	}
@@ -3253,7 +3253,7 @@
 # 		effect_tooltip = { #actual effect in immediate so player can not avoid by waiting it out, tooltip here to tell player what is happening
 # 			swap_ideas = {
 # 				remove_idea = FRA_full_employment
-# 				add_idea = FRA_worker_shortage
+# 				add_ideas = FRA_worker_shortage
 # 			}
 # 		}
 # 	}
@@ -3284,7 +3284,7 @@
 # 		}
 # 		swap_ideas = {
 # 			remove_idea = FRA_worker_shortage
-# 			add_idea = FRA_full_employment
+# 			add_ideas = FRA_full_employment
 # 		}
 # 	}
 # }
@@ -3613,7 +3613,7 @@
 # 	immediate = {
 # 		swap_ideas = {
 # 			remove_idea = FRA_communist_cooperation
-# 			add_idea = FRA_communist_cooperation_2
+# 			add_ideas = FRA_communist_cooperation_2
 # 		}
 # 	}
 # 	mean_time_to_happen = { days = 5 }
@@ -3968,7 +3968,7 @@
 # 			limit = { has_idea = FRA_inefficient_economy_2 }
 # 			swap_ideas = {
 # 				remove_idea = FRA_inefficient_economy_2
-# 				add_idea = FRA_inefficient_economy_1
+# 				add_ideas = FRA_inefficient_economy_1
 # 			}
 # 		}
 # 		else_if = {

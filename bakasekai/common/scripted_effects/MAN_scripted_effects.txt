@@ -29,7 +29,7 @@ MAN_low_legitimacy_level_down = {
 		effect_tooltip = {
 			swap_ideas = {
 				remove_idea = MAN_low_legitimacy_2
-				add_idea = MAN_low_legitimacy_1
+				add_ideas = MAN_low_legitimacy_1
 			}
 		}
 		hidden_effect = { remove_ideas = MAN_low_legitimacy_1 }
@@ -38,28 +38,28 @@ MAN_low_legitimacy_level_down = {
 		limit = { has_idea = MAN_low_legitimacy_2 }
 		swap_ideas = {
 			remove_idea = MAN_low_legitimacy_2
-			add_idea = MAN_low_legitimacy_1
+			add_ideas = MAN_low_legitimacy_1
 		}
 	}
 	if = {
 		limit = { has_idea = MAN_low_legitimacy_3 }
 		swap_ideas = {
 			remove_idea = MAN_low_legitimacy_3
-			add_idea = MAN_low_legitimacy_2
+			add_ideas = MAN_low_legitimacy_2
 		}
 	}
 	if = {
 		limit = { has_idea = MAN_low_legitimacy_4 }
 		swap_ideas = {
 			remove_idea = MAN_low_legitimacy_4
-			add_idea = MAN_low_legitimacy_3
+			add_ideas = MAN_low_legitimacy_3
 		}
 	}
 	if = {
 		limit = { has_idea = MAN_low_legitimacy_5 }
 		swap_ideas = {
 			remove_idea = MAN_low_legitimacy_5
-			add_idea = MAN_low_legitimacy_4
+			add_ideas = MAN_low_legitimacy_4
 		}
 	}
 }

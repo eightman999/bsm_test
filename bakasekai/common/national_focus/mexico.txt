@@ -152,7 +152,7 @@
 # 			}
 # 			swap_ideas = {
 # 				remove_idea = MEX_callistas
-# 				add_idea = MEX_plutarco_calles
+# 				add_ideas = MEX_plutarco_calles
 # 			}
 # 			custom_effect_tooltip = available_political_advisor
 # 			show_ideas_tooltip = MEX_aaron_saenz
@@ -3104,7 +3104,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_knights_of_columbus
-# 				add_idea = MEX_social_catholicism
+# 				add_ideas = MEX_social_catholicism
 # 			}
 # 		}
 # 	}
@@ -3232,7 +3232,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_legion_of_christ
-# 				add_idea = MEX_triumph_of_synarchism
+# 				add_ideas = MEX_triumph_of_synarchism
 # 			}
 # 		}
 # 	}
@@ -3501,7 +3501,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_politicised_army
-# 				add_idea = MEX_politicised_army_2
+# 				add_ideas = MEX_politicised_army_2
 # 			}
 # 			MEX_decrease_cedillo_tension = yes
 # 		}
@@ -3750,7 +3750,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_politicised_army
-# 				add_idea = MEX_revolutionary_army
+# 				add_ideas = MEX_revolutionary_army
 # 			}
 # 		}
 # 	}
@@ -3785,7 +3785,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_revolutionary_army
-# 				add_idea = MEX_right_wing_paramilitaries
+# 				add_ideas = MEX_right_wing_paramilitaries
 # 			}
 # 			custom_effect_tooltip = available_political_advisor
 # 			show_ideas_tooltip = MEX_jose_vasconcelos
@@ -3927,7 +3927,7 @@
 # 			MEX_decrease_church_power = yes
 # 			swap_ideas = {
 # 				remove_idea = MEX_revolutionary_army
-# 				add_idea = MEX_left_wing_paramilitaries
+# 				add_ideas = MEX_left_wing_paramilitaries
 # 			}
 # 		}
 # 	}
@@ -4089,7 +4089,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_international_struggle
-# 				add_idea = MEX_hispanic_culture
+# 				add_ideas = MEX_hispanic_culture
 # 			}
 # 		}
 # 	}
@@ -4124,7 +4124,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_international_struggle
-# 				add_idea = MEX_proletarian_class_army
+# 				add_ideas = MEX_proletarian_class_army
 # 			}
 # 		}
 # 	}
@@ -6565,7 +6565,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_brown_water_navy
-# 				add_idea = MEX_blue_water_navy
+# 				add_ideas = MEX_blue_water_navy
 # 			}
 # 			add_doctrine_cost_reduction = {
 # 				name = naval_doctrine
@@ -6623,7 +6623,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = MEX_brown_water_navy
-# 				add_idea = MEX_raiding_navy
+# 				add_ideas = MEX_raiding_navy
 # 			}
 # 			add_doctrine_cost_reduction = {
 # 				name = naval_doctrine

@@ -2291,7 +2291,7 @@
     "type": "effect",
     "scope": ["country"],
     "args": {
-      "add_idea": "string",
+      "add_ideas": "string",
       "remove_idea": "string"
     },
     "since": "1.3",

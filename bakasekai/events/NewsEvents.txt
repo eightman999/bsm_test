@@ -1353,7 +1353,7 @@ news_event = {
 				retire_character = SOV_lev_trotsky
 				swap_ideas = {
 					remove_idea = trotskyite_plot_nsb
-					add_idea = trotskyite_plot_purged
+					add_ideas = trotskyite_plot_purged
 				}
 			}
 		}

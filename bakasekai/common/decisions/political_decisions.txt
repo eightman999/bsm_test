@@ -2169,7 +2169,7 @@ political_actions = {
 					}
 					swap_ideas = {
 						remove_idea = SOV_trotskyist_revolutionary_agitation
-						add_idea = SOV_trotskyist_revolutionary_agitation_weakened
+						add_ideas = SOV_trotskyist_revolutionary_agitation_weakened
 					}
 				}
 			}

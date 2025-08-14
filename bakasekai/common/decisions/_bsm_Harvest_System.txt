@@ -168,7 +168,7 @@
 # 		remove_effect = {
 # 			swap_ideas = {
 # 				remove_idea = HS_Fertilizers_1
-# 				add_idea = HS_Fertilizers_2
+# 				add_ideas = HS_Fertilizers_2
 # 			}
 # 		}
 # 	}
@@ -188,7 +188,7 @@
 # 		remove_effect = {
 # 			swap_ideas = {
 # 				remove_idea = HS_Fertilizers_2
-# 				add_idea = HS_Fertilizers_3
+# 				add_ideas = HS_Fertilizers_3
 # 			}
 # 		}
 # 	}
@@ -207,7 +207,7 @@
 # 		remove_effect = {
 # 			swap_ideas = {
 # 				remove_idea = HS_Fertilizers_3
-# 				add_idea = HS_Fertilizers_4
+# 				add_ideas = HS_Fertilizers_4
 # 			}
 # 		}
 # 	}

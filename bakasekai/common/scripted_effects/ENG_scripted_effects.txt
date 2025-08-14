@@ -40,7 +40,7 @@ ENG_imperial_conference_defense_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_defense_4
-			add_idea = ENG_imperial_conference_defense_5
+			add_ideas = ENG_imperial_conference_defense_5
 		}
 	}
 	else_if = {
@@ -49,7 +49,7 @@ ENG_imperial_conference_defense_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_defense_3
-			add_idea = ENG_imperial_conference_defense_4
+			add_ideas = ENG_imperial_conference_defense_4
 		}
 	}
 	else_if = {
@@ -58,7 +58,7 @@ ENG_imperial_conference_defense_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_defense_2
-			add_idea = ENG_imperial_conference_defense_3
+			add_ideas = ENG_imperial_conference_defense_3
 		}
 	}
 	else_if = {
@@ -67,7 +67,7 @@ ENG_imperial_conference_defense_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_defense_1
-			add_idea = ENG_imperial_conference_defense_2
+			add_ideas = ENG_imperial_conference_defense_2
 		}
 	}
 	else_if = {
@@ -90,7 +90,7 @@ ENG_imperial_conference_economy_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_economy_4
-			add_idea = ENG_imperial_conference_economy_5
+			add_ideas = ENG_imperial_conference_economy_5
 		}
 	}
 	else_if = {
@@ -99,7 +99,7 @@ ENG_imperial_conference_economy_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_economy_3
-			add_idea = ENG_imperial_conference_economy_4
+			add_ideas = ENG_imperial_conference_economy_4
 		}
 	}
 	else_if = {
@@ -108,7 +108,7 @@ ENG_imperial_conference_economy_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_economy_2
-			add_idea = ENG_imperial_conference_economy_3
+			add_ideas = ENG_imperial_conference_economy_3
 		}
 	}
 	else_if = {
@@ -117,7 +117,7 @@ ENG_imperial_conference_economy_level_up = {
 		}
 		swap_ideas = {
 			remove_idea = ENG_imperial_conference_economy_1
-			add_idea = ENG_imperial_conference_economy_2
+			add_ideas = ENG_imperial_conference_economy_2
 		}
 	}
 	else_if = {
@@ -373,7 +373,7 @@ SAF_enforce_loyalty = {
 		}
 		swap_ideas = {
 			remove_idea = SAF_ossewabrandwag_fascism
-			add_idea = SAF_ossewabrandwag
+			add_ideas = SAF_ossewabrandwag
 		}
 	}
 	if = {
@@ -382,7 +382,7 @@ SAF_enforce_loyalty = {
 		}
 		swap_ideas = {
 			remove_idea = SAF_voortrekker_monument_2
-			add_idea = SAF_voortrekker_monument
+			add_ideas = SAF_voortrekker_monument
 		}
 	}
 	if = {
@@ -421,7 +421,7 @@ SAF_enforce_loyalty = {
 		}
 		swap_ideas = {
 			remove_idea = SAF_ossewabrandwag_2
-			add_idea = SAF_ossewabrandwag
+			add_ideas = SAF_ossewabrandwag
 		}
 	}
 	if = {
@@ -584,7 +584,7 @@ NZL_enforce_loyalty = {
 		}
 		swap_ideas = {
 			remove_idea = NZL_in_the_darkness
-			add_idea = NZL_first_labor_government
+			add_ideas = NZL_first_labor_government
 		}
 	}
 	if = {
@@ -611,7 +611,7 @@ NZL_enforce_loyalty = {
 		}
 		swap_ideas = {
 			remove_idea = NZL_the_workers_party_1
-			add_idea = NZL_first_labor_government
+			add_ideas = NZL_first_labor_government
 		}
 	}
 	if = {

@@ -166,7 +166,7 @@ focus_tree = {
 				}
 				swap_ideas = {
 					remove_idea = JAP_supremacy_of_technology_w
-					add_idea = JAP_supremacy_of_technology_w_2
+					add_ideas = JAP_supremacy_of_technology_w_2
 				}
 			}
 		}
@@ -1046,7 +1046,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = sudden_change_of_policy
-				add_idea = vertical_administration
+				add_ideas = vertical_administration
 			}
 		}
 	}

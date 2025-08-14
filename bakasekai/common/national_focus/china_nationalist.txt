@@ -656,7 +656,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHI_executive_yuan
-				add_idea = CHI_legislative_yuan
+				add_ideas = CHI_legislative_yuan
 			}
 			custom_effect_tooltip = available_political_advisor
 			# show_ideas_tooltip = CHI_kwong_jiang_political_advisor
@@ -1222,7 +1222,7 @@
 				}
 				swap_ideas = {
 					remove_idea = CHI_war_of_resistance
-					add_idea = CHI_war_of_resistance_2
+					add_ideas = CHI_war_of_resistance_2
 				}
 				else = {
 					add_ideas = CHI_war_of_national_liberation

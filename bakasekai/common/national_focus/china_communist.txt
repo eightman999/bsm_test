@@ -289,7 +289,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = PRC_the_long_march_1
-				add_idea = PRC_the_long_march_2
+				add_ideas = PRC_the_long_march_2
 			}
 		}
 	}
@@ -1193,7 +1193,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = PRC_revolutionary_military_commission
-				add_idea = PRC_central_military_commission
+				add_ideas = PRC_central_military_commission
 			}
 		}
 	}

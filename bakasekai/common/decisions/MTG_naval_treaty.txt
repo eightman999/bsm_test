@@ -221,7 +221,7 @@
 # 				}
 # 				swap_ideas = {
 # 					remove_idea = MTG_naval_treaty_adherent
-# 					add_idea = MTG_naval_treaty_cheating
+# 					add_ideas = MTG_naval_treaty_cheating
 # 				}
 # 			}
 # 			if = {
@@ -230,7 +230,7 @@
 # 				}
 # 				swap_ideas = {
 # 					remove_idea = MTG_naval_treaty_adherent_reduced
-# 					add_idea = MTG_naval_treaty_cheating_reduced
+# 					add_ideas = MTG_naval_treaty_cheating_reduced
 # 				}
 # 			}
 # 		}
@@ -713,7 +713,7 @@
 # 				}
 # 				swap_ideas = {
 # 					remove_idea = MTG_naval_treaty_adherent
-# 					add_idea = MTG_naval_treaty_adherent_reduced
+# 					add_ideas = MTG_naval_treaty_adherent_reduced
 # 				}
 # 			}
 # 			else_if = {
@@ -722,7 +722,7 @@
 # 				}
 # 				swap_ideas = {
 # 					remove_idea = MTG_naval_treaty_cheating
-# 					add_idea = MTG_naval_treaty_cheating_reduced
+# 					add_ideas = MTG_naval_treaty_cheating_reduced
 # 				}
 # 			}
 # 		}

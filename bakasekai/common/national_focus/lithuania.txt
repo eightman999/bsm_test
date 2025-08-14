@@ -2559,7 +2559,7 @@
 # 				days = 360
 # 			}
 # 			swap_ideas = {
-# 				add_idea = LIT_seimas_idea_2
+# 				add_ideas = LIT_seimas_idea_2
 # 				remove_idea = LIT_seimas_idea_1
 # 			}
 # 		}
@@ -2678,11 +2678,11 @@
 # 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 # 		completion_reward = {
 # 			swap_ideas = {
-# 				add_idea = LIT_presidential_powers_2
+# 				add_ideas = LIT_presidential_powers_2
 # 				remove_idea = LIT_presidential_powers_1
 # 			}
 # 			swap_ideas = {
-# 				add_idea = LIT_military_idea_2
+# 				add_ideas = LIT_military_idea_2
 # 				remove_idea = LIT_military_idea_1
 # 			}
 # 			add_political_power = 100
@@ -2779,7 +2779,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = LIT_seimas_idea_2
-# 				add_idea = LIT_seimas_idea_3
+# 				add_ideas = LIT_seimas_idea_3
 # 			}
 # 		}
 # 	}
@@ -2812,7 +2812,7 @@
 # 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 # 		completion_reward = {
 # 			swap_ideas = {
-# 				add_idea = LIT_military_idea_3
+# 				add_ideas = LIT_military_idea_3
 # 				remove_idea = LIT_military_idea_2
 # 			}
 # 			army_experience = 40
@@ -2846,7 +2846,7 @@
 # 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 # 		completion_reward = {
 # 			swap_ideas = {
-# 				add_idea = LIT_military_idea_4
+# 				add_ideas = LIT_military_idea_4
 # 				remove_idea = LIT_military_idea_3
 # 			}
 # 			if = {
@@ -2854,7 +2854,7 @@
 # 					has_idea = civilian_economy
 # 				}
 # 				swap_ideas = {
-# 					add_idea = war_economy
+# 					add_ideas = war_economy
 # 					remove_idea = civilian_economy
 # 				}
 # 			}
@@ -2863,7 +2863,7 @@
 # 					has_idea = low_economic_mobilisation
 # 				}
 # 				swap_ideas = {
-# 					add_idea = war_economy
+# 					add_ideas = war_economy
 # 					remove_idea = low_economic_mobilisation
 # 				}
 # 			}
@@ -2872,7 +2872,7 @@
 # 					has_idea = partial_economic_mobilisation
 # 				}
 # 				swap_ideas = {
-# 					add_idea = war_economy
+# 					add_ideas = war_economy
 # 					remove_idea = partial_economic_mobilisation
 # 				}
 # 			}
@@ -2881,7 +2881,7 @@
 # 					has_idea = war_economy
 # 				}
 # 				swap_ideas = {
-# 					add_idea = tot_economic_mobilisation
+# 					add_ideas = tot_economic_mobilisation
 # 					remove_idea = war_economy
 # 				}
 # 			}
@@ -3520,7 +3520,7 @@
 # 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 # 		completion_reward = {
 # 			swap_ideas = {
-# 				add_idea = BALTIC_economic_union_2
+# 				add_ideas = BALTIC_economic_union_2
 # 				remove_idea = BALTIC_economic_union_1
 # 			}
 # 			every_other_country = {
@@ -3530,7 +3530,7 @@
 # 				}
 # 				hidden_effect = { country_event = BALTIC_entente_events.3 }
 # 				swap_ideas = {
-# 					add_idea = BALTIC_economic_union_2
+# 					add_ideas = BALTIC_economic_union_2
 # 					remove_idea = BALTIC_economic_union_1
 # 				}
 # 			}
@@ -3610,7 +3610,7 @@
 # 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 # 		completion_reward = {
 # 			swap_ideas = {
-# 				add_idea = BALTIC_union_idea_1
+# 				add_ideas = BALTIC_union_idea_1
 # 				remove_idea = BALTIC_union_idea
 # 			}
 # 			division_template = {
@@ -3659,7 +3659,7 @@
 # 					is_in_faction_with = ROOT
 # 				}
 # 				swap_ideas = {
-# 					add_idea = BALTIC_union_idea_1
+# 					add_ideas = BALTIC_union_idea_1
 # 					remove_idea = BALTIC_union_idea
 # 				}
 # 				custom_effect_tooltip = gain_baltic_entente_divisions_tt
@@ -3946,7 +3946,7 @@
 # 		completion_reward = {
 # 			swap_ideas = {
 # 				remove_idea = LIT_seimas_idea_2
-# 				add_idea = LIT_seimas_idea_royal
+# 				add_ideas = LIT_seimas_idea_royal
 # 			}
 # 		}
 # 	}
