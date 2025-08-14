@@ -1,16 +1,16 @@
-add_namespace = LON_celtic
+add_namespace = LON
 
 # ケルト統一イベント
 country_event = {
-    id = LON_celtic.1
-    title = LON_celtic.1.t
-    desc = LON_celtic.1.desc
+    id = LON.18
+    title = LON.18.t
+    desc = LON.18.desc
     picture = GFX_event_empty
     
     is_triggered_only = yes
     
     option = {
-        name = LON_celtic.1.a # 平和的統合を推進
+        name = LON.18.a # 平和的統合を推進
         ai_chance = {
             factor = 70
         }
@@ -19,13 +19,13 @@ country_event = {
         if = {
             limit = { country_exists = IRE }
             IRE = {
-                country_event = { id = LON_celtic.2 hours = 24 }
+                country_event = { id = LON.19 hours = 24 }
             }
         }
     }
     
     option = {
-        name = LON_celtic.1.b # より強硬な手段を検討
+        name = LON.18.b # より強硬な手段を検討
         ai_chance = {
             factor = 30
         }
@@ -43,15 +43,15 @@ country_event = {
 
 # アイルランド側の応答イベント
 country_event = {
-    id = LON_celtic.2
-    title = LON_celtic.2.t
-    desc = LON_celtic.2.desc
+    id = LON.19
+    title = LON.19.t
+    desc = LON.19.desc
     picture = GFX_event_empty
     
     is_triggered_only = yes
     
     option = {
-        name = LON_celtic.2.a # 協力を受け入れる
+        name = LON.19.a # 協力を受け入れる
         ai_chance = {
             factor = 50
         }
@@ -68,7 +68,7 @@ country_event = {
     }
     
     option = {
-        name = LON_celtic.2.b # 独立を維持する
+        name = LON.19.b # 独立を維持する
         ai_chance = {
             factor = 50
         }

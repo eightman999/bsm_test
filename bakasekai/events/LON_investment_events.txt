@@ -1,16 +1,16 @@
-add_namespace = LON_investment
+add_namespace = LON
 
 # 同盟国への投資イベント
 country_event = {
-    id = LON_investment.1
-    title = LON_investment.1.t
-    desc = LON_investment.1.desc
+    id = LON.20
+    title = LON.20.t
+    desc = LON.20.desc
     picture = GFX_event_empty
     
     is_triggered_only = yes
     
     option = {
-        name = LON_investment.1.a # 投資を受け入れる
+        name = LON.20.a # 投資を受け入れる
         ai_chance = {
             factor = 90
         }
@@ -18,7 +18,7 @@ country_event = {
     }
     
     option = {
-        name = LON_investment.1.b # 投資を拒否する
+        name = LON.20.b # 投資を拒否する
         ai_chance = {
             factor = 10
         }
@@ -31,15 +31,15 @@ country_event = {
 
 # 民主主義国への投資イベント
 country_event = {
-    id = LON_investment.2
-    title = LON_investment.2.t
-    desc = LON_investment.2.desc
+    id = LON.21
+    title = LON.21.t
+    desc = LON.21.desc
     picture = GFX_event_empty
     
     is_triggered_only = yes
     
     option = {
-        name = LON_investment.2.a # 投資を歓迎する
+        name = LON.21.a # 投資を歓迎する
         ai_chance = {
             factor = 85
         }
@@ -47,7 +47,7 @@ country_event = {
     }
     
     option = {
-        name = LON_investment.2.b # 外国の干渉を拒否
+        name = LON.21.b # 外国の干渉を拒否
         ai_chance = {
             factor = 15
             modifier = {
