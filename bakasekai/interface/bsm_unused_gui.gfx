@@ -1,0 +1,183 @@
+spriteTypes = {
+	# GUI Interface Elements - Previously unused image assets
+	
+	# GUI/98 Elements
+	spriteType = {
+		name = "GFX_bsm_gui_98_back"
+		texturefile = "gfx/interface/GUI/98/back.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_bar_bg"
+		texturefile = "gfx/interface/GUI/98/bar_bg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_base"
+		texturefile = "gfx/interface/GUI/98/base.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_OE_GUI_bg"
+		texturefile = "gfx/interface/GUI/98/bsm_OE_GUI_bg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_btm_bar"
+		texturefile = "gfx/interface/GUI/98/bsm_btm_bar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_btn_115x38"
+		texturefile = "gfx/interface/GUI/98/bsm_btn_115x38.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_btn_section"
+		texturefile = "gfx/interface/GUI/98/bsm_btn_section.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_mineview_bg"
+		texturefile = "gfx/interface/GUI/98/bsm_mineview_bg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_small_tiles_dialog"
+		texturefile = "gfx/interface/GUI/98/bsm_small_tiles_dialog.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_close"
+		texturefile = "gfx/interface/GUI/98/close.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_down"
+		texturefile = "gfx/interface/GUI/98/down.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_forward"
+		texturefile = "gfx/interface/GUI/98/forward.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_icon"
+		texturefile = "gfx/interface/GUI/98/icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_mod_icon_large"
+		texturefile = "gfx/interface/GUI/98/mod_icon_large.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_pulldown"
+		texturefile = "gfx/interface/GUI/98/pulldown.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_sl"
+		texturefile = "gfx/interface/GUI/98/sl.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_up"
+		texturefile = "gfx/interface/GUI/98/up.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_gui_98_view"
+		texturefile = "gfx/interface/GUI/98/view.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_welcom_back"
+		texturefile = "gfx/interface/GUI/98/welcom_back.png"
+	}
+	
+	# GUI/HS Elements (Harvest System)
+	spriteType = {
+		name = "GFX_bsm_HS_BG"
+		texturefile = "gfx/interface/GUI/HS/bsm_HS_BG.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_HS_FR"
+		texturefile = "gfx/interface/GUI/HS/bsm_HS_FR.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_HS_list_BG"
+		texturefile = "gfx/interface/GUI/HS/bsm_HS_list_BG.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_hs_icon"
+		texturefile = "gfx/interface/GUI/HS/bsm_hs.png"
+	}
+	
+	# GUI/mine Elements (Mine System)
+	spriteType = {
+		name = "GFX_bsm_mine_btm_bar"
+		texturefile = "gfx/interface/GUI/mine/bsm_btm_bar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bsm_mine_mineview_bg"
+		texturefile = "gfx/interface/GUI/mine/bsm_mineview_bg.png"
+	}
+	
+	# Ideologies Interface
+	spriteType = {
+		name = "GFX_ideology_Anarchism"
+		texturefile = "gfx/interface/Ideologies/Anarchism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ClassicalFascism"
+		texturefile = "gfx/interface/Ideologies/ClassicalFascism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CollectivistSyndicalism"
+		texturefile = "gfx/interface/Ideologies/CollectivistSyndicalism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Communism"
+		texturefile = "gfx/interface/Ideologies/Communism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_Liberalism"
+		texturefile = "gfx/interface/Ideologies/Liberalism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NeoNepotism"
+		texturefile = "gfx/interface/Ideologies/NeoNepotism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_civilism"
+		texturefile = "gfx/interface/Ideologies/civilism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_constitutional_monarchy"
+		texturefile = "gfx/interface/Ideologies/constitutional_monarchy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_direct_democracy"
+		texturefile = "gfx/interface/Ideologies/direct_democracy.png"
+	}
+	
+	# Autonomy
+	spriteType = {
+		name = "GFX_autonomy_personal_union"
+		texturefile = "gfx/interface/autonomy/autonomy_psonal_union.png"
+	}
+}

@@ -1,0 +1,138 @@
+spriteTypes = {
+	# Ideas (National Spirits) - Previously unused image assets
+	
+	spriteType = {
+		name = "GFX_idea_wang_jiaxiang"
+		texturefile = "gfx/interface/ideas/1王稼祥.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHU_Hideki_Tojo"
+		texturefile = "gfx/interface/ideas/CHU_Hideki_Tojo.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHU_Hisaichi_Terauchi"
+		texturefile = "gfx/interface/ideas/CHU_Hisaichi_Terauchi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHU_Kazushige_Ugaki"
+		texturefile = "gfx/interface/ideas/CHU_Kazushige_Ugaki.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHU_Shunroku_Hata"
+		texturefile = "gfx/interface/ideas/CHU_Shunroku_Hata.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHU_Tomoyuki_Yamashita"
+		texturefile = "gfx/interface/ideas/CHU_Tomoyuki_Yamashita.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_Create_ezo_nation_army"
+		texturefile = "gfx/interface/ideas/EZO_Create_ezo_nation_army.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_ainu_people"
+		texturefile = "gfx/interface/ideas/EZO_ainu_people.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_developed_industry"
+		texturefile = "gfx/interface/ideas/EZO_developed_industry.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_nationalist_volunteers"
+		texturefile = "gfx/interface/ideas/EZO_nationalist_volunteers.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_research_support_PRO"
+		texturefile = "gfx/interface/ideas/EZO_research_support_PRO.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_right_wing_rebels_buff"
+		texturefile = "gfx/interface/ideas/EZO_right-wing_rebels_buff.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_right_wing_rebels_debuff"
+		texturefile = "gfx/interface/ideas/EZO_right-wing_rebels_debuff.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_traditinalism_deal"
+		texturefile = "gfx/interface/ideas/EZO_traditinalism_deal.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_traditinalism_debuff"
+		texturefile = "gfx/interface/ideas/EZO_traditinalism_debuff.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_undeveloped_industry"
+		texturefile = "gfx/interface/ideas/EZO_undeveloped_industry.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_unrecognised_independence"
+		texturefile = "gfx/interface/ideas/EZO_unrecognised_independence.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_white_russians_people"
+		texturefile = "gfx/interface/ideas/EZO_white_russians_people.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_EZO_white_russians_people_angry"
+		texturefile = "gfx/interface/ideas/EZO_white_russians_people_angry.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_JAP_no_emperor"
+		texturefile = "gfx/interface/ideas/Idea_JAP_no_emperor.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_JAP_workers_unite"
+		texturefile = "gfx/interface/ideas/Idea_JAP_workers_unite.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_asian_revolution_jap"
+		texturefile = "gfx/interface/ideas/asian_revolution_jap.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fukumotonoics"
+		texturefile = "gfx/interface/ideas/fukumotonoics.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_global_revolution_jap"
+		texturefile = "gfx/interface/ideas/global_revolution_jap.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ice_elemental"
+		texturefile = "gfx/interface/ideas/ice_elemental.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_iced_poland"
+		texturefile = "gfx/interface/ideas/iced_poland.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_kakudai"
+		texturefile = "gfx/interface/ideas/kakudai.png"
+	}
+}

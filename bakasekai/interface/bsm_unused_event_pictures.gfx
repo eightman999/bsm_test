@@ -1,0 +1,103 @@
+spriteTypes = {
+	# Event Pictures - Previously unused image assets
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_1"
+		texturefile = "gfx/event_pictures/CHN_civil_war_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_2"
+		texturefile = "gfx/event_pictures/CHN_civil_war_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_3"
+		texturefile = "gfx/event_pictures/CHN_civil_war_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_4"
+		texturefile = "gfx/event_pictures/CHN_civil_war_4.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_5"
+		texturefile = "gfx/event_pictures/CHN_civil_war_5.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_6"
+		texturefile = "gfx/event_pictures/CHN_civil_war_6.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_7"
+		texturefile = "gfx/event_pictures/CHN_civil_war_7.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_8"
+		texturefile = "gfx/event_pictures/CHN_civil_war_8.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_CHN_civil_war_9"
+		texturefile = "gfx/event_pictures/CHN_civil_war_9.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_SP_Battle"
+		texturefile = "gfx/event_pictures/SP_Battle.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_battlecivilwar"
+		texturefile = "gfx/event_pictures/battlecivilwar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_comicm"
+		texturefile = "gfx/event_pictures/comicm.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_jp_nomal"
+		texturefile = "gfx/event_pictures/jp_nomal.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_jp_tate"
+		texturefile = "gfx/event_pictures/jp_tate.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_jpn_sinto"
+		texturefile = "gfx/event_pictures/jpn_sinto.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_machine_gunner"
+		texturefile = "gfx/event_pictures/machine_gunner.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ranran"
+		texturefile = "gfx/event_pictures/ranran.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_tvlike_machinegunner"
+		texturefile = "gfx/event_pictures/tvlike_machinegunner.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_us_civilwar"
+		texturefile = "gfx/event_pictures/us_civilwar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_you_are_an_idiot"
+		texturefile = "gfx/event_pictures/you_are_an_idiot.png"
+	}
+}

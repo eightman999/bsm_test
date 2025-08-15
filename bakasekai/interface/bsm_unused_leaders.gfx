@@ -1,0 +1,195 @@
+spriteTypes = {
+	# Leaders - Previously unused image assets
+	
+	# Australia Leaders
+	spriteType = {
+		name = "GFX_Portrait_AUS_EMU"
+		texturefile = "gfx/leaders/AUS/EMU.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Emu"
+		texturefile = "gfx/leaders/AUS/Portrait_Emu.png"
+	}
+	
+	# Battle Leaders
+	spriteType = {
+		name = "GFX_Portrait_Battle_AS"
+		texturefile = "gfx/leaders/Battle/AS.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_BT_btl"
+		texturefile = "gfx/leaders/Battle/BT_btl.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_BT_est"
+		texturefile = "gfx/leaders/Battle/BT_est.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_BT_lit"
+		texturefile = "gfx/leaders/Battle/BT_lit.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_BT_rat"
+		texturefile = "gfx/leaders/Battle/BT_rat.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_BT_zjd"
+		texturefile = "gfx/leaders/Battle/BT_zjd.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_KarlGero"
+		texturefile = "gfx/leaders/Battle/KarlGero.png"
+	}
+	
+	# China Leaders
+	spriteType = {
+		name = "GFX_Portrait_CHI_Chiang_Kai_Sheck"
+		texturefile = "gfx/leaders/CHI/CHI_Chiang_Kai_Sheck.png"
+	}
+	
+	# Japan Leaders
+	spriteType = {
+		name = "GFX_Portrait_JPN_Hideki_Tojo"
+		texturefile = "gfx/leaders/JPN/Hideki_Tojo.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_Amatesrasu"
+		texturefile = "gfx/leaders/JPN/JPN_Amatesrasu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_NAGUMO"
+		texturefile = "gfx/leaders/JPN/NAGUMO.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_jikoson"
+		texturefile = "gfx/leaders/JPN/jikoson.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_katsutaro"
+		texturefile = "gfx/leaders/JPN/katsutaro.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_meji"
+		texturefile = "gfx/leaders/JPN/meji.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_nagmini"
+		texturefile = "gfx/leaders/JPN/nagmini.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_nobu"
+		texturefile = "gfx/leaders/JPN/nobu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_okada"
+		texturefile = "gfx/leaders/JPN/okada.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_syotoku"
+		texturefile = "gfx/leaders/JPN/syotoku.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_JPN_tenno"
+		texturefile = "gfx/leaders/JPN/tenno.png"
+	}
+	
+	# Russia Leaders
+	spriteType = {
+		name = "GFX_Portrait_RUS_Boris_Vladimirovich_Annenkov"
+		texturefile = "gfx/leaders/RUS/Boris_Vladimirovich_Annenkov.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_KC"
+		texturefile = "gfx/leaders/RUS/KC.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Oliga"
+		texturefile = "gfx/leaders/RUS/Oliga.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Peter_von_Wrangel"
+		texturefile = "gfx/leaders/RUS/Peter_von_Wrangel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Roman_Fyodorovich_von_Ungern"
+		texturefile = "gfx/leaders/RUS/Roman_Fyodorovich_von_Ungern.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Roman_Fyodorovich_von_Ungern_small"
+		texturefile = "gfx/leaders/RUS/Roman_Fyodorovich_von_Ungern_small.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Sergey_Leonidovich"
+		texturefile = "gfx/leaders/RUS/Sergey_Leonidovich.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_Sergey_Leonidovich_small"
+		texturefile = "gfx/leaders/RUS/Sergey_Leonidovich_small.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_anastashia"
+		texturefile = "gfx/leaders/RUS/anastashia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_anastashiamini"
+		texturefile = "gfx/leaders/RUS/anastashiamini.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_maria"
+		texturefile = "gfx/leaders/RUS/maria.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_mariamini"
+		texturefile = "gfx/leaders/RUS/mariamini.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_tatiana"
+		texturefile = "gfx/leaders/RUS/tatiana.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_tatianamini"
+		texturefile = "gfx/leaders/RUS/tatianamini.png"
+	}
+	
+	# USA Leaders
+	spriteType = {
+		name = "GFX_Portrait_USA_1"
+		texturefile = "gfx/leaders/USA/1.png"
+	}
+	
+	# Generic/Other
+	spriteType = {
+		name = "GFX_Portrait_sensyosya"
+		texturefile = "gfx/leaders/sensyosya.png"
+	}
+}

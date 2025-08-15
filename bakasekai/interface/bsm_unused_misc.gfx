@@ -1,0 +1,205 @@
+spriteTypes = {
+	# Miscellaneous - Previously unused image assets
+	
+	# Unknown/Misc
+	spriteType = {
+		name = "GFX_misc_GBG"
+		texturefile = "gfx/GBG.png"
+	}
+	
+	# Medals
+	spriteType = {
+		name = "GFX_medal_HAW_medal_strip"
+		texturefile = "gfx/interface/medals/HAW_medal_strip.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_HAW_medal_strip_large"
+		texturefile = "gfx/interface/medals/HAW_medal_strip_large.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_KOR_medal_strip"
+		texturefile = "gfx/interface/medals/KOR_medal_strip.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_KOR_medal_strip_large"
+		texturefile = "gfx/interface/medals/KOR_medal_strip_large.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_LIH_medal_strip"
+		texturefile = "gfx/interface/medals/LIH_medal_strip.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_LIH_medal_strip_large"
+		texturefile = "gfx/interface/medals/LIH_medal_strip_large.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_MLT_medal_strip"
+		texturefile = "gfx/interface/medals/MLT_medal_strip.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_MLT_medal_strip_large"
+		texturefile = "gfx/interface/medals/MLT_medal_strip_large.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_VAT_medal_strip"
+		texturefile = "gfx/interface/medals/VAT_medal_strip.png"
+	}
+	
+	spriteType = {
+		name = "GFX_medal_VAT_medal_strip_large"
+		texturefile = "gfx/interface/medals/VAT_medal_strip_large.png"
+	}
+	
+	# Loading Screens
+	spriteType = {
+		name = "GFX_loading_HMJK"
+		texturefile = "gfx/loadingscreens/main menu/HMJK.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_Single"
+		texturefile = "gfx/loadingscreens/main menu/Single.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_back"
+		texturefile = "gfx/loadingscreens/main menu/back.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_bg"
+		texturefile = "gfx/loadingscreens/main menu/bg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_cp"
+		texturefile = "gfx/loadingscreens/main menu/cp.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_cre"
+		texturefile = "gfx/loadingscreens/main menu/cre.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_load"
+		texturefile = "gfx/loadingscreens/main menu/load.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_multi"
+		texturefile = "gfx/loadingscreens/main menu/multi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_quit"
+		texturefile = "gfx/loadingscreens/main menu/quit.png"
+	}
+	
+	spriteType = {
+		name = "GFX_loading_start"
+		texturefile = "gfx/loadingscreens/main menu/start.png"
+	}
+	
+	# Parties
+	spriteType = {
+		name = "GFX_party_JPN_JIMIN"
+		texturefile = "gfx/parties/JPN/JIMIN.png"
+	}
+	
+	spriteType = {
+		name = "GFX_party_JPN_tokugawa"
+		texturefile = "gfx/parties/JPN/JPN _tokugawa.png"
+	}
+	
+	spriteType = {
+		name = "GFX_party_JPN_Jiminto"
+		texturefile = "gfx/parties/JPN/JPN_Jiminto.png"
+	}
+	
+	spriteType = {
+		name = "GFX_party_JPN_Kyosan"
+		texturefile = "gfx/parties/JPN/JPN_Kyosan.png"
+	}
+	
+	spriteType = {
+		name = "GFX_party_JPN_Taisei"
+		texturefile = "gfx/parties/JPN/JPN_Taisei.png"
+	}
+	
+	spriteType = {
+		name = "GFX_party_JPN_Tenno"
+		texturefile = "gfx/parties/JPN/JPN_Tenno.png"
+	}
+	
+	# Religion
+	spriteType = {
+		name = "GFX_religion_Bukkyo"
+		texturefile = "gfx/religion/Bukkyo.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_Evangelicism"
+		texturefile = "gfx/religion/Evangelicism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_Orthodox"
+		texturefile = "gfx/religion/Orthodox.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_RomanCatholicism"
+		texturefile = "gfx/religion/RomanCatholicism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_ShiiteIslam"
+		texturefile = "gfx/religion/ShiiteIslam.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_Stoicism"
+		texturefile = "gfx/religion/Stoicism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_Taoism"
+		texturefile = "gfx/religion/Taoism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_amazon"
+		texturefile = "gfx/religion/amazon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_religion_shinto"
+		texturefile = "gfx/religion/shinto.png"
+	}
+	
+	# Technologies
+	spriteType = {
+		name = "GFX_tech_inf"
+		texturefile = "gfx/interface/technologies/inf_tech/inf.png"
+	}
+	
+	spriteType = {
+		name = "GFX_tech_inf_oldest"
+		texturefile = "gfx/interface/technologies/inf_tech/inf_oldest.png"
+	}
+	
+	# Super Event
+	spriteType = {
+		name = "GFX_super_event_SAND"
+		texturefile = "gfx/sp_events/Super_Event_SAND.png"
+	}
+}
