@@ -33,9 +33,7 @@ From a giant Korea and an Australia shaped like the island of Shikoku, to a Cana
 
 ### 要件 / Requirements
 *   **Hearts of Iron IV Version:** `1.13.*`
-*   **必須Mod (Required Mod):** [Japanese Language mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2869239333)
-    *   このModは日本語環境を前提に作られているため、日本語化Modが**必ず必要**です。
-    *   This mod is built for the Japanese language environment and **requires** the Japanese Language Mod to function correctly.
+
 
 ### インストール方法 / Installation
 
