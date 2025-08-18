@@ -1,4 +1,4 @@
-l_japanese:
+﻿l_japanese:
  # Malta Focus Tree
  MLT_restore_the_order:0 "騎士団の復活"
  MLT_restore_the_order_desc:0 "マルタ騎士団の古き伝統を復活させ、島の統治を強化する。"
@@ -40,3 +40,10 @@ l_japanese:
  MLT_crusader_zeal_desc:0 "騎士団の聖なる使命感が全軍に浸透している。"
  MLT_trade_hub:0 "交易中心地"
  MLT_trade_hub_desc:0 "地中海交易の中心としてのマルタの地位が経済を活性化している。"
+
+ # Malta Decisions
+ MLT_decisions:0 "騎士団の政策"
+ MLT_recruit_knights:0 "騎士団員募集"
+ MLT_recruit_knights_desc:0 "新たな騎士団員を募集し、マルタの防衛力を強化する。"
+ MLT_fortify_harbors:0 "港湾要塞化"
+ MLT_fortify_harbors_desc:0 "マルタの重要港湾に沿岸要塞を建設する。"
