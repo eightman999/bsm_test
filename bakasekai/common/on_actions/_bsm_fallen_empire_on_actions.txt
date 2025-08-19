@@ -1,0 +1,36 @@
+on_game_start = {
+  effect = {
+    if = {
+      limit = { tag = NPL }
+      add_idea = fallen_empire_isolationist
+      bsm_fallen_empire_setup = yes
+    }
+    if = {
+      limit = { tag = MON }
+      add_idea = fallen_empire_xenophobe
+      bsm_fallen_empire_setup = yes
+    }
+    if = {
+      limit = { tag = SPL }
+      add_idea = fallen_empire_watchers
+      bsm_fallen_empire_setup = yes
+    }
+    if = {
+      limit = { tag = _ }
+      add_idea = fallen_empire_machine
+      bsm_fallen_empire_setup = yes
+    }
+  }
+}
+
+on_yearly_pulse = {
+  effect = {
+    every_country = {
+      limit = { _bsm_fe_can_give_gift = yes }
+      random_country = {
+        limit = { _bsm_fe_can_receive_gift = yes }
+        country_event = { id = fallen_empire.1 FROM = ROOT }
+      }
+    }
+  }
+}
