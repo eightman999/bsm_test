@@ -18,10 +18,12 @@ country_event = {
 		}
 		add_manpower = -5
 
-		#hidden_effect = {
-		#	news_event = { id = news.193 }
-		#}
-	}
+               hidden_effect = {
+                       add_dynamic_modifier = {
+                               modifier = mys_expedition_penalty_1
+                       }
+               }
+       }
 }
 country_event = {
 	id = MYS.2	#調査隊の帰還
@@ -39,7 +41,10 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-
-		
-	}
+               hidden_effect = {
+                       add_dynamic_modifier = {
+                               modifier = mys_expedition_penalty_2
+                       }
+               }
+       }
 }

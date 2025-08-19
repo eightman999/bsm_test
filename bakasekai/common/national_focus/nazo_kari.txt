@@ -7,7 +7,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = -10
+			add = 10
 			tag = MYS
 		}
 	}
@@ -45,21 +45,22 @@ focus_tree = {
 				category = industry
 			}
 			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
-			add_extra_state_shared_building_slots = 1
+			
 			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
-			add_extra_state_shared_building_slots = 1
 		}
 	}
 	#科学崇拝
@@ -493,7 +494,7 @@ focus_tree = {
 			focus = YUG_batoruwoweilainidaoku
 		}
 		completion_reward = {
-			set_cosmetic_tag = MYS_slav_nation
+			set_cosmetic_tag = SLAV_futurist_empire
 		}
 	}
 }

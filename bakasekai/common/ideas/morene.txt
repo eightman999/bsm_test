@@ -19,6 +19,7 @@ ideas = {
 	ideology_party = {
 		vm_1 = {
 			picture = GFX_idea_vm_1
+			# ledger = ideology_party
 			name = vm_1
 			allowed = {
 				original_tag = NMR
@@ -34,9 +35,11 @@ ideas = {
 		}
 	}
 	Extra = {
+		# designer = yes
 		vm_2 = {
 			picture = GFX_idea_vm_2
 			name = vm_2
+			# ledger = Extra
 			allowed = {
 				original_tag = NMR
 			}

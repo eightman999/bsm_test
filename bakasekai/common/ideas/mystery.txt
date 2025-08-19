@@ -14,19 +14,6 @@ ideas = {
                 intelligence_agency_defense = 10
             }
         }
-        mystery_country = {
-
-            allowed = {
-                always = no
-            }
-
-            removal_cost = -1
-
-            modifier = {
-                civilian_intel_to_others = -100.0
-                enemy_justify_war_goal_time = 1
-            }
-        }
         mystery_2 = {
 
             allowed = {
@@ -49,7 +36,7 @@ ideas = {
 
             modifier = {
                 stability_factor = -0.25
-                conscription = -0.2
+                base_Cultural_Degree = -0.2
             }
         }
         futurist_army = {

@@ -1,0 +1,17 @@
+scripted_gui = {
+	bsm_topbar = {
+		window_name = "bsm_topbar"
+		context_type = player_context
+		effects = {
+			bsm_OE_GUI_open_button_click = {
+				if = {
+					limit = { has_variable = OE_page }
+					clear_variable = OE_page
+				}
+				else = {
+					set_variable = { OE_page = 1 }
+				}
+			}
+		}
+	}
+}
