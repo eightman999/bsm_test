@@ -1,0 +1,168 @@
+spriteTypes = {
+	# Goals (National Focus Icons) - Previously unused image assets
+	
+	spriteType = {
+		name = "GFX_goal_B_02"
+		texturefile = "gfx/interface/goals/B-02.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_B01"
+		texturefile = "gfx/interface/goals/B01.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_B03"
+		texturefile = "gfx/interface/goals/B03.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_B04"
+		texturefile = "gfx/interface/goals/B04.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_BAN_ms"
+		texturefile = "gfx/interface/goals/BAN_ms.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_BAT_air"
+		texturefile = "gfx/interface/goals/BAT_air.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_BAT_aut"
+		texturefile = "gfx/interface/goals/BAT_aut.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_BAT_navy_focus"
+		texturefile = "gfx/interface/goals/BAT_navy_focus.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_FC"
+		texturefile = "gfx/interface/goals/FC.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_banned_onedrive"
+		texturefile = "gfx/interface/goals/GFX_ICE_banned_onedrive-759843.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_discord_server"
+		texturefile = "gfx/interface/goals/GFX_ICE_discord_server-759846.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_first_commit"
+		texturefile = "gfx/interface/goals/GFX_ICE_first_commit-759834.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_introduce_github"
+		texturefile = "gfx/interface/goals/GFX_ICE_introduce_github-759826.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_kometsubism"
+		texturefile = "gfx/interface/goals/GFX_ICE_kometsubism-759852.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_mega_is_good"
+		texturefile = "gfx/interface/goals/GFX_ICE_mega_is_good-759829.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_tolinerism_rise"
+		texturefile = "gfx/interface/goals/GFX_ICE_tolinerism_rise-759850.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_ver_tsundere"
+		texturefile = "gfx/interface/goals/GFX_ICE_ver_tsundere-759853.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ICE_zip"
+		texturefile = "gfx/interface/goals/GFX_ICE_zip-759835.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_Go_wall_out"
+		texturefile = "gfx/interface/goals/Go_wall_out.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_H01"
+		texturefile = "gfx/interface/goals/H01.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_H02"
+		texturefile = "gfx/interface/goals/H02.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_H03"
+		texturefile = "gfx/interface/goals/H03.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_H04"
+		texturefile = "gfx/interface/goals/H04.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_H05"
+		texturefile = "gfx/interface/goals/H05.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_IRE_ebc"
+		texturefile = "gfx/interface/goals/IRE_ebc.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_IRE_ebc_2"
+		texturefile = "gfx/interface/goals/IRE_ebc_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_IRE_ebc_3"
+		texturefile = "gfx/interface/goals/IRE_ebc_3.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_IRE_wbc"
+		texturefile = "gfx/interface/goals/IRE_wbc.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_IRE_wbc_2"
+		texturefile = "gfx/interface/goals/IRE_wbc_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_JP_ghost"
+		texturefile = "gfx/interface/goals/JP_ ghost.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_JP_MRSS"
+		texturefile = "gfx/interface/goals/JP_MRSS.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_JP_NAF"
+		texturefile = "gfx/interface/goals/JP_NAF.png"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_JP_NHK"
+		texturefile = "gfx/interface/goals/JP_NHK.png"
+	}
+}

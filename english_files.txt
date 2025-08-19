@@ -28,3 +28,5 @@ bakasekai/localisation/english/bakasekai/emu_empire_l_english.yml
 bakasekai/localisation/english/bakasekai/generic_focus_l_english.yml
 bakasekai/localisation/english/bakasekai/additional_traits_l_english.yml
 bakasekai/localisation/english/bakasekai/generic2_focus_l_english.yml
+bakasekai/localisation/english/bakasekai/drs_focus_l_english.yml
+bakasekai/localisation/english/bakasekai/drs_ideas_l_english.yml

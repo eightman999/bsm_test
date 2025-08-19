@@ -65,4 +65,9 @@ fear_of_emu_empire = {
     days = 720
     trade = no
 }
+EMU_migration_pressure = {
+    value = -25
+    days = 180
+    trade = no
+}
 }

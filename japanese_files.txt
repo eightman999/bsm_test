@@ -84,3 +84,5 @@ bakasekai/localisation/japanese/bakasekai/red_l_japanese.yml
 bakasekai/localisation/japanese/bakasekai/baka_traits_l_japanese.yml
 bakasekai/localisation/japanese/bakasekai/sys_tac_l_japanese.yml
 bakasekai/localisation/japanese/bakasekai/jpn_l_japanese.yml
+bakasekai/localisation/japanese/bakasekai/drs_focus_l_japanese.yml
+bakasekai/localisation/japanese/bakasekai/drs_ideas_l_japanese.yml

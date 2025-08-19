@@ -115,7 +115,7 @@ focus_tree = {
             }
             add_war_support = 0.05
             add_political_power = 75
-            country_event = { id = LON_celtic.1 hours = 6 }
+            country_event = { id = LON.18 hours = 6 }
         }
         ai_will_do = {
             factor = 6

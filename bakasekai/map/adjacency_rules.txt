@@ -558,8 +558,8 @@ adjacency_rule = {
 		trade = yes
 	}
 	required_provinces = {
-		5205
-		12582
+		13254
+		13159
 	}
 	icon = 5205
 	offset = {
@@ -1635,7 +1635,7 @@ adjacency_rule = {
 	}
 	required_provinces = {
 		10548
-		1799
+		
 		10228
 	}
 	icon = 10548
@@ -1675,9 +1675,9 @@ adjacency_rule = {
 	required_provinces = {
 		12231
 		12259
-		10228
+		
 	}
-	icon = 10548
+	icon = 12259
 	offset = {
 		1
 		0
@@ -2017,7 +2017,7 @@ adjacency_rule = {
 		trade = yes
 	}
 	required_provinces = {
-		7259
+		
 		10242
 		4296
 	}
@@ -2095,7 +2095,7 @@ adjacency_rule = {
 		trade = yes
 	}
 	required_provinces = {
-		12299
+		
 		12113
 		12168
 	}
@@ -2251,7 +2251,7 @@ adjacency_rule = {
 		10251
 		1329
 	}
-	icon = 10279
+	icon = 1329
 	offset = {
 		1
 		0
@@ -2448,7 +2448,7 @@ adjacency_rule = {
 		10099
 		12101
 	}
-	icon = 1070
+	icon = 10099
 	offset = {
 		1
 		0
@@ -2521,7 +2521,7 @@ adjacency_rule = {
 		trade = yes
 	}
 	required_provinces = {
-		14027
+		
 		14034
 		14029
 		14030
@@ -2567,7 +2567,7 @@ adjacency_rule = {
 		12265
 		10319
 	}
-	icon = 1104
+	icon = 12265
 	offset = {
 		1
 		0
@@ -2687,12 +2687,11 @@ adjacency_rule = {
 	required_provinces = {
 		10665
 		5181
-		12645
 		1759
-		10637
+		
 		7798
 	}
-	icon = 8527
+	icon = 1759
 	offset = {
 		-1
 		0
@@ -3235,7 +3234,7 @@ adjacency_rule = {
 	}
 	required_provinces = {
 		7427
-		4424
+		
 		1277
 		7463
 		4412
@@ -3285,7 +3284,7 @@ adjacency_rule = {
 		1460
 		4446
 		10354
-		10354
+		
 		10522
 	}
 	icon = 1460
@@ -3368,7 +3367,7 @@ adjacency_rule = {
 		7660
 		1440
 	}
-	icon = 1440
+	icon = 5557
 	offset = {
 		-1
 		0
@@ -3482,7 +3481,7 @@ adjacency_rule = {
 		13542
 		13544
 		13063
-		13204
+		# 13204
 	}
 	icon = 13599
 	offset = {
@@ -3519,7 +3518,7 @@ adjacency_rule = {
 		trade = yes
 	}
 	required_provinces = {
-		4273
+		# 4273
 		7293
 		10191
 		12162
@@ -3562,7 +3561,7 @@ adjacency_rule = {
 	required_provinces = {
 		4576
 		1457
-		12207
+		# 12207
 	}
 	icon = 8174
 	offset = {
@@ -3677,7 +3676,7 @@ adjacency_rule = {
 	required_provinces = {
 		13037
 		4646
-		1512
+		# 1512
 	}
 	icon = 13037
 	offset = {
@@ -3801,43 +3800,43 @@ adjacency_rule = {
 	}
 }
 
-adjacency_rule = {
-	name = "Akashi_Strait"
-	contested = {
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	enemy = {
-		army = no
-		navy = no
-		submarine = no
-		trade = no
-	}
-	friend = {
-		army = yes
-		navy = yes
-		submarine = yes
-		trade = yes
-	}
-	neutral = {
-		army = yes
-		navy = yes
-		submarine = no
-		trade = yes
-	}
-	required_provinces = {
-		14585
-		7072
-	}
-	icon = 7072
-	offset = {
-		-1
-		0
-		-2
-	}
-}
+# adjacency_rule = {
+# 	name = "Akashi_Strait"
+# 	contested = {
+# 		army = no
+# 		navy = no
+# 		submarine = no
+# 		trade = no
+# 	}
+# 	enemy = {
+# 		army = no
+# 		navy = no
+# 		submarine = no
+# 		trade = no
+# 	}
+# 	friend = {
+# 		army = yes
+# 		navy = yes
+# 		submarine = yes
+# 		trade = yes
+# 	}
+# 	neutral = {
+# 		army = yes
+# 		navy = yes
+# 		submarine = no
+# 		trade = yes
+# 	}
+# 	required_provinces = {
+# 		14585
+# 		7072
+# 	}
+# 	icon = 7072
+# 	offset = {
+# 		-1
+# 		0
+# 		-2
+# 	}
+# }
 
 adjacency_rule = {
 	name = "Kanmon_Strait"
@@ -4060,13 +4059,52 @@ adjacency_rule = {
 		trade = yes
 	}
 	required_provinces = {
-		1440
-		7660
+		4155
+		13084
+		13284
 	}
-	icon = 5557
-	offset = {
-		-1
-		0
-		-2
-	}
+        icon = 13084
+        offset = {
+                -1
+                0
+                -2
+        }
+}
+
+adjacency_rule = {
+        name = "Falkland_Strait"
+        contested = {
+                army = no
+                navy = no
+                submarine = no
+                trade = no
+        }
+        enemy = {
+                army = no
+                navy = no
+                submarine = no
+                trade = no
+        }
+        friend = {
+                army = yes
+                navy = yes
+                submarine = yes
+                trade = yes
+        }
+        neutral = {
+                army = yes
+                navy = yes
+                submarine = no
+                trade = yes
+        }
+        required_provinces = {
+                12960
+                15210
+        }
+        icon = 15211
+        offset = {
+                -1
+                0
+                -2
+        }
 }

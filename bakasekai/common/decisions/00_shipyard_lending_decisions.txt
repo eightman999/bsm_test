@@ -94,8 +94,8 @@ shipyard_lending_category = { # カテゴリをここで参照
                 country_event = {
                     id = shipyard_lending.on_lend_end
                     days = shipyard_lending_duration
-                    set_from = FROM # イベント内でFROMが貸し出し相手国を指すように設定
-                    set_root = ROOT # イベント内でROOTが貸し出し元国を指すように設定
+                    # set_from = FROM # イベント内でFROMが貸し出し相手国を指すように設定
+                    # set_root = ROOT # イベント内でROOTが貸し出し元国を指すように設定
                     # イベントターゲットは自動的に引き継がれる
                 }
             } else_if = { #[cite: 32]
