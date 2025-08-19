@@ -1,0 +1,33 @@
+# Repository Code Owners
+# This file defines who should review changes to specific parts of the repository
+
+# Default owners for everything
+* @eightman999
+
+# Core mod files
+/bakasekai/ @eightman999
+
+# Documentation and development guides
+/documents/ @eightman999
+/CLAUDE.md @eightman999
+/AGENTS.md @eightman999
+/README.md @eightman999
+/.github/ @eightman999
+
+# Country-specific content (examples - expand as needed)
+/bakasekai/common/national_focus/JPN.txt
+/bakasekai/events/JPN.txt
+/bakasekai/common/characters/JPN.txt
+
+# System files (BSM prefixed)
+/bakasekai/**/_bsm_*.txt @eightman999
+
+# Localization files
+/bakasekai/localisation/ @eightman999
+
+# Build and CI configuration
+/.github/workflows/ @eightman999
+/cwtools.yml @eightman999
+
+# Asset files
+/flags/ @eightman999
