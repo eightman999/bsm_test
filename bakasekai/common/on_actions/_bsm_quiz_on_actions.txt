@@ -1,0 +1,13 @@
+on_actions = {
+  on_yearly_pulse = {
+    effect = {
+      random_country = {
+        news_event = { id = baka_quiz.1 }
+        news_event = { id = baka_quiz.2 }
+        news_event = { id = baka_quiz.3 }
+        news_event = { id = baka_quiz.4 }
+        news_event = { id = baka_quiz.5 }
+      }
+    }
+  }
+}
