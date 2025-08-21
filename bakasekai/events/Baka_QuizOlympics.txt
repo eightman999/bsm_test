@@ -1,0 +1,94 @@
+# Quiz Olympics Events
+add_namespace = baka_quiz
+
+news_event = {
+  id = baka_quiz.1
+  title = baka_quiz.1.t
+  desc = baka_quiz.1.d
+  picture = GFX_news_event_generic
+  major = yes
+
+  is_triggered_only = yes
+
+  option = {
+    name = baka_quiz.1.a
+  }
+}
+
+news_event = {
+  id = baka_quiz.2
+  title = baka_quiz.2.t
+  desc = baka_quiz.2.d
+  picture = GFX_news_event_generic
+  major = yes
+
+  is_triggered_only = yes
+
+  option = {
+    name = baka_quiz.2.a
+  }
+}
+
+news_event = {
+  id = baka_quiz.3
+  title = baka_quiz.3.t
+  desc = baka_quiz.3.d
+  picture = GFX_news_event_generic
+  major = yes
+
+  is_triggered_only = yes
+
+  option = {
+    name = baka_quiz.3.a
+  }
+}
+
+news_event = {
+  id = baka_quiz.4
+  title = baka_quiz.4.t
+  desc = baka_quiz.4.d
+  picture = GFX_news_event_generic
+  major = yes
+
+  is_triggered_only = yes
+
+  option = {
+    name = baka_quiz.4.a
+    trigger = { tag = NYY }
+  }
+
+  option = {
+    name = baka_quiz.4.b
+    trigger = { NOT = { tag = NYY } }
+  }
+}
+
+news_event = {
+  id = baka_quiz.5
+  title = baka_quiz.5.t
+  desc = baka_quiz.5.d
+  picture = GFX_news_event_generic
+  major = yes
+
+  is_triggered_only = yes
+
+  option = {
+    name = baka_quiz.5.a
+    trigger = { tag = AUS }
+  }
+
+  option = {
+    name = baka_quiz.5.b
+    trigger = { OR = { tag = HRH tag = AST } }
+  }
+
+  option = {
+    name = baka_quiz.5.c
+    trigger = { tag = JPN }
+  }
+
+  option = {
+    name = baka_quiz.5.d
+    trigger = { NOT = { OR = { tag = AUS tag = HRH tag = AST tag = JPN } } }
+  }
+}
