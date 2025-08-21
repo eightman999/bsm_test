@@ -86,3 +86,5 @@ bakasekai/localisation/japanese/bakasekai/sys_tac_l_japanese.yml
 bakasekai/localisation/japanese/bakasekai/jpn_l_japanese.yml
 bakasekai/localisation/japanese/bakasekai/drs_focus_l_japanese.yml
 bakasekai/localisation/japanese/bakasekai/_bsm_fallen_empire_l_japanese.yml
+bakasekai/localisation/japanese/bakasekai/mon_l_japanese.yml
+bakasekai/localisation/japanese/bakasekai/wargoals_l_japanese.yml
