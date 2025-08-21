@@ -46,11 +46,9 @@ AFG_naval_organization = {
 		tag = AFG
 	}
 
-	available = {
-		AFG = {
-			has_completed_focus = AFG_shipyards
-		}
-	}
+  available = {
+    always = yes
+  }
 }
 
 
@@ -101,11 +99,9 @@ AFG_infantry_organization = {
 		tag = AFG
 	}
 
-	available = {
-		AFG = {
-			has_completed_focus = AFG_new_army
-		}
-	}
+  available = {
+    always = yes
+  }
 }
 
 AFG_khyber_pass_rifling_org = {
@@ -113,15 +109,13 @@ AFG_khyber_pass_rifling_org = {
 	equipment_type = { infantry_equipment }
 	research_categories = { infantry_weapons }
 
-	allowed = {	
-		has_dlc = "Graveyard of Empires"
-		tag = AFG
-	}
-	available = {
-		AFG = {
-			has_completed_focus = AFG_khyber_pass_riflining
-		}
-	}
+  allowed = {
+    has_dlc = "Graveyard of Empires"
+    tag = AFG
+  }
+  available = {
+    always = yes
+  }
 	tree_header_text = {
 		text = "Design and Production"
 		x = 3
