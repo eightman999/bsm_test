@@ -10,11 +10,11 @@ CULTURAL_DEGREES_desc_test_2:0 "[CULTURAL_DEGREES_desc_test]"
 CULTURAL_DEGREES_desc:0 "The more §Hbaka (stupid)§! the people are, the lower it becomes. It also fluctuates depending on §Hreligion§! and §Hnational spirit§!. You can also adjust it with §Hpolitical advisors§!.\n\nA low level of civilization has negative effects such as a decrease in research speed.\n\nCorrection from the current civilization rate:\nResearch speed: [?Cultural_Degree|0%]\nPolitical power gain correction: [?Cultural_Degree|0%]\nStability correction: [?Cultural_Degree|0%]"
 COUNTRY_CD:0 "[?ROOT.Cultural_Degree|0%]"
 
-#####Currency#####
+#####Unified Currency#####
 Unified_Currency_title:0 "[Unified_Currency_title_txt]"
 Unified_Currency:0 "[?ROOT.Unified_Currency|0]"
-Unified_Currency_desc_2:0 "Currency can be acquired through national production and consumption activities, as well as trade.\nIt can also be used for various government purposes, such as dispatching expeditions and elucidating the unknown. The amount acquired also fluctuates depending on the §Hgoverning party§!, §Hpolitical advisors§!, and §Hreligion§!."
-Unified_Currency_desc_title:0 "The amount of currency our government can use for various purposes.\n------------------------------------\nCurrency acquisition correction: [?modifier@Unified_Currency_gain_factor|0%+][Unified_Currency_desc_war_effort][Unified_Currency_desc_religion]\n------------------------------------\nTotal: [?ROOT.combined_uc_factor|0+%]\n------------------------------------\nAmount acquired last month: [?ROOT.Unified_Currency_Last_Month_gain|a0+]"
+Unified_Currency_desc_2:0 "Unified Currency can be acquired through national production and consumption activities, as well as trade.\nIt can also be used for various government purposes, such as dispatching expeditions and elucidating the unknown. The amount acquired also fluctuates depending on the §Hgoverning party§!, §Hpolitical advisors§!, and §Hreligion§!."
+Unified_Currency_desc_title:0 "The amount of Unified Currency our government can use for various purposes.\n------------------------------------\nUnified Currency acquisition correction: [?modifier@Unified_Currency_gain_factor|0%+][Unified_Currency_desc_war_effort][Unified_Currency_desc_religion]\n------------------------------------\nTotal: [?ROOT.combined_uc_factor|0+%]\n------------------------------------\nAmount acquired last month: [?ROOT.Unified_Currency_Last_Month_gain|a0+]"
 Unified_Currency_desc_war_effort_default:0 "\nBreakdown"
 Unified_Currency_desc_war_effort_war:0 "\nBreakdown\nWartime exhaustion I: [?modifier@Unified_Currency_war_factor|0%+]\nLoss of territory: [?Unified_Currency_state_loss|1+]"
 Unified_Currency_desc_war_effort_war_2:0 "\nBreakdown\nWartime exhaustion II: [?modifier@Unified_Currency_war_factor|0%+]\nLoss of territory: [?Unified_Currency_state_loss|1+]"
@@ -23,12 +23,12 @@ daily_National_Unity_Power_gain:0 "Daily National Unity Power"
 National_Unity_Power_gain_factor:0 "National Unity Power Gain Factor"
 
 bsm_uc_factor:0 "Correction Value"
-daily_Unified_Currency_gain:0 "Daily Currency"
-Unified_Currency_gain_factor:0 "Currency Gain Factor"
-Unified_Currency_war_factor:0 "Wartime Currency Gain Factor"
-Unified_Currency_religion_factor:0 "Religious Currency Gain Factor"
-tt_ucs_add_Unified_Currency_month:0 "Add §Hcurrency§! equivalent to [?multiply_value|1+] months\n------------------------------------\n[Unified_Currency_title_txt]"
-tt_ucs_add_Unified_Currency:0 "Add §Hcurrency§! by [?add_value|0+]"
+daily_Unified_Currency_gain:0 "Daily Unified Currency"
+Unified_Currency_gain_factor:0 "Unified Currency Gain Factor"
+Unified_Currency_war_factor:0 "Wartime Unified Currency Gain Factor"
+Unified_Currency_religion_factor:0 "Religious Unified Currency Gain Factor"
+tt_ucs_add_Unified_Currency_month:0 "Add §HUnified Currency§! equivalent to [?multiply_value|1+] months\n------------------------------------\n[Unified_Currency_title_txt]"
+tt_ucs_add_Unified_Currency:0 "Add §HUnified Currency§! by [?add_value|0+]"
 war_effort_1:0 "War Exhaustion I"
 war_effort_2:0 "War Exhaustion II"
 ##########Civilization Rate############
@@ -66,7 +66,7 @@ MS_max_tt:0 "Below the maximum number of mercenaries"
 bsm_ecpp:0 "Gain political power from the treasury"
 # ec_to_pp:0 "Convert to Political Power"
 # ec_to_pp_desc:0 "Gain §Hpolitical power§! from the treasury."
-# pp_to_ec:0 "Convert to Currency"
+# pp_to_ec:0 "Convert to Unified Currency"
 # pp_to_ec_desc:0 "Convert §Hpolitical power§! to the treasury."
 #############MINE##################
 #State view
@@ -100,7 +100,7 @@ tt_mine_reopening:0 "§HReopen§! the §Hmine§! in §H[FROM.GetName]§!\nThis w
 
 need_50_energy:0 "£resource_energy_icon §Y150§!"
 need_50_energy_blocked:0 "£resource_energy_icon §R50§!"
-need_50_energy_tooltip:0 "Expansion of the mine requires £resource_energy_icon §H50§! §Ycurrency§!."
+need_50_energy_tooltip:0 "Expansion of the mine requires £resource_energy_icon §H50§! §YUnified Currency§!."
 
 MD_mine_size:0 "[?ROOT.MD_mine_size|0]"
 MD_mine_size_title:0 "Mine Scale"
@@ -150,11 +150,11 @@ mine.4.a:0 "I see"
 
 # ------------------------------Fabricate Claim--------------------------------------
 BSM_FABRICATE_CLAIM_DIPLO_COST:0 "£resource_energy_large §H100§!"
-BSM_FABRICATE_CLAIM_DIPLO_COST_DESC:0 "Fabricating a claim requires £resource_energy_large §H100§! §Ycurrency§!."
+BSM_FABRICATE_CLAIM_DIPLO_COST_DESC:0 "Fabricating a claim requires £resource_energy_large §H100§! §YUnified Currency§!."
 # Diplomatic Action
   DIPLOMACY_BSM_FABRICATE_CLAIM_NAME:0 "Fabricate Claim"
-  DIPLOMACY_BSM_FABRICATE_CLAIM_NAME_DESC:0 "Begin the process of fabricating a claim on any one of the states of §Y[FROM.GetNameDefCap]§!. This may consume currency and worsen diplomatic relations."
-  BSM_FABRICATE_CLAIM_DIPLO_COST:0 "Cost: £resource_energy_large§Y Currency§!"
+  DIPLOMACY_BSM_FABRICATE_CLAIM_NAME_DESC:0 "Begin the process of fabricating a claim on any one of the states of §Y[FROM.GetNameDefCap]§!. This may consume Unified Currency and worsen diplomatic relations."
+  BSM_FABRICATE_CLAIM_DIPLO_COST:0 "Cost: £resource_energy_large§Y Unified Currency§!"
 
   # Scripted Trigger (for tooltip, optional)
   bsm_can_initiate_fabricate_claim_diplo_action_trigger:0 "Can initiate claim fabrication"
@@ -162,13 +162,13 @@ BSM_FABRICATE_CLAIM_DIPLO_COST_DESC:0 "Fabricating a claim requires £resource_e
 
   # Event
   BSM_FABRICATE_CLAIM_EVENT_1_TITLE:0 "Fabricate Claim on [FROM.GetNameDefCap]"
-  BSM_FABRICATE_CLAIM_EVENT_1_DESC:0 "Our intelligence agents have completed preparations to fabricate a claim on the territory of §Y[event_target:bsm_target_state_for_claim_fabrication.GetName]§!, which is part of [FROM.GetNameDefCap].\n\nThis will consume §R[ROOT.bsm_fabrication_actual_cost] UC§!, will undoubtedly draw international condemnation, and will worsen relations with [FROM.GetNameDefCap]."
+  BSM_FABRICATE_CLAIM_EVENT_1_DESC:0 "Our intelligence agents have completed preparations to fabricate a claim on the territory of §Y[event_target:bsm_target_state_for_claim_fabrication.GetName]§!, which is part of [FROM.GetNameDefCap].\n\nThis will consume §R[ROOT.bsm_fabrication_actual_cost] Unified Currency (UC)§!, will undoubtedly draw international condemnation, and will worsen relations with [FROM.GetNameDefCap]."
 # [ROOT.bsm_fabrication_actual_cost] is a temporary variable to display the cost calculated in the event
   BSM_FABRICATE_CLAIM_EVENT_1_OPT_A:0 "Do it! [event_target:bsm_target_state_for_claim_fabrication.GetName] is ours!"
   BSM_FABRICATE_CLAIM_EVENT_1_OPT_B:0 "Now is not the time."
 
   BSM_FABRICATE_CLAIM_UC_SHORTAGE_TITLE:0 "Insufficient Funds"
-  BSM_FABRICATE_CLAIM_UC_SHORTAGE_DESC:0 "Insufficient currency to fabricate the claim."
+  BSM_FABRICATE_CLAIM_UC_SHORTAGE_DESC:0 "Insufficient Unified Currency to fabricate the claim."
   OKAY:0 "Okay"
 
   # Tension and Opinion
