@@ -1,0 +1,124 @@
+
+guiTypes = {
+	# containerWindowType = {
+	# 	name = "bsm_anomaly_window"
+	# 	position = { x= 105 y = 8}
+	# 	size = { width=300 height=300 }
+	# 	Orientation = UPPER_LEFT
+
+	# 	background = {
+	# 		name = "Background"
+	# 		quadTextureSprite ="GFX_tiled_bg"
+	# 	}
+	# }
+
+	containerWindowType = {
+		name = "bsm_anomaly_window"
+		position = { x=-606 y=78}	
+		show_position = { x=-6 y =78 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300	
+		size = { width=550 height=100%% }
+		
+		#hide_sound = menu_close_window
+		show_sound = menu_open_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}	
+
+		instantTextboxType = {
+			name = "bsm_anomaly_title"
+			position = { x = 45 y = 0 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "bsm_anomaly_title"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}		
+		
+
+		
+		containerWindowType = {
+			name = "bsm_explorer"
+			position = { x = 275 y = 60 }
+			size = { width = 330 height = 50 }
+			clipping = no
+						
+
+			
+			buttonType = {
+				name = "add_national_goal_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_add_national_goal_button"
+				clicksound = click_default
+			}
+
+			
+			instantTextboxType = {
+				name = "title"
+				position = { x = 25 y = 34 }
+				font = "hoi_18mbs"
+				text = "bsm_anomaly_explorer_title"
+				maxWidth = 200
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+				vertical_alignment = center				
+			}		
+		}
+		containerWindowType = {
+			name = "bsm_analyzed_anomaly"
+			position = { x = 15 y = 60 }
+			size = { width = 330 height = 50 }
+
+			clipping = no
+						
+
+			
+			buttonType = {
+				name = "add_national_goal_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_add_national_goal_button"
+				clicksound = click_default
+			}
+
+			
+			instantTextboxType = {
+				name = "title"
+				position = { x = 25 y = 34 }
+				font = "hoi_18mbs"
+				text = "bsm_anomaly_analyzed_anomaly_title"
+				maxWidth = 200
+				maxHeight = 20
+				format = center
+				alwaystransparent = yes
+				vertical_alignment = center				
+			}		
+		}
+		buttonType = {
+			name = "close_button"
+			position = { x = -42 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+	}
+
+
+}

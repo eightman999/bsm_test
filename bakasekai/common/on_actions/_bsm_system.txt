@@ -10,6 +10,8 @@ on_actions = {
                 limit = { is_ai = no }
                 set_variable = { OE_page = 1 }
             }
+            ### Anomaly System ###
+            AS_first_setting = yes
             #### 宗教 ####
             every_country = {
                 if = {
