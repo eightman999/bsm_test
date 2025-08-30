@@ -576,7 +576,7 @@ USA = {
 	}
 }
 
-#JPN = {
+#JAP = {
 #	# specify for specific original tags
 #}
 JPN = {
