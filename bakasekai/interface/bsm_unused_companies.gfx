@@ -31,13 +31,8 @@ spriteTypes = {
 		texturefile = "gfx/companies/JPN/okamoto.png"
 	}
 	
-	spriteType = {
-		name = "GFX_idea_South_Manchuria_Railway"
-		texturefile = "gfx/companies/MOS/South_Manchuria_Railway.png"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_vm"
-		texturefile = "gfx/companies/NMR/vm.png"
-	}
+        spriteType = {
+                name = "GFX_idea_South_Manchuria_Railway"
+                texturefile = "gfx/companies/MOS/South_Manchuria_Railway.png"
+        }
 }

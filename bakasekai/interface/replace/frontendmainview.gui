@@ -285,9 +285,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =485}
+		position = { x=0 y =-635}
 		size = { width = 650 height = 825 }
-		# Orientation = LEFT
+		orientation = lower_left
+		# orientation = centre
+
 		# Origo = left		
 
 		positionType = {
@@ -297,7 +299,7 @@ guiTypes = {
 				
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window_opbg"
+			quadTextureSprite ="GFX_bsm_mainmenu_bg"
 		}
 			
 		ButtonType = {

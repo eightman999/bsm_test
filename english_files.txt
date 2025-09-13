@@ -30,3 +30,6 @@ bakasekai/localisation/english/bakasekai/additional_traits_l_english.yml
 bakasekai/localisation/english/bakasekai/generic2_focus_l_english.yml
 bakasekai/localisation/english/bakasekai/drs_focus_l_english.yml
 bakasekai/localisation/english/bakasekai/drs_ideas_l_english.yml
+bakasekai/localisation/english/bakasekai/_bsm_fallen_empire_l_english.yml
+bakasekai/localisation/english/bakasekai/mon_l_english.yml
+bakasekai/localisation/english/bakasekai/wargoals_l_english.yml
