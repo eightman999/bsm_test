@@ -4,7 +4,7 @@ state={
 	name="STATE_782" # Tombouctou
 	manpower = 79243
 	resources = {
-	  coal = 0
+	  coal = 1
 	}
 	
 	state_category = wasteland

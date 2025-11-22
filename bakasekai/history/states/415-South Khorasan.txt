@@ -4,7 +4,7 @@ state={
 	name="STATE_415" # Herat
 	manpower = 1632860
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = rural

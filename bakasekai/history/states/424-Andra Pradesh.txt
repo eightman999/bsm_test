@@ -4,7 +4,7 @@ state={
 	name="STATE_424" # Madras
 	manpower = 15791700
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	state_category = rural
 	

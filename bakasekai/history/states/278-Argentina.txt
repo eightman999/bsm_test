@@ -4,7 +4,7 @@ state={
 	name="STATE_278" # Pampas
 	manpower = 4596366
 	resources = {
-	  coal = 6
+	  coal = 4
 	}
 	
 	state_category = large_city

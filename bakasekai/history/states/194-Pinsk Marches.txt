@@ -4,7 +4,7 @@ state={
 	name="STATE_194" # Mozyr
 	manpower = 934632
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = rural

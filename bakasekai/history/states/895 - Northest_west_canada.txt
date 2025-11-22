@@ -4,7 +4,7 @@ state={
 	name="STATE_895" # Northwestern Canada
 	manpower = 27681
 	resources = {
-	  coal = 0
+	  coal = 1
 	}
 	
 	state_category = wasteland

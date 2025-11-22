@@ -4,7 +4,7 @@ state={
 	name="STATE_611" # South Chahar
 	manpower = 1470000
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = pastoral

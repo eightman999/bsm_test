@@ -4,7 +4,7 @@ state={
 	name="STATE_454" #Palestine
 	manpower = 933142
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = rural

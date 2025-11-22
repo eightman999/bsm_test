@@ -4,7 +4,7 @@ state={
 	name="STATE_284" # North Island
 	manpower = 899836
 	resources = {
-	  coal = 5
+	  coal = 3
 	}
 	
 	state_category = city

@@ -6,7 +6,7 @@ state={
 	state_category = tiny_island
 	resources={
 		steel=27 # was: 35
-		coal = 0
+		coal = 1
 	}
 
 	history={

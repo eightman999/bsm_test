@@ -4,7 +4,7 @@ state={
 	name="STATE_614" # Hebei
 	manpower = 18434900
 	resources = {
-	  coal = 3
+	  coal = 2
 	}
 	
 	state_category = town

@@ -4,7 +4,7 @@ state={
 	name="STATE_778" # Upper Volta
 	manpower = 3186184
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = pastoral

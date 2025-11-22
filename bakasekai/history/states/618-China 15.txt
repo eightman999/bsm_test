@@ -4,7 +4,7 @@ state={
 	name="STATE_618" # Dzungaria
 	manpower = 670800
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 
 	state_category = pastoral

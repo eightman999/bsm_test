@@ -4,7 +4,7 @@ state = {
 	name = "STATE_655"
 	manpower = 94759
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = pastoral

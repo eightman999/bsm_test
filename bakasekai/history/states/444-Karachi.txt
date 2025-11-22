@@ -4,7 +4,7 @@ state={
 	name="STATE_444" # Baluchistan
 	manpower = 463500
 	resources = {
-	  coal = 0
+	  coal = 1
 	}
 	
 	state_category = wasteland

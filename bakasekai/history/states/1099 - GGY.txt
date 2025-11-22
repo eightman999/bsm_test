@@ -4,7 +4,7 @@ state = {
 	name="STATE_1099"
 	manpower = 	65605
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	

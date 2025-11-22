@@ -3,7 +3,7 @@ state={
 	name="STATE_720"
 	manpower=30	
 	resources = {
-	  coal = 0
+	  coal = 1
 	}
 	state_category = tiny_island
 	

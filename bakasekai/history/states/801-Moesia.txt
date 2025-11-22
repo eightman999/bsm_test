@@ -27,7 +27,7 @@ state={
 	}
 #	resources={
 #		oil=1
-  coal = 2
+  coal = 1
 #	}
 
 	local_supplies=0.0 

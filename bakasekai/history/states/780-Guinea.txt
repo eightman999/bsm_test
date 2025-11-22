@@ -4,7 +4,7 @@ state={
 	name="STATE_780" # Guinea
 	manpower = 195041
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = pastoral

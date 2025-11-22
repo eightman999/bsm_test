@@ -4,7 +4,7 @@ state={
 	name="STATE_356" # Kastamonu
 	manpower = 860589
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	state_category = rural
 

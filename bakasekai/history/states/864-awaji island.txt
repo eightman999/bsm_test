@@ -3,7 +3,7 @@ state = {
 	name = "STATE_864"
 	manpower = 1800
 	resources = {
-	  coal = 0
+	  coal = 1
 	}
 	state_category = tiny_island
 	history = { 

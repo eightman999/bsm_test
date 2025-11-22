@@ -34,7 +34,7 @@ state={
 	}
 	manpower=345640
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	buildings_max_level_factor=1
 	state_category="rural"

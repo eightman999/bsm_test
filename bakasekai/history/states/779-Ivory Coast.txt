@@ -4,7 +4,7 @@ state={
 	name="STATE_779" # Ivory Coast
 	manpower = 3850734
 	resources = {
-	  coal = 2
+	  coal = 1
 	}
 	
 	state_category = pastoral

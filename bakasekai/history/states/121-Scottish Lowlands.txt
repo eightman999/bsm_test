@@ -4,7 +4,7 @@ state={
 	name="STATE_121" # Lothian
 	manpower = 1431624
 	resources = {
-	  coal = 5
+	  coal = 3
 	}
 	
 	state_category = city
