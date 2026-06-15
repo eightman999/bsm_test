@@ -165,7 +165,10 @@ python3 warp_map.py        --work 1024      # 補正の概念実証（out/ に d
 python3 warp_map.py --gcps gcps.csv --protect protect.csv   # 手動調整を反映
 python3 warp_map.py        --apply          # 全解像度の補正レイヤーを out/corrected/ に生成
 python3 verify_apply.py                     # out/corrected/ を検証（PASS/FAIL＋品質警告）
+python3 show_protect.py                     # 保護領域を色分け確認
 ```
+
+`--apply` は既定で **despeckle**（`--despeckle 8`）を実行：最近傍ワープで飛び散った **8px以下の孤立片**を周囲プロヴィンスへ統合し断片化を減らす。プロヴィンスの**メイン塊は必ず残す**ので **ID消失ゼロ**（実測：断片化 warp後705→**293**、本体マップ663より少ない。全15320 ID残存）。`--despeckle 0` で無効化。restampした1px救済プロヴィンスは温存される（極小は nudge 整形対象）。
 
 ## 出力（`out/`）
 

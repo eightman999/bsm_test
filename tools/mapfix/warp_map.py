@@ -37,7 +37,8 @@ import re
 
 import numpy as np
 from PIL import Image
-from scipy.ndimage import gaussian_filter, map_coordinates, zoom
+from scipy.ndimage import (find_objects, gaussian_filter, label,
+                           map_coordinates, zoom)
 from scipy.signal import fftconvolve
 
 from mapframe import (find_land_shapes, gis_land_mask, load_bands,
@@ -444,6 +445,60 @@ def restamp_lost_provinces(out_rgb, src_rgb, DYf, DXf):
     return out_rgb, len(lost), fixed
 
 
+def despeckle_provinces(out_rgb, max_size, cap_bbox=8_000_000):
+    """Merge tiny stray fragments left by the nearest-neighbour warp back into
+    the surrounding province, WITHOUT deleting any province.
+
+    The warp scatters a few stray pixels along moving boundaries, turning a
+    province into a big blob + several specks. For each province that still has
+    a larger main blob, every *outlier* blob of <= max_size pixels is repainted
+    with the majority province colour bordering it. Provinces whose entire (or
+    largest) blob is already small are left untouched -- so restamped 1px
+    provinces and genuinely tiny ones keep their pixels and every ID survives.
+    Returns (out_rgb, n_fragments_merged, n_pixels_moved)."""
+    enc = _encode_rgb(out_rgb).astype(np.int64)
+    h, w = enc.shape
+    uniq, inv = np.unique(enc, return_inverse=True)
+    lab = inv.reshape(h, w).astype(np.int32)
+    objs = find_objects(lab + 1)
+    struct = np.ones((3, 3), bool)
+    merged = moved = 0
+    for i, sl in enumerate(objs):
+        if sl is None or (sl[0].stop - sl[0].start) * (sl[1].stop - sl[1].start) > cap_bbox:
+            continue
+        sub = (lab[sl] == i)
+        if sub.sum() <= max_size:
+            continue                       # whole province tiny -> keep (ID safety)
+        cc, ncomp = label(sub, structure=struct)
+        if ncomp <= 1:
+            continue
+        sizes = np.bincount(cc.ravel())[1:]
+        main = int(sizes.argmax()) + 1
+        if sizes[main - 1] <= max_size:
+            continue                       # main blob also tiny -> don't shrink to tiny
+        y0, x0 = sl[0].start, sl[1].start
+        for c in range(1, ncomp + 1):
+            if c == main or sizes[c - 1] > max_size:
+                continue
+            ys, xs = np.where(cc == c)
+            gy, gx = ys + y0, xs + x0
+            neigh = np.concatenate([
+                enc[np.clip(gy + dy, 0, h - 1), np.clip(gx + dx, 0, w - 1)]
+                for dy, dx in ((1, 0), (-1, 0), (0, 1), (0, -1))])
+            neigh = neigh[neigh != int(uniq[i])]
+            if neigh.size == 0:
+                continue                   # fully enclosed by itself -> leave
+            vals, cnts = np.unique(neigh, return_counts=True)
+            target = int(vals[int(cnts.argmax())])
+            out_rgb[gy, gx, 0] = (target >> 16) & 255
+            out_rgb[gy, gx, 1] = (target >> 8) & 255
+            out_rgb[gy, gx, 2] = target & 255
+            enc[gy, gx] = target
+            merged += 1
+            moved += len(ys)
+    return out_rgb, merged, moved
+
+
 def colorize_diff(mp, gp):
     h, w = mp.shape
     out = np.zeros((h, w, 3), np.uint8)
@@ -488,6 +543,9 @@ def main():
                     help="optional PNG mask (white=protected) to leave unwarped")
     ap.add_argument("--gcp-radius", type=float, default=0.06,
                     help="GCP influence radius as fraction of frame width")
+    ap.add_argument("--despeckle", type=int, default=8,
+                    help="merge warp-stray province fragments of <= N pixels into "
+                         "their surrounding province (0 = off); never deletes an ID")
     ap.add_argument("--apply", action="store_true",
                     help="write corrected full-res layers to out/corrected/")
     args = ap.parse_args()
@@ -602,7 +660,14 @@ def main():
                 src_n = len(np.unique(_encode_rgb(arr)))
                 note = (f"  provinces: {src_n} IDs, {lost} squeezed -> "
                         f"{fixed} restamped, {kept}/{src_n} present")
-                if kept < src_n:
+                if args.despeckle > 0:
+                    out, nmerged, npx = despeckle_provinces(out, args.despeckle)
+                    after_n = len(np.unique(_encode_rgb(out)))
+                    note += (f"; despeckle merged {nmerged} stray fragments "
+                             f"({npx}px), {after_n}/{src_n} present")
+                    if after_n < kept:
+                        note += "  (!) despeckle dropped an ID -- inspect"
+                elif kept < src_n:
                     note += "  (!) still missing -- inspect manually"
 
             # Save preserving the exact HOI4 BMP format (see map-modding rules):
