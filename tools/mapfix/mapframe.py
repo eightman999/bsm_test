@@ -52,6 +52,16 @@ def _merc(lat):
     return math.log(math.tan(math.pi / 4 + math.radians(lat) / 2))
 
 
+def _miller(lat):
+    """Miller cylindrical: like Mercator but the poles are at a finite y, so the
+    map can include +/-90 (or near it). y = 1.25 * ln(tan(pi/4 + 0.4*phi))."""
+    lat = max(min(lat, 89.99), -89.99)
+    return 1.25 * math.log(math.tan(math.pi / 4 + 0.4 * math.radians(lat)))
+
+
+_PROJ = {"equirect": None, "mercator": _merc, "miller": _miller}
+
+
 def gis_land_mask(shp_path, w, h, bands=None):
     """Rasterize Natural Earth land polygons into the piecewise-band frame.
 
@@ -77,12 +87,13 @@ def gis_land_mask(shp_path, w, h, bands=None):
         def X(lon):
             return (lon + 180.0) / 360.0 * w
 
-        if proj == "mercator":
-            m0, m1 = _merc(lat0), _merc(lat1)
+        fwd = _PROJ.get(proj)
+        if fwd is not None:                    # cylindrical (mercator/miller)
+            m0, m1 = fwd(lat0), fwd(lat1)
 
-            def Y(lat, ry0=ry0, ry1=ry1, m0=m0, m1=m1):
-                return ry0 + (m0 - _merc(lat)) / (m0 - m1) * (ry1 - ry0)
-        else:
+            def Y(lat, ry0=ry0, ry1=ry1, m0=m0, m1=m1, fwd=fwd):
+                return ry0 + (m0 - fwd(lat)) / (m0 - m1) * (ry1 - ry0)
+        else:                                  # equirectangular
             def Y(lat, ry0=ry0, ry1=ry1, lat0=lat0, lat1=lat1):
                 return ry0 + (lat0 - lat) / (lat0 - lat1) * (ry1 - ry0)
 

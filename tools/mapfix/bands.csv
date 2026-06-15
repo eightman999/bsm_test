@@ -26,5 +26,5 @@
 #     set the world proj to "mercator" (best latN~78, seam~-62).
 #
 # columns: name,y0,y1,lat_top,lat_bot,proj   (y0,y1 normalized 0..1; lat deg)
-world,0.0,0.8562,90,-50,equirect
-antarctica,0.8562,1.0,-54,-90,equirect
+world,0.0,0.8562,85,-57,miller
+antarctica,0.8562,1.0,-57,-90,equirect
