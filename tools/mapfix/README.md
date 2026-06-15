@@ -63,6 +63,7 @@
 | `diagnose_aspect.py` | 現行マップの陸海マスクと実地理（Natural Earth）を同一フレームで比較し、**どこがどれだけズレているか**を画像＋数値で可視化 |
 | `warp_map.py` | 陸海マスクのブロックマッチングで変位場を推定し、全レイヤーをワープ。**保護領域(`protect.csv`)と制御点(`gcps.csv`)で人手調整可能**。before/after を計測。`--apply` で全解像度の補正レイヤーを `out/corrected/` に出力 |
 | `show_protect.py` | `protect_provinces.csv` の各保護領域を色分け描画（`out/protect_regions_colored.png`）し、プロヴィンス数・重心を表示。IDが正しいランドマスを選べているか確認用 |
+| `show_provinces.py` | warp前(本体)/warp後(`out/corrected/`)のプロヴィンス境界マップを描画（`out/provinces_before.png` / `provinces_after.png`）。陸海湖を種別で着色＋境界線。warpでメッシュが破綻していないか目視判断用 |
 | `verify_apply.py` | `--apply` 出力（`out/corrected/`）を検証。**フォーマット・寸法・パレット保持・全ID残存・無効色なし** を PASS/FAIL 判定（FAILならHOI4で読込不可）。**プロヴィンス断片化・極小化**を品質警告として報告し、本体マップとの before/after デルタを表示 |
 | `mapframe.py` | 共通モジュール。`bands.csv` のピースワイズ投影から GIS 参照マスクを生成。`find_land_shapes` で最細GISデータ(10m>50m>110m)を自動選択 |
 | `bands.csv` | マップの縦方向投影モデル（世界バンド＋南極バンド） |
