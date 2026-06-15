@@ -9,10 +9,11 @@
 # columns: name,x0,y0,x1,y1
 #
 # --- intentional baka-world-map design (per author: "仕様") -----------------
-# These shapes are deliberately drawn that way, so the warp must NOT pull them
-# toward real geography. Boxes cover where the features are PAINTED.
-australia,0.785,0.590,0.925,0.755
-japan_korea_shikoku,0.845,0.200,0.915,0.400
+# Japan / Shikoku-continent / Australia are now protected PRECISELY by province
+# membership in protect_provinces.csv (exact painted shapes), which supersedes
+# the eyeballed rectangles below. Kept here (commented out) for reference only.
+#australia,0.785,0.590,0.925,0.755
+#japan_korea_shikoku,0.845,0.200,0.915,0.400
 #
 # --- example (commented out) -----------------------------------------------
 #fictional_island,0.40,0.30,0.46,0.36

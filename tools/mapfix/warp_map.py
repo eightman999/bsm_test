@@ -33,17 +33,21 @@ import argparse
 import os
 
 import csv
+import re
 
 import numpy as np
 from PIL import Image
 from scipy.ndimage import gaussian_filter, map_coordinates, zoom
 from scipy.signal import fftconvolve
 
-from mapframe import gis_land_mask, load_bands
+from mapframe import (find_land_shapes, gis_land_mask, load_bands,
+                      province_defs, province_land_mask)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 MAP_DIR = os.path.join(REPO, "bakasekai", "map")
+SR_DIR = os.path.join(MAP_DIR, "strategicregions")
+STATE_DIR = os.path.join(REPO, "bakasekai", "history", "states")
 GIS_DIR = os.environ.get("GIS_DIR", "/tmp/gis")
 OUT_DIR = os.path.join(HERE, "out")
 
@@ -60,11 +64,23 @@ LAYERS = {
 
 
 def gis_mask(w, h, bands):
-    shp = os.path.join(GIS_DIR, "ne_110m_land.shp")
-    return np.asarray(gis_land_mask(shp, w, h, bands), dtype=np.float32) / 255.0
+    paths, res = find_land_shapes(GIS_DIR)
+    if not paths:
+        raise SystemExit(
+            f"no Natural Earth land shapefile in {GIS_DIR}. "
+            "Download ne_10m_land.* (see README).")
+    print(f"      GIS reference: {res} ({len(paths)} layer(s): "
+          + ", ".join(os.path.basename(p) for p in paths) + ")")
+    return np.asarray(gis_land_mask(paths, w, h, bands), dtype=np.float32) / 255.0
 
 
-def map_land_mask(w, h, sealevel):
+def map_land_mask(w, h, sealevel, source="province"):
+    """Current-map land/sea mask. source='province' (accurate, from
+    provinces.bmp + definition.csv types) or 'heightmap' (legacy threshold)."""
+    if source == "province":
+        return province_land_mask(
+            os.path.join(MAP_DIR, "provinces.bmp"),
+            os.path.join(MAP_DIR, "definition.csv"), w, h)
     hm = Image.open(os.path.join(MAP_DIR, "heightmap.bmp")).convert("L")
     hm = hm.resize((w, h), Image.NEAREST)
     return (np.asarray(hm) > sealevel).astype(np.float32)
@@ -152,9 +168,148 @@ def load_protect(path, mask_path, w, h):
     return np.clip(gaussian_filter(mask, max(w, h) / 256.0), 0, 1).astype(np.float32)
 
 
+def _expand_ids(tokens):
+    """Expand a list of id tokens into ints. A token 'A-B' means the inclusive
+    range A..B (e.g. '1009-1087'); a plain token is a single id."""
+    out = []
+    for t in tokens:
+        t = t.strip()
+        if not t:
+            continue
+        if "-" in t:
+            a, b = t.split("-", 1)
+            out.extend(range(int(a), int(b) + 1))
+        else:
+            out.append(int(t))
+    return out
+
+
+def _region_file(dirpath, rid):
+    """Find the file in dirpath whose name starts with rid then a non-digit
+    (e.g. '154-Hokkaido.txt', '1002 - Diego Garcia.txt', '519.txt')."""
+    pat = re.compile(rf"^{int(rid)}(\D|$)")
+    for fn in sorted(os.listdir(dirpath)):
+        if fn.endswith(".txt") and pat.match(fn):
+            return os.path.join(dirpath, fn)
+    return None
+
+
+def _provinces_in_file(path):
+    """Extract the province IDs from a strategic-region or state file's
+    provinces = { ... } block."""
+    with open(path, encoding="utf-8-sig", errors="ignore") as f:
+        txt = f.read()
+    m = re.search(r"provinces\s*=\s*{([^}]*)}", txt)
+    return [int(x) for x in re.findall(r"\d+", m.group(1))] if m else []
+
+
+def load_protect_provinces(path, w, h):
+    """Build a protection mask from province membership (exact painted shapes).
+
+    CSV rows: name, kind, id, id, ...   kind = sr | state | prov
+      sr    -> strategic region file(s); use its province list
+      state -> state file(s); use its province list
+      prov  -> the ids ARE province ids
+    Only land/lake provinces are protected (sea provinces in a region are
+    ignored). The protected provinces' pixels on provinces.bmp become the mask,
+    so intentional baka-distortions (Japan, the Shikoku 'continent', Australia)
+    are preserved at their exact painted extent -- not an eyeballed rectangle.
+    Returns a feathered float mask (h, w) or None.
+    """
+    if not path or not os.path.exists(path):
+        return None
+    enc_by_id, type_by_id = province_defs(os.path.join(MAP_DIR, "definition.csv"))
+    protected = set()
+    summary = []
+    with open(path, newline="") as f:
+        for row in csv.reader(f):
+            row = [c.strip() for c in row if c.strip() != ""]
+            if not row or row[0].startswith("#"):
+                continue
+            name, kind, ids = row[0], row[1].lower(), _expand_ids(row[2:])
+            pids = []
+            if kind == "prov":
+                pids = ids
+            elif kind in ("sr", "state"):
+                d = SR_DIR if kind == "sr" else STATE_DIR
+                for rid in ids:
+                    fp = _region_file(d, rid)
+                    if fp is None:
+                        print(f"      (!) {name}: {kind} {rid} file not found")
+                        continue
+                    pids += _provinces_in_file(fp)
+            else:
+                print(f"      (!) {name}: unknown kind '{kind}' (sr|state|prov)")
+                continue
+            land = [p for p in pids if type_by_id.get(p) != "sea" and p in enc_by_id]
+            protected.update(enc_by_id[p] for p in land)
+            summary.append(f"{name}={len(land)}/{len(pids)} land prov")
+    if not protected:
+        return None
+    print("      protect-by-province: " + "; ".join(summary))
+
+    im = Image.open(os.path.join(MAP_DIR, "provinces.bmp")).convert("RGB") \
+        .resize((w, h), Image.NEAREST)
+    a = np.asarray(im, dtype=np.uint32)
+    enc = ((a[..., 0] << 16) | (a[..., 1] << 8) | a[..., 2]).astype(np.int64)
+    sel = np.array(sorted(protected), dtype=np.int64)
+    mask = np.isin(enc, sel).astype(np.float32)
+    return np.clip(gaussian_filter(mask, max(w, h) / 256.0), 0, 1).astype(np.float32)
+
+
+def _poly_terms(degree):
+    """Total-degree 2D polynomial term exponents (i over y, j over x), i+j<=deg."""
+    return [(i, j) for i in range(degree + 1) for j in range(degree + 1 - i)]
+
+
+def fit_poly_field(ys, xs, dy, dx, conf, shape, degree):
+    """Fit a single smooth low-order polynomial displacement field.
+
+    Block matching gives noisy per-node displacement samples; fitting them to a
+    global low-degree polynomial (confidence-weighted least squares) yields a
+    field that can only bend/stretch the map at large scale. This removes the
+    high-frequency "wobble" the dense field produces and, by construction,
+    leaves small local shapes (intentional baka-distortions, single islands)
+    unchanged -- a smooth field cannot reshape one island on its own.
+    """
+    h, w = shape
+    YS, XS = np.meshgrid(ys, xs, indexing="ij")
+    yn = (YS / (h - 1)) * 2 - 1                  # normalize node coords to [-1,1]
+    xn = (XS / (w - 1)) * 2 - 1
+    wts = np.clip(conf, 0, None).ravel()
+    sel = wts > 1e-6
+    terms = _poly_terms(degree)
+    A = np.stack([(yn ** i * xn ** j).ravel() for (i, j) in terms], axis=1)
+    Aw = A[sel] * wts[sel, None]
+
+    def solve(vals):
+        bw = vals.ravel()[sel] * wts[sel]
+        coef, *_ = np.linalg.lstsq(Aw, bw, rcond=None)
+        return coef
+
+    cy, cx = solve(dy), solve(dx)
+    yy, xx = np.mgrid[0:h, 0:w]
+    ynf = ((yy / (h - 1)) * 2 - 1).astype(np.float32)
+    xnf = ((xx / (w - 1)) * 2 - 1).astype(np.float32)
+    DY = np.zeros((h, w), np.float32)
+    DX = np.zeros((h, w), np.float32)
+    for (i, j), c_y, c_x in zip(terms, cy, cx):
+        basis = (ynf ** i * xnf ** j)
+        DY += (c_y * basis).astype(np.float32)
+        DX += (c_x * basis).astype(np.float32)
+    return DY, DX
+
+
 def densify(ys, xs, dy, dx, conf, shape, smooth, gcps=None, protect=None,
-            gcp_radius=0.06):
-    """Confidence-weighted smoothing + upsample, then apply GCPs and protection.
+            gcp_radius=0.06, model="field", degree=4):
+    """Build the displacement field, then apply GCPs and protection.
+
+    model='field' (default): confidence-weighted Gaussian smoothing + upsample
+      of the dense node displacements. Follows local coastlines closely but can
+      introduce visible wobble.
+    model='poly': fit one smooth low-degree polynomial to the node samples
+      (see fit_poly_field). Corrects only the large-scale (aspect-ratio) warp,
+      no wobble.
 
     GCPs are applied as LOCAL nudges: each control point adds its residual
     (desired - auto displacement) with a Gaussian falloff (radius = gcp_radius
@@ -163,16 +318,19 @@ def densify(ys, xs, dy, dx, conf, shape, smooth, gcps=None, protect=None,
     Protected regions have their displacement feathered back to zero.
     """
     h, w = shape
-    cw = np.clip(conf, 0, None)
-    num_y = gaussian_filter(dy * cw, smooth)
-    num_x = gaussian_filter(dx * cw, smooth)
-    den = gaussian_filter(cw, smooth) + 1e-6
-    fy = num_y / den
-    fx = num_x / den
-    zy = h / fy.shape[0]
-    zx = w / fy.shape[1]
-    DY = zoom(fy, (zy, zx), order=1)[:h, :w].astype(np.float32)
-    DX = zoom(fx, (zy, zx), order=1)[:h, :w].astype(np.float32)
+    if model == "poly":
+        DY, DX = fit_poly_field(ys, xs, dy, dx, conf, shape, degree)
+    else:
+        cw = np.clip(conf, 0, None)
+        num_y = gaussian_filter(dy * cw, smooth)
+        num_x = gaussian_filter(dx * cw, smooth)
+        den = gaussian_filter(cw, smooth) + 1e-6
+        fy = num_y / den
+        fx = num_x / den
+        zy = h / fy.shape[0]
+        zx = w / fy.shape[1]
+        DY = zoom(fy, (zy, zx), order=1)[:h, :w].astype(np.float32)
+        DX = zoom(fx, (zy, zx), order=1)[:h, :w].astype(np.float32)
 
     if gcps:
         yy, xx = np.mgrid[0:h, 0:w]
@@ -284,15 +442,31 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", type=int, default=1024,
                     help="working width for field estimation (height=work/2)")
-    ap.add_argument("--sealevel", type=int, default=71)
+    ap.add_argument("--landsea", choices=["province", "heightmap"],
+                    default="province",
+                    help="how to classify the current map's land/sea: "
+                         "province = provinces.bmp + definition.csv types "
+                         "(accurate, default); heightmap = legacy threshold")
+    ap.add_argument("--sealevel", type=int, default=71,
+                    help="sea threshold for --landsea heightmap only")
     ap.add_argument("--grid", type=int, default=16)
     ap.add_argument("--win", type=int, default=40)
     ap.add_argument("--search", type=int, default=36)
     ap.add_argument("--smooth", type=float, default=2.0)
+    ap.add_argument("--model", choices=["poly", "field"], default="poly",
+                    help="poly = smooth low-order warp (no wobble, large-scale "
+                         "only, default); field = dense block-match field "
+                         "(follows coastlines closely but can wobble)")
+    ap.add_argument("--poly-degree", type=int, default=4,
+                    help="polynomial degree for --model poly (3-5 typical)")
     ap.add_argument("--gcps", default=os.path.join(HERE, "gcps.csv"),
                     help="CSV of ground control points (steers/overrides warp)")
     ap.add_argument("--protect", default=os.path.join(HERE, "protect.csv"),
                     help="CSV of normalized rectangles to leave unwarped")
+    ap.add_argument("--protect-provinces",
+                    default=os.path.join(HERE, "protect_provinces.csv"),
+                    help="CSV of regions defined by strategic-region/state/"
+                         "province IDs to leave unwarped (exact painted shapes)")
     ap.add_argument("--protect-mask", default=None,
                     help="optional PNG mask (white=protected) to leave unwarped")
     ap.add_argument("--gcp-radius", type=float, default=0.06,
@@ -309,7 +483,8 @@ def main():
     print(f"[1/4] masks @ {w}x{h}")
     print("      bands:", ", ".join(f"{b[0]}[{b[3]:g}..{b[4]:g}]" for b in bands))
     ref = gis_mask(w, h, bands)               # target (real geography, band frame)
-    src = map_land_mask(w, h, args.sealevel)  # current map
+    src = map_land_mask(w, h, args.sealevel, args.landsea)  # current map
+    print(f"      land/sea source: {args.landsea}")
 
     before = colorize_diff(src, ref)
     Image.fromarray(before).save(os.path.join(OUT_DIR, "diff_before.png"))
@@ -318,13 +493,22 @@ def main():
 
     gcps = load_gcps(args.gcps, w, h) if os.path.exists(args.gcps) else []
     protect = load_protect(args.protect, args.protect_mask, w, h)
+    protect_prov = load_protect_provinces(args.protect_provinces, w, h)
+    if protect_prov is not None:
+        protect = protect_prov if protect is None else np.maximum(protect, protect_prov)
     print(f"      control points: {len(gcps)}  "
           f"protected regions: {'yes' if protect is not None else 'none'}")
+    if protect is not None:
+        Image.fromarray((protect * 255).astype(np.uint8)).save(
+            os.path.join(OUT_DIR, "protect_mask.png"))
 
     print("[2/4] estimating displacement field (block matching)")
     ys, xs, dy, dx, conf = estimate_field(src, ref, args.grid, args.win, args.search)
     DY, DX = densify(ys, xs, dy, dx, conf, (h, w), args.smooth,
-                     gcps=gcps, protect=protect, gcp_radius=args.gcp_radius)
+                     gcps=gcps, protect=protect, gcp_radius=args.gcp_radius,
+                     model=args.model, degree=args.poly_degree)
+    print(f"      field model: {args.model}"
+          + (f" (degree {args.poly_degree})" if args.model == "poly" else ""))
     mag = np.sqrt(DY ** 2 + DX ** 2)
     print(f"      displacement: mean={mag.mean():.1f}px max={mag.max():.1f}px "
           f"(@ {w}px-wide frame)")

@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Diagnose map distortion by comparing the current HOI4 map land/sea mask
 against real-world geography (Natural Earth) rendered in the same
-equirectangular frame.
+piecewise-band frame (see mapframe.py / bands.csv).
 
-The HOI4 map in this mod is 5120x2560 = 2:1, i.e. a full equirectangular
-(-180..180 lon, -90..90 lat) projection. Real geography projected into the
-exact same frame should line up with the painted coastline. Where it does
-not, the hand-drawn map has geometric distortion ("aspect ratio off").
+The HOI4 map in this mod is 5120x2560 but is NOT a single equirectangular
+projection: it is a world band (Miller, +85..-57) stacked on an Antarctica
+band (equirect, -57..-90). The current land/sea mask is taken from the
+authoritative source -- provinces.bmp + definition.csv types (land/sea/lake),
+NOT the heightmap/terrain colours. Real geography projected into the same band
+frame should line up with that mask; where it does not, the hand-drawn map has
+geometric distortion ("aspect ratio off").
 
 Outputs (written to OUT_DIR):
   - gis_land_mask.png      : real land mask in the map frame
@@ -21,9 +24,11 @@ Usage:
 import argparse
 import os
 
+import numpy as np
 from PIL import Image, ImageFilter
 
-from mapframe import gis_land_mask, load_bands
+from mapframe import (find_land_shapes, gis_land_mask, load_bands,
+                      province_land_mask)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -37,7 +42,12 @@ def main():
     ap.add_argument("--width", type=int, default=1280,
                     help="preview width (height = width/2)")
     ap.add_argument("--sealevel", type=int, default=71,
-                    help="heightmap value at/below which is sea")
+                    help="heightmap value at/below which is sea (--landsea heightmap)")
+    ap.add_argument("--landsea", choices=["province", "heightmap"],
+                    default="province",
+                    help="land/sea source: province = provinces.bmp + "
+                         "definition.csv types (accurate, default); heightmap = "
+                         "legacy threshold")
     args = ap.parse_args()
 
     w = args.width
@@ -45,16 +55,28 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
 
     # 1) Real geography mask in the map's piecewise-band frame
-    shp = os.path.join(GIS_DIR, "ne_110m_land.shp")
+    shp, res = find_land_shapes(GIS_DIR)
+    if not shp:
+        raise SystemExit(
+            f"no Natural Earth land shapefile in {GIS_DIR}. "
+            "Download ne_10m_land.* (see README).")
     bands = load_bands()
+    print(f"GIS reference: {res} ({len(shp)} layer(s): "
+          + ", ".join(os.path.basename(p) for p in shp) + ")")
     print("bands:", ", ".join(f"{b[0]}[{b[3]:g}..{b[4]:g}]" for b in bands))
     gis = gis_land_mask(shp, w, h, bands)
     gis.save(os.path.join(OUT_DIR, "gis_land_mask.png"))
 
-    # 2) Current map land mask from heightmap
-    hm = Image.open(os.path.join(MAP_DIR, "heightmap.bmp")).convert("L")
-    hm = hm.resize((w, h), Image.NEAREST)
-    map_mask = hm.point(lambda v: 255 if v > args.sealevel else 0)
+    # 2) Current map land mask -- authoritative from provinces.bmp + definition
+    print(f"land/sea source: {args.landsea}")
+    if args.landsea == "province":
+        m = province_land_mask(os.path.join(MAP_DIR, "provinces.bmp"),
+                               os.path.join(MAP_DIR, "definition.csv"), w, h)
+        map_mask = Image.fromarray((m * 255).astype(np.uint8), "L")
+    else:
+        hm = Image.open(os.path.join(MAP_DIR, "heightmap.bmp")).convert("L")
+        hm = hm.resize((w, h), Image.NEAREST)
+        map_mask = hm.point(lambda v: 255 if v > args.sealevel else 0)
     map_mask.save(os.path.join(OUT_DIR, "map_land_mask.png"))
 
     # 3) Overlay GIS coastline onto current terrain

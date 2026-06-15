@@ -7,9 +7,11 @@
 - マップは **5120×2560**。ただし **単一の正距円筒ではない**。**世界map＋南極map を縦に合体し、指定ピクセル数に収めるため縦に押しつぶした**もので、**バンドごとに投影・縦横比が異なる**（＝「2種類の縦横比」）。継ぎ目は**下から367.5px（正規化0.8562）**。
   - 世界バンド：行 0–2192（正規化 0–0.8562）↔ **ミラー図法**、緯度 **+85°〜−57°**（作者）
   - 南極バンド：行 2192–2560（0.8562–1.0）↔ **正距円筒**、緯度 **−57°〜−90°**
-- このピースワイズ投影（`bands.csv`）を前提に warp すると、陸海の食い違いは **warp後 約6.3%**（旧 equirect 前提の 7.3% より改善）。
-- 全レイヤーを **同一の変位場でワープ**（プロヴィンスは最近傍補間で色＝ID保持）すると、食い違いを **約6.5% まで低減**。変位量も 17→11px に減り、補正が「真の歪み」だけに集中。
-- この方式なら **province ID が変わらない**ので、`definition.csv` / states / history / supply などの既存データは壊れない。
+- **陸海の判定は `provinces.bmp` ＋ `definition.csv` の種別（land/sea/lake）が正解基準**（既定 `--landsea province`）。terrain/heightmap の塗りは海岸線を正確に表さないため使わない。
+- 変位場は2モデルを選べる（`--model`）。**既定は `poly`（低次多項式＝大局的な縦横比歪みだけを滑らかに補正、海岸線が波打たない）**。`field`（密ブロックマッチ）は局所追従が強いが波打ちやすい。
+  - 実測（10m参照・プロヴィンス基準・継ぎ目下から367.5px）：陸海食い違い **before 13.2% → poly 9.1% / field 7.1%**。fieldは数値上良いが見た目がぐにゃつくため既定はpoly。
+- 全レイヤーを **同一の変位場でワープ**（プロヴィンス/terrain/riversは最近傍補間で色＝ID保持、heightmap/normalはバイリニア）。
+- この方式なら **province ID が変わらない**ので、`definition.csv` / states / history / supply などの既存データは壊れない（検証は `verify_apply.py`）。
 
 ## マップの構造（重要）
 
@@ -59,10 +61,13 @@
 |---|---|
 | `diagnose_aspect.py` | 現行マップの陸海マスクと実地理（Natural Earth）を同一フレームで比較し、**どこがどれだけズレているか**を画像＋数値で可視化 |
 | `warp_map.py` | 陸海マスクのブロックマッチングで変位場を推定し、全レイヤーをワープ。**保護領域(`protect.csv`)と制御点(`gcps.csv`)で人手調整可能**。before/after を計測。`--apply` で全解像度の補正レイヤーを `out/corrected/` に出力 |
-| `mapframe.py` | 共通モジュール。`bands.csv` のピースワイズ投影から GIS 参照マスクを生成 |
+| `show_protect.py` | `protect_provinces.csv` の各保護領域を色分け描画（`out/protect_regions_colored.png`）し、プロヴィンス数・重心を表示。IDが正しいランドマスを選べているか確認用 |
+| `verify_apply.py` | `--apply` 出力（`out/corrected/`）を検証。**フォーマット・寸法・パレット保持・全ID残存・無効色なし** を PASS/FAIL 判定（FAILならHOI4で読込不可）。**プロヴィンス断片化・極小化**を品質警告として報告し、本体マップとの before/after デルタを表示 |
+| `mapframe.py` | 共通モジュール。`bands.csv` のピースワイズ投影から GIS 参照マスクを生成。`find_land_shapes` で最細GISデータ(10m>50m>110m)を自動選択 |
 | `bands.csv` | マップの縦方向投影モデル（世界バンド＋南極バンド） |
 | `gcps.csv` | 制御点(GCP)の定義ファイル（テンプレート、既定は全コメントアウト） |
-| `protect.csv` | 保護領域の定義ファイル（テンプレート、既定は全コメントアウト） |
+| `protect.csv` | 保護領域（正規化矩形）。汎用テンプレート |
+| `protect_provinces.csv` | **保護領域（プロヴィンス基準）**。戦略地域/州/プロヴィンスID で指定し、実際に塗られた形そのものを保護。日本・四国大陸・オーストラリアを既定収録 |
 
 ## 人手調整：保護領域と制御点（GCP）
 
@@ -81,14 +86,32 @@ fictional_island,0.40,0.30,0.46,0.36
 
 PNGマスク（白=保護）でも指定可：`--protect-mask mask.png`
 
-既定で保護済み（作者により「仕様」と明言された意図的デザイン）：
+### 保護領域 `protect_provinces.csv`（プロヴィンス基準・推奨）
 
-| 領域 | 内容 |
-|---|---|
-| `australia` | オーストラリア（実地理と異なる意図的な形）|
-| `japan_korea_shikoku` | 日本・韓国・四国（東アジア諸島）|
+矩形は当て推量になりがち。**意図的歪みのランドマスは「どのプロヴィンスか」で定義する**のが正確。
+各行は `name, kind, id...`：
 
-これらは実地理へ寄せず、描かれたまま保持する。他にも仕様の歪みがあれば同様に追記する。
+```csv
+# kind = sr(戦略地域) | state(州) | prov(プロヴィンスID)
+japan, sr, 154, 268, 269, 270, 271, 273
+shikoku_continent, sr, 246, 247, 248
+australia, state, 517, 518, 519, 521, 522, 674, 870, 871, 872, 879, 880, 881, 882, 883, 884, 885, 886, 887, 889
+```
+
+- `sr`/`state` は mod 自身の戦略地域/州ファイルの `provinces={}` を読む（ID は localisation の地域名から特定）。
+- 各領域の**陸/湖プロヴィンスだけ**を保護（海プロヴィンスは自動除外）。
+- これらのプロヴィンスの **provinces.bmp 上の実ピクセル**がマスクになる＝**描かれた形そのまま**を保護（矩形のはみ出し・取りこぼしがない）。
+- 確認用に warp 実行時 `out/protect_mask.png`（白=保護）を出力。
+
+既定収録（作者「仕様」の意図的デザイン。`protect.csv` の旧矩形 `australia`/`japan_korea_shikoku` は本ファイルが置き換えたためコメントアウト済み）：
+
+| 領域 | 構成 | 内容 |
+|---|---|---|
+| `japan` | 戦略地域 154/268/269/270/271/273 | 日本本土（北海道〜九州・小笠原）170プロヴィンス |
+| `shikoku_continent` | 戦略地域 246/247/248 | 四国大陸（四国が大陸サイズの意図的歪み）87プロヴィンス |
+| `australia` | 州 517〜889（豪州各州） | オーストラリア 141プロヴィンス |
+
+他にも仕様の歪みがあれば同様に追記する（地域名→ID は `localisation/.../BSM_strategic_region_*.yml` や `history/states/` のファイル名で特定）。
 
 ### 制御点 `gcps.csv`（大きなズレを手当て）
 
@@ -107,13 +130,21 @@ australia_centre,0.835,0.655,0.872,0.639
 
 ### GISデータの取得
 
-Natural Earth 公式CDN（`naciscdn.org`）はこの環境ではブロックされているため、GitHub ミラーから取得する：
+Natural Earth 公式CDN（`naciscdn.org`）はこの環境ではブロックされているため、GitHub ミラーから取得する。
+
+**解像度に注意**：Natural Earth には 110m / 50m / **10m** の3段階があり、**110m（最粗）は小島が大量に脱落する**。HOI4の島嶼が多いマップでは **10m（最細）＋小島レイヤ（minor_islands / reefs）** を使う：
 
 ```bash
 mkdir -p /tmp/gis && cd /tmp/gis
-base="https://github.com/nvkelso/natural-earth-vector/raw/master/110m_physical"
-for ext in shp shx dbf prj; do curl -sSL -o ne_110m_land.$ext "$base/ne_110m_land.$ext"; done
+base="https://github.com/nvkelso/natural-earth-vector/raw/master/10m_physical"
+for set in ne_10m_land ne_10m_minor_islands; do
+  for ext in shp shx dbf prj; do curl -sSL -o $set.$ext "$base/$set.$ext"; done
+done
 ```
+
+ツールは `GIS_DIR` 内で **利用可能な最細データを自動選択**する（`mapframe.find_land_shapes`：10m > 50m > 110m の順。見つかった解像度で `minor_islands` / `reefs` も自動で合成）。実行時ログに `GIS reference: 10m (...)` と使用データが出る。
+
+> **計測値の注記**：本READMEの陸海不一致％（6.26% 等）は **110m基準**で測った旧値。10m に切り替えると参照海岸線の情報量が増えるため絶対値は変わる（島嶼が増える分わずかに上振れし得る）が、補正の効きは10mの方が実態に近い。新しい数値が必要なら 10m で `diagnose_aspect.py` / `warp_map.py` を再実行して測り直すこと。
 
 ### 実行
 
@@ -125,6 +156,7 @@ python3 diagnose_aspect.py --width 1280     # 診断（out/ に overlay.png, dif
 python3 warp_map.py        --work 1024      # 補正の概念実証（out/ に diff_before/after, プレビュー）
 python3 warp_map.py --gcps gcps.csv --protect protect.csv   # 手動調整を反映
 python3 warp_map.py        --apply          # 全解像度の補正レイヤーを out/corrected/ に生成
+python3 verify_apply.py                     # out/corrected/ を検証（PASS/FAIL＋品質警告）
 ```
 
 ## 出力（`out/`）
@@ -133,6 +165,7 @@ python3 warp_map.py        --apply          # 全解像度の補正レイヤー�
 - `diff.png` / `diff_before.png` / `diff_after.png` … 陸海の不一致。**灰=一致 / 赤=マップが陸だが実際は海 / 青=実際は陸だがマップは海**。海岸沿いの赤青ペア＝位置ズレの痕跡
 - `field_magnitude.png` … 推定された変位の大きさ（明=大きく動かす）
 - `terrain_corrected_preview.png` … ワープ後の terrain プレビュー
+- `protect_mask.png` … 適用された保護マスク（白=ワープしない領域）。プロヴィンス基準の保護が意図通りか確認用
 - `control_overlay.png` … 制御点（赤線 src→dst）と保護領域（黄）の配置確認
 - `control_overlay_demo.png` … 上記機能のデモ（豪州GCP＋北アフリカ保護領域の例）
 
@@ -170,7 +203,7 @@ HOI4 の Z 座標は**下端=0で上方向**（画像エディタと上下逆）
 3. **大きすぎる位置ズレは未補正。** 例：オーストラリアは探索半径を超えてズレており、単一スケールでは直りきらない。→ 粗→密のマルチスケール探索が必要（今後の課題）。
 4. **プロヴィンスの整合性検証が必須。** ワープで 1 プロヴィンスが分断・消失していないか（連結成分チェック、`definition.csv` の全IDが残っているか）を `--apply` 後に必ず検証すること。
 5. **派生データの再生成が必要。** `positions.txt`・`unitstacks.txt`・`buildings.txt` の座標・`adjacencies.csv`・supply nodes 等は形が変わると合わなくなるため、HOI4 の nudge ツール等で再生成・再確認する。
-6. 陸海マスクは `heightmap.bmp`（海面=値71）から近似生成している。より厳密には `definition.csv` の sea/land 分類＋`provinces.bmp` から作る方が正確。
+6. ~~陸海マスクは `heightmap.bmp`（海面=値71）から近似生成~~ → **実装変更済み**：既定で `provinces.bmp` ＋ `definition.csv` の種別（land/sea/lake）から**正解の陸海マスク**を生成する（`--landsea province`、`mapframe.province_land_mask`）。terrain/heightmap の塗りは海岸線を正確に表さないため使わない。旧方式は `--landsea heightmap` で選択可。
 7. **縦の押しつぶしは「仕様」**：ピクセル予算に収めるための圧縮なので、バンド内の縦スケールは保持される（ワープは押しつぶしを「直す」のではなく、押しつぶし前提のフレームに対する*残差の歪み*だけを直す）。比率そのものを正したい場合は、ピクセル予算・南極の扱い（インセット維持か等）という**設計判断**が別途必要。
 8. `bands.csv` の緯度範囲・継ぎ目は自動検出の近似値（世界 −60° と南極 −65° の間に約5°の不連続あり）。ソースマップの正確な値が分かれば差し替えると精度が上がる。
 
@@ -178,5 +211,5 @@ HOI4 の Z 座標は**下端=0で上方向**（画像エディタと上下逆）
 
 1. ~~意図的ゆがみの保護領域指定~~ → 実装済み（`protect.csv` / `--protect-mask`）。
 2. ~~大きな位置ズレの手当て~~ → 制御点で対応可（`gcps.csv`）。さらに自動化するならマルチスケール（粗→密）ブロックマッチングを追加。
-3. `--apply` 出力に対するプロヴィンス連結性・ID 残存の自動検証スクリプト追加。
+3. ~~`--apply` 出力に対するプロヴィンス連結性・ID 残存の自動検証スクリプト追加~~ → 実装済み（`verify_apply.py`）。
 4. 検証OK後に `bakasekai/map/` へ反映し、HOI4 で読み込み確認（nudge で派生データ再生成）。

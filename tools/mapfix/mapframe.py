@@ -17,6 +17,7 @@ import csv
 import math
 import os
 
+import numpy as np
 from PIL import Image, ImageDraw
 
 Image.MAX_IMAGE_PIXELS = None
@@ -27,6 +28,85 @@ DEFAULT_BANDS = os.path.join(HERE, "bands.csv")
 # fallback if bands.csv is missing
 _FALLBACK = [("world", 0.0, 0.918, 90.0, -60.0, "equirect"),
              ("antarctica", 0.918, 1.0, -65.0, -90.0, "equirect")]
+
+
+def province_types(defs_path):
+    """Map enc(rgb) -> province type from definition.csv.
+
+    definition.csv columns: id;r;g;b;type;coastal;terrain;continent.
+    type is one of land / sea / lake (this mod). Returns {enc: type}.
+    """
+    types = {}
+    with open(defs_path, newline="") as f:
+        for row in csv.reader(f, delimiter=";"):
+            if len(row) < 5 or not row[0].strip().lstrip("-").isdigit():
+                continue
+            r, g, b = int(row[1]), int(row[2]), int(row[3])
+            types[(r << 16) | (g << 8) | b] = row[4].strip().lower()
+    return types
+
+
+def province_defs(defs_path):
+    """Parse definition.csv -> (enc_by_id, type_by_id).
+
+    id;r;g;b;type;...  ->  {pid: enc}, {pid: type}. Lets callers turn the
+    province-ID lists used by strategic regions / states into pixel colours.
+    """
+    enc_by_id, type_by_id = {}, {}
+    with open(defs_path, newline="") as f:
+        for row in csv.reader(f, delimiter=";"):
+            if len(row) < 5 or not row[0].strip().lstrip("-").isdigit():
+                continue
+            pid = int(row[0])
+            r, g, b = int(row[1]), int(row[2]), int(row[3])
+            enc_by_id[pid] = (r << 16) | (g << 8) | b
+            type_by_id[pid] = row[4].strip().lower()
+    return enc_by_id, type_by_id
+
+
+def province_land_mask(prov_path, defs_path, w, h, sea_types=("sea",)):
+    """Authoritative land/sea mask from provinces.bmp + definition.csv types.
+
+    A pixel is SEA iff its province's type is in sea_types; everything else
+    (land, lake, unknown) counts as land. This is the ground truth HOI4 itself
+    uses, and is far more accurate than thresholding heightmap/terrain (the
+    painted terrain colours do not reliably encode the coastline). Natural
+    Earth's land layer keeps inland lakes as land, so we treat HOI4 'lake'
+    provinces as land too for a like-for-like coastline comparison.
+
+    Returns float32 (h, w), 1.0 = land, 0.0 = sea.
+    """
+    types = province_types(defs_path)
+    sea_enc = np.array(sorted(e for e, t in types.items() if t in sea_types),
+                       dtype=np.int64)
+    im = Image.open(prov_path).convert("RGB").resize((w, h), Image.NEAREST)
+    a = np.asarray(im, dtype=np.uint32)
+    enc = ((a[..., 0] << 16) | (a[..., 1] << 8) | a[..., 2]).astype(np.int64)
+    is_sea = np.isin(enc, sea_enc)
+    return (~is_sea).astype(np.float32)
+
+
+def find_land_shapes(gis_dir):
+    """Return the finest available Natural Earth land shapefiles in gis_dir.
+
+    Natural Earth ships at three scales: 10m (finest, keeps small islands),
+    50m, and 110m (coarsest -- small islands vanish). We prefer the finest set
+    present and, at that scale, fold in minor-island / reef layers too so the
+    reference coastline isn't missing islands the painted map actually has.
+
+    Returns (paths, resolution_label). paths is [] if nothing is found.
+    """
+    for res in ("10m", "50m", "110m"):
+        land = os.path.join(gis_dir, f"ne_{res}_land.shp")
+        if os.path.exists(land):
+            paths = [land]
+            for extra in (f"ne_{res}_minor_islands.shp",
+                          f"ne_{res}_reefs.shp"):
+                p = os.path.join(gis_dir, extra)
+                if os.path.exists(p):
+                    paths.append(p)
+            return paths, res
+    return [], None
 
 
 def load_bands(path=DEFAULT_BANDS):
@@ -65,8 +145,10 @@ _PROJ = {"equirect": None, "mercator": _merc, "miller": _miller}
 def gis_land_mask(shp_path, w, h, bands=None):
     """Rasterize Natural Earth land polygons into the piecewise-band frame.
 
-    Each band renders all polygons with its own lat->row scale, then is pasted
-    into its row range. Returns a uint8 0/255 array (h, w).
+    shp_path may be a single shapefile path or a list of paths (e.g. land +
+    minor islands); all are rasterized into the same mask. Each band renders all
+    polygons with its own lat->row scale, then is pasted into its row range.
+    Returns a uint8 0/255 array (h, w).
     """
     if bands is None:
         bands = load_bands()
@@ -74,7 +156,10 @@ def gis_land_mask(shp_path, w, h, bands=None):
         import shapefile  # pyshp
     except ImportError:
         raise SystemExit("pyshp required: pip install pyshp")
-    shapes = shapefile.Reader(shp_path).shapes()
+    paths = [shp_path] if isinstance(shp_path, str) else list(shp_path)
+    shapes = []
+    for p in paths:
+        shapes.extend(shapefile.Reader(p).shapes())
 
     out = Image.new("L", (w, h), 0)
     for band in bands:

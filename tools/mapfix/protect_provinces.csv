@@ -1,0 +1,39 @@
+# Province-based protected regions (intentional baka-world-map distortions).
+#
+# Unlike protect.csv (eyeballed normalized rectangles), these regions are
+# defined by PROVINCE MEMBERSHIP, so the protected area is the exact painted
+# shape of the landmass -- read straight from provinces.bmp. The warp leaves
+# these untouched, preserving the deliberately-distorted position/shape that
+# the author drew. Edges are feathered so there is no seam.
+#
+# Row format:  name, kind, id, id, ...
+#   kind = sr    -> strategic region file (map/strategicregions/<id>-*.txt)
+#          state -> state file (history/states/<id>-*.txt)
+#          prov  -> the ids ARE province ids (map/definition.csv)
+# An id token may be a range  A-B  (inclusive), e.g. 1009-1087.
+# Only land/lake provinces in each region are protected; sea is auto-ignored.
+# Several rows may share a name (the masks are unioned). IDs/labels come from
+# the mod author (localisation STRATEGICREGION_* / state file names).
+
+# --- Japan (home islands) --------------------------------------------------
+# Hokkaido(154) Kyushu(266) Chugoku-HongKong=Japan(267) Chubu(268) Kanto(269)
+# Hokuriku(270) Tohoku(271) Ogasawara-Mariana(273); Okinawa = state 526.
+japan, sr, 154, 266, 267, 268, 269, 270, 271, 273
+okinawa, state, 526
+
+# --- Korea (deliberately oversized) ----------------------------------------
+korea, sr, 186
+
+# --- The Shikoku "continent" (Shikoku drawn continent-sized) ---------------
+shikoku_continent, sr, 246, 247, 248
+shikoku_continent, state, 1009-1087
+
+# --- Australia -------------------------------------------------------------
+australia, state, 517, 518, 519, 521, 522, 674, 870, 871, 872, 879, 880, 881, 882, 883, 884, 885, 886, 887, 889
+australia, sr, 156, 193, 194, 195
+
+# --- Other intentional placements ------------------------------------------
+hawaii, state, 629
+singapore, state, 839
+arctic, state, 844-852
+nya_mexico, state, 1091-1096
