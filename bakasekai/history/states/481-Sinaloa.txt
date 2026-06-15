@@ -15,14 +15,17 @@ state={
 
 		}
 		add_core_of = SAM
-
+		set_variable = { gold_mine = 1 }
 
 	}
 
 	provinces={
-		1945 8057 10895 
+		1945 8057 10895
 	}
 	manpower=1255094
+	resources = {
+
+	}
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=6.000

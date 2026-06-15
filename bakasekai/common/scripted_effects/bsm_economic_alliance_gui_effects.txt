@@ -1,0 +1,57 @@
+# ------------------------------------------
+# 週次: 全陣営国力再計算 (on_weekly から呼ばれる)
+# NOTE(2026-06-03): The canonical definition of bsm_update_economic_alliance_power_share
+# lives in bsm_economic_alliance_calculations.txt (full IC calc + buff distribution).
+# A duplicate stub here previously won by load order and silently disabled that calc,
+# so the stub was removed.
+# ------------------------------------------
+
+bsm_update_ea_gui_data = {
+	# 1. Initialize System if needed
+	bsm_ea_init_system = yes
+
+	# 2. Sort Ranking
+	bsm_ea_sort_sphere_list = yes
+
+	# 3. Build Player's Alliance List (all alliances player is in)
+	clear_array = global.bsm_ea_player_alliance_list
+	if = {
+		limit = { check_variable = { bsm_ea_joined_spheres^num > 0 } }
+
+		# Build list of alliance leaders for player's alliances
+		for_each_loop = {
+			array = bsm_ea_joined_spheres
+			value = v_token
+			# メンバーリストが存在するかチェック
+			if = {
+				limit = { check_variable = { global.bsm_ea_member_list_@var:v_token^num > 0 } }
+				set_temp_variable = { t_leader = global.bsm_ea_member_list_@var:v_token^0 }
+				add_to_array = {
+					global.bsm_ea_player_alliance_list = var:t_leader
+				}
+			}
+		}
+
+		# Set selected token to first joined alliance if not already set
+		if = {
+			limit = {
+				OR = {
+					NOT = { has_variable = bsm_ea_selected_token }
+					check_variable = { bsm_ea_selected_token = 0 }
+					NOT = { is_in_array = { bsm_ea_joined_spheres = var:bsm_ea_selected_token } }
+				}
+			}
+			set_variable = { bsm_ea_selected_token = bsm_ea_joined_spheres^0 }
+		}
+
+		# Calculate and display member list for selected alliance
+		bsm_ea_select_sphere_for_gui = yes
+		bsm_ea_refresh_selection_data = yes
+	}
+	else = {
+			clear_array = global.bsm_ea_gui_display_list
+			clear_array = bsm_ea_seat_frame
+			clear_variable = bsm_ea_selected_token
+		bsm_ea_refresh_selection_data = yes
+	}
+}

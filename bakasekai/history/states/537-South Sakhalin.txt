@@ -4,15 +4,16 @@ state= {
 	manpower = 295196
 	resources={
 		oil=3 # was: 4
-	}
-	
+		coal=2
+}
+
 	state_category = rural
 
 	history= {
-		owner = PRK
+		owner = SOV
 		add_core_of = JPN
-		add_core_of = PRK
-		
+		add_core_of = SOV
+
 		buildings = {
 			infrastructure = 2
 			12446 = {
@@ -23,11 +24,11 @@ state= {
 		victory_points = {
 			12446 1
 		}
-
+		set_variable = { gold_mine = 1 }
 	}
 	provinces=
 	{
 1322 1820 12446 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

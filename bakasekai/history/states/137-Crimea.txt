@@ -2,6 +2,9 @@ state = {
 	id = 137
 	name = "STATE_137"
 	manpower = 1061607
+	resources = {
+
+	}
 	state_category = city
 	history = {
 		owner = RUS
@@ -30,9 +33,10 @@ state = {
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = BTL
+		add_core_of = CRI
 		add_core_of = UKR
 	}
 	provinces = {

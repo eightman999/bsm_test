@@ -13,16 +13,19 @@ state = {
 
 		}
 		add_core_of = NTS
-
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces = {
-		1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805 
+		1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805
 	}
-	
+
 	manpower = 230000
+	resources = {
+
+	}
 	buildings_max_level_factor = 1.000
 	state_category = wasteland
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

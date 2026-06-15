@@ -3,7 +3,10 @@ state={
 	id=554
 	name="STATE_554"
 	manpower = 547797
-	
+	resources = {
+
+	}
+
 	state_category = rural
 
 	history={
@@ -15,14 +18,13 @@ state={
 			infrastructure = 2
 			air_base = 1
 		}
-		add_core_of = IRQ	
+		add_core_of = IRQ
 
 	}
-
 
 	provinces={
 		1074 4111 4486 4550 7184 13415 13416 13438
 	}
 
-	local_supplies=2.0 
+	local_supplies=2.0
 }

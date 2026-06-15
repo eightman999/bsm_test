@@ -1,0 +1,19 @@
+
+
+#####################################################################
+#####															#####
+#####						Default enities						#####
+#####															#####
+#####			Every other unit clones from this				#####
+#####															#####
+#####################################################################
+
+entity = {
+	name = "pepsiman_entity"
+	pdxmesh = "pepsiman_mesh"
+
+	default_state = "idle"
+
+	scale = 0.8
+
+}

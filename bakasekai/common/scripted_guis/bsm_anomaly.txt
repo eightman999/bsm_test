@@ -1,0 +1,3 @@
+# アノマリーScripted GUIはbsm_stellaris.txtのtab=6に移管済み
+scripted_gui = {
+}

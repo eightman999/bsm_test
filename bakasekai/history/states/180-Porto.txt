@@ -2,6 +2,9 @@ state = {
 	id = 180
 	name = "STATE_180"
 	manpower = 1904600
+	resources = {
+
+	}
 	state_category = large_town
 	history = {
 		owner = PAL
@@ -23,6 +26,7 @@ state = {
 		}
 		add_core_of = PAL
 		add_core_of = ESP
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		724

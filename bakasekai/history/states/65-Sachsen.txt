@@ -4,7 +4,8 @@ state = {
 	manpower = 5592576
 	resources = {
 		steel = 53		# was: 90
-	}
+		coal=80
+}
 	state_category = metropolis
 	history = {
 		owner = DEU
@@ -22,6 +23,7 @@ state = {
 			5
 		}
 		add_core_of = DEU
+		add_core_of = SAX
 	}
 	provinces = {
 		514

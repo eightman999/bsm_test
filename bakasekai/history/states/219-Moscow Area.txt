@@ -5,7 +5,8 @@ state = {
 	state_category = megalopolis
 	resources = {
 		steel = 16		# was: 28
-	}
+		coal=24
+}
 	history = {
 		owner = RUS
 		victory_points = {
@@ -18,7 +19,7 @@ state = {
 			industrial_complex = 3
 			air_base = 10
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 	}
 	provinces = {

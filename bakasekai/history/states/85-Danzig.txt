@@ -2,16 +2,19 @@ state={
 	id=85
 	name="STATE_85"
 	manpower = 366730
-	
+	resources = {
+
+	}
+
 	state_category = city
 	history={
 		owner = OZY
 		victory_points = {
 			362 10
 		}
-		
+
 		set_demilitarized_zone = yes
-		
+
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -22,6 +25,7 @@ state={
 			}
 		}
 		add_core_of = OZY
+		add_core_of = DNZ
 		1938.3.12 = {
 			add_claim_by = DEU
 		}
@@ -31,5 +35,5 @@ state={
 		362
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

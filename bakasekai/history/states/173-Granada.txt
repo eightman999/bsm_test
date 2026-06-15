@@ -3,7 +3,8 @@ state = {
 	name = "STATE_173"
 	resources = {
 		steel = 8
-	}
+		coal=12
+}
 	history = {
 		owner = FRA
 		victory_points = {
@@ -31,6 +32,7 @@ state = {
 		}
 		add_core_of = FRA
 		add_core_of = ESP
+		add_core_of = ADU
 	}
 	provinces = {
 		747

@@ -2,6 +2,9 @@ state = {
 	id = 571
 	name = "STATE_571"	# Omsk
 	manpower = 1317157
+	resources = {
+
+	}
 	state_category = town
 	history = {
 		owner = RUS
@@ -13,7 +16,7 @@ state = {
 			10696
 			3
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 	}
 	provinces = {

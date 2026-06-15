@@ -12,6 +12,7 @@ state = {
 			10312
 			1
 		}
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		1272
@@ -43,6 +44,9 @@ state = {
 		12285
 	}
 	manpower = 315450
+	resources = {
+
+	}
 	buildings_max_level_factor = 1
 	state_category = rural
 	local_supplies = 0

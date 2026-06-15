@@ -2,6 +2,9 @@ state = {
 	id = 950
 	name = "STATE_950"
 	manpower = 2354000
+	resources = {
+
+	}
 	state_category = metropolis
 	history = {
 		add_core_of = JPN
@@ -15,14 +18,13 @@ state = {
 				naval_base = 8
 			}
 		}
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		14669
-		14661
 		11960
 		14668
 		1067
 		14831
-		15025
 	}
 }

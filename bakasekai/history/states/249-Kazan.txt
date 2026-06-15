@@ -5,7 +5,8 @@ state = {
 	state_category = town
 	resources = {
 		steel = 25		# was: 40
-	}
+		coal=38
+}
 	history = {
 		owner = RUS
 		buildings = {
@@ -16,7 +17,7 @@ state = {
 			6338
 			10
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = TAT
 	}

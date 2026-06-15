@@ -21,13 +21,15 @@ ideas = {
 				guarantee_tension = 0.75
 				max_fuel_factor = -0.45
 				fuel_gain_factor = -0.6
+
 				agency_upgrade_time = 1
+				Unified_Currency_gain_factor = -0.5				# 孤立主義は通貨獲得大幅減
 			}
 			allowed_to_remove = {
 				OR = {
 					has_war_support > 0.5
 					has_war = yes
-					has_completed_focus = USA_limited_intervention
+					#has_completed_focus = USA_limited_intervention
 				}
 			}
 			cancel_if_invalid = no
@@ -50,13 +52,15 @@ ideas = {
 				guarantee_tension = 0.5
 				max_fuel_factor = -0.35
 				fuel_gain_factor = -0.5
+
 				agency_upgrade_time = 0.8
+				Unified_Currency_gain_factor = -0.3				# 孤立は通貨獲得減
 			}
 			allowed_to_remove = {
 				OR = {
 					has_war_support > 0.75
 					has_war = yes
-					has_completed_focus = USA_limited_intervention
+					#has_completed_focus = USA_limited_intervention
 				}
 			}
 			cancel_if_invalid = no
@@ -71,7 +75,9 @@ ideas = {
 				conversion_cost_civ_to_mil_factor = 0.3
 				conversion_cost_mil_to_civ_factor = 0.3
 				max_fuel_factor = -0.25
+
 				fuel_gain_factor = -0.4
+				Unified_Currency_gain_factor = -0.1				# 民間経済は若干減
 			}
 			default = yes
 			cancel_if_invalid = no
@@ -90,7 +96,7 @@ ideas = {
 				}
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.3
@@ -103,9 +109,9 @@ ideas = {
 					}
 					NOT = {
 						OR = {
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
+							#has_active_mission = TUR_etatism_crisis_2
+							#has_active_mission = TUR_etatism_crisis_3
+							#has_active_mission = TUR_etatism_crisis_4
 						}
 					}
 				}
@@ -114,7 +120,7 @@ ideas = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -126,7 +132,9 @@ ideas = {
 				consumer_goods_factor = 0.3
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
+
 				fuel_gain_factor = -0.25
+				# 低度動員は補正なし (0)
 			}
 			cancel_if_invalid = no
 			ai_will_do = {
@@ -156,7 +164,7 @@ ideas = {
 						has_dlc = "Death or Dishonor"
 					}
 					OR = {
-						has_completed_focus = HUN_secret_rearmament
+						#has_completed_focus = HUN_secret_rearmament
 						NOT = {
 							has_idea = HUN_treaty_of_triannon
 						}
@@ -164,7 +172,7 @@ ideas = {
 				}
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.5
@@ -177,9 +185,9 @@ ideas = {
 					}
 					NOT = {
 						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
+							#has_active_mission = TUR_etatism_crisis_1
+							#has_active_mission = TUR_etatism_crisis_3
+							#has_active_mission = TUR_etatism_crisis_4
 						}
 					}
 				}
@@ -191,14 +199,16 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_civ_to_mil_factor = -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
+
 				fuel_gain_factor = -0.1
+				Unified_Currency_gain_factor = 0.1				# 部分動員は少しプラス
 			}
 			cancel_if_invalid = no
 			on_add = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -216,8 +226,8 @@ ideas = {
 			available = {
 				has_war_support > 0.5
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = fascism_ideology
+					has_government = communism_ideology
 					custom_trigger_tooltip = {
 						tooltip = or_clarification_tooltip
 						always = no
@@ -243,7 +253,7 @@ ideas = {
 				}
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.75
@@ -256,9 +266,9 @@ ideas = {
 					}
 					NOT = {
 						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_4
+							#has_active_mission = TUR_etatism_crisis_1
+							#has_active_mission = TUR_etatism_crisis_2
+							#has_active_mission = TUR_etatism_crisis_4
 						}
 					}
 				}
@@ -269,14 +279,16 @@ ideas = {
 				consumer_goods_factor = 0.2
 				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor = -0.2
+
 				conversion_cost_mil_to_civ_factor = -0.2
+				Unified_Currency_gain_factor = 0.2				# 戦時経済はプラス
 			}
 			cancel_if_invalid = no
 			on_add = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -331,7 +343,7 @@ ideas = {
 				}
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.9
@@ -344,9 +356,9 @@ ideas = {
 					}
 					NOT = {
 						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
+							#has_active_mission = TUR_etatism_crisis_1
+							#has_active_mission = TUR_etatism_crisis_2
+							#has_active_mission = TUR_etatism_crisis_3
 						}
 					}
 				}
@@ -355,7 +367,7 @@ ideas = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
+						#has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -385,9 +397,6 @@ ideas = {
 				modifier = {
 					factor = 0
 					tag = DEU
-					NOT = {
-						has_tech = volkssturm
-					}
 					has_war = yes
 					date < 1944.01.01
 				}
@@ -413,7 +422,9 @@ ideas = {
 				conscription = -0.03
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor = -0.3
+
 				conversion_cost_mil_to_civ_factor = -0.3
+				Unified_Currency_gain_factor = 0.3				# 総動員は大幅プラス
 			}
 			cancel_if_invalid = no
 		}
@@ -426,7 +437,7 @@ ideas = {
 				OR = {
 					surrender_progress > 0.75
 					NOT = {
-						has_government = communism
+						has_government = communism_ideology
 					}
 				}
 			}
@@ -450,7 +461,7 @@ ideas = {
 				OR = {
 					surrender_progress > 0.75
 					NOT = {
-						has_government = communism
+						has_government = communism_ideology
 					}
 				}
 			}
@@ -485,8 +496,8 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					has_war = yes
-					has_completed_focus = POL_integrate_gdansk_industries
-					has_completed_focus = POL_expand_gdynia_seaport
+					#has_completed_focus = POL_integrate_gdansk_industries
+					#has_completed_focus = POL_expand_gdynia_seaport
 					NOT = {
 						owns_state = 85
 						owns_state = 807
@@ -533,7 +544,7 @@ ideas = {
 						has_dlc = "La Resistance"
 					}
 					NOT = {
-						has_completed_focus = SPR_all_must_bear_the_torch
+						#has_completed_focus = SPR_all_must_bear_the_torch
 					}
 				}
 			}
@@ -589,7 +600,7 @@ ideas = {
 						has_dlc = "La Resistance"
 					}
 					NOT = {
-						has_completed_focus = SPR_all_must_bear_the_torch
+						#has_completed_focus = SPR_all_must_bear_the_torch
 					}
 				}
 			}
@@ -632,7 +643,7 @@ ideas = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
+						has_government = democratic_ideology
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = {
@@ -643,7 +654,7 @@ ideas = {
 					}
 					AND = {
 						NOT = {
-							has_government = democratic
+							has_government = democratic_ideology
 						}
 						OR = {
 							has_idea = partial_economic_mobilisation
@@ -667,7 +678,7 @@ ideas = {
 						has_dlc = "La Resistance"
 					}
 					NOT = {
-						has_completed_focus = SPR_all_must_bear_the_torch
+						#has_completed_focus = SPR_all_must_bear_the_torch
 					}
 				}
 			}
@@ -709,8 +720,8 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = fascism_ideology
+					has_government = communism_ideology
 				}
 				OR = {
 					has_idea = war_economy

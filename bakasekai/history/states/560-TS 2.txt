@@ -5,14 +5,16 @@ state = {
 	state_category = rural
 	resources = {
 		steel = 18		# was: 24
-	}
+		coal=27
+}
 	history = {
-		owner = RUS
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		1724

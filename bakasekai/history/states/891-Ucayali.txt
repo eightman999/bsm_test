@@ -3,7 +3,10 @@ state={
 	id=891
 	name="STATE_891"
 	manpower = 435826
-	
+	resources = {
+
+	}
+
 	state_category = rural
 
 	history={
@@ -12,11 +15,12 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = INK
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
 		2182 5166 12953 13175 14789 14790 14791 14900
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

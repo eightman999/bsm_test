@@ -1,0 +1,25 @@
+state = {
+	id = 1034
+	name = "STATE_1034"
+	manpower = 52280
+	resources = {
+
+	}
+	state_category = city
+	history = {
+		owner = JSH
+		add_core_of = JSH
+		victory_points = {
+			14456
+			2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		15135
+		14456
+	}
+	local_supplies = 0
+}

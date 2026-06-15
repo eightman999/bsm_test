@@ -1,0 +1,3 @@
+# アノマリーGUIはbsm_stellaris_windowのtab=6に移管済み
+guiTypes = {
+}

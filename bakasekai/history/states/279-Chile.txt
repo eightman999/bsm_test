@@ -3,12 +3,13 @@ state={
 	id=279
 	name="STATE_279" # Santiago
 	manpower = 2935146
-	
+
 	state_category = large_city
-	
+
 	resources={
 		steel=8 # was: 24
-	}
+		coal=12
+}
 
 	history={
 		owner = CHL
@@ -28,11 +29,12 @@ state={
 		victory_points = {
 			5121 5
 		}
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
 		 5121 5191 8222 12984
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

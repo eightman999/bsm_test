@@ -21,6 +21,7 @@ state = {
 			}
 		}
 		add_core_of = ISR
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		654
@@ -40,6 +41,9 @@ state = {
 		12309
 	}
 	manpower = 2457844
+	resources = {
+
+	}
 	buildings_max_level_factor = 1
 	state_category = town
 	local_supplies = 0

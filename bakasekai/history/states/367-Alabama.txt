@@ -2,6 +2,9 @@ state = {
 	id = 367
 	name = "STATE_367"
 	manpower = 2646247
+	resources = {
+
+	}
 	state_category = city
 	history = {
 		owner = DIS
@@ -21,6 +24,7 @@ state = {
 			12735
 			1
 		}
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		492

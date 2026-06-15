@@ -52,7 +52,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				fascism_drift = 0.05
+				fascism_ideology_drift = 0.05
 			}
 		}
 
@@ -130,8 +130,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -178,8 +178,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -202,8 +202,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -228,8 +228,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -252,8 +252,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -277,8 +277,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -303,8 +303,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -327,16 +327,16 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = communism_ideology
+					has_government = fascism_ideology
 				}
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.02
-				neutrality_drift = -0.02
+				democratic_ideology_drift = -0.02
+				neutrality_ideology_drift = -0.02
 			}
 		}
 
@@ -349,15 +349,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascism_ideology
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.02
-				neutrality_drift = -0.02
-				fascism_drift = 0.03
+				democratic_ideology_drift = -0.02
+				neutrality_ideology_drift = -0.02
+				fascism_ideology_drift = 0.03
 				autonomy_gain = 0.5
 			}
 		}
@@ -371,15 +371,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = communism_ideology
 			}
 
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.02
-				neutrality_drift = -0.02
-				communism_drift = 0.03
+				democratic_ideology_drift = -0.02
+				neutrality_ideology_drift = -0.02
+				communism_ideology_drift = 0.03
 				autonomy_gain = 0.5
 			}
 		}
@@ -414,8 +414,8 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = communism_ideology
+						has_government = fascism_ideology
 					}
 				}
 			}
@@ -424,6 +424,122 @@ ideas = {
 			
 			modifier = {
 				autonomy_gain = 0.4
+			}
+		}
+
+		# ============================================================
+		# BSM インド自治領シナリオ - 追加アイデア
+		# ============================================================
+
+		bsm_ind_idea_saec_leader = {
+			picture = generic_foreign_capital
+
+			allowed = { original_tag = IND }
+
+			allowed_civil_war = {
+				NOT = { has_government = fascism_ideology }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.05
+				improve_relations_maintain_cost_factor = -0.15
+			}
+		}
+
+		bsm_ind_idea_famine_recovery = {
+			picture = generic_production_bonus
+
+			allowed = { original_tag = IND }
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.03
+				stability_factor = 0.05
+				industrial_capacity_factory = -0.10
+			}
+		}
+
+		bsm_ind_idea_refugee_crisis = {
+			picture = generic_manpower_bonus
+
+			allowed = { original_tag = IND }
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.05
+			}
+		}
+
+		bsm_ind_idea_unified_administration = {
+			picture = generic_morale_bonus
+
+			allowed = { original_tag = IND }
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism_ideology
+						has_government = fascism_ideology
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.05
+			}
+		}
+
+		bsm_ind_idea_non_aligned = {
+			picture = generic_foreign_capital
+
+			allowed = { original_tag = IND }
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						has_government = communism_ideology
+						has_government = fascism_ideology
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				neutrality_ideology_drift = 0.03
+				justify_war_goal_time = 0.10
+				improve_relations_maintain_cost_factor = -0.10
+				political_power_factor = 0.05
+			}
+		}
+
+		bsm_ind_idea_planning_commission = {
+			picture = generic_production_bonus
+
+			allowed = { original_tag = IND }
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.10
+				research_speed_factor = 0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 	}

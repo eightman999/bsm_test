@@ -3,13 +3,14 @@ state = {
 	name = "STATE_233"
 	resources = {
 		chromium = 18		# was: 46.000
+
 	}
 	history = {
 		owner = RUS
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 		victory_points = {
 			9663

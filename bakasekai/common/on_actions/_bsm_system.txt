@@ -1,0 +1,629 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            log = "[BSM SYSTEM] ========== ON_STARTUP TRIGGERED =========="
+            #### global変数の設定 ####
+            set_variable = { global.month = 1 }#月を示す変数
+            set_variable = { global.passed_month = 1 }  #経過月数
+            every_country = {
+                set_variable = { bsm_ea_window_open = 0 }
+            }
+            # 経済同盟初期化 (New System)
+
+
+            #### Opening Event ####
+            every_country = {
+                #プレイヤー国家のみOEを開く
+                limit = { is_ai = no }
+                set_variable = { OE_page = 1 }
+            }
+            ### Anomaly System ###
+            # FIX(2026-06-03): AS_first_setting builds GLOBAL anomaly DB data and has its OWN
+            # inner every_country. Wrapping it in every_country ran it 347x (once per country),
+            # causing ~1.1M redundant global-array ops + a 347x347 nested sweep => multi-hour
+            # on_startup hang. It must run EXACTLY ONCE.
+            if = {
+                limit = { NOT = { has_global_flag = AS_initialized } }
+                set_global_flag = AS_initialized
+                # FIX(errorlog 2026-06-04): on_startup の effect は scope=None。AS_first_setting は
+                # 冒頭で global.配列操作を行うため None スコープでは "Invalid Scope" になる。
+                # 単一 country スコープで1回だけ実行する(内部の every_country は全国家を走査)。
+                random_country = {
+                    limit = { always = yes }
+                    AS_first_setting = yes
+                }
+            }
+
+            ### Stellaris Elements System - Initialize ONCE ###
+            every_country = {
+                limit = { always = yes }
+                bsm_stellaris_init = yes
+                bsm_AS_init = yes # アノマリー探検隊システム初期化
+                bsm_special_research_init = yes
+            }
+
+            ### Economic Alliance System - Initialize ONCE ###
+            random_country = {
+                bsm_ea_init_system = yes
+                log = "[BSM SYSTEM] About to call bsm_ea_init_initial_factions"
+                bsm_ea_init_initial_factions = yes
+                log = "[BSM SYSTEM] Returned from bsm_ea_init_initial_factions"
+            }
+            #### 宗教 ####
+            every_country = {
+                if = {
+                    #共産主義
+                    limit = {
+                        has_government = communism_ideology
+                    }
+                    add_ideas = communism_religion
+                }
+                if = {
+                    #カトリック
+                    limit = {
+                        OR = {
+                            tag = MEX
+                            tag = GUA
+                            tag = ELS
+                            tag = NIC
+                            tag = HON
+                            tag = COS
+                            tag = PAN
+                            tag = COL
+                            tag = VEN
+                            tag = ECU
+                            tag = PRU
+                            tag = BOL
+                            tag = PAR
+                            tag = CHL
+                            tag = ARG
+                            tag = URG
+                            tag = PML
+                            tag = BRA
+                            tag = CUB
+                            tag = HAI
+                            tag = DOM
+                            tag = POL
+                            tag = ESP
+                            tag = CEU
+                            tag = FRA
+                            tag = ITA
+                            tag = BEL
+                            tag = IRE
+                            tag = AUS
+                            tag = OZY
+                            tag = MYS
+                            tag = HUN
+                            tag = CZE
+                            tag = SLO
+                            tag = POL
+                            tag = LIT
+                            tag = PHI
+                            tag = BAY
+                            tag = DEU
+                            tag = CRO
+                            tag = SLV
+                            tag = DAH
+                            tag = CMR
+                            tag = GAB
+                            tag = COG
+                            tag = RWA
+                            tag = BRD
+                            tag = RCG
+                            tag = ANG
+                            tag = MZB
+                        }
+                    }
+                    set_country_flag = Support_For_Catholicism
+                }
+                if = {
+                    #正教
+                    limit = {
+                        OR = {
+                            tag = GRC
+                            tag = GOC
+                            tag = BUL
+                            tag = ROM
+                            tag = MYS
+                            tag = CYP
+                            tag = UKR
+                            tag = BLR
+                            tag = SOV
+                            tag = SER
+                            tag = MNT
+                            tag = ETH
+                            tag = LEB
+                            tag = TWN
+                        }
+                    }
+                    set_country_flag = Support_For_Orthodoxy
+                }
+                if = {
+                    #プロテスタント
+                    limit = {
+                        OR = {
+                            tag = DEU
+                            tag = HOL
+                            tag = BLX
+                            tag = LUX
+                            tag = DEN
+                            tag = SWE
+                            tag = NOR
+                            tag = NKA
+                            tag = LAT
+                            tag = EST
+                            tag = GBR
+                            tag = LON
+                            tag = GGY
+                            tag = HRH
+                            tag = JEY
+                            tag = GIB
+                            tag = SCO
+                            tag = WLS
+                            tag = CAN
+                            tag = USA
+                            tag = ISL
+                            tag = ZAF
+                            tag = NMB
+                            tag = BOT
+                            tag = ZIM
+                            tag = ZAM
+                            tag = MLW
+                            tag = UGA
+                            tag = NGA
+                            tag = KEN
+                            tag = GHA
+                            tag = LIB
+                            tag = CAR
+                            tag = AST
+                            tag = ERO
+                        }
+                    }
+                    set_country_flag = Support_For_Protestantism
+                }
+                if = {
+                    #ユダヤ教
+                    limit = {
+                        OR = {
+                            tag = ISR
+                        }
+                    }
+                    set_country_flag = Support_For_Judaism
+                }
+                if = {
+                    #イスラム教スンニ派
+                    limit = {
+                        OR = {
+                            tag = TUR
+                            tag = SYR
+                            tag = KUR
+                            tag = LEB
+                            tag = PAL
+                            tag = JOR
+                            tag = KUW
+                            tag = SAU
+                            tag = QAT
+                            tag = UAE
+                            tag = OMA
+                            tag = YEM
+                            tag = EGY
+                            tag = LBA
+                            tag = TUN
+                            tag = ALG
+                            tag = MAR
+                            tag = MRT
+                            tag = SEN
+                            tag = MLI
+                            tag = GAM
+                            tag = GNA
+                            tag = SIE
+                            tag = IVO
+                            tag = VOL
+                            tag = NGR
+                            tag = CHA
+                            tag = SUD
+                            tag = ERI
+                            tag = DJI
+                            tag = SOM
+                            tag = MAD
+                            tag = AFG
+                            tag = PAK
+                            tag = BAN
+                            tag = SIK
+                            tag = MAL
+                            tag = IDN
+                            tag = MAL
+                            tag = ALB
+                        }
+                    }
+                    set_country_flag = Support_For_Sunni
+                }
+                if = {
+                    #イスラム教シーア派
+                    limit = {
+                        OR = {
+                            tag = IRQ
+                            tag = PRU
+                            tag = KUR
+                        }
+                    }
+                    set_country_flag = Support_For_Shia
+                }
+                if = {
+                    #ヒンデゥー教
+                    limit = {
+                        OR = {
+                            tag = IND
+                        }
+                    }
+                    set_country_flag = Support_For_Hinduism
+                }
+                if = {
+                    #仏教
+                    limit = {
+                        OR = {
+                            tag = MON
+                            tag = TAN
+                            tag = XSM
+                            tag = TIB
+                            tag = BRM
+                            tag = SIA
+                            tag = LAO
+                            tag = KHM
+                            tag = VNM
+                            tag = SRL
+                            tag = KOR
+                            tag = JPN
+                            tag = CHI
+                        }
+                    }
+                    set_country_flag = Support_For_Buddhism
+                }
+                if = {
+                    # 神道
+                    limit = {
+                        OR = {
+                            tag = JPN
+                            tag = MAN
+                            tag = MME
+                        }
+                    }
+                    set_country_flag = Support_For_Shinto
+                }
+            }
+            #### 通貨 ####
+            every_country = {
+                ucs_first_setting = yes
+                bsm_nc_init_currency = yes
+                set_variable = {
+                    Cultural_Degree_Last_Week_gain = 0
+                }
+                set_variable = {
+                    National_Unity_Power_Last_Week_gain = 0
+                }
+                set_variable = {
+                    bsm_ea_window_open = 0
+                }
+                set_variable = {
+                    bsm_nc_filter_mode = 0
+                }
+            }
+            # 開始時傀儡国は宗主国と同じ通貨を継承 (全国初期化後に実行)
+            every_country = {
+                bsm_nc_inherit_overlord_currency = yes
+            }
+            # 開始時の経済同盟: generic通貨国へ最強通貨を流通
+            every_country = {
+                bsm_nc_leader_apply_strongest = yes
+            }
+            #### 国家統合力 ####
+            #仮削除
+            #### 文明化率 ####
+            #仮削除
+            #### 鉱山 ####
+            JPN = { calc_gold_demand = yes }#代表計算
+
+            every_country = {
+                limit = { always = yes }
+                mine_first_setting = yes
+                mine_on_monthly = yes
+                bsm_generic_modifiers_first_setting = yes
+            }
+            #### 傭兵 ####
+            # 中小国救済: 主要国を除く全ての現存国家へ傭兵・金経済システムを開放する
+            every_country = {
+                limit = {
+                    exists = yes
+                    is_major = no
+                }
+                mercenary_minor_relief_setup = yes
+            }
+            # 固有設定（中小国救済の既定値を上書き）
+            SWI = {
+                mercenary_minor_relief_setup = yes
+                set_variable = {
+                    MS_max = 10
+                }
+            }
+            VAT = {
+                mercenary_minor_relief_setup = yes
+                set_variable = {
+                    MS_max = 2
+                }
+            }
+            FRA = {
+                mercenary_minor_relief_setup = yes
+                set_variable = {
+                    MS_max = 20
+                }
+            }
+            #### その他汎用システム #####
+            # every_country = {
+            #     #北国汎用アイデア
+            #     limit = {
+            #         OR = {
+            #             tag = NOR
+            #             tag = ISL
+            #             tag = POL
+            #             tag = NPL
+            #         }
+            #     }
+            #     add_ideas = ice_elemental
+            # }
+            #### その他固有システム #####
+        }
+    }
+    on_monthly = {
+        effect = {
+            add_to_variable = { global.passed_month = 1 }  #経過月数
+            if = {
+                #12月
+                limit = {
+                    check_variable = {
+                        global.month = 12
+                    }
+                }
+                set_variable = {
+                    global.month = 0
+                } #1月にリセット
+            }
+            add_to_variable = { global.month = 1 }
+
+            ucs_on_monthly = yes #通貨 月毎処理
+            # 経済同盟内の generic通貨国へ最強通貨を流通 (レート計算前)
+            every_country = {
+                bsm_nc_leader_apply_strongest = yes
+            }
+            every_country = {
+                bsm_nc_monthly_update = yes
+            }
+            every_country = {
+                bsm_nc_currency_union_monthly = yes
+            }
+            mine_on_monthly = yes #鉱山 月毎処理
+
+            # Stellaris Elements - Monthly Update
+            every_country = {
+                bsm_stellaris_monthly_essence = yes
+                bsm_stellaris_update_tradition_count = yes
+                bsm_stellaris_update_tradition_cost = yes
+                bsm_stellaris_update_trait_slots = yes
+                bsm_stellaris_calculate_anomaly_bonus = yes
+                bsm_AS_monthly_upkeep = yes # アノマリー探検隊 維持費徴収
+            }
+
+            # 中小国救済: ゲーム中に独立・成立した中小国へも傭兵・金経済システムを開放する
+            every_country = {
+                limit = {
+                    exists = yes
+                    is_major = no
+                    NOT = { has_country_flag = Mercenary_System_Allowed }
+                }
+                mercenary_minor_relief_setup = yes
+            }
+            # 傭兵の維持費処理
+            every_country = {
+                limit = { has_country_flag = Mercenary_System_Allowed }
+                mercenary_monthly_maintenance = yes
+            }
+
+            # 汎用modifierの月次イベント処理
+            every_country = {
+                bsm_generic_modifiers_monthly_events = yes
+            }
+        }
+    }
+    on_daily = {
+        effect = {
+			#獲得補正の計算
+            combined_unified_currency = yes
+            every_country = {
+                bsm_generic_modifiers_update = yes
+            }
+        }
+    }
+    on_weekly = {
+        effect = {
+            every_country = {
+                #文明度の上昇
+                set_variable = {
+                    Cultural_Degree_Last_Week_gain = modifier@weekly_Cultural_Degree
+                }
+                add_to_variable = {
+                    Cultural_Degree = modifier@weekly_Cultural_Degree
+                }
+                #国家統合力に文明度を追加
+                set_variable = {
+                    National_Unity_Power_Last_Week_gain = Cultural_Degree
+                }
+                add_to_variable = {
+                    National_Unity_Power = Cultural_Degree
+                }
+                # ステラリス要素 - 特性スロット更新
+                bsm_stellaris_update_trait_slots = yes
+                # 伝統コスト更新
+                bsm_stellaris_update_tradition_count = yes
+                bsm_stellaris_update_tradition_cost = yes
+                # アノマリー研究速度計算
+                bsm_stellaris_anomaly_research_speed_calc = yes
+                # アノマリー研究進行
+                AN_research_weekly = yes
+                # アノマリー探検隊 週次処理（探検進行＋新研究進行）
+                bsm_AS_weekly_tick = yes
+            }
+            if = {
+                limit = {
+                    country_exists = DIS
+                }
+                DIS = {
+                    if = {
+                        limit = {
+                            NOT = { has_country_flag = DIS_super_event_north_america_fired }
+                            dis_controls_north_america = yes
+                        }
+                        set_country_flag = DIS_super_event_north_america_fired
+                        news_event = { id = baka_super_news.8 }
+                    }
+                }
+            }
+        }
+    }
+    on_bi_yearly = {
+        effect = {
+            if = {
+                limit = {
+                    tag = POS
+                    has_completed_focus = POS_sealand_rising
+                    NOT = { has_war = yes }
+                }
+                if = {
+                    limit = {
+                        check_variable = { POS_channel_tension > 15 }
+                    }
+                    random_list = {
+                        40 = {
+                            country_event = { id = POS_channel_pressure.1 days = 5 }
+                            set_country_flag = POS_britain_pressure_received
+                        }
+                        40 = {
+                            country_event = { id = POS_channel_pressure.2 days = 5 }
+                            set_country_flag = POS_france_pressure_received
+                        }
+                        20 = {
+                            country_event = { id = POS_channel_pressure.3 days = 5 }
+                        }
+                    }
+                }
+                if = {
+                    limit = {
+                        check_variable = { POS_title_revenue > 50 }
+                    }
+                    random_list = {
+                        30 = {
+                            country_event = { id = POS_titles.1 days = 5 }
+                        }
+                        30 = {
+                            country_event = { id = POS_titles.2 days = 5 }
+                        }
+                        10 = {
+                            country_event = { id = POS_titles.3 days = 5 }
+                        }
+                        30 = {
+                        }
+                    }
+                }
+            }
+        }
+    }
+    on_nuke_drop = {
+        #核が落ちたときの挙動
+        effect = {
+            log = "[GetDate]: on_nuke_drop"
+            FROM = {
+                set_variable = {
+                    killed_by_nuke_dropped = FROM.state_population_k
+                }
+                if = {
+                    limit = {
+                        OR = {
+                            has_state_category = wasteland							#荒地
+                            has_state_category = pastoral							#牧畜地域
+                            has_state_category = rural							#牧歌的地域
+                            has_state_category = town							#開発済みの牧歌的地域
+                            has_state_category = large_town							#低密度の都市化地域
+                        }
+                    }
+                    multiply_variable = {
+                        killed_by_nuke_dropped = -10
+                    }
+                    #死者数:1%
+                }
+                else_if = {
+                    limit = {
+                        OR = {
+                            has_state_category = metropolis							#大都市化した地域
+                            has_state_category = megalopolis							#巨大都市化した地域
+                            has_state_category = large_city							#高密度に都市化した地域
+                            has_state_category = city							# 都市化した地域
+                        }
+                    }
+                    multiply_variable = {
+                        killed_by_nuke_dropped = -30
+                    }
+                    #死者数:3%
+                }
+                else_if = {
+                    limit = {
+                        OR = {
+                            has_state_category = enclave							#飛び地
+                            has_state_category = small_island							#小島
+                            has_state_category = tiny_island							#極小島
+                        }
+                    }
+                    multiply_variable = {
+                        killed_by_nuke_dropped = -50
+                    }
+                    #死者数:5%
+                }
+                add_manpower = killed_by_nuke_dropped
+                clear_variable = killed_by_nuke_dropped
+                add_dynamic_modifier = {
+                    modifier = bsm_dropped_nuke_modifier
+                    scope = FROM
+                    days = 90
+                }
+            }
+            if = {
+                #聖地の場合
+                limit = {
+                    OR = {
+                        FROM = {
+                            state = 922
+                        }
+                    }
+                }
+                news_event = nukes_drop.1
+            }
+        }
+    }
+    on_state_control_changed = {
+        effect = {
+            #州の失陥に関する処理
+            ucs_on_dairy_effects = yes
+        }
+    }
+    on_declare_war = {
+        effect = {
+            #戦時補正
+            if = {
+                limit = {
+                    has_war = yes
+                    NOT = {
+                        has_idea = war_effort_1
+                    }
+                }
+                add_ideas = war_effort_1
+            }
+        }
+    }
+}

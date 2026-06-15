@@ -5,8 +5,9 @@ state={
 	manpower = 2000000
 	resources={
 		oil=2 # was: 2
-	}
-	
+		coal=1
+}
+
 	state_category = city
 
 	history={
@@ -27,12 +28,12 @@ state={
 		victory_points = {
 			8252 1
 		}
-
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
 		5051 5120 7936 7991 8047 8252 11020 12798
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

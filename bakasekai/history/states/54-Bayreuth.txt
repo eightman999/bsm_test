@@ -2,6 +2,9 @@ state = {
 	id = 54
 	name = "STATE_54"
 	manpower = 2508159
+	resources = {
+
+	}
 	state_category = city
 	history = {
 		owner = DEU
@@ -14,6 +17,7 @@ state = {
 			10
 		}
 		add_core_of = DEU
+		add_core_of = BAY
 	}
 	provinces = {
 		561

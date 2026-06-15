@@ -1,0 +1,69 @@
+# 経済陣営関連のトリガー
+# ----------------------------------------------------------------------
+# 結成 (Formation)
+# ----------------------------------------------------------------------
+bsm_can_form_economic_alliance_visible = {
+	bsm_ea_can_form_sphere_visible = yes
+}
+
+bsm_can_form_economic_alliance_allowed = {
+	bsm_ea_can_form_sphere_allowed = yes
+}
+
+# ----------------------------------------------------------------------
+# 加盟 (Joining)
+# ----------------------------------------------------------------------
+bsm_can_join_economic_alliance_visible = {
+	bsm_ea_can_join_sphere_visible = yes
+}
+
+bsm_can_join_economic_alliance_allowed = {
+	bsm_ea_can_join_sphere_allowed = yes
+}
+
+# ----------------------------------------------------------------------
+# AI受諾ロジック (AI Acceptance)
+# ----------------------------------------------------------------------
+bsm_ai_will_accept_economic_alliance = {
+	has_opinion = {
+		target = FROM
+		value > 30
+	}
+	NOT = {
+		OR = {
+			AND = {
+				has_government = kyonulism
+				FROM = { has_government = hinnulism }
+			}
+			AND = {
+				has_government = hinnulism
+				FROM = { has_government = kyonulism }
+			}
+			AND = {
+				has_government = longitudinalism
+				FROM = { has_government = horizontalism }
+			}
+			AND = {
+				has_government = horizontalism
+				FROM = { has_government = longitudinalism }
+			}
+		}
+	}
+	FROM = {
+		check_variable = { generated_world_tension < 10 }
+	}
+}
+
+# ヘルパー: 同じ経済陣営に所属しているかチェック
+# bsm_ea_sphere（主要所属）で比較
+is_in_economic_alliance_with = {
+	has_variable = bsm_ea_sphere
+	FROM = { has_variable = bsm_ea_sphere }
+	check_variable = { bsm_ea_sphere = FROM.bsm_ea_sphere }
+}
+
+# Helper: Is FROM a member of an alliance where ROOT is leader?
+is_economic_alliance_member_of_root_trigger = {
+	is_bsm_ea_leader = yes
+	is_in_economic_alliance_with = yes
+}

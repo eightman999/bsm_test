@@ -3,7 +3,10 @@ state={
 	id=547
 	name="STATE_547" #Kenya
 	manpower = 3392000
-	
+	resources = {
+
+	}
+
 	state_category = rural
 
 	history={
@@ -15,6 +18,7 @@ state={
 				naval_base = 2
 			}
 		}
+		set_variable = { gold_mine = 1 }
 		victory_points = {
 			1939 2
 		}
@@ -22,11 +26,12 @@ state={
 			5210 1
 		}
 		add_core_of = WES
+		add_core_of = KEN
 	}
 
 	provinces={
 		1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 11145 12927 13328 13476 13477 13478 13480
 	}
 
-	local_supplies=6.0 
+	local_supplies=6.0
 }

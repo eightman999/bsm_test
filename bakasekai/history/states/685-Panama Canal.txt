@@ -6,7 +6,7 @@ state={
 	history={
 		owner = SAM
 		victory_points = {
-			7617 5 
+			7617 5
 		}
 		buildings = {
 			infrastructure = 2
@@ -18,13 +18,16 @@ state={
 
 		}
 		add_core_of = SAM
-
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
-		7617 
+		7617
 	}
 	manpower=39467
+	resources = {
+
+	}
 	buildings_max_level_factor=1.000
 	state_category=enclave
 	local_supplies=0.000

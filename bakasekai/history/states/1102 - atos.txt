@@ -1,0 +1,17 @@
+state = {
+	id = 1102
+	name="STATE_1102"
+	manpower = 	1811
+	resources = {
+
+	}
+	history = {
+		owner = GOC
+		add_core_of = GOC
+		add_core_of = GRC
+	}
+	state_category = pastoral_town
+	provinces = {
+		3936
+	}
+}

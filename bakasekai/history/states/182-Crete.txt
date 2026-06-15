@@ -2,9 +2,12 @@ state = {
 	id = 182
 	name = "STATE_182"
 	manpower = 387900
+	resources = {
+
+	}
 	state_category = town
 	history = {
-		owner = ETH
+		owner = GRC
 		victory_points = {
 			9940
 			5

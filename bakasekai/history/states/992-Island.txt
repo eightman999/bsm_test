@@ -3,7 +3,7 @@ state = {
 	name = "STATE_992"
 	history = {
 		add_core_of = TWN
-		owner = ETH
+		owner = TWN
 	}
 	provinces = {
 		13499
@@ -11,6 +11,9 @@ state = {
 		13501
 	}
 	manpower = 1000
+	resources = {
+
+	}
 	buildings_max_level_factor = 1
 	local_supplies = 0
 	state_category = small_island

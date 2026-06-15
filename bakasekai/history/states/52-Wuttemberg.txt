@@ -4,6 +4,7 @@ state = {
 	manpower = 2679413
 	resources = {
 		aluminium = 18		# was: 30
+
 	}
 	state_category = city
 	history = {
@@ -23,6 +24,7 @@ state = {
 			air_base = 6
 		}
 		add_core_of = DEU
+		add_core_of = BAY
 	}
 	provinces = {
 		692

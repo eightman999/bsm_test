@@ -5,10 +5,11 @@ state = {
 	resources = {
 		aluminium = 2		# was: 3
 		chromium = 2		# was: 3
+
 	}
 	state_category = town
 	history = {
-		owner = MYS
+		owner = GRC
 		victory_points = {
 			9914
 			5
@@ -20,13 +21,14 @@ state = {
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 3
 			11767 = {
 				naval_base = 4
 			}
 		}
 		add_core_of = MYS
+		add_core_of = ALB
 	}
 	provinces = {
 		3448

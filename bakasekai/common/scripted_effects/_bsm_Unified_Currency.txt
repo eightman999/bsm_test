@@ -1,0 +1,522 @@
+
+#Unified Currency System (統一通貨システム)
+
+#[[ SUM{ 人口(m) × (インフラ×1.25 + 飛行場×1.1 + 港湾×0.8) } × 民需出力 × (安定度+文明) ] - (徴兵(m)×ステート数) ] / 100
+# × 係数(基本1 + UC_gain_factor + 生産効率×0.5 + 消費財×0.5 + 戦時(-1.5%/月×戦争支持軽減) + 同盟(+10%/陣営,cap+30%) + 従属補正)
+
+#初期設定
+ucs_first_setting = {
+	# log = "first_setting"
+
+	if = {
+		limit = { NOT = { has_country_flag = stop_Unified_Currency_gain } }
+		set_variable = { var = Unified_Currency value = 0 } #リセット
+		set_variable = { var = Unified_Currency_Last_Month_gain value = 0 } #リセット
+		set_variable = { var = Unified_Currency_state_loss value = 0 } #リセット
+		set_variable = { var = ucs_war_month_counter value = 0 } #戦時カウンターリセット
+		set_temp_variable = { var = multiply_value value = 6 } #初期値は6か月分
+		# log = "[?multiply_value]月分==========================="
+		ucs_add_Unified_Currency_month = yes
+
+	}
+}
+
+#指定の月数分の統一通貨を追加する  temp multiply_value  が必要
+ucs_add_Unified_Currency_month = {
+	if = {
+		limit = { has_variable = multiply_value }
+
+		custom_effect_tooltip = tt_ucs_add_Unified_Currency_month
+		set_variable = { temp_sum_stabiluty_civilization = stability } #安定度
+		add_to_variable = { temp_sum_stabiluty_civilization = Cultural_Degree } #安定度+文明
+
+		set_temp_variable = { temp_add_amount = num_of_civilian_factories } #民需出力
+		add_to_temp_variable = { var = temp_add_amount value = 1 } #民需出力
+
+		multiply_temp_variable = { temp_add_amount = temp_sum_stabiluty_civilization } #民需出力 * ( 安定度+文明 )
+
+		set_temp_variable = { temp_state_sum = 0 }
+		for_each_scope_loop = {
+			array = owned_controlled_states
+			# SUM{ 人口(m) × (インフラ×1.25 + 飛行場×1.1 + 港湾×0.8) }
+			set_temp_variable = { temp_state = state_population_k }
+			divide_temp_variable = { temp_state = 1000 } #人口(m)
+
+			set_temp_variable = { temp_infra_contrib = infrastructure_level }
+			multiply_temp_variable = { temp_infra_contrib = 1.25 } #インフラ × 1.25
+			set_temp_variable = { temp_air_contrib = building_level@air_base }
+			multiply_temp_variable = { temp_air_contrib = 1.1 } #飛行場 × 1.1
+			set_temp_variable = { temp_port_contrib = building_level@naval_base }
+			multiply_temp_variable = { temp_port_contrib = 0.8 } #港湾 × 0.8（海運・貿易）
+			add_to_temp_variable = { temp_infra_contrib = temp_air_contrib }
+			add_to_temp_variable = { temp_infra_contrib = temp_port_contrib }
+			clamp_temp_variable = { var = temp_infra_contrib min = 1.0 } #最低値1保証（未開発ステートでも人口反映）
+
+			multiply_temp_variable = { temp_state = temp_infra_contrib }
+			# multiply_temp_variable = { temp_state = 種族係数 } #（未実装）
+			add_to_temp_variable = { PREV.temp_state_sum = temp_state }
+		}
+		multiply_temp_variable = { temp_add_amount = temp_state_sum } #SUM{ 人口(m) × (インフラ×1.25 + 飛行場×1.1 + 港湾×0.8) } × 民需出力 × (安定度+文明)
+		set_temp_variable = { subtract_value = num_owned_controlled_states^num } #ステート数
+		multiply_temp_variable = { subtract_value = deployed_army_manpower_k } #ステート数 * 徴兵(k)
+		divide_temp_variable = { subtract_value = 1000 } #ステート数 * 徴兵(m)
+		subtract_from_temp_variable = { temp_add_amount = subtract_value } #[ SUM{ 人口(m) * (飛行場レベル * 1.1) } *民需出力 * ( 安定度+文明 ) *インフラレベル平均 ]  -(徴兵*ステート数)
+		divide_temp_variable = { temp_add_amount = 100 } #[[ SUM{ 人口(m) +(飛行場レベル * 1.1) } *民需出力 * ( 安定度+文明 ) *インフラレベル平均 ]  -(徴兵*ステート数) ]/100
+		#係数
+		set_temp_variable = { var = temp_factor value = 1 }
+		add_to_temp_variable = { temp_factor = modifier@Unified_Currency_gain_factor }
+
+		# 生産効率ボーナス（生産最大効率が高いほど経済効率↑、modifier の半分を反映）
+		set_temp_variable = { temp_production_bonus = modifier@production_factory_max_efficiency_factor }
+		multiply_temp_variable = { temp_production_bonus = 0.5 }
+		add_to_temp_variable = { temp_factor = temp_production_bonus }
+
+		# 消費財係数（民間経済の活発さ：消費財比率が高い=民需豊か→UC↑）
+		set_temp_variable = { temp_consumer_bonus = modifier@consumer_goods_factor }
+		multiply_temp_variable = { temp_consumer_bonus = 0.5 }
+		add_to_temp_variable = { temp_factor = temp_consumer_bonus }
+
+		# 戦時下（一月ごと悪化、戦争支持率で最大50%軽減）
+		if = {
+			limit = { has_variable = ucs_war_month_counter }
+			set_temp_variable = { temp_war_penalty = ucs_war_month_counter }
+			multiply_temp_variable = { var = temp_war_penalty value = -0.015 } # 毎月-1.5%（緩和: -2%→-1.5%）
+			# penalty × (1 - war_support×0.5): war_support=1.0 で50%軽減
+			set_temp_variable = { temp_ws_mitigation = war_support }
+			multiply_temp_variable = { temp_ws_mitigation = -0.5 }
+			add_to_temp_variable = { temp_ws_mitigation = 1 }
+			multiply_temp_variable = { temp_war_penalty = temp_ws_mitigation }
+			add_to_temp_variable = { temp_factor = temp_war_penalty }
+		}
+
+		# 経済同盟ボーナス（1陣営+10%、上限+30%）
+		if = {
+			limit = { check_variable = { economic_alliance_count > 0 } }
+			set_temp_variable = { temp_alliance_bonus = economic_alliance_count }
+			multiply_temp_variable = { var = temp_alliance_bonus value = 0.10 } # 同盟1つにつき+10%（緩和: 15%→10%）
+			clamp_temp_variable = { var = temp_alliance_bonus min = 0 max = 0.30 } # 上限+30%
+			add_to_temp_variable = { temp_factor = temp_alliance_bonus }
+		}
+
+		# 宗主国・傀儡従属国 (経済同盟関連)
+
+		# ----------------------------------------------------------------
+		# 従属国側の処理
+		# ----------------------------------------------------------------
+		if = {
+			limit = { is_subject = yes }
+
+			# ============================================================
+			# 従属国ペナルティ（Vanilla / SSW / EoaNB / Workshop 19mod 統合）
+			# 自由度が低い（宗主国の統制が強い）ほどペナルティ大
+			# Tier1(-0.30) > Tier2(-0.24) > Tier3(-0.18) > Tier4(-0.10) > Tier5(-0.05) > Tier6(-0.02)
+			# ============================================================
+			set_temp_variable = { temp_subject_penalty = -0.15 } # デフォルト（未定義の従属状態）
+
+			# ----------------------------------------------------------
+			# Tier 1: 完全支配 (-0.30)  freedom ≈ 0.0
+			# 宗主国が経済・軍事を完全掌握。独自の経済活動がほぼ不可能
+			# ----------------------------------------------------------
+			if = {
+				limit = {
+					OR = {
+						has_autonomy_state = autonomy_integrated_puppet               # Vanilla / EoaNB
+						has_autonomy_state = autonomy_collaboration_government        # EoaNB / GW / Endsieg / vr2
+						has_autonomy_state = integrated_puppet_government             # SSW
+						has_autonomy_state = crown_dependency                         # SSW
+						has_autonomy_state = autonomy_aat_defense_council_member      # GW / Endsieg / WA / TotalWar
+						has_autonomy_state = autonomy_eu_member                       # GW (欧州統合防衛評議会)
+						has_autonomy_state = autonomy_SSR                             # TotalWar (ソビエト社会主義共和国)
+						has_autonomy_state = autonomy_military_district               # TNO
+						has_autonomy_state = autonomy_military_government             # TNO
+						has_autonomy_state = autonomy_occupied_territory              # TNO (接頭辞付き)
+						has_autonomy_state = autonomy_italy_governate                 # TNO
+						has_autonomy_state = autonomy_antarctic_territory             # TNO
+						has_autonomy_state = Territorium                              # BSM2.0
+					}
+				}
+				set_temp_variable = { temp_subject_penalty = -0.30 }
+			}
+			# ----------------------------------------------------------
+			# Tier 2: 高統制 (-0.24)  freedom 0.1-0.3
+			# 主権は限定的。貿易・人員を大幅に宗主国へ供出
+			# ----------------------------------------------------------
+			else_if = {
+				limit = {
+					OR = {
+						has_autonomy_state = autonomy_puppet                          # Vanilla / EoaNB
+						has_autonomy_state = constituent_autonomous_province          # SSW
+						has_autonomy_state = overseas_territory                       # SSW
+						has_autonomy_state = viceroyalty                              # SSW
+						has_autonomy_state = captaincy_general                        # SSW
+						has_autonomy_state = mandated_territory_C                     # SSW
+						has_autonomy_state = autonomy_reichskommissariat              # WTT系多mod (~0.2)
+						has_autonomy_state = autonomy_volkskommissariat               # GW (0.2)
+						has_autonomy_state = autonomy_wtt_imperial_protectorate       # WTT系多mod (~0.2)
+						has_autonomy_state = autonomy_austro_hungarian_subject        # GW (0.2)
+						has_autonomy_state = autonomy_reichsprotektorat               # TNO (0.2)
+						has_autonomy_state = autonomy_ibrgovernate                    # TNO (0.25)
+						has_autonomy_state = autonomy_liberated_government            # TNO (0.25)
+					}
+				}
+				set_temp_variable = { temp_subject_penalty = -0.24 }
+			}
+			# ----------------------------------------------------------
+			# Tier 3: 中統制 (-0.18)  freedom 0.3-0.5
+			# 一定の自治を持つが、宗主国への経済的依存が大きい
+			# ----------------------------------------------------------
+			else_if = {
+				limit = {
+					OR = {
+						has_autonomy_state = autonomy_colony                          # Vanilla / EoaNB
+						has_autonomy_state = constituent_state                        # SSW
+						has_autonomy_state = colony                                   # SSW
+						has_autonomy_state = colonies_federation                      # SSW
+						has_autonomy_state = colony_and_protected_territory           # SSW
+						has_autonomy_state = condominium                              # SSW
+						has_autonomy_state = real_union                               # SSW
+						has_autonomy_state = personal_union_colony                    # SSW
+						has_autonomy_state = personal_union_protected_territory       # SSW
+						has_autonomy_state = occupied_puppet_government               # SSW
+						has_autonomy_state = protected_territory                      # SSW
+						has_autonomy_state = mandated_territory_B                     # SSW
+						has_autonomy_state = leased_territory                         # SSW
+						has_autonomy_state = autonomy_reichsprotectorate              # WTT系多mod (~0.5)
+						has_autonomy_state = autonomy_integrated_reichskommissariat   # TNO (0.4)
+					}
+				}
+				set_temp_variable = { temp_subject_penalty = -0.18 }
+			}
+			# ----------------------------------------------------------
+			# Tier 4: 低統制 (-0.10)  freedom 0.5-0.65
+			# 実質的な自治あり。宗主国への依存は政治・軍事面が主
+			# ----------------------------------------------------------
+			else_if = {
+				limit = {
+					OR = {
+						has_autonomy_state = autonomy_supervised_state                # EoaNB / GW (0.65)
+						has_autonomy_state = autonomous_puppet_state                  # SSW
+						has_autonomy_state = vassal_state                             # SSW
+						has_autonomy_state = tributary_state                          # SSW
+						has_autonomy_state = autonomous_state                         # SSW
+						has_autonomy_state = personal_union                           # SSW
+						has_autonomy_state = protected_state                          # SSW
+						has_autonomy_state = trust_territory                          # SSW
+						has_autonomy_state = mandated_territory_A                     # SSW
+						has_autonomy_state = autonomy_wtt_imperial_associate          # WTT系多mod (~0.6)
+						has_autonomy_state = autonomy_autonomous_reichskommissariat   # TNO (0.6)
+						has_autonomy_state = autonomy_Soviet_Supervised_State         # TotalWar (0.6)
+					}
+				}
+				set_temp_variable = { temp_subject_penalty = -0.10 }
+			}
+			# ----------------------------------------------------------
+			# Tier 5: 緩やか (-0.05)  freedom 0.65-0.8
+			# 名目上の従属。経済的自律性は高いが政治的な縛りあり
+			# ----------------------------------------------------------
+			else_if = {
+				limit = {
+					OR = {
+						has_autonomy_state = autonomy_dominion                        # Vanilla / EoaNB
+						has_autonomy_state = nominal_puppet_state                     # SSW
+						has_autonomy_state = joint_special_economic_zone              # SSW
+						has_autonomy_state = associated_state                         # SSW
+						has_autonomy_state = autonomy_satellite                       # WTT系多mod (0.80)
+						has_autonomy_state = autonomy_wtt_imperial_subject            # WTT系多mod (~0.8)
+						has_autonomy_state = autonomy_client_state                    # TNO (0.75)
+						has_autonomy_state = autonomy_transnistria_governate          # TNO (0.80)
+						has_autonomy_state = autonomy_Soviet_Sattelite_State          # TotalWar (0.75)
+						has_autonomy_state = autonomy_associated_state                # MD (0.75)
+					}
+				}
+				set_temp_variable = { temp_subject_penalty = -0.05 }
+			}
+			# ----------------------------------------------------------
+			# Tier 6: 名目的 (-0.02)  freedom 0.8+
+			# ほぼ独立国と同等。経済への影響は最小限
+			# ----------------------------------------------------------
+			else_if = {
+				limit = {
+					OR = {
+						has_autonomy_state = autonomy_personal_union                  # EoaNB (0.8)
+						has_autonomy_state = release_leased_territory                 # SSW
+						has_autonomy_state = autonomy_ulster_breakaway_state          # TNO (0.8)
+						has_autonomy_state = autonomy_china_warlord_regime            # TNO (0.80)
+						has_autonomy_state = autonomy_union_state                     # MD (0.85)
+						has_autonomy_state = autonomy_wtt_imperial_subject            # if freedom>0.8
+					}
+				}
+				set_temp_variable = { temp_subject_penalty = -0.02 }
+			}
+
+			# 宗主国が利益分配フラグを持つ場合、ペナルティを軽減
+			overlord = {
+				if = {
+					limit = { has_country_flag = ucs_distribute_profit }
+					PREV = {
+						add_to_temp_variable = { temp_subject_penalty = 0.15 }
+					}
+				}
+			}
+
+			add_to_temp_variable = { temp_factor = temp_subject_penalty }
+		}
+
+		# ----------------------------------------------------------------
+		# 宗主国側の処理
+		# ----------------------------------------------------------------
+		set_temp_variable = { temp_subject_bonus_total = 0 }
+
+		every_subject_country = {
+			# 各従属国からの搾取/利益計算
+			# 自治度が低いほど搾取できる (ボーナス大)
+			set_temp_variable = { temp_this_subject_contribution = 0.05 }
+
+			if = {
+				limit = { has_autonomy_state = autonomy_integrated_puppet }
+				set_temp_variable = { temp_this_subject_contribution = 0.08 }
+			}
+			else_if = {
+				limit = { has_autonomy_state = autonomy_puppet }
+				set_temp_variable = { temp_this_subject_contribution = 0.05 }
+			}
+			else_if = {
+				limit = { has_autonomy_state = autonomy_colony }
+				set_temp_variable = { temp_this_subject_contribution = 0.03 }
+			}
+			else_if = {
+				limit = { has_autonomy_state = autonomy_dominion }
+				set_temp_variable = { temp_this_subject_contribution = 0.01 }
+			}
+
+			# 宗主国 (PREV) が分配設定をしているか確認
+            if = {
+                limit = {
+                    PREV = { has_country_flag = ucs_distribute_profit }
+                }
+                multiply_temp_variable = { temp_this_subject_contribution = 0.5 } # 利益半減
+            }
+
+			# 宗主国の合計に加算
+			PREV = {
+				add_to_temp_variable = { temp_subject_bonus_total = PREV.temp_this_subject_contribution }
+			}
+		}
+
+		add_to_temp_variable = { temp_factor = temp_subject_bonus_total }
+		clamp_temp_variable = { var = temp_factor min = 0.1 } #最低10%保証（長期戦争・多重ペナルティ対策）
+
+		# 国家通貨 為替レート補正
+		bsm_nc_calc_uc_modifier = yes
+		add_to_temp_variable = { temp_factor = t_nc_uc_mod }
+		clamp_temp_variable = { var = temp_factor min = 0.05 }
+
+		multiply_temp_variable = { temp_add_amount = temp_factor } #[ SUM{ 人口(m) × (インフラ×1.25 + 飛行場×1.1) } × 民需出力 × (安定度+文明) × 補正 ] - (徴兵×ステート数)
+		set_variable = { temp_last_month = temp_add_amount } #先月の獲得量の登録
+		subtract_from_temp_variable = { temp_add_amount = Unified_Currency_additional_gain }
+		multiply_temp_variable = { temp_add_amount = multiply_value } #月数の倍率
+		add_to_variable = { Unified_Currency = temp_add_amount } #追加
+		clamp_variable = { var = Unified_Currency max = 100000 min = -100000 }
+		# log = "[?THIS.GetName]:通貨追加([?multiply_value|0]ヶ月分):[?temp_add_amount]"
+		log = "・[?THIS.GetName],[?temp_add_amount],[?temp_state_sum],[?num_of_factories],[?num_owned_controlled_states^num]"
+
+	}
+	else = { log = "wow... No temp variable !!" }
+
+}
+#指定分分の統一通貨を追加する  temp add_value  が必要
+ucs_add_Unified_Currency = {
+	if = {
+		limit = { has_variable = add_value }
+		custom_effect_tooltip = tt_ucs_add_Unified_Currency
+		add_to_variable = { Unified_Currency = add_value } #追加
+		clamp_variable = { var = Unified_Currency max = 10000 min = -10000 }
+	}
+	else = { log = "wow... No temp variable !!" }
+}
+#月毎の計算
+ucs_on_monthly = {
+	if = {
+		limit = { NOT = { has_country_flag = stop_Unified_Currency_gain } }
+		set_temp_variable = { multiply_value = 1 }
+
+		# 戦時カウンター更新
+		if = {
+			limit = { has_war = yes }
+			add_to_variable = { var = ucs_war_month_counter value = 1 }
+		}
+		else = {
+			set_variable = { var = ucs_war_month_counter value = 0 }
+		}
+		ucs_add_Unified_Currency_month = yes
+		set_variable = { Unified_Currency_Last_Month_gain = temp_last_month } #先月の獲得量の登録
+		set_variable = { var = Unified_Currency_state_loss value = 0 } #リセット
+
+		# 最低保持EC量 (IC基準)
+		# 基準: 民需 + 軍需 + 造船所 * 50 (仮)
+		set_temp_variable = { temp_required_ec = num_of_factories }
+		multiply_temp_variable = { temp_required_ec = 50 }
+		set_variable = { ucs_required_ec = temp_required_ec }
+
+		# EC不足ペナルティ判定
+		if = {
+			limit = { check_variable = { Unified_Currency < ucs_required_ec } }
+			set_country_flag = ucs_low_currency_penalty
+			set_variable = { ucs_ec_deficit = ucs_required_ec }
+			subtract_from_variable = { ucs_ec_deficit = Unified_Currency }
+			if = {
+				limit = { NOT = { has_dynamic_modifier = { modifier = ucs_low_currency_penalty_modifier } } }
+				add_dynamic_modifier = { modifier = ucs_low_currency_penalty_modifier }
+			}
+		}
+		else = {
+			clr_country_flag = ucs_low_currency_penalty
+			set_variable = { var = ucs_ec_deficit value = 0 }
+			if = {
+				limit = { has_dynamic_modifier = { modifier = ucs_low_currency_penalty_modifier } }
+				remove_dynamic_modifier = { modifier = ucs_low_currency_penalty_modifier }
+			}
+		}
+
+		# ステート拡大限界 (EC量基準)
+		# 基準: 5 + (EC / 1000)
+		set_temp_variable = { temp_state_limit = Unified_Currency }
+		divide_temp_variable = { temp_state_limit = 1000 }
+		add_to_temp_variable = { temp_state_limit = 5 }
+		round_temp_variable = temp_state_limit
+		set_variable = { ucs_state_limit = temp_state_limit }
+
+		# ステート超過ペナルティ判定
+		if = {
+			limit = { check_variable = { num_owned_states > ucs_state_limit } }
+			set_country_flag = ucs_over_state_limit_penalty
+			set_variable = { ucs_state_overage = num_owned_states }
+			subtract_from_variable = { ucs_state_overage = ucs_state_limit }
+			if = {
+				limit = { NOT = { has_dynamic_modifier = { modifier = ucs_over_state_limit_penalty_modifier } } }
+				add_dynamic_modifier = { modifier = ucs_over_state_limit_penalty_modifier }
+			}
+		}
+		else = {
+			clr_country_flag = ucs_over_state_limit_penalty
+			set_variable = { var = ucs_state_overage value = 0 }
+			if = {
+				limit = { has_dynamic_modifier = { modifier = ucs_over_state_limit_penalty_modifier } }
+				remove_dynamic_modifier = { modifier = ucs_over_state_limit_penalty_modifier }
+			}
+		}
+
+		# 経済同盟の統合経済力計算
+		# 経済同盟の統合経済力計算 (重複なし・単一所属)
+		set_variable = { var = unified_economic_power_bonus value = 0 }
+
+		# 陣営に所属している場合
+		if = {
+			limit = { has_variable = bsm_ea_sphere }
+			# 統合経済力計算呼び出し
+			ucs_accumulate_alliance_power = yes
+		}
+
+		# ボーナス適用
+		if = {
+			limit = { check_variable = { unified_economic_power_bonus > 0 } }
+			if = {
+				limit = { NOT = { has_dynamic_modifier = { modifier = ucs_economic_power_bonus_modifier } } }
+				add_dynamic_modifier = { modifier = ucs_economic_power_bonus_modifier }
+			}
+		}
+		else = {
+			if = {
+				limit = { has_dynamic_modifier = { modifier = ucs_economic_power_bonus_modifier } }
+				remove_dynamic_modifier = { modifier = ucs_economic_power_bonus_modifier }
+			}
+		}
+
+
+	}
+}
+#stateを失陥したときの影響
+ucs_on_dairy_effects = {
+	FROM = {
+		set_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_war_factor }
+		# add_to_temp_variable = { uc_StateLoss_effect = modifier@Unified_Currency_daily_effect }#補正
+		add_to_temp_variable = { uc_StateLoss_effect = stability } #安定度
+		add_to_temp_variable = { uc_StateLoss_effect = Cultural_Degree } #文明度
+		add_to_temp_variable = { uc_StateLoss_effect = war_support } #戦争支持
+		multiply_temp_variable = { uc_StateLoss_effect = 0.05 } #補正
+		multiply_temp_variable = { uc_StateLoss_effect = Unified_Currency } #補正
+		subtract_from_variable = { Unified_Currency = uc_StateLoss_effect } #減少
+		set_variable = { uc_land_loss_effect = uc_StateLoss_effect } #ログ用
+		add_to_variable = { Unified_Currency_state_loss = uc_StateLoss_effect } #ログ用
+		log = "[?FROM.FROM.GetName]失陥による通貨減少:[?uc_land_loss_effect]"
+	}
+
+		#( 0+0.2+0.6 +0.1 + 0.4 )  * 0.01 = 0.013
+		#0.13 * 6420 = 83.346
+		#6420 - 83.346 = 6336.654
+		#まぁどうにか払えるでしょ
+
+
+}
+
+combined_unified_currency = {
+	set_variable = { combined_uc_factor = 0 }
+	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_war_factor }
+	add_to_variable = { combined_uc_factor = modifier@Unified_Currency_religion_factor }
+	# log = "合計したUC_Factor:[?combined_uc_factor]"
+	#logがうるさすぎるのでいったん消させてください
+}
+
+# 経済同盟の統合経済力計算
+# 経済同盟の統合経済力計算 (加算用)
+# 経済同盟の統合経済力計算 (加算用)
+# 使用法:
+# set_temp_variable = { temp_alliance_id = 1 } # 1:EU, 2:Allies, 3:GEACPS
+# ucs_accumulate_alliance_power = yes
+ucs_accumulate_alliance_power = {
+	set_temp_variable = { var = temp_power value = 0 }
+
+	# 統一ロジック: 現在の陣営メンバーを取得
+	if = {
+		limit = { has_variable = bsm_ea_sphere }
+
+		set_temp_variable = { t_token = bsm_ea_sphere }
+
+		for_each_loop = {
+			array = global.bsm_ea_member_list_@var:t_token
+			value = v_mem
+			var:v_mem = {
+				add_to_variable = { PREV.temp_power = num_of_factories }
+			}
+		}
+	}
+
+	# ボーナス計算 (例: 50工場につき1% -> 0.01)
+	# temp_power / 5000
+	divide_temp_variable = { var = temp_power value = 5000 }
+	add_to_variable = { unified_economic_power_bonus = temp_power }
+}
+
+# 汎用経済同盟の統合経済力計算 (リーダー用)
+ucs_accumulate_generic_alliance_power = {
+	set_temp_variable = { temp_power = num_of_factories } # 自分の工場
+
+	# メンバーの工場を加算
+	for_each_scope_loop = {
+		array = economic_alliance_members
+		add_to_temp_variable = { PREV.temp_power = num_of_factories }
+	}
+
+	# グローバル変数に保存 (メンバーが参照するため)
+	# global.generic_alliance_power^MY_ID = temp_power
+	set_temp_variable = { my_id = id }
+	set_variable = {
+		var = global.generic_alliance_power
+		index = my_id
+		value = temp_power
+	}
+
+	# ボーナス計算 (例: 5000工場につき1 -> 0.01)
+	divide_temp_variable = { var = temp_power value = 5000 }
+	add_to_variable = { unified_economic_power_bonus = temp_power }
+}

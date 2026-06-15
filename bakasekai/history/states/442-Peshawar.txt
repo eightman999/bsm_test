@@ -3,7 +3,10 @@ state={
 	id=442
 	name="STATE_442"
 	manpower = 4684400
-	
+	resources = {
+
+	}
+
 	state_category = rural
 
 	history={
@@ -16,11 +19,12 @@ state={
 			air_base = 3
 		}
 		add_core_of = NTS
+		set_variable = { jewel_mine = 1 }
 	}
 
 	provinces={
-		1978 4558 4998 12717 12763 
+		1978 4558 4998 12717 12763
 	}
 
-	local_supplies=5.0 
+	local_supplies=5.0
 }

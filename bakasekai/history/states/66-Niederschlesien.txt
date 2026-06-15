@@ -5,7 +5,8 @@ state = {
 	resources = {
 		steel = 50		# was: 110
 		aluminium = 16		# was: 38
-	}
+		coal=75
+}
 	state_category = large_city
 	history = {
 		owner = OZY
@@ -24,6 +25,7 @@ state = {
 			industrial_complex = 1
 			air_base = 6
 		}
+		set_variable = { gold_mine = 1 }
 		add_core_of = OZY
 	}
 	provinces = {

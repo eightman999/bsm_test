@@ -1,12 +1,11 @@
 add_namespace = WES
 
-
 country_event = {
 	id = WES.1
 	title = WES.1.t
 	desc = WES.1.d
 
-	 
+
 	major = no
 	is_triggered_only = yes
 
@@ -45,7 +44,6 @@ country_event = {
 	title = WES.2.t
 	desc = WES.2.d
 
-
 	major = no
 	is_triggered_only = yes
 
@@ -57,9 +55,6 @@ country_event = {
 	}
 
 
-
-	
-	
 	option = {
 		name = WES.2.a	#"さらに結束を強める"
 		ai_chance = {
@@ -85,13 +80,12 @@ country_event = {
 		WES = { country_event = { id = WES.12 } }
 	}
 }
-	
+
 
 country_event = {
 	id = WES.3
 	title = WES.3.t
 	desc = WES.3.d
-
 
 	major = no
 	is_triggered_only = yes
@@ -118,7 +112,7 @@ country_event = {
    		}
 		WES = { country_event = { id = WES.11 } }
 	}
-	
+
 
 	option = {
 		name = WES.3.b	#"断る"
@@ -127,16 +121,15 @@ country_event = {
 		}
 		clr_country_flag = SGC
 		WES = { country_event = { id = WES.12 } }
-	}	
+	}
 
-	
+
 }
 
 country_event = {
 	id = WES.4
 	title = WES.4.t
 	desc = WES.4.d
-
 
 	major = no
 	is_triggered_only = yes
@@ -147,7 +140,6 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-
 
 	option = {
 		name = WES.4.a	#"連合化を受け入れる"
@@ -176,14 +168,13 @@ country_event = {
 		clr_country_flag = SGC
 	}
 
-	
+
 }
 
 country_event = {
 	id = WES.5
 	title = WES.5.t
 	desc = WES.5.d
-
 
 	major = no
 	is_triggered_only = yes
@@ -195,7 +186,7 @@ country_event = {
 		days = 1
 	}
 
-	
+
 	option = {
 		name = WES.5.a	#"投資を受け入れる"
 		ai_chance = {
@@ -214,17 +205,16 @@ country_event = {
 		WES = { country_event = { id = WES.12 } }
 	}
 
-		
-	
-}
 
+
+}
 
 country_event = {
 	id = WES.6
 	title = WES.6.t
 	desc = WES.6.d
 
-	 
+
 
 	major = no
 	is_triggered_only = yes
@@ -236,7 +226,7 @@ country_event = {
 		days = 1
 	}
 
-	
+
 		option = {
 			name = WES.6.a	#"さらに投資を受け入れる"
 			ai_chance = {
@@ -258,8 +248,8 @@ country_event = {
 			WES = { country_event = { id = WES.12 } }
 		}
 
-		
-	
+
+
 }
 
 country_event = {
@@ -267,7 +257,7 @@ country_event = {
 	title = WES.7.t
 	desc = WES.7.d
 
-	 
+
 
 	major = no
 	is_triggered_only = yes
@@ -300,8 +290,8 @@ country_event = {
 			WES = { country_event = { id = WES.12 } }
 		}
 
-		
-	
+
+
 }
 
 country_event = {
@@ -309,7 +299,7 @@ country_event = {
 	title = WES.8.t
 	desc = WES.8.d
 
-	 
+
 
 	major = no
 	is_triggered_only = yes
@@ -321,7 +311,7 @@ country_event = {
 		days = 1
 	}
 
-	
+
 		option = {
 			name = WES.8.a	#"彼らの管理下になる"
 			ai_chance = {
@@ -346,7 +336,7 @@ country_event = {
 			WES = { country_event = { id = WES.12 } }
 		}
 
-		
+
 }
 
 country_event = {
@@ -354,7 +344,7 @@ country_event = {
 	title = WES.9.t
 	desc = WES.9.d
 
-	 
+
 
 	major = no
 	is_triggered_only = yes
@@ -381,7 +371,7 @@ country_event = {
 	title = WES.10.t
 	desc = WES.10.d
 
-	 
+
 
 	major = no
 	is_triggered_only = yes
@@ -407,11 +397,11 @@ country_event = {
 }
 
 country_event = {
-	id = WES.11	#彼らは我々の要求を受け入れた！
+	id = WES.11	#彼らは我々の要求を受け入れた!
 	title = WES.11.t
 	desc = WES.11.d
 
-	 
+
 
 	major = no
 	is_triggered_only = yes
@@ -425,7 +415,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.11.a  #サハラ緑化委員会万歳！
+		name = WES.11.a  #サハラ緑化委員会万歳!
 		ai_chance = {
 			factor = 100
 		}
@@ -440,7 +430,7 @@ country_event = {
 }
 
 country_event = {
-	id = WES.12	#彼らは我々の要求を断った！
+	id = WES.12	#彼らは我々の要求を断った!
 	title = WES.12.t
 	desc = WES.12.d
 
@@ -489,7 +479,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.13.a  #絶対に止めるべきだ！
+		name = WES.13.a  #絶対に止めるべきだ!
 		ai_chance = {
 			factor = 100
 		}
@@ -587,7 +577,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		set_cosmetic_tag = WES_Sayama_Ken
+		set_cosmetic_tag = SAYAMA_prefecture
 		load_focus_tree = {
 		    tree = wes_3
 		    keep_completed = yes
@@ -599,9 +589,6 @@ country_event = {
 		#}
 	}
 }
-
-
-
 country_event = {
 	id = WES.16	#南アフリカとの講和交渉
 	title = WES.16.t#南アフリカの大部分を我々は占領した。これ以上の不毛な争いはやめるべきだ
@@ -666,7 +653,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.16.b  #いや、戦い続けるべきだ！
+		name = WES.16.b  #いや、戦い続けるべきだ!
 		ai_chance = {
 			factor = 0
 		}
@@ -684,7 +671,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		
+
 	}
 
 	mean_time_to_happen = {
@@ -731,7 +718,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.18.a  #やったぞ！
+		name = WES.18.a  #やったぞ!
 		if = {
 			limit = {
 				ZAF = { is_in_faction = yes }
@@ -748,7 +735,7 @@ country_event = {
 				}
 				transfer_state_to = WES
 			}
-			every_country = { 
+			every_country = {
 				limit = {
 					AND = {
 						is_in_faction_with = ZAF
@@ -759,7 +746,7 @@ country_event = {
 				}
 				white_peace = PREV
 			}
-			
+
 		}
 		transfer_state = 275
 		transfer_state = 681
@@ -787,9 +774,8 @@ country_event = {
 
 	option = {
 		name = WES.19.a  #戦いは続く…
-		
-	}
 
+	}
 }
 
 country_event = {
@@ -811,7 +797,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.20.a  #民衆に公開し、裁かせるべきだ！
+		name = WES.20.a  #民衆に公開し、裁かせるべきだ!
 		ai_chance = {
 			factor = 20
 		}
@@ -847,11 +833,7 @@ country_event = {
 		add_ideas = WES_private_use_of_public_funds
 
 	}
-
 }
-
-
-
 
 country_event = {
 	id = WES.21	#旅行期間の決定
@@ -900,7 +882,7 @@ country_event = {
 		hidden_effect = {
 			WES = { country_event = { days = 7 id = WES.23 } }
 		}
-		
+
 	}
 
 	option = {
@@ -915,9 +897,8 @@ country_event = {
 			WES = { country_event = { days = 10 id = WES.23 } }
 			WES = { country_event = { days = 11 id = WES.14 } }
 		}
-		
-	}
 
+	}
 }
 
 country_event = {
@@ -945,7 +926,7 @@ country_event = {
 		}
 		add_political_power = 10
 		add_stability = 0.01
-		
+
 
 		#hidden_effect = {
 		#	news_event = { id = news.193 }
@@ -973,9 +954,8 @@ country_event = {
 
 	option = {
 		name = WES.23.a  #これで満足しただろう
-		
-	}
 
+	}
 }
 
 country_event = {
@@ -997,9 +977,9 @@ country_event = {
 	}
 
 	option = {
-		name = WES.24.a  #フェネックが大統領選に出ている！かわいい！
-		#set_politics = { ruling_party = neutrality_democracy elections_allowed = no }
-		#add_popularity = { ideology = neutrality_democracy popularity = 0.75 }
+		name = WES.24.a  #フェネックが大統領選に出ている!かわいい!
+		#set_politics = { ruling_party = philanthropy elections_allowed = no }
+		#add_popularity = { ideology = philanthropy popularity = 0.75 }
 		#create_country_leader = {
 		#	name = "Fennec"
 		#	picture = "gfx/leaders/WES/fennec_2.dds"
@@ -1016,21 +996,21 @@ country_event = {
 		set_country_flag = WES_fennec_flag
 		promote_character  = WES_fennec
 		set_party_name = {
-			ideology = democratic
+			ideology = democratic_ideology
 			long_name = WES_fennec_party_long
 			name = WES_fennec_party
 		}
-		
-		
+
+
 	}
 
 	option = {
-		name = WES.24.b  #Isaac Ali 氏が当選した！
+		name = WES.24.b  #Isaac Ali 氏が当選した!
 		remove_ideas = WES_the_absentee_presidency
 		set_country_flag = Isaac_Ali
 		promote_character = WES_isaac_ali
 		set_party_name = {
-			ideology = democratic
+			ideology = democratic_ideology
 			long_name = WES_issac_party_long
 			name = WES_issac_party
 		}
@@ -1043,7 +1023,6 @@ country_event = {
 			has_country_flag = WES_anarchy_create_fin #完成後外す
 		}
 	}
-
 }
 
 country_event = {
@@ -1065,7 +1044,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.25.a  #民衆の支持は取り付けた！
+		name = WES.25.a  #民衆の支持は取り付けた!
 		set_politics = { ruling_party = anarchism elections_allowed = no }
 		add_popularity = { ideology = anarchism popularity = 0.75 }
 		load_focus_tree = wes-sahara_anarchy
@@ -1089,9 +1068,8 @@ country_event = {
 			name = WES_anarchy
 		}
 		#promote_character = WES_anarchy
-		
-	}
 
+	}
 }
 
 country_event = {
@@ -1105,7 +1083,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		
+
 	}
 
 	mean_time_to_happen = {
@@ -1113,7 +1091,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.26.a  #やったぞ！！！安定度が回復しているように見える！
+		name = WES.26.a  #やったぞ!!!安定度が回復しているように見える!
 		if = {
 			limit = {
 				WES = { has_idea = WES_stability_minus }
@@ -1234,11 +1212,10 @@ country_event = {
 		}
 		if = {
 			limit = { WES = { has_stability < 0.25 } }
-			WES = { country_event = { id = WES.26}}			
+			WES = { country_event = { id = WES.26}}
 		}
-		
-	}
 
+	}
 }
 
 country_event = {
@@ -1260,17 +1237,15 @@ country_event = {
 	}
 
 	option = {
-		name = WES.27.a  #民衆の支持は取り付けた！
+		name = WES.27.a  #民衆の支持は取り付けた!
 		add_ideas = WES_construction_of_the_transcontinental_railroad_2
 	}
-
 }
 
 country_event = {
 	id = WES.28
 	title = WES.28.t
 	desc = WES.28.d
-
 
 	major = no
 	is_triggered_only = yes
@@ -1298,14 +1273,13 @@ country_event = {
 		}
 		clr_country_flag = SGC
 		WES = { country_event = { id = WES.12 } }
-	}	
+	}
 }
 
 country_event = {
 	id = WES.29
 	title = WES.29.t #ある青年の入隊希望
 	desc = WES.29.d #ムバカ族の首長の息子であるジャン＝ベデル・ボカサが我が軍への入隊を希望している。我々は受け入れるべきなのだろうか…
-
 
 	major = no
 	is_triggered_only = yes
@@ -1334,14 +1308,13 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-	}	
+	}
 }
 
 country_event = {
 	id = WES.30
 	title = WES.30.t #方針の決定
 	desc = WES.30.d #我が国は今後の軍事的方針を定めなければならない。まずは陸軍からだ。
-
 
 	major = no
 	is_triggered_only = yes
@@ -1395,7 +1368,6 @@ country_event = {
 	title = WES.31.t #方針の決定
 	desc = WES.31.d #我が国は今後の軍事的方針を定めなければならない。次に海軍だ。
 
-
 	major = no
 	is_triggered_only = yes
 
@@ -1438,7 +1410,6 @@ country_event = {
 	id = WES.32
 	title = WES.32.t #方針の決定
 	desc = WES.32.d #我が国は今後の軍事的方針を定めなければならない。最後は空軍だ。
-
 
 	major = no
 	is_triggered_only = yes
@@ -1498,7 +1469,7 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			NOT = { 
+			NOT = {
 				has_country_flag = WES_President_fire
 			}
 		}
@@ -1518,14 +1489,14 @@ country_event = {
 			factor = 0
 		}
 		trigger = {
-			NOT = { 
+			NOT = {
 				has_country_flag = WES_President_fire
 			}
 		}
 		set_country_flag = WES_Issac_Ali_flag
 		promote_character = WES_isaac_ali
 		set_party_name = {
-			ideology = democratic
+			ideology = democratic_ideology
 			long_name = WES_issac_party_long
 			name = WES_issac_party
 		}
@@ -1549,7 +1520,7 @@ country_event = {
 		set_country_flag = WES_Issac_Ali_flag
 		promote_character = WES_isaac_ali
 		set_party_name = {
-			ideology = democratic
+			ideology = democratic_ideology
 			long_name = WES_issac_party_long
 			name = WES_issac_party
 		}
@@ -1570,7 +1541,7 @@ country_event = {
 		set_country_flag = WES_Bokkassa_flag
 		promote_character = WES_Bokkassa
 		set_party_name = {
-			ideology = democratic
+			ideology = democratic_ideology
 			long_name = WES_issac_party_long
 			name = WES_issac_party
 		}
@@ -1588,7 +1559,6 @@ country_event = {
 	id = WES.34
 	title = WES.34.t #方針の決定
 	desc = WES.34.d #我が国は今後の軍事的方針を定めなければならない。最後は空軍だ。
-
 
 	major = no
 	is_triggered_only = yes
@@ -1676,7 +1646,6 @@ country_event = {
 	title = WES.35.t #方針の決定
 	desc = WES.35.d #我が国は今後の軍事的方針を定めなければならない。最後は空軍だ。
 
-
 	major = no
 	is_triggered_only = yes
 	hidden = yes
@@ -1705,8 +1674,8 @@ country_event = {
 
 		}
 		ROOT = {country_event = { days = 15 id = WES.35 }}
-		
-		
+
+
 	}
 
 	option = {
@@ -1756,7 +1725,7 @@ country_event = {
 				white_peace = WES
 			}
 		}
-		
+
 	}
 }
 
@@ -1764,7 +1733,6 @@ country_event = {
 	id = WES.36
 	title = WES.36.t #方針の決定
 	desc = WES.36.d #我が国は今後の軍事的方針を定めなければならない。最後は空軍だ。
-
 
 	major = no
 	is_triggered_only = yes
@@ -1798,8 +1766,8 @@ country_event = {
 			}
 			ROOT = {country_event = { days = 30 id = WES.36 }}
 		}
-		
-		
+
+
 	}
 
 	option = {
@@ -1825,7 +1793,7 @@ country_event = {
 			ROOT = {country_event = { days = 2 id = WES.39 }}
 			annex_country = { target = KSM }
 		}
-		
+
 	}
 
 	option = {
@@ -1840,7 +1808,7 @@ country_event = {
 			}
 		}
 		ROOT = {country_event = { days = 30 id = WES.36 }}
-		
+
 	}
 
 	option = {
@@ -1851,7 +1819,7 @@ country_event = {
 		trigger = {
 			NOT = { country_exists = KSM }
 		}
-		
+
 	}
 }
 
@@ -1859,7 +1827,6 @@ country_event = {
 	id = WES.37
 	title = WES.37.t #方針の決定
 	desc = WES.37.d #我が国は今後の軍事的方針を定めなければならない。最後は空軍だ。
-
 
 	major = no
 	is_triggered_only = yes
@@ -1893,9 +1860,9 @@ country_event = {
 			}
 			ROOT = {country_event = { days = 15 id = WES.37 }}
 		}
-		
-		
-		
+
+
+
 	}
 
 	option = {
@@ -1921,7 +1888,7 @@ country_event = {
 			ROOT = {country_event = { days = 2 id = WES.39 }}
 			annex_country = { target = KHM }
 		}
-		
+
 	}
 }
 
@@ -1929,7 +1896,6 @@ country_event = {
 	id = WES.38
 	title = WES.38.t #方針の決定
 	desc = WES.38.d #我が国は今後の軍事的方針を定めなければならない。最後は空軍だ。
-
 
 	major = no
 	is_triggered_only = yes
@@ -1962,8 +1928,8 @@ country_event = {
 			}
 			ROOT = {country_event = { days = 15 id = WES.38 }}
 		}
-		
-		
+
+
 	}
 
 	option = {
@@ -1989,7 +1955,7 @@ country_event = {
 			ROOT = {country_event = { days = 2 id = WES.39 }}
 			annex_country = { target = MAR }
 		}
-		
+
 	}
 }
 
@@ -1997,7 +1963,6 @@ country_event = {
 	id = WES.39
 	title = WES.39.t #交戦国の併合
 	desc = WES.39.d #我が国は敵国を降伏させ、併合した。
-
 
 	major = no
 	is_triggered_only = yes
@@ -2025,8 +1990,8 @@ country_event = {
 		effect_tooltip = {
 			annex_country = { target = MAR }
 		}
-		
-		
+
+
 	}
 
 	option = {
@@ -2041,8 +2006,8 @@ country_event = {
 		effect_tooltip = {
 			annex_country = { target = KSM }
 		}
-		
-		
+
+
 	}
 
 	option = {
@@ -2057,8 +2022,8 @@ country_event = {
 		effect_tooltip = {
 			annex_country = { target = KHM }
 		}
-		
-		
+
+
 	}
 }
 
@@ -2066,7 +2031,6 @@ country_event = {
 	id = WES.40
 	title = WES.40.t #佐山県の要求
 	desc = WES.40.d #佐山県は我が国の東北地方を「佐山県」建設用地として割譲することを要求している。
-
 
 	major = no
 	is_triggered_only = yes
@@ -2086,7 +2050,7 @@ country_event = {
 		}
 		WES = { country_event = { id = WES.41 } }
 		effect_tooltip = {
-			WES = { 
+			WES = {
 				create_wargoal = {
 					type = take_state_focus
 					target = JPN
@@ -2094,8 +2058,8 @@ country_event = {
 				}
 			}
 		}
-		
-		
+
+
 	}
 
 	option = {
@@ -2111,16 +2075,15 @@ country_event = {
 				transfer_state = 533
 			}
 		}
-		
-		
-		
+
+
+
 	}
 }
 country_event = {
 	id = WES.41
 	title = WES.41.t #交渉の失敗
 	desc = WES.41.d #日本は割譲を拒否することで我が国の計画を妨害してきた。力ずくで佐山の地を手に入れるべきだろう。
-
 
 	major = no
 	is_triggered_only = yes
@@ -2142,8 +2105,8 @@ country_event = {
 			target = JPN
             generator = { 533 }
 		}
-		
-		
+
+
 	}
 }
 
@@ -2152,7 +2115,6 @@ country_event = {
 	title = WES.42.t #交渉の成立
 	desc = WES.42.d #日本は割譲を承認した。これで我が国は狭山建設プロジェクトを進めることができる。
 
-
 	major = no
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -2163,15 +2125,15 @@ country_event = {
 	}
 
 	option = {
-		name = WES.42.a	#"やったぞ！"
+		name = WES.42.a	#"やったぞ!"
 		ai_chance = {
 			factor = 100
 		}
 		trigger = {
 		}
 		transfer_state = 533
-		
-		
+
+
 	}
 }
 
@@ -2180,7 +2142,6 @@ country_event = {
 	title = WES.43.t #交渉の成立
 	desc = WES.43.d #日本は割譲を承認した。これで我が国は狭山建設プロジェクトを進めることができる。
 
-
 	major = no
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -2191,7 +2152,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.43.a	#"やったぞ！"
+		name = WES.43.a	#"やったぞ!"
 		ai_chance = {
 			factor = 50
 		}
@@ -2203,12 +2164,12 @@ country_event = {
 				transfer_state = 533
 			}
 		}
-		
-		
+
+
 	}
 
 	option = {
-		name = WES.43.b	#"やったぞ！"
+		name = WES.43.b	#"やったぞ!"
 		ai_chance = {
 			factor = 50
 		}
@@ -2217,8 +2178,8 @@ country_event = {
 		WES = { country_event = { id = WES.45 } }
 		WES = { set_country_flag = WES_JPN_surrender_no }
 
-		
-		
+
+
 	}
 }
 
@@ -2226,7 +2187,6 @@ country_event = {
 	id = WES.44
 	title = WES.44.t #交渉の成立
 	desc = WES.44.d #日本は割譲を承認した。これで我が国は狭山建設プロジェクトを進めることができる。
-
 
 	major = no
 	is_triggered_only = yes
@@ -2238,7 +2198,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.44.a	#"やったぞ！"
+		name = WES.44.a	#"やったぞ!"
 		ai_chance = {
 			factor = 100
 		}
@@ -2250,19 +2210,19 @@ country_event = {
 				transfer_state = 533
 			}
 		}
-		
-		
+
+
 	}
 
 	option = {
-		name = WES.44.b	#"やったぞ！"
+		name = WES.44.b	#"やったぞ!"
 		ai_chance = {
 			factor = 0
 		}
 		trigger = {
 		}
 		WES = { country_event = { id = WES.45 } }
-		
+
 	}
 }
 
@@ -2271,7 +2231,6 @@ country_event = {
 	title = WES.45.t #交渉の失敗
 	desc = WES.45.d #日本は講和を拒否した。我々はまだ戦わなければならないのだろう…
 
-
 	major = no
 	is_triggered_only = yes
 	hidden = no
@@ -2281,14 +2240,14 @@ country_event = {
 	}
 
 	option = {
-		name = WES.45.a	#"やったぞ！"
+		name = WES.45.a	#"やったぞ!"
 		ai_chance = {
 			factor = 100
 		}
 		trigger = {
 		}
-		
-		
+
+
 	}
 }
 
@@ -2297,7 +2256,6 @@ country_event = {
 	title = WES.46.t #交渉の成立
 	desc = WES.46.d #日本は割譲を承認した。これで我が国は狭山建設プロジェクトを進めることができる。
 
-
 	major = no
 	is_triggered_only = yes
 	hidden = no
@@ -2307,7 +2265,7 @@ country_event = {
 	}
 
 	option = {
-		name = WES.46.a	#"やったぞ！"
+		name = WES.46.a	#"やったぞ!"
 		ai_chance = {
 			factor = 100
 		}
@@ -2315,8 +2273,8 @@ country_event = {
 		}
 		transfer_state = 533
 		white_peace = JPN
-		
-		
+
+
 	}
 }
 
@@ -2324,7 +2282,6 @@ country_event = {
 	id = WES.47
 	title = WES.47.t #交渉の成立
 	desc = WES.47.d #日本は割譲を承認した。これで我が国は狭山建設プロジェクトを進めることができる。
-
 
 	major = no
 	is_triggered_only = yes
@@ -2336,12 +2293,13 @@ country_event = {
 	}
 
 	option = {
-		name = WES.47.a	#"やったぞ！"
+		name = WES.47.a	#"やったぞ!"
 		ai_chance = {
 			factor = 100
 		}
 		trigger = {
 		}
+		# recruit_character = WES_Bokkassa
 		WES_Bokkassa = {
 			add_corps_commander_role = {
 				traits = { politically_connected }
@@ -2350,7 +2308,7 @@ country_event = {
     	        defense_skill = 1
 	            planning_skill = 1
             	logistics_skill = 1
-			} 
+			}
 		}
 	}
 }

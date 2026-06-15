@@ -4,13 +4,14 @@ state = {
 	resources = {
 		steel = 40
 		oil = 6
-	}
+		coal=63
+}
 	history = {
 		owner = RUS
 		buildings = {
 			infrastructure = 3			#was: 5
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 		victory_points = {
 			10256

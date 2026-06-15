@@ -3,13 +3,14 @@ state = {
 	name = "STATE_828"
 	resources = {
 		chromium = 8		# was: 18 before split off from Caucasus mountains (233)
+
 	}
 	history = {
 		owner = RUS
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = NOA
 		victory_points = {

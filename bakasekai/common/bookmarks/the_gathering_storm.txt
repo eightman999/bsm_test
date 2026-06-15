@@ -6,10 +6,12 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "BTL"
 		default = yes
+		filters = { label }
 		# Major ===================================================================================
 		"BTL" = {
 			history = "BTL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_major bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -17,7 +19,8 @@ bookmarks = {
 		}
 		"MYS" = {
 			history = "MYS_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_major bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -25,7 +28,8 @@ bookmarks = {
 		}
 		"WES" = {
 			history = "WES_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = neutrality_ideology
+			label = { bsm_bm_major bsm_bm_neutrality }
 			ideas = {
 			}
 			focuses = {
@@ -36,7 +40,8 @@ bookmarks = {
 		}
 		"MAC" = {
 			history = "LVE_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_major bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -44,7 +49,8 @@ bookmarks = {
 		}
 		"CHL" = {
 			history = "CHL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_major bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -52,20 +58,22 @@ bookmarks = {
 		}
 		"JPN" = {
 			history = "JPN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_major bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
-				JPN_ribennoyunming
-				JPN_zhudaolianhe
-				JPN_siguodagaizaojihua
+				JPN_fate_of_japan
+				JPN_island_union
+				JPN_shikoku_redevelopment_plan
 			}
 		}
 		# Minor    ================================================================================
 		"MEX" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -74,7 +82,8 @@ bookmarks = {
 		"TEX" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -83,7 +92,8 @@ bookmarks = {
 		"LVE" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -92,7 +102,8 @@ bookmarks = {
 		"CLF" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -101,7 +112,8 @@ bookmarks = {
 		"HLW" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -110,7 +122,8 @@ bookmarks = {
 		"NYY" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -119,7 +132,8 @@ bookmarks = {
 		"NEV" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {
@@ -128,7 +142,8 @@ bookmarks = {
 		"DIS" = {
 			minor = yes
 			history = "USA_GENERIC_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = democratic_ideology
+			label = { bsm_bm_minor bsm_bm_democratic }
 			ideas = {
 			}
 			focuses = {

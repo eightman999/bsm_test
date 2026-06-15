@@ -6,29 +6,28 @@ state={
 	state_category = tiny_island
 	resources={
 		steel=27 # was: 35
-	}
+		coal=40
+}
 
 	history={
 		owner = JPN
 		add_core_of = JPN
 		buildings = {
 
-
 		}
-		
+
 		victory_points = {
 			9952 1
 		}
 		victory_points = {
 			14579 1
 		}
-		
-
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
 		9952 14579
 	}
 
-	local_supplies=9.0 
+	local_supplies=9.0
 }

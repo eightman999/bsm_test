@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = -1
+			add = 1
 			tag = OZY
 		}
 	}
@@ -355,7 +355,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
@@ -510,15 +510,19 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_tech_bonus = {
+			add_mastery_bonus = {
 				name = sub_op_bonus
-				bonus = 1
-				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
+				bonus = 0.1
+				days = 240
+				grand_doctrine = new_convoy_raiding
+				track = screens
+			}
+			add_mastery_bonus = {
+				name = sub_op_bonus
+				bonus = 0.1
+				days = 240
+				grand_doctrine = new_convoy_raiding
+				track = submarines
 			}
 		}
 	}
@@ -717,7 +721,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available = {
-			has_country_flag = "国内問題に対処"
+			has_country_flag = Addressing_domestic_issues #"国内問題に対処"
 		}
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -966,7 +970,7 @@ focus_tree = {
 			focus = OGa_1_2
 		}
 		prerequisite = {
-			focus = motorization_effort
+			focus = sf_motorization_effort
 		}
 		x = -1
 		y = 1
@@ -993,7 +997,7 @@ focus_tree = {
 			focus = OGa_1_2
 		}
 		prerequisite = {
-			focus = infrastructure_effort
+			focus = sf_infrastructure_effort
 		}
 		x = 0
 		y = 2

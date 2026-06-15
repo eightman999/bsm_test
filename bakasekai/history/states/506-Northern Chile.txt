@@ -3,7 +3,10 @@ state={
 	id=506
 	name="STATE_506" # Antofagasta
 	manpower = 283605
-	
+	resources = {
+
+	}
+
 	state_category = rural
 
 	history={
@@ -16,6 +19,7 @@ state={
 				naval_base = 1
 			}
 		}
+		set_variable = { gold_mine = 1 }
 		add_core_of = CHL
 		victory_points = {
 			12994 1
@@ -27,5 +31,5 @@ state={
 		5131 5171 8217 12994 13902
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

@@ -1,0 +1,146 @@
+# ==========================================
+# BSM 経済陣営 初期化スクリプト
+# on_startup から呼び出される
+# ==========================================
+
+# ------------------------------------------
+# ヘルパー: メンバー追加（初期化専用）
+# 入力: bsm_ea_token (temp), THIS = 加盟国
+# ------------------------------------------
+bsm_ea_init_add_member = {
+	set_temp_variable = { bsm_ea_token = PREV.bsm_ea_sphere }
+	bsm_ea_join_sphere = yes
+}
+
+# ------------------------------------------
+# 初期経済陣営の一括作成
+# ------------------------------------------
+bsm_ea_init_initial_factions = {
+	log = "[BSM EA] *** bsm_ea_init_initial_factions CALLED ***"
+
+	# Guard against double execution
+	if = {
+		limit = { has_global_flag = bsm_ea_initial_factions_created }
+		log = "[BSM EA] Initial factions already created, skipping"
+	}
+	else = {
+		set_global_flag = bsm_ea_initial_factions_created
+		# 初期一括生成中は加盟ニュースを抑制
+		set_global_flag = bsm_ea_news_suppressed
+		log = "[BSM EA] === Creating initial economic alliances ==="
+
+		# --------------------------------------
+		# 1. 欧州連合 (EUR / European Union)
+		# --------------------------------------
+		if = {
+			limit = { EUR = { exists = yes } }
+			EUR = {
+				bsm_ea_generate_new_token = yes
+				bsm_ea_create_sphere = yes
+				add_ideas = bsm_ea_idea_european_union
+
+				if = { limit = { OZY = { exists = yes } }
+					OZY = {
+						bsm_ea_init_add_member = yes
+						add_ideas = bsm_ea_idea_european_union
+					}
+				}
+				if = { limit = { DEU = { exists = yes } }
+					DEU = {
+						bsm_ea_init_add_member = yes
+						add_ideas = bsm_ea_idea_european_union
+					}
+				}
+				if = { limit = { FRA = { exists = yes } }
+					FRA = {
+						bsm_ea_init_add_member = yes
+						add_ideas = bsm_ea_idea_european_union
+					}
+				}
+				if = { limit = { ITA = { exists = yes } }
+					ITA = {
+						bsm_ea_init_add_member = yes
+						add_ideas = bsm_ea_idea_european_union
+					}
+				}
+				if = { limit = { SAN = { exists = yes } }
+					SAN = {
+						bsm_ea_init_add_member = yes
+						add_ideas = bsm_ea_idea_european_union
+					}
+				}
+				log = "[BSM EA] EUR final member count: [?global.bsm_ea_member_list_@var:bsm_ea_sphere^num]"
+			}
+		}
+
+		# --------------------------------------
+		# 2. コモンウェルス (GBR / Commonwealth)
+		# --------------------------------------
+		if = {
+			limit = { GBR = { exists = yes } }
+			GBR = {
+				bsm_ea_generate_new_token = yes
+				bsm_ea_create_sphere = yes
+				add_ideas = bsm_ea_idea_commonwealth
+
+				if = { limit = { CAN = { exists = yes } } CAN = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { AST = { exists = yes } } AST = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { NZL = { exists = yes } } NZL = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { IND = { exists = yes } } IND = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { MAL = { exists = yes } } MAL = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { RAJ = { exists = yes } } RAJ = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { ZAF = { exists = yes } } ZAF = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { BRM = { exists = yes } } BRM = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { LON = { exists = yes } } LON = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { HOL = { exists = yes } } HOL = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { JEY = { exists = yes } } JEY = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { GGY = { exists = yes } } GGY = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { GIB = { exists = yes } } GIB = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+				if = { limit = { HRH = { exists = yes } } HRH = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_commonwealth } }
+
+				log = "[BSM EA] GBR final member count: [?global.bsm_ea_member_list_@var:bsm_ea_sphere^num]"
+			}
+		}
+
+		# --------------------------------------
+		# 3. 東亜連盟 (JPN / East Asia League)
+		# --------------------------------------
+		if = {
+			limit = { JPN = { exists = yes } }
+			JPN = {
+				bsm_ea_generate_new_token = yes
+				bsm_ea_create_sphere = yes
+				add_ideas = bsm_ea_idea_east_asia_league
+
+				if = { limit = { MAN = { exists = yes } } MAN = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_east_asia_league } }
+				if = { limit = { MEN = { exists = yes } } MEN = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_east_asia_league } }
+				if = { limit = { KOR = { exists = yes } } KOR = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_east_asia_league } }
+				if = { limit = { SIA = { exists = yes } } SIA = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_east_asia_league } }
+				if = { limit = { CHI = { exists = yes } } CHI = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_east_asia_league } }
+
+				log = "[BSM EA] JPN final member count: [?global.bsm_ea_member_list_@var:bsm_ea_sphere^num]"
+			}
+		}
+
+		# --------------------------------------
+		# 4. イベリア経済連合 (ESP / Iberian Union)
+		# --------------------------------------
+		if = {
+			limit = { ESP = { exists = yes } }
+			ESP = {
+				bsm_ea_generate_new_token = yes
+				bsm_ea_create_sphere = yes
+				add_ideas = bsm_ea_idea_iberian_union
+
+				if = { limit = { CEU = { exists = yes } } CEU = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_iberian_union } }
+				if = { limit = { PML = { exists = yes } } PML = { bsm_ea_init_add_member = yes add_ideas = bsm_ea_idea_iberian_union } }
+
+				log = "[BSM EA] ESP final member count: [?global.bsm_ea_member_list_@var:bsm_ea_sphere^num]"
+			}
+		}
+
+		# 抑制解除（以降の加盟はニュースを発火する）
+		clr_global_flag = bsm_ea_news_suppressed
+		log = "[BSM EA] === Initial economic alliances created ==="
+	}
+}

@@ -1,0 +1,45 @@
+bsm_fallen_empire_setup = {
+  add_offsite_building = { type = arms_factory level = 50 }
+  add_offsite_building = { type = industrial_complex level = 50 }
+  add_offsite_building = { type = dockyard level = 20 }
+  hidden_effect = {
+    bsm_fallen_empire_unlock_tech = yes
+  }
+}
+
+bsm_fallen_empire_unlock_tech = {
+	# Tech unlock removed as per user request (replaced with research speed bonus)
+}
+
+bsm_fallen_empire_send_gift_resources = {
+    add_opinion_modifier = { target = PREV modifier = bsm_fallen_empire_gift_received }
+    add_offsite_building = { type = industrial_complex level = 2 }
+    country_event = { id = bsm_fallen_empire.10 days = 1 } # Notification event
+}
+
+bsm_fallen_empire_send_gift_equipment = {
+    add_opinion_modifier = { target = PREV modifier = bsm_fallen_empire_gift_received }
+    # FIX(errorlog): support_equipment / motorized_equipment はアーキタイプで
+    # stockpile 追加不可。実在する最小バリアントを指定する。
+    add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1000 }
+    add_equipment_to_stockpile = { type = support_equipment_1 amount = 200 }
+    add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 200 }
+    country_event = { id = bsm_fallen_empire.11 days = 1 } # Notification event
+}
+
+bsm_fallen_empire_send_gift_tech = {
+    add_opinion_modifier = { target = PREV modifier = bsm_fallen_empire_gift_received }
+    add_research_slot = 1
+    add_tech_bonus = {
+        bonus = 1.0
+        uses = 3
+        category = all
+    }
+    country_event = { id = bsm_fallen_empire.12 days = 1 } # Notification event
+}
+
+bsm_fallen_empire_send_gift_data_cache = {
+    add_opinion_modifier = { target = PREV modifier = bsm_fallen_empire_gift_received }
+    add_ideas = bsm_ancestor_databanks
+    country_event = { id = bsm_fallen_empire.13 days = 1 } # Notification event
+}

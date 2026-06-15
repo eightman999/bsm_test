@@ -1,0 +1,25 @@
+state = {
+	id = 855
+	name = "STATE_855"	#Khiva
+	history = {
+		owner = JSH
+		buildings = {
+			infrastructure = 2
+			14468 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = JSH
+	}
+	provinces = {
+		14468
+		15115
+	}
+	manpower = 146520
+	resources = {
+
+	}
+	buildings_max_level_factor = 1
+	state_category = large_city
+	local_supplies = 0
+}

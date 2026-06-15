@@ -22,6 +22,7 @@ state = {
 		}
 		add_core_of = FRA
 		add_core_of = ESP
+		add_core_of = ADU
 	}
 	provinces = {
 		1048
@@ -40,6 +41,9 @@ state = {
 		13231
 	}
 	manpower = 1746650
+	resources = {
+
+	}
 	buildings_max_level_factor = 1
 	state_category = large_town
 	local_supplies = 7

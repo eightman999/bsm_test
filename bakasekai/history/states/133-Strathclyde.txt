@@ -5,7 +5,8 @@ state = {
 	state_category = city
 	resources = {
 		steel = 21		# was: 36
-	}
+		coal=32
+}
 	history = {
 		add_core_of = SCO
 		owner = GBR
@@ -27,6 +28,7 @@ state = {
 				naval_base = 2
 			}
 		}
+		set_variable = { gold_mine = 1 }
 		add_core_of = GBR
 	}
 	provinces = {

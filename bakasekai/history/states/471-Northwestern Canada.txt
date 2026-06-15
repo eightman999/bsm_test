@@ -3,8 +3,11 @@ state={
 	id=471
 	name="STATE_471" # Northwestern Canada
 	manpower = 27681
-	
-	state_category = wasteland
+	resources = {
+
+	}
+
+	state_category = pastoral_town
 
 	history={
 		owner = CAN
@@ -14,6 +17,10 @@ state={
 				naval_base = 1
 			}
 		}
+		set_variable = { gold_mine = 1 }
+		victory_points = {
+			10548 1
+		}
 		add_core_of = CAN
 	}
 
@@ -21,5 +28,5 @@ state={
 		917 1411 1799 1872 4678 10548 12508 12571 5403 13249 7830
 	}
 
-	local_supplies=3.0 
+	local_supplies=3.0
 }

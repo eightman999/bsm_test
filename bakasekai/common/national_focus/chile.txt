@@ -32,8 +32,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CHL_start_discuss
 		}
+
 		mutually_exclusive = {
-			focus = CHL_adopt_larger_country
+			focus = CHL_adopt_to_kyonu
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -42,21 +43,21 @@ focus_tree = {
 			}
 			add_stability = 0.1
 			add_popularity = {
-				ideology = fascism
+				ideology = fascism_ideology
 				popularity = 0.3
 			}
 			add_popularity = {
-				ideology = neutrality
+				ideology = neutrality_ideology
 				popularity = 0.3
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_government = neutrality
+						has_government = neutrality_ideology
 					}
 				}
 				set_politics = {
-					ruling_party = neutrality
+					ruling_party = neutrality_ideology
 				}
 			}
 		}
@@ -74,6 +75,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHL_adopt_longer_country
 		}
+		
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHL_politic_discussing
@@ -931,7 +933,7 @@ focus_tree = {
 	focus = {
 		id = CHL_industrial_company
 		text = CHL_industrial_company
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_build_research_base
 		x = -8
@@ -954,7 +956,7 @@ focus_tree = {
 	focus = {
 		id = CHL_industrial_construction
 		text = CHL_industrial_construction
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_industrial_company
 		x = -1
@@ -980,7 +982,7 @@ focus_tree = {
 	focus = {
 		id = CHL_industrial_production
 		text = CHL_industrial_production
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_industrial_company
 		x = 1
@@ -1006,7 +1008,7 @@ focus_tree = {
 	focus = {
 		id = CHL_construction_invest
 		text = CHL_construction_invest
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_industrial_construction
 		x = 0
@@ -1038,7 +1040,7 @@ focus_tree = {
 	focus = {
 		id = CHL_mining_invest
 		text = CHL_mining_invest
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_industrial_construction
 		x = -2
@@ -1099,7 +1101,7 @@ focus_tree = {
 	focus = {
 		id = CHL_production_invest
 		text = CHL_production_invest
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_industrial_production
 		x = 0
@@ -1127,7 +1129,7 @@ focus_tree = {
 	focus = {
 		id = CHL_war_company
 		text = CHL_war_company
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_build_research_base
 		x = -2
@@ -1150,7 +1152,7 @@ focus_tree = {
 	focus = {
 		id = CHL_superior_power
 		text = CHL_superior_power
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_war_company
 		x = -1
@@ -1188,7 +1190,7 @@ focus_tree = {
 	focus = {
 		id = CHL_superior_mass
 		text = CHL_superior_mass
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_war_company
 		x = 1
@@ -1219,7 +1221,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_armored_power
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_superior_power
 		x = -2
@@ -1256,7 +1258,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_artillery_power
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_superior_power
 		x = 0
@@ -1287,7 +1289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_enemy_is_not_only_infantry
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_artillery_power
 		x = 0
@@ -1321,7 +1323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_high_quality_tank
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_armored_power
 		x = 0
@@ -1351,7 +1353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_produce_cheap_tank
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_armored_power
 		x = -2
@@ -1381,7 +1383,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_true_power
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 20
 		relative_position_id = CHL_high_quality_tank
 		x = 0
@@ -1427,7 +1429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_believe_artillery
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_enemy_is_not_only_infantry
 		x = 0
@@ -1455,7 +1457,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_armor_is_not_only_power
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_high_quality_tank
 		x = -2
@@ -1485,7 +1487,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_mass_recruit
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_superior_mass
 		x = 0
@@ -1510,7 +1512,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_mass_army
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_mass_recruit
 		x = 0
@@ -1535,7 +1537,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_mass_mass_mass
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_mass_army
 		x = 0
@@ -1565,7 +1567,7 @@ focus_tree = {
 	focus = {
 		id = CHL_air_company
 		text = CHL_air_company
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_build_research_base
 		x = 2
@@ -1586,7 +1588,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_air_support_land
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_air_company
 		x = 1
@@ -1613,7 +1615,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_air_strategy_bomb
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_air_company
 		x = -1
@@ -1645,7 +1647,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_coop_with_naval
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_air_support_land
 		x = 0
@@ -1669,7 +1671,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_see_bomb
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_air_strategy_bomb
 		x = 0
@@ -1693,7 +1695,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_air_focus_to_doctrine
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_see_bomb
 		x = 0
@@ -1716,7 +1718,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_air_focus_to_equipment
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_see_bomb
 		x = 2
@@ -1741,7 +1743,7 @@ focus_tree = {
 	focus = {
 		id = CHL_naval_company
 		text = CHL_naval_company
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_build_research_base
 		x = 6
@@ -1764,7 +1766,7 @@ focus_tree = {
 	focus = {
 		id = CHL_naval_doctrine
 		text = CHL_naval_doctrine
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_naval_company
 		x = 0
@@ -1784,7 +1786,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_naval_air
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_naval_doctrine
 		x = -1
@@ -1813,7 +1815,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CHL_naval_equip
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = CHL_naval_doctrine
 		x = 1
@@ -3228,19 +3230,19 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = neutrality
+				ideology = neutrality_ideology
 				popularity = 0.1
 			}
 			if = {
 				limit = {
 					OR = {
-						has_government = fascism
-						has_government = democratic
-						has_government = communism
+						has_government = fascism_ideology
+						has_government = democratic_ideology
+						has_government = communism_ideology
 					}
 				}
 				set_politics = {
-					ruling_party = neutrality
+					ruling_party = neutrality_ideology
 				}
 			}
 			swap_ideas = {
@@ -3270,17 +3272,17 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_popularity = {
-				ideology = fascism
+				ideology = fascism_ideology
 				popularity = 0.2
 			}
 			if = {
 				limit = {
 					NOT = {
-						has_government = fascism
+						has_government = fascism_ideology
 					}
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = fascism_ideology
 				}
 			}
 			swap_ideas = {
@@ -3652,7 +3654,7 @@ focus_tree = {
 						is_coastal = no
 					}
 					add_core_of = MAC
-					transfer_state = MAC
+					transfer_state_to = MAC
 				}
 			}
 		}
@@ -3957,7 +3959,7 @@ focus_tree = {
 	# きょぬー神崇拝ルート
 	focus = {
 		id = CHL_adopt_to_god
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_adopt_to_kyonu
 		x = -1
@@ -3971,7 +3973,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = CHL_politic_discussing
-				add_idea = CHL_take_heathenism
+                               add_idea = CHL_heathenism
 			}
 			CHL = {
 				add_popularity = {
@@ -3994,7 +3996,7 @@ focus_tree = {
 	# 巨乳革命ルート
 	focus = {
 		id = CHL_kyonu_revolution
-		icon = todo
+		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		relative_position_id = CHL_adopt_to_kyonu
 		x = 1

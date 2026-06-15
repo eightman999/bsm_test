@@ -1,0 +1,20 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+	manpower = 1344
+	resources = {
+
+	}
+	state_category = rural
+	history = {
+		owner = JSH
+		add_core_of = JSH
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		14402
+	}
+	local_supplies = 0
+}

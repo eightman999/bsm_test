@@ -14,10 +14,13 @@ state={
 	}
 
 	provinces={
-		8250 10990 14905 14979 14990 15008 
+		8250 10990 14905 14979 14990 15008 14922
 
 	}
 	manpower=176626
+	resources = {
+
+	}
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

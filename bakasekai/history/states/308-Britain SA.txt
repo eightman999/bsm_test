@@ -3,6 +3,9 @@ state={
 	id=308
 	name="STATE_308"
 	manpower=	25678
+	resources = {
+
+	}
 	state_category = tiny_island
 
 	history={
@@ -17,11 +20,12 @@ state={
 				naval_base = 1
 			}
 		}
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
-		4450 7123 
+		4450 7123
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

@@ -2,6 +2,9 @@ state = {
 	id = 590
 	name = "STATE_590"	# Akmolinsk
 	manpower = 980533
+	resources = {
+
+	}
 	state_category = pastoral
 	history = {
 		owner = NTS
@@ -14,6 +17,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
+		set_variable = { gold_mine = 1 }
 	}
 	provinces = {
 		1223

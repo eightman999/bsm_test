@@ -289,7 +289,6 @@ soundeffect = {
 	max_audible = 3
 }
 
-
 #################################################################
 #####################LIGHT CRUISER################################################
 #################################################################
@@ -704,18 +703,37 @@ soundeffect =
 	}
 }
 
-soundeffect =
-{
-	name = "nuke"
-	sounds = {
-		sound = nuke_01
+	soundeffect = {
+		name = "nuke"
+		sounds = {
+			sound = nuke_01
+		}
+		falloff = falloff_nuke
+		is3d = yes
+		max_audible = 2
+		max_audible_behaviour = fail
+		playbackrate_random_offset = { -0.2 0.0 }
 	}
-	falloff = falloff_nuke
-	is3d = yes
-	max_audible = 2
-	max_audible_behaviour = fail
-	playbackrate_random_offset = { -0.2 0.0 }
-}
+ 
+ soundeffect = {
+		name = "sfx_ui_sd_module_turret"
+		sound = "sfx_ui_sd_module_turret_01"
+	}
+ 
+ soundeffect = {
+		name = "sfx_ui_sd_module_sonar"
+		sound = "sfx_ui_sd_module_sonar_01"
+	}
+ 
+ soundeffect = {
+		name = "sfx_ui_sd_module_misc"
+		sound = "sfx_ui_sd_module_misc_01"
+	}
+ 
+ soundeffect = {
+		name = "sfx_ui_sd_module_engine"
+		sound = "sfx_ui_sd_module_engine_01"
+	}
 soundeffect =
 {
 	name = "select_country"
@@ -1194,7 +1212,6 @@ soundeffect = {
 	max_audible_behaviour = fail
 }
 
-
 ### GENERIC ###
 
 soundeffect = {
@@ -1249,9 +1266,6 @@ soundeffect = {
 	loop = yes
 	max_audible_behaviour = fail
 }
-
-
-
 ### DEU ###
 
 soundeffect = {
@@ -2684,7 +2698,6 @@ soundeffect =
 	max_audible = 1
 	max_audible_behaviour = fail
 }
-
 
 #### GEN_TRAIN ###
 soundeffect = {

@@ -1,0 +1,55 @@
+# 経済同盟アクション支援エフェクト
+
+# Effect: Join alliance
+# ROOT = Joiner, event_target:bsm_ea_leader or FROM = Leader
+bsm_join_economic_alliance_effect = {
+	# Determine Leader Scope
+	if = {
+		limit = { has_event_target = bsm_ea_leader }
+		event_target:bsm_ea_leader = {
+			save_global_event_target_as = temp_leader_scope
+		}
+	}
+	else = {
+		FROM = { save_global_event_target_as = temp_leader_scope }
+	}
+
+	# Get Token from leader
+	set_temp_variable = { bsm_ea_token = event_target:temp_leader_scope.bsm_ea_sphere }
+
+	# Join Sphere
+	bsm_ea_join_sphere = yes
+
+	# Flags
+	set_country_flag = is_economic_alliance_member
+
+	# Relations
+	add_opinion_modifier = {
+		target = event_target:temp_leader_scope
+		modifier = bsm_economic_alliance_relation_boost
+	}
+	event_target:temp_leader_scope = {
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = bsm_economic_alliance_relation_boost
+		}
+	}
+}
+
+# Effect: Form Alliance
+# ROOT = Leader, FROM = Joiner
+bsm_form_economic_alliance_effect = {
+	bsm_ea_form_sphere_action = yes
+}
+
+# Effect: Leave alliance
+# ROOT = Leaver
+bsm_leave_specific_leader_alliance_effect = {
+	bsm_ea_leave_sphere_action = yes
+}
+
+# Effect: Kicked from alliance
+# ROOT = Kicked Member
+bsm_kicked_by_root_effect = {
+	bsm_ea_leave_sphere_action = yes
+}

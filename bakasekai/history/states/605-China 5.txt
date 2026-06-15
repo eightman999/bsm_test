@@ -3,7 +3,8 @@ state = {
 	name = "STATE_605"
 	resources = {
 		steel = 14
-	}
+		coal=21
+}
 	history = {
 		owner = CHN
 		add_core_of = CHN
@@ -41,7 +42,7 @@ state = {
 		12705
 		12767
 	}
-	manpower = 52963300
+	manpower = 5296330
 	buildings_max_level_factor = 1
 	state_category = city
 	local_supplies = 0

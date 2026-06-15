@@ -3,7 +3,10 @@ state={
 	id=740
 	name="STATE_740"
 	manpower = 259612
-	
+	resources = {
+
+	}
+
 	state_category = rural
 
 	history={
@@ -12,12 +15,13 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = MEX
+		set_variable = { gold_mine = 1 }
 	}
 
 	provinces={
-		7259 1214 12259 12272 1420 
+		7259 1214 12259 12272 1420
 	}
-	
 
-	local_supplies=0.0 
+
+	local_supplies=0.0
 }

@@ -5,6 +5,7 @@ state = {
 	state_category = rural
 	resources = {
 		aluminium = 6		# was: 10
+
 	}
 	history = {
 		owner = RUS
@@ -16,7 +17,7 @@ state = {
 			7375
 			1
 		}
-		add_core_of = MOS
+		add_core_of = SOV
 		add_core_of = RUS
 	}
 	provinces = {
