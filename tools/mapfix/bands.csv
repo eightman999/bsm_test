@@ -10,18 +10,21 @@
 # the exact figures from your source maps if you have them.
 #
 # Both poles reach the actual pole points (+90 at the very top row, -90 at the
-# very bottom row) -- confirmed by the map author. The seam (~-60/-65) is where
-# the world map and the Antarctica map were joined.
+# very bottom row) -- confirmed by the map author. The seam between the world
+# map and the Antarctica map is at 367-368 px from the BOTTOM (author-stated):
+#   split row from top = 2560 - 367.5 = 2192.5  ->  normalized 0.8562
 #
 # Projection per band (proj column): equirect | mercator.
-#   - The Antarctica band is equirectangular (author-confirmed).
-#   - The WORLD band was authored in Mercator, but it was then squashed
-#     vertically to fit the pixel budget, which cancelled most of Mercator's
-#     high-latitude stretch. Measured land/sea fit against Natural Earth:
-#         equirect 12.72%  vs  pure mercator 13.23%  disagreement.
-#     So equirect aligns slightly BETTER and is the default here. Switch the
-#     world band's proj to "mercator" below if you prefer the source geometry.
+#   - Antarctica band: equirectangular (author-confirmed).
+#   - WORLD band: authored in Mercator (author), then squashed to the pixel
+#     budget AND made to reach the north pole at the top edge. Because pure
+#     Mercator cannot put +90 at a finite edge, forcing the top row to be 90
+#     makes EQUIRECT align best in practice. Measured land/sea disagreement
+#     vs Natural Earth (correct seam):
+#         equirect 12.03%  vs  mercator(latN~78) 12.45%
+#     So equirect is the default. To use the source Mercator geometry instead,
+#     set the world proj to "mercator" (best latN~78, seam~-62).
 #
 # columns: name,y0,y1,lat_top,lat_bot,proj   (y0,y1 normalized 0..1; lat deg)
-world,0.0,0.918,90,-60,equirect
-antarctica,0.918,1.0,-65,-90,equirect
+world,0.0,0.8562,90,-50,equirect
+antarctica,0.8562,1.0,-54,-90,equirect
