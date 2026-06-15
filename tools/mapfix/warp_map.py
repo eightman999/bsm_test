@@ -206,6 +206,69 @@ def warp_array(arr, DY, DX, order):
     return out
 
 
+def _encode_rgb(a):
+    a = a.astype(np.uint32)
+    return (a[..., 0] << 16) | (a[..., 1] << 8) | a[..., 2]
+
+
+def restamp_lost_provinces(out_rgb, src_rgb, DYf, DXf):
+    """Ensure every province colour (= ID) that existed in the source survives
+    the warp. Backward warping can squeeze provinces out of existence, which
+    HOI4 rejects (missing definition.csv IDs). For each lost province we claim a
+    single pixel near its warped location, but ONLY from a victim that still has
+    other pixels -- so the operation never eliminates any other province (it is
+    provably non-destructive: every previously-present ID stays present and each
+    lost ID becomes present). Returns (out_rgb, n_lost, n_fixed)."""
+    s = _encode_rgb(src_rgb)
+    o = _encode_rgb(out_rgb)
+    before = set(np.unique(s).tolist())
+    vals, cnts = np.unique(o, return_counts=True)
+    count = dict(zip(vals.tolist(), cnts.tolist()))
+    lost = [v for v in before if v not in count]
+    if not lost:
+        return out_rgb, 0, 0
+    h, w = s.shape
+
+    def claim(idv, yy, xx):
+        victim = int(o[yy, xx])
+        count[victim] -= 1
+        out_rgb[yy, xx, 0] = (idv >> 16) & 255
+        out_rgb[yy, xx, 1] = (idv >> 8) & 255
+        out_rgb[yy, xx, 2] = idv & 255
+        o[yy, xx] = idv
+        count[idv] = count.get(idv, 0) + 1
+
+    fixed = 0
+    for idv in lost:
+        ys, xs = np.where(s == idv)
+        oy = np.clip(np.round(ys - DYf[ys, xs]).astype(int), 0, h - 1)
+        ox = np.clip(np.round(xs - DXf[ys, xs]).astype(int), 0, w - 1)
+        placed = False
+        for k in range(len(oy)):               # prefer the warped footprint
+            y, x = int(oy[k]), int(ox[k])
+            if count.get(int(o[y, x]), 0) > 1:
+                claim(idv, y, x)
+                placed = True
+                break
+        if not placed:                         # spiral out for a safe victim
+            cy, cx = int(oy[0]), int(ox[0])
+            for r in range(1, 32):
+                for ddy in range(-r, r + 1):
+                    for ddx in range(-r, r + 1):
+                        y = min(max(cy + ddy, 0), h - 1)
+                        x = min(max(cx + ddx, 0), w - 1)
+                        if count.get(int(o[y, x]), 0) > 1:
+                            claim(idv, y, x)
+                            placed = True
+                            break
+                    if placed:
+                        break
+                if placed:
+                    break
+        fixed += placed
+    return out_rgb, len(lost), fixed
+
+
 def colorize_diff(mp, gp):
     h, w = mp.shape
     out = np.zeros((h, w, 3), np.uint8)
@@ -323,14 +386,39 @@ def main():
             im = Image.open(path)
             mode = im.mode
             fw, fh = im.size
-            # scale field to this layer's resolution
-            DYf = zoom(DY, (fh / h, fw / w), order=1) * (fh / h)
-            DXf = zoom(DX, (fw / w,) if False else (fh / h, fw / w), order=1) * (fw / w)
+            # scale the displacement field to this layer's resolution
+            DYf = (zoom(DY, (fh / h, fw / w), order=1) * (fh / h)).astype(np.float32)
+            DXf = (zoom(DX, (fh / h, fw / w), order=1) * (fw / w)).astype(np.float32)
             arr = np.asarray(im)
-            out = warp_array(arr, DYf.astype(np.float32), DXf.astype(np.float32), order)
-            Image.fromarray(out, mode=mode).save(os.path.join(cdir, fname))
-            print(f"    wrote {fname} ({mode} {fw}x{fh})")
+            out = warp_array(arr, DYf, DXf, order)
+
+            note = ""
+            if fname == "provinces.bmp" and arr.ndim == 3:
+                # province IDs are encoded as colours; restamp any squeezed out
+                out = out.copy()
+                out, lost, fixed = restamp_lost_provinces(out, arr, DYf, DXf)
+                kept = len(np.unique(_encode_rgb(out)))
+                src_n = len(np.unique(_encode_rgb(arr)))
+                note = (f"  provinces: {src_n} IDs, {lost} squeezed -> "
+                        f"{fixed} restamped, {kept}/{src_n} present")
+                if kept < src_n:
+                    note += "  (!) still missing -- inspect manually"
+
+            # Save preserving the exact HOI4 BMP format (see map-modding rules):
+            #  - 8-bit indexed (terrain/rivers): KEEP the original colormap.
+            #  - 8-bit greyscale (heightmap): plain L.
+            #  - 24-bit RGB (provinces/world_normal): direct colours = IDs.
+            if mode == "P":
+                outim = Image.fromarray(out.astype(np.uint8), mode="P")
+                outim.putpalette(im.getpalette())
+            else:
+                outim = Image.fromarray(out, mode=mode)
+            outim.save(os.path.join(cdir, fname))
+            print(f"    wrote {fname} ({mode} {fw}x{fh}){note}")
         print("    NOTE: review out/corrected/ before copying over bakasekai/map/")
+        print("    NOTE: provinces.bmp must stay 24-bit uncompressed; terrain/")
+        print("          rivers must keep their colormap; then regenerate")
+        print("          positions (buildings.txt/unitstacks.txt) via the nudger.")
     else:
         print("\n[4/4] preview only (pass --apply to write full-res corrected layers)")
 
