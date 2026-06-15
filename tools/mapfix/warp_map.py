@@ -318,16 +318,85 @@ def fit_poly_field(ys, xs, dy, dx, conf, shape, degree):
     return DY, DX
 
 
+def _fit_poly_rows(ys, xs, dy, dx, conf, w, r0, r1, degree):
+    """Fit a poly to the nodes whose row is in [r0, r1) and evaluate it over
+    exactly those rows. y is normalized WITHIN the band so the fit stays well
+    conditioned even for a thin band (e.g. Antarctica). Returns (r1-r0, w) DY,DX.
+    """
+    rsel = np.where((ys >= r0) & (ys < r1))[0]
+    span = max(r1 - 1 - r0, 1)
+    terms = _poly_terms(degree)
+    YS, XS = np.meshgrid(ys[rsel], xs, indexing="ij")
+    yn = ((YS - r0) / span) * 2 - 1
+    xn = (XS / (w - 1)) * 2 - 1
+    wts = np.clip(conf[rsel], 0, None).ravel()
+    m = wts > 1e-6
+    A = np.stack([(yn ** i * xn ** j).ravel() for (i, j) in terms], axis=1)
+    Aw = A[m] * wts[m, None]
+
+    def solve(vals):
+        bw = vals[rsel].ravel()[m] * wts[m]
+        c, *_ = np.linalg.lstsq(Aw, bw, rcond=None)
+        return c
+
+    cy, cx = solve(dy), solve(dx)
+    yy, xx = np.mgrid[r0:r1, 0:w]
+    ynf = (((yy - r0) / span) * 2 - 1).astype(np.float32)
+    xnf = ((xx / (w - 1)) * 2 - 1).astype(np.float32)
+    DYb = np.zeros((r1 - r0, w), np.float32)
+    DXb = np.zeros((r1 - r0, w), np.float32)
+    for (i, j), c_y, c_x in zip(terms, cy, cx):
+        b = ynf ** i * xnf ** j
+        DYb += (c_y * b).astype(np.float32)
+        DXb += (c_x * b).astype(np.float32)
+    return DYb, DXb
+
+
+def fit_poly_field_banded(ys, xs, dy, dx, conf, shape, bands, degree, ant_degree):
+    """Fit a SEPARATE polynomial per map band (world vs Antarctica) and stack
+    them. The world map (Miller) and the Antarctica map (equirect) are different
+    projections stitched at the seam, so a single global poly averages two
+    unrelated distortions across the seam. Fitting each band on its own corrects
+    each independently. The thin Antarctica band uses a lower degree. Seam rows
+    are lightly blended to avoid a hard step in the displacement."""
+    h, w = shape
+    DY = np.zeros((h, w), np.float32)
+    DX = np.zeros((h, w), np.float32)
+    seams = []
+    for band in bands:
+        name = band[0].lower()
+        r0 = max(0, int(round(band[1] * h)))
+        r1 = min(h, int(round(band[2] * h)))
+        if r1 <= r0:
+            continue
+        nrows = int(((ys >= r0) & (ys < r1)).sum())
+        deg = ant_degree if name == "antarctica" else degree
+        deg = max(1, min(deg, nrows - 1)) if nrows > 1 else 1
+        DY[r0:r1], DX[r0:r1] = _fit_poly_rows(ys, xs, dy, dx, conf, w, r0, r1, deg)
+        if r0 > 0:
+            seams.append(r0)
+    # soften each seam over a few rows so the warp has no hard step there
+    for s in seams:
+        t = 6
+        a, b = max(0, s - t), min(h, s + t)
+        if b - a >= 3:
+            DY[a:b] = gaussian_filter(DY[a:b], (t / 2.0, 0))
+            DX[a:b] = gaussian_filter(DX[a:b], (t / 2.0, 0))
+    return DY, DX
+
+
 def densify(ys, xs, dy, dx, conf, shape, smooth, gcps=None, protect=None,
-            gcp_radius=0.06, model="field", degree=4):
+            gcp_radius=0.06, model="field", degree=4, per_band=True,
+            bands=None, ant_degree=2):
     """Build the displacement field, then apply GCPs and protection.
 
     model='field' (default): confidence-weighted Gaussian smoothing + upsample
       of the dense node displacements. Follows local coastlines closely but can
       introduce visible wobble.
-    model='poly': fit one smooth low-degree polynomial to the node samples
-      (see fit_poly_field). Corrects only the large-scale (aspect-ratio) warp,
-      no wobble.
+    model='poly': fit a smooth low-degree polynomial to the node samples (see
+      fit_poly_field). Corrects only the large-scale (aspect-ratio) warp, no
+      wobble. With per_band=True, fits world and Antarctica bands separately
+      (recommended -- the two are different projections; see fit_poly_field_banded).
 
     GCPs are applied as LOCAL nudges: each control point adds its residual
     (desired - auto displacement) with a Gaussian falloff (radius = gcp_radius
@@ -336,7 +405,10 @@ def densify(ys, xs, dy, dx, conf, shape, smooth, gcps=None, protect=None,
     Protected regions have their displacement feathered back to zero.
     """
     h, w = shape
-    if model == "poly":
+    if model == "poly" and per_band and bands:
+        DY, DX = fit_poly_field_banded(ys, xs, dy, dx, conf, shape, bands,
+                                       degree, ant_degree)
+    elif model == "poly":
         DY, DX = fit_poly_field(ys, xs, dy, dx, conf, shape, degree)
     else:
         cw = np.clip(conf, 0, None)
@@ -529,8 +601,13 @@ def main():
                     help="poly = smooth low-order warp (no wobble, large-scale "
                          "only, default); field = dense block-match field "
                          "(follows coastlines closely but can wobble)")
-    ap.add_argument("--poly-degree", type=int, default=4,
-                    help="polynomial degree for --model poly (3-5 typical)")
+    ap.add_argument("--poly-degree", type=int, default=5,
+                    help="polynomial degree for the world band (--model poly)")
+    ap.add_argument("--per-band", action=argparse.BooleanOptionalAction, default=True,
+                    help="fit world & Antarctica bands separately (default; "
+                         "--no-per-band fits one global poly)")
+    ap.add_argument("--ant-degree", type=int, default=3,
+                    help="polynomial degree for the (thin) Antarctica band")
     ap.add_argument("--gcps", default=os.path.join(HERE, "gcps.csv"),
                     help="CSV of ground control points (steers/overrides warp)")
     ap.add_argument("--protect", default=os.path.join(HERE, "protect.csv"),
@@ -581,9 +658,15 @@ def main():
     ys, xs, dy, dx, conf = estimate_field(src, ref, args.grid, args.win, args.search)
     DY, DX = densify(ys, xs, dy, dx, conf, (h, w), args.smooth,
                      gcps=gcps, protect=protect, gcp_radius=args.gcp_radius,
-                     model=args.model, degree=args.poly_degree)
-    print(f"      field model: {args.model}"
-          + (f" (degree {args.poly_degree})" if args.model == "poly" else ""))
+                     model=args.model, degree=args.poly_degree,
+                     per_band=args.per_band, bands=bands, ant_degree=args.ant_degree)
+    if args.model == "poly":
+        print(f"      field model: poly "
+              + (f"per-band (world deg {args.poly_degree}, antarctica deg "
+                 f"{args.ant_degree})" if args.per_band
+                 else f"global (degree {args.poly_degree})"))
+    else:
+        print("      field model: field")
     mag = np.sqrt(DY ** 2 + DX ** 2)
     print(f"      displacement: mean={mag.mean():.1f}px max={mag.max():.1f}px "
           f"(@ {w}px-wide frame)")
