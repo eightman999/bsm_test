@@ -65,6 +65,7 @@
 | `warp_map.py` | 陸海マスクのブロックマッチングで変位場を推定し、全レイヤーをワープ。**保護領域(`protect.csv`)と制御点(`gcps.csv`)で人手調整可能**。before/after を計測。`--apply` で全解像度の補正レイヤーを `out/corrected/` に出力 |
 | `show_protect.py` | `protect_provinces.csv` の各保護領域を色分け描画（`out/protect_regions_colored.png`）し、プロヴィンス数・重心を表示。IDが正しいランドマスを選べているか確認用 |
 | `show_provinces.py` | warp前(本体)/warp後(`out/corrected/`)のプロヴィンス境界マップを描画（`out/provinces_before.png` / `provinces_after.png`）。陸海湖を種別で着色＋境界線。warpでメッシュが破綻していないか目視判断用 |
+| `restyle_map.py` | `out/corrected/` を後処理する見た目調整（**新ID追加なし**＝definition/戦略地域を壊さない）。①南極バンドを縦圧縮し下端(既定-85°相当)を海に＝南極の存在感を縮小。②極の引き潰れた海を既存海IDのまま Voronoi 再分割しコンパクトなセルに。`--cut-lat` / `--top-zone` で調整。`warp_map.py --apply` の**後**に実行（再applyすると上書きされるので都度かけ直す）|
 | `verify_apply.py` | `--apply` 出力（`out/corrected/`）を検証。**フォーマット・寸法・パレット保持・全ID残存・無効色なし** を PASS/FAIL 判定（FAILならHOI4で読込不可）。**プロヴィンス断片化・極小化**を品質警告として報告し、本体マップとの before/after デルタを表示 |
 | `mapframe.py` | 共通モジュール。`bands.csv` のピースワイズ投影から GIS 参照マスクを生成。`find_land_shapes` で最細GISデータ(10m>50m>110m)を自動選択 |
 | `bands.csv` | マップの縦方向投影モデル（世界バンド＋南極バンド） |
@@ -168,8 +169,10 @@ python3 diagnose_aspect.py --width 1280     # 診断（out/ に overlay.png, dif
 python3 warp_map.py        --work 1024      # 補正の概念実証（out/ に diff_before/after, プレビュー）
 python3 warp_map.py --gcps gcps.csv --protect protect.csv   # 手動調整を反映
 python3 warp_map.py        --apply          # 全解像度の補正レイヤーを out/corrected/ に生成
+python3 restyle_map.py                      # (任意) 南極圧縮＋極の海を再分割（apply直後に）
 python3 verify_apply.py                     # out/corrected/ を検証（PASS/FAIL＋品質警告）
 python3 show_protect.py                     # 保護領域を色分け確認
+python3 show_provinces.py                   # warp前後のプロヴィンス境界を比較
 ```
 
 `--apply` は既定で **despeckle**（`--despeckle 8`）を実行：最近傍ワープで飛び散った **8px以下の孤立片**を周囲プロヴィンスへ統合し断片化を減らす。プロヴィンスの**メイン塊は必ず残す**ので **ID消失ゼロ**（実測：断片化 warp後705→**293**、本体マップ663より少ない。全15320 ID残存）。`--despeckle 0` で無効化。restampした1px救済プロヴィンスは温存される（極小は nudge 整形対象）。
