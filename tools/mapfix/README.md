@@ -92,26 +92,34 @@ PNGマスク（白=保護）でも指定可：`--protect-mask mask.png`
 各行は `name, kind, id...`：
 
 ```csv
-# kind = sr(戦略地域) | state(州) | prov(プロヴィンスID)
-japan, sr, 154, 268, 269, 270, 271, 273
+# kind = sr(戦略地域) | state(州) | prov(プロヴィンスID)   id は範囲 A-B も可
+japan, sr, 154, 266, 267, 268, 269, 270, 271, 273
 shikoku_continent, sr, 246, 247, 248
-australia, state, 517, 518, 519, 521, 522, 674, 870, 871, 872, 879, 880, 881, 882, 883, 884, 885, 886, 887, 889
+shikoku_continent, state, 1009-1087
+canada_isthmus, sr+sea, 258
 ```
 
-- `sr`/`state` は mod 自身の戦略地域/州ファイルの `provinces={}` を読む（ID は localisation の地域名から特定）。
-- 各領域の**陸/湖プロヴィンスだけ**を保護（海プロヴィンスは自動除外）。
+- `sr`/`state` は mod 自身の戦略地域/州ファイルの `provinces={}` を読む（ID は localisation の地域名／州ファイル名から特定）。
+- ID トークンは **範囲 `A-B`（両端含む）** も可（例：四国の `1009-1087`）。**同名の行を複数**書ける（和集合）。
+- 各領域は既定で**陸/湖プロヴィンスだけ**を保護（海は自動除外）。`kind` に **`+sea`**（または `+all`）を付けると**海も含める**＝水路・海峡など水域フィーチャーを固定したい時に使う（例：カナダ大地峡=水路）。
 - これらのプロヴィンスの **provinces.bmp 上の実ピクセル**がマスクになる＝**描かれた形そのまま**を保護（矩形のはみ出し・取りこぼしがない）。
-- 確認用に warp 実行時 `out/protect_mask.png`（白=保護）を出力。
+- 配置確認は `python3 show_protect.py`（色分け＋重心）。warp 実行時に `out/protect_mask.png`（白=保護）も出力。
 
 既定収録（作者「仕様」の意図的デザイン。`protect.csv` の旧矩形 `australia`/`japan_korea_shikoku` は本ファイルが置き換えたためコメントアウト済み）：
 
 | 領域 | 構成 | 内容 |
 |---|---|---|
-| `japan` | 戦略地域 154/268/269/270/271/273 | 日本本土（北海道〜九州・小笠原）170プロヴィンス |
-| `shikoku_continent` | 戦略地域 246/247/248 | 四国大陸（四国が大陸サイズの意図的歪み）87プロヴィンス |
-| `australia` | 州 517〜889（豪州各州） | オーストラリア 141プロヴィンス |
+| `japan` | SR 154/266/267/268/269/270/271/273 | 日本本土（北海道〜九州・中国香港・小笠原）|
+| `okinawa` | STATE 526 | 沖縄 |
+| `korea` | SR 186 | 朝鮮（意図的に巨大）|
+| `shikoku_continent` | SR 246/247/248 ＋ STATE 1009-1087 | 四国大陸（大陸サイズの四国）|
+| `australia` | 豪州各州 ＋ SR 156/193/194/195 | オーストラリア |
+| `hawaii` / `singapore` | STATE 629 / 839 | ハワイ／シンガポール群島 |
+| `arctic` | STATE 844-852 | 北極地方 |
+| `nya_mexico` | STATE 840, 1091-1096 | ニャーメキシコ |
+| `canada_isthmus` | SR 258（`+sea`）| カナダ大地峡（水路。海域も固定）|
 
-他にも仕様の歪みがあれば同様に追記する（地域名→ID は `localisation/.../BSM_strategic_region_*.yml` や `history/states/` のファイル名で特定）。
+他にも仕様の歪みがあれば同様に追記する（地域名→ID は `localisation/.../BSM_strategic_region_*.yml` や `history/states/` のファイル名で特定。`show_protect.py` で即確認）。
 
 ### 制御点 `gcps.csv`（大きなズレを手当て）
 

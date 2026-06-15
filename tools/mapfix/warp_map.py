@@ -203,47 +203,64 @@ def _provinces_in_file(path):
     return [int(x) for x in re.findall(r"\d+", m.group(1))] if m else []
 
 
-def load_protect_provinces(path, w, h):
-    """Build a protection mask from province membership (exact painted shapes).
+def resolve_protect_regions(path):
+    """Parse protect_provinces.csv -> [(name, [enc,...], total_provs), ...].
 
     CSV rows: name, kind, id, id, ...   kind = sr | state | prov
       sr    -> strategic region file(s); use its province list
       state -> state file(s); use its province list
       prov  -> the ids ARE province ids
-    Only land/lake provinces are protected (sea provinces in a region are
-    ignored). The protected provinces' pixels on provinces.bmp become the mask,
-    so intentional baka-distortions (Japan, the Shikoku 'continent', Australia)
-    are preserved at their exact painted extent -- not an eyeballed rectangle.
-    Returns a feathered float mask (h, w) or None.
+    An id token may be a range A-B (inclusive). By default only land/lake
+    provinces are kept (sea ignored); append '+sea' (or '+all') to the kind to
+    keep sea too -- needed to pin a water feature like a channel/strait in place.
+    Shared by load_protect_provinces() and show_protect.py so the two never drift.
     """
-    if not path or not os.path.exists(path):
-        return None
     enc_by_id, type_by_id = province_defs(os.path.join(MAP_DIR, "definition.csv"))
-    protected = set()
-    summary = []
+    regions = []
     with open(path, newline="") as f:
         for row in csv.reader(f):
             row = [c.strip() for c in row if c.strip() != ""]
             if not row or row[0].startswith("#"):
                 continue
-            name, kind, ids = row[0], row[1].lower(), _expand_ids(row[2:])
+            name, kind = row[0], row[1].lower()
+            include_sea = kind.endswith("+sea") or kind.endswith("+all")
+            base = kind.split("+", 1)[0]
+            ids = _expand_ids(row[2:])
             pids = []
-            if kind == "prov":
+            if base == "prov":
                 pids = ids
-            elif kind in ("sr", "state"):
-                d = SR_DIR if kind == "sr" else STATE_DIR
+            elif base in ("sr", "state"):
+                d = SR_DIR if base == "sr" else STATE_DIR
                 for rid in ids:
                     fp = _region_file(d, rid)
                     if fp is None:
-                        print(f"      (!) {name}: {kind} {rid} file not found")
+                        print(f"      (!) {name}: {base} {rid} file not found")
                         continue
                     pids += _provinces_in_file(fp)
             else:
-                print(f"      (!) {name}: unknown kind '{kind}' (sr|state|prov)")
+                print(f"      (!) {name}: unknown kind '{kind}' (sr|state|prov[+sea])")
                 continue
-            land = [p for p in pids if type_by_id.get(p) != "sea" and p in enc_by_id]
-            protected.update(enc_by_id[p] for p in land)
-            summary.append(f"{name}={len(land)}/{len(pids)} land prov")
+            encs = [enc_by_id[p] for p in pids
+                    if (include_sea or type_by_id.get(p) != "sea") and p in enc_by_id]
+            regions.append((name, encs, len(pids)))
+    return regions
+
+
+def load_protect_provinces(path, w, h):
+    """Build a protection mask from province membership (exact painted shapes).
+
+    The protected provinces' pixels on provinces.bmp become the mask, so
+    intentional baka-distortions (Japan, the Shikoku 'continent', Australia, ...)
+    are preserved at their exact painted extent -- not an eyeballed rectangle.
+    Returns a feathered float mask (h, w) or None.
+    """
+    if not path or not os.path.exists(path):
+        return None
+    protected = set()
+    summary = []
+    for name, encs, total in resolve_protect_regions(path):
+        protected.update(encs)
+        summary.append(f"{name}={len(encs)}/{total}")
     if not protected:
         return None
     print("      protect-by-province: " + "; ".join(summary))

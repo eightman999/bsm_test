@@ -36,4 +36,7 @@ australia, sr, 156, 193, 194, 195
 hawaii, state, 629
 singapore, state, 839
 arctic, state, 844-852
-nya_mexico, state, 1091-1096
+nya_mexico, state, 840, 1091-1096
+# Canada great isthmus / channel (カナダ大地峡, SR 258 = file "canada_cannel").
+# This region is all water (lake+sea), so use +sea to pin the channel geometry.
+canada_isthmus, sr+sea, 258
