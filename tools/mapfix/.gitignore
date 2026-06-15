@@ -1,2 +1,3 @@
 # full-resolution corrected layers are huge; regenerate with warp_map.py --apply
 out/corrected/
+__pycache__/

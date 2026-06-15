@@ -1,0 +1,20 @@
+# Ground control points to steer / override the warp.
+#
+# Coordinates are normalized to the map frame: 0,0 = top-left, 1,1 = bottom-right.
+#   src = where the feature currently sits on the PAINTED map (read it off
+#         tools/mapfix/out/overlay.png or the game's nudge tool).
+#   dst = where it SHOULD be (real geography).
+# Convert a real lon/lat to dst with:
+#   dst_x = (lon + 180) / 360
+#   dst_y = (90 - lat) / 180
+#
+# Use these for distortions too large for the automatic block-matcher to catch
+# (e.g. a continent shifted far from its real position).
+#
+# columns: name,src_x,src_y,dst_x,dst_y
+#
+# --- examples (commented out; measure on YOUR map, then enable) -------------
+# Australia centroid ~ lon 134, lat -25  ->  dst_x 0.872, dst_y 0.639
+#australia_centre,0.835,0.655,0.872,0.639
+# New Zealand ~ lon 172, lat -42         ->  dst_x 0.978, dst_y 0.733
+#new_zealand,0.955,0.700,0.978,0.733

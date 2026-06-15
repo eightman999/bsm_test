@@ -1,0 +1,12 @@
+# Regions to leave UNWARPED, to preserve intentional baka-world-map design.
+#
+# The automatic warp assumes every distortion is an error vs. real geography.
+# Where a distortion is INTENTIONAL (a deliberately reshaped island/country),
+# list it here so the warp leaves it untouched. Edges are feathered so there
+# is no seam with the warped surroundings.
+#
+# Rectangles in normalized frame coords (0,0 = top-left, 1,1 = bottom-right).
+# columns: name,x0,y0,x1,y1
+#
+# --- example (commented out) -----------------------------------------------
+#fictional_island,0.40,0.30,0.46,0.36
