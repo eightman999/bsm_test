@@ -357,12 +357,11 @@ def fit_poly_field_banded(ys, xs, dy, dx, conf, shape, bands, degree, ant_degree
     them. The world map (Miller) and the Antarctica map (equirect) are different
     projections stitched at the seam, so a single global poly averages two
     unrelated distortions across the seam. Fitting each band on its own corrects
-    each independently. The thin Antarctica band uses a lower degree. Seam rows
-    are lightly blended to avoid a hard step in the displacement."""
+    each independently. The thin Antarctica band uses a lower degree. Band
+    boundaries are pinned later by _pin_boundaries (DY->0 at the seam/poles)."""
     h, w = shape
     DY = np.zeros((h, w), np.float32)
     DX = np.zeros((h, w), np.float32)
-    seams = []
     for band in bands:
         name = band[0].lower()
         r0 = max(0, int(round(band[1] * h)))
@@ -373,15 +372,32 @@ def fit_poly_field_banded(ys, xs, dy, dx, conf, shape, bands, degree, ant_degree
         deg = ant_degree if name == "antarctica" else degree
         deg = max(1, min(deg, nrows - 1)) if nrows > 1 else 1
         DY[r0:r1], DX[r0:r1] = _fit_poly_rows(ys, xs, dy, dx, conf, w, r0, r1, deg)
-        if r0 > 0:
-            seams.append(r0)
-    # soften each seam over a few rows so the warp has no hard step there
-    for s in seams:
-        t = 6
-        a, b = max(0, s - t), min(h, s + t)
-        if b - a >= 3:
-            DY[a:b] = gaussian_filter(DY[a:b], (t / 2.0, 0))
-            DX[a:b] = gaussian_filter(DX[a:b], (t / 2.0, 0))
+    return DY, DX
+
+
+def _pin_boundaries(DY, DX, shape, bands):
+    """Taper the displacement to zero at the FIXED map boundaries so the warp
+    cannot crush content there:
+      - DY -> 0 at each band's top and bottom rows (the poles and the
+        world/Antarctica seam are fixed; without this the poly pulls edge rows
+        from off-frame and squashes them);
+      - DX -> 0 at the left/right edges (the date line).
+    Tapers over a small margin so the interior correction is untouched."""
+    h, w = shape
+    for band in (bands or []):
+        r0 = max(0, int(round(band[1] * h)))
+        r1 = min(h, int(round(band[2] * h)))
+        bh = r1 - r0
+        if bh < 4:
+            continue
+        mar = max(2, int(bh * 0.12))
+        loc = np.arange(bh)
+        tap = np.clip(np.minimum(loc, bh - 1 - loc) / mar, 0.0, 1.0).astype(np.float32)
+        DY[r0:r1] *= tap[:, None]
+    marx = max(2, int(w * 0.04))
+    xr = np.arange(w)
+    txp = np.clip(np.minimum(xr, w - 1 - xr) / marx, 0.0, 1.0).astype(np.float32)
+    DX *= txp[None, :]
     return DY, DX
 
 
@@ -439,6 +455,7 @@ def densify(ys, xs, dy, dx, conf, shape, smooth, gcps=None, protect=None,
         DY *= keep
         DX *= keep
 
+    DY, DX = _pin_boundaries(DY, DX, (h, w), bands)
     return DY, DX
 
 
@@ -653,6 +670,13 @@ def main():
     if protect is not None:
         Image.fromarray((protect * 255).astype(np.uint8)).save(
             os.path.join(OUT_DIR, "protect_mask.png"))
+    # province colours that are protected -> re-pasted EXACTLY after the warp
+    protected_encs = set()
+    if os.path.exists(args.protect_provinces):
+        for _n, encs, _t in resolve_protect_regions(args.protect_provinces):
+            protected_encs.update(encs)
+    protected_arr = (np.array(sorted(protected_encs), dtype=np.int64)
+                     if protected_encs else None)
 
     print("[2/4] estimating displacement field (block matching)")
     ys, xs, dy, dx, conf = estimate_field(src, ref, args.grid, args.win, args.search)
@@ -720,6 +744,7 @@ def main():
         print("\n[4/4] applying to full-resolution layers -> out/corrected/")
         cdir = os.path.join(OUT_DIR, "corrected")
         os.makedirs(cdir, exist_ok=True)
+        pmask_full = None              # protected pixel mask at provinces res
         for fname, order in LAYERS.items():
             path = os.path.join(MAP_DIR, fname)
             if not os.path.exists(path):
@@ -738,20 +763,32 @@ def main():
             if fname == "provinces.bmp" and arr.ndim == 3:
                 # province IDs are encoded as colours; restamp any squeezed out
                 out = out.copy()
-                out, lost, fixed = restamp_lost_provinces(out, arr, DYf, DXf)
-                kept = len(np.unique(_encode_rgb(out)))
                 src_n = len(np.unique(_encode_rgb(arr)))
-                note = (f"  provinces: {src_n} IDs, {lost} squeezed -> "
-                        f"{fixed} restamped, {kept}/{src_n} present")
+                out, lost, fixed = restamp_lost_provinces(out, arr, DYf, DXf)
+                note = f"  provinces: {src_n} IDs, {lost} squeezed -> {fixed} restamped"
                 if args.despeckle > 0:
                     out, nmerged, npx = despeckle_provinces(out, args.despeckle)
-                    after_n = len(np.unique(_encode_rgb(out)))
-                    note += (f"; despeckle merged {nmerged} stray fragments "
-                             f"({npx}px), {after_n}/{src_n} present")
-                    if after_n < kept:
-                        note += "  (!) despeckle dropped an ID -- inspect"
-                elif kept < src_n:
-                    note += "  (!) still missing -- inspect manually"
+                    note += f"; despeckle {nmerged} frags ({npx}px)"
+                # isolate & re-paste protected regions EXACTLY (no feather distortion)
+                if protected_arr is not None:
+                    pmask_full = np.isin(_encode_rgb(arr).astype(np.int64), protected_arr)
+                    out[pmask_full] = arr[pmask_full]
+                    # the exact re-paste could overwrite a province the warp had
+                    # nudged into this area; restamp once more to be safe
+                    out, lost2, fixed2 = restamp_lost_provinces(out, arr, DYf, DXf)
+                    note += f"; re-pasted {int(pmask_full.sum())}px protected"
+                kept = len(np.unique(_encode_rgb(out)))
+                note += f"; {kept}/{src_n} present"
+                if kept < src_n:
+                    note += "  (!) missing -- inspect manually"
+            elif protected_arr is not None and pmask_full is not None:
+                # re-paste protected pixels on the other layers too (same region)
+                if pmask_full.shape == (fh, fw):
+                    pm = pmask_full
+                else:
+                    pm = np.asarray(Image.fromarray(pmask_full.astype(np.uint8) * 255)
+                                    .resize((fw, fh), Image.NEAREST)) > 127
+                out[pm] = arr[pm]
 
             # Save preserving the exact HOI4 BMP format (see map-modding rules):
             #  - 8-bit indexed (terrain/rivers): KEEP the original colormap.
