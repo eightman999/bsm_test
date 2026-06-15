@@ -13,6 +13,15 @@
 # very bottom row) -- confirmed by the map author. The seam (~-60/-65) is where
 # the world map and the Antarctica map were joined.
 #
-# columns: name,y0,y1,lat_top,lat_bot      (y0,y1 normalized 0..1; lat in deg)
-world,0.0,0.918,90,-60
-antarctica,0.918,1.0,-65,-90
+# Projection per band (proj column): equirect | mercator.
+#   - The Antarctica band is equirectangular (author-confirmed).
+#   - The WORLD band was authored in Mercator, but it was then squashed
+#     vertically to fit the pixel budget, which cancelled most of Mercator's
+#     high-latitude stretch. Measured land/sea fit against Natural Earth:
+#         equirect 12.72%  vs  pure mercator 13.23%  disagreement.
+#     So equirect aligns slightly BETTER and is the default here. Switch the
+#     world band's proj to "mercator" below if you prefer the source geometry.
+#
+# columns: name,y0,y1,lat_top,lat_bot,proj   (y0,y1 normalized 0..1; lat deg)
+world,0.0,0.918,90,-60,equirect
+antarctica,0.918,1.0,-65,-90,equirect
