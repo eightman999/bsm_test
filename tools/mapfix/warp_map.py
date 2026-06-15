@@ -39,10 +39,7 @@ from PIL import Image
 from scipy.ndimage import gaussian_filter, map_coordinates, zoom
 from scipy.signal import fftconvolve
 
-try:
-    import shapefile  # pyshp
-except ImportError:
-    raise SystemExit("pyshp required: pip install pyshp")
+from mapframe import gis_land_mask, load_bands
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -62,24 +59,9 @@ LAYERS = {
 }
 
 
-def lonlat_to_px(lon, lat, w, h):
-    return (lon + 180.0) / 360.0 * w, (90.0 - lat) / 180.0 * h
-
-
-def gis_land_mask(w, h):
-    from PIL import ImageDraw
-    img = Image.new("L", (w, h), 0)
-    draw = ImageDraw.Draw(img)
-    sf = shapefile.Reader(os.path.join(GIS_DIR, "ne_110m_land.shp"))
-    for shape in sf.shapes():
-        pts = shape.points
-        parts = list(shape.parts) + [len(pts)]
-        for i in range(len(parts) - 1):
-            ring = pts[parts[i]:parts[i + 1]]
-            poly = [lonlat_to_px(lon, lat, w, h) for lon, lat in ring]
-            if len(poly) >= 3:
-                draw.polygon(poly, fill=255)
-    return np.asarray(img, dtype=np.float32) / 255.0
+def gis_mask(w, h, bands):
+    shp = os.path.join(GIS_DIR, "ne_110m_land.shp")
+    return np.asarray(gis_land_mask(shp, w, h, bands), dtype=np.float32) / 255.0
 
 
 def map_land_mask(w, h, sealevel):
@@ -260,8 +242,10 @@ def main():
     h = w // 2
     os.makedirs(OUT_DIR, exist_ok=True)
 
+    bands = load_bands()
     print(f"[1/4] masks @ {w}x{h}")
-    ref = gis_land_mask(w, h)            # target (real geography)
+    print("      bands:", ", ".join(f"{b[0]}[{b[3]:g}..{b[4]:g}]" for b in bands))
+    ref = gis_mask(w, h, bands)               # target (real geography, band frame)
     src = map_land_mask(w, h, args.sealevel)  # current map
 
     before = colorize_diff(src, ref)

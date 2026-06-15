@@ -1,0 +1,14 @@
+# Piecewise vertical projection model of the map.
+#
+# The map is a world map + a separate Antarctica map merged vertically, then
+# squashed to the engine's pixel budget -> different vertical scales per band
+# ("two aspect ratios"). Each band maps a normalized row range to a latitude
+# range; longitude is equirectangular across the full width.
+#
+# Values below were detected automatically (land-fraction correlation vs
+# Natural Earth: world band corr 0.94, antarctica band corr 0.97). Adjust to
+# the exact figures from your source maps if you have them.
+#
+# columns: name,y0,y1,lat_top,lat_bot      (y0,y1 normalized 0..1; lat in deg)
+world,0.0,0.918,90,-60
+antarctica,0.918,1.0,-65,-90

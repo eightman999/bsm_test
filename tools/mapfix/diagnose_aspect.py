@@ -23,40 +23,13 @@ import os
 
 from PIL import Image, ImageFilter
 
-try:
-    import shapefile  # pyshp
-except ImportError:
-    raise SystemExit("pyshp required: pip install pyshp")
+from mapframe import gis_land_mask, load_bands
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 MAP_DIR = os.path.join(REPO, "bakasekai", "map")
 GIS_DIR = os.environ.get("GIS_DIR", "/tmp/gis")
 OUT_DIR = os.path.join(HERE, "out")
-
-
-def lonlat_to_px(lon, lat, w, h):
-    x = (lon + 180.0) / 360.0 * w
-    y = (90.0 - lat) / 180.0 * h
-    return x, y
-
-
-def render_gis_land(shp_path, w, h):
-    """Rasterize Natural Earth land polygons into an equirectangular mask."""
-    from PIL import ImageDraw
-
-    img = Image.new("L", (w, h), 0)
-    draw = ImageDraw.Draw(img)
-    sf = shapefile.Reader(shp_path)
-    for shape in sf.shapes():
-        pts = shape.points
-        parts = list(shape.parts) + [len(pts)]
-        for i in range(len(parts) - 1):
-            ring = pts[parts[i]:parts[i + 1]]
-            poly = [lonlat_to_px(lon, lat, w, h) for lon, lat in ring]
-            if len(poly) >= 3:
-                draw.polygon(poly, fill=255)
-    return img
 
 
 def main():
@@ -71,9 +44,11 @@ def main():
     h = w // 2
     os.makedirs(OUT_DIR, exist_ok=True)
 
-    # 1) Real geography mask
+    # 1) Real geography mask in the map's piecewise-band frame
     shp = os.path.join(GIS_DIR, "ne_110m_land.shp")
-    gis = render_gis_land(shp, w, h)
+    bands = load_bands()
+    print("bands:", ", ".join(f"{b[0]}[{b[3]:g}..{b[4]:g}]" for b in bands))
+    gis = gis_land_mask(shp, w, h, bands)
     gis.save(os.path.join(OUT_DIR, "gis_land_mask.png"))
 
     # 2) Current map land mask from heightmap
